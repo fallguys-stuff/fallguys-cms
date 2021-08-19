@@ -1,0 +1,53 @@
+[
+  {
+    "player_name_filter": {
+      "allow_unicode_ranges": [
+        {
+          "description": "Basic Latin - C0 Controls",
+          "from": "0000",
+          "to": "001F",
+          "enabled": false
+        },
+        {
+          "description": "Basic Latin",
+          "from": "0020",
+          "to": "007F",
+          "enabled": true
+        },
+        {
+          "enabled": false,
+          "description": "C1 Controls",
+          "from": "0080",
+          "to": "009F"
+        },
+        {
+          "enabled": true,
+          "description": "Latin-1 Supplement",
+          "from": "00A0",
+          "to": "00FF"
+        },
+        {
+          "enabled": true,
+          "description": "Latin Extended-A and Latin Extended-B",
+          "from": "0100",
+          "to": "024F"
+        },
+        {
+          "enabled": true,
+          "description": "Katakana",
+          "from": "30A0",
+          "to": "30FF"
+        },
+        {
+          "enabled": true,
+          "description": "Cyrillic and Cyrillic Supplement",
+          "from": "0400",
+          "to": "052F"
+        }
+      ],
+      "enabled": true,
+      "replacement": null
+    },
+    "id": "singleton"
+  }
+]

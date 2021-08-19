@@ -1,0 +1,135 @@
+[
+  {
+    "is_enabled": false,
+    "notification_type": "basic",
+    "notification_title": "localised_strings.show_name_debug_lobbies",
+    "notification_body": "localised_strings.show_desc_debug_lobbies",
+    "schedule": {
+      "schedule_type": "dynamic",
+      "elapsed_time": [
+        {
+          "days": 0,
+          "hours": 0,
+          "minutes": 1
+        }
+      ]
+    },
+    "priority": 0,
+    "priority_override": false,
+    "id": "debug_notification"
+  },
+  {
+    "is_enabled": true,
+    "notification_type": "show_started",
+    "notification_title": "localised_strings.notification_title_show_started",
+    "notification_body": "localised_strings.notification_body_show_started",
+    "schedule": {
+      "schedule_type": "custom"
+    },
+    "priority": 0,
+    "priority_override": false,
+    "id": "new_show_started"
+  },
+  {
+    "is_enabled": true,
+    "notification_type": "basic",
+    "notification_title": "localised_strings.notification_title_new_store",
+    "notification_body": "localised_strings.notification_body_new_store",
+    "schedule": {
+      "schedule_type": "scheduled",
+      "target_time": {
+        "hour": 8,
+        "minute": 33
+      },
+      "elapsed_time": [
+        {
+          "days": 2,
+          "hours": 0,
+          "minutes": 0
+        },
+        {
+          "days": 4,
+          "hours": 0,
+          "minutes": 0
+        },
+        {
+          "days": 6,
+          "hours": 0,
+          "minutes": 0
+        }
+      ]
+    },
+    "priority": 0,
+    "priority_override": false,
+    "id": "new_store_items"
+  },
+  {
+    "is_enabled": true,
+    "notification_type": "basic",
+    "notification_title": "localised_strings.notification_title_season_reward",
+    "notification_body": "localised_strings.notification_body_season_reward",
+    "schedule": {
+      "schedule_type": "scheduled",
+      "target_time": {
+        "hour": 18,
+        "minute": 0
+      },
+      "elapsed_time": [
+        {
+          "days": 0,
+          "hours": 0,
+          "minutes": 0
+        },
+        {
+          "days": 2,
+          "hours": 0,
+          "minutes": 0
+        },
+        {
+          "days": 6,
+          "hours": 0,
+          "minutes": 0
+        }
+      ]
+    },
+    "priority": 0,
+    "priority_override": false,
+    "id": "next_season_reward"
+  },
+  {
+    "is_enabled": true,
+    "notification_type": "season_ending",
+    "notification_title": "localised_strings.notification_title_season_ending",
+    "notification_body": "localised_strings.notification_body_season_ending",
+    "schedule": {
+      "schedule_type": "custom"
+    },
+    "priority": 0,
+    "priority_override": false,
+    "id": "season_ending"
+  },
+  {
+    "is_enabled": true,
+    "notification_type": "season_started",
+    "notification_title": "localised_strings.notification_title_season_started",
+    "notification_body": "localised_strings.notification_body_season_started",
+    "schedule": {
+      "schedule_type": "custom"
+    },
+    "priority": 0,
+    "priority_override": false,
+    "id": "season_started"
+  },
+  {
+    "is_enabled": true,
+    "notification_type": "show_ending",
+    "notification_title": "localised_strings.notification_title_show_ending",
+    "notification_body": "localised_strings.notification_body_show_ending",
+    "schedule": {
+      "schedule_type": "custom"
+    },
+    "priority": 0,
+    "priority_override": false,
+    "id": "show_ending"
+  }
+]

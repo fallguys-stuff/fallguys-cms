@@ -1,0 +1,431 @@
+[
+  {
+    "description": "A bronze or higher medal is awarded.",
+    "dimensions": [
+      {
+        "type": "round_index"
+      },
+      {
+        "type": "level_archetype"
+      }
+    ],
+    "id": "badge_awarded_bronze"
+  },
+  {
+    "description": "A gold or higher medal is awarded.",
+    "dimensions": [
+      {
+        "type": "round_index"
+      },
+      {
+        "type": "level_archetype"
+      }
+    ],
+    "id": "badge_awarded_gold"
+  },
+  {
+    "description": "A silver or higher medal is awarded.",
+    "dimensions": [
+      {
+        "type": "round_index"
+      },
+      {
+        "type": "level_archetype"
+      }
+    ],
+    "id": "badge_awarded_silver"
+  },
+  {
+    "description": "The badges (medals) won by a player.",
+    "dimensions": [
+      {
+        "type": "custom",
+        "name": "rarity"
+      }
+    ],
+    "id": "badge_won"
+  },
+  {
+    "description": "Metric for tracking when a player is the last person to qualify in a race.",
+    "dimensions": [],
+    "id": "close_call"
+  },
+  {
+    "description": "Number of times a player lost an episode",
+    "dimensions": [],
+    "id": "episode_lost"
+  },
+  {
+    "description": "Episode win streak",
+    "dimensions": [],
+    "id": "episode_win_streak"
+  },
+  {
+    "description": "Number of times a player won an episode",
+    "dimensions": [
+      {
+        "type": "party_size"
+      }
+    ],
+    "id": "episode_won"
+  },
+  {
+    "description": "Reach fame tier",
+    "dimensions": [
+      {
+        "type": "fame_tier"
+      }
+    ],
+    "id": "fame_tier_reached"
+  },
+  {
+    "description": "Goals Scored",
+    "dimensions": [],
+    "id": "goals_scored"
+  },
+  {
+    "description": "The Player scored this many hoops",
+    "dimensions": [],
+    "id": "hoops_scored"
+  },
+  {
+    "description": "Player got an item",
+    "dimensions": [
+      {
+        "type": "item_id"
+      },
+      {
+        "type": "episode"
+      }
+    ],
+    "id": "item_earned"
+  },
+  {
+    "description": "Player equiped an item",
+    "dimensions": [],
+    "id": "item_equipped"
+  },
+  {
+    "description": "Player has item in possession",
+    "dimensions": [
+      {
+        "type": "level_id"
+      },
+      {
+        "type": "level_archetype"
+      }
+    ],
+    "id": "item_possession"
+  },
+  {
+    "description": "Level score earned",
+    "dimensions": [
+      {
+        "type": "level_archetype"
+      },
+      {
+        "type": "level_id"
+      },
+      {
+        "type": "round_qualified"
+      }
+    ],
+    "id": "level_score_earned"
+  },
+  {
+    "description": "The Player has won this many Gold Medals by finishing at the first place",
+    "dimensions": [
+      {
+        "type": "custom",
+        "name": "rarity"
+      }
+    ],
+    "id": "medal_rarity"
+  },
+  {
+    "description": "Medals Won",
+    "dimensions": [
+      {
+        "type": "custom",
+        "name": "rarity"
+      }
+    ],
+    "id": "medals_won"
+  },
+  {
+    "description": "Miles Dived",
+    "dimensions": [],
+    "id": "miles_dived"
+  },
+  {
+    "description": "Miles Fallen",
+    "dimensions": [],
+    "id": "miles_fallen"
+  },
+  {
+    "description": "Miles Run",
+    "dimensions": [],
+    "id": "miles_run"
+  },
+  {
+    "description": "Player air time",
+    "dimensions": [],
+    "id": "player_air_time"
+  },
+  {
+    "description": "Player bumped other player",
+    "dimensions": [],
+    "id": "player_bumped"
+  },
+  {
+    "description": "Bump into 3 people while rolling on the ground before getting up",
+    "dimensions": [],
+    "id": "player_bumped_three_before_getting_up"
+  },
+  {
+    "description": "Seconds the player is carrying an object (i.e. eggs, ball, penguin)",
+    "dimensions": [
+      {
+        "type": "level_archetype"
+      }
+    ],
+    "id": "player_carried"
+  },
+  {
+    "description": "Times player has dived",
+    "dimensions": [
+      {
+        "type": "level_archetype"
+      }
+    ],
+    "id": "player_dived"
+  },
+  {
+    "description": "Times player performed an emote",
+    "dimensions": [],
+    "id": "player_emoted"
+  },
+  {
+    "description": "Number of times a player fell",
+    "dimensions": [
+      {
+        "type": "level_archetype"
+      },
+      {
+        "type": "round_qualified"
+      }
+    ],
+    "id": "player_fell"
+  },
+  {
+    "description": "Player grabbed other player (client metric)",
+    "dimensions": [],
+    "id": "player_grabbed"
+  },
+  {
+    "description": "Received from the game-server when the player has hugged another at least once during a round.",
+    "dimensions": [],
+    "id": "player_hugged"
+  },
+  {
+    "description": "The number of players jinxed by this Player",
+    "dimensions": [],
+    "id": "player_jinxes"
+  },
+  {
+    "description": "Received from the game-server when the player has jumped at least once during a round.",
+    "dimensions": [],
+    "id": "player_jumped"
+  },
+  {
+    "description": "Knock someone over",
+    "dimensions": [],
+    "id": "player_knocked"
+  },
+  {
+    "description": "Reach terminal velocity ",
+    "dimensions": [],
+    "id": "player_reach_terminal_velocity"
+  },
+  {
+    "description": "Number of times a player finished in a position",
+    "dimensions": [
+      {
+        "type": "level_archetype"
+      },
+      {
+        "type": "level_id"
+      },
+      {
+        "type": "position_placed"
+      }
+    ],
+    "id": "position_placed"
+  },
+  {
+    "description": "Qualify from a racing round despite falling over more than 10 times",
+    "dimensions": [],
+    "id": "race_qualified_player_fell_minimum_10_times"
+  },
+  {
+    "description": "Round Qualified",
+    "dimensions": [
+      {
+        "type": "level_id"
+      },
+      {
+        "type": "round_index"
+      },
+      {
+        "type": "overtime"
+      }
+    ],
+    "id": "round_qualified"
+  },
+  {
+    "description": "Round Qualified in Show",
+    "dimensions": [
+      {
+        "type": "show_id"
+      }
+    ],
+    "id": "round_qualified_in_show"
+  },
+  {
+    "description": "Round Qualified for the Level Archetype",
+    "dimensions": [
+      {
+        "type": "level_archetype"
+      }
+    ],
+    "id": "round_qualified_level_archetype"
+  },
+  {
+    "description": "Qualify after a round goes to overtime",
+    "dimensions": [],
+    "id": "round_qualified_overtime"
+  },
+  {
+    "description": "Perform an emote just before coming first in a race round",
+    "dimensions": [],
+    "id": "round_race_qualify_first_place_after_emote"
+  },
+  {
+    "description": "Round reached while in a party of 2 or more players.",
+    "dimensions": [
+      {
+        "type": "round_index"
+      },
+      {
+        "type": "is_final_round"
+      }
+    ],
+    "id": "round_reached"
+  },
+  {
+    "description": "Round reached while in a party of 2 or more players.",
+    "dimensions": [
+      {
+        "type": "round_index"
+      },
+      {
+        "type": "is_final_round"
+      }
+    ],
+    "id": "round_reached_in_party"
+  },
+  {
+    "description": "Qualify from a team game with a score of 1",
+    "dimensions": [],
+    "id": "round_team_qualified_score_1"
+  },
+  {
+    "description": "Tracks when a show is won.",
+    "dimensions": [
+      {
+        "type": "show_id"
+      }
+    ],
+    "id": "show_won"
+  },
+  {
+    "description": "Show Won with Common Costume Piece equipped.",
+    "dimensions": [
+      {
+        "type": "show_id"
+      }
+    ],
+    "id": "show_won_common"
+  },
+  {
+    "description": "Show won with Epic costume piece equipped.",
+    "dimensions": [
+      {
+        "type": "show_id"
+      }
+    ],
+    "id": "show_won_epic"
+  },
+  {
+    "description": "Show won with Legendary costume piece equipped.",
+    "dimensions": [
+      {
+        "type": "show_id"
+      }
+    ],
+    "id": "show_won_legendary"
+  },
+  {
+    "description": "Show won with Rare costume piece equipped.",
+    "dimensions": [
+      {
+        "type": "show_id"
+      }
+    ],
+    "id": "show_won_rare"
+  },
+  {
+    "description": "Show won with Uncommon Costume Piece equipped.",
+    "dimensions": [
+      {
+        "type": "show_id"
+      }
+    ],
+    "id": "show_won_uncommon"
+  },
+  {
+    "description": "Number of bundles the player purchased from store",
+    "dimensions": [],
+    "id": "store_bundle_purchased"
+  },
+  {
+    "description": "Minutes the player spent on the ground or in 'ragdoll' state",
+    "dimensions": [],
+    "id": "stumbling_time"
+  },
+  {
+    "description": "The Player stole this many tails",
+    "dimensions": [],
+    "id": "tails_stolen"
+  },
+  {
+    "description": "test_metric",
+    "dimensions": [],
+    "id": "test_metric"
+  },
+  {
+    "description": "Fall for at least 3 seconds before landing on your head",
+    "dimensions": [],
+    "id": "three_seconds_air_time_head_fall"
+  },
+  {
+    "description": "Win an Episode with a custom Celebration equipped",
+    "dimensions": [],
+    "id": "win_episode_with_custom_punchline"
+  },
+  {
+    "description": "The Player has run into this many false doors",
+    "dimensions": [],
+    "id": "wrong_doors"
+  }
+]

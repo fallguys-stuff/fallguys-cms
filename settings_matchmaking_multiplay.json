@@ -1,0 +1,77 @@
+[
+  {
+    "environment_mappings": {
+      "clientdev": 1,
+      "internalqa": 2,
+      "externalqa": 3,
+      "closedbeta": 4,
+      "china": 5,
+      "local": 6,
+      "testci": 6,
+      "compatqa": 7,
+      "loadtest": 8,
+      "openbeta": 9,
+      "mobile": 10,
+      "staging": 11,
+      "prod": 12,
+      "prod3": 12,
+      "unstable": 13,
+      "isbn": 14,
+      "mobileqa": 15,
+      "complianceqa": 16
+    },
+    "platform_mappings": {
+      "any": 0,
+      "ps4": 1,
+      "win": 2,
+      "mac": 2,
+      "linux": 2,
+      "ios": 3,
+      "android": 3,
+      "ps4-sp-int": 4,
+      "ps4-prod-qa": 5,
+      "unknown_platform": 6
+    },
+    "region_fallbacks": {
+      "fallback_timeout_seconds": 25,
+      "fallback_regions": {
+        "7173bfa3-a93f-11e9-939b-0d325f6ecb6b": [
+          "458fedc6-2ecf-11ea-ab5a-0242ac110002",
+          "5cd174b4-2ecf-11ea-8425-0242ac110002"
+        ],
+        "5cd174b4-2ecf-11ea-8425-0242ac110002": [
+          "458fedc6-2ecf-11ea-ab5a-0242ac110002",
+          "7173bfa3-a93f-11e9-939b-0d325f6ecb6b"
+        ],
+        "458fedc6-2ecf-11ea-ab5a-0242ac110002": [
+          "7173bfa3-a93f-11e9-939b-0d325f6ecb6b",
+          "5cd174b4-2ecf-11ea-8425-0242ac110002"
+        ],
+        "8dd7c59c-c5c2-11ea-9e97-0242ac110004": [
+          "458fedc6-2ecf-11ea-ab5a-0242ac110002",
+          "7173bfa3-a93f-11e9-939b-0d325f6ecb6b"
+        ],
+        "04a6aaca-c5bf-11ea-95db-0242ac110002": [
+          "57ddc836-c5bf-11ea-8db7-0242ac110004"
+        ],
+        "57ddc836-c5bf-11ea-8db7-0242ac110004": [
+          "04a6aaca-c5bf-11ea-95db-0242ac110002",
+          "53715f34-54c1-11ea-a90d-0242ac110002"
+        ],
+        "53715f34-54c1-11ea-a90d-0242ac110002": [
+          "57ddc836-c5bf-11ea-8db7-0242ac110004"
+        ],
+        "e70d7962-c5be-11ea-bc46-0242ac110002": [
+          "020c8524-57dc-11ea-a1e5-0242ac110002"
+        ],
+        "020c8524-57dc-11ea-a1e5-0242ac110002": [
+          "e70d7962-c5be-11ea-bc46-0242ac110002"
+        ],
+        "7178e4e9-a93f-11e9-a7dc-cf4070c8500f": [
+          "458fedc6-2ecf-11ea-ab5a-0242ac110002"
+        ]
+      }
+    },
+    "id": "singleton"
+  }
+]

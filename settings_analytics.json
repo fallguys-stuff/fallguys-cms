@@ -1,0 +1,247 @@
+[
+  {
+    "limiter": {
+      "low_prio_send_percent": 0,
+      "high_prio_send_percent": 100,
+      "overriden_events": [
+        {
+          "event_type": "match:start",
+          "send_percent": 100
+        },
+        {
+          "event_type": "match:complete",
+          "send_percent": 100
+        },
+        {
+          "event_type": "round:start",
+          "send_percent": 100
+        },
+        {
+          "event_type": "round:finish",
+          "send_percent": 100
+        },
+        {
+          "event_type": "round:exit",
+          "send_percent": 100
+        },
+        {
+          "event_type": "round:complete",
+          "send_percent": 100
+        },
+        {
+          "event_type": "round:error",
+          "send_percent": 100
+        },
+        {
+          "event_type": "round:status",
+          "send_percent": 100
+        },
+        {
+          "event_type": "round:respawn",
+          "send_percent": 100
+        },
+        {
+          "event_type": "matchmaking:join",
+          "send_percent": 100
+        },
+        {
+          "event_type": "matchmaking:success",
+          "send_percent": 100
+        },
+        {
+          "event_type": "matchmaking:cancelled",
+          "send_percent": 100
+        },
+        {
+          "event_type": "matchmaking:error",
+          "send_percent": 100
+        },
+        {
+          "event_type": "matchmaking:failure",
+          "send_percent": 100
+        },
+        {
+          "event_type": "monetise:restorePurchase",
+          "send_percent": 100
+        },
+        {
+          "event_type": "performance:round",
+          "send_percent": 100
+        },
+        {
+          "event_type": "matchmaking:qos",
+          "send_percent": 100
+        },
+        {
+          "event_type": "privateLobby:create",
+          "send_percent": 100
+        },
+        {
+          "event_type": "privateLobby:join",
+          "send_percent": 100
+        },
+        {
+          "event_type": "privateLobby:error",
+          "send_percent": 100
+        },
+        {
+          "event_type": "privateLobby:start",
+          "send_percent": 100
+        },
+        {
+          "event_type": "performance:gameLoadingTime",
+          "send_percent": 100
+        },
+        {
+          "event_type": "account:attemptlink",
+          "send_percent": 100
+        },
+        {
+          "event_type": "account:link",
+          "send_percent": 100
+        },
+        {
+          "event_type": "account:unlink",
+          "send_percent": 100
+        },
+        {
+          "event_type": "account:reward",
+          "send_percent": 100
+        },
+        {
+          "event_type": "matchmakingAllocation:start",
+          "send_percent": 100
+        },
+        {
+          "event_type": "matchmakingAllocation:complete",
+          "send_percent": 100
+        },
+        {
+          "event_type": "challenge:start",
+          "send_percent": 100
+        },
+        {
+          "event_type": "challenge:complete",
+          "send_percent": 100
+        },
+        {
+          "event_type": "navigation",
+          "send_percent": 10
+        },
+        {
+          "event_type": "privateLobby:menuSeen",
+          "send_percent": 100
+        },
+        {
+          "event_type": "privateLobby:favouriteShow",
+          "send_percent": 100
+        },
+        {
+          "event_type": "privateLobby:unfavouriteShow",
+          "send_percent": 100
+        },
+        {
+          "event_type": "playerReporting",
+          "send_percent": 100
+        },
+        {
+          "event_type": "onboarding:step",
+          "send_percent": 100
+        },
+        {
+          "event_type": "onboarding:event",
+          "send_percent": 100
+        },
+        {
+          "event_type": "onboarding:skip",
+          "send_percent": 100
+        },
+        {
+          "event_type": "onboarding:complete",
+          "send_percent": 100
+        },
+        {
+          "event_type": "onboarding:start",
+          "send_percent": 100
+        },
+        {
+          "event_type": "boot:start",
+          "send_percent": 100
+        },
+        {
+          "event_type": "boot:failed",
+          "send_percent": 100
+        },
+        {
+          "event_type": "boot:complete",
+          "send_percent": 100
+        },
+        {
+          "event_type": "boot:step",
+          "send_percent": 100
+        },
+        {
+          "event_type": "round:disconnect",
+          "send_percent": 100
+        },
+        {
+          "event_type": "avatar:edit",
+          "send_percent": 100
+        },
+        {
+          "event_type": "liveEvent:start",
+          "send_percent": 100
+        },
+        {
+          "event_type": "liveEvent:eventChallengeComplete",
+          "send_percent": 100
+        },
+        {
+          "event_type": "liveEvent:milestoneReached",
+          "send_percent": 100
+        },
+        {
+          "event_type": "liveEvent:rewardCollected",
+          "send_percent": 100
+        },
+        {
+          "event_type": "error",
+          "send_percent": 100
+        },
+        {
+          "event_type": "performance:spentTime",
+          "send_percent": 100
+        },
+        {
+          "event_type": "setGraphics",
+          "send_percent": 100
+        }
+      ]
+    },
+    "client_batching": {
+      "send_at_batch_size": 30,
+      "send_with_frequency_secs": 20,
+      "send_with_frequency_min_batch_size": 5,
+      "max_batch_size": 50,
+      "send_at_batch_size_enabled": true,
+      "send_with_frequency_enabled": true,
+      "send_with_frequency_min_time_after_event_added_secs": 3,
+      "send_with_frequency_max_total_delay_secs": 6,
+      "force_send_with_frequency_secs": 40,
+      "force_send_with_frequency_enabled": true
+    },
+    "game_server_batching": {
+      "send_at_batch_size": 30,
+      "send_with_frequency_secs": 20,
+      "send_with_frequency_min_batch_size": 5,
+      "max_batch_size": 50,
+      "send_at_batch_size_enabled": true,
+      "send_with_frequency_enabled": true,
+      "send_with_frequency_min_time_after_event_added_secs": 3,
+      "send_with_frequency_max_total_delay_secs": 6,
+      "force_send_with_frequency_secs": 40,
+      "force_send_with_frequency_enabled": true
+    },
+    "id": "singleton"
+  }
+]

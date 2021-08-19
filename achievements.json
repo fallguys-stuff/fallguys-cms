@@ -1,0 +1,511 @@
+[
+  {
+    "config": {
+      "condition": "quantity",
+      "goal": 3600,
+      "metric_id": "player_air_time"
+    },
+    "value_config": {
+      "metric_value": "aggregate"
+    },
+    "steam_id": "ACH_BIG_AIR",
+    "dimensions": [],
+    "id": "3600_seconds_of_air_time"
+  },
+  {
+    "config": {
+      "condition": "action"
+    },
+    "value_config": {
+      "metric_value": "aggregate"
+    },
+    "steam_id": "ACH_CATWALK_MODEL",
+    "dimensions": [],
+    "id": "equip_first_legendary"
+  },
+  {
+    "config": {
+      "condition": "quantity",
+      "goal": 1,
+      "metric_id": "position_placed"
+    },
+    "dimensions": [
+      {
+        "type": "level_archetype",
+        "level_archetype": "archetype_race"
+      },
+      {
+        "type": "position_placed",
+        "position_placed": 1
+      }
+    ],
+    "value_config": {
+      "metric_value": "aggregate"
+    },
+    "steam_id": "ACH_RACING_TIER_1",
+    "id": "finish_race_first_place_1_times"
+  },
+  {
+    "config": {
+      "condition": "quantity",
+      "goal": 20,
+      "metric_id": "position_placed"
+    },
+    "dimensions": [
+      {
+        "type": "level_archetype",
+        "level_archetype": "archetype_race"
+      },
+      {
+        "type": "position_placed",
+        "position_placed": 1
+      }
+    ],
+    "value_config": {
+      "metric_value": "aggregate"
+    },
+    "steam_id": "ACH_RACING_TIER_3",
+    "id": "finish_race_first_place_20_times"
+  },
+  {
+    "config": {
+      "condition": "quantity",
+      "goal": 5,
+      "metric_id": "position_placed"
+    },
+    "dimensions": [
+      {
+        "type": "level_archetype",
+        "level_archetype": "archetype_race"
+      },
+      {
+        "type": "position_placed",
+        "position_placed": 1
+      }
+    ],
+    "value_config": {
+      "metric_value": "aggregate"
+    },
+    "steam_id": "ACH_RACING_TIER_2",
+    "id": "finish_race_first_place_5_times"
+  },
+  {
+    "config": {
+      "condition": "action"
+    },
+    "value_config": {
+      "metric_value": "aggregate"
+    },
+    "steam_id": "ACH_HEAD_TURNER",
+    "dimensions": [],
+    "id": "legendary_loadout"
+  },
+  {
+    "config": {
+      "condition": "quantity",
+      "goal": 1000,
+      "metric_id": "player_bumped"
+    },
+    "value_config": {
+      "metric_value": "aggregate"
+    },
+    "steam_id": "ACH_STUMBLE_CHUMS",
+    "dimensions": [],
+    "id": "player_bumped_other_player_1000_times"
+  },
+  {
+    "config": {
+      "condition": "quantity",
+      "goal": 1,
+      "metric_id": "player_bumped_three_before_getting_up"
+    },
+    "value_config": {
+      "metric_value": "aggregate"
+    },
+    "steam_id": "ACH_TROUBLEMAKER",
+    "dimensions": [],
+    "id": "player_bumped_three_before_getting_up"
+  },
+  {
+    "config": {
+      "condition": "quantity",
+      "goal": 1,
+      "metric_id": "player_hugged"
+    },
+    "value_config": {
+      "metric_value": "aggregate"
+    },
+    "steam_id": "ACH_GRAB_PLAYER",
+    "dimensions": [],
+    "id": "player_hugged"
+  },
+  {
+    "config": {
+      "condition": "quantity",
+      "goal": 1,
+      "metric_id": "player_knocked"
+    },
+    "value_config": {
+      "metric_value": "aggregate"
+    },
+    "steam_id": "ACH_BIG_BULLY",
+    "dimensions": [],
+    "id": "player_knocked"
+  },
+  {
+    "config": {
+      "condition": "quantity",
+      "goal": 1,
+      "metric_id": "player_reach_terminal_velocity"
+    },
+    "value_config": {
+      "metric_value": "aggregate"
+    },
+    "steam_id": "ACH_FALL_THROTTLE",
+    "dimensions": [],
+    "id": "player_reach_terminal_velocity"
+  },
+  {
+    "config": {
+      "condition": "quantity",
+      "goal": 100,
+      "metric_id": "round_qualified"
+    },
+    "value_config": {
+      "metric_value": "aggregate"
+    },
+    "steam_id": "ACH_QUALIFY_ROUND_TIER_2",
+    "dimensions": [],
+    "id": "qualify_100_rounds"
+  },
+  {
+    "config": {
+      "condition": "quantity",
+      "goal": 1,
+      "metric_id": "round_qualified"
+    },
+    "value_config": {
+      "metric_value": "aggregate"
+    },
+    "steam_id": "ACH_QUALIFY_1_ROUND",
+    "dimensions": [],
+    "id": "qualify_1_round"
+  },
+  {
+    "config": {
+      "condition": "quantity",
+      "goal": 500,
+      "metric_id": "round_qualified"
+    },
+    "value_config": {
+      "metric_value": "aggregate"
+    },
+    "steam_id": "ACH_QUALIFY_ROUND_TIER_3",
+    "dimensions": [],
+    "id": "qualify_500_rounds"
+  },
+  {
+    "config": {
+      "condition": "action"
+    },
+    "value_config": {
+      "metric_value": "aggregate"
+    },
+    "steam_id": "ACH_MAD_TRENDY",
+    "dimensions": [],
+    "id": "rare_or_better_loadout"
+  },
+  {
+    "config": {
+      "condition": "quantity",
+      "goal": 1,
+      "metric_id": "fame_tier_reached"
+    },
+    "dimensions": [
+      {
+        "type": "fame_tier",
+        "fame_tier": 10
+      }
+    ],
+    "value_config": {
+      "metric_value": "aggregate"
+    },
+    "steam_id": "ACH_FAME_TIER_1",
+    "id": "reach_fame_tier_10"
+  },
+  {
+    "config": {
+      "condition": "quantity",
+      "goal": 1,
+      "metric_id": "fame_tier_reached"
+    },
+    "dimensions": [
+      {
+        "type": "fame_tier",
+        "fame_tier": 25
+      }
+    ],
+    "value_config": {
+      "metric_value": "aggregate"
+    },
+    "steam_id": "ACH_FAME_TIER_2",
+    "id": "reach_fame_tier_25"
+  },
+  {
+    "config": {
+      "condition": "quantity",
+      "goal": 1,
+      "metric_id": "fame_tier_reached"
+    },
+    "dimensions": [
+      {
+        "type": "fame_tier",
+        "fame_tier": 40
+      }
+    ],
+    "value_config": {
+      "metric_value": "aggregate"
+    },
+    "steam_id": "ACH_FAME_TIER_3",
+    "id": "reach_fame_tier_50"
+  },
+  {
+    "config": {
+      "condition": "quantity",
+      "goal": 1,
+      "metric_id": "round_qualified"
+    },
+    "dimensions": [
+      {
+        "type": "overtime",
+        "overtime": true
+      }
+    ],
+    "value_config": {
+      "metric_value": "aggregate"
+    },
+    "steam_id": "ACH_DOWN_TO_THE_WIRE",
+    "id": "round_qualified_overtime"
+  },
+  {
+    "config": {
+      "condition": "quantity",
+      "goal": 10,
+      "metric_id": "player_fell"
+    },
+    "value_config": {
+      "metric_value": "last_value",
+      "operator": "more_or_equal"
+    },
+    "dimensions": [
+      {
+        "type": "level_archetype",
+        "level_archetype": "archetype_race"
+      },
+      {
+        "type": "round_qualified",
+        "round_qualified": true
+      }
+    ],
+    "steam_id": "ACH_FALL_10_QUALIFY_RACE",
+    "id": "round_qualify_after_falling_10_or_more"
+  },
+  {
+    "config": {
+      "condition": "quantity",
+      "goal": 0,
+      "metric_id": "player_fell"
+    },
+    "value_config": {
+      "metric_value": "last_value",
+      "operator": "equal"
+    },
+    "dimensions": [
+      {
+        "type": "round_qualified",
+        "round_qualified": true
+      }
+    ],
+    "steam_id": "ACH_FLAWLESS_VICTORY",
+    "id": "round_qualify_without_falling"
+  },
+  {
+    "config": {
+      "condition": "quantity",
+      "goal": 1,
+      "metric_id": "round_race_qualify_first_place_after_emote"
+    },
+    "value_config": {
+      "metric_value": "aggregate"
+    },
+    "steam_id": "ACH_BIG_TEASE",
+    "dimensions": [],
+    "id": "round_race_qualify_first_place_after_emote"
+  },
+  {
+    "config": {
+      "condition": "quantity",
+      "goal": 1,
+      "metric_id": "level_score_earned"
+    },
+    "value_config": {
+      "metric_value": "last_value",
+      "operator": "equal"
+    },
+    "steam_id": "ACHI_BARELY_MADE_IT",
+    "dimensions": [
+      {
+        "type": "round_qualified",
+        "round_qualified": true
+      }
+    ],
+    "id": "round_team_qualified_score_1"
+  },
+  {
+    "config": {
+      "condition": "quantity",
+      "goal": 1,
+      "metric_id": "three_seconds_air_time_head_fall"
+    },
+    "value_config": {
+      "metric_value": "aggregate"
+    },
+    "steam_id": "ACH_STYLE_POINTS",
+    "dimensions": [],
+    "id": "three_seconds_air_time_head_fall"
+  },
+  {
+    "config": {
+      "condition": "action"
+    },
+    "value_config": {
+      "metric_value": "aggregate"
+    },
+    "steam_id": "ACH_BARGAIN_BUCKET",
+    "dimensions": [],
+    "id": "uncommon_or_better_loadout"
+  },
+  {
+    "config": {
+      "condition": "quantity",
+      "goal": 10,
+      "metric_id": "store_bundle_purchased"
+    },
+    "value_config": {
+      "metric_value": "aggregate"
+    },
+    "steam_id": "ACH_SHOPPING_SPREE",
+    "dimensions": [],
+    "id": "unlock_10_items"
+  },
+  {
+    "config": {
+      "condition": "quantity",
+      "goal": 1,
+      "metric_id": "item_equipped"
+    },
+    "value_config": {
+      "metric_value": "aggregate"
+    },
+    "steam_id": "ACH_SNOWFLAKE",
+    "dimensions": [],
+    "id": "unlock_1_item"
+  },
+  {
+    "config": {
+      "condition": "quantity",
+      "goal": 50,
+      "metric_id": "store_bundle_purchased"
+    },
+    "value_config": {
+      "metric_value": "aggregate"
+    },
+    "steam_id": "ACH_FASHIONISTA",
+    "dimensions": [],
+    "id": "unlock_50_items"
+  },
+  {
+    "config": {
+      "condition": "quantity",
+      "goal": 1,
+      "metric_id": "episode_won"
+    },
+    "value_config": {
+      "metric_value": "aggregate"
+    },
+    "steam_id": "ACH_WIN_1_EPISODE",
+    "dimensions": [],
+    "id": "win_episode_1_time"
+  },
+  {
+    "config": {
+      "condition": "quantity",
+      "goal": 20,
+      "metric_id": "episode_won"
+    },
+    "value_config": {
+      "metric_value": "aggregate"
+    },
+    "steam_id": "ACH_WIN_EPISODES_TIER_3",
+    "dimensions": [],
+    "id": "win_episode_20_times"
+  },
+  {
+    "config": {
+      "condition": "quantity",
+      "goal": 7,
+      "metric_id": "episode_won"
+    },
+    "value_config": {
+      "metric_value": "aggregate"
+    },
+    "steam_id": "ACH_WIN_EPISODES_TIER_2",
+    "dimensions": [],
+    "id": "win_episode_7_times"
+  },
+  {
+    "config": {
+      "condition": "quantity",
+      "goal": 1,
+      "metric_id": "episode_won"
+    },
+    "dimensions": [
+      {
+        "type": "party_size",
+        "party_size": 3
+      }
+    ],
+    "value_config": {
+      "metric_value": "aggregate"
+    },
+    "steam_id": "ACH_SQUAD_GOALS",
+    "id": "win_episode_with_3_or_more_players_party"
+  },
+  {
+    "config": {
+      "condition": "quantity",
+      "goal": 1,
+      "metric_id": "win_episode_with_custom_punchline"
+    },
+    "value_config": {
+      "metric_value": "aggregate"
+    },
+    "steam_id": "ACH_SHOW_OFF",
+    "dimensions": [],
+    "id": "win_episode_with_custom_punchline"
+  },
+  {
+    "config": {
+      "condition": "quantity",
+      "goal": 5,
+      "metric_id": "episode_win_streak"
+    },
+    "value_config": {
+      "metric_value": "last_value",
+      "operator": "more_or_equal"
+    },
+    "steam_id": "ACH_INFALLIBLE",
+    "dimensions": [],
+    "id": "win_streak_of_5"
+  }
+]
