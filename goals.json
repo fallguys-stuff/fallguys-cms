@@ -865,6 +865,22 @@
     "id": "qualify_team_4_rounds"
   },
   {
+    "player_action_id": "reach_final_round_duos",
+    "target": {
+      "type": "last_value",
+      "operator": "equal",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_031",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.newsfeed_duo_show_title"
+      }
+    ],
+    "id": "reach_final_round_duos"
+  },
+  {
     "player_action_id": "reach_final_round_lte",
     "target": {
       "type": "aggregate",
@@ -914,7 +930,8 @@
   {
     "player_action_id": "reach_final_round_trios",
     "target": {
-      "type": "aggregate",
+      "type": "last_value",
+      "operator": "equal",
       "value": 1
     },
     "description": "localised_strings.challenge_desc_031",
@@ -1102,14 +1119,15 @@
   {
     "player_action_id": "win_duos",
     "target": {
-      "type": "aggregate",
+      "type": "last_value",
+      "operator": "equal",
       "value": 1
     },
     "description": "localised_strings.challenge_desc_015_singular",
     "description_parameters": [
       {
         "type": "localised",
-        "localised_value": "localised_strings.show_title_squads_duos"
+        "localised_value": "localised_strings.newsfeed_duo_show_title"
       }
     ],
     "id": "win_duos"
