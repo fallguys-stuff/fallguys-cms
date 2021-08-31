@@ -127,7 +127,65 @@
     "id": "variation_biggestfan"
   },
   {
-    "set_switchers": [],
+    "set_switchers": [
+      {
+        "key": "VariationPriorities",
+        "weightings": [
+          {
+            "key": "NormalRun",
+            "weighting": 100
+          },
+          {
+            "key": "Without5_1",
+            "weighting": 0
+          },
+          {
+            "key": "Only5_1",
+            "weighting": 0
+          },
+          {
+            "key": "Only1g",
+            "weighting": 0
+          },
+          {
+            "key": "Only1h",
+            "weighting": 0
+          },
+          {
+            "key": "Only1i",
+            "weighting": 0
+          },
+          {
+            "key": "Only2d",
+            "weighting": 0
+          },
+          {
+            "key": "Only2e",
+            "weighting": 0
+          },
+          {
+            "key": "Only2f",
+            "weighting": 0
+          },
+          {
+            "key": "Only2g",
+            "weighting": 0
+          },
+          {
+            "key": "Only2h",
+            "weighting": 0
+          },
+          {
+            "key": "Only3d",
+            "weighting": 0
+          },
+          {
+            "key": "Only3e",
+            "weighting": 0
+          }
+        ]
+      }
+    ],
     "id": "variation_block_party"
   },
   {
@@ -293,6 +351,79 @@
           {
             "key": "Slime",
             "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "FirstSection",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 50
+          },
+          {
+            "key": "Pendulums",
+            "weighting": 25
+          },
+          {
+            "key": "SidewayConveyors",
+            "weighting": 25
+          }
+        ]
+      },
+      {
+        "key": "SecondSection",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 50
+          },
+          {
+            "key": "Pendulums",
+            "weighting": 25
+          },
+          {
+            "key": "SidewayConveyors",
+            "weighting": 25
+          }
+        ]
+      },
+      {
+        "key": "SplitPaths",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          },
+          {
+            "key": "SpinningBollards",
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "MergePaths",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 70
+          },
+          {
+            "key": "SpinningBollards",
+            "weighting": 30
+          }
+        ]
+      },
+      {
+        "key": "SlimeSlide",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 75
+          },
+          {
+            "key": "Hammers",
+            "weighting": 25
           }
         ]
       }
@@ -636,11 +767,11 @@
         "weightings": [
           {
             "key": "On",
-            "weighting": 0
+            "weighting": 1
           },
           {
             "key": "Off",
-            "weighting": 1
+            "weighting": 0
           }
         ]
       },
@@ -957,16 +1088,187 @@
         "weightings": [
           {
             "key": "Off",
-            "weighting": 70
+            "weighting": 40
           },
           {
             "key": "Fan",
             "weighting": 30
+          },
+          {
+            "key": "Water",
+            "weighting": 30
+          }
+        ]
+      },
+      {
+        "key": "BetweenGates",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 60
+          },
+          {
+            "key": "Conveyors",
+            "weighting": 20
+          },
+          {
+            "key": "Turntables",
+            "weighting": 20
           }
         ]
       }
     ],
     "id": "variation_door_dash"
+  },
+  {
+    "set_switchers": [
+      {
+        "key": "Section01_Hammers",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 75
+          },
+          {
+            "key": "Hammer",
+            "weighting": 25
+          }
+        ]
+      },
+      {
+        "key": "Section01_Pegwin",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 95
+          },
+          {
+            "key": "On",
+            "weighting": 5
+          }
+        ]
+      },
+      {
+        "key": "Section02_BouncyRiver",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 60
+          },
+          {
+            "key": "Spinner_Arms",
+            "weighting": 10
+          },
+          {
+            "key": "Frogs",
+            "weighting": 10
+          },
+          {
+            "key": "LayoutB",
+            "weighting": 20
+          }
+        ]
+      },
+      {
+        "key": "Section02_LastSegment",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 70
+          },
+          {
+            "key": "Flippers",
+            "weighting": 30
+          },
+          {
+            "key": "Fans",
+            "weighting": 0
+          },
+          {
+            "key": "Flippers_And_Fans",
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "Section03_DrumsMovement",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 75
+          },
+          {
+            "key": "UpAndDown",
+            "weighting": 25
+          }
+        ]
+      },
+      {
+        "key": "Section04_Bottom",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 100
+          },
+          {
+            "key": "Lateral",
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "Section04_Top",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 75
+          },
+          {
+            "key": "Diagonal",
+            "weighting": 25
+          }
+        ]
+      },
+      {
+        "key": "Section05_Top",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 70
+          },
+          {
+            "key": "Sideways",
+            "weighting": 10
+          },
+          {
+            "key": "Circular",
+            "weighting": 10
+          },
+          {
+            "key": "Fans",
+            "weighting": 10
+          }
+        ]
+      },
+      {
+        "key": "Section05_Bottom",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 100
+          },
+          {
+            "key": "Sideways",
+            "weighting": 0
+          },
+          {
+            "key": "Logswing",
+            "weighting": 0
+          }
+        ]
+      }
+    ],
+    "id": "variation_drum_top"
   },
   {
     "set_switchers": [
@@ -1173,11 +1475,15 @@
           },
           {
             "key": "MovingPillars",
-            "weighting": 50
+            "weighting": 40
           },
           {
             "key": "Hammer",
-            "weighting": 50
+            "weighting": 40
+          },
+          {
+            "key": "Flippers",
+            "weighting": 20
           }
         ]
       },
@@ -1190,7 +1496,11 @@
           },
           {
             "key": "Hammers",
-            "weighting": 90
+            "weighting": 55
+          },
+          {
+            "key": "Frogs",
+            "weighting": 35
           }
         ]
       },
@@ -1204,6 +1514,49 @@
           {
             "key": "Hammers",
             "weighting": 0
+          },
+          {
+            "key": "Frogs",
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "Start",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 70
+          },
+          {
+            "key": "ConveyorBelts",
+            "weighting": 30
+          }
+        ]
+      },
+      {
+        "key": "ParallelWalls",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 70
+          },
+          {
+            "key": "GravityZone",
+            "weighting": 30
+          }
+        ]
+      },
+      {
+        "key": "Diamonds",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 70
+          },
+          {
+            "key": "GravityZone",
+            "weighting": 30
           }
         ]
       }
@@ -1240,6 +1593,10 @@
       }
     ],
     "id": "variation_floor_fall"
+  },
+  {
+    "set_switchers": [],
+    "id": "variation_fruit_bowl"
   },
   {
     "set_switchers": [
@@ -1957,6 +2314,205 @@
   {
     "set_switchers": [
       {
+        "key": "Section1_BottomRoute",
+        "weightings": [
+          {
+            "key": "Hammers",
+            "weighting": 75
+          },
+          {
+            "key": "Bollards",
+            "weighting": 25
+          }
+        ]
+      },
+      {
+        "key": "Section1_TopRoute",
+        "weightings": [
+          {
+            "key": "Frog_Turntable",
+            "weighting": 60
+          },
+          {
+            "key": "SpinArm_Turntable",
+            "weighting": 20
+          },
+          {
+            "key": "Drums",
+            "weighting": 20
+          }
+        ]
+      },
+      {
+        "key": "Section2_TopRoute",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 70
+          },
+          {
+            "key": "AltDrums",
+            "weighting": 30
+          }
+        ]
+      },
+      {
+        "key": "Section2_BottomRoute",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 50
+          },
+          {
+            "key": "Floor_Fan",
+            "weighting": 25
+          },
+          {
+            "key": "GravityZone",
+            "weighting": 25
+          }
+        ]
+      },
+      {
+        "key": "Section2_BottomTurntables",
+        "weightings": [
+          {
+            "key": "Turntables",
+            "weighting": 80
+          },
+          {
+            "key": "Yeetus",
+            "weighting": 20
+          }
+        ]
+      },
+      {
+        "key": "Section3_TopRoute",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 90
+          },
+          {
+            "key": "Yeetus",
+            "weighting": 10
+          }
+        ]
+      },
+      {
+        "key": "Section3_BottomRoute",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 50
+          },
+          {
+            "key": "Reverse",
+            "weighting": 50
+          }
+        ]
+      },
+      {
+        "key": "Section4_TopRoute_Frogs",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 70
+          },
+          {
+            "key": "DrumJumps",
+            "weighting": 30
+          }
+        ]
+      },
+      {
+        "key": "Section4_TopRoute_Bollards",
+        "weightings": [
+          {
+            "key": "Bollards",
+            "weighting": 75
+          },
+          {
+            "key": "Fans",
+            "weighting": 25
+          }
+        ]
+      },
+      {
+        "key": "Section4_BottomRoute_River",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 65
+          },
+          {
+            "key": "AltDrum",
+            "weighting": 35
+          }
+        ]
+      },
+      {
+        "key": "Section4_BottomRoute_Cannon",
+        "weightings": [
+          {
+            "key": "Boulders",
+            "weighting": 75
+          },
+          {
+            "key": "Fruit",
+            "weighting": 25
+          }
+        ]
+      },
+      {
+        "key": "Section5_TopRoute",
+        "weightings": [
+          {
+            "key": "LogSwing",
+            "weighting": 75
+          },
+          {
+            "key": "AltLogSwing",
+            "weighting": 25
+          }
+        ]
+      },
+      {
+        "key": "Section5_BottomRoute",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 70
+          },
+          {
+            "key": "Pegwin",
+            "weighting": 5
+          },
+          {
+            "key": "Fans",
+            "weighting": 25
+          }
+        ]
+      },
+      {
+        "key": "Section5_EndCliff",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 70
+          },
+          {
+            "key": "Flippers",
+            "weighting": 30
+          }
+        ]
+      }
+    ],
+    "id": "variation_gauntlet_07"
+  },
+  {
+    "set_switchers": [
+      {
         "key": "Centre",
         "weightings": [
           {
@@ -2345,15 +2901,101 @@
   {
     "set_switchers": [
       {
-        "key": "Center",
+        "key": "Centre",
         "weightings": [
           {
+            "key": "Turntable2",
+            "weighting": 25
+          },
+          {
+            "key": "Spinner1",
+            "weighting": 25
+          },
+          {
             "key": "Turntable1",
+            "weighting": 25
+          },
+          {
+            "key": "Spinner2",
+            "weighting": 25
+          }
+        ]
+      },
+      {
+        "key": "LogSwingZone",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 75
+          },
+          {
+            "key": "Extra_Fans",
+            "weighting": 25
+          }
+        ]
+      },
+      {
+        "key": "DrawbridgeZone",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 75
+          },
+          {
+            "key": "Drums",
+            "weighting": 25
+          }
+        ]
+      },
+      {
+        "key": "PuncherZone",
+        "weightings": [
+          {
+            "key": "Original",
             "weighting": 50
           },
           {
-            "key": "Turntable2",
+            "key": "AltPattern",
             "weighting": 50
+          }
+        ]
+      },
+      {
+        "key": "SpinDoorZone",
+        "weightings": [
+          {
+            "key": "SpinDoor",
+            "weighting": 75
+          },
+          {
+            "key": "SpinnerArm",
+            "weighting": 25
+          }
+        ]
+      },
+      {
+        "key": "SpinDoorZone_Hammer",
+        "weightings": [
+          {
+            "key": "Hammers",
+            "weighting": 75
+          },
+          {
+            "key": "Pinball",
+            "weighting": 25
+          }
+        ]
+      },
+      {
+        "key": "DrumHillZone",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 85
+          },
+          {
+            "key": "Frog",
+            "weighting": 15
           }
         ]
       }
@@ -2387,6 +3029,10 @@
           },
           {
             "key": "Button",
+            "weighting": 20
+          },
+          {
+            "key": "ExpandingDome",
             "weighting": 20
           }
         ]
@@ -2535,20 +3181,123 @@
   {
     "set_switchers": [
       {
-        "key": "WaterObjects",
+        "key": "Corridor",
         "weightings": [
           {
-            "key": "Bounce",
-            "weighting": 0
+            "key": "Off",
+            "weighting": 60
           },
           {
-            "key": "Off",
-            "weighting": 100
+            "key": "Flippers",
+            "weighting": 20
+          },
+          {
+            "key": "Pinball_Flippers",
+            "weighting": 20
+          }
+        ]
+      },
+      {
+        "key": "Slides_Area",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 70
+          },
+          {
+            "key": "Punching_Gloves",
+            "weighting": 30
+          }
+        ]
+      },
+      {
+        "key": "Frog_Area",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 60
+          },
+          {
+            "key": "Spin_Door",
+            "weighting": 20
+          },
+          {
+            "key": "Turnstile",
+            "weighting": 20
+          }
+        ]
+      },
+      {
+        "key": "Big_Fan_Area",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 75
+          },
+          {
+            "key": "Big_Fan_Fan",
+            "weighting": 25
+          }
+        ]
+      },
+      {
+        "key": "Small_Island_Area",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 70
+          },
+          {
+            "key": "Drums",
+            "weighting": 15
+          },
+          {
+            "key": "Turntable",
+            "weighting": 15
           }
         ]
       }
     ],
     "id": "variation_penguin_solos"
+  },
+  {
+    "set_switchers": [
+      {
+        "key": "Centre",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 65
+          },
+          {
+            "key": "Pegwin",
+            "weighting": 5
+          },
+          {
+            "key": "Turntable",
+            "weighting": 30
+          }
+        ]
+      },
+      {
+        "key": "Outside_Arena",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 70
+          },
+          {
+            "key": "Static_Drums",
+            "weighting": 15
+          },
+          {
+            "key": "Fans",
+            "weighting": 15
+          }
+        ]
+      }
+    ],
+    "id": "variation_robotrampage"
   },
   {
     "set_switchers": [
@@ -2932,11 +3681,164 @@
     "id": "variation_skeefall"
   },
   {
-    "set_switchers": [],
+    "set_switchers": [
+      {
+        "key": "Start",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 95
+          },
+          {
+            "key": "Pegwin",
+            "weighting": 5
+          }
+        ]
+      },
+      {
+        "key": "Floor1_Ramp2",
+        "weightings": [
+          {
+            "key": "Forcefields",
+            "weighting": 75
+          },
+          {
+            "key": "Punchers",
+            "weighting": 25
+          }
+        ]
+      },
+      {
+        "key": "Floor1_RightCorner",
+        "weightings": [
+          {
+            "key": "LaserSwing",
+            "weighting": 80
+          },
+          {
+            "key": "Fans",
+            "weighting": 20
+          }
+        ]
+      },
+      {
+        "key": "Floor2_LeftCorner",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 85
+          },
+          {
+            "key": "Yeetus",
+            "weighting": 15
+          }
+        ]
+      },
+      {
+        "key": "Floor2_RightCorner",
+        "weightings": [
+          {
+            "key": "Forcefields",
+            "weighting": 80
+          },
+          {
+            "key": "MovableBlock",
+            "weighting": 20
+          }
+        ]
+      },
+      {
+        "key": "Floor3_Ramp1",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          },
+          {
+            "key": "HighGrav",
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "Floor4_Ramp1",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 75
+          },
+          {
+            "key": "Bollards",
+            "weighting": 25
+          }
+        ]
+      },
+      {
+        "key": "Floor4_RightCorner",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 50
+          },
+          {
+            "key": "AltHurdle",
+            "weighting": 50
+          }
+        ]
+      },
+      {
+        "key": "Floor5_Ramp1",
+        "weightings": [
+          {
+            "key": "LaserSwing",
+            "weighting": 85
+          },
+          {
+            "key": "Fan",
+            "weighting": 15
+          }
+        ]
+      },
+      {
+        "key": "Ending",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 100
+          },
+          {
+            "key": "AltEnd",
+            "weighting": 0
+          }
+        ]
+      }
+    ],
     "id": "variation_slimeclimb_2"
   },
   {
-    "set_switchers": [],
+    "set_switchers": [
+      {
+        "key": "Floor",
+        "weightings": [
+          {
+            "key": "MoreTiles",
+            "weighting": 30
+          },
+          {
+            "key": "SafeCentre",
+            "weighting": 30
+          },
+          {
+            "key": "Original",
+            "weighting": 40
+          },
+          {
+            "key": "AlternatingEdgeTiles",
+            "weighting": 0
+          }
+        ]
+      }
+    ],
     "id": "variation_snowballsurvival"
   },
   {

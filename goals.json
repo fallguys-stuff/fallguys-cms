@@ -69,6 +69,48 @@
     "id": "earn_10_silver_medals"
   },
   {
+    "player_action_id": "earn_silver_medal_from_a_team_round",
+    "target": {
+      "type": "aggregate",
+      "value": 10
+    },
+    "description": "localised_strings.challenge_desc_013",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_medal_02"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "numeric",
+        "numeric_value": 5
+      }
+    ],
+    "id": "earn_10_silver_medals_team_round"
+  },
+  {
+    "player_action_id": "earn_gold_medal_race",
+    "target": {
+      "type": "aggregate",
+      "value": 12
+    },
+    "description": "localised_strings.challenge_desc_013_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_medal_01"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_round_type_race"
+      }
+    ],
+    "id": "earn_12_gold_medals_race"
+  },
+  {
     "player_action_id": "earn_bronze_medal",
     "target": {
       "type": "aggregate",
@@ -90,6 +132,44 @@
       }
     ],
     "id": "earn_2_bronze_medals"
+  },
+  {
+    "player_action_id": "earn_bronze_medal_race",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_013_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_medal_03"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_round_type_race"
+      }
+    ],
+    "id": "earn_3_bronze_medals_races"
+  },
+  {
+    "player_action_id": "earn_gold_medal_race",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_013_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_medal_01"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_round_type_race"
+      }
+    ],
+    "id": "earn_3_gold_medals_race"
   },
   {
     "player_action_id": "earn_bronze_medal",
@@ -174,6 +254,59 @@
       }
     ],
     "id": "goal_test"
+  },
+  {
+    "player_action_id": "play_a_hunt_round_jungle",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_004_show_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_round_type_hunt"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_s5"
+      }
+    ],
+    "id": "play_hunt_1_round_jungle"
+  },
+  {
+    "player_action_id": "player_air_time",
+    "target": {
+      "type": "aggregate",
+      "value": 10
+    },
+    "description": "localised_strings.challenge_desc_le_midautumn_01",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 10
+      }
+    ],
+    "id": "player_air_time_10_le_midautumn"
+  },
+  {
+    "player_action_id": "player_air_time",
+    "target": {
+      "type": "aggregate",
+      "value": 60
+    },
+    "description": "localised_strings.challenge_desc_005_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 60
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "id": "player_air_time_60"
   },
   {
     "player_action_id": "player_dived",
@@ -344,6 +477,21 @@
     "player_action_id": "player_emotes",
     "target": {
       "type": "aggregate",
+      "value": 10
+    },
+    "description": "localised_strings.challenge_desc_le_midautumn_00",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 10
+      }
+    ],
+    "id": "player_emoted_10_le_midautumn"
+  },
+  {
+    "player_action_id": "player_emotes",
+    "target": {
+      "type": "aggregate",
       "value": 30
     },
     "description": "localised_strings.challenge_desc_018",
@@ -414,6 +562,21 @@
       }
     ],
     "id": "player_hugged_100"
+  },
+  {
+    "player_action_id": "player_hugged",
+    "target": {
+      "type": "aggregate",
+      "value": 10
+    },
+    "description": "localised_strings.challenge_desc_le_midautumn_02",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 10
+      }
+    ],
+    "id": "player_hugged_10_le_midautumn"
   },
   {
     "player_action_id": "player_hugged",
@@ -656,6 +819,44 @@
     "id": "player_jumped_5"
   },
   {
+    "player_action_id": "posses_an_item_jungle",
+    "target": {
+      "type": "aggregate",
+      "value": 6
+    },
+    "description": "localised_strings.challenge_desc_le_tucan_00",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 6
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_s5"
+      }
+    ],
+    "id": "posses_an_item_jungle_6"
+  },
+  {
+    "player_action_id": "posses_an_item",
+    "target": {
+      "type": "aggregate",
+      "value": 15
+    },
+    "description": "localised_strings.challenge_desc_020_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 15
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "id": "possess_item_any_15"
+  },
+  {
     "player_action_id": "qualify_from_a_survival_round",
     "target": {
       "type": "aggregate",
@@ -751,6 +952,40 @@
     "id": "qualified_survival_5_rounds"
   },
   {
+    "player_action_id": "qualify_round_in_a_party",
+    "target": {
+      "type": "aggregate",
+      "value": 6
+    },
+    "description": "localised_strings.challenge_desc_004_rounds_party",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "numeric",
+        "numeric_value": 6
+      }
+    ],
+    "id": "qualify_6_rounds_in_a_party"
+  },
+  {
+    "player_action_id": "qualify_from_first_round_autumn",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_004_firstround",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_fallevent"
+      }
+    ],
+    "id": "qualify_firstround_3"
+  },
+  {
     "player_action_id": "qualify_from_a_race_round",
     "target": {
       "type": "aggregate",
@@ -770,6 +1005,48 @@
     "id": "qualify_race_10_rounds"
   },
   {
+    "player_action_id": "qualify_race_round_squads4",
+    "target": {
+      "type": "aggregate",
+      "value": 10
+    },
+    "description": "localised_strings.challenge_desc_004_round_type",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 10
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_round_type_race"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "id": "qualify_race_10_rounds_squads4"
+  },
+  {
+    "player_action_id": "qualify_race_round_squads4",
+    "target": {
+      "type": "aggregate",
+      "value": 6
+    },
+    "description": "localised_strings.challenge_desc_004_show_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_round_type_race"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "id": "qualify_race_6_rounds_squads4"
+  },
+  {
     "player_action_id": "qualify_from_a_team_round",
     "target": {
       "type": "aggregate",
@@ -787,6 +1064,25 @@
       }
     ],
     "id": "qualify_team_10_rounds"
+  },
+  {
+    "player_action_id": "qualify_from_a_team_round",
+    "target": {
+      "type": "aggregate",
+      "value": 10
+    },
+    "description": "localised_strings.challenge_desc_le_midautumn_03",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 10
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_round_type_team"
+      }
+    ],
+    "id": "qualify_team_10_rounds_le_midautumn"
   },
   {
     "player_action_id": "qualify_from_a_team_round",
@@ -849,6 +1145,25 @@
     "player_action_id": "qualify_from_a_team_round",
     "target": {
       "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_004_general",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_round_type_team"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "id": "qualify_team_3_rounds"
+  },
+  {
+    "player_action_id": "qualify_from_a_team_round",
+    "target": {
+      "type": "aggregate",
       "value": 4
     },
     "description": "localised_strings.challenge_desc_004",
@@ -865,6 +1180,21 @@
     "id": "qualify_team_4_rounds"
   },
   {
+    "player_action_id": "qualify_from_a_round_first_midautumn",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_004_firstposition",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_fallevent"
+      }
+    ],
+    "id": "qualify_team_5_rounds_first_midautumn"
+  },
+  {
     "player_action_id": "reach_final_round_duos",
     "target": {
       "type": "last_value",
@@ -879,6 +1209,21 @@
       }
     ],
     "id": "reach_final_round_duos"
+  },
+  {
+    "player_action_id": "reach_final_round_jungle",
+    "target": {
+      "type": "aggregate",
+      "value": 6
+    },
+    "description": "localised_strings.challenge_desc_031",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_s5"
+      }
+    ],
+    "id": "reach_final_round_jungle_6"
   },
   {
     "player_action_id": "reach_final_round_lte",
@@ -944,6 +1289,44 @@
     "id": "reach_final_round_trios"
   },
   {
+    "player_action_id": "reach_round_2_jungle",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 2
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_s5"
+      }
+    ],
+    "id": "reach_round_2_jungle_3"
+  },
+  {
+    "player_action_id": "reach_round_2_squads4",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 2
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "id": "reach_round_2_squads4"
+  },
+  {
     "player_action_id": "reach_round_2_trios",
     "target": {
       "type": "aggregate",
@@ -997,6 +1380,25 @@
     "id": "reach_round_3_duos"
   },
   {
+    "player_action_id": "reach_round_3_jungle",
+    "target": {
+      "type": "aggregate",
+      "value": 2
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_s5"
+      }
+    ],
+    "id": "reach_round_3_jungle_2"
+  },
+  {
     "player_action_id": "reach_round_3_trios",
     "target": {
       "type": "aggregate",
@@ -1018,7 +1420,8 @@
   {
     "player_action_id": "reach_round_4_duos",
     "target": {
-      "type": "aggregate",
+      "type": "last_value",
+      "operator": "equal",
       "value": 1
     },
     "description": "localised_strings.challenge_desc_023_show",
@@ -1164,6 +1567,21 @@
     "id": "win_main"
   },
   {
+    "player_action_id": "win_midautumn_show",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_fallevent"
+      }
+    ],
+    "id": "win_midautumn_show"
+  },
+  {
     "player_action_id": "win_show_s5_jungle",
     "target": {
       "type": "last_value",
@@ -1212,6 +1630,25 @@
       }
     ],
     "id": "win_squads4_2"
+  },
+  {
+    "player_action_id": "win_squads4",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      },
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      }
+    ],
+    "id": "win_squads4_3"
   },
   {
     "player_action_id": "win_trios",

@@ -180,6 +180,21 @@
   {
     "set_switchers_overrides": [
       {
+        "key": "VariationPriorities",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Only5_1",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_over_block_party_v51"
+  },
+  {
+    "set_switchers_overrides": [
+      {
         "key": "Fans",
         "undefined_weightings_behaviour": "set_to_zero",
         "weightings": [
@@ -210,6 +225,132 @@
       }
     ],
     "id": "var_over_chompchomp_event_elimination"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "FirstSection",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "SidewayConveyors",
+            "weighting": 75
+          },
+          {
+            "key": "Pendulums",
+            "weighting": 25
+          }
+        ]
+      },
+      {
+        "key": "SecondSection",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "SidewayConveyors",
+            "weighting": 75
+          },
+          {
+            "key": "Pendulums",
+            "weighting": 25
+          }
+        ]
+      },
+      {
+        "key": "SplitPaths",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          },
+          {
+            "key": "SpinningBollards",
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "MergePaths",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 50
+          },
+          {
+            "key": "SpinningBollards",
+            "weighting": 50
+          }
+        ]
+      },
+      {
+        "key": "SlimeSlide",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Hammers",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_over_chompchomp_s5_1"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "FirstSection",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "SidewayConveyors",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "SecondSection",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "SidewayConveyors",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "SplitPaths",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "SpinningBollards",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "MergePaths",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "SpinningBollards",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "SlimeSlide",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Hammers",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_over_chompchomp_v51"
   },
   {
     "set_switchers_overrides": [
@@ -830,7 +971,7 @@
         "undefined_weightings_behaviour": "set_to_zero",
         "weightings": [
           {
-            "key": "Off",
+            "key": "On",
             "weighting": 1
           }
         ]
@@ -1020,7 +1161,7 @@
         "undefined_weightings_behaviour": "set_to_zero",
         "weightings": [
           {
-            "key": "On",
+            "key": "Off",
             "weighting": 1
           }
         ]
@@ -2071,6 +2212,521 @@
   {
     "set_switchers_overrides": [
       {
+        "key": "BetweenGates",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Turntables",
+            "weighting": 50
+          },
+          {
+            "key": "Conveyors",
+            "weighting": 50
+          }
+        ]
+      },
+      {
+        "key": "Fan",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Water",
+            "weighting": 80
+          },
+          {
+            "key": "Fan",
+            "weighting": 20
+          }
+        ]
+      }
+    ],
+    "id": "var_over_doordash_s5_1"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "BetweenGates",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Conveyors",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Fan",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Water",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_over_doordash_v51_01"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "BetweenGates",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Turntables",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Fan",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Water",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_over_doordash_v51_02"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "Section01_Hammers",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Hammer",
+            "weighting": 80
+          },
+          {
+            "key": "Off",
+            "weighting": 20
+          }
+        ]
+      },
+      {
+        "key": "Section01_Pegwin",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "On",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section02_BouncyRiver",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "LayoutB",
+            "weighting": 50
+          },
+          {
+            "key": "Spinner_Arms",
+            "weighting": 25
+          },
+          {
+            "key": "Frogs",
+            "weighting": 25
+          }
+        ]
+      },
+      {
+        "key": "Section02_LastSegment",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 0
+          },
+          {
+            "key": "Flippers",
+            "weighting": 100
+          },
+          {
+            "key": "Fans",
+            "weighting": 0
+          },
+          {
+            "key": "Flippers_And_Fans",
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "Section03_DrumsMovement",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "UpAndDown",
+            "weighting": 80
+          },
+          {
+            "key": "Original",
+            "weighting": 20
+          }
+        ]
+      },
+      {
+        "key": "Section04_Bottom",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 100
+          },
+          {
+            "key": "Lateral",
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "Section04_Top",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Diagonal",
+            "weighting": 80
+          },
+          {
+            "key": "Original",
+            "weighting": 20
+          }
+        ]
+      },
+      {
+        "key": "Section05_Top",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Circular",
+            "weighting": 30
+          },
+          {
+            "key": "Fans",
+            "weighting": 30
+          },
+          {
+            "key": "Sideways",
+            "weighting": 30
+          }
+        ]
+      },
+      {
+        "key": "Section05_Bottom",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 100
+          },
+          {
+            "key": "Sideways",
+            "weighting": 0
+          },
+          {
+            "key": "Logswing",
+            "weighting": 0
+          }
+        ]
+      }
+    ],
+    "id": "var_over_drumtop_s5_1"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "Section01_Hammers",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Hammer",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section01_Pegwin",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "On",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section02_BouncyRiver",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Spinner_Arms",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section02_LastSegment",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Flippers",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section03_DrumsMovement",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "UpAndDown",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section04_Bottom",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Lateral",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section04_Top",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Diagonal",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section05_Top",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Sideways",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section05_Bottom",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Sideways",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_over_drumtop_v51_01"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "Section01_Hammers",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Hammer",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section01_Pegwin",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "On",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section02_BouncyRiver",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Frogs",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section02_LastSegment",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Fans",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section03_DrumsMovement",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "UpAndDown",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section04_Bottom",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Lateral",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section04_Top",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Diagonal",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section05_Top",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Circular",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section05_Bottom",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Logswing",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_over_drumtop_v51_02"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "Section01_Hammers",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Hammer",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section01_Pegwin",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "On",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section02_BouncyRiver",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "LayoutB",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section02_LastSegment",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Flippers_And_Fans",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section03_DrumsMovement",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "UpAndDown",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section04_Bottom",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Lateral",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section04_Top",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Fans",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section05_Top",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Circular",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section05_Bottom",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Logswing",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_over_drumtop_v51_03"
+  },
+  {
+    "set_switchers_overrides": [
+      {
         "key": "Drawbridges",
         "undefined_weightings_behaviour": "use_defaults",
         "weightings": [
@@ -2302,6 +2958,168 @@
       }
     ],
     "id": "var_over_fall_mountain_event_yeetus"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "Stairs",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 20
+          },
+          {
+            "key": "Flippers",
+            "weighting": 50
+          },
+          {
+            "key": "MovingPillars",
+            "weighting": 15
+          },
+          {
+            "key": "Hammer",
+            "weighting": 15
+          }
+        ]
+      },
+      {
+        "key": "EndRamp",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Frogs",
+            "weighting": 80
+          },
+          {
+            "key": "Off",
+            "weighting": 20
+          }
+        ]
+      },
+      {
+        "key": "End",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          },
+          {
+            "key": "Frogs",
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "Start",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "ConveyorBelts",
+            "weighting": 80
+          },
+          {
+            "key": "Off",
+            "weighting": 20
+          }
+        ]
+      },
+      {
+        "key": "ParallelWalls",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "GravityZone",
+            "weighting": 50
+          },
+          {
+            "key": "Off",
+            "weighting": 50
+          }
+        ]
+      },
+      {
+        "key": "Diamonds",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "GravityZone",
+            "weighting": 25
+          },
+          {
+            "key": "Off",
+            "weighting": 75
+          }
+        ]
+      }
+    ],
+    "id": "var_over_fall_mountain_s5_1"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "Stairs",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Flippers",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "EndRamp",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Frogs",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "End",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Frogs",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Start",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "ConveyorBelts",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "ParallelWalls",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "GravityZone",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Diamonds",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "GravityZone",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_over_fall_mountain_v51_01"
   },
   {
     "set_switchers_overrides": [
@@ -4035,6 +4853,509 @@
   {
     "set_switchers_overrides": [
       {
+        "key": "Section1_TopRoute",
+        "undefined_weightings_behaviour": "use_defaults",
+        "weightings": [
+          {
+            "key": "Drums",
+            "weighting": 40
+          },
+          {
+            "key": "SpinArm_Turntable",
+            "weighting": 40
+          },
+          {
+            "key": "Frog_Turntable",
+            "weighting": 20
+          }
+        ]
+      },
+      {
+        "key": "Section1_BottomRoute",
+        "undefined_weightings_behaviour": "use_defaults",
+        "weightings": [
+          {
+            "key": "Bollards",
+            "weighting": 60
+          },
+          {
+            "key": "Hammers",
+            "weighting": 40
+          }
+        ]
+      },
+      {
+        "key": "Section2_TopRoute",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "AltDrums",
+            "weighting": 70
+          },
+          {
+            "key": "Original",
+            "weighting": 30
+          }
+        ]
+      },
+      {
+        "key": "Section2_BottomRoute",
+        "undefined_weightings_behaviour": "use_defaults",
+        "weightings": [
+          {
+            "key": "GravityZone",
+            "weighting": 40
+          },
+          {
+            "key": "Floor_Fan",
+            "weighting": 50
+          },
+          {
+            "key": "Original",
+            "weighting": 10
+          }
+        ]
+      },
+      {
+        "key": "Section2_BottomTurntables",
+        "undefined_weightings_behaviour": "use_defaults",
+        "weightings": [
+          {
+            "key": "Yeetus",
+            "weighting": 60
+          },
+          {
+            "key": "Turntables",
+            "weighting": 40
+          }
+        ]
+      },
+      {
+        "key": "Section3_TopRoute",
+        "undefined_weightings_behaviour": "use_defaults",
+        "weightings": [
+          {
+            "key": "Yeetus",
+            "weighting": 50
+          },
+          {
+            "key": "Off",
+            "weighting": 50
+          }
+        ]
+      },
+      {
+        "key": "Section3_BottomRoute",
+        "undefined_weightings_behaviour": "use_defaults",
+        "weightings": [
+          {
+            "key": "Reverse",
+            "weighting": 80
+          },
+          {
+            "key": "Original",
+            "weighting": 20
+          }
+        ]
+      },
+      {
+        "key": "Section4_TopRoute_Frogs",
+        "undefined_weightings_behaviour": "use_defaults",
+        "weightings": [
+          {
+            "key": "DrumJumps",
+            "weighting": 70
+          },
+          {
+            "key": "Original",
+            "weighting": 30
+          }
+        ]
+      },
+      {
+        "key": "Section4_TopRoute_Bollards",
+        "undefined_weightings_behaviour": "use_defaults",
+        "weightings": [
+          {
+            "key": "Fans",
+            "weighting": 70
+          },
+          {
+            "key": "Bollards",
+            "weighting": 30
+          }
+        ]
+      },
+      {
+        "key": "Section4_BottomRoute_River",
+        "undefined_weightings_behaviour": "use_defaults",
+        "weightings": [
+          {
+            "key": "AltDrum",
+            "weighting": 70
+          },
+          {
+            "key": "Original",
+            "weighting": 30
+          }
+        ]
+      },
+      {
+        "key": "Section4_BottomRoute_Cannon",
+        "undefined_weightings_behaviour": "use_defaults",
+        "weightings": [
+          {
+            "key": "Fruit",
+            "weighting": 50
+          },
+          {
+            "key": "Boulders",
+            "weighting": 50
+          }
+        ]
+      },
+      {
+        "key": "Section5_TopRoute",
+        "undefined_weightings_behaviour": "use_defaults",
+        "weightings": [
+          {
+            "key": "AltLogSwing",
+            "weighting": 70
+          },
+          {
+            "key": "LogSwing",
+            "weighting": 30
+          }
+        ]
+      },
+      {
+        "key": "Section5_BottomRoute",
+        "undefined_weightings_behaviour": "use_defaults",
+        "weightings": [
+          {
+            "key": "Fans",
+            "weighting": 50
+          },
+          {
+            "key": "Pegwin",
+            "weighting": 30
+          },
+          {
+            "key": "Original",
+            "weighting": 20
+          }
+        ]
+      },
+      {
+        "key": "Section5_EndCliff",
+        "undefined_weightings_behaviour": "use_defaults",
+        "weightings": [
+          {
+            "key": "Flippers",
+            "weighting": 70
+          },
+          {
+            "key": "Off",
+            "weighting": 30
+          }
+        ]
+      }
+    ],
+    "id": "var_over_gauntlet_07_s5_1"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "Section1_TopRoute",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "SpinArm_Turntable",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section1_BottomRoute",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Bollards",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section2_TopRoute",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "AltDrums",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section2_BottomRoute",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Floor_Fan",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section2_BottomTurntables",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Yeetus",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section3_TopRoute",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Yeetus",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section3_BottomRoute",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Reverse",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section4_TopRoute_Frogs",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "DrumJumps",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section4_TopRoute_Bollards",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Fans",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section4_BottomRoute_River",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "AltDrum",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section4_BottomRoute_Cannon",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Fruit",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section5_TopRoute",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "AltLogSwing",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section5_BottomRoute",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Pegwin",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section5_EndCliff",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Flippers",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_over_gauntlet_07_v51_01"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "Section1_TopRoute",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Drums",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section1_BottomRoute",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Bollards",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section2_TopRoute",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "AltDrums",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section2_BottomRoute",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "GravityZone",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section2_BottomTurntables",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Yeetus",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section3_TopRoute",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Yeetus",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section3_BottomRoute",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Reverse",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section4_TopRoute_Frogs",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "DrumJumps",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section4_TopRoute_Bollards",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Fans",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section4_BottomRoute_River",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "AltDrum",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section4_BottomRoute_Cannon",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Fruit",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section5_TopRoute",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "AltLogSwing",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section5_BottomRoute",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Fans",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section5_EndCliff",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Flippers",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_over_gauntlet_07_v51_02"
+  },
+  {
+    "set_switchers_overrides": [
+      {
         "key": "OuterRing",
         "undefined_weightings_behaviour": "set_to_zero",
         "weightings": [
@@ -4999,6 +6320,184 @@
   {
     "set_switchers_overrides": [
       {
+        "key": "Centre",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Spinner1",
+            "weighting": 50
+          },
+          {
+            "key": "Spinner2",
+            "weighting": 50
+          }
+        ]
+      },
+      {
+        "key": "LogSwingZone",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Extra_Fans",
+            "weighting": 70
+          },
+          {
+            "key": "Off",
+            "weighting": 30
+          }
+        ]
+      },
+      {
+        "key": "DrawbridgeZone",
+        "undefined_weightings_behaviour": "use_defaults",
+        "weightings": [
+          {
+            "key": "Drums",
+            "weighting": 70
+          },
+          {
+            "key": "Original",
+            "weighting": 30
+          }
+        ]
+      },
+      {
+        "key": "PuncherZone",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "AltPattern",
+            "weighting": 70
+          },
+          {
+            "key": "Original",
+            "weighting": 30
+          }
+        ]
+      },
+      {
+        "key": "SpinDoorZone",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "SpinnerArm",
+            "weighting": 70
+          },
+          {
+            "key": "SpinDoor",
+            "weighting": 30
+          }
+        ]
+      },
+      {
+        "key": "SpinDoorZone_Hammer",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Pinball",
+            "weighting": 60
+          },
+          {
+            "key": "Hammers",
+            "weighting": 40
+          }
+        ]
+      },
+      {
+        "key": "DrumHillZone",
+        "undefined_weightings_behaviour": "use_defaults",
+        "weightings": [
+          {
+            "key": "Frog",
+            "weighting": 70
+          },
+          {
+            "key": "Original",
+            "weighting": 30
+          }
+        ]
+      }
+    ],
+    "id": "var_over_king_of_the_hill_s5_1"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "Centre",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Spinner1",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "LogSwingZone",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Extra_Fans",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "DrawbridgeZone",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Drums",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "PuncherZone",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "AltPattern",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "SpinDoorZone",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "SpinnerArm",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "SpinDoorZone_Hammer",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Pinball",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "DrumHillZone",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Frog",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_over_koth_v51"
+  },
+  {
+    "set_switchers_overrides": [
+      {
         "key": "Yeetus",
         "undefined_weightings_behaviour": "set_to_zero",
         "weightings": [
@@ -5314,6 +6813,21 @@
     "set_switchers_overrides": [
       {
         "key": "EndSection",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "ExpandingDome",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_over_lava_v51"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "EndSection",
         "undefined_weightings_behaviour": "use_defaults",
         "weightings": [
           {
@@ -5477,6 +6991,21 @@
   {
     "set_switchers_overrides": [
       {
+        "key": "EndSection",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "ExpandingDome",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_over_lava_variation_s5_1"
+  },
+  {
+    "set_switchers_overrides": [
+      {
         "key": "Centre",
         "undefined_weightings_behaviour": "use_defaults",
         "weightings": [
@@ -5527,6 +7056,183 @@
       }
     ],
     "id": "var_over_match_fall_squads"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "Corridor",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Pinball_Flippers",
+            "weighting": 50
+          },
+          {
+            "key": "Flippers",
+            "weighting": 50
+          }
+        ]
+      },
+      {
+        "key": "Slides_Area",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Punching_Gloves",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Frog_Area",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Turnstile",
+            "weighting": 50
+          },
+          {
+            "key": "Spin_Door",
+            "weighting": 50
+          }
+        ]
+      },
+      {
+        "key": "Big_Fan_Area",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Big_Fan_Fan",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Small_Island_Area",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Turntable",
+            "weighting": 50
+          },
+          {
+            "key": "Drums",
+            "weighting": 50
+          }
+        ]
+      }
+    ],
+    "id": "var_over_penguin_solos_s5_1"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "Corridor",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Flippers",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Slides_Area",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Punching_Gloves",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Frog_Area",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Spin_Door",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Big_Fan_Area",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Big_Fan_Fan",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Small_Island_Area",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Drums",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_over_penguin_solos_v51_01"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "Corridor",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Pinball_Flippers",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Slides_Area",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Punching_Gloves",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Frog_Area",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Turnstile",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Big_Fan_Area",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Big_Fan_Fan",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Small_Island_Area",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Turntable",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_over_penguin_solos_v51_02"
   },
   {
     "set_switchers_overrides": [
@@ -5991,6 +7697,309 @@
       }
     ],
     "id": "var_over_skeefall_variation_s4_5"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "Start",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Pegwin",
+            "weighting": 80
+          },
+          {
+            "key": "Off",
+            "weighting": 20
+          }
+        ]
+      },
+      {
+        "key": "Floor1_Ramp3",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Punchers",
+            "weighting": 80
+          },
+          {
+            "key": "Forcefields",
+            "weighting": 20
+          }
+        ]
+      },
+      {
+        "key": "Floor1_RightCorner",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Fans",
+            "weighting": 80
+          },
+          {
+            "key": "LaserSwing",
+            "weighting": 20
+          }
+        ]
+      },
+      {
+        "key": "Floor2_LeftCorner",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Yeetus",
+            "weighting": 80
+          },
+          {
+            "key": "Off",
+            "weighting": 20
+          }
+        ]
+      },
+      {
+        "key": "Floor2_RightCorner",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "MovableBlock",
+            "weighting": 80
+          },
+          {
+            "key": "Forcefields",
+            "weighting": 20
+          }
+        ]
+      },
+      {
+        "key": "Floor3_Ramp1",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          },
+          {
+            "key": "HighGrav",
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "Floor4_Ramp1",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Bollards",
+            "weighting": 80
+          },
+          {
+            "key": "Original",
+            "weighting": 20
+          }
+        ]
+      },
+      {
+        "key": "Floor4_RightCorner",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "AltHurdle",
+            "weighting": 80
+          },
+          {
+            "key": "Original",
+            "weighting": 20
+          }
+        ]
+      },
+      {
+        "key": "Floor5_Ramp1",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Fan",
+            "weighting": 80
+          },
+          {
+            "key": "LaserSwing",
+            "weighting": 20
+          }
+        ]
+      },
+      {
+        "key": "Ending",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 100
+          },
+          {
+            "key": "AltEnd",
+            "weighting": 0
+          }
+        ]
+      }
+    ],
+    "id": "var_over_slimeclimb_2_s5_1"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "Start",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Pegwin",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Floor1_Ramp3",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Punchers",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Floor1_RightCorner",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Fans",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Floor2_LeftCorner",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Yeetus",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Floor2_RightCorner",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "MovableBlock",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Floor3_Ramp1",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "HighGrav",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Floor4_Ramp1",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Bollards",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Floor4_RightCorner",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "AltHurdle",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Floor5_Ramp1",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Fan",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Ending",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "AltEnd",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_over_slimeclimb_2_v51"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "Floor",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "MoreTiles",
+            "weighting": 50
+          },
+          {
+            "key": "SafeCentre",
+            "weighting": 50
+          },
+          {
+            "key": "AlternatingEdgeTiles",
+            "weighting": 0
+          }
+        ]
+      }
+    ],
+    "id": "var_over_snowballsurvival_s5_1"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "Floor",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "MoreTiles",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_over_snowballsurvival_v51_01"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "Floor",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "AlternatingEdgeTiles",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_over_snowballsurvival_v51_02"
   },
   {
     "set_switchers_overrides": [
@@ -7048,5 +9057,63 @@
       }
     ],
     "id": "var_over_wall_guys_season_3_variation_01"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "Centre",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Turntable",
+            "weighting": 90
+          },
+          {
+            "key": "Pegwin",
+            "weighting": 10
+          }
+        ]
+      },
+      {
+        "key": "Arena_Outside",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Static_Drums",
+            "weighting": 50
+          },
+          {
+            "key": "Fans",
+            "weighting": 50
+          }
+        ]
+      }
+    ],
+    "id": "var_robotrampage_s5_1"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "Centre",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Turntable",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Arena_Outside",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Static_Drums",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_robotrampage_v51_01"
   }
 ]

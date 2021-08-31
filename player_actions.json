@@ -16,6 +16,14 @@
   },
   {
     "config": {
+      "metric_id": "badge_awarded_bronze",
+      "round_index": null,
+      "level_archetype": "archetype_race"
+    },
+    "id": "earn_bronze_medal_race"
+  },
+  {
+    "config": {
       "metric_id": "badge_awarded_gold",
       "round_index": null,
       "level_archetype": null
@@ -24,11 +32,27 @@
   },
   {
     "config": {
+      "metric_id": "badge_awarded_gold",
+      "round_index": null,
+      "level_archetype": "archetype_race"
+    },
+    "id": "earn_gold_medal_race"
+  },
+  {
+    "config": {
       "metric_id": "badge_awarded_silver",
       "round_index": null,
       "level_archetype": null
     },
     "id": "earn_silver_medal"
+  },
+  {
+    "config": {
+      "metric_id": "badge_awarded_silver",
+      "round_index": null,
+      "level_archetype": "archetype_team"
+    },
+    "id": "earn_silver_medal_from_a_team_round"
   },
   {
     "config": {
@@ -48,6 +72,25 @@
       "is_private_lobby": "false"
     },
     "id": "level_score_earned"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "is_final_round": null,
+      "level_archetype": "archetype_hunt",
+      "level_id": null,
+      "overtime": null,
+      "is_in_party": null,
+      "party_size": null,
+      "position_placed": null,
+      "team_score": null,
+      "round_index": null,
+      "round_qualified": null,
+      "qualified_player_count": null,
+      "show_id": "event_only_season_5_0309_1209",
+      "is_private_lobby": null
+    },
+    "id": "play_a_hunt_round_jungle"
   },
   {
     "config": {
@@ -146,6 +189,25 @@
   },
   {
     "config": {
+      "metric_id": "item_possession",
+      "is_final_round": null,
+      "level_archetype": null,
+      "level_id": null,
+      "overtime": null,
+      "is_in_party": null,
+      "party_size": null,
+      "position_placed": null,
+      "team_score": null,
+      "round_index": null,
+      "round_qualified": null,
+      "qualified_player_count": null,
+      "show_id": "event_only_season_5_0309_1209",
+      "is_private_lobby": null
+    },
+    "id": "posses_an_item_jungle"
+  },
+  {
+    "config": {
       "metric_id": "round_reached",
       "is_final_round": null,
       "level_archetype": "archetype_hunt",
@@ -229,6 +291,25 @@
       "overtime": null,
       "is_in_party": null,
       "party_size": null,
+      "position_placed": 1,
+      "team_score": null,
+      "round_index": null,
+      "round_qualified": "true",
+      "qualified_player_count": null,
+      "show_id": "event_autumn_festival_squads_2109_2709_21",
+      "is_private_lobby": null
+    },
+    "id": "qualify_from_a_round_first_midautumn"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "is_final_round": null,
+      "level_archetype": null,
+      "level_id": null,
+      "overtime": null,
+      "is_in_party": null,
+      "party_size": null,
       "position_placed": null,
       "team_score": null,
       "round_index": null,
@@ -299,6 +380,63 @@
   {
     "config": {
       "metric_id": "round_reached",
+      "is_final_round": null,
+      "level_archetype": null,
+      "level_id": null,
+      "overtime": null,
+      "is_in_party": null,
+      "party_size": null,
+      "position_placed": null,
+      "team_score": null,
+      "round_index": 0,
+      "round_qualified": "true",
+      "qualified_player_count": null,
+      "show_id": "event_autumn_festival_squads_2109_2709_21",
+      "is_private_lobby": null
+    },
+    "id": "qualify_from_first_round_autumn"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "is_final_round": null,
+      "level_archetype": "archetype_race",
+      "level_id": null,
+      "overtime": null,
+      "is_in_party": null,
+      "party_size": null,
+      "position_placed": null,
+      "team_score": null,
+      "round_index": null,
+      "round_qualified": "true",
+      "qualified_player_count": null,
+      "show_id": "squads_4player_2608_2009",
+      "is_private_lobby": null
+    },
+    "id": "qualify_race_round_squads4"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "is_final_round": null,
+      "level_archetype": null,
+      "level_id": null,
+      "overtime": null,
+      "is_in_party": "true",
+      "party_size": null,
+      "position_placed": null,
+      "team_score": null,
+      "round_index": null,
+      "round_qualified": "true",
+      "qualified_player_count": null,
+      "show_id": null,
+      "is_private_lobby": null
+    },
+    "id": "qualify_round_in_a_party"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
       "is_final_round": "true",
       "level_archetype": null,
       "level_id": null,
@@ -352,6 +490,25 @@
       "is_private_lobby": null
     },
     "id": "reach_final_round_duos"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "is_final_round": "true",
+      "level_archetype": null,
+      "level_id": null,
+      "overtime": null,
+      "is_in_party": null,
+      "party_size": null,
+      "position_placed": null,
+      "team_score": null,
+      "round_index": null,
+      "round_qualified": null,
+      "qualified_player_count": null,
+      "show_id": "event_only_season_5_0309_1209",
+      "is_private_lobby": null
+    },
+    "id": "reach_final_round_jungle"
   },
   {
     "config": {
@@ -481,6 +638,44 @@
       "round_index": 1,
       "round_qualified": null,
       "qualified_player_count": null,
+      "show_id": "event_only_season_5_0309_1209",
+      "is_private_lobby": "false"
+    },
+    "id": "reach_round_2_jungle"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "is_final_round": null,
+      "level_archetype": null,
+      "level_id": null,
+      "overtime": null,
+      "is_in_party": null,
+      "party_size": null,
+      "position_placed": null,
+      "team_score": null,
+      "round_index": 1,
+      "round_qualified": null,
+      "qualified_player_count": null,
+      "show_id": "squads_4player_2608_2009",
+      "is_private_lobby": "false"
+    },
+    "id": "reach_round_2_squads4"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "is_final_round": null,
+      "level_archetype": null,
+      "level_id": null,
+      "overtime": null,
+      "is_in_party": null,
+      "party_size": null,
+      "position_placed": null,
+      "team_score": null,
+      "round_index": 1,
+      "round_qualified": null,
+      "qualified_player_count": null,
       "show_id": "squads_3player_0208_to_1508_2021",
       "is_private_lobby": "false"
     },
@@ -542,6 +737,25 @@
       "is_private_lobby": "false"
     },
     "id": "reach_round_3_duos"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "is_final_round": null,
+      "level_archetype": null,
+      "level_id": null,
+      "overtime": null,
+      "is_in_party": null,
+      "party_size": null,
+      "position_placed": null,
+      "team_score": null,
+      "round_index": 2,
+      "round_qualified": null,
+      "qualified_player_count": null,
+      "show_id": "event_only_season_5_0309_1209",
+      "is_private_lobby": "false"
+    },
+    "id": "reach_round_3_jungle"
   },
   {
     "config": {
@@ -876,6 +1090,25 @@
       "round_index": null,
       "round_qualified": "true",
       "qualified_player_count": null,
+      "show_id": "event_autumn_festival_squads_2109_2709_21",
+      "is_private_lobby": "false"
+    },
+    "id": "win_midautumn_show"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "is_final_round": "true",
+      "level_archetype": null,
+      "level_id": null,
+      "overtime": null,
+      "is_in_party": null,
+      "party_size": null,
+      "position_placed": null,
+      "team_score": null,
+      "round_index": null,
+      "round_qualified": "true",
+      "qualified_player_count": null,
       "show_id": null,
       "is_private_lobby": "false"
     },
@@ -933,7 +1166,7 @@
       "round_index": null,
       "round_qualified": "true",
       "qualified_player_count": null,
-      "show_id": "squads_4player",
+      "show_id": "squads_4player_2608_2009",
       "is_private_lobby": "false"
     },
     "id": "win_squads4"
