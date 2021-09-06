@@ -503,6 +503,60 @@
             {
               "type": "currencies",
               "item_id": "kudos",
+              "quantity": 4500
+            }
+          ],
+          "purchase_quantity": 1
+        }
+      ],
+      "reward": {
+        "inventory_items": [
+          {
+            "type": "rewards",
+            "item_id": "bottom_beanbot_02",
+            "quantity": 1
+          }
+        ]
+      },
+      "id": "bottom_beanbot_02"
+    },
+    "bundle_group_id": "featured_kudos",
+    "weight": 30,
+    "priority": 0,
+    "refresh_cycle_length_seconds": 86400,
+    "targets": [
+      {
+        "conditions": [
+          {
+            "type": "date_time",
+            "data": {
+              "operator": "between",
+              "start": "2021-09-17T09:00:00",
+              "end": "2021-09-21T09:00:00"
+            }
+          }
+        ],
+        "condition_ids": [],
+        "id": "date_17092021_to_21092021"
+      }
+    ],
+    "target_ids": [],
+    "id": "bottom_beanbot_02"
+  },
+  {
+    "bundle": {
+      "display_name": null,
+      "rarity": null,
+      "category": "costume",
+      "has_stock": true,
+      "stock": 1,
+      "purchase_options": [
+        {
+          "payment_type": "inventory_items",
+          "payment_items": [
+            {
+              "type": "currencies",
+              "item_id": "kudos",
               "quantity": 2000
             }
           ],
@@ -2411,23 +2465,8 @@
     "weight": 1,
     "priority": 0,
     "refresh_cycle_length_seconds": 345600,
-    "targets": [
-      {
-        "conditions": [
-          {
-            "type": "date_time",
-            "data": {
-              "operator": "between",
-              "start": "2021-09-17T09:00:00",
-              "end": "2021-09-21T09:00:00"
-            }
-          }
-        ],
-        "condition_ids": [],
-        "id": "date_17092021_to_21092021"
-      }
-    ],
     "target_ids": [],
+    "targets": [],
     "id": "bottom_event_goldfinch_01"
   },
   {
@@ -28975,6 +29014,60 @@
             {
               "type": "currencies",
               "item_id": "kudos",
+              "quantity": 4500
+            }
+          ],
+          "purchase_quantity": 1
+        }
+      ],
+      "reward": {
+        "inventory_items": [
+          {
+            "type": "rewards",
+            "item_id": "top_beanbot_02",
+            "quantity": 1
+          }
+        ]
+      },
+      "id": "top_beanbot_02"
+    },
+    "bundle_group_id": "featured_kudos",
+    "weight": 66,
+    "priority": 0,
+    "refresh_cycle_length_seconds": 86400,
+    "targets": [
+      {
+        "conditions": [
+          {
+            "type": "date_time",
+            "data": {
+              "operator": "between",
+              "start": "2021-09-17T09:00:00",
+              "end": "2021-09-21T09:00:00"
+            }
+          }
+        ],
+        "condition_ids": [],
+        "id": "date_17092021_to_21092021"
+      }
+    ],
+    "target_ids": [],
+    "id": "top_beanbot_02"
+  },
+  {
+    "bundle": {
+      "display_name": null,
+      "rarity": null,
+      "category": "costume",
+      "has_stock": true,
+      "stock": 1,
+      "purchase_options": [
+        {
+          "payment_type": "inventory_items",
+          "payment_items": [
+            {
+              "type": "currencies",
+              "item_id": "kudos",
               "quantity": 2000
             }
           ],
@@ -30990,23 +31083,8 @@
     "weight": 1,
     "priority": 0,
     "refresh_cycle_length_seconds": 345600,
-    "targets": [
-      {
-        "conditions": [
-          {
-            "type": "date_time",
-            "data": {
-              "operator": "between",
-              "start": "2021-09-17T09:00:00",
-              "end": "2021-09-21T09:00:00"
-            }
-          }
-        ],
-        "condition_ids": [],
-        "id": "date_17092021_to_21092021"
-      }
-    ],
     "target_ids": [],
+    "targets": [],
     "id": "top_event_goldfinch_01"
   },
   {
