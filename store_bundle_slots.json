@@ -517,8 +517,8 @@
           "payment_items": [
             {
               "type": "currencies",
-              "item_id": "kudos",
-              "quantity": 4500
+              "item_id": "crowns",
+              "quantity": 1
             }
           ],
           "purchase_quantity": 1
@@ -535,10 +535,10 @@
       },
       "id": "bottom_beanbot_02"
     },
-    "bundle_group_id": "featured_kudos",
+    "bundle_group_id": "featured",
     "weight": 30,
     "priority": 0,
-    "refresh_cycle_length_seconds": 86400,
+    "refresh_cycle_length_seconds": 345600,
     "targets": [
       {
         "description": null,
@@ -3436,7 +3436,7 @@
     "bundle_group_id": "featured",
     "weight": 1,
     "priority": 0,
-    "refresh_cycle_length_seconds": 259200,
+    "refresh_cycle_length_seconds": 345600,
     "targets": [
       {
         "conditions": [
@@ -8908,6 +8908,61 @@
     "target_ids": [],
     "targets": [],
     "id": "bottom_s5_musketeer_01"
+  },
+  {
+    "bundle": {
+      "display_name": null,
+      "rarity": null,
+      "category": "costume",
+      "has_stock": true,
+      "stock": 1,
+      "purchase_options": [
+        {
+          "payment_type": "inventory_items",
+          "payment_items": [
+            {
+              "type": "currencies",
+              "item_id": "kudos",
+              "quantity": 11000
+            }
+          ],
+          "purchase_quantity": 1
+        }
+      ],
+      "reward": {
+        "inventory_items": [
+          {
+            "type": "rewards",
+            "item_id": "bottom_s5_octopus_02",
+            "quantity": 1
+          }
+        ]
+      },
+      "id": "bottom_s5_octopus_02"
+    },
+    "bundle_group_id": "featured",
+    "weight": 1,
+    "priority": 0,
+    "refresh_cycle_length_seconds": 345600,
+    "targets": [
+      {
+        "conditions": [
+          {
+            "type": "date_time",
+            "data": {
+              "operator": "between",
+              "start": "2021-10-25T09:00:00",
+              "end": "2021-10-29T09:00:00"
+            }
+          }
+        ],
+        "description": null,
+        "condition_ids": [],
+        "id": "251021_281021"
+      }
+    ],
+    "target_ids": [],
+    "id": "bottom_s5_octopus_02"
   },
   {
     "bundle": {
@@ -15684,7 +15739,7 @@
     "bundle_group_id": "featured",
     "weight": 1,
     "priority": 0,
-    "refresh_cycle_length_seconds": 172800,
+    "refresh_cycle_length_seconds": 345600,
     "targets": [
       {
         "conditions": [
@@ -15692,8 +15747,8 @@
             "type": "date_time",
             "data": {
               "operator": "between",
-              "start": "2021-11-21T09:00:00",
-              "end": "2021-11-25T09:00:00"
+              "start": "2021-10-21T09:00:00",
+              "end": "2021-10-25T09:00:00"
             }
           }
         ],
@@ -21023,8 +21078,8 @@
           "payment_items": [
             {
               "type": "currencies",
-              "item_id": "kudos",
-              "quantity": 1700
+              "item_id": "crowns",
+              "quantity": 1
             }
           ],
           "purchase_quantity": 1
@@ -21044,7 +21099,7 @@
     "bundle_group_id": "featured",
     "weight": 1,
     "priority": 0,
-    "refresh_cycle_length_seconds": 259200,
+    "refresh_cycle_length_seconds": 345600,
     "targets": [
       {
         "conditions": [
@@ -21052,14 +21107,14 @@
             "type": "date_time",
             "data": {
               "operator": "between",
-              "start": "2021-10-17T09:00:00",
-              "end": "2021-10-21T09:00:00"
+              "start": "2021-11-08T09:00:00",
+              "end": "2021-11-12T09:00:00"
             }
           }
         ],
         "description": null,
         "condition_ids": [],
-        "id": "date_17102021_to_20102021"
+        "id": "081121_111121"
       }
     ],
     "target_ids": [],
@@ -28930,7 +28985,7 @@
     "bundle_group_id": "featured",
     "weight": 1,
     "priority": 0,
-    "refresh_cycle_length_seconds": 172800,
+    "refresh_cycle_length_seconds": 345600,
     "targets": [
       {
         "conditions": [
@@ -29074,8 +29129,8 @@
           "payment_items": [
             {
               "type": "currencies",
-              "item_id": "crowns",
-              "quantity": 3
+              "item_id": "kudos",
+              "quantity": 9000
             }
           ],
           "purchase_quantity": 1
@@ -29103,14 +29158,14 @@
             "type": "date_time",
             "data": {
               "operator": "between",
-              "start": "2021-11-08T09:00:00",
-              "end": "2021-11-12T09:00:00"
+              "start": "2021-10-17T09:00:00",
+              "end": "2021-10-21T09:00:00"
             }
           }
         ],
         "description": null,
         "condition_ids": [],
-        "id": "081121_111121"
+        "id": "date_17102021_to_20102021"
       }
     ],
     "target_ids": [],
@@ -29694,8 +29749,8 @@
           "payment_items": [
             {
               "type": "currencies",
-              "item_id": "kudos",
-              "quantity": 4500
+              "item_id": "crowns",
+              "quantity": 1
             }
           ],
           "purchase_quantity": 1
@@ -29712,10 +29767,10 @@
       },
       "id": "top_beanbot_02"
     },
-    "bundle_group_id": "featured_kudos",
+    "bundle_group_id": "featured",
     "weight": 66,
     "priority": 0,
-    "refresh_cycle_length_seconds": 86400,
+    "refresh_cycle_length_seconds": 345600,
     "targets": [
       {
         "description": null,
@@ -32806,7 +32861,7 @@
     "bundle_group_id": "featured",
     "weight": 1,
     "priority": 0,
-    "refresh_cycle_length_seconds": 259200,
+    "refresh_cycle_length_seconds": 345600,
     "targets": [
       {
         "conditions": [
@@ -38278,6 +38333,61 @@
     "target_ids": [],
     "targets": [],
     "id": "top_s5_musketeer_01"
+  },
+  {
+    "bundle": {
+      "display_name": null,
+      "rarity": null,
+      "category": "costume",
+      "has_stock": true,
+      "stock": 1,
+      "purchase_options": [
+        {
+          "payment_type": "inventory_items",
+          "payment_items": [
+            {
+              "type": "currencies",
+              "item_id": "kudos",
+              "quantity": 11000
+            }
+          ],
+          "purchase_quantity": 1
+        }
+      ],
+      "reward": {
+        "inventory_items": [
+          {
+            "type": "rewards",
+            "item_id": "top_s5_octopus_02",
+            "quantity": 1
+          }
+        ]
+      },
+      "id": "top_s5_octopus_02"
+    },
+    "bundle_group_id": "featured",
+    "weight": 1,
+    "priority": 0,
+    "refresh_cycle_length_seconds": 345600,
+    "targets": [
+      {
+        "conditions": [
+          {
+            "type": "date_time",
+            "data": {
+              "operator": "between",
+              "start": "2021-10-25T09:00:00",
+              "end": "2021-10-29T09:00:00"
+            }
+          }
+        ],
+        "description": null,
+        "condition_ids": [],
+        "id": "251021_281021"
+      }
+    ],
+    "target_ids": [],
+    "id": "top_s5_octopus_02"
   },
   {
     "bundle": {
