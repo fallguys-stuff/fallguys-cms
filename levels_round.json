@@ -404,6 +404,48 @@
   {
     "display_name": "localised_strings.level_name_hoarders",
     "scene_name": "FallGuy_BallHogs_01",
+    "game_rules": "game_rules.round_ballhogs_squads_autumn",
+    "level_archetype": "archetype_team",
+    "ingame_music_suffix": null,
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_Hoarders",
+    "level_badge_name": "Hoarders",
+    "level_variation": "levels_variation.variation_ballhogs",
+    "level_variation_overrides": null,
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 2,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        },
+        {
+          "team_position": 2,
+          "multiplier": 1,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_position_02"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_disconnect",
+    "lower_main_ambience_volume": false,
+    "id": "round_ballhogs_squads_autumn"
+  },
+  {
+    "display_name": "localised_strings.level_name_hoarders",
+    "scene_name": "FallGuy_BallHogs_01",
     "game_rules": "game_rules.round_ballhogs_trios",
     "level_archetype": "archetype_team",
     "ingame_music_suffix": null,
@@ -698,6 +740,57 @@
     "fall_feed": "fall_feed_score_basketfall",
     "lower_main_ambience_volume": null,
     "id": "round_basketfall_squads"
+  },
+  {
+    "display_name": "localised_strings.level_name_basketfall",
+    "scene_name": "FallGuy_Basketfall_01",
+    "game_rules": "game_rules.round_basketfall_squads_autumn",
+    "level_archetype": "archetype_team",
+    "ingame_music_suffix": "_Season_04",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_Basketfall",
+    "level_badge_name": "BasketFall",
+    "level_variation": "levels_variation.variation_basketfall",
+    "level_variation_overrides": null,
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.season_04",
+      "level_tags.covenant_final",
+      "level_tags.team_final"
+    ],
+    "bonus": {
+      "type": "team_score",
+      "team_score_tiers": [
+        {
+          "team_score": 20,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_points_20"
+        },
+        {
+          "team_score": 10,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_points_10"
+        },
+        {
+          "team_score": 3,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_points_3"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_score_basketfall",
+    "lower_main_ambience_volume": false,
+    "id": "round_basketfall_squads_autumn"
   },
   {
     "display_name": "localised_strings.level_name_basketfall",
@@ -1675,6 +1768,51 @@
   {
     "display_name": "localised_strings.level_name_penguin_pursuit",
     "scene_name": "FallGuy_ChickenChase_01",
+    "game_rules": "game_rules.round_chicken_chase_squads_autumn",
+    "level_archetype": "archetype_team",
+    "ingame_music_suffix": "_Season_03",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
+    "extra_ambience_event": "AMB_Season_03_Snow",
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_PenguinPursuit",
+    "level_badge_name": "PenguinPersuit",
+    "level_variation": "levels_variation.variation_chicken_chase",
+    "level_variation_overrides": null,
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_late_stage_team_round",
+      "level_tags.saftey_nonstarter",
+      "level_tags.season_03",
+      "level_tags.level_chickenchase_boost"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 2,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        },
+        {
+          "team_position": 2,
+          "multiplier": 1,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_position_02"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_disconnect",
+    "lower_main_ambience_volume": false,
+    "id": "round_chicken_chase_squads_autumn"
+  },
+  {
+    "display_name": "localised_strings.level_name_penguin_pursuit",
+    "scene_name": "FallGuy_ChickenChase_01",
     "game_rules": "game_rules.round_chicken_chase_trios",
     "level_archetype": "archetype_team",
     "ingame_music_suffix": "_Season_03",
@@ -2150,6 +2288,55 @@
     "fall_feed": "fall_feed_special_tail_tag",
     "lower_main_ambience_volume": null,
     "id": "round_conveyor_arena_squads"
+  },
+  {
+    "display_name": "localised_strings.level_name_team_tail_tag",
+    "scene_name": "FallGuy_ConveyorArena_01",
+    "game_rules": "game_rules.round_conveyor_arena_squads_autumn",
+    "level_archetype": "archetype_team",
+    "ingame_music_suffix": null,
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_TeamTailTag",
+    "level_badge_name": "TailTag",
+    "level_variation": "levels_variation.variation_conveyor_arena",
+    "level_variation_overrides": null,
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.exclusive_tailtag_arena",
+      "level_tags.saftey_nonstarter"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        },
+        {
+          "team_position": 2,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_position_02"
+        },
+        {
+          "team_position": 3,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": null
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_special_tail_tag",
+    "lower_main_ambience_volume": false,
+    "id": "round_conveyor_arena_squads_autumn"
   },
   {
     "display_name": "localised_strings.level_name_team_tail_tag",
@@ -3827,6 +4014,50 @@
   {
     "display_name": "localised_strings.level_name_egg_siege",
     "scene_name": "FallGuy_EggGrab_02",
+    "game_rules": "game_rules.round_egg_grab_02_squads_autumn",
+    "level_archetype": "archetype_team",
+    "ingame_music_suffix": "_Season_02",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_EggSiege",
+    "level_badge_name": "EggSiege",
+    "level_variation": "levels_variation.variation_egg_grab_02",
+    "level_variation_overrides": null,
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.exclusive_item_collection",
+      "level_tags.season_02"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 2,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        },
+        {
+          "team_position": 2,
+          "multiplier": 1,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_position_02"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_disconnect",
+    "lower_main_ambience_volume": false,
+    "id": "round_egg_grab_02_squads_autumn"
+  },
+  {
+    "display_name": "localised_strings.level_name_egg_siege",
+    "scene_name": "FallGuy_EggGrab_02",
     "game_rules": "game_rules.round_egg_grab_02_trios",
     "level_archetype": "archetype_team",
     "ingame_music_suffix": "_Season_02",
@@ -3997,6 +4228,49 @@
     "fall_feed": "fall_feed_disconnect",
     "lower_main_ambience_volume": null,
     "id": "round_egg_grab_squads"
+  },
+  {
+    "display_name": "localised_strings.level_name_egg_grab",
+    "scene_name": "FallGuy_EggGrab",
+    "game_rules": "game_rules.round_egg_grab_squads_autumn",
+    "level_archetype": "archetype_team",
+    "ingame_music_suffix": null,
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_EggGrab",
+    "level_badge_name": "EggScramble",
+    "level_variation": "levels_variation.variation_egg_grab",
+    "level_variation_overrides": null,
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.exclusive_item_collection"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 2,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        },
+        {
+          "team_position": 2,
+          "multiplier": 1,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_position_02"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_disconnect",
+    "lower_main_ambience_volume": false,
+    "id": "round_egg_grab_squads_autumn"
   },
   {
     "display_name": "localised_strings.level_name_egg_grab",
@@ -4620,6 +4894,56 @@
     "fall_feed": "fall_feed_score_fallball",
     "lower_main_ambience_volume": null,
     "id": "round_fall_ball_squads"
+  },
+  {
+    "display_name": "localised_strings.level_name_fall_ball",
+    "scene_name": "FallGuy_FallBall_5",
+    "game_rules": "game_rules.round_fall_ball_squads_autumn",
+    "level_archetype": "archetype_team",
+    "ingame_music_suffix": null,
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_FallBall",
+    "level_badge_name": "FallBall",
+    "level_variation": "levels_variation.variation_fall_ball_60_players",
+    "level_variation_overrides": null,
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.saftey_late_stage_team_round",
+      "level_tags.team_final"
+    ],
+    "bonus": {
+      "type": "team_score",
+      "team_score_tiers": [
+        {
+          "team_score": 10,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_goals_01"
+        },
+        {
+          "team_score": 5,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_goals_02"
+        },
+        {
+          "team_score": 3,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_goals_03"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_score_fallball",
+    "lower_main_ambience_volume": false,
+    "id": "round_fall_ball_squads_autumn"
   },
   {
     "display_name": "localised_strings.level_name_fall_ball",
@@ -9657,6 +9981,50 @@
   {
     "display_name": "localised_strings.level_name_hoopsie_daisy",
     "scene_name": "FallGuy_Hoops_01",
+    "game_rules": "game_rules.round_hoops_squads_autumn",
+    "level_archetype": "archetype_team",
+    "ingame_music_suffix": null,
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_HoopsieDaisy",
+    "level_badge_name": "HoopsieDaisy",
+    "level_variation": "levels_variation.variation_hoops",
+    "level_variation_overrides": null,
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.saftey_late_stage_team_round",
+      "level_tags.exclusive_hoops_jumping"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 2,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        },
+        {
+          "team_position": 2,
+          "multiplier": 1,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_position_02"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_score_hoop",
+    "lower_main_ambience_volume": false,
+    "id": "round_hoops_squads_autumn"
+  },
+  {
+    "display_name": "localised_strings.level_name_hoopsie_daisy",
+    "scene_name": "FallGuy_Hoops_01",
     "game_rules": "game_rules.round_hoops_trios",
     "level_archetype": "archetype_team",
     "ingame_music_suffix": null,
@@ -10802,6 +11170,43 @@
     "fall_feed": "fall_feed_special_jinx",
     "lower_main_ambience_volume": null,
     "id": "round_jinxed_squads"
+  },
+  {
+    "display_name": "localised_strings.level_name_jinxed",
+    "scene_name": "FallGuy_TeamInfected",
+    "game_rules": "game_rules.round_jinxed_squads_autumn",
+    "level_archetype": "archetype_team",
+    "ingame_music_suffix": null,
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_Jinxed",
+    "level_badge_name": "Jinxed",
+    "level_variation": "levels_variation.variation_jinxed",
+    "level_variation_overrides": null,
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.team_final"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 1,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_special_jinx",
+    "lower_main_ambience_volume": false,
+    "id": "round_jinxed_squads_autumn"
   },
   {
     "display_name": "localised_strings.level_name_jinxed",
@@ -13486,6 +13891,49 @@
   {
     "display_name": "localised_strings.level_name_rock_n_roll",
     "scene_name": "FallGuy_RocknRoll",
+    "game_rules": "game_rules.round_rocknroll_squads_autumn",
+    "level_archetype": "archetype_team",
+    "ingame_music_suffix": null,
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_RockandRoll",
+    "level_badge_name": "RockNRoll",
+    "level_variation": "levels_variation.variation_rocknroll",
+    "level_variation_overrides": null,
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_track",
+      "level_tags.saftey_nonstarter",
+      "level_tags.saftey_late_stage_team_round"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 2,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        },
+        {
+          "team_position": 2,
+          "multiplier": 1,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_position_02"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race_first_only",
+    "lower_main_ambience_volume": false,
+    "id": "round_rocknroll_squads_autumn"
+  },
+  {
+    "display_name": "localised_strings.level_name_rock_n_roll",
+    "scene_name": "FallGuy_RocknRoll",
     "game_rules": "game_rules.round_rocknroll_trios",
     "level_archetype": "archetype_team",
     "ingame_music_suffix": null,
@@ -15937,6 +16385,50 @@
   {
     "display_name": "localised_strings.level_name_snowy_scrap",
     "scene_name": "FallGuy_Snowy_Scrap",
+    "game_rules": "game_rules.round_snowy_scrap_squads_autumn",
+    "level_archetype": "archetype_team",
+    "ingame_music_suffix": "_Season_03",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
+    "extra_ambience_event": "AMB_Season_03_Snow",
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_SnowyScrap",
+    "level_badge_name": "SnowyScrap",
+    "level_variation": "levels_variation.variation_snowy_scrap",
+    "level_variation_overrides": null,
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.saftey_late_stage_team_round",
+      "level_tags.season_03"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 2,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        },
+        {
+          "team_position": 2,
+          "multiplier": 1,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_position_02"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race_first_only",
+    "lower_main_ambience_volume": false,
+    "id": "round_snowy_scrap_squads_autumn"
+  },
+  {
+    "display_name": "localised_strings.level_name_snowy_scrap",
+    "scene_name": "FallGuy_Snowy_Scrap",
     "game_rules": "game_rules.round_snowy_scrap_trios",
     "level_archetype": "archetype_team",
     "ingame_music_suffix": "_Season_03",
@@ -16715,6 +17207,56 @@
     "fall_feed": "fall_feed_disconnect",
     "lower_main_ambience_volume": null,
     "id": "round_territory_control_squads"
+  },
+  {
+    "display_name": "localised_strings.level_name_territorycontrol",
+    "scene_name": "FallGuy_TerritoryControl_v2",
+    "game_rules": "game_rules.round_territory_control_squads_autumn",
+    "level_archetype": "archetype_team",
+    "ingame_music_suffix": "_Season_04",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_PowerTrip",
+    "level_badge_name": "PowerTrip",
+    "level_variation": "levels_variation.variation_territory_control",
+    "level_variation_overrides": null,
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.season_04",
+      "level_tags.team_final"
+    ],
+    "bonus": {
+      "type": "team_score",
+      "team_score_tiers": [
+        {
+          "team_score": 325,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_tiles_gold"
+        },
+        {
+          "team_score": 285,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_tiles_silver"
+        },
+        {
+          "team_score": 245,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_tiles_bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_disconnect",
+    "lower_main_ambience_volume": false,
+    "id": "round_territory_control_squads_autumn"
   },
   {
     "display_name": "localised_strings.level_name_territorycontrol",
