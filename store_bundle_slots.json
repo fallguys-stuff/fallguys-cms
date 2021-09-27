@@ -2525,8 +2525,24 @@
     "weight": 1,
     "priority": 0,
     "refresh_cycle_length_seconds": 345600,
+    "targets": [
+      {
+        "conditions": [
+          {
+            "type": "date_time",
+            "data": {
+              "operator": "between",
+              "start": "2021-09-27T09:00:00",
+              "end": "2021-10-01T09:00:00"
+            }
+          }
+        ],
+        "description": null,
+        "condition_ids": [],
+        "id": "date_2709_3009_21"
+      }
+    ],
     "target_ids": [],
-    "targets": [],
     "id": "bottom_event_goldfinch_01"
   },
   {
@@ -8245,24 +8261,8 @@
     "weight": 1,
     "priority": 0,
     "refresh_cycle_length_seconds": 259200,
-    "targets": [
-      {
-        "conditions": [
-          {
-            "type": "date_time",
-            "data": {
-              "operator": "between",
-              "start": "2021-09-27T09:00:00",
-              "end": "2021-10-01T09:00:00"
-            }
-          }
-        ],
-        "description": null,
-        "condition_ids": [],
-        "id": "date_2709_3009_21"
-      }
-    ],
     "target_ids": [],
+    "targets": [],
     "id": "bottom_s5_cowgirl_02"
   },
   {
@@ -31866,8 +31866,24 @@
     "weight": 1,
     "priority": 0,
     "refresh_cycle_length_seconds": 345600,
+    "targets": [
+      {
+        "conditions": [
+          {
+            "type": "date_time",
+            "data": {
+              "operator": "between",
+              "start": "2021-09-27T09:00:00",
+              "end": "2021-10-01T09:00:00"
+            }
+          }
+        ],
+        "description": null,
+        "condition_ids": [],
+        "id": "date_2709_3009_21"
+      }
+    ],
     "target_ids": [],
-    "targets": [],
     "id": "top_event_goldfinch_01"
   },
   {
@@ -37670,24 +37686,8 @@
     "weight": 1,
     "priority": 0,
     "refresh_cycle_length_seconds": 259200,
-    "targets": [
-      {
-        "conditions": [
-          {
-            "type": "date_time",
-            "data": {
-              "operator": "between",
-              "start": "2021-09-27T09:00:00",
-              "end": "2021-10-01T09:00:00"
-            }
-          }
-        ],
-        "description": null,
-        "condition_ids": [],
-        "id": "date_2709_3009_21"
-      }
-    ],
     "target_ids": [],
+    "targets": [],
     "id": "top_s5_cowgirl_02"
   },
   {

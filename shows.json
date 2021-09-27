@@ -164,7 +164,7 @@
     "min_party_size": 1,
     "max_party_size": 4,
     "opens_at": "2021-09-21T09:00:00",
-    "closes_at": "2021-09-28T08:00:00",
+    "closes_at": "2021-09-28T09:00:00",
     "show_type": {
       "showtype_switch": "squad",
       "squad_size": 4
@@ -686,6 +686,32 @@
     },
     "show_image_cms": "show_selector_show_bubbles",
     "id": "event_only_bubbles_2507_to_2807_2021"
+  },
+  {
+    "show_name": "localised_strings.show_title_bubble_trouble",
+    "show_description": "localised_strings.show_desc_bubble_trouble",
+    "show_image": "BubbleTroubleTrials",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 25,
+      "max_players": 30
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.episode_event_only_bubbles",
+    "episode_reward_settings_id": "solo_rewards",
+    "opens_at": "2021-09-28T09:00:00",
+    "closes_at": "2021-10-01T12:00:00",
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 5,
+      "max_players": 45
+    },
+    "show_image_cms": "show_selector_show_bubbles",
+    "id": "event_only_bubbles_2809_to_0110_2021"
   },
   {
     "show_name": "localised_strings.show_title_bubble_trouble",
