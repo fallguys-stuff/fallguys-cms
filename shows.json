@@ -997,6 +997,30 @@
     "max_party_size": 4,
     "default_episode": "levels_episode.episode_event_only_floor_fall",
     "episode_reward_settings_id": "solo_rewards",
+    "opens_at": "2021-10-01T12:00:00",
+    "closes_at": "2021-10-04T12:00:00",
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "size": {
+      "type": "override",
+      "min_players": 16,
+      "max_players": 20
+    },
+    "private_lobby_size": {
+      "type": "default"
+    },
+    "show_image_cms": "show_selector_show_hexagonetrials",
+    "id": "event_only_floor_fall_0110_to_0410_2021"
+  },
+  {
+    "show_name": "localised_strings.show_name_only_floor_fall",
+    "show_description": "localised_strings.show_desc_only_floor_fall",
+    "show_image": "FloorFallLevels",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "default_episode": "levels_episode.episode_event_only_floor_fall",
+    "episode_reward_settings_id": "solo_rewards",
     "opens_at": "2021-11-02T12:00:00",
     "closes_at": "2021-11-06T12:00:00",
     "show_type": {
@@ -2021,6 +2045,30 @@
     },
     "show_image_cms": "show_selector_show_rollcall",
     "id": "event_only_roll_out"
+  },
+  {
+    "show_name": "localised_strings.show_name_only_roll_out",
+    "show_description": "localised_strings.show_desc_only_roll_out",
+    "show_image": "RollCall",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 20,
+      "max_players": 26
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.episode_event_only_roll_out",
+    "episode_reward_settings_id": "solo_rewards",
+    "opens_at": "2021-10-04T12:00:00",
+    "closes_at": "2021-10-07T09:00:00",
+    "private_lobby_size": {
+      "type": "default"
+    },
+    "show_image_cms": "show_selector_show_rollcall",
+    "id": "event_only_roll_out_0410_to_0710_2021"
   },
   {
     "show_name": "localised_strings.show_name_only_roll_out",
