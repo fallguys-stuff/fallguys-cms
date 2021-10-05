@@ -3,6 +3,26 @@
     "parameters": {
       "type": "date_time",
       "data": {
+        "operator": "less_than_or_equal_to",
+        "end": "1900-12-31T00:00:00"
+      }
+    },
+    "id": "disabled_year_1900"
+  },
+  {
+    "parameters": {
+      "type": "platform",
+      "data": {
+        "operator": "equal_to",
+        "platform": "admin_tool"
+      }
+    },
+    "id": "is_admin_tool_user"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
         "operator": "more_than_or_equal_to",
         "start": "2020-08-04T00:00:00"
       }
@@ -134,6 +154,26 @@
       "type": "date_time",
       "data": {
         "operator": "more_than_or_equal_to",
+        "start": "2021-10-21T09:00:00"
+      }
+    },
+    "id": "is_le_s5_halloween_after"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "less_than",
+        "end": "2021-11-02T06:00:00"
+      }
+    },
+    "id": "is_le_s5_halloween_before"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "more_than_or_equal_to",
         "start": "2021-09-03T09:00:00"
       }
     },
@@ -228,6 +268,106 @@
     "parameters": {
       "type": "date_time",
       "data": {
+        "operator": "more_than_or_equal_to",
+        "start": "2021-11-11T09:59:50"
+      }
+    },
+    "id": "is_live_event_end_of_season_day_1_end"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "more_than_or_equal_to",
+        "start": "2021-11-10T10:00:00"
+      }
+    },
+    "id": "is_live_event_end_of_season_day_1_start"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "more_than_or_equal_to",
+        "start": "2021-11-12T09:59:50"
+      }
+    },
+    "id": "is_live_event_end_of_season_day_2_end"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "less_than",
+        "end": "2021-11-11T10:00:00"
+      }
+    },
+    "id": "is_live_event_end_of_season_day_2_start"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "more_than_or_equal_to",
+        "start": "2021-11-13T09:59:50"
+      }
+    },
+    "id": "is_live_event_end_of_season_day_3_end"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "less_than",
+        "end": "2021-11-12T10:00:00"
+      }
+    },
+    "id": "is_live_event_end_of_season_day_3_start"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "more_than_or_equal_to",
+        "start": "2021-11-14T09:59:50"
+      }
+    },
+    "id": "is_live_event_end_of_season_day_4_end"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "less_than",
+        "end": "2021-11-13T10:00:00"
+      }
+    },
+    "id": "is_live_event_end_of_season_day_4_start"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "less_than",
+        "end": "2021-11-15T09:59:50"
+      }
+    },
+    "id": "is_live_event_end_of_season_day_5_end"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "less_than",
+        "end": "2021-11-14T10:00:00"
+      }
+    },
+    "id": "is_live_event_end_of_season_day_5_start"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
         "operator": "between",
         "start": "2021-09-21T09:00:00",
         "end": "2021-09-28T09:00:00"
@@ -278,6 +418,126 @@
   },
   {
     "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "more_than_or_equal_to",
+        "start": "2021-10-07T09:00:00"
+      }
+    },
+    "id": "is_live_event_wok1_after"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "less_than",
+        "end": "2021-10-09T08:00:00"
+      }
+    },
+    "id": "is_live_event_wok1_before"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "more_than_or_equal_to",
+        "start": "2021-10-07T09:00:00"
+      }
+    },
+    "id": "is_live_event_wok2_after"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "less_than",
+        "end": "2021-10-09T08:00:00"
+      }
+    },
+    "id": "is_live_event_wok2_before"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "more_than_or_equal_to",
+        "start": "2021-10-09T09:00:00"
+      }
+    },
+    "id": "is_live_event_wok3_after"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "less_than",
+        "end": "2021-10-11T08:00:00"
+      }
+    },
+    "id": "is_live_event_wok3_before"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "more_than_or_equal_to",
+        "start": "2021-10-11T09:00:00"
+      }
+    },
+    "id": "is_live_event_wok4_after"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "less_than",
+        "end": "2021-10-13T08:00:00"
+      }
+    },
+    "id": "is_live_event_wok4_before"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "more_than_or_equal_to",
+        "start": "2021-10-13T09:00:00"
+      }
+    },
+    "id": "is_live_event_wok5_after"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "less_than",
+        "end": "2021-10-15T08:00:00"
+      }
+    },
+    "id": "is_live_event_wok5_before"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "more_than_or_equal_to",
+        "start": "2021-10-15T09:00:00"
+      }
+    },
+    "id": "is_live_event_wok6_after"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "less_than",
+        "end": "2021-10-17T08:00:00"
+      }
+    },
+    "id": "is_live_event_wok6_before"
+  },
+  {
+    "parameters": {
       "type": "platform_group",
       "data": {
         "operator": "equal_to",
@@ -318,6 +578,146 @@
   },
   {
     "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "more_than_or_equal_to",
+        "start": "2021-08-06T16:30:00"
+      }
+    },
+    "id": "is_qa_2_after"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "less_than",
+        "end": "2021-08-06T16:50:00"
+      }
+    },
+    "id": "is_qa_2_before"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "more_than_or_equal_to",
+        "start": "2021-08-06T16:55:00"
+      }
+    },
+    "id": "is_qa_3_after"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "less_than",
+        "end": "2021-08-06T17:20:00"
+      }
+    },
+    "id": "is_qa_3_before"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "more_than_or_equal_to",
+        "start": "2021-08-13T15:50:00"
+      }
+    },
+    "id": "is_qa_4_after"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "less_than",
+        "end": "2021-08-13T18:00:00"
+      }
+    },
+    "id": "is_qa_4_before"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "more_than_or_equal_to",
+        "start": "2021-08-06T09:50:00"
+      }
+    },
+    "id": "is_qa_s5_after"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "more_than_or_equal_to",
+        "start": "2021-08-06T16:05:00"
+      }
+    },
+    "id": "is_qa_s5_after_am"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "more_than_or_equal_to",
+        "start": "2021-08-06T15:40:00"
+      }
+    },
+    "id": "is_qa_s5_after_pm"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "more_than_or_equal_to",
+        "start": "2021-06-09T16:50:00"
+      }
+    },
+    "id": "is_qa_s5_after_repeat"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "less_than",
+        "end": "2021-08-06T10:45:00"
+      }
+    },
+    "id": "is_qa_s5_before"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "less_than",
+        "end": "2021-08-06T16:27:00"
+      }
+    },
+    "id": "is_qa_s5_before_am"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "less_than",
+        "end": "2021-08-06T16:00:00"
+      }
+    },
+    "id": "is_qa_s5_before_pm"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "less_than",
+        "end": "2021-06-10T10:00:00"
+      }
+    },
+    "id": "is_qa_s5_before_repeat"
+  },
+  {
+    "parameters": {
       "type": "platform",
       "data": {
         "operator": "equal_to",
@@ -325,5 +725,35 @@
       }
     },
     "id": "is_windows_user"
+  },
+  {
+    "parameters": {
+      "type": "platform_group",
+      "data": {
+        "operator": "equal_to",
+        "platform_group": "prime"
+      }
+    },
+    "id": "is_xbox_user"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "more_than_or_equal_to",
+        "start": "2021-08-03T12:00:00"
+      }
+    },
+    "id": "qa_le_glizzy_test_01"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "less_than",
+        "end": "2021-08-03T15:00:00"
+      }
+    },
+    "id": "qa_le_glizzy_test_01_before"
   }
 ]

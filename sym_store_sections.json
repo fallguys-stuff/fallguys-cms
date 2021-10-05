@@ -9,5 +9,41 @@
     "bundle_slots": [],
     "storefront": null,
     "id": "daily"
+  },
+  {
+    "name": "Season 1",
+    "storefront": "storefront_s4",
+    "section_height": 2,
+    "refresh_cycle_length_seconds": null,
+    "bundle_slots": [
+      {
+        "bundle_slot": "test_2x2_season1_pass",
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        }
+      }
+    ],
+    "target_ids": [],
+    "id": "season_pass_section"
+  },
+  {
+    "name": "Tier Skip",
+    "storefront": "storefront_s4",
+    "section_height": 1,
+    "refresh_cycle_length_seconds": 9999,
+    "bundle_slots": [
+      {
+        "bundle_slot": "tier_skip_bundle_slot",
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 1
+        }
+      }
+    ],
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "id": "tier_skip_section"
   }
 ]

@@ -389,6 +389,32 @@
   {
     "tag_score": [
       {
+        "tag": "level_tags.survival_round",
+        "bonus": 0,
+        "repeat_malus": 500,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.covenant_final",
+        "bonus": -500,
+        "repeat_malus": 0,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "before_stage",
+          "setting": {
+            "stage": 2
+          }
+        }
+      }
+    ],
+    "id": "tag_weightings_event_halloween_team_squads"
+  },
+  {
+    "tag_score": [
+      {
         "tag": "level_tags.covenant_free_for_all",
         "bonus": 2000,
         "repeat_malus": 0,
@@ -2816,7 +2842,7 @@
         "tag": "level_tags.season_01",
         "bonus": 200,
         "repeat_malus": 200,
-        "repeat_decay": 200,
+        "repeat_decay": 100,
         "apply_bonus_when": {
           "type": "before_stage",
           "setting": {
@@ -2852,7 +2878,7 @@
         "tag": "level_tags.season_04",
         "bonus": 200,
         "repeat_malus": 200,
-        "repeat_decay": 200,
+        "repeat_decay": 100,
         "apply_bonus_when": {
           "type": "before_stage",
           "setting": {
@@ -2862,11 +2888,14 @@
       },
       {
         "tag": "level_tags.season_05",
-        "bonus": 400,
-        "repeat_malus": 400,
-        "repeat_decay": 400,
+        "bonus": 200,
+        "repeat_malus": 200,
+        "repeat_decay": 100,
         "apply_bonus_when": {
-          "type": "always"
+          "type": "before_stage",
+          "setting": {
+            "stage": 3
+          }
         }
       },
       {
@@ -3033,10 +3062,7 @@
         "repeat_malus": 0,
         "repeat_decay": 0,
         "apply_bonus_when": {
-          "type": "after_stage",
-          "setting": {
-            "stage": 3
-          }
+          "type": "always"
         }
       },
       {

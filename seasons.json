@@ -651,6 +651,7 @@
       }
     ],
     "season_passes_disabled": false,
+    "upsell_popup": null,
     "target_ids": [],
     "id": "season_001"
   },
@@ -1307,6 +1308,7 @@
     "target_ids": [
       "mobile_users"
     ],
+    "upsell_popup": null,
     "id": "season_001_mobile"
   },
   {
@@ -1959,6 +1961,7 @@
       }
     ],
     "season_passes_disabled": false,
+    "upsell_popup": null,
     "target_ids": [],
     "id": "season_002"
   },
@@ -2609,8 +2612,8 @@
       }
     ],
     "show_timer_approx_prefix": true,
-    "target_ids": [],
     "season_passes_disabled": false,
+    "target_ids": [],
     "id": "season_003"
   },
   {
@@ -2621,19 +2624,24 @@
     "fame_tiers": [
       {
         "unlocks_at": 30,
-        "reward": {
-          "contents": {
-            "type": "direct",
-            "items": [
-              {
-                "group_id": "costumes_upper",
-                "item_id": "top_s4_furry_alien_01"
-              }
-            ]
-          },
-          "id": "top_s4_furry_alien_01"
-        },
-        "rewards": []
+        "reward": null,
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "costumes_upper",
+                    "item_id": "top_s4_furry_alien_01"
+                  }
+                ]
+              },
+              "id": "top_s4_furry_alien_01"
+            },
+            "season_pass_id": "season_passes.season_004_regular"
+          }
+        ]
       },
       {
         "unlocks_at": 60,
@@ -3436,8 +3444,10 @@
     ],
     "season_passes_disabled": false,
     "target_ids": [
+      "admin_tool_platform",
       "prime_users"
     ],
+    "upsell_popup": null,
     "id": "season_004"
   },
   {
@@ -3460,7 +3470,23 @@
           },
           "id": "top_s5_climber_01"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "costumes_upper",
+                    "item_id": "top_s5_climber_01"
+                  }
+                ]
+              },
+              "id": "top_s5_climber_01"
+            },
+            "season_pass_id": null
+          }
+        ]
       },
       {
         "unlocks_at": 90,
@@ -3478,7 +3504,25 @@
           },
           "id": "crowns_bonus_001"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "currencies",
+                    "item_id": "crowns",
+                    "quantity": 1,
+                    "challenge_ui_detail_colour": "colour.challenges_blue"
+                  }
+                ]
+              },
+              "id": "crowns_bonus_001"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 150,
@@ -3494,7 +3538,23 @@
           },
           "id": "pattern_s5_002"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "costumes_patterns",
+                    "item_id": "pattern_s5_002"
+                  }
+                ]
+              },
+              "id": "pattern_s5_002"
+            },
+            "season_pass_id": null
+          }
+        ]
       },
       {
         "unlocks_at": 230,
@@ -3526,7 +3586,23 @@
           },
           "id": "colour_s5_012"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "costumes_colour_schemes",
+                    "item_id": "colour_s5_012"
+                  }
+                ]
+              },
+              "id": "colour_s5_012"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 480,
@@ -3544,7 +3620,25 @@
           },
           "id": "kudos_bonus_1000"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "currencies",
+                    "item_id": "kudos",
+                    "quantity": 1000,
+                    "challenge_ui_detail_colour": "colour.challenges_blue"
+                  }
+                ]
+              },
+              "id": "kudos_bonus_1000"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 670,
@@ -3560,7 +3654,23 @@
           },
           "id": "bottom_s5_tropical_tree_01"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "costumes_lower",
+                    "item_id": "bottom_s5_tropical_tree_01"
+                  }
+                ]
+              },
+              "id": "bottom_s5_tropical_tree_01"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 930,
@@ -3578,7 +3688,25 @@
           },
           "id": "crowns_bonus_001"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "currencies",
+                    "item_id": "crowns",
+                    "quantity": 1,
+                    "challenge_ui_detail_colour": "colour.challenges_blue"
+                  }
+                ]
+              },
+              "id": "crowns_bonus_001"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 1260,
@@ -3594,7 +3722,23 @@
           },
           "id": "nameplate_s5_007"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "cosmetics_nameplates",
+                    "item_id": "nameplate_s5_007"
+                  }
+                ]
+              },
+              "id": "nameplate_s5_007"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 1680,
@@ -3610,7 +3754,23 @@
           },
           "id": "top_s5_tropical_tree_01"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "costumes_upper",
+                    "item_id": "top_s5_tropical_tree_01"
+                  }
+                ]
+              },
+              "id": "top_s5_tropical_tree_01"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 2180,
@@ -3626,7 +3786,23 @@
           },
           "id": "pattern_s5_006"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "costumes_patterns",
+                    "item_id": "pattern_s5_006"
+                  }
+                ]
+              },
+              "id": "pattern_s5_006"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 2770,
@@ -3642,7 +3818,23 @@
           },
           "id": "bottom_s5_camel_02"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "costumes_lower",
+                    "item_id": "bottom_s5_camel_02"
+                  }
+                ]
+              },
+              "id": "bottom_s5_camel_02"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 3430,
@@ -3660,7 +3852,25 @@
           },
           "id": "crowns_bonus_002"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "currencies",
+                    "item_id": "crowns",
+                    "quantity": 2,
+                    "challenge_ui_detail_colour": "colour.challenges_blue"
+                  }
+                ]
+              },
+              "id": "crowns_bonus_002"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 4160,
@@ -3676,7 +3886,23 @@
           },
           "id": "colour_s5_007"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "costumes_colour_schemes",
+                    "item_id": "colour_s5_007"
+                  }
+                ]
+              },
+              "id": "colour_s5_007"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 4910,
@@ -3692,7 +3918,23 @@
           },
           "id": "top_s5_camel_02"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "costumes_upper",
+                    "item_id": "top_s5_camel_02"
+                  }
+                ]
+              },
+              "id": "top_s5_camel_02"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 5680,
@@ -3710,7 +3952,25 @@
           },
           "id": "kudos_bonus_1000"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "currencies",
+                    "item_id": "kudos",
+                    "quantity": 1000,
+                    "challenge_ui_detail_colour": "colour.challenges_blue"
+                  }
+                ]
+              },
+              "id": "kudos_bonus_1000"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 6470,
@@ -3726,7 +3986,23 @@
           },
           "id": "nickname_s5_004"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "cosmetics_nicknames",
+                    "item_id": "nickname_s5_004"
+                  }
+                ]
+              },
+              "id": "nickname_s5_004"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 7280,
@@ -3744,7 +4020,25 @@
           },
           "id": "crowns_bonus_002"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "currencies",
+                    "item_id": "crowns",
+                    "quantity": 2,
+                    "challenge_ui_detail_colour": "colour.challenges_blue"
+                  }
+                ]
+              },
+              "id": "crowns_bonus_002"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 8110,
@@ -3760,7 +4054,23 @@
           },
           "id": "colour_s5_003"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "costumes_colour_schemes",
+                    "item_id": "colour_s5_003"
+                  }
+                ]
+              },
+              "id": "colour_s5_003"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 8960,
@@ -3776,7 +4086,23 @@
           },
           "id": "bottom_event_ostrich_01"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "costumes_lower",
+                    "item_id": "bottom_event_ostrich_01"
+                  }
+                ]
+              },
+              "id": "bottom_event_ostrich_01"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 9830,
@@ -3794,7 +4120,25 @@
           },
           "id": "kudos_bonus_3500"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "currencies",
+                    "item_id": "kudos",
+                    "quantity": 3500,
+                    "challenge_ui_detail_colour": "colour.challenges_blue"
+                  }
+                ]
+              },
+              "id": "kudos_bonus_3500"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 10710,
@@ -3810,7 +4154,23 @@
           },
           "id": "nameplate_s5_008"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "cosmetics_nameplates",
+                    "item_id": "nameplate_s5_008"
+                  }
+                ]
+              },
+              "id": "nameplate_s5_008"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 11600,
@@ -3826,7 +4186,23 @@
           },
           "id": "nickname_s5_002"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "cosmetics_nicknames",
+                    "item_id": "nickname_s5_002"
+                  }
+                ]
+              },
+              "id": "nickname_s5_002"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 12500,
@@ -3844,7 +4220,25 @@
           },
           "id": "crowns_bonus_003"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "currencies",
+                    "item_id": "crowns",
+                    "quantity": 3,
+                    "challenge_ui_detail_colour": "colour.challenges_blue"
+                  }
+                ]
+              },
+              "id": "crowns_bonus_003"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 13400,
@@ -3860,7 +4254,23 @@
           },
           "id": "top_event_ostrich_01"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "costumes_upper",
+                    "item_id": "top_event_ostrich_01"
+                  }
+                ]
+              },
+              "id": "top_event_ostrich_01"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 14300,
@@ -3878,7 +4288,25 @@
           },
           "id": "kudos_bonus_3500"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "currencies",
+                    "item_id": "kudos",
+                    "quantity": 3500,
+                    "challenge_ui_detail_colour": "colour.challenges_blue"
+                  }
+                ]
+              },
+              "id": "kudos_bonus_3500"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 15200,
@@ -3894,7 +4322,23 @@
           },
           "id": "pattern_s5_009"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "costumes_patterns",
+                    "item_id": "pattern_s5_009"
+                  }
+                ]
+              },
+              "id": "pattern_s5_009"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 16100,
@@ -3910,7 +4354,23 @@
           },
           "id": "nickname_s5_008"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "cosmetics_nicknames",
+                    "item_id": "nickname_s5_008"
+                  }
+                ]
+              },
+              "id": "nickname_s5_008"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 17000,
@@ -3928,7 +4388,25 @@
           },
           "id": "crowns_bonus_003"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "currencies",
+                    "item_id": "crowns",
+                    "quantity": 3,
+                    "challenge_ui_detail_colour": "colour.challenges_blue"
+                  }
+                ]
+              },
+              "id": "crowns_bonus_003"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 17900,
@@ -3944,7 +4422,23 @@
           },
           "id": "nameplate_s5_002"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "cosmetics_nameplates",
+                    "item_id": "nameplate_s5_002"
+                  }
+                ]
+              },
+              "id": "nameplate_s5_002"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 18800,
@@ -3960,7 +4454,23 @@
           },
           "id": "bottom_s5_musketeer_02"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "costumes_lower",
+                    "item_id": "bottom_s5_musketeer_02"
+                  }
+                ]
+              },
+              "id": "bottom_s5_musketeer_02"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 19700,
@@ -3978,7 +4488,25 @@
           },
           "id": "kudos_bonus_5000"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "currencies",
+                    "item_id": "kudos",
+                    "quantity": 5000,
+                    "challenge_ui_detail_colour": "colour.challenges_blue"
+                  }
+                ]
+              },
+              "id": "kudos_bonus_5000"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 20600,
@@ -3994,7 +4522,23 @@
           },
           "id": "face_s5_001"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "costumes_faceplates",
+                    "item_id": "face_s5_001"
+                  }
+                ]
+              },
+              "id": "face_s5_001"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 21500,
@@ -4010,7 +4554,23 @@
           },
           "id": "pattern_s5_014"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "costumes_patterns",
+                    "item_id": "pattern_s5_014"
+                  }
+                ]
+              },
+              "id": "pattern_s5_014"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 22400,
@@ -4026,7 +4586,23 @@
           },
           "id": "top_s5_musketeer_02"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "costumes_upper",
+                    "item_id": "top_s5_musketeer_02"
+                  }
+                ]
+              },
+              "id": "top_s5_musketeer_02"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 23300,
@@ -4044,7 +4620,25 @@
           },
           "id": "crowns_bonus_005"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "currencies",
+                    "item_id": "crowns",
+                    "quantity": 5,
+                    "challenge_ui_detail_colour": "colour.challenges_blue"
+                  }
+                ]
+              },
+              "id": "crowns_bonus_005"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 24200,
@@ -4060,7 +4654,23 @@
           },
           "id": "nickname_s5_006"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "cosmetics_nicknames",
+                    "item_id": "nickname_s5_006"
+                  }
+                ]
+              },
+              "id": "nickname_s5_006"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 25100,
@@ -4076,7 +4686,23 @@
           },
           "id": "bottom_s5_octopus_01"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "costumes_lower",
+                    "item_id": "bottom_s5_octopus_01"
+                  }
+                ]
+              },
+              "id": "bottom_s5_octopus_01"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 26000,
@@ -4092,7 +4718,23 @@
           },
           "id": "colour_s5_017"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "costumes_colour_schemes",
+                    "item_id": "colour_s5_017"
+                  }
+                ]
+              },
+              "id": "colour_s5_017"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 26900,
@@ -4108,7 +4750,23 @@
           },
           "id": "nameplate_s5_006"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "cosmetics_nameplates",
+                    "item_id": "nameplate_s5_006"
+                  }
+                ]
+              },
+              "id": "nameplate_s5_006"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 27800,
@@ -4124,7 +4782,23 @@
           },
           "id": "top_s5_octopus_01"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "costumes_upper",
+                    "item_id": "top_s5_octopus_01"
+                  }
+                ]
+              },
+              "id": "top_s5_octopus_01"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 28700,
@@ -4142,7 +4816,25 @@
           },
           "id": "kudos_bonus_5000"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "currencies",
+                    "item_id": "kudos",
+                    "quantity": 5000,
+                    "challenge_ui_detail_colour": "colour.challenges_blue"
+                  }
+                ]
+              },
+              "id": "kudos_bonus_5000"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 29600,
@@ -4158,7 +4850,23 @@
           },
           "id": "emote_s5_045"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "cosmetics_emotes",
+                    "item_id": "emote_s5_045"
+                  }
+                ]
+              },
+              "id": "emote_s5_045"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 30500,
@@ -4176,7 +4884,25 @@
           },
           "id": "crowns_bonus_005"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "currencies",
+                    "item_id": "crowns",
+                    "quantity": 5,
+                    "challenge_ui_detail_colour": "colour.challenges_blue"
+                  }
+                ]
+              },
+              "id": "crowns_bonus_005"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 31400,
@@ -4192,7 +4918,23 @@
           },
           "id": "bottom_s5_genie_02"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "costumes_lower",
+                    "item_id": "bottom_s5_genie_02"
+                  }
+                ]
+              },
+              "id": "bottom_s5_genie_02"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 32300,
@@ -4210,7 +4952,25 @@
           },
           "id": "kudos_bonus_5000"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "currencies",
+                    "item_id": "kudos",
+                    "quantity": 5000,
+                    "challenge_ui_detail_colour": "colour.challenges_blue"
+                  }
+                ]
+              },
+              "id": "kudos_bonus_5000"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 33200,
@@ -4226,7 +4986,23 @@
           },
           "id": "pattern_s5_011"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "costumes_patterns",
+                    "item_id": "pattern_s5_011"
+                  }
+                ]
+              },
+              "id": "pattern_s5_011"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 34100,
@@ -4242,7 +5018,23 @@
           },
           "id": "colour_s5_015"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "costumes_colour_schemes",
+                    "item_id": "colour_s5_015"
+                  }
+                ]
+              },
+              "id": "colour_s5_015"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       },
       {
         "unlocks_at": 35000,
@@ -4258,13 +5050,31 @@
           },
           "id": "top_s5_genie_02"
         },
-        "rewards": []
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "costumes_upper",
+                    "item_id": "top_s5_genie_02"
+                  }
+                ]
+              },
+              "id": "top_s5_genie_02"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s5"
+          }
+        ]
       }
     ],
     "season_passes_disabled": false,
     "target_ids": [
+      "admin_tool_platform",
       "prime_users"
     ],
+    "upsell_popup": "season_pass_bundles_popup.season_5_popup",
     "id": "season_005"
   },
   {
@@ -4603,6 +5413,7 @@
       }
     ],
     "season_passes_disabled": false,
+    "upsell_popup": null,
     "target_ids": [],
     "id": "season_dummy_test_01"
   },
@@ -4668,7 +5479,944 @@
       }
     ],
     "season_passes_disabled": false,
+    "upsell_popup": null,
     "target_ids": [],
     "id": "season_one_test"
+  },
+  {
+    "name": "localised_strings.season_title_test_only",
+    "start_time": "2021-07-20T12:00:00",
+    "end_time": "2021-09-30T12:00:00",
+    "show_timer_approx_prefix": true,
+    "fame_tiers": [
+      {
+        "unlocks_at": 30,
+        "reward": null,
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "costumes_upper",
+                    "item_id": "top_bananawater_01"
+                  }
+                ]
+              },
+              "id": "top_bananawater_01"
+            },
+            "season_pass_id": null
+          }
+        ]
+      },
+      {
+        "unlocks_at": 60,
+        "reward": {
+          "contents": {
+            "type": "direct",
+            "items": [
+              {
+                "group_id": "currencies",
+                "item_id": "kudos",
+                "quantity": 1000,
+                "challenge_ui_detail_colour": "colour.challenges_blue"
+              }
+            ]
+          },
+          "id": "kudos_bonus_1000"
+        },
+        "rewards": []
+      },
+      {
+        "unlocks_at": 100,
+        "reward": {
+          "contents": {
+            "type": "direct",
+            "items": [
+              {
+                "group_id": "costumes_patterns",
+                "item_id": "pattern_s5_002"
+              }
+            ]
+          },
+          "id": "pattern_s5_002"
+        },
+        "rewards": []
+      },
+      {
+        "unlocks_at": 160,
+        "reward": null,
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "costumes_lower",
+                    "item_id": "bottom_bananawater_01"
+                  }
+                ]
+              },
+              "id": "bottom_bananawater_01"
+            },
+            "season_pass_id": null
+          }
+        ]
+      },
+      {
+        "unlocks_at": 250,
+        "reward": null,
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "costumes_patterns",
+                    "item_id": "pattern_generic_057"
+                  }
+                ]
+              },
+              "id": "pattern_generic_057"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s6"
+          }
+        ]
+      },
+      {
+        "unlocks_at": 370,
+        "reward": null,
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "costumes_faceplates",
+                    "item_id": "face_generic_008"
+                  }
+                ]
+              },
+              "id": "face_generic_008"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s6"
+          }
+        ]
+      },
+      {
+        "unlocks_at": 520,
+        "reward": null,
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "cosmetics_emotes",
+                    "item_id": "emote_generic_007"
+                  }
+                ]
+              },
+              "id": "emote_generic_007"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s6"
+          }
+        ]
+      },
+      {
+        "unlocks_at": 700,
+        "reward": {
+          "contents": {
+            "type": "direct",
+            "items": [
+              {
+                "group_id": "hard_currencies",
+                "item_id": "gems",
+                "quantity": 100,
+                "challenge_ui_detail_colour": "colour.challenges_blue"
+              }
+            ]
+          },
+          "id": "gems_bonus_001"
+        },
+        "rewards": []
+      },
+      {
+        "unlocks_at": 910,
+        "reward": null,
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "costumes_upper",
+                    "item_id": "top_eggshell_01"
+                  }
+                ]
+              },
+              "id": "top_eggshell_01"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s6"
+          }
+        ]
+      },
+      {
+        "unlocks_at": 1150,
+        "reward": null,
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "cosmetics_punchlines",
+                    "item_id": "celebration_generic_004"
+                  }
+                ]
+              },
+              "id": "celebration_generic_004"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s6"
+          }
+        ]
+      },
+      {
+        "unlocks_at": 1420,
+        "reward": null,
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "costumes_colour_schemes",
+                    "item_id": "colour_crownrank_007"
+                  }
+                ]
+              },
+              "id": "colour_crownrank_007"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s6"
+          }
+        ]
+      },
+      {
+        "unlocks_at": 1720,
+        "reward": {
+          "contents": {
+            "type": "direct",
+            "items": [
+              {
+                "group_id": "currencies",
+                "item_id": "kudos",
+                "quantity": 1000,
+                "challenge_ui_detail_colour": "colour.challenges_blue"
+              }
+            ]
+          },
+          "id": "kudos_bonus_1000"
+        },
+        "rewards": []
+      },
+      {
+        "unlocks_at": 2050,
+        "reward": null,
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "costumes_lower",
+                    "item_id": "bottom_eggshell_01"
+                  }
+                ]
+              },
+              "id": "bottom_eggshell_01"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s6"
+          }
+        ]
+      },
+      {
+        "unlocks_at": 2400,
+        "reward": {
+          "contents": {
+            "type": "direct",
+            "items": [
+              {
+                "group_id": "hard_currencies",
+                "item_id": "gems",
+                "quantity": 100,
+                "challenge_ui_detail_colour": "colour.challenges_blue"
+              }
+            ]
+          },
+          "id": "gems_bonus_001"
+        },
+        "rewards": []
+      },
+      {
+        "unlocks_at": 2800,
+        "reward": null,
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "costumes_lower",
+                    "item_id": "bottom_wrappaper_01"
+                  }
+                ]
+              },
+              "id": "bottom_wrappaper_01"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s6"
+          }
+        ]
+      },
+      {
+        "unlocks_at": 3250,
+        "reward": {
+          "contents": {
+            "type": "direct",
+            "items": [
+              {
+                "group_id": "currencies",
+                "item_id": "kudos",
+                "quantity": 1000,
+                "challenge_ui_detail_colour": "colour.challenges_blue"
+              }
+            ]
+          },
+          "id": "kudos_bonus_1000"
+        },
+        "rewards": []
+      },
+      {
+        "unlocks_at": 3700,
+        "reward": {
+          "contents": {
+            "type": "direct",
+            "items": [
+              {
+                "group_id": "cosmetics_nicknames",
+                "item_id": "nickname_s5_004"
+              }
+            ]
+          },
+          "id": "nickname_s5_004"
+        },
+        "rewards": []
+      },
+      {
+        "unlocks_at": 4150,
+        "reward": null,
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "costumes_upper",
+                    "item_id": "top_wrappaper_01"
+                  }
+                ]
+              },
+              "id": "top_wrappaper_01"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s6"
+          }
+        ]
+      },
+      {
+        "unlocks_at": 4650,
+        "reward": null,
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "costumes_colour_schemes",
+                    "item_id": "colour_s5_003"
+                  }
+                ]
+              },
+              "id": "colour_s5_003"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s6"
+          }
+        ]
+      },
+      {
+        "unlocks_at": 5150,
+        "reward": {
+          "contents": {
+            "type": "direct",
+            "items": [
+              {
+                "group_id": "cosmetics_nicknames",
+                "item_id": "nickname_generic_003"
+              }
+            ]
+          },
+          "id": "nickname_generic_003"
+        },
+        "rewards": []
+      },
+      {
+        "unlocks_at": 5650,
+        "reward": {
+          "contents": {
+            "type": "direct",
+            "items": [
+              {
+                "group_id": "currencies",
+                "item_id": "kudos",
+                "quantity": 3500,
+                "challenge_ui_detail_colour": "colour.challenges_blue"
+              }
+            ]
+          },
+          "id": "kudos_bonus_3500"
+        },
+        "rewards": []
+      },
+      {
+        "unlocks_at": 6150,
+        "reward": null,
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "cosmetics_nameplates",
+                    "item_id": "nameplate_generic_017"
+                  }
+                ]
+              },
+              "id": "nameplate_generic_017"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s6"
+          }
+        ]
+      },
+      {
+        "unlocks_at": 6650,
+        "reward": null,
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "hard_currencies",
+                    "item_id": "gems",
+                    "quantity": 100,
+                    "challenge_ui_detail_colour": "colour.challenges_blue"
+                  }
+                ]
+              },
+              "id": "gems_bonus_001"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s6"
+          }
+        ]
+      },
+      {
+        "unlocks_at": 7250,
+        "reward": {
+          "contents": {
+            "type": "direct",
+            "items": [
+              {
+                "group_id": "cosmetics_emotes",
+                "item_id": "emote_generic_009"
+              }
+            ]
+          },
+          "id": "emote_generic_009"
+        },
+        "rewards": []
+      },
+      {
+        "unlocks_at": 7850,
+        "reward": null,
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "cosmetics_punchlines",
+                    "item_id": "celebration_generic_013"
+                  }
+                ]
+              },
+              "id": "celebration_generic_013"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s6"
+          }
+        ]
+      },
+      {
+        "unlocks_at": 8450,
+        "reward": null,
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "hard_currencies",
+                    "item_id": "gems",
+                    "quantity": 100,
+                    "challenge_ui_detail_colour": "colour.challenges_blue"
+                  }
+                ]
+              },
+              "id": "gems_bonus_001"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s6"
+          }
+        ]
+      },
+      {
+        "unlocks_at": 9050,
+        "reward": {
+          "contents": {
+            "type": "direct",
+            "items": [
+              {
+                "group_id": "costumes_patterns",
+                "item_id": "pattern_s5_009"
+              }
+            ]
+          },
+          "id": "pattern_s5_009"
+        },
+        "rewards": []
+      },
+      {
+        "unlocks_at": 9700,
+        "reward": {
+          "contents": {
+            "type": "direct",
+            "items": [
+              {
+                "group_id": "cosmetics_nicknames",
+                "item_id": "nickname_s5_008"
+              }
+            ]
+          },
+          "id": "nickname_s5_008"
+        },
+        "rewards": []
+      },
+      {
+        "unlocks_at": 10350,
+        "reward": {
+          "contents": {
+            "type": "direct",
+            "items": [
+              {
+                "group_id": "currencies",
+                "item_id": "crowns",
+                "quantity": 3,
+                "challenge_ui_detail_colour": "colour.challenges_blue"
+              }
+            ]
+          },
+          "id": "crowns_bonus_003"
+        },
+        "rewards": []
+      },
+      {
+        "unlocks_at": 11050,
+        "reward": {
+          "contents": {
+            "type": "direct",
+            "items": [
+              {
+                "group_id": "cosmetics_nameplates",
+                "item_id": "nameplate_s5_002"
+              }
+            ]
+          },
+          "id": "nameplate_s5_002"
+        },
+        "rewards": []
+      },
+      {
+        "unlocks_at": 11750,
+        "reward": null,
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "costumes_lower",
+                    "item_id": "bottom_s5_musketeer_02"
+                  }
+                ]
+              },
+              "id": "bottom_s5_musketeer_02"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s6"
+          }
+        ]
+      },
+      {
+        "unlocks_at": 12450,
+        "reward": {
+          "contents": {
+            "type": "direct",
+            "items": [
+              {
+                "group_id": "currencies",
+                "item_id": "kudos",
+                "quantity": 5000,
+                "challenge_ui_detail_colour": "colour.challenges_blue"
+              }
+            ]
+          },
+          "id": "kudos_bonus_5000"
+        },
+        "rewards": []
+      },
+      {
+        "unlocks_at": 13150,
+        "reward": {
+          "contents": {
+            "type": "direct",
+            "items": [
+              {
+                "group_id": "costumes_faceplates",
+                "item_id": "face_s5_001"
+              }
+            ]
+          },
+          "id": "face_s5_001"
+        },
+        "rewards": []
+      },
+      {
+        "unlocks_at": 13900,
+        "reward": {
+          "contents": {
+            "type": "direct",
+            "items": [
+              {
+                "group_id": "costumes_patterns",
+                "item_id": "pattern_s5_014"
+              }
+            ]
+          },
+          "id": "pattern_s5_014"
+        },
+        "rewards": []
+      },
+      {
+        "unlocks_at": 14650,
+        "reward": null,
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "costumes_upper",
+                    "item_id": "top_s5_musketeer_01"
+                  }
+                ]
+              },
+              "id": "top_s5_musketeer_01"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s6"
+          }
+        ]
+      },
+      {
+        "unlocks_at": 15400,
+        "reward": {
+          "contents": {
+            "type": "direct",
+            "items": [
+              {
+                "group_id": "currencies",
+                "item_id": "crowns",
+                "quantity": 5,
+                "challenge_ui_detail_colour": "colour.challenges_blue"
+              }
+            ]
+          },
+          "id": "crowns_bonus_005"
+        },
+        "rewards": []
+      },
+      {
+        "unlocks_at": 16200,
+        "reward": null,
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "costumes_lower",
+                    "item_id": "bottom_s5_musketeer_01"
+                  }
+                ]
+              },
+              "id": "bottom_s5_musketeer_01"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s6"
+          }
+        ]
+      },
+      {
+        "unlocks_at": 17000,
+        "reward": {
+          "contents": {
+            "type": "direct",
+            "items": [
+              {
+                "group_id": "costumes_lower",
+                "item_id": "bottom_s5_octopus_01"
+              }
+            ]
+          },
+          "id": "bottom_s5_octopus_01"
+        },
+        "rewards": []
+      },
+      {
+        "unlocks_at": 17800,
+        "reward": {
+          "contents": {
+            "type": "direct",
+            "items": [
+              {
+                "group_id": "costumes_colour_schemes",
+                "item_id": "colour_s5_017"
+              }
+            ]
+          },
+          "id": "colour_s5_017"
+        },
+        "rewards": []
+      },
+      {
+        "unlocks_at": 18600,
+        "reward": null,
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "cosmetics_nameplates",
+                    "item_id": "nameplate_s5_006"
+                  }
+                ]
+              },
+              "id": "nameplate_s5_006"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s6"
+          }
+        ]
+      },
+      {
+        "unlocks_at": 19500,
+        "reward": {
+          "contents": {
+            "type": "direct",
+            "items": [
+              {
+                "group_id": "costumes_upper",
+                "item_id": "top_s5_octopus_01"
+              }
+            ]
+          },
+          "id": "top_s5_octopus_01"
+        },
+        "rewards": []
+      },
+      {
+        "unlocks_at": 20400,
+        "reward": {
+          "contents": {
+            "type": "direct",
+            "items": [
+              {
+                "group_id": "currencies",
+                "item_id": "kudos",
+                "quantity": 5000,
+                "challenge_ui_detail_colour": "colour.challenges_blue"
+              }
+            ]
+          },
+          "id": "kudos_bonus_5000"
+        },
+        "rewards": []
+      },
+      {
+        "unlocks_at": 21400,
+        "reward": null,
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "hard_currencies",
+                    "item_id": "gems",
+                    "quantity": 100,
+                    "challenge_ui_detail_colour": "colour.challenges_blue"
+                  }
+                ]
+              },
+              "id": "gems_bonus_001"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s6"
+          }
+        ]
+      },
+      {
+        "unlocks_at": 22400,
+        "reward": {
+          "contents": {
+            "type": "direct",
+            "items": [
+              {
+                "group_id": "currencies",
+                "item_id": "crowns",
+                "quantity": 5,
+                "challenge_ui_detail_colour": "colour.challenges_blue"
+              }
+            ]
+          },
+          "id": "crowns_bonus_005"
+        },
+        "rewards": []
+      },
+      {
+        "unlocks_at": 23400,
+        "reward": {
+          "contents": {
+            "type": "direct",
+            "items": [
+              {
+                "group_id": "costumes_lower",
+                "item_id": "bottom_s5_genie_02"
+              }
+            ]
+          },
+          "id": "bottom_s5_genie_02"
+        },
+        "rewards": []
+      },
+      {
+        "unlocks_at": 24400,
+        "reward": {
+          "contents": {
+            "type": "direct",
+            "items": [
+              {
+                "group_id": "currencies",
+                "item_id": "kudos",
+                "quantity": 5000,
+                "challenge_ui_detail_colour": "colour.challenges_blue"
+              }
+            ]
+          },
+          "id": "kudos_bonus_5000"
+        },
+        "rewards": []
+      },
+      {
+        "unlocks_at": 25600,
+        "reward": {
+          "contents": {
+            "type": "direct",
+            "items": [
+              {
+                "group_id": "costumes_patterns",
+                "item_id": "pattern_s5_011"
+              }
+            ]
+          },
+          "id": "pattern_s5_011"
+        },
+        "rewards": []
+      },
+      {
+        "unlocks_at": 26800,
+        "reward": {
+          "contents": {
+            "type": "direct",
+            "items": [
+              {
+                "group_id": "costumes_colour_schemes",
+                "item_id": "colour_s5_015"
+              }
+            ]
+          },
+          "id": "colour_s5_015"
+        },
+        "rewards": []
+      },
+      {
+        "unlocks_at": 28000,
+        "reward": null,
+        "rewards": [
+          {
+            "reward": {
+              "contents": {
+                "type": "direct",
+                "items": [
+                  {
+                    "group_id": "costumes_upper",
+                    "item_id": "top_s5_genie_02"
+                  }
+                ]
+              },
+              "id": "top_s5_genie_02"
+            },
+            "season_pass_id": "season_passes.test_season_pass_s6"
+          }
+        ]
+      }
+    ],
+    "season_passes_disabled": false,
+    "upsell_popup": null,
+    "target_ids": [],
+    "id": "season_sym_001"
   }
 ]

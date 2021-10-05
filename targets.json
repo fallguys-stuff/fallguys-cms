@@ -90,6 +90,14 @@
     "id": "251021_281021"
   },
   {
+    "description": "Admin Tool users",
+    "condition_ids": [
+      "is_admin_tool_user"
+    ],
+    "conditions": [],
+    "id": "admin_tool_platform"
+  },
+  {
     "description": "The current date is later than the Prime global launch date",
     "condition_ids": [
       "is_after_prime_global_launch"
@@ -171,6 +179,21 @@
         "type": "date_time",
         "data": {
           "operator": "between",
+          "start": "2021-09-01T09:00:00",
+          "end": "2021-09-03T09:00:00"
+        }
+      }
+    ],
+    "description": null,
+    "condition_ids": [],
+    "id": "date_01092021_to_03092021"
+  },
+  {
+    "conditions": [
+      {
+        "type": "date_time",
+        "data": {
+          "operator": "between",
           "start": "2021-10-01T09:00:00",
           "end": "2021-10-05T09:00:00"
         }
@@ -179,6 +202,21 @@
     "description": null,
     "condition_ids": [],
     "id": "date_0110_0410_21"
+  },
+  {
+    "description": null,
+    "conditions": [
+      {
+        "type": "date_time",
+        "data": {
+          "operator": "between",
+          "start": "2021-11-01T09:00:00",
+          "end": "2021-11-03T09:00:00"
+        }
+      }
+    ],
+    "condition_ids": [],
+    "id": "date_0111_to_0311_2021"
   },
   {
     "description": null,
@@ -463,6 +501,21 @@
         "type": "date_time",
         "data": {
           "operator": "between",
+          "start": "2021-11-03T09:00:00",
+          "end": "2021-11-06T09:00:00"
+        }
+      }
+    ],
+    "condition_ids": [],
+    "id": "date_0311_to_0611_2021"
+  },
+  {
+    "description": null,
+    "conditions": [
+      {
+        "type": "date_time",
+        "data": {
+          "operator": "between",
           "start": "2021-04-04T09:00:00",
           "end": "2021-04-07T09:00:00"
         }
@@ -710,6 +763,15 @@
     "id": "date_05102021_to_08102021"
   },
   {
+    "description": null,
+    "condition_ids": [
+      "is_live_event_wok1_after",
+      "is_live_event_wok1_before"
+    ],
+    "conditions": [],
+    "id": "date_0510_0610_21"
+  },
+  {
     "conditions": [
       {
         "type": "date_time",
@@ -823,6 +885,21 @@
     "id": "date_0610_to_0810"
   },
   {
+    "description": null,
+    "conditions": [
+      {
+        "type": "date_time",
+        "data": {
+          "operator": "between",
+          "start": "2021-11-06T09:00:00",
+          "end": "2021-11-09T09:00:00"
+        }
+      }
+    ],
+    "condition_ids": [],
+    "id": "date_0611_to_0911_2021"
+  },
+  {
     "conditions": [
       {
         "type": "date_time",
@@ -925,6 +1002,15 @@
     "description": null,
     "condition_ids": [],
     "id": "date_07092021_to_10092021"
+  },
+  {
+    "description": null,
+    "condition_ids": [
+      "is_live_event_wok2_after",
+      "is_live_event_wok2_before"
+    ],
+    "conditions": [],
+    "id": "date_0710_0810_21"
   },
   {
     "description": null,
@@ -1167,6 +1253,30 @@
     "id": "date_09102021_to_12102021"
   },
   {
+    "description": null,
+    "condition_ids": [
+      "is_live_event_wok3_after",
+      "is_live_event_wok3_before"
+    ],
+    "conditions": [],
+    "id": "date_0910_1010_21"
+  },
+  {
+    "conditions": [
+      {
+        "type": "date_time",
+        "data": {
+          "operator": "between",
+          "start": "2021-11-09T09:00:00",
+          "end": "2021-11-12T09:00:00"
+        }
+      }
+    ],
+    "description": null,
+    "condition_ids": [],
+    "id": "date_0911_to_1111_2021"
+  },
+  {
     "conditions": [
       {
         "type": "date_time",
@@ -1255,6 +1365,15 @@
     "description": null,
     "condition_ids": [],
     "id": "date_10092021_to_13092021"
+  },
+  {
+    "description": "End Of Season 2021 Event",
+    "condition_ids": [
+      "is_live_event_end_of_season_day_1_start",
+      "is_live_event_end_of_season_day_5_end"
+    ],
+    "conditions": [],
+    "id": "date_10112021_to_15112021"
   },
   {
     "description": null,
@@ -1359,6 +1478,15 @@
     ],
     "condition_ids": [],
     "id": "date_1107_to_1307_steam"
+  },
+  {
+    "description": null,
+    "condition_ids": [
+      "is_live_event_wok4_after",
+      "is_live_event_wok4_before"
+    ],
+    "conditions": [],
+    "id": "date_1110_1210_21"
   },
   {
     "description": null,
@@ -1517,13 +1645,28 @@
         "data": {
           "operator": "between",
           "start": "2021-08-13T09:00:00",
-          "end": "2021-08-16T09:00:00"
+          "end": "2021-08-16T18:00:00"
         }
       }
     ],
     "description": null,
     "condition_ids": [],
     "id": "date_13082021_to_16082021"
+  },
+  {
+    "conditions": [
+      {
+        "type": "date_time",
+        "data": {
+          "operator": "between",
+          "start": "2021-08-13T09:00:00",
+          "end": "2021-08-17T18:00:00"
+        }
+      }
+    ],
+    "description": null,
+    "condition_ids": [],
+    "id": "date_13082021_to_17082021"
   },
   {
     "description": null,
@@ -1598,6 +1741,15 @@
     "description": null,
     "condition_ids": [],
     "id": "date_13102021_to_16102021"
+  },
+  {
+    "description": null,
+    "condition_ids": [
+      "is_live_event_wok5_after",
+      "is_live_event_wok5_before"
+    ],
+    "conditions": [],
+    "id": "date_1310_1410_21"
   },
   {
     "description": null,
@@ -1706,6 +1858,15 @@
   },
   {
     "description": null,
+    "condition_ids": [
+      "is_live_event_wok6_after",
+      "is_live_event_wok6_before"
+    ],
+    "conditions": [],
+    "id": "date_1510_1610_21"
+  },
+  {
+    "description": null,
     "conditions": [
       {
         "type": "date_time",
@@ -1793,6 +1954,21 @@
     "description": null,
     "condition_ids": [],
     "id": "date_16082021_to_20082021"
+  },
+  {
+    "conditions": [
+      {
+        "type": "date_time",
+        "data": {
+          "operator": "between",
+          "start": "2021-08-13T09:00:00",
+          "end": "2021-08-22T18:00:00"
+        }
+      }
+    ],
+    "description": null,
+    "condition_ids": [],
+    "id": "date_16082021_to_22082021"
   },
   {
     "description": null,
@@ -2532,7 +2708,7 @@
         "data": {
           "operator": "between",
           "start": "2021-08-23T09:00:00",
-          "end": "2021-08-27T09:00:00"
+          "end": "2021-08-27T18:00:00"
         }
       }
     ],
@@ -3323,6 +3499,14 @@
   },
   {
     "description": null,
+    "condition_ids": [
+      "disabled_year_1900"
+    ],
+    "conditions": [],
+    "id": "disabled_year_1900"
+  },
+  {
+    "description": null,
     "conditions": [
       {
         "type": "date_time",
@@ -3433,6 +3617,15 @@
     ],
     "conditions": [],
     "id": "le_s5_dove_02"
+  },
+  {
+    "description": null,
+    "condition_ids": [
+      "is_le_s5_halloween_before",
+      "is_le_s5_halloween_after"
+    ],
+    "conditions": [],
+    "id": "le_s5_halloween"
   },
   {
     "description": null,
@@ -3896,6 +4089,84 @@
     "id": "ps4_users"
   },
   {
+    "description": "For use testing Glizzy Showdown event",
+    "condition_ids": [
+      "is_qa_3_after",
+      "is_qa_3_before"
+    ],
+    "conditions": [],
+    "id": "qa_glizzy_showdown"
+  },
+  {
+    "description": "For use testing Glizzy Showdown event",
+    "condition_ids": [
+      "is_qa_4_after",
+      "is_qa_4_before"
+    ],
+    "conditions": [],
+    "id": "qa_glizzy_showdown_2"
+  },
+  {
+    "description": "For use testing Crown Ladder event",
+    "condition_ids": [
+      "is_qa_s5_after_am",
+      "is_qa_s5_before_am"
+    ],
+    "conditions": [],
+    "id": "qa_s5_crown_ladder"
+  },
+  {
+    "description": "For testing dove01 event",
+    "condition_ids": [
+      "is_qa_s5_after",
+      "is_qa_s5_before"
+    ],
+    "conditions": [],
+    "id": "qa_s5_dove01"
+  },
+  {
+    "description": "For testing dove01 event",
+    "condition_ids": [
+      "qa_le_glizzy_test_01",
+      "qa_le_glizzy_test_01_before"
+    ],
+    "conditions": [],
+    "id": "qa_s5_dove01_new"
+  },
+  {
+    "description": "For testing dove02 event",
+    "condition_ids": [
+      "is_qa_s5_after_pm",
+      "is_qa_s5_before_pm"
+    ],
+    "conditions": [],
+    "id": "qa_s5_dove02"
+  },
+  {
+    "description": "For testing dove02 event",
+    "condition_ids": [
+      "is_qa_2_after",
+      "is_qa_2_before"
+    ],
+    "conditions": [],
+    "id": "qa_s5_dove02_02"
+  },
+  {
+    "description": "date range for testing qa live events",
+    "conditions": [
+      {
+        "type": "date_time",
+        "data": {
+          "operator": "between",
+          "start": "2021-05-21T13:00:00",
+          "end": "2021-06-06T12:00:00"
+        }
+      }
+    ],
+    "condition_ids": [],
+    "id": "qa_test_events"
+  },
+  {
     "description": null,
     "conditions": [
       {
@@ -3911,11 +4182,39 @@
     "id": "regular_random"
   },
   {
+    "description": "this is a test",
+    "conditions": [
+      {
+        "type": "date_time",
+        "data": {
+          "operator": "more_than",
+          "start": "2020-07-27T00:00:00"
+        }
+      },
+      {
+        "type": "date_time",
+        "data": {
+          "operator": "less_than",
+          "end": "2020-07-31T23:59:59"
+        }
+      }
+    ],
+    "id": "test_featured_store"
+  },
+  {
     "description": "The user is playing on a Windows system.",
     "condition_ids": [
       "is_windows_user"
     ],
     "conditions": [],
     "id": "windows_users"
+  },
+  {
+    "description": "The user is playing on an xbox system.",
+    "condition_ids": [
+      "is_xbox_user"
+    ],
+    "conditions": [],
+    "id": "xbox_users"
   }
 ]

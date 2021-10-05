@@ -8,6 +8,7 @@
     "debug_ignore_min_players_on_round_selection": false,
     "debug_force_playing_single_round_only": false,
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_3_point_5_fan_favourites"
   },
   {
@@ -19,6 +20,7 @@
     "debug_ignore_min_players_on_round_selection": false,
     "debug_force_playing_single_round_only": false,
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_closedbeta_01"
   },
   {
@@ -30,6 +32,7 @@
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.round_fall_mountain_hub_complete",
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_closedbeta_02"
   },
   {
@@ -39,19 +42,21 @@
     "debug_ignore_min_players_on_round_selection": false,
     "debug_use_player_count_multiplier": false,
     "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.round_jump_showdown",
+    "fallback_round": "levels_round.round_floor_fall",
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_content_complete"
   },
   {
     "director": "levels_director.director_simple",
     "roundpool": "levels_roundpool.roundpool_content_complete_deterministic",
     "debug_force_playing_single_round_only": false,
-    "debug_ignore_min_players_on_round_selection": true,
+    "debug_ignore_min_players_on_round_selection": false,
     "debug_use_player_count_multiplier": false,
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.round_fall_mountain_hub_complete",
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_content_complete_deterministic"
   },
   {
@@ -60,20 +65,22 @@
     "debug_use_player_count_multiplier": false,
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.round_fall_mountain_hub_complete",
-    "debug_ignore_min_players_on_round_selection": true,
+    "debug_ignore_min_players_on_round_selection": false,
     "debug_force_playing_single_round_only": false,
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_deterministic_flow"
   },
   {
     "director": "levels_director.director_simple",
     "roundpool": "levels_roundpool.roundpool_deterministic_flow_survival",
     "debug_force_playing_single_round_only": false,
-    "debug_ignore_min_players_on_round_selection": true,
+    "debug_ignore_min_players_on_round_selection": false,
     "debug_use_player_count_multiplier": false,
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_match_fall",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_deterministic_flow_survival"
   },
   {
@@ -82,9 +89,10 @@
     "debug_use_player_count_multiplier": false,
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.round_floor_fall_squads",
-    "debug_ignore_min_players_on_round_selection": true,
+    "debug_ignore_min_players_on_round_selection": false,
     "debug_force_playing_single_round_only": false,
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_deterministic_squads"
   },
   {
@@ -95,7 +103,8 @@
     "debug_use_player_count_multiplier": false,
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
-    "fallback_round": "levels_round.round_drumtop_event_only_final",
+    "fallback_round": "levels_round.round_floor_fall",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_event_animals_template"
   },
   {
@@ -107,6 +116,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_floor_fall",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_event_anniversary_season_1"
   },
   {
@@ -117,8 +127,21 @@
     "debug_use_player_count_multiplier": false,
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
-    "fallback_round": "levels_round.round_biggestfan_event_elimination",
+    "fallback_round": "levels_round.round_slimeclimb_2_event_only_final",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_event_elimination_gauntlets"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_event_end_of_season_s2",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_jump_showdown",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_event_end_of_season_s2"
   },
   {
     "director": "levels_director.director_simple",
@@ -129,6 +152,7 @@
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.round_jump_showdown_event_fanfare",
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_event_fanfare"
   },
   {
@@ -140,6 +164,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_fall_mountain_hub_complete",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_event_fruit_basket"
   },
   {
@@ -151,7 +176,80 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_fall_mountain_hub_complete",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_event_hard_mode"
+  },
+  {
+    "director": "levels_director.director_no_weightings",
+    "roundpool": "levels_roundpool.roundpool_event_kudos_bollard_greens",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_fall_mountain_event_kudos_bollard_greens",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_event_kudos_bollard_greens"
+  },
+  {
+    "director": "levels_director.director_no_weightings",
+    "roundpool": "levels_roundpool.roundpool_event_kudos_gravity_wield",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_thin_ice_event_kudos_gravity_wield",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_event_kudos_gravity_wield"
+  },
+  {
+    "director": "levels_director.director_no_weightings",
+    "roundpool": "levels_roundpool.roundpool_event_kudos_jumping_for_joy",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_jump_showdown_event_kudos_jumping_for_joy",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_event_kudos_jumping_for_joy"
+  },
+  {
+    "director": "levels_director.director_no_weightings",
+    "roundpool": "levels_roundpool.roundpool_event_kudos_spin_cycle",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_jump_showdown_event_kudos_jumping_for_joy",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_event_kudos_spin_cycle"
+  },
+  {
+    "director": "levels_director.director_no_weightings",
+    "roundpool": "levels_roundpool.roundpool_event_le_halloween_slime_climb",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_slimeclimb_2_event_only_final",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_event_le_halloween_slime_climb"
+  },
+  {
+    "director": "levels_director.director_no_weightings",
+    "roundpool": "levels_roundpool.roundpool_le_halloween_team_squads",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 7,
+    "fallback_round": "levels_round.round_tunnel_final_trios",
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_event_le_halloween_team_squads"
   },
   {
     "director": "levels_director.director_event_ninja",
@@ -162,6 +260,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_jump_showdown",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_event_ninja"
   },
   {
@@ -173,6 +272,7 @@
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.round_floor_fall",
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_event_no_teams"
   },
   {
@@ -184,6 +284,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_floor_fall",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_event_northernlion"
   },
   {
@@ -195,6 +296,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_fall_mountain_hub_complete",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_event_only_basketfall"
   },
   {
@@ -206,6 +308,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_king_of_the_hill_event_only_final",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_event_only_bubbles"
   },
   {
@@ -217,6 +320,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_1v1_button_basher_event_only_final",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_event_only_button_bashers"
   },
   {
@@ -228,6 +332,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_drumtop_event_only_final",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_event_only_drumtop_template"
   },
   {
@@ -239,6 +344,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_fall_mountain_hub_complete",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_event_only_fall_ball"
   },
   {
@@ -250,6 +356,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_floor_fall",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_event_only_floor_fall"
   },
   {
@@ -261,6 +368,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_floor_fall",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_event_only_floor_fall_custom"
   },
   {
@@ -272,6 +380,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_floor_fall_event_only_low_grav_final",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_event_only_floor_fall_low_grav"
   },
   {
@@ -283,6 +392,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_hoverboardsurvival_event_only",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_event_only_hoverboardsurvival"
   },
   {
@@ -294,6 +404,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_jump_showdown",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_event_only_jump_club"
   },
   {
@@ -305,6 +416,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_fall_mountain_hub_complete",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_event_only_races"
   },
   {
@@ -316,6 +428,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_fall_mountain_hub_complete",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_event_only_races_any_final"
   },
   {
@@ -327,6 +440,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_fall_mountain_hub_complete",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_event_only_races_no_lava"
   },
   {
@@ -337,7 +451,8 @@
     "debug_use_player_count_multiplier": false,
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
-    "fallback_round": "levels_round.round_tunnel_event_only_roll_out_02",
+    "fallback_round": "levels_round.round_tunnel_final",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_event_only_roll_out"
   },
   {
@@ -349,6 +464,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_floor_fall",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_event_only_season_4"
   },
   {
@@ -360,6 +476,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_crown_maze",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_event_only_season_5"
   },
   {
@@ -371,6 +488,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_lava_event_only_slime_climb_final",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_event_only_slime_climb"
   },
   {
@@ -382,10 +500,11 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_slimeclimb_2_event_only_final",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_event_only_slime_climb_2"
   },
   {
-    "director": "levels_director.director_event_only_survival",
+    "director": "levels_director.director_simple",
     "roundpool": "levels_roundpool.roundpool_event_only_survival",
     "debug_force_playing_single_round_only": false,
     "debug_ignore_min_players_on_round_selection": false,
@@ -393,6 +512,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_floor_fall",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_event_only_survival"
   },
   {
@@ -404,6 +524,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_thin_ice",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_event_only_thin_ice"
   },
   {
@@ -415,6 +536,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_tip_toe_event_only_final",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_event_only_tip_toe"
   },
   {
@@ -426,6 +548,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_fall_mountain_hub_complete",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_event_season_2_highlight"
   },
   {
@@ -437,6 +560,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_fall_mountain_hub_complete",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_event_season_2_variation"
   },
   {
@@ -448,6 +572,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_floor_fall",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_event_season_3_variation"
   },
   {
@@ -459,6 +584,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_floor_fall_variation_s4_5",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_event_season_4_variation"
   },
   {
@@ -469,7 +595,8 @@
     "debug_use_player_count_multiplier": false,
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
-    "fallback_round": "levels_round.round_crown_maze",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "fallback_round": "levels_round.round_fall_mountain_variation_s5_1",
     "id": "episode_event_season_5_variation"
   },
   {
@@ -480,7 +607,8 @@
     "debug_use_player_count_multiplier": false,
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.round_floor_fall",
-    "ignore_team_sizes_in_selection": false,
+    "ignore_team_sizes_in_selection": true,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_event_spectator"
   },
   {
@@ -492,6 +620,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_shortcircuit",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_event_sports"
   },
   {
@@ -503,6 +632,7 @@
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.round_fall_mountain_hub_complete",
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_event_twitch_rivals"
   },
   {
@@ -514,17 +644,19 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_fall_mountain_event_yeetus",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_event_yeetus"
   },
   {
     "director": "levels_director.director_event_fan_favourites",
-    "roundpool": "levels_roundpool.roundpool_s4_fan_favourites",
+    "roundpool": "levels_roundpool.roundpool_s5_fan_favourites",
     "fallback_round": "levels_round.round_floor_fall_3_point_5_fan_favourite",
     "debug_use_player_count_multiplier": false,
     "debug_player_count_multiplier": 3,
     "debug_ignore_min_players_on_round_selection": false,
     "debug_force_playing_single_round_only": false,
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_fan_favourites"
   },
   {
@@ -536,6 +668,7 @@
     "debug_ignore_min_players_on_round_selection": false,
     "debug_force_playing_single_round_only": false,
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_feature_complete"
   },
   {
@@ -544,31 +677,34 @@
     "fallback_round": "levels_round.round_fall_mountain_hub_complete",
     "debug_use_player_count_multiplier": false,
     "debug_player_count_multiplier": 3,
-    "debug_ignore_min_players_on_round_selection": true,
+    "debug_ignore_min_players_on_round_selection": false,
     "debug_force_playing_single_round_only": false,
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_feature_complete_deterministic"
   },
   {
     "director": "levels_director.director_simple_teamneutral",
     "roundpool": "levels_roundpool.roundpool_grab_test_show",
     "debug_force_playing_single_round_only": false,
-    "debug_ignore_min_players_on_round_selection": false,
+    "debug_ignore_min_players_on_round_selection": true,
     "debug_use_player_count_multiplier": false,
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": true,
     "fallback_round": "levels_round.round_fall_mountain_hub_complete",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_grab_test_show"
   },
   {
     "director": "levels_director.director_simple",
     "roundpool": "levels_roundpool.roundpool_just_1v1_button_basher",
-    "debug_force_playing_single_round_only": true,
+    "debug_force_playing_single_round_only": false,
     "debug_ignore_min_players_on_round_selection": false,
     "debug_use_player_count_multiplier": false,
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.round_1v1_button_basher",
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_1v1_button_basher"
   },
   {
@@ -580,6 +716,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_arena_testbed",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_arena_testbed"
   },
   {
@@ -591,7 +728,44 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_basketfall",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_basketfall"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_basketfall_season_4_variant_1",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_basketfall_seaon_4_variant_1",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_basketfall_season_4_variant_1"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_basketfall_season_4_variant_2",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_basketfall_seaon_4_variant_2",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_basketfall_season_4_variant_2"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_basketfall_season_4_variant_3",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_basketfall_seaon_4_variant_3",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_basketfall_season_4_variant_3"
   },
   {
     "director": "levels_director.director_simple",
@@ -602,7 +776,32 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_biggestfan",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_biggestfan"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_biggestfan_slime_variant_1",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_biggestfan_slime_variant_1",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_biggestfan_slime_variant_1"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_biggestfan_slime_variant_2",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_biggestfan_slime_variant_2",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_biggestfan_slime_variant_2"
   },
   {
     "director": "levels_director.director_simple",
@@ -613,7 +812,140 @@
     "debug_ignore_min_players_on_round_selection": false,
     "debug_force_playing_single_round_only": false,
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_block_party"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_block_party_season_5_variation_1",
+    "fallback_round": "levels_round.round_block_party_season_5_variation_1",
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "debug_ignore_min_players_on_round_selection": false,
+    "ignore_team_sizes_in_selection": false,
+    "debug_force_playing_single_round_only": true,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_block_party_s5_variation_1"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_block_party_season_5_variation_10",
+    "fallback_round": "levels_round.round_block_party_season_5_variation_10",
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "debug_ignore_min_players_on_round_selection": false,
+    "ignore_team_sizes_in_selection": false,
+    "debug_force_playing_single_round_only": true,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_block_party_s5_variation_10"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_block_party_season_5_variation_11",
+    "fallback_round": "levels_round.round_block_party_season_5_variation_11",
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "debug_ignore_min_players_on_round_selection": false,
+    "ignore_team_sizes_in_selection": false,
+    "debug_force_playing_single_round_only": true,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_block_party_s5_variation_11"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_block_party_season_5_variation_2",
+    "fallback_round": "levels_round.round_block_party_season_5_variation_2",
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "debug_ignore_min_players_on_round_selection": false,
+    "ignore_team_sizes_in_selection": false,
+    "debug_force_playing_single_round_only": true,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_block_party_s5_variation_2"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_block_party_season_5_variation_3",
+    "fallback_round": "levels_round.round_block_party_season_5_variation_3",
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "debug_ignore_min_players_on_round_selection": false,
+    "ignore_team_sizes_in_selection": false,
+    "debug_force_playing_single_round_only": true,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_block_party_s5_variation_3"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_block_party_season_5_variation_4",
+    "fallback_round": "levels_round.round_block_party_season_5_variation_4",
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "debug_ignore_min_players_on_round_selection": false,
+    "ignore_team_sizes_in_selection": false,
+    "debug_force_playing_single_round_only": true,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_block_party_s5_variation_4"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_block_party_season_5_variation_5",
+    "fallback_round": "levels_round.round_block_party_season_5_variation_5",
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "debug_ignore_min_players_on_round_selection": false,
+    "ignore_team_sizes_in_selection": false,
+    "debug_force_playing_single_round_only": true,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_block_party_s5_variation_5"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_block_party_season_5_variation_6",
+    "fallback_round": "levels_round.round_block_party_season_5_variation_6",
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "debug_ignore_min_players_on_round_selection": false,
+    "ignore_team_sizes_in_selection": false,
+    "debug_force_playing_single_round_only": true,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_block_party_s5_variation_6"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_block_party_season_5_variation_7",
+    "fallback_round": "levels_round.round_block_party_season_5_variation_7",
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "debug_ignore_min_players_on_round_selection": false,
+    "ignore_team_sizes_in_selection": false,
+    "debug_force_playing_single_round_only": true,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_block_party_s5_variation_7"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_block_party_season_5_variation_8",
+    "fallback_round": "levels_round.round_block_party_season_5_variation_8",
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "debug_ignore_min_players_on_round_selection": false,
+    "ignore_team_sizes_in_selection": false,
+    "debug_force_playing_single_round_only": true,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_block_party_s5_variation_8"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_block_party_season_5_variation_9",
+    "fallback_round": "levels_round.round_block_party_season_5_variation_9",
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "debug_ignore_min_players_on_round_selection": false,
+    "ignore_team_sizes_in_selection": false,
+    "debug_force_playing_single_round_only": true,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_block_party_s5_variation_9"
   },
   {
     "director": "levels_director.director_squads",
@@ -624,6 +956,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_block_party_squads",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_block_party_squads"
   },
   {
@@ -635,6 +968,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_chicken_chase",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_chicken_chase"
   },
   {
@@ -646,7 +980,80 @@
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.round_chompchomp",
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.only_chompchomp",
     "id": "episode_just_chompchomp"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_chompchomp_slime_variant_1",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_chompchomp_slime_variant_1",
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_chompchomp_slime_variant_1"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_chompchomp_slime_variant_2",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_chompchomp_slime_variant_2",
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_chompchomp_slime_variant_2"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_chompchomp_toms",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_chompchomp",
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.only_chompchomp",
+    "id": "episode_just_chompchomp_toms"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_chompchomp_season_5_variation_1",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_chompchomp_season_5_variation_1",
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_chompchomp_variation_1"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_chompchomp_season_5_variation_2",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_chompchomp_season_5_variation_2",
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_chompchomp_variation_2"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_chompchomp_season_5_variation_3",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_chompchomp_season_5_variation_3",
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_chompchomp_variation_3"
   },
   {
     "director": "levels_director.director_simple",
@@ -657,6 +1064,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_crown_maze",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_crown_maze"
   },
   {
@@ -668,6 +1076,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_crown_maze_set_rooms_1",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_crown_maze_set_rooms_1"
   },
   {
@@ -679,6 +1088,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_crown_maze_set_rooms_2",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_crown_maze_set_rooms_2"
   },
   {
@@ -690,6 +1100,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_crown_maze_set_rooms_3",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_crown_maze_set_rooms_3"
   },
   {
@@ -701,6 +1112,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_crown_maze_set_rooms_4",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_crown_maze_set_rooms_4"
   },
   {
@@ -712,6 +1124,7 @@
     "debug_ignore_min_players_on_round_selection": false,
     "debug_force_playing_single_round_only": true,
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_dodge_fall"
   },
   {
@@ -723,7 +1136,56 @@
     "debug_ignore_min_players_on_round_selection": false,
     "debug_force_playing_single_round_only": false,
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.only_chompchomp",
     "id": "episode_just_door_dash"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_door_dash_toms",
+    "fallback_round": "levels_round.round_door_dash",
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_force_playing_single_round_only": false,
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.only_chompchomp",
+    "id": "episode_just_door_dash_toms"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_door_dash_season_5_variation_1",
+    "fallback_round": "levels_round.round_door_dash_season_5_variation_1",
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_force_playing_single_round_only": true,
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_door_dash_variation_1"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_door_dash_season_5_variation_2",
+    "fallback_round": "levels_round.round_door_dash_season_5_variation_2",
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_force_playing_single_round_only": true,
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_door_dash_variation_2"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_door_dash_season_5_variation_3",
+    "fallback_round": "levels_round.round_door_dash_season_5_variation_3",
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_force_playing_single_round_only": true,
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_door_dash_variation_3"
   },
   {
     "director": "levels_director.director_simple",
@@ -734,7 +1196,56 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_drumtop",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_drumtop"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_drum_top_season_5_variation_1",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_drum_top_season_5_variation_1",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_drumtop_variation_1"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_drum_top_season_5_variation_2",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_drum_top_season_5_variation_2",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_drumtop_variation_2"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_drum_top_season_5_variation_3",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_drum_top_season_5_variation_3",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_drumtop_variation_3"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_drum_top_season_5_variation_4",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_drum_top_season_5_variation_4",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_drumtop_variation_4"
   },
   {
     "director": "levels_director.director_simple",
@@ -745,6 +1256,7 @@
     "debug_ignore_min_players_on_round_selection": false,
     "debug_force_playing_single_round_only": true,
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_egg_grab"
   },
   {
@@ -756,6 +1268,7 @@
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.round_egg_grab_02",
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_egg_remix"
   },
   {
@@ -767,6 +1280,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_empty_testbed",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_empty_testbed"
   },
   {
@@ -778,7 +1292,20 @@
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.round_fall_ball_60_players",
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_fall_ball"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_fall_ball_nanas",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_fall_ball_event_fruit",
+    "ignore_team_sizes_in_selection": true,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_fall_ball_nanas"
   },
   {
     "director": "levels_director.director_simple",
@@ -789,7 +1316,32 @@
     "debug_ignore_min_players_on_round_selection": false,
     "debug_force_playing_single_round_only": false,
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.only_chompchomp",
     "id": "episode_just_fall_mountain"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_fall_mountain_season_5_variation_1",
+    "fallback_round": "levels_round.round_fall_mountain_season_5_variation_1",
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_force_playing_single_round_only": true,
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_fall_mountain_variation_1"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_fall_mountain_season_5_variation_2",
+    "fallback_round": "levels_round.round_fall_mountain_season_5_variation_2",
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_force_playing_single_round_only": true,
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_fall_mountain_variation_2"
   },
   {
     "director": "levels_director.director_simple",
@@ -800,7 +1352,44 @@
     "debug_ignore_min_players_on_round_selection": false,
     "debug_force_playing_single_round_only": false,
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_floor_fall"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_floor_fall_season_4_variant_1",
+    "fallback_round": "levels_round.round_floor_fall_season_4_variant_1",
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_force_playing_single_round_only": false,
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_floor_fall_season_4_variant_1"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_floor_fall_season_4_variant_2",
+    "fallback_round": "levels_round.round_floor_fall_season_4_variant_2",
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_force_playing_single_round_only": false,
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_floor_fall_season_4_variant_2"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_floor_fall_season_4_variant_3",
+    "fallback_round": "levels_round.round_floor_fall_season_4_variant_3",
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_force_playing_single_round_only": false,
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_floor_fall_season_4_variant_3"
   },
   {
     "director": "levels_director.director_squads",
@@ -811,6 +1400,7 @@
     "debug_ignore_min_players_on_round_selection": false,
     "debug_force_playing_single_round_only": false,
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_floor_fall_squads"
   },
   {
@@ -822,6 +1412,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_fruit_bowl",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_fruit_bowl"
   },
   {
@@ -833,7 +1424,44 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_fruitpunch",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_fruitpunch"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_fruitpunch_season_4_variant_1",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_fruitpunch_season_4_variant_1",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_fruitpunch_season_4_variant_1"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_fruitpunch_season_4_variant_2",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_fruitpunch_season_4_variant_2",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_fruitpunch_season_4_variant_2"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_fruitpunch_season_4_variant_3",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_fruitpunch_season_4_variant_3",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_fruitpunch_season_4_variant_3"
   },
   {
     "director": "levels_director.director_simple",
@@ -844,6 +1472,7 @@
     "debug_ignore_min_players_on_round_selection": false,
     "debug_force_playing_single_round_only": true,
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_gauntlet_01"
   },
   {
@@ -855,7 +1484,32 @@
     "debug_ignore_min_players_on_round_selection": false,
     "debug_force_playing_single_round_only": true,
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_gauntlet_02"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_gauntlet_02_slime_variant_1",
+    "fallback_round": "levels_round.round_gauntlet_02_slime_variant_1",
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_force_playing_single_round_only": true,
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_gauntlet_02_slime_variant_1"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_gauntlet_02_slime_variant_2",
+    "fallback_round": "levels_round.round_gauntlet_02_slime_variant_2",
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_force_playing_single_round_only": true,
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_gauntlet_02_slime_variant_2"
   },
   {
     "director": "levels_director.director_simple",
@@ -866,7 +1520,44 @@
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.round_gauntlet_03",
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_gauntlet_03"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_gauntlet_03_slime_variant_1",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_gauntlet_03_slime_variant_1",
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_gauntlet_03_slime_variant_1"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_gauntlet_03_slime_variant_2",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_gauntlet_03_slime_variant_2",
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_gauntlet_03_slime_variant_2"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_gauntlet_03_toms",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_gauntlet_03",
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_gauntlet_03_toms"
   },
   {
     "director": "levels_director.director_simple",
@@ -877,7 +1568,44 @@
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.round_gauntlet_04",
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.only_chompchomp",
     "id": "episode_just_gauntlet_04"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_gauntlet_04_slime_variant_1",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_gauntlet_04_slime_variant_1",
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_gauntlet_04_slime_variant_1"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_gauntlet_04_slime_variant_2",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_gauntlet_04_slime_variant_2",
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_gauntlet_04_slime_variant_2"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_gauntlet_04_toms",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_gauntlet_04",
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.only_chompchomp",
+    "id": "episode_just_gauntlet_04_toms"
   },
   {
     "director": "levels_director.director_simple",
@@ -888,7 +1616,32 @@
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.round_gauntlet_05",
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_gauntlet_05"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_gauntlet_05_slime_variant_1",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_gauntlet_05_slime_variant_1",
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_gauntlet_05_slime_variant_1"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_gauntlet_05_slime_variant_2",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_gauntlet_05_slime_variant_2",
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_gauntlet_05_slime_variant_2"
   },
   {
     "director": "levels_director.director_simple",
@@ -899,7 +1652,44 @@
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.round_gauntlet_06",
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_gauntlet_06"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_gauntlet_06_season_4_variant_1",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_gauntlet_06_season_4_variant_1",
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_gauntlet_06_season_4_variant_1"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_gauntlet_06_season_4_variant_2",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_gauntlet_06_season_4_variant_2",
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_gauntlet_06_season_4_variant_2"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_gauntlet_06_season_4_variant_3",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_gauntlet_06_season_4_variant_3",
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_gauntlet_06_season_4_variant_3"
   },
   {
     "director": "levels_director.director_simple",
@@ -910,7 +1700,44 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_gauntlet_07",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_gauntlet_07"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_gauntlet_07_season_5_variation_1",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_gauntlet_07_season_5_variation_1",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_gauntlet_07_variation_1"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_gauntlet_07_season_5_variation_2",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_gauntlet_07_season_5_variation_2",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_gauntlet_07_variation_2"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_gauntlet_07_season_5_variation_3",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_gauntlet_07_season_5_variation_3",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_gauntlet_07_variation_3"
   },
   {
     "director": "levels_director.director_simple",
@@ -921,6 +1748,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_gauntlet_testbed",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_gauntlet_testbed"
   },
   {
@@ -932,6 +1760,7 @@
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.round_ballhogs",
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_hoarders"
   },
   {
@@ -943,6 +1772,7 @@
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.round_hoops",
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_hoops"
   },
   {
@@ -954,18 +1784,56 @@
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.round_hoops_blockade_solo",
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_hoops_blockade_solo"
   },
   {
     "director": "levels_director.director_simple",
     "roundpool": "levels_roundpool.roundpool_just_hoverboardsurvival",
-    "debug_force_playing_single_round_only": false,
+    "debug_force_playing_single_round_only": true,
     "debug_ignore_min_players_on_round_selection": false,
     "debug_use_player_count_multiplier": false,
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_hoverboardsurvival",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_hoverboardsurvival"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_hoverboardsurvival_s4_variant_1",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_hoverboardsurvival_season_4_variant_1",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_hoverboardsurvival_season_4_variant_1"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_hoverboardsurvival_s4_variant_2",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_hoverboardsurvival_season_4_variant_2",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_hoverboardsurvival_season_4_variant_2"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_hoverboardsurvival_s4_variant_3",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_hoverboardsurvival_season_4_variant_3",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_hoverboardsurvival_season_4_variant_3"
   },
   {
     "director": "levels_director.director_simple",
@@ -976,17 +1844,43 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_iceclimb",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_iceclimb"
   },
   {
     "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_iceclimb_season_4_variant_1",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_iceclimb_season_4_variant_1",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_iceclimb_season_4_variant_1"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_iceclimb_season_4_variant_2",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_iceclimb_season_4_variant_2",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_iceclimb_season_4_variant_2"
+  },
+  {
+    "director": "levels_director.director_simple",
     "roundpool": "levels_roundpool.roundpool_just_jinxed",
-    "debug_ignore_min_players_on_round_selection": true,
+    "debug_ignore_min_players_on_round_selection": false,
     "debug_use_player_count_multiplier": false,
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.round_jinxed",
     "debug_force_playing_single_round_only": false,
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_jinxed"
   },
   {
@@ -998,7 +1892,20 @@
     "debug_ignore_min_players_on_round_selection": false,
     "debug_force_playing_single_round_only": true,
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_jump_club"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_jump_club_event_survival",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_jump_club_event_only_survival",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_jump_club_survival"
   },
   {
     "director": "levels_director.director_simple",
@@ -1009,6 +1916,7 @@
     "debug_ignore_min_players_on_round_selection": false,
     "debug_force_playing_single_round_only": false,
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_jump_showdown"
   },
   {
@@ -1020,7 +1928,44 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_king_of_the_hill",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_king_of_the_hill"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_king_of_the_hill_season_5_variation_1",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_king_of_the_hill_season_5_variation_1",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_king_of_the_hill_variation_1"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_king_of_the_hill_season_5_variation_2",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_king_of_the_hill_season_5_variation_2",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_king_of_the_hill_variation_2"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_king_of_the_hill_season_5_variation_3",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_king_of_the_hill_season_5_variation_3",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_king_of_the_hill_variation_3"
   },
   {
     "director": "levels_director.director_simple",
@@ -1031,7 +1976,56 @@
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.round_lava",
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.only_chompchomp",
     "id": "episode_just_lava"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_lava_season_5_variation_1",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_lava_season_5_variant_1",
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_lava_s5_variation_1"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_lava_season_5_variation_2",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_lava_season_5_variant_2",
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_lava_s5_variation_2"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_lava_season_4_variant_1",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_lava_season_4_variant_1",
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_lava_season_4_variant_1"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_lava_season_4_variant_2",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_lava_season_4_variant_2",
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_lava_season_4_variant_2"
   },
   {
     "director": "levels_director.director_squads",
@@ -1042,7 +2036,20 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_lava_squads",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_lava_squads"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_lava_variants_all",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_lava_variants_all",
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_lava_variant_all"
   },
   {
     "director": "levels_director.director_simple",
@@ -1053,18 +2060,80 @@
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.round_match_fall",
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_match_fall"
   },
   {
     "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_match_fall",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_match_fall_no_variations",
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_match_fall_no_variants"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_match_fall_toms",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_match_fall",
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.only_chompchomp",
+    "id": "episode_just_match_fall_toms"
+  },
+  {
+    "director": "levels_director.director_simple",
     "roundpool": "levels_roundpool.roundpool_just_penguin_solos",
-    "debug_force_playing_single_round_only": false,
+    "debug_force_playing_single_round_only": true,
     "debug_ignore_min_players_on_round_selection": false,
     "debug_use_player_count_multiplier": false,
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_penguin_solos",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_penguin_solos"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_penguin_solos_season_5_variation_1",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_penguin_solos_season_5_variation_1",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_penguin_solos_variation_1"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_penguin_solos_season_5_variation_2",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_penguin_solos_season_5_variation_2",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_penguin_solos_variation_2"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_penguin_solos_season_5_variation_3",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_penguin_solos_season_5_variation_3",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_penguin_solos_variation_3"
   },
   {
     "director": "levels_director.director_simple",
@@ -1075,7 +2144,44 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_robotrampage_arena_2",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_robotrampage_arena_2"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_robotrampage_arena_2_variation_1",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_robotrampage_arena_2_variation_1",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_robotrampage_arena_2_varation_1"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_robotrampage_arena_2_variation_2",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_robotrampage_arena_2_variation_2",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_robotrampage_arena_2_varation_2"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_robotrampage_arena_2_variation_3",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_robotrampage_arena_2_variation_3",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_robotrampage_arena_2_varation_3"
   },
   {
     "director": "levels_director.director_simple",
@@ -1086,6 +2192,7 @@
     "debug_ignore_min_players_on_round_selection": false,
     "debug_force_playing_single_round_only": false,
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_rocknroll"
   },
   {
@@ -1097,6 +2204,7 @@
     "debug_ignore_min_players_on_round_selection": false,
     "debug_force_playing_single_round_only": false,
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_royal_rumble"
   },
   {
@@ -1108,6 +2216,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_score_zones_solo",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_score_zones_solo"
   },
   {
@@ -1119,6 +2228,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_score_zones_team_mode",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_score_zones_team_mode"
   },
   {
@@ -1130,6 +2240,7 @@
     "debug_ignore_min_players_on_round_selection": true,
     "debug_force_playing_single_round_only": true,
     "ignore_team_sizes_in_selection": true,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_season_3_obstacles"
   },
   {
@@ -1141,6 +2252,7 @@
     "debug_ignore_min_players_on_round_selection": true,
     "debug_force_playing_single_round_only": true,
     "ignore_team_sizes_in_selection": true,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_season_4_obstacles"
   },
   {
@@ -1152,6 +2264,7 @@
     "debug_ignore_min_players_on_round_selection": true,
     "debug_force_playing_single_round_only": true,
     "ignore_team_sizes_in_selection": true,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_season_5_background_goop"
   },
   {
@@ -1163,6 +2276,7 @@
     "debug_ignore_min_players_on_round_selection": true,
     "debug_force_playing_single_round_only": true,
     "ignore_team_sizes_in_selection": true,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_season_5_background_respawn"
   },
   {
@@ -1174,6 +2288,7 @@
     "debug_ignore_min_players_on_round_selection": true,
     "debug_force_playing_single_round_only": true,
     "ignore_team_sizes_in_selection": true,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_season_5_obstacles"
   },
   {
@@ -1185,7 +2300,32 @@
     "debug_ignore_min_players_on_round_selection": false,
     "debug_force_playing_single_round_only": false,
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_see_saw"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_see_saw_slime_variant_1",
+    "fallback_round": "levels_round.round_see_saw_slime_variant_1",
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_force_playing_single_round_only": true,
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_see_saw_slime_variant_1"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_see_saw_slime_variant_2",
+    "fallback_round": "levels_round.round_see_saw_slime_variant_2",
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_force_playing_single_round_only": true,
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_see_saw_slime_variant_2"
   },
   {
     "director": "levels_director.director_simple",
@@ -1196,7 +2336,44 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_shortcircuit",
+    "toms_padding_rules": "toms_padding_rules.only_chompchomp",
     "id": "episode_just_shortcircuit"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_shortcircuit_season_4_variaton_1",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_shortcircuit_season_4_variant_1",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_shortcircuit_season_4_variation_1"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_shortcircuit_season_4_variaton_2",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_shortcircuit_season_4_variant_2",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_shortcircuit_season_4_variation_2"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_shortcircuit_season_4_variaton_3",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_shortcircuit_season_4_variant_3",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_shortcircuit_season_4_variation_3"
   },
   {
     "director": "levels_director.director_simple",
@@ -1207,7 +2384,44 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_skeefall",
+    "toms_padding_rules": "toms_padding_rules.only_chompchomp",
     "id": "episode_just_skeefall"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_skeefall_season_4_variant_1",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_skeefall_season_4_variant_1",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_skeefall_season_4_variant_1"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_skeefall_season_4_variant_2",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_skeefall_season_4_variant_2",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_skeefall_season_4_variant_2"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_skeefall_toms",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_skeefall_toms",
+    "toms_padding_rules": "toms_padding_rules.only_chompchomp",
+    "id": "episode_just_skeefall_toms"
   },
   {
     "director": "levels_director.director_simple",
@@ -1218,17 +2432,43 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_slimeclimb_2",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_slimeclimb_2"
   },
   {
     "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_slimeclimb_2_seaons_5_variation_1",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_slimeclimb_2_season_5_variation_1",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_slimeclimb_2_s5_varitaion_1"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_slimeclimb_2_seaons_5_variation_2",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_slimeclimb_2_season_5_variation_2",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_slimeclimb_2_s5_varitaion_2"
+  },
+  {
+    "director": "levels_director.director_simple",
     "roundpool": "levels_roundpool.roundpool_just_snowballsurvival",
-    "debug_force_playing_single_round_only": false,
+    "debug_force_playing_single_round_only": true,
     "debug_ignore_min_players_on_round_selection": false,
     "debug_use_player_count_multiplier": false,
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_snowballsurvival",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_snowballsurvival"
   },
   {
@@ -1240,6 +2480,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_snowballsurvival_alternating_edge",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_snowballsurvival_alternating_edge"
   },
   {
@@ -1251,6 +2492,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_snowballsurvival_ice_centre",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_snowballsurvival_ice_centre"
   },
   {
@@ -1262,6 +2504,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_snowballsurvival_just_disc",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_snowballsurvival_just_disc"
   },
   {
@@ -1273,7 +2516,56 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_snowballsurvival_safe_centre",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_snowballsurvival_safe_centre"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_snowballsurvival_s5_variation_1",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_snowballsurvival_season_5_variation_1",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_snowballsurvival_variation_1"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_snowballsurvival_s5_variation_2",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_snowballsurvival_season_5_variation_2",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_snowballsurvival_variation_2"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_snowballsurvival_s5_variation_3",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_snowballsurvival_season_5_variation_3",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_snowballsurvival_variation_3"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_snowballsurvival_s5_variation_4",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_snowballsurvival_season_5_variation_4",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_snowballsurvival_variation_4"
   },
   {
     "director": "levels_director.director_simple",
@@ -1284,7 +2576,32 @@
     "debug_ignore_min_players_on_round_selection": false,
     "debug_force_playing_single_round_only": true,
     "ignore_team_sizes_in_selection": true,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_snowy_scrap"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_snowy_scrap_season_4_variant_1",
+    "fallback_round": "levels_round.round_snowy_scrap_season_4_variant_1",
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_force_playing_single_round_only": true,
+    "ignore_team_sizes_in_selection": true,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_snowy_scrap_season_4_variant_1"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_snowy_scrap_season_4_variant_2",
+    "fallback_round": "levels_round.round_snowy_scrap_season_4_variant_2",
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_force_playing_single_round_only": true,
+    "ignore_team_sizes_in_selection": true,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_snowy_scrap_season_4_variant_2"
   },
   {
     "director": "levels_director.director_simple",
@@ -1295,6 +2612,7 @@
     "debug_ignore_min_players_on_round_selection": false,
     "debug_force_playing_single_round_only": true,
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_tail_tag"
   },
   {
@@ -1306,6 +2624,7 @@
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.round_conveyor_arena",
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_team_tail_tag"
   },
   {
@@ -1317,7 +2636,56 @@
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.round_territory_control",
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_territory_control"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_territory_control_s4_variant_1",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_territory_control_season_4_variant_1",
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_territory_control_season_4_variant_1"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_territory_control_s4_variant_2",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_territory_control_season_4_variant_2",
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_territory_control_season_4_variant_2"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_territory_control_s4_variant_3",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_territory_control_season_4_variant_3",
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_territory_control_season_4_variant_3"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_territory_control_s4_variant_4",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_territory_control_season_4_variant_4",
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_territory_control_season_4_variant_4"
   },
   {
     "director": "levels_director.director_simple",
@@ -1328,7 +2696,56 @@
     "debug_ignore_min_players_on_round_selection": false,
     "debug_force_playing_single_round_only": true,
     "ignore_team_sizes_in_selection": true,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_thin_ice"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_thin_ice_season_4_variant_1",
+    "fallback_round": "levels_round.round_thin_ice_season_4_variant_1",
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_force_playing_single_round_only": true,
+    "ignore_team_sizes_in_selection": true,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_thin_ice_season_4_variant_1"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_thin_ice_season_4_variant_2",
+    "fallback_round": "levels_round.round_thin_ice_season_4_variant_2",
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_force_playing_single_round_only": true,
+    "ignore_team_sizes_in_selection": true,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_thin_ice_season_4_variant_2"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_thin_ice_season_4_variant_3",
+    "fallback_round": "levels_round.round_thin_ice_season_4_variant_3",
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_force_playing_single_round_only": true,
+    "ignore_team_sizes_in_selection": true,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_thin_ice_season_4_variant_3"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_thin_ice_season_4_variant_4",
+    "fallback_round": "levels_round.round_thin_ice_season_4_variant_4",
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_force_playing_single_round_only": true,
+    "ignore_team_sizes_in_selection": true,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_thin_ice_season_4_variant_4"
   },
   {
     "director": "levels_director.director_simple",
@@ -1339,7 +2756,20 @@
     "debug_ignore_min_players_on_round_selection": false,
     "debug_force_playing_single_round_only": false,
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_tip_toe"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_tom_gym",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_tom_gym",
+    "toms_padding_rules": "toms_padding_rules.only_chompchomp",
+    "id": "episode_just_tom_gym"
   },
   {
     "director": "levels_director.director_simple",
@@ -1350,6 +2780,7 @@
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.round_tunnel",
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.only_chompchomp",
     "id": "episode_just_tunnel"
   },
   {
@@ -1361,18 +2792,68 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_tunnel_final",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_tunnel_final"
   },
   {
     "director": "levels_director.director_simple",
     "roundpool": "levels_roundpool.roundpool_just_tunnel_race",
-    "debug_force_playing_single_round_only": false,
+    "debug_force_playing_single_round_only": true,
     "debug_ignore_min_players_on_round_selection": false,
     "debug_use_player_count_multiplier": false,
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_tunnel_race",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_tunnel_race"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_tunnel_race_season_4_vairant_1",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_tunnel_race_season_4_variation_1",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_tunnel_race_season_4_variant_1"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_tunnel_race_season_4_vairant_2",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_tunnel_race_season_4_variation_2",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_tunnel_race_season_4_variant_2"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_tunnel_race_season_4_vairant_2",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_tunnel_race_season_4_variation_2",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_just_tunnel_race_season_4_variant_3"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_tunnel_toms",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_tunnel",
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.only_chompchomp",
+    "id": "episode_just_tunnel_toms"
   },
   {
     "director": "levels_director.director_simple",
@@ -1383,6 +2864,7 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_turntables",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_turntables"
   },
   {
@@ -1394,6 +2876,7 @@
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.round_variation_qa",
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_variation"
   },
   {
@@ -1405,116 +2888,127 @@
     "debug_ignore_min_players_on_round_selection": false,
     "debug_force_playing_single_round_only": true,
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_just_wall_guys"
   },
   {
     "director": "levels_director.director_event_ninja",
     "roundpool": "levels_roundpool.roundpool_level-variation_wave4_01",
     "debug_force_playing_single_round_only": false,
-    "debug_ignore_min_players_on_round_selection": true,
+    "debug_ignore_min_players_on_round_selection": false,
     "debug_use_player_count_multiplier": false,
     "debug_player_count_multiplier": 3,
-    "ignore_team_sizes_in_selection": true,
+    "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_fall_mountain_hub_complete",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_level-variation_wave4_01"
   },
   {
     "director": "levels_director.director_event_ninja",
     "roundpool": "levels_roundpool.roundpool_level-variation_wave4_02",
     "debug_force_playing_single_round_only": false,
-    "debug_ignore_min_players_on_round_selection": true,
+    "debug_ignore_min_players_on_round_selection": false,
     "debug_use_player_count_multiplier": false,
     "debug_player_count_multiplier": 3,
-    "ignore_team_sizes_in_selection": true,
+    "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_fall_mountain_hub_complete",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_level-variation_wave4_02"
   },
   {
     "director": "levels_director.director_event_ninja",
     "roundpool": "levels_roundpool.roundpool_level-variation_wave4_03",
     "debug_force_playing_single_round_only": false,
-    "debug_ignore_min_players_on_round_selection": true,
+    "debug_ignore_min_players_on_round_selection": false,
     "debug_use_player_count_multiplier": false,
     "debug_player_count_multiplier": 3,
-    "ignore_team_sizes_in_selection": true,
+    "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_fall_mountain_hub_complete",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_level-variation_wave4_03"
   },
   {
     "director": "levels_director.director_event_ninja",
     "roundpool": "levels_roundpool.roundpool_level-variation_wave4_04",
     "debug_force_playing_single_round_only": false,
-    "debug_ignore_min_players_on_round_selection": true,
+    "debug_ignore_min_players_on_round_selection": false,
     "debug_use_player_count_multiplier": false,
     "debug_player_count_multiplier": 3,
-    "ignore_team_sizes_in_selection": true,
+    "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_fall_mountain_hub_complete",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_level-variation_wave4_04"
   },
   {
     "director": "levels_director.director_no_weightings",
     "roundpool": "levels_roundpool.roundpool_level-variation_wave5_01",
     "debug_force_playing_single_round_only": false,
-    "debug_ignore_min_players_on_round_selection": true,
+    "debug_ignore_min_players_on_round_selection": false,
     "debug_use_player_count_multiplier": false,
     "debug_player_count_multiplier": 3,
-    "ignore_team_sizes_in_selection": true,
+    "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_fall_mountain_v51_01",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_level-variation_wave5_01"
   },
   {
     "director": "levels_director.director_no_weightings",
     "roundpool": "levels_roundpool.roundpool_level-variation_wave5_02",
     "debug_force_playing_single_round_only": false,
-    "debug_ignore_min_players_on_round_selection": true,
+    "debug_ignore_min_players_on_round_selection": false,
     "debug_use_player_count_multiplier": false,
     "debug_player_count_multiplier": 3,
-    "ignore_team_sizes_in_selection": true,
+    "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_fall_mountain_v51_01",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_level-variation_wave5_02"
   },
   {
     "director": "levels_director.director_no_weightings",
     "roundpool": "levels_roundpool.roundpool_level-variation_wave5_03",
     "debug_force_playing_single_round_only": false,
-    "debug_ignore_min_players_on_round_selection": true,
+    "debug_ignore_min_players_on_round_selection": false,
     "debug_use_player_count_multiplier": false,
     "debug_player_count_multiplier": 3,
-    "ignore_team_sizes_in_selection": true,
+    "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_fall_mountain_v51_01",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_level-variation_wave5_03"
   },
   {
     "director": "levels_director.director_no_weightings",
     "roundpool": "levels_roundpool.roundpool_level-variation_wave5_04",
     "debug_force_playing_single_round_only": false,
-    "debug_ignore_min_players_on_round_selection": true,
+    "debug_ignore_min_players_on_round_selection": false,
     "debug_use_player_count_multiplier": false,
     "debug_player_count_multiplier": 3,
-    "ignore_team_sizes_in_selection": true,
+    "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_fall_mountain_v51_01",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_level-variation_wave5_04"
   },
   {
     "director": "levels_director.director_simple",
-    "roundpool": "levels_roundpool.room8_bots_show",
+    "roundpool": "levels_roundpool.roundpool_room8_mobile_full_levels",
     "debug_force_playing_single_round_only": false,
     "debug_ignore_min_players_on_round_selection": true,
     "debug_use_player_count_multiplier": false,
     "debug_player_count_multiplier": 1,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_fall_mountain_hub_complete",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_mobile_alexander"
   },
   {
     "director": "levels_director.director_simple",
     "roundpool": "levels_roundpool.roundpool_performance_test",
     "debug_force_playing_single_round_only": false,
-    "debug_ignore_min_players_on_round_selection": false,
+    "debug_ignore_min_players_on_round_selection": true,
     "debug_use_player_count_multiplier": false,
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.round_floor_fall",
-    "ignore_team_sizes_in_selection": false,
+    "ignore_team_sizes_in_selection": true,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_performance_test"
   },
   {
@@ -1526,6 +3020,7 @@
     "debug_ignore_min_players_on_round_selection": true,
     "debug_force_playing_single_round_only": false,
     "ignore_team_sizes_in_selection": true,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_qa_fullshow_0"
   },
   {
@@ -1537,6 +3032,7 @@
     "debug_ignore_min_players_on_round_selection": true,
     "debug_force_playing_single_round_only": false,
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_qa_fullshow_01"
   },
   {
@@ -1545,9 +3041,10 @@
     "fallback_round": "levels_round.round_fall_mountain_hub_complete",
     "debug_use_player_count_multiplier": false,
     "debug_player_count_multiplier": 3,
-    "debug_ignore_min_players_on_round_selection": false,
+    "debug_ignore_min_players_on_round_selection": true,
     "debug_force_playing_single_round_only": false,
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_qa_fullshow_02"
   },
   {
@@ -1556,10 +3053,299 @@
     "fallback_round": "levels_round.round_fall_mountain_hub_complete",
     "debug_use_player_count_multiplier": false,
     "debug_player_count_multiplier": 3,
-    "debug_ignore_min_players_on_round_selection": false,
+    "debug_ignore_min_players_on_round_selection": true,
     "debug_force_playing_single_round_only": false,
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_qa_fullshow_03"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_qa_fullshow_04",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_fall_mountain_hub_complete",
+    "ignore_team_sizes_in_selection": true,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_qa_fullshow_04"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_qa_fullshow_05",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_fall_mountain_hub_complete",
+    "ignore_team_sizes_in_selection": true,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_qa_fullshow_05"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_qa_fullshow_06",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_fall_mountain_hub_complete",
+    "ignore_team_sizes_in_selection": true,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_qa_fullshow_06"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_qa_fullshow_07",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_fall_mountain_hub_complete",
+    "ignore_team_sizes_in_selection": true,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_qa_fullshow_07"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_qa_fullshow_08",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_fall_mountain_hub_complete",
+    "ignore_team_sizes_in_selection": true,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_qa_fullshow_08"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_qa_fullshow_09",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_fall_mountain_hub_complete",
+    "ignore_team_sizes_in_selection": true,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_qa_fullshow_09"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_qa_fullshow_10",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": true,
+    "fallback_round": "levels_round.round_fall_mountain_variants",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_qa_fullshow_10"
+  },
+  {
+    "director": "levels_director.director_squads",
+    "roundpool": "levels_roundpool.roundpool_qa_squad_fullshow_00",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_fall_mountain_hub_complete",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_qa_squad_fullshow_00"
+  },
+  {
+    "director": "levels_director.director_squads",
+    "roundpool": "levels_roundpool.roundpool_qa_squad_fullshow_01",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": true,
+    "fallback_round": "levels_round.round_fall_mountain_hub_complete",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_qa_squad_fullshow_01"
+  },
+  {
+    "director": "levels_director.director_squads",
+    "roundpool": "levels_roundpool.roundpool_qa_squad_fullshow_02",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": true,
+    "fallback_round": "levels_round.round_fall_mountain_hub_complete",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_qa_squad_fullshow_02"
+  },
+  {
+    "director": "levels_director.director_squads",
+    "roundpool": "levels_roundpool.roundpool_qa_squad_fullshow_03",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": true,
+    "fallback_round": "levels_round.round_fall_mountain_hub_complete",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_qa_squad_fullshow_03"
+  },
+  {
+    "director": "levels_director.director_squads",
+    "roundpool": "levels_roundpool.roundpool_qa_squad_fullshow_04",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": true,
+    "fallback_round": "levels_round.round_fall_mountain_hub_complete",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_qa_squad_fullshow_04"
+  },
+  {
+    "director": "levels_director.director_squads",
+    "roundpool": "levels_roundpool.roundpool_qa_squad_fullshow_05",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": true,
+    "fallback_round": "levels_round.round_fall_mountain_hub_complete",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_qa_squad_fullshow_05"
+  },
+  {
+    "director": "levels_director.director_squads",
+    "roundpool": "levels_roundpool.roundpool_qa_squad_fullshow_06",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": true,
+    "fallback_round": "levels_round.round_fall_mountain_hub_complete",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_qa_squad_fullshow_06"
+  },
+  {
+    "director": "levels_director.director_squads",
+    "roundpool": "levels_roundpool.roundpool_qa_squad_fullshow_07",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": true,
+    "fallback_round": "levels_round.round_fall_mountain_hub_complete",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_qa_squad_fullshow_07"
+  },
+  {
+    "director": "levels_director.director_squads",
+    "roundpool": "levels_roundpool.roundpool_qa_squad_fullshow_08",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": true,
+    "fallback_round": "levels_round.round_fall_mountain_hub_complete",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_qa_squad_fullshow_08"
+  },
+  {
+    "director": "levels_director.director_squads",
+    "roundpool": "levels_roundpool.roundpool_qa_squad_fullshow_09",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": true,
+    "fallback_round": "levels_round.round_fall_mountain_hub_complete",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_qa_squad_fullshow_09"
+  },
+  {
+    "director": "levels_director.director_squads",
+    "roundpool": "levels_roundpool.roundpool_qa_squad_fullshow_10",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": true,
+    "fallback_round": "levels_round.round_fall_mountain_hub_complete",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_qa_squad_fullshow_10"
+  },
+  {
+    "director": "levels_director.director_squads",
+    "roundpool": "levels_roundpool.roundpool_qa_squad_fullshow_11",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": true,
+    "fallback_round": "levels_round.round_fall_mountain_hub_complete",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_qa_squad_fullshow_11"
+  },
+  {
+    "director": "levels_director.director_squads",
+    "roundpool": "levels_roundpool.roundpool_qa_squad_fullshow_12",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_fall_mountain_hub_complete",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_qa_squad_fullshow_12"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_qa_squad_single_01",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": true,
+    "fallback_round": "levels_round.round_jump_showdown_squads",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_qa_squad_single_01"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_qa_squad_single_02",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": true,
+    "fallback_round": "levels_round.round_gauntlet_02_squads",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_qa_squad_single_02"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_qa_squad_single_03",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": true,
+    "fallback_round": "levels_round.round_block_party_squads",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_qa_squad_single_03"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_qa_squad_single_04",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": true,
+    "fallback_round": "levels_round.round_ballhogs_squads",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_qa_squad_single_04"
   },
   {
     "director": "levels_director.director_simple",
@@ -1570,6 +3356,7 @@
     "debug_ignore_min_players_on_round_selection": true,
     "debug_force_playing_single_round_only": false,
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_room8_01"
   },
   {
@@ -1581,18 +3368,8 @@
     "debug_player_count_multiplier": 1,
     "fallback_round": "levels_round.round_fall_mountain_hub_complete",
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_room8_02"
-  },
-  {
-    "director": "levels_director.director_simple",
-    "roundpool": "levels_roundpool.room8_bots_show",
-    "debug_force_playing_single_round_only": false,
-    "debug_ignore_min_players_on_round_selection": true,
-    "debug_use_player_count_multiplier": false,
-    "debug_player_count_multiplier": 1,
-    "ignore_team_sizes_in_selection": false,
-    "fallback_round": "levels_round.round_fall_mountain_hub_complete",
-    "id": "episode_room8_bots_show"
   },
   {
     "director": "levels_director.director_simple",
@@ -1603,28 +3380,31 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_fall_mountain_hub_complete",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_room8_mobile_full_levels"
   },
   {
     "director": "levels_director.director_simple",
     "roundpool": "levels_roundpool.roundpool_season_03",
     "debug_force_playing_single_round_only": false,
-    "debug_ignore_min_players_on_round_selection": true,
+    "debug_ignore_min_players_on_round_selection": false,
     "debug_use_player_count_multiplier": false,
     "debug_player_count_multiplier": 3,
-    "ignore_team_sizes_in_selection": true,
+    "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_gauntlet_05",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_season3_content"
   },
   {
     "director": "levels_director.director_simple",
     "roundpool": "levels_roundpool.roundpool_season_02",
     "debug_force_playing_single_round_only": false,
-    "debug_ignore_min_players_on_round_selection": true,
+    "debug_ignore_min_players_on_round_selection": false,
     "debug_use_player_count_multiplier": false,
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_gauntlet_04",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_season_02"
   },
   {
@@ -1634,9 +3414,22 @@
     "debug_ignore_min_players_on_round_selection": false,
     "debug_use_player_count_multiplier": false,
     "debug_player_count_multiplier": 3,
-    "ignore_team_sizes_in_selection": true,
+    "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_thin_ice",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_season_03"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_season_04",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_fall_mountain_event_yeetus",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_season_04"
   },
   {
     "director": "levels_director.director_tail_tag_april_show",
@@ -1647,18 +3440,68 @@
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_royal_rumble_april_show",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_tail_tag_april_show"
   },
   {
     "director": "levels_director.director_simple",
     "roundpool": "levels_roundpool.roundpool_test_season5",
     "debug_force_playing_single_round_only": false,
-    "debug_ignore_min_players_on_round_selection": true,
+    "debug_ignore_min_players_on_round_selection": false,
     "debug_use_player_count_multiplier": false,
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_floor_fall",
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episode_test_season5"
+  },
+  {
+    "director": "levels_director.director_tom_test",
+    "roundpool": "levels_roundpool.roundpool_tom_test",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_chompchomp_toms",
+    "toms_padding_rules": "toms_padding_rules.up_to_40_toms",
+    "id": "episode_tom_test"
+  },
+  {
+    "director": "levels_director.director_tom_test",
+    "roundpool": "levels_roundpool.roundpool_tom_test2",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_chompchomp",
+    "toms_padding_rules": "toms_padding_rules.only_chompchomp",
+    "id": "episode_tom_test2"
+  },
+  {
+    "director": "levels_director.director_toms_main_show_5_2",
+    "roundpool": "levels_roundpool.roundpool_toms_main_show_5_2",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_chompchomp_toms",
+    "toms_padding_rules": "toms_padding_rules.padding_rules_toms_main_show_5_2",
+    "id": "episode_toms_main_show_5_2"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_tunnel_event_survival",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_tunnel_event_only_survival",
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "episode_tunnel_event_survival"
   },
   {
     "director": "levels_director.director_simple",
@@ -1666,9 +3509,10 @@
     "fallback_round": "levels_round.round_fall_mountain_hub_complete",
     "debug_use_player_count_multiplier": false,
     "debug_player_count_multiplier": 3,
-    "debug_ignore_min_players_on_round_selection": false,
+    "debug_ignore_min_players_on_round_selection": true,
     "debug_force_playing_single_round_only": false,
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "episodes_alpha"
   },
   {
@@ -1680,6 +3524,7 @@
     "debug_player_count_multiplier": 7,
     "fallback_round": "levels_round.round_crown_maze_squads",
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "event_autumn_festival_squads"
   },
   {
@@ -1691,7 +3536,20 @@
     "debug_player_count_multiplier": 7,
     "fallback_round": "levels_round.round_floor_fall_squads",
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "squads_2player"
+  },
+  {
+    "director": "levels_director.director_squads_2player",
+    "roundpool": "levels_roundpool.roundpool_squads_points_test",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 7,
+    "fallback_round": "levels_round.round_floor_fall_squads",
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "squads_2player_points_test"
   },
   {
     "director": "levels_director.director_squads_3player",
@@ -1702,7 +3560,20 @@
     "debug_player_count_multiplier": 7,
     "fallback_round": "levels_round.round_floor_fall_squads",
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "squads_3player"
+  },
+  {
+    "director": "levels_director.director_squads_3player",
+    "roundpool": "levels_roundpool.roundpool_trios_points_test",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 7,
+    "fallback_round": "levels_round.round_floor_fall_squads",
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "squads_3player_points_test"
   },
   {
     "director": "levels_director.director_squads",
@@ -1713,7 +3584,20 @@
     "debug_player_count_multiplier": 7,
     "fallback_round": "levels_round.round_floor_fall_squads",
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "squads_4player"
+  },
+  {
+    "director": "levels_director.director_squads",
+    "roundpool": "levels_roundpool.roundpool_squads_points_test",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 7,
+    "fallback_round": "levels_round.round_floor_fall_squads",
+    "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
+    "id": "squads_4player_points_test"
   },
   {
     "director": "levels_director.director_squads_points_rounds_test",
@@ -1724,6 +3608,7 @@
     "debug_player_count_multiplier": 7,
     "fallback_round": "levels_round.round_floor_fall_squads",
     "ignore_team_sizes_in_selection": false,
+    "toms_padding_rules": "toms_padding_rules.default",
     "id": "squads_just_points_rounds_test"
   }
 ]
