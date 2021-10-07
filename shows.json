@@ -4906,6 +4906,29 @@
     "episode_reward_settings_id": "squad_rewards_duos",
     "min_party_size": 1,
     "max_party_size": 2,
+    "opens_at": "2021-10-07T08:00:00",
+    "closes_at": "2021-10-11T12:00:00",
+    "show_type": {
+      "showtype_switch": "squad",
+      "squad_size": 2
+    },
+    "size": {
+      "type": "default"
+    },
+    "private_lobby_size": {
+      "type": "default"
+    },
+    "show_image_cms": "show_selector_show_duos",
+    "id": "squads_2player_0710_1010_21"
+  },
+  {
+    "show_name": "localised_strings.show_title_squads_duos",
+    "show_description": "localised_strings.show_desc_squads_duos",
+    "show_image": "Duos",
+    "default_episode": "levels_episode.squads_2player",
+    "episode_reward_settings_id": "squad_rewards_duos",
+    "min_party_size": 1,
+    "max_party_size": 2,
     "opens_at": "2021-08-16T12:00:00",
     "closes_at": "2021-08-30T12:00:00",
     "show_type": {
@@ -5135,6 +5158,31 @@
     },
     "show_image_cms": "show_selector_show_trios",
     "id": "squads_3player_0410_1810_21"
+  },
+  {
+    "show_name": "localised_strings.show_title_squads_trios",
+    "show_description": "localised_strings.show_desc_squads_trios",
+    "show_image": "Trios",
+    "default_episode": "levels_episode.squads_3player",
+    "episode_reward_settings_id": "squad_rewards_trios",
+    "min_party_size": 1,
+    "max_party_size": 3,
+    "opens_at": "2021-10-11T12:00:00",
+    "closes_at": "2021-10-18T12:00:00",
+    "show_type": {
+      "showtype_switch": "squad",
+      "squad_size": 3
+    },
+    "size": {
+      "type": "override",
+      "min_players": 39,
+      "max_players": 60
+    },
+    "private_lobby_size": {
+      "type": "default"
+    },
+    "show_image_cms": "show_selector_show_trios",
+    "id": "squads_3player_1110_1810_21"
   },
   {
     "show_name": "localised_strings.show_title_squads_trios",
