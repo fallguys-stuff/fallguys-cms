@@ -5017,6 +5017,59 @@
         "weightings": [
           {
             "key": "SidewayConveyors",
+            "weighting": 60
+          },
+          {
+            "key": "Pendulums",
+            "weighting": 40
+          }
+        ]
+      },
+      {
+        "key": "SecondSection",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "SidewayConveyors",
+            "weighting": 50
+          },
+          {
+            "key": "Pendulums",
+            "weighting": 50
+          }
+        ]
+      },
+      {
+        "key": "SplitPaths",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "SpinningBollards",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "MergePaths",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "SpinningBollards",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_over_chompchomp_hard_mode"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "FirstSection",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "SidewayConveyors",
             "weighting": 75
           },
           {
@@ -7112,6 +7165,115 @@
         "undefined_weightings_behaviour": "set_to_zero",
         "weightings": [
           {
+            "key": "Off",
+            "weighting": 50
+          },
+          {
+            "key": "Hammer",
+            "weighting": 50
+          }
+        ]
+      },
+      {
+        "key": "Section02_BouncyRiver",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Spinner_Arms",
+            "weighting": 60
+          },
+          {
+            "key": "Frogs",
+            "weighting": 40
+          }
+        ]
+      },
+      {
+        "key": "Section02_LastSegment",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Flippers",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section03_DrumsMovement",
+        "undefined_weightings_behaviour": "use_defaults",
+        "weightings": [
+          {
+            "key": "UpAndDown",
+            "weighting": 70
+          },
+          {
+            "key": "Original",
+            "weighting": 30
+          }
+        ]
+      },
+      {
+        "key": "Section04_Bottom",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Lateral",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section04_Top",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 30
+          },
+          {
+            "key": "Diagonal",
+            "weighting": 70
+          }
+        ]
+      },
+      {
+        "key": "Section05_Top",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 50
+          },
+          {
+            "key": "Fans",
+            "weighting": 50
+          }
+        ]
+      },
+      {
+        "key": "Section05_Bottom",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Logswing",
+            "weighting": 50
+          },
+          {
+            "key": "Sideways",
+            "weighting": 50
+          }
+        ]
+      }
+    ],
+    "id": "var_over_drumtop_hard_mode"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "Section01_Hammers",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
             "key": "Hammer",
             "weighting": 80
           },
@@ -7811,6 +7973,51 @@
       }
     ],
     "id": "var_over_fall_mountain_event_yeetus"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "Middle",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "MovingPillars",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "EndRamp",
+        "undefined_weightings_behaviour": "use_defaults",
+        "weightings": [
+          {
+            "key": "Frogs",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "End",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Frogs",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Start",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_over_fall_mountain_hard_mode"
   },
   {
     "set_switchers_overrides": [
@@ -9896,6 +10103,111 @@
     "set_switchers_overrides": [
       {
         "key": "Section1_TopRoute",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Drums",
+            "weighting": 40
+          },
+          {
+            "key": "SpinArm_Turntable",
+            "weighting": 40
+          },
+          {
+            "key": "Frog_Turntable",
+            "weighting": 20
+          }
+        ]
+      },
+      {
+        "key": "Section2_TopRoute",
+        "undefined_weightings_behaviour": "use_defaults",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 50
+          },
+          {
+            "key": "AltDrums",
+            "weighting": 50
+          }
+        ]
+      },
+      {
+        "key": "Section2_BottomRoute",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section4_TopRoute_Frogs",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section4_TopRoute_Bollards",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Bollards",
+            "weighting": 50
+          },
+          {
+            "key": "Fans",
+            "weighting": 50
+          }
+        ]
+      },
+      {
+        "key": "Section5_TopRoute",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "AltLogSwing",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section5_BottomRoute",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 30
+          },
+          {
+            "key": "Fans",
+            "weighting": 70
+          }
+        ]
+      },
+      {
+        "key": "Section5_EndCliff",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Flippers",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_over_gauntlet_07_hard_mode"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "Section1_TopRoute",
         "undefined_weightings_behaviour": "use_defaults",
         "weightings": [
           {
@@ -11261,11 +11573,11 @@
           },
           {
             "key": "DoubleEnded",
-            "weighting": 20
+            "weighting": 0
           },
           {
             "key": "TripleEnded",
-            "weighting": 80
+            "weighting": 100
           }
         ]
       },
@@ -12157,11 +12469,11 @@
           },
           {
             "key": "SpinningBeam",
-            "weighting": 60
+            "weighting": 100
           },
           {
             "key": "BerryBlaster",
-            "weighting": 40
+            "weighting": 0
           },
           {
             "key": "Penguin",
@@ -12909,6 +13221,87 @@
       }
     ],
     "id": "var_over_slimeclimb_2_bollard_greens"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "Floor1_Ramp2",
+        "undefined_weightings_behaviour": "use_defaults",
+        "weightings": [
+          {
+            "key": "Punchers",
+            "weighting": 50
+          },
+          {
+            "key": "Forcefields",
+            "weighting": 50
+          }
+        ]
+      },
+      {
+        "key": "Floor1_RightCorner",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Fans",
+            "weighting": 70
+          },
+          {
+            "key": "LaserSwing",
+            "weighting": 30
+          }
+        ]
+      },
+      {
+        "key": "Floor2_RightCorner",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "MovableBlock",
+            "weighting": 60
+          },
+          {
+            "key": "Forcefields",
+            "weighting": 40
+          }
+        ]
+      },
+      {
+        "key": "Floor3_Ramp1",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "HighGrav",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Floor4_Ramp1",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Floor5_Ramp1",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Fan",
+            "weighting": 50
+          },
+          {
+            "key": "LaserSwing",
+            "weighting": 50
+          }
+        ]
+      }
+    ],
+    "id": "var_over_slimeclimb_2_hard_mode"
   },
   {
     "set_switchers_overrides": [

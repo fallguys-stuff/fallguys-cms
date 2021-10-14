@@ -866,7 +866,7 @@
       "min_players": 32,
       "max_players": 40
     },
-    "show_image_cms": "show_selector_show_s4502",
+    "show_image_cms": "show_selector_show_hw_slime_climb",
     "id": "event_le_halloween_slime_climb"
   },
   {
@@ -892,7 +892,7 @@
       "min_players": 32,
       "max_players": 40
     },
-    "show_image_cms": "show_selector_show_s4502",
+    "show_image_cms": "show_selector_show_hw_slime_climb",
     "id": "event_le_halloween_slime_climb_2110_to_0111_2021"
   },
   {
@@ -917,7 +917,7 @@
     "private_lobby_size": {
       "type": "default"
     },
-    "show_image_cms": "show_selector_show_squadshows",
+    "show_image_cms": "show_selector_show_hw_team_squads",
     "id": "event_le_halloween_team_squads"
   },
   {
@@ -942,7 +942,7 @@
     "private_lobby_size": {
       "type": "default"
     },
-    "show_image_cms": "show_selector_show_squadshows",
+    "show_image_cms": "show_selector_show_hw_team_squads",
     "id": "event_le_halloween_team_squads_2110_to_0111_2021"
   },
   {
@@ -3685,30 +3685,6 @@
     "max_party_size": 4,
     "default_episode": "levels_episode.episode_event_only_thin_ice",
     "episode_reward_settings_id": "solo_rewards",
-    "opens_at": "2021-10-06T12:00:00",
-    "closes_at": "2021-10-07T12:00:00",
-    "show_type": {
-      "showtype_switch": "individual"
-    },
-    "size": {
-      "type": "override",
-      "min_players": 16,
-      "max_players": 20
-    },
-    "private_lobby_size": {
-      "type": "default"
-    },
-    "show_image_cms": "show_selector_show_genericice",
-    "id": "event_only_thin_ice_0610_0610_21"
-  },
-  {
-    "show_name": "localised_strings.show_name_only_thin_ice",
-    "show_description": "localised_strings.show_desc_only_thin_ice",
-    "show_image": "GenericIce",
-    "min_party_size": 1,
-    "max_party_size": 4,
-    "default_episode": "levels_episode.episode_event_only_thin_ice",
-    "episode_reward_settings_id": "solo_rewards",
     "opens_at": "2021-03-19T12:00:00",
     "closes_at": "2021-03-22T12:00:00",
     "show_type": {
@@ -3748,6 +3724,30 @@
     },
     "show_image_cms": "show_selector_show_genericice",
     "id": "event_only_thin_ice_2904_to_0205_2021"
+  },
+  {
+    "show_name": "localised_strings.show_name_only_thin_ice",
+    "show_description": "localised_strings.show_desc_only_thin_ice",
+    "show_image": "GenericIce",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "default_episode": "levels_episode.episode_event_only_thin_ice",
+    "episode_reward_settings_id": "solo_rewards",
+    "opens_at": "2021-10-29T12:00:00",
+    "closes_at": "2021-11-01T12:00:00",
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "size": {
+      "type": "override",
+      "min_players": 16,
+      "max_players": 20
+    },
+    "private_lobby_size": {
+      "type": "default"
+    },
+    "show_image_cms": "show_selector_show_genericice",
+    "id": "event_only_thin_ice_2910_to_0111_2021"
   },
   {
     "show_name": "localised_strings.show_name_only_thin_ice",
@@ -4263,6 +4263,30 @@
     "episode_reward_settings_id": "hardmode_rewards",
     "min_party_size": 1,
     "max_party_size": 4,
+    "opens_at": "2021-10-17T09:00:00",
+    "closes_at": "2021-10-21T12:00:00",
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "size": {
+      "type": "default"
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 12,
+      "max_players": 60
+    },
+    "show_image_cms": "show_selector_show_s4503",
+    "id": "event_xtreme_fall_guys_1710_to_2110_2021"
+  },
+  {
+    "show_name": "localised_strings.show_name_xtreme",
+    "show_description": "localised_strings.show_desc_xtreme",
+    "show_image": "XTreme",
+    "default_episode": "levels_episode.episode_event_elimination_gauntlets",
+    "episode_reward_settings_id": "hardmode_rewards",
+    "min_party_size": 1,
+    "max_party_size": 4,
     "opens_at": "2021-05-20T12:00:00",
     "closes_at": "2021-05-23T12:00:00",
     "show_type": {
@@ -4276,30 +4300,6 @@
     },
     "show_image_cms": "show_selector_show_s4503",
     "id": "event_xtreme_fall_guys_2005_to_2205_2021"
-  },
-  {
-    "show_name": "localised_strings.show_name_xtreme",
-    "show_description": "localised_strings.show_desc_xtreme",
-    "show_image": "XTreme",
-    "default_episode": "levels_episode.episode_event_elimination_gauntlets",
-    "episode_reward_settings_id": "hardmode_rewards",
-    "min_party_size": 1,
-    "max_party_size": 4,
-    "opens_at": "2021-10-29T12:00:00",
-    "closes_at": "2021-11-01T12:00:00",
-    "show_type": {
-      "showtype_switch": "individual"
-    },
-    "size": {
-      "type": "default"
-    },
-    "private_lobby_size": {
-      "type": "override",
-      "min_players": 12,
-      "max_players": 60
-    },
-    "show_image_cms": "show_selector_show_s4503",
-    "id": "event_xtreme_fall_guys_2910_to_0111_2021"
   },
   {
     "show_name": "localised_strings.show_name_xtreme",

@@ -1742,6 +1742,40 @@
     "loading_screen_name": "Splash_BlockParty",
     "level_badge_name": "BlockParty",
     "level_variation": "levels_variation.variation_block_party",
+    "level_variation_overrides": "levels_variation_overrides.var_over_block_party_v51",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_platform",
+      "level_tags.saftey_nonstarter",
+      "level_tags.season_01"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_survived"
+      }
+    },
+    "visualiser_estimate_percentage_qualification": 46,
+    "visualiser_estimate_variance": 22,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival",
+    "lower_main_ambience_volume": false,
+    "id": "round_block_party_hard_mode"
+  },
+  {
+    "display_name": "localised_strings.level_name_block_party",
+    "scene_name": "FallGuy_Block_Party",
+    "game_rules": "game_rules.round_block_party",
+    "level_archetype": "archetype_survival",
+    "ingame_music_suffix": null,
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_BlockParty",
+    "level_badge_name": "BlockParty",
+    "level_variation": "levels_variation.variation_block_party",
     "level_variation_overrides": "levels_variation_overrides.round_block_party_season_5_variation_1",
     "tags": [
       "level_tags.covenant_free_for_all",
@@ -2665,6 +2699,54 @@
     "fall_feed": "fall_feed_race",
     "lower_main_ambience_volume": null,
     "id": "round_chompchomp_event_only_races"
+  },
+  {
+    "display_name": "localised_strings.level_name_chomp_chomp",
+    "scene_name": "FallGuy_ChompChomp_01",
+    "game_rules": "game_rules.round_chompchomp",
+    "level_archetype": "archetype_race",
+    "ingame_music_suffix": null,
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_ChompChomp",
+    "level_badge_name": "ChompChomp",
+    "level_variation": "levels_variation.variation_chompchomp",
+    "level_variation_overrides": "levels_variation_overrides.var_over_chompchomp_hard_mode",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_track",
+      "level_tags.season_01"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "lower_main_ambience_volume": false,
+    "id": "round_chompchomp_hard_mode"
   },
   {
     "display_name": "localised_strings.level_name_chomp_chomp",
@@ -5114,6 +5196,54 @@
   {
     "display_name": "localised_strings.level_name_lily_leapers",
     "scene_name": "FallGuy_DrumTop",
+    "game_rules": "game_rules.round_drumtop",
+    "level_archetype": "archetype_race",
+    "ingame_music_suffix": "_Season_05",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_05",
+    "extra_ambience_event": "AMB_Season_05_Jungle",
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_LilyLeapers",
+    "level_badge_name": "LilyLeapers",
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_variation": "levels_variation.variation_drum_top",
+    "level_variation_overrides": "levels_variation_overrides.var_over_drumtop_hard_mode",
+    "fall_feed": "fall_feed_race",
+    "lower_main_ambience_volume": true,
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_track",
+      "level_tags.season_05"
+    ],
+    "id": "round_drumtop_hard_mode"
+  },
+  {
+    "display_name": "localised_strings.level_name_lily_leapers",
+    "scene_name": "FallGuy_DrumTop",
     "game_rules": "game_rules.round_drumtop_spectator",
     "level_archetype": "archetype_race",
     "ingame_music_suffix": "_Season_05",
@@ -6723,6 +6853,41 @@
     "fall_feed": "fall_feed_disconnect",
     "lower_main_ambience_volume": null,
     "id": "round_fall_mountain_event_yeetus"
+  },
+  {
+    "display_name": "localised_strings.level_name_fall_mountain",
+    "scene_name": "FallGuy_FallMountain_Hub_Complete",
+    "game_rules": "game_rules.round_fall_mountain_hub_complete",
+    "level_archetype": "archetype_final",
+    "ingame_music_suffix": null,
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_FallMountain",
+    "level_badge_name": "FallMountain",
+    "level_variation": "levels_variation.variation_fall_mountain_hub_complete",
+    "level_variation_overrides": "levels_variation_overrides.var_over_fall_mountain_hard_mode",
+    "tags": [
+      "level_tags.covenant_final",
+      "level_tags.playspace_gauntlet",
+      "level_tags.saftey_early_final",
+      "level_tags.season_01_final",
+      "level_tags.slight_lowering"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_victory"
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_disconnect",
+    "lower_main_ambience_volume": false,
+    "id": "round_fall_mountain_hard_mode"
   },
   {
     "display_name": "localised_strings.level_name_fall_mountain",
@@ -12340,6 +12505,54 @@
       "level_tags.season_05"
     ],
     "id": "round_gauntlet_07_event_yeetus"
+  },
+  {
+    "display_name": "localised_strings.level_name_treetop_tumble",
+    "scene_name": "FallGuy_Gauntlet_07",
+    "game_rules": "game_rules.round_gauntlet_07",
+    "level_archetype": "archetype_race",
+    "ingame_music_suffix": "_Season_05",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_05",
+    "extra_ambience_event": "AMB_Season_05_Jungle",
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_TreetopTumble",
+    "level_badge_name": "TreetopTumble",
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "level_variation": "levels_variation.variation_gauntlet_07",
+    "level_variation_overrides": "levels_variation_overrides.var_over_gauntlet_07_hard_mode",
+    "lower_main_ambience_volume": true,
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_gauntlet",
+      "level_tags.season_05"
+    ],
+    "id": "round_gauntlet_07_hard_mode"
   },
   {
     "display_name": "localised_strings.level_name_treetop_tumble",
@@ -20997,6 +21210,56 @@
     ],
     "lower_main_ambience_volume": null,
     "id": "round_slimeclimb_2_event_only_final"
+  },
+  {
+    "display_name": "localised_strings.level_name_slimescraper",
+    "scene_name": "FallGuy_SlimeClimb_2",
+    "game_rules": "game_rules.round_slimeclimb_2",
+    "level_archetype": "archetype_race",
+    "ingame_music_suffix": "_Season_04",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_Slimescraper",
+    "level_badge_name": "Slimescraper",
+    "level_variation": "levels_variation.variation_slimeclimb_2",
+    "level_variation_overrides": "levels_variation_overrides.var_over_slimeclimb_2_hard_mode",
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": 35,
+    "visualiser_estimate_variance": 20,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival_race",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_track",
+      "level_tags.saftey_wild_elimination",
+      "level_tags.season_04",
+      "level_tags.slight_featuring"
+    ],
+    "lower_main_ambience_volume": false,
+    "id": "round_slimeclimb_2_hard_mode"
   },
   {
     "display_name": "localised_strings.level_name_slimescraper",
