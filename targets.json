@@ -1267,8 +1267,8 @@
         "type": "date_time",
         "data": {
           "operator": "between",
-          "start": "2021-11-09T09:00:00",
-          "end": "2021-11-12T09:00:00"
+          "start": "2021-11-09T08:00:00",
+          "end": "2021-11-12T08:00:00"
         }
       }
     ],
@@ -1365,15 +1365,6 @@
     "description": null,
     "condition_ids": [],
     "id": "date_10092021_to_13092021"
-  },
-  {
-    "description": "End Of Season 2021 Event",
-    "condition_ids": [
-      "is_live_event_end_of_season_day_1_start",
-      "is_live_event_end_of_season_day_5_end"
-    ],
-    "conditions": [],
-    "id": "date_10112021_to_15112021"
   },
   {
     "description": null,
@@ -1562,6 +1553,21 @@
     ],
     "condition_ids": [],
     "id": "date_1209_to_1409"
+  },
+  {
+    "conditions": [
+      {
+        "type": "date_time",
+        "data": {
+          "operator": "between",
+          "start": "2021-11-12T08:00:00",
+          "end": "2021-11-15T08:00:00"
+        }
+      }
+    ],
+    "description": null,
+    "condition_ids": [],
+    "id": "date_121121_151121"
   },
   {
     "description": null,
@@ -1864,6 +1870,21 @@
     ],
     "conditions": [],
     "id": "date_1510_1610_21"
+  },
+  {
+    "conditions": [
+      {
+        "type": "date_time",
+        "data": {
+          "operator": "between",
+          "start": "2021-11-15T08:00:00",
+          "end": "2021-11-19T08:00:00"
+        }
+      }
+    ],
+    "description": null,
+    "condition_ids": [],
+    "id": "date_151121_191121"
   },
   {
     "description": null,
@@ -2316,6 +2337,21 @@
     "id": "date_1908_to_2108"
   },
   {
+    "conditions": [
+      {
+        "type": "date_time",
+        "data": {
+          "operator": "between",
+          "start": "2021-11-19T08:00:00",
+          "end": "2021-11-23T08:00:00"
+        }
+      }
+    ],
+    "description": null,
+    "condition_ids": [],
+    "id": "date_191121_231121"
+  },
+  {
     "description": null,
     "conditions": [
       {
@@ -2716,6 +2752,21 @@
     "id": "date_23082021_to_27082021"
   },
   {
+    "conditions": [
+      {
+        "type": "date_time",
+        "data": {
+          "operator": "between",
+          "start": "2021-11-23T08:00:00",
+          "end": "2021-11-26T08:00:00"
+        }
+      }
+    ],
+    "description": null,
+    "condition_ids": [],
+    "id": "date_231121_261121"
+  },
+  {
     "description": null,
     "conditions": [
       {
@@ -2896,6 +2947,15 @@
     "id": "date_2508_to_2608"
   },
   {
+    "description": "End Of Season 2021 Event",
+    "condition_ids": [
+      "is_live_event_end_of_season_day_1_start",
+      "is_live_event_end_of_season_day_5_end"
+    ],
+    "conditions": [],
+    "id": "date_25112021_to_30112021"
+  },
+  {
     "description": null,
     "conditions": [
       {
@@ -2977,6 +3037,21 @@
     "description": null,
     "condition_ids": [],
     "id": "date_26082021_to_29082021"
+  },
+  {
+    "conditions": [
+      {
+        "type": "date_time",
+        "data": {
+          "operator": "between",
+          "start": "2021-11-26T08:00:00",
+          "end": "2021-11-30T12:00:00"
+        }
+      }
+    ],
+    "description": null,
+    "condition_ids": [],
+    "id": "date_261121_301121"
   },
   {
     "description": null,

@@ -105,28 +105,6 @@
     },
     "default_episode": "levels_episode.episode_event_animals_template",
     "episode_reward_settings_id": "solo_rewards",
-    "opens_at": "2021-10-11T12:00:00",
-    "closes_at": "2021-10-12T12:00:00",
-    "private_lobby_size": {
-      "type": "default"
-    },
-    "show_image_cms": "show_selector_show_animals",
-    "id": "event_animals_1110_1110_21"
-  },
-  {
-    "show_name": "localised_strings.show_title_beasty_guys",
-    "show_description": "localised_strings.show_desc_beasty_guys",
-    "show_image": "BeastyGuys",
-    "min_party_size": 1,
-    "max_party_size": 4,
-    "size": {
-      "type": "default"
-    },
-    "show_type": {
-      "showtype_switch": "individual"
-    },
-    "default_episode": "levels_episode.episode_event_animals_template",
-    "episode_reward_settings_id": "solo_rewards",
     "opens_at": "2020-03-05T00:00:00",
     "closes_at": "2021-07-30T11:28:00",
     "private_lobby_size": {
@@ -180,26 +158,31 @@
     "id": "event_anniversary_season_1_0408_to_0808_2021"
   },
   {
-    "show_name": "localised_strings.show_title_anniversary",
-    "show_description": "localised_strings.show_desc_anniversary",
-    "show_image": "Anniversary",
+    "show_name": "localised_strings.show_title_fallevent",
+    "show_description": "localised_strings.show_desc_fallevent",
+    "show_image": "s4_06",
+    "default_episode": "levels_episode.event_autumn_festival_squads",
+    "episode_reward_settings_id": "squad_rewards",
     "min_party_size": 1,
     "max_party_size": 4,
-    "size": {
-      "type": "default"
-    },
+    "opens_at": "2021-11-16T09:00:00",
+    "closes_at": "2021-11-21T09:00:00",
     "show_type": {
-      "showtype_switch": "individual"
+      "showtype_switch": "squad",
+      "squad_size": 4
     },
-    "default_episode": "levels_episode.episode_event_anniversary_season_1",
-    "episode_reward_settings_id": "solo_rewards",
-    "opens_at": "2021-11-10T09:00:00",
-    "closes_at": "2021-11-11T12:00:00",
+    "size": {
+      "type": "override",
+      "min_players": 16,
+      "max_players": 16
+    },
     "private_lobby_size": {
-      "type": "default"
+      "type": "override",
+      "min_players": 16,
+      "max_players": 16
     },
-    "show_image_cms": "show_selector_show_party",
-    "id": "event_anniversary_season_1_1011_1011_21"
+    "show_image_cms": "show_selector_show_midautumn",
+    "id": "event_autumn_festival_squads_1611_to_2111_2021"
   },
   {
     "show_name": "localised_strings.show_title_fallevent",
@@ -269,12 +252,12 @@
     },
     "default_episode": "levels_episode.episode_event_anniversary_season_1",
     "episode_reward_settings_id": "solo_rewards",
-    "opens_at": "2021-11-10T09:00:00",
-    "closes_at": "2021-11-11T12:00:00",
+    "opens_at": "2021-11-25T09:00:00",
+    "closes_at": "2021-11-26T09:00:00",
     "private_lobby_size": {
       "type": "default"
     },
-    "show_image_cms": "show_selector_show_party",
+    "show_image_cms": "show_selector_show_end_of_season_01",
     "id": "event_end_of_season_s1"
   },
   {
@@ -288,15 +271,15 @@
     },
     "default_episode": "levels_episode.episode_event_end_of_season_s2",
     "episode_reward_settings_id": "solo_rewards",
-    "opens_at": "2021-11-11T12:00:00",
-    "closes_at": "2021-11-12T12:00:00",
+    "opens_at": "2021-11-26T09:00:00",
+    "closes_at": "2021-11-27T09:00:00",
     "size": {
       "type": "default"
     },
     "private_lobby_size": {
       "type": "default"
     },
-    "show_image_cms": "show_selector_show_medievalmixup",
+    "show_image_cms": "show_selector_show_end_of_season_02",
     "id": "event_end_of_season_s2"
   },
   {
@@ -313,12 +296,12 @@
     },
     "default_episode": "levels_episode.episode_season_03",
     "episode_reward_settings_id": "solo_rewards",
-    "opens_at": "2021-11-12T12:00:00",
-    "closes_at": "2021-11-13T12:00:00",
+    "opens_at": "2021-11-27T09:00:00",
+    "closes_at": "2021-11-28T09:00:00",
     "private_lobby_size": {
       "type": "default"
     },
-    "show_image_cms": "show_selector_show_season3",
+    "show_image_cms": "show_selector_show_end_of_season_03",
     "id": "event_end_of_season_s3"
   },
   {
@@ -335,12 +318,12 @@
     },
     "default_episode": "levels_episode.episode_event_only_season_4",
     "episode_reward_settings_id": "solo_rewards",
-    "opens_at": "2021-11-13T12:00:00",
-    "closes_at": "2021-11-14T12:00:00",
+    "opens_at": "2021-11-28T09:00:00",
+    "closes_at": "2021-11-29T09:00:00",
     "private_lobby_size": {
       "type": "default"
     },
-    "show_image_cms": "show_selector_show_4041",
+    "show_image_cms": "show_selector_show_end_of_season_04",
     "id": "event_end_of_season_s4"
   },
   {
@@ -357,12 +340,12 @@
     },
     "default_episode": "levels_episode.episode_event_season_5_variation",
     "episode_reward_settings_id": "solo_rewards",
-    "opens_at": "2021-11-14T12:00:00",
-    "closes_at": "2021-11-16T12:00:00",
+    "opens_at": "2021-11-29T09:00:00",
+    "closes_at": "2021-11-30T12:00:00",
     "private_lobby_size": {
       "type": "default"
     },
-    "show_image_cms": "show_selector_show_lilyleaperslimbo",
+    "show_image_cms": "show_selector_show_end_of_season_05",
     "id": "event_end_of_season_s5"
   },
   {
@@ -410,28 +393,6 @@
     },
     "show_image_cms": "show_selector_show_fanfavourites",
     "id": "event_fan_favourites_1804_to_2004_2021"
-  },
-  {
-    "show_name": "localised_strings.show_name_fan_favourites",
-    "show_description": "localised_strings.show_desc_fan_favourites",
-    "show_image": "FanFavourites",
-    "min_party_size": 1,
-    "max_party_size": 4,
-    "size": {
-      "type": "default"
-    },
-    "show_type": {
-      "showtype_switch": "individual"
-    },
-    "default_episode": "levels_episode.episode_fan_favourites",
-    "episode_reward_settings_id": "solo_rewards",
-    "opens_at": "2021-10-25T12:00:00",
-    "closes_at": "2021-10-29T12:00:00",
-    "private_lobby_size": {
-      "type": "default"
-    },
-    "show_image_cms": "show_selector_show_fanfavourites",
-    "id": "event_fan_favourites_2510_to_2910_2021"
   },
   {
     "show_name": "localised_strings.show_name_fan_favourites",
@@ -1361,30 +1322,6 @@
     "episode_reward_settings_id": "solo_rewards",
     "min_party_size": 1,
     "max_party_size": 4,
-    "opens_at": "2021-10-18T12:00:00",
-    "closes_at": "2021-10-21T09:00:00",
-    "size": {
-      "type": "override",
-      "min_players": 32,
-      "max_players": 40
-    },
-    "show_type": {
-      "showtype_switch": "individual"
-    },
-    "private_lobby_size": {
-      "type": "default"
-    },
-    "show_image_cms": "show_selector_show_drumtop",
-    "id": "event_only_drumtop_1810_to_2110_2021"
-  },
-  {
-    "show_name": "localised_strings.show_title_lily_leapers",
-    "show_description": "localised_strings.show_desc_lily_leapers",
-    "show_image": "LilyLeapersLimbo",
-    "default_episode": "levels_episode.episode_event_only_drumtop_template",
-    "episode_reward_settings_id": "solo_rewards",
-    "min_party_size": 1,
-    "max_party_size": 4,
     "opens_at": "2021-04-25T12:00:00",
     "closes_at": "2021-09-02T12:00:00",
     "size": {
@@ -1400,6 +1337,32 @@
     },
     "show_image_cms": "show_selector_show_drumtop",
     "id": "event_only_drumtop_template"
+  },
+  {
+    "show_name": "localised_strings.show_name_fall_ball_cup",
+    "show_description": "localised_strings.show_desc_fall_ball_cup",
+    "show_image": "FallBallCup",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 32,
+      "max_players": 32
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.episode_event_only_fall_ball",
+    "episode_reward_settings_id": "solo_rewards",
+    "opens_at": "2021-11-09T09:00:00",
+    "closes_at": "2021-11-13T09:00:00",
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 8,
+      "max_players": 48
+    },
+    "show_image_cms": "show_selector_show_fallballcup",
+    "id": "event_only_fall_ball_0911_to_1311_2021"
   },
   {
     "show_name": "localised_strings.show_name_fall_ball_cup",
@@ -1550,30 +1513,6 @@
     },
     "show_image_cms": "show_selector_show_hexagonetrials",
     "id": "event_only_floor_fall_0110_to_0410_2021"
-  },
-  {
-    "show_name": "localised_strings.show_name_only_floor_fall",
-    "show_description": "localised_strings.show_desc_only_floor_fall",
-    "show_image": "FloorFallLevels",
-    "min_party_size": 1,
-    "max_party_size": 4,
-    "default_episode": "levels_episode.episode_event_only_floor_fall",
-    "episode_reward_settings_id": "solo_rewards",
-    "opens_at": "2021-11-02T12:00:00",
-    "closes_at": "2021-11-06T12:00:00",
-    "show_type": {
-      "showtype_switch": "individual"
-    },
-    "size": {
-      "type": "override",
-      "min_players": 16,
-      "max_players": 20
-    },
-    "private_lobby_size": {
-      "type": "default"
-    },
-    "show_image_cms": "show_selector_show_hexagonetrials",
-    "id": "event_only_floor_fall_0211_0511_21"
   },
   {
     "show_name": "localised_strings.show_name_only_floor_fall",
@@ -1904,7 +1843,7 @@
     "default_episode": "levels_episode.episode_event_hard_mode",
     "episode_reward_settings_id": "solo_rewards_hard_mode",
     "opens_at": "2021-11-01T12:00:00",
-    "closes_at": "2021-11-06T12:00:00",
+    "closes_at": "2021-11-05T09:00:00",
     "size": {
       "type": "default"
     },
@@ -1912,7 +1851,7 @@
       "type": "default"
     },
     "show_image_cms": "show_selector_show_hardmode",
-    "id": "event_only_hard_mode_0111_to_0611_2021"
+    "id": "event_only_hard_mode_0111_to_0511_2021"
   },
   {
     "show_name": "localised_strings.show_name_hard_mode",
@@ -2094,32 +2033,6 @@
       "max_players": 30
     },
     "id": "event_only_hoverboard_0207_to_0507_2021"
-  },
-  {
-    "show_name": "localised_strings.show_name_hoverboard_heroes",
-    "show_description": "localised_strings.show_desc_hoverboard_heroes",
-    "show_image": null,
-    "min_party_size": 1,
-    "max_party_size": 4,
-    "size": {
-      "type": "override",
-      "min_players": 20,
-      "max_players": 25
-    },
-    "show_type": {
-      "showtype_switch": "individual"
-    },
-    "default_episode": "levels_episode.episode_event_only_hoverboardsurvival",
-    "episode_reward_settings_id": "solo_rewards",
-    "opens_at": "2021-10-12T12:00:00",
-    "closes_at": "2021-10-16T12:00:00",
-    "private_lobby_size": {
-      "type": "override",
-      "min_players": 5,
-      "max_players": 25
-    },
-    "show_image_cms": "show_selector_show_s4507",
-    "id": "event_only_hoverboard_1210_1510_21"
   },
   {
     "show_name": "localised_strings.show_name_hoverboard_heroes",
@@ -2326,28 +2239,6 @@
     "episode_reward_settings_id": "solo_rewards",
     "min_party_size": 1,
     "max_party_size": 4,
-    "opens_at": "2021-10-05T12:00:00",
-    "closes_at": "2021-10-06T12:00:00",
-    "show_type": {
-      "showtype_switch": "individual"
-    },
-    "size": {
-      "type": "default"
-    },
-    "private_lobby_size": {
-      "type": "default"
-    },
-    "show_image_cms": "show_selector_show_racelevels",
-    "id": "event_only_races_0510_0510_21"
-  },
-  {
-    "show_name": "localised_strings.show_name_only_races",
-    "show_description": "localised_strings.show_desc_only_races",
-    "show_image": "RaceLevels",
-    "default_episode": "levels_episode.episode_event_only_races",
-    "episode_reward_settings_id": "solo_rewards",
-    "min_party_size": 1,
-    "max_party_size": 4,
     "opens_at": "2020-10-08T09:00:00",
     "closes_at": "2020-10-22T09:00:00",
     "show_type": {
@@ -2383,6 +2274,28 @@
     },
     "show_image_cms": "show_selector_show_racelevels",
     "id": "event_only_races_any_final_0611_to_0911"
+  },
+  {
+    "show_name": "localised_strings.show_name_only_races",
+    "show_description": "localised_strings.show_desc_only_races",
+    "show_image": "RaceLevels",
+    "default_episode": "levels_episode.episode_event_only_races_any_final",
+    "episode_reward_settings_id": "solo_rewards",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "opens_at": "2021-11-13T09:00:00",
+    "closes_at": "2021-11-16T09:00:00",
+    "size": {
+      "type": "default"
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "private_lobby_size": {
+      "type": "default"
+    },
+    "show_image_cms": "show_selector_show_racelevels",
+    "id": "event_only_races_any_final_1311_to_1611_2021"
   },
   {
     "show_name": "localised_strings.show_name_only_races",
@@ -2740,28 +2653,6 @@
     },
     "default_episode": "levels_episode.episode_event_season_2_variation",
     "episode_reward_settings_id": "solo_rewards",
-    "opens_at": "2021-11-11T12:00:00",
-    "closes_at": "2021-11-12T12:00:00",
-    "size": {
-      "type": "default"
-    },
-    "private_lobby_size": {
-      "type": "default"
-    },
-    "show_image_cms": "show_selector_show_medievalmixup",
-    "id": "event_only_season_2_variation_1111_1111_21"
-  },
-  {
-    "show_name": "localised_strings.show_name_season_2_variation",
-    "show_description": "localised_strings.show_desc_season_2_variation",
-    "show_image": "MedievalMixup",
-    "min_party_size": 1,
-    "max_party_size": 4,
-    "show_type": {
-      "showtype_switch": "individual"
-    },
-    "default_episode": "levels_episode.episode_event_season_2_variation",
-    "episode_reward_settings_id": "solo_rewards",
     "opens_at": "2020-10-29T00:00:00",
     "closes_at": null,
     "size": {
@@ -2794,28 +2685,6 @@
     },
     "show_image_cms": "show_selector_show_mixitup",
     "id": "event_only_season_3_variation_0202_to_0702_2021"
-  },
-  {
-    "show_name": "localised_strings.show_name_mix_it_up",
-    "show_description": "localised_strings.show_desc_mix_it_up",
-    "show_image": "MixItUp",
-    "min_party_size": 1,
-    "max_party_size": 4,
-    "size": {
-      "type": "default"
-    },
-    "show_type": {
-      "showtype_switch": "individual"
-    },
-    "default_episode": "levels_episode.episode_event_season_3_variation",
-    "episode_reward_settings_id": "solo_rewards",
-    "opens_at": "2021-11-12T12:00:00",
-    "closes_at": "2021-11-13T12:00:00",
-    "private_lobby_size": {
-      "type": "default"
-    },
-    "show_image_cms": "show_selector_show_mixitup",
-    "id": "event_only_season_3_variation_1211_1211_21"
   },
   {
     "show_name": "localised_strings.show_name_mix_it_up",
@@ -2989,28 +2858,6 @@
     },
     "default_episode": "levels_episode.episode_event_season_4_variation",
     "episode_reward_settings_id": "solo_rewards",
-    "opens_at": "2021-11-13T12:00:00",
-    "closes_at": "2021-11-14T12:00:00",
-    "private_lobby_size": {
-      "type": "default"
-    },
-    "show_image_cms": "show_selector_show_s4504",
-    "id": "event_only_season_4_variation_1311_1311_21"
-  },
-  {
-    "show_name": "localised_strings.show_name_mix_it_up",
-    "show_description": "localised_strings.show_desc_mix_it_up",
-    "show_image": "MixV45v2",
-    "min_party_size": 1,
-    "max_party_size": 4,
-    "size": {
-      "type": "default"
-    },
-    "show_type": {
-      "showtype_switch": "individual"
-    },
-    "default_episode": "levels_episode.episode_event_season_4_variation",
-    "episode_reward_settings_id": "solo_rewards",
     "opens_at": "2021-01-14T00:00:00",
     "closes_at": "2021-05-06T00:00:01",
     "private_lobby_size": {
@@ -3123,35 +2970,13 @@
     },
     "default_episode": "levels_episode.episode_event_season_5_variation",
     "episode_reward_settings_id": "solo_rewards",
-    "opens_at": "2021-11-06T12:00:00",
-    "closes_at": "2021-11-10T09:00:00",
+    "opens_at": "2021-11-05T09:00:00",
+    "closes_at": "2021-11-09T09:00:00",
     "private_lobby_size": {
       "type": "default"
     },
     "show_image_cms": "show_selector_show_lilyleaperslimbo",
-    "id": "event_only_season_5_variation_0611_to_1011_2021"
-  },
-  {
-    "show_name": "localised_strings.show_name_mix_it_up",
-    "show_description": "localised_strings.show_desc_mix_it_up",
-    "show_image": "LilyLeapersLimbo",
-    "min_party_size": 1,
-    "max_party_size": 4,
-    "size": {
-      "type": "default"
-    },
-    "show_type": {
-      "showtype_switch": "individual"
-    },
-    "default_episode": "levels_episode.episode_event_season_5_variation",
-    "episode_reward_settings_id": "solo_rewards",
-    "opens_at": "2021-11-14T12:00:00",
-    "closes_at": "2021-11-16T12:00:00",
-    "private_lobby_size": {
-      "type": "default"
-    },
-    "show_image_cms": "show_selector_show_lilyleaperslimbo",
-    "id": "event_only_season_5_variation_1411_1511_21"
+    "id": "event_only_season_5_variation_0511_to_0911_2021"
   },
   {
     "show_name": "localised_strings.show_name_mix_it_up",
@@ -3779,30 +3604,6 @@
     "max_party_size": 4,
     "default_episode": "levels_episode.episode_event_only_thin_ice",
     "episode_reward_settings_id": "solo_rewards",
-    "opens_at": "2021-10-29T12:00:00",
-    "closes_at": "2021-11-01T12:00:00",
-    "show_type": {
-      "showtype_switch": "individual"
-    },
-    "size": {
-      "type": "override",
-      "min_players": 16,
-      "max_players": 20
-    },
-    "private_lobby_size": {
-      "type": "default"
-    },
-    "show_image_cms": "show_selector_show_genericice",
-    "id": "event_only_thin_ice_2910_to_0111_2021"
-  },
-  {
-    "show_name": "localised_strings.show_name_only_thin_ice",
-    "show_description": "localised_strings.show_desc_only_thin_ice",
-    "show_image": "GenericIce",
-    "min_party_size": 1,
-    "max_party_size": 4,
-    "default_episode": "levels_episode.episode_event_only_thin_ice",
-    "episode_reward_settings_id": "solo_rewards",
     "opens_at": "2020-10-27T00:00:00",
     "closes_at": "2020-10-31T00:00:00",
     "show_type": {
@@ -3835,15 +3636,15 @@
     },
     "default_episode": "levels_episode.episode_event_only_tip_toe",
     "episode_reward_settings_id": "solo_rewards",
-    "opens_at": "2021-09-17T12:00:00",
-    "closes_at": "2021-09-21T12:00:00",
+    "opens_at": "2021-11-21T09:00:00",
+    "closes_at": "2021-11-25T09:00:00",
     "private_lobby_size": {
       "type": "override",
       "min_players": 5,
       "max_players": 25
     },
     "show_image_cms": "show_selector_show_tiptoe",
-    "id": "event_only_tip_toe_1710_2010_21"
+    "id": "event_only_tip_toe_2111_to_2511_2021"
   },
   {
     "show_name": "localised_strings.show_title_tip_toe",
@@ -4929,29 +4730,6 @@
     "episode_reward_settings_id": "squad_rewards_duos",
     "min_party_size": 1,
     "max_party_size": 2,
-    "opens_at": "2021-11-01T12:00:00",
-    "closes_at": "2021-11-15T12:00:00",
-    "show_type": {
-      "showtype_switch": "squad",
-      "squad_size": 2
-    },
-    "size": {
-      "type": "default"
-    },
-    "private_lobby_size": {
-      "type": "default"
-    },
-    "show_image_cms": "show_selector_show_duos",
-    "id": "squads_2player_0111_1511_21"
-  },
-  {
-    "show_name": "localised_strings.show_title_squads_duos",
-    "show_description": "localised_strings.show_desc_squads_duos",
-    "show_image": "Duos",
-    "default_episode": "levels_episode.squads_2player",
-    "episode_reward_settings_id": "squad_rewards_duos",
-    "min_party_size": 1,
-    "max_party_size": 2,
     "opens_at": "2021-10-07T08:00:00",
     "closes_at": "2021-10-11T12:00:00",
     "show_type": {
@@ -4966,6 +4744,31 @@
     },
     "show_image_cms": "show_selector_show_duos",
     "id": "squads_2player_0710_1010_21"
+  },
+  {
+    "show_name": "localised_strings.show_title_squads_duos",
+    "show_description": "localised_strings.show_desc_squads_duos",
+    "show_image": "Duos",
+    "default_episode": "levels_episode.squads_2player",
+    "episode_reward_settings_id": "squad_rewards_duos",
+    "min_party_size": 1,
+    "max_party_size": 2,
+    "opens_at": "2021-11-15T09:00:00",
+    "closes_at": "2021-11-22T09:00:00",
+    "show_type": {
+      "showtype_switch": "squad",
+      "squad_size": 2
+    },
+    "size": {
+      "type": "override",
+      "min_players": 32,
+      "max_players": 40
+    },
+    "private_lobby_size": {
+      "type": "default"
+    },
+    "show_image_cms": "show_selector_show_duos",
+    "id": "squads_2player_1511_to_2211_2021"
   },
   {
     "show_name": "localised_strings.show_title_squads_duos",
@@ -5012,29 +4815,6 @@
     },
     "show_image_cms": "show_selector_show_duos",
     "id": "squads_2player_1810_2410_21"
-  },
-  {
-    "show_name": "localised_strings.show_title_squads_duos",
-    "show_description": "localised_strings.show_desc_squads_duos",
-    "show_image": "Duos",
-    "default_episode": "levels_episode.squads_2player",
-    "episode_reward_settings_id": "squad_rewards_duos",
-    "min_party_size": 1,
-    "max_party_size": 2,
-    "opens_at": "2021-10-18T12:00:00",
-    "closes_at": "2021-11-01T12:00:00",
-    "show_type": {
-      "showtype_switch": "squad",
-      "squad_size": 2
-    },
-    "size": {
-      "type": "default"
-    },
-    "private_lobby_size": {
-      "type": "default"
-    },
-    "show_image_cms": "show_selector_show_duos",
-    "id": "squads_2player_1810_3110_21"
   },
   {
     "show_name": "localised_strings.show_title_squads_duos",
@@ -5139,15 +4919,15 @@
     "min_party_size": 1,
     "max_party_size": 3,
     "opens_at": "2021-11-01T09:00:00",
-    "closes_at": "2021-11-16T12:00:00",
+    "closes_at": "2021-11-15T09:00:00",
     "show_type": {
       "showtype_switch": "squad",
       "squad_size": 3
     },
     "size": {
       "type": "override",
-      "min_players": 39,
-      "max_players": 60
+      "min_players": 30,
+      "max_players": 39
     },
     "private_lobby_size": {
       "type": "default"
@@ -5368,7 +5148,9 @@
       "squad_size": 4
     },
     "size": {
-      "type": "default"
+      "type": "override",
+      "min_players": 32,
+      "max_players": 40
     },
     "private_lobby_size": {
       "type": "default"
