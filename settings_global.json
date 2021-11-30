@@ -20,6 +20,14 @@
     "id": "achievements_enabled"
   },
   {
+    "notes": "the time in seconds the age rating is shown at the start of the game.",
+    "value": 4,
+    "target_release": null,
+    "platforms_whitelist": [],
+    "target_ids": [],
+    "id": "age_rating_display_duration"
+  },
+  {
     "value": true,
     "target_release": null,
     "target_ids": [
@@ -66,12 +74,22 @@
   {
     "value": true,
     "target_release": null,
+    "notes": null,
     "target_ids": [
       "prime_users"
     ],
     "platforms_whitelist": [],
-    "notes": null,
     "id": "challenges_enabled"
+  },
+  {
+    "notes": null,
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "target_release": null,
+    "platforms_whitelist": [],
+    "id": "collections_enabled"
   },
   {
     "value": true,
@@ -82,6 +100,14 @@
     "platforms_whitelist": [],
     "notes": null,
     "id": "connection_quality_icon_enabled"
+  },
+  {
+    "notes": null,
+    "value": true,
+    "target_release": null,
+    "platforms_whitelist": [],
+    "target_ids": [],
+    "id": "cross_progression_wallet_enabled"
   },
   {
     "value": true,
@@ -132,23 +158,19 @@
     "id": "dailies_enabled"
   },
   {
-    "value": true,
+    "value": false,
     "target_release": null,
-    "target_ids": [
-      "after_prime_global_launch"
-    ],
-    "platforms_whitelist": [],
     "notes": null,
+    "platforms_whitelist": [],
+    "target_ids": [],
     "id": "egs_entitlements_enabled"
   },
   {
-    "value": true,
+    "value": false,
     "target_release": null,
-    "target_ids": [
-      "after_prime_global_launch"
-    ],
-    "platforms_whitelist": [],
     "notes": null,
+    "platforms_whitelist": [],
+    "target_ids": [],
     "id": "egs_refunds_enabled"
   },
   {
@@ -251,9 +273,9 @@
   {
     "value": false,
     "target_release": null,
+    "notes": null,
     "platforms_whitelist": [],
     "target_ids": [],
-    "notes": null,
     "id": "hazel_enabled"
   },
   {
@@ -282,11 +304,11 @@
   {
     "value": true,
     "target_release": null,
+    "notes": null,
     "target_ids": [
       "after_prime_global_launch"
     ],
     "platforms_whitelist": [],
-    "notes": null,
     "id": "live_events_enabled"
   },
   {
@@ -346,6 +368,16 @@
     "target_ids": [],
     "notes": null,
     "id": "multi_show_types_enabled"
+  },
+  {
+    "notes": null,
+    "value": true,
+    "target_release": null,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": [],
+    "id": "parties_enabled"
   },
   {
     "value": false,
@@ -436,11 +468,11 @@
   {
     "value": true,
     "target_release": null,
-    "platforms_whitelist": [],
+    "notes": null,
     "target_ids": [
       "after_prime_global_launch"
     ],
-    "notes": null,
+    "platforms_whitelist": [],
     "id": "private_lobbies_enabled"
   },
   {
@@ -451,11 +483,11 @@
   {
     "value": true,
     "target_release": null,
+    "notes": null,
     "target_ids": [
       "prime_users"
     ],
     "platforms_whitelist": [],
-    "notes": null,
     "id": "private_lobbies_v2_enabled"
   },
   {
@@ -497,14 +529,9 @@
   {
     "value": false,
     "target_release": null,
-    "platforms_whitelist": [
-      "android",
-      "ios"
-    ],
-    "target_ids": [
-      "mobile_users"
-    ],
     "notes": null,
+    "platforms_whitelist": [],
+    "target_ids": [],
     "id": "season_tracks_enabled"
   },
   {
@@ -551,15 +578,11 @@
     "id": "snapshot_interpolation_enabled"
   },
   {
-    "value": true,
-    "platforms_whitelist": [
-      "android",
-      "ios"
-    ],
+    "value": false,
     "target_release": null,
-    "target_ids": [
-      "mobile_users"
-    ],
+    "notes": null,
+    "platforms_whitelist": [],
+    "target_ids": [],
     "id": "soft_launch_enabled"
   },
   {
@@ -639,6 +662,14 @@
     "platforms_whitelist": [],
     "notes": null,
     "id": "tracking_nameplates_enabled"
+  },
+  {
+    "notes": null,
+    "value": true,
+    "target_release": null,
+    "platforms_whitelist": [],
+    "target_ids": [],
+    "id": "wallet_migration_enabled"
   },
   {
     "value": true,

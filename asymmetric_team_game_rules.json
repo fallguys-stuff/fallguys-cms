@@ -1,0 +1,103 @@
+[
+  {
+    "use_team_idx_wins_on_time_elapsed": true,
+    "team_idx_wins_on_time_elapsed": 0,
+    "team_time_left_red_alert_thresholds": [
+      -1,
+      30
+    ],
+    "team_dynamic_score_target_multipliers": [
+      1,
+      1.25
+    ],
+    "team_dynamic_score_target_danger_thresholds": [
+      50,
+      50
+    ],
+    "team_distribution_ratios": [
+      {
+        "min_player_count": 1,
+        "max_player_count": 5,
+        "ratios": [
+          0.5,
+          0.5
+        ]
+      },
+      {
+        "min_player_count": 6,
+        "max_player_count": 6,
+        "ratios": [
+          0.34,
+          0.66
+        ]
+      },
+      {
+        "min_player_count": 7,
+        "max_player_count": 8,
+        "ratios": [
+          0.45,
+          0.55
+        ]
+      },
+      {
+        "min_player_count": 9,
+        "max_player_count": 10,
+        "ratios": [
+          0.34,
+          0.66
+        ]
+      },
+      {
+        "min_player_count": 11,
+        "max_player_count": 12,
+        "ratios": [
+          0.4,
+          0.6
+        ]
+      },
+      {
+        "min_player_count": 13,
+        "max_player_count": 60,
+        "ratios": [
+          0.34,
+          0.66
+        ]
+      }
+    ],
+    "team_distribution_backfilling": "descending",
+    "team_round_infos": [
+      "localised_strings.level_info_invisibeans_seekers",
+      "localised_strings.level_info_invisibeans_hiders"
+    ],
+    "team_objective_texts": [
+      "localised_strings.level_objective_invisibeans_seekers",
+      "localised_strings.level_objective_invisibeans_hiders"
+    ],
+    "team_objective_hint_texts": [
+      "localised_strings.level_hint_invisibeans_seekers",
+      "localised_strings.level_hint_invisibeans_hiders"
+    ],
+    "use_team_dynamic_score_target_multipliers": true,
+    "use_team_distribution_ratios": true,
+    "team_qualified_banner_texts": [
+      "localised_strings.invisibeans_winner_seekers",
+      "localised_strings.invisibeans_winner_hiders"
+    ],
+    "team_eliminated_banner_texts": [
+      "localised_strings.invisibeans_defeated_seekers",
+      "localised_strings.invisibeans_defeated_hiders"
+    ],
+    "use_team_specific_intro_ui": true,
+    "team_start_game_messages": [
+      {
+        "title": "localised_strings.level_info_title_invisibeans_seekers",
+        "body": "localised_strings.level_info_invisibeans_seekers_icons"
+      },
+      {
+        "title": "localised_strings.level_info_title_invisibeans_hiders",
+        "body": "localised_strings.level_info_invisibeans_hiders_icons"
+      }
+    ],
+    "id": "round_invisibeans"
+  }
+]

@@ -4,6 +4,10 @@
     "id": "variation_1v1_button_basher"
   },
   {
+    "set_switchers": [],
+    "id": "variation_airtime"
+  },
+  {
     "set_switchers": [
       {
         "key": "Centre",
@@ -1369,6 +1373,19 @@
             "weighting": 20
           }
         ]
+      },
+      {
+        "key": "Oriole",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          },
+          {
+            "key": "On",
+            "weighting": 0
+          }
+        ]
       }
     ],
     "id": "variation_door_dash"
@@ -1918,6 +1935,19 @@
             "weighting": 0
           }
         ]
+      },
+      {
+        "key": "Oriole",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          },
+          {
+            "key": "On",
+            "weighting": 0
+          }
+        ]
       }
     ],
     "id": "variation_floor_fall"
@@ -1968,12 +1998,43 @@
   {
     "set_switchers": [
       {
-        "key": "Section_1",
+        "key": "OuterRing",
+        "weightings": [
+          {
+            "key": "NoCannons",
+            "weighting": 100
+          },
+          {
+            "key": "SingleInsideCannons",
+            "weighting": 0
+          },
+          {
+            "key": "DoubleInsideCannons",
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "MirroredObstacles",
         "weightings": [
           {
             "key": "Off",
-            "weighting": 70
+            "weighting": 100
           },
+          {
+            "key": "MirroredObstacles",
+            "weighting": 0
+          }
+        ]
+      }
+    ],
+    "id": "variation_ftl"
+  },
+  {
+    "set_switchers": [
+      {
+        "key": "Section_1",
+        "weightings": [
           {
             "key": "Pendulums_1",
             "weighting": 10
@@ -1981,6 +2042,10 @@
           {
             "key": "Pendulums_2",
             "weighting": 10
+          },
+          {
+            "key": "Off",
+            "weighting": 70
           },
           {
             "key": "Pendulums_3",
@@ -2281,6 +2346,10 @@
           {
             "key": "Formation_3",
             "weighting": 15
+          },
+          {
+            "key": "Oriole",
+            "weighting": 0
           }
         ]
       },
@@ -2307,6 +2376,19 @@
           {
             "key": "Slime",
             "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "Oriole",
+        "weightings": [
+          {
+            "key": "On",
+            "weighting": 0
+          },
+          {
+            "key": "Off",
+            "weighting": 1
           }
         ]
       }
@@ -3290,6 +3372,37 @@
   {
     "set_switchers": [
       {
+        "key": "Under Tightropes",
+        "weightings": [
+          {
+            "key": "SeeSaw",
+            "weighting": 100
+          },
+          {
+            "key": "RotatingFan",
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "SlimeSurvival",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          },
+          {
+            "key": "Slime",
+            "weighting": 0
+          }
+        ]
+      }
+    ],
+    "id": "variation_gauntlet_08"
+  },
+  {
+    "set_switchers": [
+      {
         "key": "Centre",
         "weightings": [
           {
@@ -3590,6 +3703,201 @@
       }
     ],
     "id": "variation_iceclimb"
+  },
+  {
+    "set_switchers": [
+      {
+        "key": "Jail",
+        "weightings": [
+          {
+            "key": "SingleButton",
+            "weighting": 1
+          },
+          {
+            "key": "Automated",
+            "weighting": 1
+          },
+          {
+            "key": "SinBin",
+            "weighting": 1
+          },
+          {
+            "key": "SingleButtonNew",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "CentralArea",
+        "weightings": [
+          {
+            "key": "Flippers",
+            "weighting": 1
+          },
+          {
+            "key": "WaterCannons",
+            "weighting": 0
+          }
+        ]
+      }
+    ],
+    "id": "variation_invisibeans"
+  },
+  {
+    "set_switchers": [
+      {
+        "key": "Jail",
+        "weightings": [
+          {
+            "key": "SingleButton",
+            "weighting": 0
+          },
+          {
+            "key": "Automated",
+            "weighting": 1
+          },
+          {
+            "key": "SinBin",
+            "weighting": 0
+          },
+          {
+            "key": "SingleButtonNew",
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "CentralArea",
+        "weightings": [
+          {
+            "key": "Flippers",
+            "weighting": 1
+          },
+          {
+            "key": "WaterCannons",
+            "weighting": 0
+          }
+        ]
+      }
+    ],
+    "id": "variation_invisibeans_jail_auto"
+  },
+  {
+    "set_switchers": [
+      {
+        "key": "Jail",
+        "weightings": [
+          {
+            "key": "SingleButton",
+            "weighting": 1
+          },
+          {
+            "key": "Automated",
+            "weighting": 0
+          },
+          {
+            "key": "SinBin",
+            "weighting": 0
+          },
+          {
+            "key": "SingleButtonNew",
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "CentralArea",
+        "weightings": [
+          {
+            "key": "Flippers",
+            "weighting": 1
+          },
+          {
+            "key": "WaterCannons",
+            "weighting": 0
+          }
+        ]
+      }
+    ],
+    "id": "variation_invisibeans_jail_onebutton"
+  },
+  {
+    "set_switchers": [
+      {
+        "key": "Jail",
+        "weightings": [
+          {
+            "key": "SingleButton",
+            "weighting": 0
+          },
+          {
+            "key": "Automated",
+            "weighting": 0
+          },
+          {
+            "key": "SinBin",
+            "weighting": 1
+          },
+          {
+            "key": "SingleButtonNew",
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "CentralArea",
+        "weightings": [
+          {
+            "key": "Flippers",
+            "weighting": 1
+          },
+          {
+            "key": "WaterCannons",
+            "weighting": 0
+          }
+        ]
+      }
+    ],
+    "id": "variation_invisibeans_jail_sinbin"
+  },
+  {
+    "set_switchers": [
+      {
+        "key": "Jail",
+        "weightings": [
+          {
+            "key": "Automated",
+            "weighting": 0
+          },
+          {
+            "key": "SinBin",
+            "weighting": 0
+          },
+          {
+            "key": "SingleButton",
+            "weighting": 0
+          },
+          {
+            "key": "SingleButtonNew",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "CentralArea",
+        "weightings": [
+          {
+            "key": "Flippers",
+            "weighting": 1
+          },
+          {
+            "key": "WaterCannons",
+            "weighting": 0
+          }
+        ]
+      }
+    ],
+    "id": "variation_invisibeans_jail_singlebuttonnew"
   },
   {
     "set_switchers": [
@@ -3925,6 +4233,19 @@
             "weighting": 15
           }
         ]
+      },
+      {
+        "key": "Oriole",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 1
+          },
+          {
+            "key": "On",
+            "weighting": 0
+          }
+        ]
       }
     ],
     "id": "variation_lava"
@@ -3992,7 +4313,7 @@
           },
           {
             "key": "SpinningBeam",
-            "weighting": 0
+            "weighting": 100
           },
           {
             "key": "BerryBlaster",
@@ -4000,7 +4321,7 @@
           },
           {
             "key": "Penguin",
-            "weighting": 100
+            "weighting": 0
           }
         ]
       }
@@ -4088,6 +4409,79 @@
       }
     ],
     "id": "variation_penguin_solos"
+  },
+  {
+    "set_switchers": [
+      {
+        "key": "PipeSet1",
+        "weightings": [
+          {
+            "key": "PipeSet1_Config1",
+            "weighting": 20
+          },
+          {
+            "key": "PipeSet1_Config2",
+            "weighting": 20
+          },
+          {
+            "key": "PipeSet1_Config3",
+            "weighting": 20
+          },
+          {
+            "key": "PipeSet1_Config4",
+            "weighting": 0
+          },
+          {
+            "key": "PipeSet1_Config5",
+            "weighting": 20
+          }
+        ]
+      },
+      {
+        "key": "PipeSet2",
+        "weightings": [
+          {
+            "key": "PipeSet2_Config1",
+            "weighting": 30
+          },
+          {
+            "key": "PipeSet2_Config2",
+            "weighting": 30
+          },
+          {
+            "key": "PipeSet2_Config3",
+            "weighting": 30
+          }
+        ]
+      },
+      {
+        "key": "PipeSet3",
+        "weightings": [
+          {
+            "key": "PipeSet3_Config1",
+            "weighting": 50
+          },
+          {
+            "key": "PipeSet3_Config2",
+            "weighting": 50
+          }
+        ]
+      },
+      {
+        "key": "SlimeSurvival",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          },
+          {
+            "key": "Slime",
+            "weighting": 0
+          }
+        ]
+      }
+    ],
+    "id": "variation_pipedup"
   },
   {
     "set_switchers": [
@@ -4284,6 +4678,24 @@
   {
     "set_switchers": [
       {
+        "key": "SlimeSurvival",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          },
+          {
+            "key": "Slime",
+            "weighting": 0
+          }
+        ]
+      }
+    ],
+    "id": "variation_see_saw_360"
+  },
+  {
+    "set_switchers": [
+      {
         "key": "StartCorner_Variation",
         "weightings": [
           {
@@ -4309,7 +4721,11 @@
           },
           {
             "key": "Hurdles",
-            "weighting": 20
+            "weighting": 29
+          },
+          {
+            "key": "Oriole",
+            "weighting": 0
           }
         ]
       },
@@ -4327,6 +4743,10 @@
           {
             "key": "Block2",
             "weighting": 20
+          },
+          {
+            "key": "Oriole",
+            "weighting": 0
           }
         ]
       },
@@ -4344,6 +4764,10 @@
           {
             "key": "Whisk",
             "weighting": 20
+          },
+          {
+            "key": "Oriole",
+            "weighting": 0
           }
         ]
       },
@@ -4361,6 +4785,10 @@
           {
             "key": "Flipper2",
             "weighting": 40
+          },
+          {
+            "key": "Oriole",
+            "weighting": 0
           }
         ]
       },
@@ -4378,6 +4806,10 @@
           {
             "key": "Hurdles",
             "weighting": 20
+          },
+          {
+            "key": "Oriole",
+            "weighting": 0
           }
         ]
       },
@@ -4395,6 +4827,10 @@
           {
             "key": "Hurdles",
             "weighting": 20
+          },
+          {
+            "key": "Oriole",
+            "weighting": 0
           }
         ]
       },
@@ -4412,6 +4848,10 @@
           {
             "key": "Scythe2",
             "weighting": 20
+          },
+          {
+            "key": "Oriole",
+            "weighting": 0
           }
         ]
       }
@@ -5438,6 +5878,76 @@
   {
     "set_switchers": [
       {
+        "key": "Section_2",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 70
+          },
+          {
+            "key": "Hammers",
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "Section_3",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 70
+          },
+          {
+            "key": "Obstacles",
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "Yeetus",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 80
+          },
+          {
+            "key": "Yeetus",
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "EndPlatform",
+        "weightings": [
+          {
+            "key": "MovingPlatform",
+            "weighting": 75
+          },
+          {
+            "key": "Fan",
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "SlimeSurvival",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          },
+          {
+            "key": "Slime",
+            "weighting": 0
+          }
+        ]
+      }
+    ],
+    "id": "variation_tunnel_race_toms"
+  },
+  {
+    "set_switchers": [
+      {
         "key": "Spawners",
         "weightings": [
           {
@@ -5482,6 +5992,10 @@
           {
             "key": "Ramps",
             "weighting": 30
+          },
+          {
+            "key": "Oriole",
+            "weighting": 0
           }
         ]
       },
@@ -5508,6 +6022,19 @@
           {
             "key": "Fan",
             "weighting": 30
+          }
+        ]
+      },
+      {
+        "key": "Oriole",
+        "weightings": [
+          {
+            "key": "On",
+            "weighting": 0
+          },
+          {
+            "key": "Off",
+            "weighting": 1
           }
         ]
       }

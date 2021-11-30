@@ -1,5 +1,165 @@
 [
   {
+    "player_action_id": "carry_battery",
+    "target": {
+      "type": "aggregate",
+      "value": 60
+    },
+    "description": "localised_strings.challenge_desc_033",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.obstacle_name_battery"
+      },
+      {
+        "type": "numeric",
+        "numeric_value": 60
+      }
+    ],
+    "id": "carry_battery_60"
+  },
+  {
+    "player_action_id": "carry_egg_eggscramble_vulture",
+    "target": {
+      "type": "aggregate",
+      "value": 10
+    },
+    "description": "localised_strings.challenge_desc_le_vulture_00",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_object_01"
+      },
+      {
+        "type": "numeric",
+        "numeric_value": 10
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_vulture"
+      }
+    ],
+    "id": "carry_eggs_eggscramble_vulture_10"
+  },
+  {
+    "player_action_id": "carry_any_newyears6",
+    "target": {
+      "type": "aggregate",
+      "value": 120
+    },
+    "description": "localised_strings.challenge_desc_le_newyears6_003_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 120
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_s6_newyears6_event_1"
+      }
+    ],
+    "id": "carry_item_newyear6_120s"
+  },
+  {
+    "player_action_id": "carry_any_newyears6",
+    "target": {
+      "type": "aggregate",
+      "value": 240
+    },
+    "description": "localised_strings.challenge_desc_le_newyears6_003_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 240
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_s6_newyears6_event_1"
+      }
+    ],
+    "id": "carry_item_newyear6_240s"
+  },
+  {
+    "player_action_id": "carry_pegwin_oriole",
+    "target": {
+      "type": "aggregate",
+      "value": 60
+    },
+    "description": "localised_strings.challenge_desc_033_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.obstacle_name_pegwin"
+      },
+      {
+        "type": "numeric",
+        "numeric_value": 60
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_oriole"
+      }
+    ],
+    "id": "carry_pegwin_60_oriole"
+  },
+  {
+    "player_action_id": "collect_oriole",
+    "target": {
+      "type": "aggregate",
+      "value": 2000
+    },
+    "description": "localised_strings.challenge_desc_032",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.collectable_oriole_name_plural"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_oriole"
+      }
+    ],
+    "id": "collect_2000_oriole"
+  },
+  {
+    "player_action_id": "collect_oriole",
+    "target": {
+      "type": "aggregate",
+      "value": 400
+    },
+    "description": "localised_strings.challenge_desc_032",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.collectable_oriole_name_plural"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_oriole"
+      }
+    ],
+    "id": "collect_400_oriole"
+  },
+  {
+    "player_action_id": "collect_oriole",
+    "target": {
+      "type": "aggregate",
+      "value": 75
+    },
+    "description": "localised_strings.challenge_desc_032",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.collectable_oriole_name_plural"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_oriole"
+      }
+    ],
+    "id": "collect_75_oriole"
+  },
+  {
     "player_action_id": "earn_bronze_medal",
     "target": {
       "type": "aggregate",
@@ -134,6 +294,52 @@
     "id": "earn_2_bronze_medals"
   },
   {
+    "player_action_id": "earn_bronze_medal_in_fulltilt_in_newyears6",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_le_newyears6_006_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_medal_03"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.level_name_seesaw_360"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_s6_newyears6_event_1"
+      }
+    ],
+    "id": "earn_3_bronze_medals_fulltilt_newyears6"
+  },
+  {
+    "player_action_id": "earn_bronze_medal_in_gatecrash_in_newyears6",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_le_newyears6_006_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_medal_03"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.level_name_chomp_chomp"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_s6_newyears6_event_1"
+      }
+    ],
+    "id": "earn_3_bronze_medals_gatecrash_newyears6"
+  },
+  {
     "player_action_id": "earn_bronze_medal_race",
     "target": {
       "type": "aggregate",
@@ -256,6 +462,221 @@
     "id": "goal_test"
   },
   {
+    "player_action_id": "gold_medal_in_show_s6launch",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_013_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_medal_01"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_s6_launch_event_1"
+      }
+    ],
+    "id": "gold_1_fall_guys_fiesta"
+  },
+  {
+    "player_action_id": "gold_medal_in_show_s6launch",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_013_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_medal_01"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_s6_launch_event_1"
+      }
+    ],
+    "id": "gold_3_fall_guys_fiesta"
+  },
+  {
+    "player_action_id": "grab_player_in_full_tilt_in_show_s6launch",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_035_round",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.level_name_seesaw_360"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_s6_launch_event_1"
+      }
+    ],
+    "id": "grab_player_in_full_tilt_in_fall_guys_fiesta"
+  },
+  {
+    "player_action_id": "grab_player_in_partyprom_in_show_s6launch",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_035_round",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.level_name_gauntlet_8"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_s6_launch_event_1"
+      }
+    ],
+    "id": "grab_player_in_gauntlet_8_in_fall_guys_fiesta"
+  },
+  {
+    "player_action_id": "grab_player_in_round_in_show",
+    "target": {
+      "type": "aggregate",
+      "value": 50
+    },
+    "description": "localised_strings.challenge_desc_035_round",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.level_name_gauntlet_8"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_s6_launch_event_1"
+      }
+    ],
+    "id": "grab_player_in_round_in_show"
+  },
+  {
+    "player_action_id": "hit_by_bollard_in_round_in_show",
+    "target": {
+      "type": "aggregate",
+      "value": 50
+    },
+    "description": null,
+    "description_parameters": [],
+    "id": "hit_by_bollard"
+  },
+  {
+    "player_action_id": "hit_by_bumper",
+    "target": {
+      "type": "aggregate",
+      "value": 10
+    },
+    "description": "localised_strings.challenge_desc_034",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.obstacle_name_bumper_plural"
+      }
+    ],
+    "id": "hit_by_bumper_10"
+  },
+  {
+    "player_action_id": "hit_by_puncher_newyear6",
+    "target": {
+      "type": "aggregate",
+      "value": 10
+    },
+    "description": "localised_strings.challenge_desc_le_newyears6_004_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.obstacle_name_puncher"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_s6_newyears6_event_1"
+      }
+    ],
+    "id": "hit_by_puncher_newyear6_10"
+  },
+  {
+    "player_action_id": "hit_by_puncher_newyear6",
+    "target": {
+      "type": "aggregate",
+      "value": 20
+    },
+    "description": "localised_strings.challenge_desc_le_newyears6_004_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.obstacle_name_puncher"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_s6_newyears6_event_1"
+      }
+    ],
+    "id": "hit_by_puncher_newyear6_20"
+  },
+  {
+    "player_action_id": "hit_by_rhino_oriole",
+    "target": {
+      "type": "aggregate",
+      "value": 15
+    },
+    "description": "localised_strings.challenge_desc_034_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.obstacle_name_rhino_plural"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_oriole"
+      }
+    ],
+    "id": "hit_by_rhino_15_oriole"
+  },
+  {
+    "player_action_id": "play_race_rounds_vulture",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_round_type_race"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_vulture"
+      }
+    ],
+    "id": "play_5_race_rounds_vulture"
+  },
+  {
+    "player_action_id": "play_a_hunt_round_s6_launch",
+    "target": {
+      "type": "aggregate",
+      "value": 10
+    },
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_round_type_hunt"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_s6_launch_event_1"
+      }
+    ],
+    "id": "play_hunt_10_in_fall_guys_fiesta"
+  },
+  {
     "player_action_id": "play_a_hunt_round_jungle",
     "target": {
       "type": "aggregate",
@@ -277,6 +698,25 @@
       }
     ],
     "id": "play_hunt_1_round_jungle"
+  },
+  {
+    "player_action_id": "play_a_hunt_round_s6_launch",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_round_type_hunt"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_s6_launch_event_1"
+      }
+    ],
+    "id": "play_hunt_5_in_fall_guys_fiesta"
   },
   {
     "player_action_id": "play_a_logic_round_hw_team_squads",
@@ -522,6 +962,44 @@
       }
     ],
     "id": "play_show_wok5"
+  },
+  {
+    "player_action_id": "play_survival_rounds_vulture",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_round_type_survival"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_vulture"
+      }
+    ],
+    "id": "play_survival_rounds_vulture"
+  },
+  {
+    "player_action_id": "play_team_rounds_vulture",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_round_type_team"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_vulture"
+      }
+    ],
+    "id": "play_team_rounds_vulture"
   },
   {
     "player_action_id": "play_team_rounds_wok2",
@@ -821,6 +1299,44 @@
     "id": "player_grab_10"
   },
   {
+    "player_action_id": "player_hit_by_puncher_vulture",
+    "target": {
+      "type": "aggregate",
+      "value": 10
+    },
+    "description": "localised_strings.challenge_desc_034_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.obstacle_name_puncher"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_vulture"
+      }
+    ],
+    "id": "player_hit_by_puncher_vulture_10"
+  },
+  {
+    "player_action_id": "player_hit_big_yeetus_vulture",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_034_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.obstacle_name_yeetus"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_vulture"
+      }
+    ],
+    "id": "player_hit_by_yeetus_vulture_5"
+  },
+  {
     "player_action_id": "player_hugged",
     "target": {
       "type": "aggregate",
@@ -1106,6 +1622,36 @@
     "id": "player_jumped_5"
   },
   {
+    "player_action_id": "player_jumped_newyears6",
+    "target": {
+      "type": "aggregate",
+      "value": 120
+    },
+    "description": "localised_strings.challenge_desc_le_newyears6_001_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.le_s6_newyears6_event_title"
+      }
+    ],
+    "id": "player_jumped_newyear6_120"
+  },
+  {
+    "player_action_id": "player_jumped_newyears6",
+    "target": {
+      "type": "aggregate",
+      "value": 30
+    },
+    "description": "localised_strings.challenge_desc_le_newyears6_001_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.le_s6_newyears6_event_title"
+      }
+    ],
+    "id": "player_jumped_newyear6_30"
+  },
+  {
     "player_action_id": "posses_an_item_jungle",
     "target": {
       "type": "aggregate",
@@ -1239,6 +1785,25 @@
     "id": "qualified_survival_5_rounds"
   },
   {
+    "player_action_id": "qualify_from_a_race_round_vulture",
+    "target": {
+      "type": "aggregate",
+      "value": 2
+    },
+    "description": "localised_strings.challenge_desc_004_general",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_round_type_race"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_vulture"
+      }
+    ],
+    "id": "qualify_2_race_rounds_vulture"
+  },
+  {
     "player_action_id": "qualify_round_in_a_party",
     "target": {
       "type": "aggregate",
@@ -1256,6 +1821,29 @@
       }
     ],
     "id": "qualify_6_rounds_in_a_party"
+  },
+  {
+    "player_action_id": "player_qualified_carrying_pegwin_race_oriole",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_035_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_round_type_race"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.obstacle_name_pegwin"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_oriole"
+      }
+    ],
+    "id": "qualify_carrying_pegwin_1_oriole"
   },
   {
     "player_action_id": "qualify_egg_scramble_rounds_hw_team_squads",
@@ -1385,6 +1973,25 @@
       }
     ],
     "id": "qualify_race_6_rounds_squads4"
+  },
+  {
+    "player_action_id": "qualify_from_a_survival_round_vulture",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_004_general",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_round_type_survival"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_vulture"
+      }
+    ],
+    "id": "qualify_survival_rounds_vulture"
   },
   {
     "player_action_id": "qualify_from_a_team_round",
@@ -1535,6 +2142,44 @@
     "id": "qualify_team_5_rounds_first_midautumn"
   },
   {
+    "player_action_id": "qualify_from_a_team_round_vulture",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_004_general",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_round_type_team"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_vulture"
+      }
+    ],
+    "id": "qualify_team_5_rounds_vulture"
+  },
+  {
+    "player_action_id": "qualify_from_a_team_round_vulture",
+    "target": {
+      "type": "aggregate",
+      "value": 2
+    },
+    "description": "localised_strings.challenge_desc_004_general",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_round_type_team"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_vulture"
+      }
+    ],
+    "id": "qualify_team_rounds_vulture"
+  },
+  {
     "player_action_id": "reach_final_round_autumn",
     "target": {
       "type": "aggregate",
@@ -1643,6 +2288,22 @@
     "id": "reach_final_round_squads4"
   },
   {
+    "player_action_id": "reach_final_round_squads4_s6",
+    "target": {
+      "type": "last_value",
+      "operator": "equal",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_031",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "id": "reach_final_round_squads4_s6"
+  },
+  {
     "player_action_id": "reach_final_round_trios",
     "target": {
       "type": "last_value",
@@ -1657,6 +2318,37 @@
       }
     ],
     "id": "reach_final_round_trios"
+  },
+  {
+    "player_action_id": "reach_final_round_trios_s6",
+    "target": {
+      "type": "last_value",
+      "operator": "equal",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_031",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squads_trios"
+      }
+    ],
+    "id": "reach_final_round_trios_s6"
+  },
+  {
+    "player_action_id": "reach_final_round_vulture",
+    "target": {
+      "type": "aggregate",
+      "value": 2
+    },
+    "description": "localised_strings.challenge_desc_031",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_vulture"
+      }
+    ],
+    "id": "reach_final_round_vulture_2"
   },
   {
     "player_action_id": "reach_round_2_hw_slime_climb",
@@ -1714,6 +2406,25 @@
       }
     ],
     "id": "reach_round_2_jungle_3"
+  },
+  {
+    "player_action_id": "reach_round_2_newyears6",
+    "target": {
+      "type": "aggregate",
+      "value": 10
+    },
+    "description": "localised_strings.challenge_desc_le_newyears6_005_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 2
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_s6_newyears6_event_1"
+      }
+    ],
+    "id": "reach_round_2_newyears6"
   },
   {
     "player_action_id": "reach_round_2_squads4",
@@ -1883,6 +2594,44 @@
     "id": "reach_round_3_duos"
   },
   {
+    "player_action_id": "reach_round_3_in_fall_guys_fiesta",
+    "target": {
+      "type": "aggregate",
+      "value": 4
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_s6_launch_event_1"
+      }
+    ],
+    "id": "reach_round_3_in_fall_guys_fiesta_4_times"
+  },
+  {
+    "player_action_id": "reach_round_3_in_fall_guys_fiesta",
+    "target": {
+      "type": "aggregate",
+      "value": 8
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_s6_launch_event_1"
+      }
+    ],
+    "id": "reach_round_3_in_fall_guys_fiesta_8_times"
+  },
+  {
     "player_action_id": "reach_round_3_jungle",
     "target": {
       "type": "aggregate",
@@ -1919,6 +2668,25 @@
       }
     ],
     "id": "reach_round_3_trios"
+  },
+  {
+    "player_action_id": "reach_round_3_vulture",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_vulture"
+      }
+    ],
+    "id": "reach_round_3_vulture_3"
   },
   {
     "player_action_id": "reach_round_4_duos",
@@ -1984,6 +2752,25 @@
     "id": "reach_round_4_main"
   },
   {
+    "player_action_id": "reach_round_4_newyears6",
+    "target": {
+      "type": "aggregate",
+      "value": 20
+    },
+    "description": "localised_strings.challenge_desc_le_newyears6_005_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 4
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_s6_newyears6_event_1"
+      }
+    ],
+    "id": "reach_round_4_newyears6"
+  },
+  {
     "player_action_id": "reach_round_4_squads4",
     "target": {
       "type": "last_value",
@@ -2004,6 +2791,26 @@
     "id": "reach_round_4_squads4"
   },
   {
+    "player_action_id": "reach_round_4_squads4_s6",
+    "target": {
+      "type": "last_value",
+      "operator": "equal",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 4
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "id": "reach_round_4_squads4_s6"
+  },
+  {
     "player_action_id": "reach_round_4_trios",
     "target": {
       "type": "aggregate",
@@ -2021,6 +2828,25 @@
       }
     ],
     "id": "reach_round_4_trios"
+  },
+  {
+    "player_action_id": "reach_round_4_trios_s6",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 4
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squads_trios"
+      }
+    ],
+    "id": "reach_round_4_trios_s6"
   },
   {
     "player_action_id": "reach_round_2_in_friday",
@@ -2118,6 +2944,44 @@
     "id": "reach_round_in_end_of_season_wednesday"
   },
   {
+    "player_action_id": "silver_medal_in_show_s6launch",
+    "target": {
+      "type": "aggregate",
+      "value": 4
+    },
+    "description": "localised_strings.challenge_desc_013_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_medal_02"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_s6_launch_event_1"
+      }
+    ],
+    "id": "silver_4_fall_guys_fiesta"
+  },
+  {
+    "player_action_id": "silver_medal_in_show_s6launch",
+    "target": {
+      "type": "aggregate",
+      "value": 8
+    },
+    "description": "localised_strings.challenge_desc_013_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_medal_02"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_s6_launch_event_1"
+      }
+    ],
+    "id": "silver_8_fall_guys_fiesta"
+  },
+  {
     "player_action_id": "win_duos",
     "target": {
       "type": "last_value",
@@ -2178,6 +3042,22 @@
       }
     ],
     "id": "win_midautumn_show"
+  },
+  {
+    "player_action_id": "win_oriole",
+    "target": {
+      "type": "last_value",
+      "operator": "equal",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_oriole"
+      }
+    ],
+    "id": "win_oriole"
   },
   {
     "player_action_id": "win_show_hw_slime_climb",
@@ -2340,6 +3220,25 @@
     "id": "win_squads4_2"
   },
   {
+    "player_action_id": "win_squads4_s6",
+    "target": {
+      "type": "aggregate",
+      "value": 2
+    },
+    "description": "localised_strings.challenge_desc_015",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      },
+      {
+        "type": "numeric",
+        "numeric_value": 2
+      }
+    ],
+    "id": "win_squads4_2_s6"
+  },
+  {
     "player_action_id": "win_squads4",
     "target": {
       "type": "aggregate",
@@ -2355,6 +3254,21 @@
     "id": "win_squads4_3"
   },
   {
+    "player_action_id": "win_squads4_s6",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "id": "win_squads4_s6"
+  },
+  {
     "player_action_id": "win_trios",
     "target": {
       "type": "aggregate",
@@ -2368,5 +3282,52 @@
       }
     ],
     "id": "win_trios"
+  },
+  {
+    "player_action_id": "win_trios_s6",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squads_trios"
+      }
+    ],
+    "id": "win_trios_s6"
+  },
+  {
+    "player_action_id": "win_vulture",
+    "target": {
+      "type": "last_value",
+      "operator": "equal",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_vulture"
+      }
+    ],
+    "id": "win_vulture"
+  },
+  {
+    "player_action_id": "win_vulture",
+    "target": {
+      "type": "last_value",
+      "operator": "equal",
+      "value": 2
+    },
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_vulture"
+      }
+    ],
+    "id": "win_vulture_2"
   }
 ]
