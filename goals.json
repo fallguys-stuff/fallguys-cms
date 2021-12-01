@@ -19,29 +19,6 @@
     "id": "carry_battery_60"
   },
   {
-    "player_action_id": "carry_egg_eggscramble_vulture",
-    "target": {
-      "type": "aggregate",
-      "value": 10
-    },
-    "description": "localised_strings.challenge_desc_le_vulture_00",
-    "description_parameters": [
-      {
-        "type": "localised",
-        "localised_value": "localised_strings.challenge_object_01"
-      },
-      {
-        "type": "numeric",
-        "numeric_value": 10
-      },
-      {
-        "type": "localised",
-        "localised_value": "localised_strings.show_name_vulture"
-      }
-    ],
-    "id": "carry_eggs_eggscramble_vulture_10"
-  },
-  {
     "player_action_id": "carry_any_newyears6",
     "target": {
       "type": "aggregate",
@@ -2145,25 +2122,6 @@
     "player_action_id": "qualify_from_a_team_round_vulture",
     "target": {
       "type": "aggregate",
-      "value": 5
-    },
-    "description": "localised_strings.challenge_desc_004_general",
-    "description_parameters": [
-      {
-        "type": "localised",
-        "localised_value": "localised_strings.challenge_round_type_team"
-      },
-      {
-        "type": "localised",
-        "localised_value": "localised_strings.show_name_vulture"
-      }
-    ],
-    "id": "qualify_team_5_rounds_vulture"
-  },
-  {
-    "player_action_id": "qualify_from_a_team_round_vulture",
-    "target": {
-      "type": "aggregate",
       "value": 2
     },
     "description": "localised_strings.challenge_desc_004_general",
@@ -3048,7 +3006,7 @@
     "target": {
       "type": "last_value",
       "operator": "equal",
-      "value": 1
+      "value": 3
     },
     "description": "localised_strings.challenge_desc_015_singular",
     "description_parameters": [
@@ -3313,21 +3271,5 @@
       }
     ],
     "id": "win_vulture"
-  },
-  {
-    "player_action_id": "win_vulture",
-    "target": {
-      "type": "last_value",
-      "operator": "equal",
-      "value": 2
-    },
-    "description": "localised_strings.challenge_desc_015_singular",
-    "description_parameters": [
-      {
-        "type": "localised",
-        "localised_value": "localised_strings.show_name_vulture"
-      }
-    ],
-    "id": "win_vulture_2"
   }
 ]
