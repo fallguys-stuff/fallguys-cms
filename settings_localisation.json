@@ -3,46 +3,76 @@
     "player_name_filter": {
       "allow_unicode_ranges": [
         {
-          "description": "Basic Latin - C0 Controls",
-          "from": "0000",
-          "to": "001F",
-          "enabled": false
-        },
-        {
-          "description": "Basic Latin",
+          "description": "Subset of Basic Latin",
           "from": "0020",
-          "to": "007F",
+          "to": "002E",
           "enabled": true
         },
         {
-          "enabled": false,
-          "description": "C1 Controls",
-          "from": "0080",
-          "to": "009F"
+          "description": "Subset of Basic Latin",
+          "from": "0030",
+          "to": "003B",
+          "enabled": true
         },
         {
           "enabled": true,
-          "description": "Latin-1 Supplement",
-          "from": "00A0",
-          "to": "00FF"
+          "description": "Subset of Basic Latin",
+          "from": "003D",
+          "to": "003D"
         },
         {
           "enabled": true,
-          "description": "Latin Extended-A and Latin Extended-B",
+          "description": "Subset of Basic Latin",
+          "from": "003F",
+          "to": "005A"
+        },
+        {
+          "enabled": true,
+          "description": "Subset of Basic Latin",
+          "from": "005E",
+          "to": "007F"
+        },
+        {
+          "enabled": true,
+          "description": "Subset of C1 Controls & Latin-1 Supplement",
+          "from": "009F",
+          "to": "00A0"
+        },
+        {
+          "enabled": true,
+          "description": "Latin Extended A & B",
           "from": "0100",
           "to": "024F"
         },
         {
           "enabled": true,
-          "description": "Katakana",
-          "from": "30A0",
+          "description": "Cyrillic & Cyrillic Supplement",
+          "from": "0400",
+          "to": "052F"
+        },
+        {
+          "enabled": true,
+          "description": "Hirigana & Katakana",
+          "from": "3040",
           "to": "30FF"
         },
         {
           "enabled": true,
-          "description": "Cyrillic and Cyrillic Supplement",
-          "from": "0400",
-          "to": "052F"
+          "description": "CJK Compatibility & CJK Unified Ideographs Extension A",
+          "from": "3300",
+          "to": "4DBF"
+        },
+        {
+          "enabled": true,
+          "description": "CJK Unified Ideographs",
+          "from": "4E00",
+          "to": "9FAF"
+        },
+        {
+          "enabled": true,
+          "description": "Hangul Syllables",
+          "from": "AC00",
+          "to": "D7AF"
         }
       ],
       "enabled": true,
