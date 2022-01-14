@@ -2131,6 +2131,22 @@
     "id": "reach_final_round_duos"
   },
   {
+    "player_action_id": "reach_final_round_duos_s6_glizzy01",
+    "target": {
+      "type": "last_value",
+      "operator": "equal",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_031",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squads_duos"
+      }
+    ],
+    "id": "reach_final_round_duos_s6_glizzy01"
+  },
+  {
     "player_action_id": "reach_final_round_hw_slime_climb",
     "target": {
       "type": "aggregate",
@@ -2629,6 +2645,25 @@
     "id": "reach_round_4_duos"
   },
   {
+    "player_action_id": "reach_round_4_duos_s6",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 4
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squads_duos"
+      }
+    ],
+    "id": "reach_round_4_duos_s6_glizzy01"
+  },
+  {
     "player_action_id": "reach_round_4_lte",
     "target": {
       "type": "aggregate",
@@ -2916,6 +2951,21 @@
       }
     ],
     "id": "win_duos"
+  },
+  {
+    "player_action_id": "win_duos_s6_glizzy01",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squads_duos"
+      }
+    ],
+    "id": "win_duos_s6_glizzy01"
   },
   {
     "player_action_id": "win_lte",
