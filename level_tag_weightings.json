@@ -4112,5 +4112,204 @@
       }
     ],
     "id": "tag_weightings_teamneutral"
+  },
+  {
+    "tag_score": [
+      {
+        "tag": "level_tags.covenant_free_for_all",
+        "bonus": 100,
+        "repeat_malus": 0,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "before_stage",
+          "setting": {
+            "stage": 4
+          }
+        }
+      },
+      {
+        "tag": "level_tags.covenant_team",
+        "bonus": 3500,
+        "repeat_malus": -1000,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.covenant_final",
+        "bonus": 800,
+        "repeat_malus": 0,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "after_stage",
+          "setting": {
+            "stage": 5
+          }
+        }
+      },
+      {
+        "tag": "level_tags.saftey_nonstarter",
+        "bonus": -50000,
+        "repeat_malus": 0,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "before_stage",
+          "setting": {
+            "stage": 1
+          }
+        }
+      },
+      {
+        "tag": "level_tags.saftey_small_final_round",
+        "bonus": 1000,
+        "repeat_malus": 0,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "after_stage",
+          "setting": {
+            "stage": 5
+          }
+        }
+      },
+      {
+        "tag": "level_tags.saftey_late_stage_team_round",
+        "bonus": 1000,
+        "repeat_malus": 10,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "range",
+          "setting": {
+            "from": 3,
+            "to": 5
+          }
+        }
+      },
+      {
+        "tag": "level_tags.featured_round",
+        "bonus": 100,
+        "repeat_malus": 0,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "before_stage",
+          "setting": {
+            "stage": 4
+          }
+        }
+      },
+      {
+        "tag": "level_tags.season_05",
+        "bonus": 1000,
+        "repeat_malus": 0,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "before_stage",
+          "setting": {
+            "stage": 4
+          }
+        }
+      },
+      {
+        "tag": "level_tags.team_final",
+        "bonus": 1000,
+        "repeat_malus": 0,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "after_stage",
+          "setting": {
+            "stage": 3
+          }
+        }
+      },
+      {
+        "tag": "level_tags.solo_final",
+        "bonus": 800,
+        "repeat_malus": 0,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "before_stage",
+          "setting": {
+            "stage": 5
+          }
+        }
+      },
+      {
+        "tag": "level_tags.exclusive_tailtag_arena",
+        "bonus": -3000,
+        "repeat_malus": 0,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.saftey_generic_penalty",
+        "bonus": -50,
+        "repeat_malus": 0,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "before_stage",
+          "setting": {
+            "stage": 5
+          }
+        }
+      },
+      {
+        "tag": "level_tags.exclusive_wild_elimination",
+        "bonus": 200,
+        "repeat_malus": 0,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "range",
+          "setting": {
+            "from": 2,
+            "to": 4
+          }
+        }
+      },
+      {
+        "tag": "level_tags.playspace_arena",
+        "bonus": 500,
+        "repeat_malus": -50,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "before_stage",
+          "setting": {
+            "stage": 2
+          }
+        }
+      },
+      {
+        "tag": "level_tags.unique_slime_climb",
+        "bonus": -100,
+        "repeat_malus": 0,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.playspace_track",
+        "bonus": 200,
+        "repeat_malus": -50,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "after_stage",
+          "setting": {
+            "stage": 2
+          }
+        }
+      },
+      {
+        "tag": "level_tags.survival_round",
+        "bonus": 500,
+        "repeat_malus": 500,
+        "repeat_decay": 500,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      }
+    ],
+    "id": "tag_weightings_week_of_romance_s6_duo_teams"
   }
 ]

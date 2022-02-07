@@ -481,6 +481,50 @@
   {
     "display_name": "localised_strings.level_name_hoarders",
     "scene_name": "FallGuy_BallHogs_01",
+    "game_rules": "game_rules.round_ballhogs_duos_week_of_romance_s6_duo_teams",
+    "level_archetype": "archetype_team",
+    "lower_main_ambience_volume": false,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_Hoarders",
+    "level_badge_name": "Hoarders",
+    "level_variation": "levels_variation.variation_ballhogs",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 2,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        },
+        {
+          "team_position": 2,
+          "multiplier": 1,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_position_02"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_disconnect",
+    "ingame_music_suffix": null,
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_ballhogs_duos_week_of_romance_s6_duo_teams"
+  },
+  {
+    "display_name": "localised_strings.level_name_hoarders",
+    "scene_name": "FallGuy_BallHogs_01",
     "game_rules": "game_rules.round_ballhogs_squads",
     "level_archetype": "archetype_team",
     "ingame_music_suffix": null,
@@ -715,6 +759,59 @@
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "id": "round_basketfall_duos"
+  },
+  {
+    "display_name": "localised_strings.level_name_basketfall",
+    "scene_name": "FallGuy_Basketfall_01",
+    "game_rules": "game_rules.round_basketfall_duos_week_of_romance_s6_duo_teams",
+    "level_archetype": "archetype_team",
+    "ingame_music_suffix": "_Season_04",
+    "lower_main_ambience_volume": false,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_Basketfall",
+    "level_badge_name": "BasketFall",
+    "level_variation": "levels_variation.variation_basketfall",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.season_04",
+      "level_tags.covenant_final",
+      "level_tags.team_final"
+    ],
+    "bonus": {
+      "type": "team_score",
+      "team_score_tiers": [
+        {
+          "team_score": 20,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_points_20"
+        },
+        {
+          "team_score": 10,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_points_10"
+        },
+        {
+          "team_score": 3,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_points_3"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_score_basketfall",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_basketfall_duos_week_of_romance_s6_duo_teams"
   },
   {
     "display_name": "localised_strings.level_name_basketfall",
@@ -2854,6 +2951,53 @@
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "id": "round_chicken_chase_duos"
+  },
+  {
+    "display_name": "localised_strings.level_name_penguin_pursuit",
+    "scene_name": "FallGuy_ChickenChase_01",
+    "game_rules": "game_rules.round_chicken_chase_duos_week_of_romance_s6",
+    "level_archetype": "archetype_team",
+    "ingame_music_suffix": "_Season_03",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
+    "extra_ambience_event": "AMB_Season_03_Snow",
+    "lower_main_ambience_volume": false,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_PenguinPursuit",
+    "level_badge_name": "PenguinPersuit",
+    "level_variation": "levels_variation.variation_chicken_chase",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_late_stage_team_round",
+      "level_tags.saftey_nonstarter",
+      "level_tags.season_03",
+      "level_tags.level_chickenchase_boost"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 2,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        },
+        {
+          "team_position": 2,
+          "multiplier": 1,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_position_02"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_disconnect",
+    "level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_chicken_chase_duos_week_of_romance_s6"
   },
   {
     "display_name": "localised_strings.level_name_penguin_pursuit",
@@ -6321,7 +6465,7 @@
     "visualiser_estimate_weighting": 1,
     "level_variation": "levels_variation.variation_drum_top",
     "level_variation_overrides": "levels_variation_overrides.var_over_drumtop_event_elimination",
-    "fall_feed": "fall_feed_race",
+    "fall_feed": "fall_feed_survival_race",
     "lower_main_ambience_volume": true,
     "tags": [
       "level_tags.covenant_free_for_all",
@@ -6371,7 +6515,7 @@
     "visualiser_estimate_weighting": 1,
     "level_variation": "levels_variation.variation_drum_top",
     "level_variation_overrides": "levels_variation_overrides.var_over_drumtop_event_elimination",
-    "fall_feed": "fall_feed_race",
+    "fall_feed": "fall_feed_survival_race",
     "lower_main_ambience_volume": true,
     "tags": [
       "level_tags.covenant_free_for_all",
@@ -7113,6 +7257,52 @@
   {
     "display_name": "localised_strings.level_name_egg_siege",
     "scene_name": "FallGuy_EggGrab_02",
+    "game_rules": "game_rules.round_egg_grab_02_duos_week_of_romance_s6",
+    "level_archetype": "archetype_final",
+    "ingame_music_suffix": "_Season_02",
+    "lower_main_ambience_volume": false,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_EggSiege",
+    "level_badge_name": "EggSiege",
+    "level_variation": "levels_variation.variation_egg_grab_02",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.exclusive_item_collection",
+      "level_tags.season_02"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 2,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        },
+        {
+          "team_position": 2,
+          "multiplier": 1,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_position_02"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_disconnect",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_egg_grab_02_duos_week_of_romance_s6"
+  },
+  {
+    "display_name": "localised_strings.level_name_egg_siege",
+    "scene_name": "FallGuy_EggGrab_02",
     "game_rules": "game_rules.round_egg_grab_02_kudos_bollard_greens",
     "level_archetype": "archetype_team",
     "ingame_music_suffix": "_Season_02",
@@ -7432,6 +7622,51 @@
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "id": "round_egg_grab_duos"
+  },
+  {
+    "display_name": "localised_strings.level_name_egg_grab",
+    "scene_name": "FallGuy_EggGrab",
+    "game_rules": "game_rules.round_egg_grab_duos_week_of_romance_s6_duo_teams",
+    "level_archetype": "archetype_final",
+    "lower_main_ambience_volume": false,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_EggGrab",
+    "level_badge_name": "EggScramble",
+    "level_variation": "levels_variation.variation_egg_grab",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.exclusive_item_collection"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 2,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        },
+        {
+          "team_position": 2,
+          "multiplier": 1,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_position_02"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_disconnect",
+    "ingame_music_suffix": null,
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_egg_grab_duos_week_of_romance_s6_duo_teams"
   },
   {
     "display_name": "localised_strings.level_name_egg_grab_vulture",
@@ -8066,6 +8301,58 @@
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "id": "round_fall_ball_duos"
+  },
+  {
+    "display_name": "localised_strings.level_name_fall_ball",
+    "scene_name": "FallGuy_FallBall_5",
+    "game_rules": "game_rules.round_fall_ball_duos_week_of_romance_s6_duo_teams",
+    "level_archetype": "archetype_team",
+    "lower_main_ambience_volume": false,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_FallBall",
+    "level_badge_name": "FallBall",
+    "level_variation": "levels_variation.variation_fall_ball_60_players",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.saftey_late_stage_team_round",
+      "level_tags.team_final"
+    ],
+    "bonus": {
+      "type": "team_score",
+      "team_score_tiers": [
+        {
+          "team_score": 10,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_goals_01"
+        },
+        {
+          "team_score": 5,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_goals_02"
+        },
+        {
+          "team_score": 3,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_goals_03"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_score_fallball",
+    "ingame_music_suffix": null,
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_fall_ball_duos_week_of_romance_s6_duo_teams"
   },
   {
     "display_name": "localised_strings.level_name_fall_ball",
@@ -14530,7 +14817,7 @@
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
-    "fall_feed": "fall_feed_race",
+    "fall_feed": "fall_feed_survival_race",
     "lower_main_ambience_volume": false,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
@@ -14580,7 +14867,7 @@
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
-    "fall_feed": "fall_feed_race",
+    "fall_feed": "fall_feed_survival_race",
     "lower_main_ambience_volume": false,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
@@ -15323,7 +15610,7 @@
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
-    "fall_feed": "fall_feed_race",
+    "fall_feed": "fall_feed_survival_race",
     "level_variation": "levels_variation.variation_gauntlet_07",
     "level_variation_overrides": "levels_variation_overrides.var_over_gauntlet_07_elimination",
     "lower_main_ambience_volume": true,
@@ -15373,7 +15660,7 @@
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
-    "fall_feed": "fall_feed_race",
+    "fall_feed": "fall_feed_survival_race",
     "level_variation": "levels_variation.variation_gauntlet_07",
     "level_variation_overrides": "levels_variation_overrides.var_over_gauntlet_07_elimination",
     "lower_main_ambience_volume": true,
@@ -16126,7 +16413,7 @@
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
-    "fall_feed": "fall_feed_race",
+    "fall_feed": "fall_feed_survival_race",
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "tags": [
@@ -16176,7 +16463,7 @@
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
-    "fall_feed": "fall_feed_race",
+    "fall_feed": "fall_feed_survival_race",
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "tags": [
@@ -16714,6 +17001,52 @@
   {
     "display_name": "localised_strings.level_name_hoopsie_daisy",
     "scene_name": "FallGuy_Hoops_01",
+    "game_rules": "game_rules.round_hoops_duos_week_of_romance_s6_duo_teams",
+    "level_archetype": "archetype_team",
+    "lower_main_ambience_volume": false,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_HoopsieDaisy",
+    "level_badge_name": "HoopsieDaisy",
+    "level_variation": "levels_variation.variation_hoops",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.saftey_late_stage_team_round",
+      "level_tags.exclusive_hoops_jumping"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 2,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        },
+        {
+          "team_position": 2,
+          "multiplier": 1,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_position_02"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_score_hoop",
+    "ingame_music_suffix": null,
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_hoops_duos_week_of_romance_s6_duo_teams"
+  },
+  {
+    "display_name": "localised_strings.level_name_hoopsie_daisy",
+    "scene_name": "FallGuy_Hoops_01",
     "game_rules": "game_rules.round_hoops",
     "level_archetype": "archetype_team",
     "ingame_music_suffix": null,
@@ -17152,8 +17485,8 @@
     "visualiser_estimate_percentage_qualification": 35,
     "visualiser_estimate_variance": 20,
     "visualiser_estimate_weighting": 1,
-    "fall_feed": "fall_feed_survival_race_first_place_only",
-    "lower_main_ambience_volume": null,
+    "fall_feed": "fall_feed_survival_race",
+    "lower_main_ambience_volume": false,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "id": "round_hoverboardsurvival_event_elimination"
@@ -18529,6 +18862,45 @@
   {
     "display_name": "localised_strings.level_name_jinxed",
     "scene_name": "FallGuy_TeamInfected",
+    "game_rules": "game_rules.round_jinxed_duos_week_of_romance_s6_duo_teams",
+    "level_archetype": "archetype_team",
+    "lower_main_ambience_volume": false,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_Jinxed",
+    "level_badge_name": "Jinxed",
+    "level_variation": "levels_variation.variation_jinxed",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.team_final"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 1,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_special_jinx",
+    "ingame_music_suffix": null,
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_jinxed_duos_week_of_romance_s6_duo_teams"
+  },
+  {
+    "display_name": "localised_strings.level_name_jinxed",
+    "scene_name": "FallGuy_TeamInfected",
     "game_rules": "game_rules.round_jinxed",
     "level_archetype": "archetype_team",
     "ingame_music_suffix": null,
@@ -19200,7 +19572,7 @@
   {
     "display_name": "localised_strings.level_name_jump_showdown",
     "scene_name": "FallGuy_JumpShowdown_01",
-    "game_rules": "game_rules.round_jump_showdown_event_elimination",
+    "game_rules": "game_rules.round_jump_showdown_duos_week_of_romance_s6",
     "level_archetype": "archetype_final",
     "ingame_music_suffix": null,
     "extra_ambience_soundbank": null,
@@ -19210,6 +19582,44 @@
     "level_badge_name": "JumpClubShowdown",
     "level_variation": "levels_variation.variation_jump_showdown",
     "level_variation_overrides": null,
+    "tags": [
+      "level_tags.covenant_final",
+      "level_tags.playspace_platform",
+      "level_tags.exclusive_spoke_jump",
+      "level_tags.saftey_nonstarter",
+      "level_tags.saftey_early_final",
+      "level_tags.solo_final"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_survived"
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival",
+    "lower_main_ambience_volume": false,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_jump_showdown_duos_week_of_romance_s6"
+  },
+  {
+    "display_name": "localised_strings.level_name_jump_showdown",
+    "scene_name": "FallGuy_JumpShowdown_01",
+    "game_rules": "game_rules.round_jump_showdown_event_elimination",
+    "level_archetype": "archetype_final",
+    "ingame_music_suffix": null,
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_JumpShowdown",
+    "level_badge_name": "JumpClubShowdown",
+    "level_variation": "levels_variation.variation_jump_showdown",
+    "level_variation_overrides": "levels_variation_overrides.var_over_jump_showdown_hard_mode",
     "tags": [
       "level_tags.covenant_final",
       "level_tags.playspace_platform",
@@ -19230,7 +19640,7 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
-    "lower_main_ambience_volume": null,
+    "lower_main_ambience_volume": false,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "id": "round_jump_showdown_event_elimination"
@@ -19247,7 +19657,7 @@
     "loading_screen_name": "Splash_JumpShowdown",
     "level_badge_name": "JumpClubShowdown",
     "level_variation": "levels_variation.variation_jump_showdown",
-    "level_variation_overrides": null,
+    "level_variation_overrides": "levels_variation_overrides.var_over_jump_showdown_hard_mode",
     "tags": [
       "level_tags.covenant_final",
       "level_tags.playspace_platform",
@@ -22507,7 +22917,7 @@
     "id": "round_pipedup"
   },
   {
-    "display_name": "localised_strings.level_name_pipedup",
+    "display_name": "localised_strings.level_name_pipedup_xtreme",
     "scene_name": "FallGuy_PipedUp",
     "game_rules": "game_rules.round_pipedup_event_elimination",
     "level_archetype": "archetype_race",
@@ -22546,7 +22956,7 @@
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
-    "fall_feed": "fall_feed_race",
+    "fall_feed": "fall_feed_survival_race",
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "tags": [
@@ -22557,7 +22967,7 @@
     "id": "round_pipedup_event_elimination"
   },
   {
-    "display_name": "localised_strings.level_name_pipedup",
+    "display_name": "localised_strings.level_name_pipedup_xtreme",
     "scene_name": "FallGuy_PipedUp",
     "game_rules": "game_rules.round_pipedup_event_elimination_squads",
     "level_archetype": "archetype_race",
@@ -22596,7 +23006,7 @@
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
-    "fall_feed": "fall_feed_race",
+    "fall_feed": "fall_feed_survival_race",
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "tags": [
@@ -23088,6 +23498,51 @@
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "id": "round_rocknroll_duos"
+  },
+  {
+    "display_name": "localised_strings.level_name_rock_n_roll",
+    "scene_name": "FallGuy_RocknRoll",
+    "game_rules": "game_rules.round_rocknroll_duos_week_of_romance_s6_duo_teams",
+    "level_archetype": "archetype_team",
+    "lower_main_ambience_volume": false,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_RockandRoll",
+    "level_badge_name": "RockNRoll",
+    "level_variation": "levels_variation.variation_rocknroll",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_track",
+      "level_tags.saftey_nonstarter",
+      "level_tags.saftey_late_stage_team_round"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 2,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        },
+        {
+          "team_position": 2,
+          "multiplier": 1,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_position_02"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race_first_only",
+    "ingame_music_suffix": null,
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_rocknroll_duos_week_of_romance_s6_duo_teams"
   },
   {
     "display_name": "localised_strings.level_name_rock_n_roll",
@@ -24068,7 +24523,7 @@
     "id": "round_see_saw_360_4_players"
   },
   {
-    "display_name": "localised_strings.level_name_seesaw_360",
+    "display_name": "localised_strings.level_name_seesaw_360_xtreme",
     "scene_name": "FallGuy_SeeSaw360",
     "game_rules": "game_rules.round_see_saw_360_event_elimination",
     "level_archetype": "archetype_race",
@@ -24106,7 +24561,7 @@
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
-    "fall_feed": "fall_feed_race",
+    "fall_feed": "fall_feed_survival_race",
     "lower_main_ambience_volume": false,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
@@ -24118,7 +24573,7 @@
     "id": "round_see_saw_360_event_elimination"
   },
   {
-    "display_name": "localised_strings.level_name_seesaw_360",
+    "display_name": "localised_strings.level_name_seesaw_360_xtreme",
     "scene_name": "FallGuy_SeeSaw360",
     "game_rules": "game_rules.round_see_saw_360_event_elimination_squads",
     "level_archetype": "archetype_race",
@@ -24156,7 +24611,7 @@
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
-    "fall_feed": "fall_feed_race",
+    "fall_feed": "fall_feed_survival_race",
     "lower_main_ambience_volume": false,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
@@ -27720,6 +28175,52 @@
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "id": "round_snowy_scrap_duos"
+  },
+  {
+    "display_name": "localised_strings.level_name_snowy_scrap",
+    "scene_name": "FallGuy_Snowy_Scrap",
+    "game_rules": "game_rules.round_snowy_scrap_duos_week_of_romance_s6",
+    "level_archetype": "archetype_team",
+    "ingame_music_suffix": "_Season_03",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
+    "extra_ambience_event": "AMB_Season_03_Snow",
+    "lower_main_ambience_volume": false,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_SnowyScrap",
+    "level_badge_name": "SnowyScrap",
+    "level_variation": "levels_variation.variation_snowy_scrap",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.saftey_late_stage_team_round",
+      "level_tags.season_03"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 2,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        },
+        {
+          "team_position": 2,
+          "multiplier": 1,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_position_02"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race_first_only",
+    "level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_snowy_scrap_duos_week_of_romance_s6"
   },
   {
     "display_name": "localised_strings.level_name_snowy_scrap_vulture",
@@ -31656,6 +32157,45 @@
     "id": "round_tunnel_final_trios"
   },
   {
+    "display_name": "localised_strings.level_name_roll_off",
+    "scene_name": "FallGuy_Tunnel_Final",
+    "game_rules": "game_rules.round_tunnel_final_week_of_romance_s6_duo_teams",
+    "level_archetype": "archetype_final",
+    "lower_main_ambience_volume": false,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_RollOff",
+    "level_badge_name": "RolloutFinal",
+    "level_variation": "levels_variation.variation_tunnel_final",
+    "tags": [
+      "level_tags.covenant_final",
+      "level_tags.playspace_platform",
+      "level_tags.saftey_nonstarter",
+      "level_tags.exclusive_roll_out",
+      "level_tags.saftey_small_final_round",
+      "level_tags.saftey_early_final",
+      "level_tags.solo_final"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_victory"
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival",
+    "ingame_music_suffix": null,
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_tunnel_final_week_of_romance_s6_duo_teams"
+  },
+  {
     "display_name": "localised_strings.level_name_roll_off_xtreme_vulture",
     "scene_name": "FallGuy_Tunnel_Final",
     "game_rules": "game_rules.round_tunnel_final_vulture",
@@ -31892,7 +32432,7 @@
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
-    "fall_feed": "fall_feed_race",
+    "fall_feed": "fall_feed_survival_race",
     "lower_main_ambience_volume": false,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
@@ -31942,7 +32482,7 @@
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
-    "fall_feed": "fall_feed_race",
+    "fall_feed": "fall_feed_survival_race",
     "lower_main_ambience_volume": false,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
