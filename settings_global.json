@@ -84,6 +84,22 @@
   {
     "notes": null,
     "value": true,
+    "target_release": null,
+    "platforms_whitelist": [],
+    "target_ids": [],
+    "id": "character_enable_hold_to_walk"
+  },
+  {
+    "notes": null,
+    "value": 0.8,
+    "target_release": null,
+    "platforms_whitelist": [],
+    "target_ids": [],
+    "id": "character_playergrab_physics_multiplier"
+  },
+  {
+    "notes": null,
+    "value": true,
     "target_ids": [
       "after_prime_global_launch"
     ],
@@ -223,8 +239,10 @@
     "value": true,
     "target_release": null,
     "notes": null,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
     "platforms_whitelist": [],
-    "target_ids": [],
     "id": "fame_tier_skips_enabled"
   },
   {
@@ -248,10 +266,13 @@
     "id": "flexible_game_server_entry_token"
   },
   {
-    "value": false,
+    "value": true,
     "target_release": null,
+    "target_ids": [
+      "disabled_year_1900"
+    ],
+    "notes": null,
     "platforms_whitelist": [],
-    "target_ids": [],
     "id": "fn_matchmaker_enabled"
   },
   {
@@ -271,7 +292,7 @@
     "id": "hard_currency_enabled"
   },
   {
-    "value": false,
+    "value": true,
     "target_release": null,
     "notes": null,
     "platforms_whitelist": [],
@@ -466,28 +487,33 @@
     "id": "private_lobbies_active_show_selector"
   },
   {
-    "value": true,
+    "value": false,
     "target_release": null,
-    "notes": null,
+    "platforms_whitelist": [],
     "target_ids": [
       "after_prime_global_launch"
     ],
-    "platforms_whitelist": [],
+    "notes": null,
     "id": "private_lobbies_enabled"
   },
   {
     "value": false,
-    "platforms_whitelist": [],
-    "id": "private_lobbies_enabled_ps4"
-  },
-  {
-    "value": true,
-    "target_release": null,
     "notes": null,
     "target_ids": [
       "prime_users"
     ],
+    "target_release": null,
     "platforms_whitelist": [],
+    "id": "private_lobbies_enabled_ps4"
+  },
+  {
+    "value": false,
+    "target_release": null,
+    "target_ids": [
+      "prime_users"
+    ],
+    "platforms_whitelist": [],
+    "notes": null,
     "id": "private_lobbies_v2_enabled"
   },
   {
@@ -571,6 +597,16 @@
     "id": "show_selector_refresh_seconds"
   },
   {
+    "value": true,
+    "target_release": null,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "notes": null,
+    "platforms_whitelist": [],
+    "id": "skill_score_enabled"
+  },
+  {
     "value": false,
     "target_release": null,
     "platforms_whitelist": [],
@@ -628,6 +664,16 @@
     "platforms_whitelist": [],
     "target_ids": [],
     "id": "sym_store_enabled"
+  },
+  {
+    "notes": null,
+    "value": false,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "target_release": null,
+    "platforms_whitelist": [],
+    "id": "symphony_rewards_enabled"
   },
   {
     "value": 0.01,

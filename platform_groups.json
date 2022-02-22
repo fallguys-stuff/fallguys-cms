@@ -1,7 +1,9 @@
 [
   {
     "parent_platform_group_id": "prime",
-    "child_platform_ids": [],
+    "child_platform_ids": [
+      "switch"
+    ],
     "id": "console"
   },
   {
@@ -26,5 +28,13 @@
       "admin_tool"
     ],
     "id": "prime"
+  },
+  {
+    "parent_platform_group_id": "console",
+    "child_platform_ids": [
+      "xb1",
+      "xsx"
+    ],
+    "id": "xbox"
   }
 ]

@@ -56,9 +56,267 @@
           "value_type": "float",
           "float_value": 0.6
         }
+      },
+      {
+        "name": "JumpProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
       }
     ],
     "id": "bt_chompchomp"
+  },
+  {
+    "parameters": [
+      {
+        "name": "DiveProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0.5
+        }
+      },
+      {
+        "name": "MaxStupidAttempts",
+        "parameter": {
+          "value_type": "int",
+          "int_value": 3
+        }
+      },
+      {
+        "name": "VisionDistance",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 16
+        }
+      },
+      {
+        "name": "OpenDoorDetectionRadius",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 9
+        }
+      },
+      {
+        "name": "OpenDoorsRatio",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0.5
+        }
+      },
+      {
+        "name": "MinWaitBeforeSelectingNextDoorSet",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0.4
+        }
+      },
+      {
+        "name": "MaxWaitBeforeSelectingNextDoorSet",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0.8
+        }
+      },
+      {
+        "name": "MinInitialDelay",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0
+        }
+      },
+      {
+        "name": "MaxInitialDelay",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "JumpProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "MinThinkingTime",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0
+        }
+      },
+      {
+        "name": "MaxThinkingTime",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0
+        }
+      }
+    ],
+    "id": "bt_doordash"
+  },
+  {
+    "parameters": [
+      {
+        "name": "MinThinkingTime",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0
+        }
+      },
+      {
+        "name": "MaxThinkingTime",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0
+        }
+      },
+      {
+        "name": "JumpProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "DiveProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0.7
+        }
+      },
+      {
+        "name": "MinInitialDelay",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0
+        }
+      },
+      {
+        "name": "MaxInitialDelay",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      }
+    ],
+    "id": "bt_gauntlet_01"
+  },
+  {
+    "parameters": [
+      {
+        "name": "MinThinkingTime",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0
+        }
+      },
+      {
+        "name": "MaxThinkingTime",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0
+        }
+      },
+      {
+        "name": "TurntableMaxThinkingTime",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0.4
+        }
+      },
+      {
+        "name": "DiveProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0.7
+        }
+      },
+      {
+        "name": "MaxInitialDelay",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "MinInitialDelay",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0
+        }
+      },
+      {
+        "name": "JumpProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "MaxFinalJumpCooldown",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1.5
+        }
+      }
+    ],
+    "id": "bt_gauntlet_02"
+  },
+  {
+    "parameters": [
+      {
+        "name": "MinDiveProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0.6
+        }
+      },
+      {
+        "name": "MaxDiveProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "MinFinalGapDiveProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0.8
+        }
+      },
+      {
+        "name": "MaxFinalGapDiveProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "MinThinkingTime",
+        "parameter": {
+          "value_type": "float",
+          "float_value": -2
+        }
+      },
+      {
+        "name": "MaxThinkingTime",
+        "parameter": {
+          "value_type": "float",
+          "float_value": -1
+        }
+      },
+      {
+        "name": "JumpProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      }
+    ],
+    "id": "bt_gauntlet_03"
   },
   {
     "parameters": [
@@ -80,7 +338,7 @@
         "name": "MinDiveProbability",
         "parameter": {
           "value_type": "float",
-          "float_value": 1
+          "float_value": 0.7
         }
       },
       {
@@ -103,6 +361,34 @@
           "value_type": "float",
           "float_value": 3.5
         }
+      },
+      {
+        "name": "BridgeTimeoutTime",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 6.5
+        }
+      },
+      {
+        "name": "InitialMinDelay",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0
+        }
+      },
+      {
+        "name": "InitialMaxDelay",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "JumpProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
       }
     ],
     "id": "bt_gauntlet_04"
@@ -113,14 +399,108 @@
         "name": "MinThinkingTime",
         "parameter": {
           "value_type": "float",
-          "float_value": 0.3
+          "float_value": 0
         }
       },
       {
         "name": "MaxThinkingTime",
         "parameter": {
           "value_type": "float",
-          "float_value": 2.5
+          "float_value": 0
+        }
+      },
+      {
+        "name": "MinInitialDelay",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0
+        }
+      },
+      {
+        "name": "MaxInitialDelay",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "JumpProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "DiveProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      }
+    ],
+    "id": "bt_gauntlet_05"
+  },
+  {
+    "parameters": [
+      {
+        "name": "MinInitialDelay",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0
+        }
+      },
+      {
+        "name": "MaxInitialDelay",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "DiveProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0.7
+        }
+      },
+      {
+        "name": "MinThinkingTime",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0
+        }
+      },
+      {
+        "name": "MaxThinkingTime",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0
+        }
+      },
+      {
+        "name": "JumpProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      }
+    ],
+    "id": "bt_gauntlet_07"
+  },
+  {
+    "parameters": [
+      {
+        "name": "MinTileThinkingTime",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0.3
+        }
+      },
+      {
+        "name": "MaxTileThinkingTime",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1.5
         }
       },
       {
@@ -131,17 +511,108 @@
         }
       },
       {
-        "name": "MovingRadialOffset",
+        "name": "TileRadialOffset",
         "parameter": {
           "value_type": "float",
-          "float_value": 2.25
+          "float_value": -1
         }
       },
       {
-        "name": "CorrectTileRadialOffset",
+        "name": "AcceptanceRadius",
         "parameter": {
           "value_type": "float",
-          "float_value": 1.75
+          "float_value": 2
+        }
+      },
+      {
+        "name": "MinWanderTime",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0.1
+        }
+      },
+      {
+        "name": "MaxWanderTime",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0.2
+        }
+      },
+      {
+        "name": "MinRoamingTime",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 2
+        }
+      },
+      {
+        "name": "MaxRoamingTime",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 4
+        }
+      },
+      {
+        "name": "MinWanderStationaryTime",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0.2
+        }
+      },
+      {
+        "name": "MaxWanderStationaryTime",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "HumanBehaviourMinDelay",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 2
+        }
+      },
+      {
+        "name": "HumanBehaviourMaxDelay",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 5
+        }
+      },
+      {
+        "name": "HumanBehaviourCooldown",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 2
+        }
+      },
+      {
+        "name": "HumanBehaviourJumpProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0.1
+        }
+      },
+      {
+        "name": "HumanBehaviourGrabProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0.1
+        }
+      },
+      {
+        "name": "HumanBehaviourMinGrabDuration",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "HumanBehaviourMaxGrabDuration",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 3
         }
       }
     ],
@@ -150,28 +621,28 @@
   {
     "parameters": [
       {
-        "name": "MinInitialTimeDelay",
+        "name": "MinInitialDelay",
         "parameter": {
           "value_type": "float",
           "float_value": 0.1
         }
       },
       {
-        "name": "MaxInitialTimeDelay",
+        "name": "MaxInitialDelay",
         "parameter": {
           "value_type": "float",
           "float_value": 1
         }
       },
       {
-        "name": "NavigationMinThinkingTime",
+        "name": "MinThinkingTime",
         "parameter": {
           "value_type": "float",
           "float_value": 0
         }
       },
       {
-        "name": "NavigationMaxThinkingTime",
+        "name": "MaxThinkingTime",
         "parameter": {
           "value_type": "float",
           "float_value": 0
@@ -186,6 +657,13 @@
       },
       {
         "name": "MaxDiveProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "JumpProbability",
         "parameter": {
           "value_type": "float",
           "float_value": 1
@@ -272,8 +750,76 @@
           "value_type": "float",
           "float_value": 0.18
         }
+      },
+      {
+        "name": "JumpProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
       }
     ],
     "id": "bt_tunnel"
+  },
+  {
+    "parameters": [
+      {
+        "name": "DiveProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0.3
+        }
+      },
+      {
+        "name": "MinRingTransitionReactProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0.2
+        }
+      },
+      {
+        "name": "MaxRingTransitionReactProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": -4
+        }
+      },
+      {
+        "name": "MinThinkingTime",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0
+        }
+      },
+      {
+        "name": "MaxThinkingTime",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0
+        }
+      },
+      {
+        "name": "MinInitialDelay",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0
+        }
+      },
+      {
+        "name": "MaxInitialDelay",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0
+        }
+      },
+      {
+        "name": "JumpProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      }
+    ],
+    "id": "bt_tunnel_race"
   }
 ]

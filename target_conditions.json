@@ -1044,11 +1044,31 @@
     "parameters": {
       "type": "date_time",
       "data": {
+        "operator": "more_than_or_equal_to",
+        "start": "2021-10-01T13:30:00"
+      }
+    },
+    "id": "is_live_event_wok1_after_qa"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
         "operator": "less_than",
         "end": "2021-10-09T08:00:00"
       }
     },
     "id": "is_live_event_wok1_before"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "less_than",
+        "end": "2021-10-01T14:00:00"
+      }
+    },
+    "id": "is_live_event_wok1_before_qa"
   },
   {
     "parameters": {
@@ -1239,6 +1259,26 @@
       }
     },
     "id": "is_qa_4_before"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "more_than_or_equal_to",
+        "start": "2021-10-04T16:30:00"
+      }
+    },
+    "id": "is_qa_le_wok1_after"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "less_than",
+        "end": "2021-10-04T17:00:00"
+      }
+    },
+    "id": "is_qa_le_wok1_before"
   },
   {
     "parameters": {

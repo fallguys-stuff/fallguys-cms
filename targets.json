@@ -213,6 +213,15 @@
   },
   {
     "description": null,
+    "condition_ids": [
+      "is_live_event_wok1_after_qa",
+      "is_live_event_wok1_before_qa"
+    ],
+    "conditions": [],
+    "id": "date_0110_21_qa"
+  },
+  {
+    "description": null,
     "condition_ids": [],
     "conditions": [
       {
@@ -2082,6 +2091,21 @@
     "id": "date_15062021_to_18062021"
   },
   {
+    "conditions": [
+      {
+        "type": "date_time",
+        "data": {
+          "operator": "between",
+          "start": "2021-09-15T09:00:00",
+          "end": "2021-09-25T09:00:00"
+        }
+      }
+    ],
+    "description": "QA test",
+    "condition_ids": [],
+    "id": "date_15092021_to_25092021"
+  },
+  {
     "description": null,
     "condition_ids": [
       "is_live_event_wok6_after",
@@ -2325,6 +2349,21 @@
     "id": "date_1707_to_1907"
   },
   {
+    "description": "QA test",
+    "conditions": [
+      {
+        "type": "date_time",
+        "data": {
+          "operator": "between",
+          "start": "2021-09-17T09:00:00",
+          "end": "2021-10-17T09:00:00"
+        }
+      }
+    ],
+    "condition_ids": [],
+    "id": "date_17092021_to_17102021"
+  },
+  {
     "description": null,
     "condition_ids": [],
     "conditions": [
@@ -2476,6 +2515,21 @@
     ],
     "conditions": [],
     "id": "date_18092021_to_19092021"
+  },
+  {
+    "conditions": [
+      {
+        "type": "date_time",
+        "data": {
+          "operator": "between",
+          "start": "2021-09-18T09:00:00",
+          "end": "2021-09-22T09:00:00"
+        }
+      }
+    ],
+    "description": null,
+    "condition_ids": [],
+    "id": "date_18092021_to_22092021_qa"
   },
   {
     "description": null,
@@ -2678,6 +2732,21 @@
       }
     ],
     "id": "date_20072021_to_23072021"
+  },
+  {
+    "description": null,
+    "conditions": [
+      {
+        "type": "date_time",
+        "data": {
+          "operator": "between",
+          "start": "2021-07-20T12:00:00",
+          "end": "2021-09-30T12:00:00"
+        }
+      }
+    ],
+    "condition_ids": [],
+    "id": "date_20072021_to_30092021"
   },
   {
     "description": null,
@@ -3058,6 +3127,21 @@
       }
     ],
     "id": "date_23082021_to_27082021"
+  },
+  {
+    "description": "QA test",
+    "conditions": [
+      {
+        "type": "date_time",
+        "data": {
+          "operator": "between",
+          "start": "2021-09-23T09:00:00",
+          "end": "2021-10-17T09:00:00"
+        }
+      }
+    ],
+    "condition_ids": [],
+    "id": "date_23092021_to_17102021_qa"
   },
   {
     "description": null,
@@ -4067,6 +4151,15 @@
       }
     ],
     "id": "duration_season04"
+  },
+  {
+    "description": "For testing WoK 1",
+    "condition_ids": [
+      "is_qa_le_wok1_after",
+      "is_qa_le_wok1_before"
+    ],
+    "conditions": [],
+    "id": "le_qa_wok_1"
   },
   {
     "description": null,

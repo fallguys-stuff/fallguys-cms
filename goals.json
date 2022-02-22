@@ -118,6 +118,44 @@
     "id": "carry_pegwin_60_oriole"
   },
   {
+    "player_action_id": "carry_sweets_invisibeans",
+    "target": {
+      "type": "aggregate",
+      "value": 150
+    },
+    "description": "localised_strings.challenge_desc_carry_sweets_time_in_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 150
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.level_name_invisibeans"
+      }
+    ],
+    "id": "carry_sweets_invisibeans_150sec"
+  },
+  {
+    "player_action_id": "carry_sweets_invisibeans",
+    "target": {
+      "type": "aggregate",
+      "value": 30
+    },
+    "description": "localised_strings.challenge_desc_carry_sweets_time_in_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 30
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.level_name_invisibeans"
+      }
+    ],
+    "id": "carry_sweets_invisibeans_30sec"
+  },
+  {
     "player_action_id": "collect_oriole",
     "target": {
       "type": "aggregate",
@@ -572,6 +610,71 @@
     "id": "grab_player_in_round_in_show"
   },
   {
+    "player_action_id": "grab_player_in_round_in_show",
+    "target": {
+      "type": "aggregate",
+      "value": 50
+    },
+    "description": "localised_strings.challenge_desc_035_round",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.level_name_gauntlet_8"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_s6_launch_event_1"
+      }
+    ],
+    "id": "grab_players_invisibeans"
+  },
+  {
+    "player_action_id": "grab_player_as_seeker_invisibeans",
+    "target": {
+      "type": "aggregate",
+      "value": 20
+    },
+    "description": "localised_strings.challenge_desc_grab_as_in_round",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.invisibeans_seeker_name"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.invisibeans_hider_name_plural"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.level_name_invisibeans"
+      }
+    ],
+    "id": "grab_players_invisibeans_20"
+  },
+  {
+    "player_action_id": "grab_player_as_seeker_invisibeans",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_grab_as_in_round",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.invisibeans_seeker_name"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.invisibeans_hider_name_plural"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.level_name_invisibeans"
+      }
+    ],
+    "id": "grab_players_invisibeans_5"
+  },
+  {
     "player_action_id": "hit_by_bollard_in_round_in_show",
     "target": {
       "type": "aggregate",
@@ -633,6 +736,44 @@
       }
     ],
     "id": "play_5_race_rounds_vulture"
+  },
+  {
+    "player_action_id": "play_as_hider",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_le_play_as_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.invisibeans_hider_name"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.level_name_invisibeans"
+      }
+    ],
+    "id": "play_as_hider_x3"
+  },
+  {
+    "player_action_id": "play_as_seeker",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_le_play_as_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.invisibeans_seeker_name"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.level_name_invisibeans"
+      }
+    ],
+    "id": "play_as_seeker_x1"
   },
   {
     "player_action_id": "play_basketfall_week_of_romance_s6",
@@ -2325,6 +2466,22 @@
     "id": "reach_final_round_duos_s6_glizzy01"
   },
   {
+    "player_action_id": "reach_final_round_duos_s6_glizzy02",
+    "target": {
+      "type": "last_value",
+      "operator": "equal",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_031",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squads_duos"
+      }
+    ],
+    "id": "reach_final_round_duos_s6_glizzy02"
+  },
+  {
     "player_action_id": "reach_final_round_hw_slime_climb",
     "target": {
       "type": "aggregate",
@@ -2880,6 +3037,25 @@
     "id": "reach_round_4_duos_s6_glizzy01"
   },
   {
+    "player_action_id": "reach_round_4_duos_s6_glizzy02",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 4
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squads_duos"
+      }
+    ],
+    "id": "reach_round_4_duos_s6_glizzy02"
+  },
+  {
     "player_action_id": "reach_round_4_lte",
     "target": {
       "type": "aggregate",
@@ -3212,6 +3388,97 @@
       }
     ],
     "id": "win_duos_s6_glizzy01"
+  },
+  {
+    "player_action_id": "win_duos_s6_glizzy02",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squads_duos"
+      }
+    ],
+    "id": "win_duos_s6_glizzy02"
+  },
+  {
+    "player_action_id": "win_invisibeans_as_hider",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_le_win_as_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.invisibeans_hider_name"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.level_name_invisibeans"
+      }
+    ],
+    "id": "win_invisibeans_as_hider"
+  },
+  {
+    "player_action_id": "win_invisibeans_as_hider",
+    "target": {
+      "type": "aggregate",
+      "value": 6
+    },
+    "description": "localised_strings.challenge_desc_le_win_as_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.invisibeans_hider_name"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.level_name_invisibeans"
+      }
+    ],
+    "id": "win_invisibeans_as_hider_x6"
+  },
+  {
+    "player_action_id": "win_invisibeans_as_seeker",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_le_win_as_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.invisibeans_seeker_name"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.level_name_invisibeans"
+      }
+    ],
+    "id": "win_invisibeans_as_seeker"
+  },
+  {
+    "player_action_id": "win_invisibeans_as_seeker",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_le_win_as_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.invisibeans_seeker_name"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.level_name_invisibeans"
+      }
+    ],
+    "id": "win_invisibeans_as_seeker_x3"
   },
   {
     "player_action_id": "win_lte",
