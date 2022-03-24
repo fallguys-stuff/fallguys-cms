@@ -5518,34 +5518,6 @@
   {
     "show_name": "localised_strings.show_title_tip_toe",
     "show_description": "localised_strings.show_desc_tip_toe",
-    "show_image": null,
-    "show_image_cms": "show_selector_show_tiptoe",
-    "min_party_size": 1,
-    "max_party_size": 4,
-    "size": {
-      "type": "override",
-      "min_players": 20,
-      "max_players": 25
-    },
-    "private_lobby_size": {
-      "type": "override",
-      "min_players": 5,
-      "max_players": 25
-    },
-    "show_type": {
-      "showtype_switch": "individual"
-    },
-    "default_episode": "levels_episode.episode_event_only_tip_toe",
-    "episode_reward_settings_id": "solo_rewards",
-    "themeable_override": null,
-    "opens_at": "2022-04-02T09:00:00",
-    "closes_at": "2022-04-04T09:00:00",
-    "skill_score_factor_override": null,
-    "id": "event_only_tip_toe_0204_to_0304_2022"
-  },
-  {
-    "show_name": "localised_strings.show_title_tip_toe",
-    "show_description": "localised_strings.show_desc_tip_toe",
     "show_image": "Tiptoe",
     "show_image_cms": "show_selector_show_tiptoe",
     "min_party_size": 1,
@@ -6012,10 +5984,10 @@
     "default_episode": "levels_episode.episode_sports_suddendeath_squads",
     "episode_reward_settings_id": "event_suddendeath_squads_rewards",
     "themeable_override": null,
-    "opens_at": "2022-03-26T09:00:00",
-    "closes_at": "2022-03-29T09:00:00",
+    "opens_at": "2022-03-29T09:00:00",
+    "closes_at": "2022-04-01T09:00:00",
     "skill_score_factor_override": null,
-    "id": "event_sports_suddendeath_squads_2603_to_2803_2022"
+    "id": "event_sports_suddendeath_squads_2903_to_3103_2022"
   },
   {
     "show_name": "localised_strings.show_title_fall_olympics",
@@ -6377,6 +6349,32 @@
       "type": "default"
     },
     "private_lobby_size": {
+      "type": "override",
+      "min_players": 12,
+      "max_players": 60
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "themeable_override": null,
+    "opens_at": "2022-04-02T09:00:00",
+    "closes_at": "2022-04-04T09:00:00",
+    "skill_score_factor_override": null,
+    "id": "event_xtreme_fall_guys_0204_to_0304_2022"
+  },
+  {
+    "show_name": "localised_strings.show_name_xtreme",
+    "show_description": "localised_strings.show_desc_xtreme",
+    "show_image": "XTreme",
+    "show_image_cms": "show_selector_show_s4503",
+    "default_episode": "levels_episode.episode_event_elimination_gauntlets",
+    "episode_reward_settings_id": "hardmode_rewards",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "default"
+    },
+    "private_lobby_size": {
       "type": "default"
     },
     "show_type": {
@@ -6513,32 +6511,6 @@
     "closes_at": "2022-01-31T09:00:00",
     "skill_score_factor_override": null,
     "id": "event_xtreme_fall_guys_2601_to_3001_2022"
-  },
-  {
-    "show_name": "localised_strings.show_name_xtreme",
-    "show_description": "localised_strings.show_desc_xtreme",
-    "show_image": null,
-    "show_image_cms": "show_selector_show_s4503",
-    "min_party_size": 1,
-    "max_party_size": 4,
-    "size": {
-      "type": "default"
-    },
-    "private_lobby_size": {
-      "type": "override",
-      "min_players": 1,
-      "max_players": 60
-    },
-    "show_type": {
-      "showtype_switch": "individual"
-    },
-    "default_episode": "levels_episode.episode_event_elimination_gauntlets",
-    "episode_reward_settings_id": "hardmode_rewards",
-    "themeable_override": null,
-    "opens_at": "2022-03-29T09:00:00",
-    "closes_at": "2022-04-01T09:00:00",
-    "skill_score_factor_override": null,
-    "id": "event_xtreme_fall_guys_2903_to_3103_2022"
   },
   {
     "show_name": "localised_strings.show_name_xtreme_squads",
@@ -6904,6 +6876,34 @@
     "closes_at": "2022-03-14T09:00:00",
     "skill_score_factor_override": null,
     "id": "invisibeans_0803_to_1303_2022"
+  },
+  {
+    "show_name": "localised_strings.level_name_invisibeans",
+    "show_description": "localised_strings.show_desc_invisibeans_new_mode",
+    "show_image": null,
+    "show_image_cms": "show_selector_show_invisibeans",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 12,
+      "max_players": 12
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 6,
+      "max_players": 12
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.episode_just_invisibeans",
+    "episode_reward_settings_id": "invisibeans_rewards",
+    "themeable_override": null,
+    "opens_at": "2022-03-26T09:00:00",
+    "closes_at": "2022-03-29T09:00:00",
+    "skill_score_factor_override": null,
+    "id": "invisibeans_2603_to_2803_2022"
   },
   {
     "show_name": "localised_strings.level_name_invisibeans",
