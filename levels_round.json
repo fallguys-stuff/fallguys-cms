@@ -635,6 +635,59 @@
   {
     "display_name": "localised_strings.level_name_basketfall",
     "scene_name": "FallGuy_Basketfall_01",
+    "game_rules": "game_rules.round_basketfall_squads",
+    "level_archetype": "archetype_team",
+    "ingame_music_suffix": "_Season_04",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_Basketfall",
+    "level_badge_name": "BasketFall",
+    "level_variation": "levels_variation.variation_basketfall",
+    "level_variation_overrides": "levels_variation_overrides.var_over_basketfall_vulture",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.season_04",
+      "level_tags.covenant_final",
+      "level_tags.team_final"
+    ],
+    "bonus": {
+      "type": "team_score",
+      "team_score_tiers": [
+        {
+          "team_score": 20,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_points_20"
+        },
+        {
+          "team_score": 10,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_points_10"
+        },
+        {
+          "team_score": 3,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_points_3"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_score_basketfall",
+    "lower_main_ambience_volume": false,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_basketfall_aprilstart"
+  },
+  {
+    "display_name": "localised_strings.level_name_basketfall",
+    "scene_name": "FallGuy_Basketfall_01",
     "game_rules": "game_rules.round_basketfall_duos",
     "level_archetype": "archetype_team",
     "ingame_music_suffix": "_Season_04",
@@ -1376,6 +1429,59 @@
     "id": "round_basketfall_vulture"
   },
   {
+    "display_name": "localised_strings.level_name_basketfall",
+    "scene_name": "FallGuy_Basketfall_01",
+    "game_rules": "game_rules.round_basketfall_squads",
+    "level_archetype": "archetype_team",
+    "ingame_music_suffix": "_Season_04",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_Basketfall",
+    "level_badge_name": "BasketFall",
+    "level_variation": "levels_variation.variation_basketfall",
+    "level_variation_overrides": "levels_variation_overrides.var_over_basketfall_xtreme_vulture",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.season_04",
+      "level_tags.covenant_final",
+      "level_tags.team_final"
+    ],
+    "bonus": {
+      "type": "team_score",
+      "team_score_tiers": [
+        {
+          "team_score": 20,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_points_20"
+        },
+        {
+          "team_score": 10,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_points_10"
+        },
+        {
+          "team_score": 3,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_points_3"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_score_basketfall",
+    "lower_main_ambience_volume": false,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_basketfall_xtreme_aprilstart"
+  },
+  {
     "display_name": "localised_strings.level_name_basketfall_xtreme_vulture",
     "scene_name": "FallGuy_Basketfall_01",
     "game_rules": "game_rules.round_basketfall_squads",
@@ -2107,6 +2213,44 @@
   {
     "display_name": "localised_strings.level_name_block_party",
     "scene_name": "FallGuy_Block_Party",
+    "game_rules": "game_rules.round_block_party_squads",
+    "level_archetype": "archetype_survival",
+    "ingame_music_suffix": null,
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_BlockParty",
+    "level_badge_name": "BlockParty",
+    "level_variation": "levels_variation.variation_block_party",
+    "level_variation_overrides": "levels_variation_overrides.var_over_block_party_vulture",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_platform",
+      "level_tags.saftey_nonstarter",
+      "level_tags.saftey_wild_elimination",
+      "level_tags.saftey_generic_boost",
+      "level_tags.survival_round"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_survived"
+      }
+    },
+    "visualiser_estimate_percentage_qualification": 46,
+    "visualiser_estimate_variance": 22,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival",
+    "lower_main_ambience_volume": false,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_block_party_aprilstart"
+  },
+  {
+    "display_name": "localised_strings.level_name_block_party",
+    "scene_name": "FallGuy_Block_Party",
     "game_rules": "game_rules.round_block_party_event_only_survival",
     "level_archetype": "archetype_survival",
     "ingame_music_suffix": null,
@@ -2722,6 +2866,44 @@
     "id": "round_block_party_vulture"
   },
   {
+    "display_name": "localised_strings.level_name_block_party",
+    "scene_name": "FallGuy_Block_Party",
+    "game_rules": "game_rules.round_block_party_squads",
+    "level_archetype": "archetype_survival",
+    "ingame_music_suffix": null,
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_BlockParty",
+    "level_badge_name": "BlockParty",
+    "level_variation": "levels_variation.variation_block_party",
+    "level_variation_overrides": "levels_variation_overrides.var_over_block_party_xtreme_vulture",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_platform",
+      "level_tags.saftey_nonstarter",
+      "level_tags.saftey_wild_elimination",
+      "level_tags.saftey_generic_boost",
+      "level_tags.survival_round"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_survived"
+      }
+    },
+    "visualiser_estimate_percentage_qualification": 46,
+    "visualiser_estimate_variance": 22,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival",
+    "lower_main_ambience_volume": false,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_block_party_xtreme_aprilstart"
+  },
+  {
     "display_name": "localised_strings.level_name_block_party_xtreme_vulture",
     "scene_name": "FallGuy_Block_Party",
     "game_rules": "game_rules.round_block_party_squads",
@@ -2904,6 +3086,53 @@
   {
     "display_name": "localised_strings.level_name_penguin_pursuit",
     "scene_name": "FallGuy_ChickenChase_01",
+    "game_rules": "game_rules.round_chicken_chase_squads",
+    "level_archetype": "archetype_team",
+    "ingame_music_suffix": "_Season_03",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
+    "extra_ambience_event": "AMB_Season_03_Snow",
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_PenguinPursuit",
+    "level_badge_name": "PenguinPersuit",
+    "level_variation": "levels_variation.variation_chicken_chase",
+    "level_variation_overrides": "levels_variation_overrides.var_over_chicken_chase_event_vulture",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_late_stage_team_round",
+      "level_tags.saftey_nonstarter",
+      "level_tags.season_03",
+      "level_tags.level_chickenchase_boost"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 2,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        },
+        {
+          "team_position": 2,
+          "multiplier": 1,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_position_02"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_disconnect",
+    "lower_main_ambience_volume": false,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_chicken_chase_event_aprilstart"
+  },
+  {
+    "display_name": "localised_strings.level_name_penguin_pursuit",
+    "scene_name": "FallGuy_ChickenChase_01",
     "game_rules": "game_rules.round_chicken_chase",
     "level_archetype": "archetype_team",
     "ingame_music_suffix": "_Season_03",
@@ -3042,6 +3271,53 @@
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "id": "round_chicken_chase_event_vulture"
+  },
+  {
+    "display_name": "localised_strings.level_name_penguin_pursuit",
+    "scene_name": "FallGuy_ChickenChase_01",
+    "game_rules": "game_rules.round_chicken_chase_squads",
+    "level_archetype": "archetype_team",
+    "ingame_music_suffix": "_Season_03",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
+    "extra_ambience_event": "AMB_Season_03_Snow",
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_PenguinPursuit",
+    "level_badge_name": "PenguinPersuit",
+    "level_variation": "levels_variation.variation_chicken_chase",
+    "level_variation_overrides": "levels_variation_overrides.var_over_chicken_chase_event_xtreme_vulture",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_late_stage_team_round",
+      "level_tags.saftey_nonstarter",
+      "level_tags.season_03",
+      "level_tags.level_chickenchase_boost"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 2,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        },
+        {
+          "team_position": 2,
+          "multiplier": 1,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_position_02"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_disconnect",
+    "lower_main_ambience_volume": false,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_chicken_chase_event_xtreme_aprilstart"
   },
   {
     "display_name": "localised_strings.level_name_penguin_pursuit_xtreme_vulture",
@@ -3329,6 +3605,55 @@
     "id": "round_chompchomp"
   },
   {
+    "display_name": "localised_strings.level_name_chomp_chomp",
+    "scene_name": "FallGuy_ChompChomp_01",
+    "game_rules": "game_rules.round_chompchomp_squads",
+    "level_archetype": "archetype_race",
+    "ingame_music_suffix": null,
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_ChompChomp",
+    "level_badge_name": "ChompChomp",
+    "level_variation": "levels_variation.variation_chompchomp",
+    "level_variation_overrides": "levels_variation_overrides.var_over_chompchomp_vulture",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_track"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "lower_main_ambience_volume": false,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_chompchomp_event_aprilstart"
+  },
+  {
     "display_name": "localised_strings.level_name_chomp_chomp_xtreme",
     "scene_name": "FallGuy_ChompChomp_01",
     "game_rules": "game_rules.round_chompchomp_event_elimination",
@@ -3574,6 +3899,55 @@
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "id": "round_chompchomp_event_vulture"
+  },
+  {
+    "display_name": "localised_strings.level_name_chomp_chomp",
+    "scene_name": "FallGuy_ChompChomp_01",
+    "game_rules": "game_rules.round_chompchomp_squads",
+    "level_archetype": "archetype_race",
+    "ingame_music_suffix": null,
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_ChompChomp",
+    "level_badge_name": "ChompChomp",
+    "level_variation": "levels_variation.variation_chompchomp",
+    "level_variation_overrides": "levels_variation_overrides.var_over_chompchomp_event_xtreme_vulture",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_track"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": 65,
+    "visualiser_estimate_variance": 10,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival_race",
+    "lower_main_ambience_volume": false,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_chompchomp_event_xtreme_aprilstart"
   },
   {
     "display_name": "localised_strings.level_name_chomp_chomp_xtreme_vulture",
@@ -5190,6 +5564,55 @@
   {
     "display_name": "localised_strings.level_name_door_dash",
     "scene_name": "FallGuy_DoorDash",
+    "game_rules": "game_rules.round_door_dash_squads",
+    "level_archetype": "archetype_race",
+    "ingame_music_suffix": null,
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_DoorRush",
+    "level_badge_name": "DoorDash",
+    "level_variation": "levels_variation.variation_door_dash",
+    "level_variation_overrides": "levels_variation_overrides.var_over_door_dash_event_vulture",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_track"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "lower_main_ambience_volume": false,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_door_dash_event_aprilstart"
+  },
+  {
+    "display_name": "localised_strings.level_name_door_dash",
+    "scene_name": "FallGuy_DoorDash",
     "game_rules": "game_rules.round_door_dash",
     "level_archetype": "archetype_race",
     "ingame_music_suffix": null,
@@ -5431,6 +5854,56 @@
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "id": "round_door_dash_event_vulture"
+  },
+  {
+    "display_name": "localised_strings.level_name_door_dash",
+    "scene_name": "FallGuy_DoorDash",
+    "game_rules": "game_rules.round_door_dash_squads",
+    "level_archetype": "archetype_race",
+    "ingame_music_suffix": null,
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_DoorRush",
+    "level_badge_name": "DoorDash",
+    "level_variation": "levels_variation.variation_door_dash",
+    "level_variation_overrides": "levels_variation_overrides.var_over_door_dash_event_extreme_vulture",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_track",
+      "level_tags.season_01"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "lower_main_ambience_volume": false,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_door_dash_event_xtreme_aprilstart"
   },
   {
     "display_name": "localised_strings.level_name_door_dash_xtreme_vulture",
@@ -6331,6 +6804,56 @@
     "id": "round_drumtop_5_players"
   },
   {
+    "display_name": "localised_strings.level_name_lily_leapers",
+    "scene_name": "FallGuy_DrumTop",
+    "game_rules": "game_rules.round_drumtop_squads",
+    "level_archetype": "archetype_race",
+    "ingame_music_suffix": "_Season_05",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_05",
+    "extra_ambience_event": "AMB_Season_05_Jungle",
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_LilyLeapers",
+    "level_badge_name": "LilyLeapers",
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_variation": "levels_variation.variation_drum_top",
+    "level_variation_overrides": "levels_variation_overrides.var_over_drumtop_vulture",
+    "fall_feed": "fall_feed_race",
+    "lower_main_ambience_volume": true,
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_track",
+      "level_tags.season_05"
+    ],
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_drumtop_aprilstart"
+  },
+  {
     "display_name": "localised_strings.level_name_lily_leapers_xtreme",
     "scene_name": "FallGuy_DrumTop",
     "game_rules": "game_rules.round_drumtop_event_elimination",
@@ -6970,6 +7493,56 @@
     "id": "round_drumtop_vulture"
   },
   {
+    "display_name": "localised_strings.level_name_lily_leapers",
+    "scene_name": "FallGuy_DrumTop",
+    "game_rules": "game_rules.round_drumtop_squads",
+    "level_archetype": "archetype_race",
+    "ingame_music_suffix": "_Season_05",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_05",
+    "extra_ambience_event": "AMB_Season_05_Jungle",
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_LilyLeapers",
+    "level_badge_name": "LilyLeapers",
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_variation": "levels_variation.variation_drum_top",
+    "level_variation_overrides": "levels_variation_overrides.var_over_drumtop_xtreme_vulture",
+    "fall_feed": "fall_feed_race",
+    "lower_main_ambience_volume": true,
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_track",
+      "level_tags.season_05"
+    ],
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_drumtop_xtreme_aprilstart"
+  },
+  {
     "display_name": "localised_strings.level_name_lily_leapers_xtreme_vulture",
     "scene_name": "FallGuy_DrumTop",
     "game_rules": "game_rules.round_drumtop_squads",
@@ -7575,6 +8148,54 @@
     "id": "round_egg_grab_duos_week_of_romance_s6_duo_teams"
   },
   {
+    "display_name": "localised_strings.level_name_egg_grab",
+    "scene_name": "FallGuy_EggGrab",
+    "game_rules": "game_rules.round_egg_grab_squads",
+    "level_archetype": "archetype_team",
+    "ingame_music_suffix": null,
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_EggGrab",
+    "level_badge_name": "EggScramble",
+    "level_variation": "levels_variation.variation_egg_grab",
+    "level_variation_overrides": "levels_variation_overrides.var_over_egg_grab_event_vulture",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.exclusive_item_collection",
+      "level_tags.season_01",
+      "level_tags.3_teams",
+      "level_tags.teams_2vs1_penalisation"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 2,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        },
+        {
+          "team_position": 2,
+          "multiplier": 1,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_position_02"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_disconnect",
+    "lower_main_ambience_volume": false,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_egg_grab_event_aprilstart"
+  },
+  {
     "display_name": "localised_strings.level_name_egg_grab_vulture",
     "scene_name": "FallGuy_EggGrab",
     "game_rules": "game_rules.round_egg_grab_squads",
@@ -7621,6 +8242,54 @@
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "id": "round_egg_grab_event_vulture"
+  },
+  {
+    "display_name": "localised_strings.level_name_egg_grab",
+    "scene_name": "FallGuy_EggGrab",
+    "game_rules": "game_rules.round_egg_grab_squads",
+    "level_archetype": "archetype_team",
+    "ingame_music_suffix": null,
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_EggGrab",
+    "level_badge_name": "EggScramble",
+    "level_variation": "levels_variation.variation_egg_grab",
+    "level_variation_overrides": "levels_variation_overrides.var_over_egg_grab_event_xtreme_vulture",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.exclusive_item_collection",
+      "level_tags.season_01",
+      "level_tags.3_teams",
+      "level_tags.teams_2vs1_penalisation"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 2,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        },
+        {
+          "team_position": 2,
+          "multiplier": 1,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_position_02"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_disconnect",
+    "lower_main_ambience_volume": false,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_egg_grab_event_xtreme_aprilstart"
   },
   {
     "display_name": "localised_strings.level_name_egg_grab_xtreme_vulture",
@@ -8006,6 +8675,58 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_score_fallball",
     "id": "round_fall_ball_60_players"
+  },
+  {
+    "display_name": "localised_strings.level_name_fall_ball",
+    "scene_name": "FallGuy_FallBall_5",
+    "game_rules": "game_rules.round_fall_ball_squads",
+    "level_archetype": "archetype_team",
+    "ingame_music_suffix": null,
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_FallBall",
+    "level_badge_name": "FallBall",
+    "level_variation": "levels_variation.variation_fall_ball_60_players",
+    "level_variation_overrides": "levels_variation_overrides.var_over_fall_ball_vulture",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.saftey_late_stage_team_round",
+      "level_tags.team_final"
+    ],
+    "bonus": {
+      "type": "team_score",
+      "team_score_tiers": [
+        {
+          "team_score": 10,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_goals_01"
+        },
+        {
+          "team_score": 5,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_goals_02"
+        },
+        {
+          "team_score": 3,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_goals_03"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_score_fallball",
+    "lower_main_ambience_volume": false,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_fall_ball_aprilstart"
   },
   {
     "display_name": "localised_strings.level_name_fall_ball",
@@ -8672,6 +9393,58 @@
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "id": "round_fall_ball_vulture"
+  },
+  {
+    "display_name": "localised_strings.level_name_fall_ball",
+    "scene_name": "FallGuy_FallBall_5",
+    "game_rules": "game_rules.round_fall_ball_xtreme_vulture",
+    "level_archetype": "archetype_team",
+    "ingame_music_suffix": null,
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_FallBall",
+    "level_badge_name": "FallBall",
+    "level_variation": "levels_variation.variation_fall_ball_60_players",
+    "level_variation_overrides": "levels_variation_overrides.var_over_fall_ball_xtreme_vulture",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.saftey_late_stage_team_round",
+      "level_tags.team_final"
+    ],
+    "bonus": {
+      "type": "team_score",
+      "team_score_tiers": [
+        {
+          "team_score": 10,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_goals_01"
+        },
+        {
+          "team_score": 5,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_goals_02"
+        },
+        {
+          "team_score": 3,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_goals_03"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_score_fallball",
+    "lower_main_ambience_volume": false,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_fall_ball_xtreme_aprilstart"
   },
   {
     "display_name": "localised_strings.level_name_fall_ball_xtreme_vulture",
@@ -9610,6 +10383,37 @@
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "id": "round_floor_fall_event_only_season_6"
+  },
+  {
+    "display_name": "localised_strings.show_title_hilaria",
+    "scene_name": "FallGuy_FloorFall",
+    "game_rules": "game_rules.round_floor_fall_event_hilaria",
+    "level_archetype": "archetype_final",
+    "ingame_music_suffix": null,
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_Hexagone",
+    "level_badge_name": "Hexagone",
+    "level_variation": "levels_variation.variation_floor_fall",
+    "level_variation_overrides": null,
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_victory"
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival",
+    "lower_main_ambience_volume": false,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "tags": [],
+    "id": "round_floor_fall_hilaria"
   },
   {
     "display_name": "localised_strings.level_name_floor_fall",
@@ -13930,6 +14734,56 @@
     "id": "round_gauntlet_05"
   },
   {
+    "display_name": "localised_strings.level_name_tundra_run",
+    "scene_name": "FallGuy_Gauntlet_05",
+    "game_rules": "game_rules.round_gauntlet_05_squads",
+    "level_archetype": "archetype_race",
+    "ingame_music_suffix": "_Season_03",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
+    "extra_ambience_event": "AMB_Season_03_Snow",
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_TundraRun",
+    "level_badge_name": "TundraRun",
+    "level_variation": "levels_variation.variation_gauntlet_05",
+    "level_variation_overrides": "levels_variation_overrides.var_over_gauntlet_05_vulture",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_gauntlet",
+      "level_tags.season_03"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "lower_main_ambience_volume": false,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_gauntlet_05_event_aprilstart"
+  },
+  {
     "display_name": "localised_strings.level_name_tundra_run_xtreme",
     "scene_name": "FallGuy_Gauntlet_05",
     "game_rules": "game_rules.round_gauntlet_05_event_elimination",
@@ -14678,6 +15532,56 @@
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "id": "round_gauntlet_05_toms"
+  },
+  {
+    "display_name": "localised_strings.level_name_tundra_run",
+    "scene_name": "FallGuy_Gauntlet_05",
+    "game_rules": "game_rules.round_gauntlet_05_squads",
+    "level_archetype": "archetype_race",
+    "ingame_music_suffix": "_Season_03",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
+    "extra_ambience_event": "AMB_Season_03_Snow",
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_TundraRun",
+    "level_badge_name": "TundraRun",
+    "level_variation": "levels_variation.variation_gauntlet_05",
+    "level_variation_overrides": "levels_variation_overrides.var_over_gauntlet_05_xtreme_vulture",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_gauntlet",
+      "level_tags.season_03"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": 65,
+    "visualiser_estimate_variance": 10,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival_race",
+    "lower_main_ambience_volume": false,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_gauntlet_05_xtreme_aprilstart"
   },
   {
     "display_name": "localised_strings.level_name_tundra_run_xtreme_vulture",
@@ -17011,6 +17915,58 @@
   {
     "display_name": "localised_strings.level_name_hoopsie_legends",
     "scene_name": "FallGuy_Hoops_Blockade",
+    "game_rules": "game_rules.round_hoops_blockade_solo_trios",
+    "level_archetype": "archetype_hunt",
+    "ingame_music_suffix": "_Season_02",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_HoopsLegends",
+    "level_badge_name": "HoopsLegends",
+    "level_variation": "levels_variation.variation_hoops_blockade_solo",
+    "level_variation_overrides": null,
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.exclusive_hoops_jumping",
+      "level_tags.season_02"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": null,
+    "lower_main_ambience_volume": false,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_hoops_blockade_solo_trios"
+  },
+  {
+    "display_name": "localised_strings.level_name_hoopsie_legends",
+    "scene_name": "FallGuy_Hoops_Blockade",
     "game_rules": "game_rules.round_hoops_blockade_solo_variation_01",
     "level_archetype": "archetype_hunt",
     "ingame_music_suffix": "_Season_02",
@@ -18160,6 +19116,56 @@
   {
     "display_name": "localised_strings.level_name_ice_climb",
     "scene_name": "FallGuy_IceClimb_01",
+    "game_rules": "game_rules.round_iceclimb_squads",
+    "level_archetype": "archetype_race",
+    "ingame_music_suffix": "_Season_03",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
+    "extra_ambience_event": "AMB_Season_03_Snow",
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_FreezyPeak",
+    "level_badge_name": "FreezyPeak",
+    "level_variation": "levels_variation.variation_iceclimb",
+    "level_variation_overrides": "levels_variation_overrides.var_over_iceclimb_event_vulture",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_gauntlet",
+      "level_tags.season_03"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "lower_main_ambience_volume": false,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_iceclimb_event_aprilstart"
+  },
+  {
+    "display_name": "localised_strings.level_name_ice_climb",
+    "scene_name": "FallGuy_IceClimb_01",
     "game_rules": "game_rules.round_iceclimb",
     "level_archetype": "archetype_race",
     "ingame_music_suffix": "_Season_03",
@@ -18506,6 +19512,56 @@
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "id": "round_iceclimb_event_vulture"
+  },
+  {
+    "display_name": "localised_strings.level_name_ice_climb",
+    "scene_name": "FallGuy_IceClimb_01",
+    "game_rules": "game_rules.round_iceclimb_squads",
+    "level_archetype": "archetype_race",
+    "ingame_music_suffix": "_Season_03",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
+    "extra_ambience_event": "AMB_Season_03_Snow",
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_FreezyPeak",
+    "level_badge_name": "FreezyPeak",
+    "level_variation": "levels_variation.variation_iceclimb",
+    "level_variation_overrides": "levels_variation_overrides.var_over_iceclimb_event_xtreme_vulture",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_gauntlet",
+      "level_tags.season_03"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "lower_main_ambience_volume": false,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_iceclimb_event_xtreme_aprilstart"
   },
   {
     "display_name": "localised_strings.level_name_ice_climb_xtreme_vulture",
@@ -22209,6 +23265,43 @@
   {
     "display_name": "localised_strings.level_name_match_fall",
     "scene_name": "FallGuy_MatchFall",
+    "game_rules": "game_rules.round_match_fall_squads",
+    "level_archetype": "archetype_logic",
+    "ingame_music_suffix": null,
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_MatchFall",
+    "level_badge_name": "MatchFall",
+    "level_variation": "levels_variation.variation_match_fall",
+    "level_variation_overrides": "levels_variation_overrides.var_over_match_fall_vulture",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_platform",
+      "level_tags.saftey_nonstarter",
+      "level_tags.saftey_wild_elimination",
+      "level_tags.level_matchfall"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_survived"
+      }
+    },
+    "visualiser_estimate_percentage_qualification": 74,
+    "visualiser_estimate_variance": 24,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival",
+    "lower_main_ambience_volume": false,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_match_fall_aprilstart"
+  },
+  {
+    "display_name": "localised_strings.level_name_match_fall",
+    "scene_name": "FallGuy_MatchFall",
     "game_rules": "game_rules.round_match_fall",
     "level_archetype": "archetype_logic",
     "ingame_music_suffix": null,
@@ -22540,6 +23633,43 @@
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "id": "round_match_fall_vulture"
+  },
+  {
+    "display_name": "localised_strings.level_name_match_fall",
+    "scene_name": "FallGuy_MatchFall",
+    "game_rules": "game_rules.round_match_fall_squads",
+    "level_archetype": "archetype_logic",
+    "ingame_music_suffix": null,
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_MatchFall",
+    "level_badge_name": "MatchFall",
+    "level_variation": "levels_variation.variation_match_fall",
+    "level_variation_overrides": "levels_variation_overrides.var_over_match_fall_xtreme_vulture",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_platform",
+      "level_tags.saftey_nonstarter",
+      "level_tags.saftey_wild_elimination",
+      "level_tags.level_matchfall"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_survived"
+      }
+    },
+    "visualiser_estimate_percentage_qualification": 74,
+    "visualiser_estimate_variance": 24,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival",
+    "lower_main_ambience_volume": false,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_match_fall_xtreme_aprilstart"
   },
   {
     "display_name": "localised_strings.level_name_match_fall_xtreme_vulture",
@@ -26881,6 +28011,57 @@
   {
     "display_name": "localised_strings.level_name_ski_fall",
     "scene_name": "FallGuy_SkeeFall",
+    "game_rules": "game_rules.round_skeefall_trios",
+    "level_archetype": "archetype_race",
+    "ingame_music_suffix": "_Season_03",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
+    "extra_ambience_event": "AMB_Season_03_Snow",
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_Skifall",
+    "level_badge_name": "Skifall",
+    "level_variation": "levels_variation.variation_skeefall",
+    "level_variation_overrides": null,
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_track",
+      "level_tags.saftey_nonstarter",
+      "level_tags.season_03"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "lower_main_ambience_volume": false,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_skeefall_trios"
+  },
+  {
+    "display_name": "localised_strings.level_name_ski_fall",
+    "scene_name": "FallGuy_SkeeFall",
     "game_rules": "game_rules.round_skeefall",
     "level_archetype": "archetype_race",
     "ingame_music_suffix": "_Season_03",
@@ -27892,6 +29073,32 @@
   {
     "display_name": "localised_strings.level_name_snowball_survival",
     "scene_name": "FallGuy_SnowballSurvival",
+    "game_rules": "game_rules.round_snowballsurvival_squads",
+    "level_archetype": "archetype_survival",
+    "ingame_music_suffix": null,
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
+    "extra_ambience_event": "AMB_Season_03_Snow",
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_SnowballSurvival",
+    "level_badge_name": "SnowballSurvival",
+    "level_variation": "levels_variation.variation_snowballsurvival",
+    "level_variation_overrides": "levels_variation_overrides.var_over_snowballsurvival_event_vulture",
+    "bonus": {
+      "type": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival",
+    "lower_main_ambience_volume": false,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "tags": [],
+    "id": "round_snowballsurvival_event_aprilstart"
+  },
+  {
+    "display_name": "localised_strings.level_name_snowball_survival",
+    "scene_name": "FallGuy_SnowballSurvival",
     "game_rules": "game_rules.round_snowballsurvival_event_only_survival",
     "level_archetype": "archetype_survival",
     "ingame_music_suffix": null,
@@ -27951,6 +29158,43 @@
     "collectable_spawn_overrides": null,
     "tags": [],
     "id": "round_snowballsurvival_event_vulture"
+  },
+  {
+    "display_name": "localised_strings.level_name_snowball_survival",
+    "scene_name": "FallGuy_SnowballSurvival",
+    "game_rules": "game_rules.round_snowballsurvival_squads",
+    "level_archetype": "archetype_survival",
+    "ingame_music_suffix": null,
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
+    "extra_ambience_event": "AMB_Season_03_Snow",
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_SnowballSurvival",
+    "level_badge_name": "SnowballSurvival",
+    "level_variation": "levels_variation.variation_snowballsurvival",
+    "level_variation_overrides": "levels_variation_overrides.var_over_snowballsurvival_event_xtreme_vulture",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_platform",
+      "level_tags.saftey_nonstarter",
+      "level_tags.saftey_wild_elimination",
+      "level_tags.featured_round"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_survived"
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival",
+    "lower_main_ambience_volume": false,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_snowballsurvival_event_xtreme_aprilstart"
   },
   {
     "display_name": "localised_strings.level_name_snowball_survival_xtreme_vulture",
@@ -28535,6 +29779,52 @@
     "id": "round_snowy_scrap_duos_week_of_romance_s6"
   },
   {
+    "display_name": "localised_strings.level_name_snowy_scrap",
+    "scene_name": "FallGuy_Snowy_Scrap",
+    "game_rules": "game_rules.round_snowy_scrap_squads",
+    "level_archetype": "archetype_team",
+    "ingame_music_suffix": "_Season_03",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
+    "extra_ambience_event": "AMB_Season_03_Snow",
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_SnowyScrap",
+    "level_badge_name": "SnowyScrap",
+    "level_variation": "levels_variation.variation_snowy_scrap",
+    "level_variation_overrides": "levels_variation_overrides.var_over_snowy_scrap_event_vulture",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.saftey_late_stage_team_round",
+      "level_tags.season_03"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 2,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        },
+        {
+          "team_position": 2,
+          "multiplier": 1,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_position_02"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race_first_only",
+    "lower_main_ambience_volume": false,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_snowy_scrap_event_aprilstart"
+  },
+  {
     "display_name": "localised_strings.level_name_snowy_scrap_vulture",
     "scene_name": "FallGuy_Snowy_Scrap",
     "game_rules": "game_rules.round_snowy_scrap_squads",
@@ -28579,6 +29869,51 @@
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "id": "round_snowy_scrap_event_vulture"
+  },
+  {
+    "display_name": "localised_strings.level_name_snowy_scrap",
+    "scene_name": "FallGuy_Snowy_Scrap",
+    "game_rules": "game_rules.round_snowy_scrap_squads",
+    "level_archetype": "archetype_team",
+    "ingame_music_suffix": "_Season_03",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
+    "extra_ambience_event": "AMB_Season_03_Snow",
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_RockandRoll",
+    "level_badge_name": "RockNRoll",
+    "level_variation": "levels_variation.variation_snowy_scrap",
+    "level_variation_overrides": "levels_variation_overrides.var_over_snowy_scrap_event_xtreme_vulture",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.saftey_late_stage_team_round"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 2,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        },
+        {
+          "team_position": 2,
+          "multiplier": 1,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_position_02"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race_first_only",
+    "lower_main_ambience_volume": false,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_snowy_scrap_event_xtreme_aprilstart"
   },
   {
     "display_name": "localised_strings.level_name_snowy_scrap_xtreme_vulture",
@@ -30442,6 +31777,43 @@
   {
     "display_name": "localised_strings.level_name_thin_ice",
     "scene_name": "FallGuy_ThinIce",
+    "game_rules": "game_rules.round_thin_ice_squads",
+    "level_archetype": "archetype_final",
+    "ingame_music_suffix": "_Season_03",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
+    "extra_ambience_event": "AMB_Season_03_Snow",
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_Thinice",
+    "level_badge_name": "ThinIce",
+    "level_variation": "levels_variation.variation_thin_ice",
+    "level_variation_overrides": "levels_variation_overrides.var_over_thin_ice_v45_02",
+    "tags": [
+      "level_tags.covenant_final",
+      "level_tags.playspace_platform",
+      "level_tags.saftey_nonstarter",
+      "level_tags.saftey_early_final",
+      "level_tags.solo_final"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_victory"
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival",
+    "lower_main_ambience_volume": false,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_thin_ice_event_aprilstart"
+  },
+  {
+    "display_name": "localised_strings.level_name_thin_ice",
+    "scene_name": "FallGuy_ThinIce",
     "game_rules": "game_rules.round_thin_ice_event_elimination",
     "level_archetype": "archetype_final",
     "ingame_music_suffix": "_Season_03",
@@ -30512,6 +31884,43 @@
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "id": "round_thin_ice_event_elimination_squads"
+  },
+  {
+    "display_name": "localised_strings.level_name_thin_ice",
+    "scene_name": "FallGuy_ThinIce",
+    "game_rules": "game_rules.round_thin_ice_squads",
+    "level_archetype": "archetype_final",
+    "ingame_music_suffix": "_Season_03",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
+    "extra_ambience_event": "AMB_Season_03_Snow",
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_Thinice",
+    "level_badge_name": "ThinIce",
+    "level_variation": "levels_variation.variation_thin_ice",
+    "level_variation_overrides": null,
+    "tags": [
+      "level_tags.covenant_final",
+      "level_tags.playspace_platform",
+      "level_tags.saftey_nonstarter",
+      "level_tags.saftey_early_final",
+      "level_tags.solo_final"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_victory"
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival",
+    "lower_main_ambience_volume": false,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_thin_ice_event_extreme_aprilstart"
   },
   {
     "display_name": "localised_strings.level_name_thin_ice_extreme_vulture",
@@ -31343,6 +32752,55 @@
   {
     "display_name": "localised_strings.level_name_tip_toe",
     "scene_name": "FallGuy_TipToe",
+    "game_rules": "game_rules.round_tip_toe_squads",
+    "level_archetype": "archetype_race",
+    "ingame_music_suffix": null,
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_TipToe",
+    "level_badge_name": "TipToe",
+    "level_variation": "levels_variation.variation_tip_toe",
+    "level_variation_overrides": "levels_variation_overrides.var_over_tip_toe_vulture",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_track"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "lower_main_ambience_volume": false,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_tip_toe_aprilstart"
+  },
+  {
+    "display_name": "localised_strings.level_name_tip_toe",
+    "scene_name": "FallGuy_TipToe",
     "game_rules": "game_rules.round_tip_toe_event_only_01",
     "level_archetype": "archetype_race",
     "ingame_music_suffix": null,
@@ -31722,6 +33180,55 @@
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "id": "round_tip_toe_vulture"
+  },
+  {
+    "display_name": "localised_strings.level_name_tip_toe",
+    "scene_name": "FallGuy_TipToe",
+    "game_rules": "game_rules.round_tip_toe_squads",
+    "level_archetype": "archetype_race",
+    "ingame_music_suffix": null,
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_TipToe",
+    "level_badge_name": "TipToe",
+    "level_variation": "levels_variation.variation_tip_toe",
+    "level_variation_overrides": "levels_variation_overrides.var_over_tip_toe_xtreme_vulture",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_track"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "lower_main_ambience_volume": false,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "id": "round_tip_toe_xtreme_aprilstart"
   },
   {
     "display_name": "localised_strings.level_name_tip_toe_xtreme_vulture",

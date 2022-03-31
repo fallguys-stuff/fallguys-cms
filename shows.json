@@ -222,6 +222,31 @@
     "id": "event_anniversary_season_1_1011_1011_21"
   },
   {
+    "show_name": "localised_strings.le_s6_aprilstart_title",
+    "show_description": "localised_strings.le_s6_aprilstart_desc",
+    "show_image": null,
+    "show_image_cms": "show_selector_show_aprilstart",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "default"
+    },
+    "private_lobby_size": {
+      "type": "default"
+    },
+    "show_type": {
+      "showtype_switch": "squad",
+      "squad_size": 4
+    },
+    "default_episode": "levels_episode.episode_event_aprilstart",
+    "episode_reward_settings_id": "squad_rewards",
+    "themeable_override": null,
+    "opens_at": "2022-04-04T09:00:00",
+    "closes_at": "2022-04-11T09:00:00",
+    "skill_score_factor_override": null,
+    "id": "event_aprilstart_0404_1004"
+  },
+  {
     "show_name": "localised_strings.show_title_fallevent",
     "show_description": "localised_strings.show_desc_fallevent",
     "show_image": null,
@@ -902,6 +927,32 @@
     "opens_at": "2022-01-31T09:00:00",
     "closes_at": "2022-02-04T09:00:00",
     "id": "event_fruit_basket_3101_to_0302_2022"
+  },
+  {
+    "show_name": "localised_strings.show_title_hilaria",
+    "show_description": "localised_strings.show_desc_hilaria",
+    "show_image": null,
+    "show_image_cms": "show_selector_show_hilaria",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 40,
+      "max_players": 40
+    },
+    "private_lobby_size": {
+      "type": "default"
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.episode_hilaria",
+    "episode_reward_settings_id": "solo_rewards_reduced",
+    "themeable_override": null,
+    "opens_at": "2022-04-01T09:00:00",
+    "closes_at": "2022-04-02T09:00:00",
+    "skill_score_factor_override": null,
+    "id": "event_hilaria_2022"
   },
   {
     "show_name": "localised_strings.show_name_time_is_kudos_3",
@@ -1818,7 +1869,7 @@
     "show_name": "localised_strings.show_title_button_bashers",
     "show_description": "localised_strings.show_desc_button_bashers",
     "show_image": null,
-    "show_image_cms": null,
+    "show_image_cms": "show_selector_button_bashers",
     "min_party_size": 1,
     "max_party_size": 4,
     "size": {
@@ -1839,6 +1890,7 @@
     "themeable_override": null,
     "opens_at": "2020-09-15T00:00:00",
     "closes_at": "2021-07-30T04:18:16",
+    "skill_score_factor_override": null,
     "id": "event_only_button_bashers_template"
   },
   {
@@ -6112,6 +6164,31 @@
     "id": "event_star_show_northernlion_1711_to_2011"
   },
   {
+    "show_name": "localised_strings.show_s6_stars_le_1_title",
+    "show_description": "localised_strings.show_s6_stars_le_1_desc",
+    "show_image": null,
+    "show_image_cms": "show_selector_show_aprilstart",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "default"
+    },
+    "private_lobby_size": {
+      "type": "default"
+    },
+    "show_type": {
+      "showtype_switch": "squad",
+      "squad_size": 4
+    },
+    "default_episode": "levels_episode.episode_event_aprilstart",
+    "episode_reward_settings_id": "squad_rewards",
+    "themeable_override": null,
+    "opens_at": "2022-04-04T09:00:00",
+    "closes_at": "2022-04-11T09:00:00",
+    "skill_score_factor_override": null,
+    "id": "event_stars01_0404_1004"
+  },
+  {
     "show_name": "localised_strings.show_title_tail_tag",
     "show_description": "localised_strings.show_desc_tail_tag",
     "show_image": "TailTag",
@@ -6863,7 +6940,7 @@
     },
     "private_lobby_size": {
       "type": "override",
-      "min_players": 6,
+      "min_players": 8,
       "max_players": 12
     },
     "show_type": {
@@ -6919,7 +6996,7 @@
     },
     "private_lobby_size": {
       "type": "override",
-      "min_players": 6,
+      "min_players": 8,
       "max_players": 12
     },
     "show_type": {

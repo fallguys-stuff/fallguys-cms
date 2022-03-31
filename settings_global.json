@@ -90,6 +90,14 @@
     "id": "character_enable_hold_to_walk"
   },
   {
+    "notes": "Coyote time for the player",
+    "value": 0.15,
+    "target_release": null,
+    "platforms_whitelist": [],
+    "target_ids": [],
+    "id": "character_jump_coyote_time"
+  },
+  {
     "notes": null,
     "value": 1.1,
     "target_release": null,
@@ -292,7 +300,7 @@
     "id": "hard_currency_enabled"
   },
   {
-    "value": false,
+    "value": true,
     "target_release": null,
     "notes": null,
     "platforms_whitelist": [],
@@ -600,8 +608,10 @@
     "value": false,
     "target_release": null,
     "notes": null,
+    "target_ids": [
+      "disabled_year_1900"
+    ],
     "platforms_whitelist": [],
-    "target_ids": [],
     "id": "skill_score_enabled"
   },
   {
