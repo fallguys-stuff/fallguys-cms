@@ -482,8 +482,10 @@
     "value": true,
     "target_release": "6.1",
     "notes": "Set Target to Ps4_users to activate",
+    "target_ids": [
+      "ps4_users"
+    ],
     "platforms_whitelist": [],
-    "target_ids": [],
     "id": "playstation_migration_enabled"
   },
   {
@@ -605,11 +607,11 @@
     "id": "show_selector_refresh_seconds"
   },
   {
-    "value": false,
+    "value": true,
     "target_release": null,
     "notes": null,
     "target_ids": [
-      "disabled_year_1900"
+      "after_prime_global_launch"
     ],
     "platforms_whitelist": [],
     "id": "skill_score_enabled"
