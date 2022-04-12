@@ -2153,8 +2153,8 @@
       {
         "tag": "level_tags.playspace_track",
         "bonus": 300,
-        "repeat_malus": 300,
-        "repeat_decay": 300,
+        "repeat_malus": 200,
+        "repeat_decay": 200,
         "apply_bonus_when": {
           "type": "always"
         }
@@ -2196,6 +2196,15 @@
           "setting": {
             "stage": 1
           }
+        }
+      },
+      {
+        "tag": "level_tags.featured_round",
+        "bonus": 200,
+        "repeat_malus": 0,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "always"
         }
       }
     ],
@@ -3066,15 +3075,6 @@
         "tag": "level_tags.exclusive_roll_out",
         "bonus": 0,
         "repeat_malus": 500000,
-        "repeat_decay": 500000,
-        "apply_bonus_when": {
-          "type": "always"
-        }
-      },
-      {
-        "tag": "level_tags.exclusive_roll_out",
-        "bonus": 0,
-        "repeat_malus": 500000,
         "repeat_decay": 0,
         "apply_bonus_when": {
           "type": "always"
@@ -3218,7 +3218,7 @@
       },
       {
         "tag": "level_tags.lowered_final",
-        "bonus": -400,
+        "bonus": -300,
         "repeat_malus": 0,
         "repeat_decay": 0,
         "apply_bonus_when": {
@@ -3266,7 +3266,7 @@
       },
       {
         "tag": "level_tags.lower_crown_final",
-        "bonus": -100,
+        "bonus": -300,
         "repeat_malus": 0,
         "repeat_decay": 0,
         "apply_bonus_when": {
@@ -3529,6 +3529,18 @@
         "apply_bonus_when": {
           "type": "always"
         }
+      },
+      {
+        "tag": "level_tags.saftey_early_final",
+        "bonus": 200,
+        "repeat_malus": 0,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "after_stage",
+          "setting": {
+            "stage": 5
+          }
+        }
       }
     ],
     "id": "tag_weightings_squads"
@@ -3763,6 +3775,18 @@
         "repeat_decay": 0,
         "apply_bonus_when": {
           "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.saftey_early_final",
+        "bonus": 200,
+        "repeat_malus": 0,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "after_stage",
+          "setting": {
+            "stage": 5
+          }
         }
       }
     ],
