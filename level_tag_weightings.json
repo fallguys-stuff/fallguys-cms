@@ -2989,7 +2989,7 @@
       },
       {
         "tag": "level_tags.covenant_final",
-        "bonus": 700,
+        "bonus": 400,
         "repeat_malus": 0,
         "repeat_decay": 0,
         "apply_bonus_when": {
@@ -3271,6 +3271,18 @@
         "repeat_decay": 0,
         "apply_bonus_when": {
           "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.mid_show_final_enabler",
+        "bonus": 300,
+        "repeat_malus": 0,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "after_stage",
+          "setting": {
+            "stage": 3
+          }
         }
       }
     ],
