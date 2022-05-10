@@ -250,6 +250,35 @@
     "show_name": "localised_strings.show_title_fallevent",
     "show_description": "localised_strings.show_desc_fallevent",
     "show_image": null,
+    "default_episode": "levels_episode.event_autumn_festival_squads",
+    "episode_reward_settings_id": "squad_rewards",
+    "show_image_cms": "show_selector_show_midautumn",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 16,
+      "max_players": 16
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 16,
+      "max_players": 16
+    },
+    "show_type": {
+      "showtype_switch": "squad",
+      "squad_size": 4
+    },
+    "themeable_override": null,
+    "opens_at": "2022-05-16T09:00:00",
+    "closes_at": "2022-05-18T09:00:00",
+    "skill_score_factor_override": null,
+    "id": "event_autumn_festival_squads_1605_to_1705_2022"
+  },
+  {
+    "show_name": "localised_strings.show_title_fallevent",
+    "show_description": "localised_strings.show_desc_fallevent",
+    "show_image": null,
     "show_image_cms": "show_selector_show_midautumn",
     "min_party_size": 1,
     "max_party_size": 4,
@@ -4288,30 +4317,6 @@
       "type": "default"
     },
     "private_lobby_size": {
-      "type": "default"
-    },
-    "show_type": {
-      "showtype_switch": "individual"
-    },
-    "default_episode": "levels_episode.episode_event_only_season_4",
-    "episode_reward_settings_id": "solo_rewards",
-    "themeable_override": null,
-    "opens_at": "2022-05-11T09:00:00",
-    "closes_at": "2022-05-13T09:00:00",
-    "skill_score_factor_override": null,
-    "id": "event_only_season_4_1105_to_1205_2022"
-  },
-  {
-    "show_name": "localised_strings.show_title_season_4",
-    "show_description": "localised_strings.show_desc_season_4",
-    "show_image": "4041",
-    "show_image_cms": "show_selector_show_4041",
-    "min_party_size": 1,
-    "max_party_size": 4,
-    "size": {
-      "type": "default"
-    },
-    "private_lobby_size": {
       "type": "override",
       "min_players": 16,
       "max_players": 60
@@ -5636,6 +5641,34 @@
     "closes_at": "2022-01-04T09:00:00",
     "skill_score_factor_override": null,
     "id": "event_only_tip_toe_0101_to_0301_2022"
+  },
+  {
+    "show_name": "localised_strings.show_title_tip_toe",
+    "show_description": "localised_strings.show_desc_tip_toe",
+    "show_image": "Tiptoe",
+    "show_image_cms": "show_selector_show_tiptoe",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 20,
+      "max_players": 25
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 5,
+      "max_players": 25
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.episode_event_only_tip_toe",
+    "episode_reward_settings_id": "solo_rewards",
+    "themeable_override": null,
+    "opens_at": "2022-05-11T09:00:00",
+    "closes_at": "2022-05-13T09:00:00",
+    "skill_score_factor_override": null,
+    "id": "event_only_tip_toe_1105_to_1205_2022"
   },
   {
     "show_name": "localised_strings.show_title_tip_toe",
