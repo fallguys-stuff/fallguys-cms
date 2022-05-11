@@ -2592,32 +2592,6 @@
   {
     "show_name": "localised_strings.show_name_only_floor_fall",
     "show_description": "localised_strings.show_desc_only_floor_fall",
-    "show_image": "FloorFallLevels",
-    "show_image_cms": "show_selector_show_hexagonetrials",
-    "min_party_size": 1,
-    "max_party_size": 4,
-    "size": {
-      "type": "override",
-      "min_players": 16,
-      "max_players": 20
-    },
-    "private_lobby_size": {
-      "type": "default"
-    },
-    "show_type": {
-      "showtype_switch": "individual"
-    },
-    "default_episode": "levels_episode.episode_event_only_floor_fall",
-    "episode_reward_settings_id": "solo_rewards",
-    "themeable_override": null,
-    "opens_at": "2022-05-13T09:00:00",
-    "closes_at": "2022-05-16T09:00:00",
-    "skill_score_factor_override": null,
-    "id": "event_only_floor_fall_1305_to_1505_2022"
-  },
-  {
-    "show_name": "localised_strings.show_name_only_floor_fall",
-    "show_description": "localised_strings.show_desc_only_floor_fall",
     "show_image": null,
     "show_image_cms": "show_selector_show_hexagonetrials",
     "min_party_size": 1,
@@ -4826,7 +4800,7 @@
     "episode_reward_settings_id": "solo_rewards",
     "themeable_override": null,
     "opens_at": "2022-05-09T09:00:00",
-    "closes_at": "2022-05-11T09:00:00",
+    "closes_at": "2022-05-13T09:00:00",
     "skill_score_factor_override": null,
     "id": "event_only_slime_climb_0905_to_1005_2022"
   },
@@ -6114,6 +6088,35 @@
     "closes_at": "2021-12-06T09:00:00",
     "skill_score_factor_override": null,
     "id": "event_sports_suddendeath_squads_0412_to_0512_2021"
+  },
+  {
+    "show_name": "localised_strings.show_name_sports_suddendeath_squads",
+    "show_description": "localised_strings.show_desc_sports_suddendeath_squads",
+    "show_image": null,
+    "show_image_cms": "show_selector_show_sports_suddendeath",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 16,
+      "max_players": 16
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 16,
+      "max_players": 16
+    },
+    "show_type": {
+      "showtype_switch": "squad",
+      "squad_size": 4
+    },
+    "default_episode": "levels_episode.episode_sports_suddendeath_squads",
+    "episode_reward_settings_id": "event_suddendeath_squads_rewards",
+    "themeable_override": null,
+    "opens_at": "2022-05-13T09:00:00",
+    "closes_at": "2022-05-16T09:00:00",
+    "skill_score_factor_override": null,
+    "id": "event_sports_suddendeath_squads_1305_to_1505_2022"
   },
   {
     "show_name": "localised_strings.show_name_sports_suddendeath_squads",
