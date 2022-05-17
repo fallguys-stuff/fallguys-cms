@@ -150,7 +150,7 @@
     "id": "event_animals_template"
   },
   {
-    "show_name": "localised_strings.show_title_anniversary",
+    "show_name": "localised_strings.show_title_anniversary_alt",
     "show_description": "localised_strings.show_desc_anniversary",
     "show_image": null,
     "show_image_cms": "show_selector_show_party",
@@ -220,6 +220,30 @@
     "closes_at": "2021-11-11T12:00:00",
     "skill_score_factor_override": null,
     "id": "event_anniversary_season_1_1011_1011_21"
+  },
+  {
+    "show_name": "localised_strings.show_title_anniversary_alt",
+    "show_description": "localised_strings.show_desc_anniversary",
+    "show_image": null,
+    "show_image_cms": "show_selector_show_party",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "default"
+    },
+    "private_lobby_size": {
+      "type": "default"
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.episode_event_anniversary_season_1",
+    "episode_reward_settings_id": "solo_rewards",
+    "themeable_override": null,
+    "opens_at": "2022-06-17T09:00:00",
+    "closes_at": "2022-06-21T12:00:00",
+    "skill_score_factor_override": null,
+    "id": "event_anniversary_season_1_1706_to_2106_2022"
   },
   {
     "show_name": "localised_strings.le_s6_aprilstart_title",
@@ -2199,6 +2223,64 @@
       "max_players": 32
     },
     "private_lobby_size": {
+      "type": "override",
+      "min_players": 32,
+      "max_players": 32
+    },
+    "show_type": {
+      "showtype_switch": "squad",
+      "squad_size": 4
+    },
+    "default_episode": "levels_episode.episode_event_only_fall_ball_squads",
+    "episode_reward_settings_id": "squad_rewards",
+    "themeable_override": null,
+    "opens_at": "2022-06-01T09:00:00",
+    "closes_at": "2022-06-03T09:00:00",
+    "skill_score_factor_override": null,
+    "id": "event_only_fall_ball_squads_0106_to_0206_2022"
+  },
+  {
+    "show_name": "localised_strings.show_name_fall_ball_cup",
+    "show_description": "localised_strings.show_desc_fall_ball_cup",
+    "show_image": "FallBallCup",
+    "show_image_cms": "show_selector_show_fallballcup",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 32,
+      "max_players": 32
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 32,
+      "max_players": 32
+    },
+    "show_type": {
+      "showtype_switch": "squad",
+      "squad_size": 4
+    },
+    "default_episode": "levels_episode.episode_event_only_fall_ball_squads",
+    "episode_reward_settings_id": "squad_rewards",
+    "themeable_override": null,
+    "opens_at": "2020-11-16T09:00:00",
+    "closes_at": "2020-12-30T09:00:00",
+    "skill_score_factor_override": null,
+    "id": "event_only_fall_ball_squads_template"
+  },
+  {
+    "show_name": "localised_strings.show_name_fall_ball_cup",
+    "show_description": "localised_strings.show_desc_fall_ball_cup",
+    "show_image": "FallBallCup",
+    "show_image_cms": "show_selector_show_fallballcup",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 32,
+      "max_players": 32
+    },
+    "private_lobby_size": {
       "type": "default"
     },
     "show_type": {
@@ -2989,6 +3071,30 @@
       "showtype_switch": "individual"
     },
     "default_episode": "levels_episode.episode_event_hard_mode",
+    "episode_reward_settings_id": "solo_rewards_hard_mode",
+    "themeable_override": null,
+    "opens_at": "2022-06-13T09:00:00",
+    "closes_at": "2022-06-15T09:00:00",
+    "skill_score_factor_override": null,
+    "id": "event_only_hard_mode_1306_to_1406_2022"
+  },
+  {
+    "show_name": "localised_strings.show_name_hard_mode",
+    "show_description": "localised_strings.show_desc_hard_mode",
+    "show_image": "HardMode",
+    "show_image_cms": "show_selector_show_hardmode",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "default"
+    },
+    "private_lobby_size": {
+      "type": "default"
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.episode_event_hard_mode",
     "episode_reward_settings_id": "solo_rewards",
     "themeable_override": null,
     "opens_at": "2021-02-19T12:00:00",
@@ -3429,6 +3535,32 @@
     "default_episode": "levels_episode.episode_event_only_jump_club",
     "episode_reward_settings_id": "solo_rewards",
     "themeable_override": null,
+    "opens_at": "2022-05-23T09:00:00",
+    "closes_at": "2022-05-25T09:00:00",
+    "skill_score_factor_override": null,
+    "id": "event_only_jump_club_2305_to_2405_2022_v2"
+  },
+  {
+    "show_name": "localised_strings.show_name_only_jump_club",
+    "show_description": "localised_strings.show_desc_only_jump_club",
+    "show_image": "JumpAround",
+    "show_image_cms": "show_selector_show_jumparound",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 24,
+      "max_players": 30
+    },
+    "private_lobby_size": {
+      "type": "default"
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.episode_event_only_jump_club",
+    "episode_reward_settings_id": "solo_rewards",
+    "themeable_override": null,
     "opens_at": "2021-06-24T12:00:00",
     "closes_at": "2021-06-28T12:00:00",
     "skill_score_factor_override": null,
@@ -3749,6 +3881,30 @@
       "showtype_switch": "individual"
     },
     "themeable_override": null,
+    "opens_at": "2022-05-25T09:00:00",
+    "closes_at": "2022-05-27T09:00:00",
+    "skill_score_factor_override": null,
+    "id": "event_only_races_any_final_2505_to_2605_2022"
+  },
+  {
+    "show_name": "localised_strings.show_name_only_races",
+    "show_description": "localised_strings.show_desc_only_races",
+    "show_image": "RaceLevels",
+    "show_image_cms": "show_selector_show_racelevels",
+    "default_episode": "levels_episode.episode_event_only_races_any_final",
+    "episode_reward_settings_id": "solo_rewards",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "default"
+    },
+    "private_lobby_size": {
+      "type": "default"
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "themeable_override": null,
     "opens_at": "2020-10-23T09:00:00",
     "closes_at": null,
     "skill_score_factor_override": null,
@@ -3903,6 +4059,32 @@
     "closes_at": "2022-03-08T09:00:00",
     "skill_score_factor_override": null,
     "id": "event_only_roll_out_0503_to_0703_2022"
+  },
+  {
+    "show_name": "localised_strings.show_name_only_roll_out",
+    "show_description": "localised_strings.show_desc_only_roll_out",
+    "show_image": "RollCall",
+    "show_image_cms": "show_selector_show_rollcall",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 20,
+      "max_players": 26
+    },
+    "private_lobby_size": {
+      "type": "default"
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.episode_event_only_roll_out",
+    "episode_reward_settings_id": "solo_rewards",
+    "themeable_override": null,
+    "opens_at": "2022-06-08T09:00:00",
+    "closes_at": "2022-06-10T09:00:00",
+    "skill_score_factor_override": null,
+    "id": "event_only_roll_out_0806_to_0906_2022"
   },
   {
     "show_name": "localised_strings.show_name_only_roll_out",
@@ -4305,6 +4487,30 @@
     "closes_at": "2021-03-29T12:00:00",
     "skill_score_factor_override": null,
     "id": "event_only_season_4_2203_to_2803_2021"
+  },
+  {
+    "show_name": "localised_strings.show_title_season_4",
+    "show_description": "localised_strings.show_desc_season_4",
+    "show_image": "4041",
+    "show_image_cms": "show_selector_show_4041",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "default"
+    },
+    "private_lobby_size": {
+      "type": "default"
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.episode_event_only_season_4",
+    "episode_reward_settings_id": "solo_rewards",
+    "themeable_override": null,
+    "opens_at": "2022-05-27T09:00:00",
+    "closes_at": "2022-05-30T09:00:00",
+    "skill_score_factor_override": null,
+    "id": "event_only_season_4_2705_to_2905_2022"
   },
   {
     "show_name": "localised_strings.show_title_season_4",
@@ -4833,6 +5039,32 @@
   {
     "show_name": "localised_strings.show_title_slimb_climb",
     "show_description": "localised_strings.show_desc_slimb_climb",
+    "show_image": "SlimeClimb",
+    "show_image_cms": "show_selector_show_genericslimeclimb",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 32,
+      "max_players": 40
+    },
+    "private_lobby_size": {
+      "type": "default"
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.episode_event_only_slime_climb",
+    "episode_reward_settings_id": "solo_rewards",
+    "themeable_override": null,
+    "opens_at": "2022-06-15T09:00:00",
+    "closes_at": "2022-06-17T09:00:00",
+    "skill_score_factor_override": null,
+    "id": "event_only_slime_climb_1506_to_1606_2022"
+  },
+  {
+    "show_name": "localised_strings.show_title_slimb_climb",
+    "show_description": "localised_strings.show_desc_slimb_climb",
     "show_image": null,
     "show_image_cms": "show_selector_show_genericslimeclimb",
     "min_party_size": 1,
@@ -4881,6 +5113,34 @@
     "closes_at": "2022-02-08T09:00:00",
     "skill_score_factor_override": null,
     "id": "event_only_slime_climb_2_0502_to_0702_2022"
+  },
+  {
+    "show_name": "localised_strings.show_name_slime_climb_time_2",
+    "show_description": "localised_strings.show_desc_slime_climb_time_2",
+    "show_image": "SlimeScraperTime",
+    "show_image_cms": "show_selector_show_s4502",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 32,
+      "max_players": 40
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 32,
+      "max_players": 40
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.episode_event_only_slime_climb_2",
+    "episode_reward_settings_id": "solo_rewards",
+    "themeable_override": null,
+    "opens_at": "2022-06-06T09:00:00",
+    "closes_at": "2022-06-08T09:00:00",
+    "skill_score_factor_override": null,
+    "id": "event_only_slime_climb_2_0606_to_0706_2022"
   },
   {
     "show_name": "localised_strings.show_name_slime_climb_time_2",
@@ -5187,6 +5447,30 @@
     "closes_at": "2021-03-19T12:00:00",
     "skill_score_factor_override": null,
     "id": "event_only_survival_1503_to_1803_2021"
+  },
+  {
+    "show_name": "localised_strings.show_name_only_survival",
+    "show_description": "localised_strings.show_desc_only_survival",
+    "show_image": "SurvivalLevels",
+    "show_image_cms": "show_selector_show_survivallevels",
+    "default_episode": "levels_episode.episode_event_only_survival",
+    "episode_reward_settings_id": "solo_rewards",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "default"
+    },
+    "private_lobby_size": {
+      "type": "default"
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "themeable_override": null,
+    "opens_at": "2022-05-18T09:00:00",
+    "closes_at": "2022-05-20T09:00:00",
+    "skill_score_factor_override": null,
+    "id": "event_only_survival_1805_to_1905_2022_v2"
   },
   {
     "show_name": "localised_strings.show_name_only_survival",
@@ -5639,34 +5923,6 @@
     "default_episode": "levels_episode.episode_event_only_tip_toe",
     "episode_reward_settings_id": "solo_rewards",
     "themeable_override": null,
-    "opens_at": "2022-05-11T09:00:00",
-    "closes_at": "2022-05-13T09:00:00",
-    "skill_score_factor_override": null,
-    "id": "event_only_tip_toe_1105_to_1205_2022"
-  },
-  {
-    "show_name": "localised_strings.show_title_tip_toe",
-    "show_description": "localised_strings.show_desc_tip_toe",
-    "show_image": "Tiptoe",
-    "show_image_cms": "show_selector_show_tiptoe",
-    "min_party_size": 1,
-    "max_party_size": 4,
-    "size": {
-      "type": "override",
-      "min_players": 20,
-      "max_players": 25
-    },
-    "private_lobby_size": {
-      "type": "override",
-      "min_players": 5,
-      "max_players": 25
-    },
-    "show_type": {
-      "showtype_switch": "individual"
-    },
-    "default_episode": "levels_episode.episode_event_only_tip_toe",
-    "episode_reward_settings_id": "solo_rewards",
-    "themeable_override": null,
     "opens_at": "2022-03-17T09:00:00",
     "closes_at": "2022-03-20T09:00:00",
     "skill_score_factor_override": null,
@@ -5865,6 +6121,30 @@
     "show_description": "localised_strings.show_desc_season_2_highlight",
     "show_image": "MedievalMixup",
     "show_image_cms": "show_selector_show_medievalmixup",
+    "default_episode": "levels_episode.episode_event_season_2_highlight",
+    "episode_reward_settings_id": "solo_rewards",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "default"
+    },
+    "private_lobby_size": {
+      "type": "default"
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "themeable_override": null,
+    "opens_at": "2022-06-10T09:00:00",
+    "closes_at": "2022-06-13T09:00:00",
+    "skill_score_factor_override": null,
+    "id": "event_season_2_highlight_1006_to_1206_2022"
+  },
+  {
+    "show_name": "localised_strings.show_name_season_2_highlight",
+    "show_description": "localised_strings.show_desc_season_2_highlight",
+    "show_image": "MedievalMixup",
+    "show_image_cms": "show_selector_show_medievalmixup",
     "min_party_size": 1,
     "max_party_size": 4,
     "size": {
@@ -5907,6 +6187,30 @@
     "closes_at": "2020-09-01T00:00:01",
     "skill_score_factor_override": null,
     "id": "event_season_2_highlight_template"
+  },
+  {
+    "show_name": "localised_strings.show_name_season_3",
+    "show_description": "localised_strings.show_desc_season_3",
+    "show_image": "Season3Highlight",
+    "show_image_cms": "show_selector_show_season3",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "default"
+    },
+    "private_lobby_size": {
+      "type": "default"
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.episode_season_03",
+    "episode_reward_settings_id": "solo_rewards",
+    "themeable_override": null,
+    "opens_at": "2022-06-03T09:00:00",
+    "closes_at": "2022-06-06T09:00:00",
+    "skill_score_factor_override": null,
+    "id": "event_season_3_highlight_0306_to_0506_2022"
   },
   {
     "show_name": "localised_strings.show_name_season_3",
@@ -6853,6 +7157,35 @@
     "default_episode": "levels_episode.episode_event_elimination_gauntlets_squads",
     "episode_reward_settings_id": "hardmode_rewards",
     "themeable_override": null,
+    "opens_at": "2022-05-20T09:00:00",
+    "closes_at": "2022-05-23T09:00:00",
+    "skill_score_factor_override": null,
+    "id": "event_xtreme_fall_guys_squads_2005_to_2205_2022_v2"
+  },
+  {
+    "show_name": "localised_strings.show_name_xtreme_squads",
+    "show_description": "localised_strings.show_desc_xtreme_squads",
+    "show_image": null,
+    "show_image_cms": "show_selector_show_xtreme_squads",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 36,
+      "max_players": 60
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 24,
+      "max_players": 60
+    },
+    "show_type": {
+      "showtype_switch": "squad",
+      "squad_size": 4
+    },
+    "default_episode": "levels_episode.episode_event_elimination_gauntlets_squads",
+    "episode_reward_settings_id": "hardmode_rewards",
+    "themeable_override": null,
     "opens_at": "2022-01-01T09:00:00",
     "closes_at": "2022-01-03T09:00:00",
     "skill_score_factor_override": null,
@@ -7035,6 +7368,30 @@
     "closes_at": "2020-12-05T12:00:00",
     "skill_score_factor_override": null,
     "id": "event_yeetus_2811_to_0412"
+  },
+  {
+    "show_name": "localised_strings.show_name_big_yeetus_tour",
+    "show_description": "localised_strings.show_desc_big_yeetus_tour",
+    "show_image": null,
+    "show_image_cms": "show_selector_show_yeetustour",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "default"
+    },
+    "private_lobby_size": {
+      "type": "default"
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.episode_event_yeetus",
+    "episode_reward_settings_id": "solo_rewards",
+    "themeable_override": null,
+    "opens_at": "2022-05-30T09:00:00",
+    "closes_at": "2022-06-01T09:00:00",
+    "skill_score_factor_override": null,
+    "id": "event_yeetus_3005_to_3105_2022"
   },
   {
     "show_name": "localised_strings.show_name_big_yeetus_tour",

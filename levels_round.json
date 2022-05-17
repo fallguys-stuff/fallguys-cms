@@ -9542,6 +9542,155 @@
   {
     "display_name": "localised_strings.level_name_fall_ball",
     "scene_name": "FallGuy_FallBall_5",
+    "game_rules": "game_rules.round_fall_ball_event_only_squads_01",
+    "level_archetype": "archetype_team",
+    "ingame_music_suffix": null,
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_FallBall",
+    "level_badge_name": "FallBall",
+    "level_variation": "levels_variation.variation_fall_ball_60_players",
+    "level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena"
+    ],
+    "bonus": {
+      "type": "team_score",
+      "team_score_tiers": [
+        {
+          "team_score": 10,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_goals_01"
+        },
+        {
+          "team_score": 5,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_goals_02"
+        },
+        {
+          "team_score": 3,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_goals_03"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_score_fallball",
+    "id": "round_fall_ball_cup_only_squads_01"
+  },
+  {
+    "display_name": "localised_strings.level_name_fall_ball",
+    "scene_name": "FallGuy_FallBall_5",
+    "game_rules": "game_rules.round_fall_ball_event_only_squads_02",
+    "level_archetype": "archetype_team",
+    "ingame_music_suffix": null,
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_FallBall",
+    "level_badge_name": "FallBall",
+    "level_variation": "levels_variation.variation_fall_ball_60_players",
+    "level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter"
+    ],
+    "bonus": {
+      "type": "team_score",
+      "team_score_tiers": [
+        {
+          "team_score": 10,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_goals_01"
+        },
+        {
+          "team_score": 5,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_goals_02"
+        },
+        {
+          "team_score": 3,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_goals_03"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_score_fallball",
+    "id": "round_fall_ball_cup_only_squads_02"
+  },
+  {
+    "display_name": "localised_strings.level_name_fall_ball",
+    "scene_name": "FallGuy_FallBall_5",
+    "game_rules": "game_rules.round_fall_ball_event_only_squads_final",
+    "level_archetype": "archetype_team",
+    "ingame_music_suffix": null,
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "player_name_max_distance": 50,
+    "loading_screen_name": "Splash_FallBall",
+    "level_badge_name": "FallBall",
+    "level_variation": "levels_variation.variation_fall_ball_60_players",
+    "level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_late_stage_team_round"
+    ],
+    "bonus": {
+      "type": "team_score",
+      "team_score_tiers": [
+        {
+          "team_score": 10,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_goals_01"
+        },
+        {
+          "team_score": 5,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_goals_02"
+        },
+        {
+          "team_score": 3,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_goals_03"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_score_fallball",
+    "id": "round_fall_ball_cup_only_squads_final"
+  },
+  {
+    "display_name": "localised_strings.level_name_fall_ball",
+    "scene_name": "FallGuy_FallBall_5",
     "game_rules": "game_rules.round_fall_ball_duos",
     "level_archetype": "archetype_team",
     "ingame_music_suffix": null,
@@ -11002,7 +11151,7 @@
     "ingame_music_suffix": null,
     "extra_ambience_soundbank": null,
     "extra_ambience_event": null,
-    "lower_main_ambience_volume": null,
+    "lower_main_ambience_volume": false,
     "player_name_max_distance": 50,
     "loading_screen_name": "Splash_Hexagone",
     "level_badge_name": "Hexagone",
@@ -11010,7 +11159,6 @@
     "level_variation_overrides": "levels_variation_overrides.var_over_floor_fall_low_grav",
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
-    "tags": [],
     "bonus": {
       "type": "qualification",
       "qualification_tier": {
@@ -11023,6 +11171,7 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "tags": [],
     "id": "round_floor_fall_event_only_low_grav_01"
   },
   {
@@ -11033,7 +11182,7 @@
     "ingame_music_suffix": null,
     "extra_ambience_soundbank": null,
     "extra_ambience_event": null,
-    "lower_main_ambience_volume": null,
+    "lower_main_ambience_volume": false,
     "player_name_max_distance": 50,
     "loading_screen_name": "Splash_Hexagone",
     "level_badge_name": "Hexagone",
@@ -11041,7 +11190,6 @@
     "level_variation_overrides": "levels_variation_overrides.var_over_floor_fall_low_grav",
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
-    "tags": [],
     "bonus": {
       "type": "qualification",
       "qualification_tier": {
@@ -11054,6 +11202,7 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "tags": [],
     "id": "round_floor_fall_event_only_low_grav_02"
   },
   {
@@ -11064,15 +11213,14 @@
     "ingame_music_suffix": null,
     "extra_ambience_soundbank": null,
     "extra_ambience_event": null,
-    "lower_main_ambience_volume": null,
+    "lower_main_ambience_volume": false,
     "player_name_max_distance": 50,
     "loading_screen_name": "Splash_Hexagone",
     "level_badge_name": "Hexagone",
     "level_variation": "levels_variation.variation_floor_fall",
-    "level_variation_overrides": "levels_variation_overrides.var_over_floor_fall_low_grav",
+    "level_variation_overrides": "levels_variation_overrides.var_over_floor_fall_mini_low_grav",
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
-    "tags": [],
     "bonus": {
       "type": "qualification",
       "qualification_tier": {
@@ -11085,6 +11233,7 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "tags": [],
     "id": "round_floor_fall_event_only_low_grav_final"
   },
   {
