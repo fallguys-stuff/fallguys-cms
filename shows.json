@@ -4145,6 +4145,32 @@
   {
     "show_name": "localised_strings.show_name_only_roll_out",
     "show_description": "localised_strings.show_desc_only_roll_out",
+    "show_image": "RollCall",
+    "show_image_cms": "show_selector_show_rollcall",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 20,
+      "max_players": 26
+    },
+    "private_lobby_size": {
+      "type": "default"
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.episode_event_only_roll_out",
+    "episode_reward_settings_id": "solo_rewards",
+    "themeable_override": null,
+    "opens_at": "2022-05-20T09:00:00",
+    "closes_at": "2022-05-23T09:00:00",
+    "skill_score_factor_override": null,
+    "id": "event_only_roll_out_2005_to_2205_2022"
+  },
+  {
+    "show_name": "localised_strings.show_name_only_roll_out",
+    "show_description": "localised_strings.show_desc_only_roll_out",
     "show_image": null,
     "show_image_cms": "show_selector_show_rollcall",
     "min_party_size": 1,
@@ -7132,35 +7158,6 @@
     "show_image_cms": "show_selector_show_xtreme_squads",
     "themeable_override": null,
     "id": "event_xtreme_fall_guys_squads_1102_to_1302_2022"
-  },
-  {
-    "show_name": "localised_strings.show_name_xtreme_squads",
-    "show_description": "localised_strings.show_desc_xtreme_squads",
-    "show_image": null,
-    "show_image_cms": "show_selector_show_xtreme_squads",
-    "min_party_size": 1,
-    "max_party_size": 4,
-    "size": {
-      "type": "override",
-      "min_players": 36,
-      "max_players": 60
-    },
-    "private_lobby_size": {
-      "type": "override",
-      "min_players": 24,
-      "max_players": 60
-    },
-    "show_type": {
-      "showtype_switch": "squad",
-      "squad_size": 4
-    },
-    "default_episode": "levels_episode.episode_event_elimination_gauntlets_squads",
-    "episode_reward_settings_id": "hardmode_rewards",
-    "themeable_override": null,
-    "opens_at": "2022-05-20T09:00:00",
-    "closes_at": "2022-05-23T09:00:00",
-    "skill_score_factor_override": null,
-    "id": "event_xtreme_fall_guys_squads_2005_to_2205_2022_v2"
   },
   {
     "show_name": "localised_strings.show_name_xtreme_squads",
