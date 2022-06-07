@@ -1,89 +1,97 @@
 [
   {
     "description": "The Americas",
+    "smaller_show_timeout_seconds": 35,
+    "sub_region_merge_timeout_seconds": 40,
     "sub_regions": [
       "us_central",
       "us_east",
       "us_west",
       "south_america"
     ],
-    "minimum_bracket_priority": 1,
-    "maximum_bracket_priority": 30,
-    "bracket_balance_merge_interval": 3,
-    "bracket_balance_split_interval": 10,
-    "minimum_bracket_size": 470,
-    "maximum_bracket_size": 9999,
-    "enabled": true,
-    "brackets": [
-      {
-        "min": 400
-      }
-    ],
-    "rating_ceiling": 1840,
+    "sbmm_config": {
+      "status": "enabled",
+      "bracket_split_threshold_seconds": 20,
+      "bracket_merge_threshold_seconds": 30,
+      "bracket_merge_check_interval_seconds": 8,
+      "bracket_split_check_interval_seconds": 9,
+      "minimum_bracket_size": 45,
+      "maximum_bracket_size": 9999,
+      "minimum_bottom_bracket_score": 0,
+      "initial_intermediate_brackets": [],
+      "maximum_top_bracket_score": 9999,
+      "are_bots_enabled": true
+    },
     "id": "ame"
   },
   {
     "description": "East Asia",
+    "smaller_show_timeout_seconds": 35,
+    "sub_region_merge_timeout_seconds": 40,
     "sub_regions": [
       "asia_east_taipei",
       "korea",
       "japan"
     ],
-    "minimum_bracket_priority": 1,
-    "maximum_bracket_priority": 30,
-    "bracket_balance_merge_interval": 3,
-    "bracket_balance_split_interval": 10,
-    "minimum_bracket_size": 470,
-    "maximum_bracket_size": 9999,
-    "enabled": true,
-    "brackets": [
-      {
-        "min": 400
-      }
-    ],
-    "rating_ceiling": 1840,
+    "sbmm_config": {
+      "status": "enabled",
+      "bracket_split_threshold_seconds": 20,
+      "bracket_merge_threshold_seconds": 30,
+      "bracket_merge_check_interval_seconds": 8,
+      "bracket_split_check_interval_seconds": 9,
+      "minimum_bracket_size": 45,
+      "maximum_bracket_size": 9999,
+      "minimum_bottom_bracket_score": 0,
+      "initial_intermediate_brackets": [],
+      "maximum_top_bracket_score": 9999,
+      "are_bots_enabled": true
+    },
     "id": "eas"
   },
   {
     "description": "Europe",
+    "smaller_show_timeout_seconds": 35,
+    "sub_region_merge_timeout_seconds": 40,
     "sub_regions": [
       "europe"
     ],
-    "minimum_bracket_priority": 1,
-    "maximum_bracket_priority": 30,
-    "bracket_balance_merge_interval": 3,
-    "bracket_balance_split_interval": 10,
-    "minimum_bracket_size": 470,
-    "maximum_bracket_size": 9999,
-    "enabled": true,
-    "brackets": [
-      {
-        "min": 400
-      }
-    ],
-    "rating_ceiling": 1840,
+    "sbmm_config": {
+      "status": "enabled",
+      "bracket_split_threshold_seconds": 20,
+      "bracket_merge_threshold_seconds": 30,
+      "bracket_merge_check_interval_seconds": 8,
+      "bracket_split_check_interval_seconds": 9,
+      "minimum_bracket_size": 45,
+      "maximum_bracket_size": 9999,
+      "minimum_bottom_bracket_score": 0,
+      "initial_intermediate_brackets": [],
+      "maximum_top_bracket_score": 9999,
+      "are_bots_enabled": true
+    },
     "id": "eur"
   },
   {
     "description": "South East Asia",
+    "smaller_show_timeout_seconds": 35,
+    "sub_region_merge_timeout_seconds": 40,
     "sub_regions": [
       "asia_south_singapore",
       "india_and_middle_east",
       "australia"
     ],
-    "minimum_bracket_priority": 1,
-    "maximum_bracket_priority": 30,
-    "bracket_balance_merge_interval": 3,
-    "bracket_balance_split_interval": 10,
-    "minimum_bracket_size": 470,
-    "maximum_bracket_size": 9999,
-    "enabled": true,
-    "brackets": [
-      {
-        "min": 400
-      }
-    ],
-    "rating_ceiling": 1840,
+    "sbmm_config": {
+      "status": "enabled",
+      "bracket_split_threshold_seconds": 20,
+      "bracket_merge_threshold_seconds": 30,
+      "bracket_merge_check_interval_seconds": 8,
+      "bracket_split_check_interval_seconds": 9,
+      "minimum_bracket_size": 45,
+      "maximum_bracket_size": 9999,
+      "minimum_bottom_bracket_score": 0,
+      "initial_intermediate_brackets": [],
+      "maximum_top_bracket_score": 9999,
+      "are_bots_enabled": true
+    },
     "id": "sea"
   }
 ]
