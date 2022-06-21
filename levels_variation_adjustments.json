@@ -3,19 +3,20 @@
     "items": [
       {
         "difficulty": "onboarding",
-        "bucketmultipliers": []
-      },
-      {
-        "difficulty": "easy",
-        "bucketmultipliers": []
-      },
-      {
-        "difficulty": "intermediate",
-        "bucketmultipliers": []
-      },
-      {
-        "difficulty": "difficult",
-        "bucketmultipliers": []
+        "bucketmultipliers": [
+          {
+            "bucket": "mm_bucket_elo_lowest",
+            "multiplier": 0
+          },
+          {
+            "bucket": "mm_bucket_elo_mid",
+            "multiplier": 0
+          },
+          {
+            "bucket": "mm_bucket_elo_high",
+            "multiplier": 0
+          }
+        ]
       }
     ],
     "id": "default_settings"

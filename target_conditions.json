@@ -3,6 +3,57 @@
     "parameters": {
       "type": "date_time",
       "data": {
+        "operator": "more_than_or_equal_to",
+        "start": "2021-11-29T00:00:00"
+      }
+    },
+    "id": "active-date_after_291121"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "less_than_or_equal_to",
+        "end": "2021-12-05T23:59:59"
+      }
+    },
+    "id": "active-date_before_051221"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "more_than_or_equal_to",
+        "start": "2021-10-14T09:00:00"
+      }
+    },
+    "id": "challenges_bg_test_after"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "less_than_or_equal_to",
+        "end": "2022-01-26T12:00:00"
+      }
+    },
+    "id": "challenges_bg_test_before"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-01-18T10:00:00",
+        "end": "2022-02-28T18:00:00"
+      }
+    },
+    "id": "challenges_review_setup"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
         "operator": "between",
         "start": "2022-01-01T08:00:00",
         "end": "2022-01-02T08:00:00"
@@ -730,6 +781,28 @@
       "type": "date_time",
       "data": {
         "operator": "between",
+        "start": "2022-06-21T09:00:00",
+        "end": "2022-06-30T09:00:00"
+      }
+    },
+    "id": "date_2106_3006_22"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-21T09:00:00",
+        "end": "2022-07-26T09:00:00"
+      }
+    },
+    "id": "date_21072022_25072022"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
         "start": "2022-03-22T08:00:00",
         "end": "2022-03-26T08:00:00"
       }
@@ -1045,6 +1118,21 @@
   },
   {
     "parameters": {
+      "type": "purchase_history",
+      "data": {
+        "bundle": {
+          "id": "ss001_legacypack_psn_jp"
+        },
+        "quantity": {
+          "operator": "equal_to",
+          "exact": 0
+        }
+      }
+    },
+    "id": "has_not_purchased_japan_discount_bundle"
+  },
+  {
+    "parameters": {
       "type": "date_time",
       "data": {
         "operator": "between",
@@ -1235,6 +1323,50 @@
       }
     },
     "id": "is_le_s6_vulture"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-28T09:00:00",
+        "end": "2022-08-02T09:00:00"
+      }
+    },
+    "id": "is_le_ss1_clan_of_yeetus"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-14T09:30:00",
+        "end": "2022-07-18T09:00:00"
+      }
+    },
+    "id": "is_le_ss1_idol_games"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-06-22T09:00:00",
+        "end": "2022-06-30T09:00:00"
+      }
+    },
+    "id": "is_le_ss1_launch"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-06-30T09:00:00",
+        "end": "2022-07-05T09:00:00"
+      }
+    },
+    "id": "is_le_ss1_pelican"
   },
   {
     "parameters": {
@@ -1667,6 +1799,16 @@
   },
   {
     "parameters": {
+      "type": "platform",
+      "data": {
+        "operator": "not_equal_to",
+        "platform": "switch"
+      }
+    },
+    "id": "is_not_switch_user"
+  },
+  {
+    "parameters": {
       "type": "platform_group",
       "data": {
         "operator": "equal_to",
@@ -1860,6 +2002,16 @@
       "type": "platform",
       "data": {
         "operator": "equal_to",
+        "platform": "switch"
+      }
+    },
+    "id": "is_switch_user"
+  },
+  {
+    "parameters": {
+      "type": "platform",
+      "data": {
+        "operator": "equal_to",
         "platform": "win"
       }
     },
@@ -1874,6 +2026,23 @@
       }
     },
     "id": "is_xbox_user"
+  },
+  {
+    "parameters": {
+      "type": "platform_group_and_legal_country",
+      "data": {
+        "platform_group": {
+          "operator": "equal_to",
+          "content_item_id": "playstation"
+        },
+        "legal_country": {
+          "operator": "equal_to",
+          "content_item_id": "japan"
+        },
+        "post_comparison_modifier": "all_true"
+      }
+    },
+    "id": "japanese_psn"
   },
   {
     "parameters": {
@@ -1976,6 +2145,33 @@
   },
   {
     "parameters": {
+      "type": "season_joined",
+      "data": {
+        "season_id": "season_sym_001",
+        "operator": "before"
+      }
+    },
+    "id": "legacy_players_before_ss1"
+  },
+  {
+    "parameters": {
+      "type": "platform_group_and_legal_country",
+      "data": {
+        "platform_group": {
+          "operator": "equal_to",
+          "content_item_id": "playstation"
+        },
+        "legal_country": {
+          "operator": "equal_to",
+          "content_item_id": "japan"
+        },
+        "post_comparison_modifier": "exclusively_not_all_true"
+      }
+    },
+    "id": "not_japanese_psn"
+  },
+  {
+    "parameters": {
       "type": "date_time",
       "data": {
         "operator": "more_than_or_equal_to",
@@ -2004,5 +2200,1560 @@
       }
     },
     "id": "regular_random"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-01-18T10:00:00",
+        "end": "2022-01-18T15:30:00"
+      }
+    },
+    "id": "seasonal_countdown"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-01T00:00:00",
+        "end": "2022-07-01T23:59:59"
+      }
+    },
+    "id": "single_date_010722"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-01T00:00:00",
+        "end": "2022-08-01T23:59:59"
+      }
+    },
+    "id": "single_date_010822"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-02T00:00:00",
+        "end": "2022-07-02T23:59:59"
+      }
+    },
+    "id": "single_date_020722"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-02T00:00:00",
+        "end": "2022-08-02T23:59:59"
+      }
+    },
+    "id": "single_date_020822"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-03T00:00:00",
+        "end": "2022-07-03T23:59:59"
+      }
+    },
+    "id": "single_date_030722"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-03T00:00:00",
+        "end": "2022-08-03T23:59:59"
+      }
+    },
+    "id": "single_date_030822"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-04T00:00:00",
+        "end": "2022-07-04T23:59:59"
+      }
+    },
+    "id": "single_date_040722"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-04T00:00:00",
+        "end": "2022-08-04T23:59:59"
+      }
+    },
+    "id": "single_date_040822"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-05T00:00:00",
+        "end": "2022-07-05T23:59:59"
+      }
+    },
+    "id": "single_date_050722"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-05T00:00:00",
+        "end": "2022-08-05T23:59:59"
+      }
+    },
+    "id": "single_date_050822"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-06T00:00:00",
+        "end": "2022-07-06T23:59:59"
+      }
+    },
+    "id": "single_date_060722"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-06T00:00:00",
+        "end": "2022-08-06T23:59:59"
+      }
+    },
+    "id": "single_date_060822"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-07T00:00:00",
+        "end": "2022-07-07T23:59:59"
+      }
+    },
+    "id": "single_date_070722"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-07T00:00:00",
+        "end": "2022-08-07T23:59:59"
+      }
+    },
+    "id": "single_date_070822"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-08T00:00:00",
+        "end": "2022-07-08T23:59:59"
+      }
+    },
+    "id": "single_date_080722"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-08T00:00:00",
+        "end": "2022-08-08T23:59:59"
+      }
+    },
+    "id": "single_date_080822"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-09T00:00:00",
+        "end": "2022-07-09T23:59:59"
+      }
+    },
+    "id": "single_date_090722"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-09T00:00:00",
+        "end": "2022-08-09T23:59:59"
+      }
+    },
+    "id": "single_date_090822"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-10T00:00:00",
+        "end": "2022-07-10T23:59:59"
+      }
+    },
+    "id": "single_date_100722"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-10T00:00:00",
+        "end": "2022-08-10T23:59:59"
+      }
+    },
+    "id": "single_date_100822"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-11T00:00:00",
+        "end": "2022-07-11T23:59:59"
+      }
+    },
+    "id": "single_date_110722"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-11T00:00:00",
+        "end": "2022-08-11T23:59:59"
+      }
+    },
+    "id": "single_date_110822"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-12T00:00:00",
+        "end": "2022-07-12T23:59:59"
+      }
+    },
+    "id": "single_date_120722"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-12T00:00:00",
+        "end": "2022-08-12T23:59:59"
+      }
+    },
+    "id": "single_date_120822"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-13T00:00:00",
+        "end": "2022-07-13T23:59:59"
+      }
+    },
+    "id": "single_date_130722"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-13T00:00:00",
+        "end": "2022-08-13T23:59:59"
+      }
+    },
+    "id": "single_date_130822"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-14T00:00:00",
+        "end": "2022-07-14T23:59:59"
+      }
+    },
+    "id": "single_date_140722"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-14T00:00:00",
+        "end": "2022-08-14T23:59:59"
+      }
+    },
+    "id": "single_date_140822"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-15T00:00:00",
+        "end": "2022-07-15T23:59:59"
+      }
+    },
+    "id": "single_date_150722"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-15T00:00:00",
+        "end": "2022-08-15T23:59:59"
+      }
+    },
+    "id": "single_date_150822"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-16T00:00:00",
+        "end": "2022-07-16T23:59:59"
+      }
+    },
+    "id": "single_date_160722"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-16T00:00:00",
+        "end": "2022-08-16T23:59:59"
+      }
+    },
+    "id": "single_date_160822"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-17T00:00:00",
+        "end": "2022-07-17T23:59:59"
+      }
+    },
+    "id": "single_date_170722"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-17T00:00:00",
+        "end": "2022-08-17T23:59:59"
+      }
+    },
+    "id": "single_date_170822"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-18T00:00:00",
+        "end": "2022-07-18T23:59:59"
+      }
+    },
+    "id": "single_date_180722"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-18T00:00:00",
+        "end": "2022-08-18T23:59:59"
+      }
+    },
+    "id": "single_date_180822"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-19T00:00:00",
+        "end": "2022-07-19T23:59:59"
+      }
+    },
+    "id": "single_date_190722"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-19T00:00:00",
+        "end": "2022-08-19T23:59:59"
+      }
+    },
+    "id": "single_date_190822"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-20T00:00:00",
+        "end": "2022-07-20T23:59:59"
+      }
+    },
+    "id": "single_date_200722"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-20T00:00:00",
+        "end": "2022-08-20T23:59:59"
+      }
+    },
+    "id": "single_date_200822"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-05-10T00:00:00",
+        "end": "2022-05-10T23:59:59"
+      }
+    },
+    "id": "single_date_210622"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-21T00:00:00",
+        "end": "2022-07-21T23:59:59"
+      }
+    },
+    "id": "single_date_210722"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-21T00:00:00",
+        "end": "2022-08-21T23:59:59"
+      }
+    },
+    "id": "single_date_210822"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-06-22T00:00:00",
+        "end": "2022-06-22T23:59:59"
+      }
+    },
+    "id": "single_date_220622"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-22T00:00:00",
+        "end": "2022-07-22T23:59:59"
+      }
+    },
+    "id": "single_date_220722"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-22T00:00:00",
+        "end": "2022-08-22T23:59:59"
+      }
+    },
+    "id": "single_date_220822"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-06-23T00:00:00",
+        "end": "2022-06-23T23:59:59"
+      }
+    },
+    "id": "single_date_230622"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-23T00:00:00",
+        "end": "2022-07-23T23:59:59"
+      }
+    },
+    "id": "single_date_230722"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-23T00:00:00",
+        "end": "2022-08-23T23:59:59"
+      }
+    },
+    "id": "single_date_230822"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-06-24T00:00:00",
+        "end": "2022-06-24T23:59:59"
+      }
+    },
+    "id": "single_date_240622"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-24T00:00:00",
+        "end": "2022-07-24T23:59:59"
+      }
+    },
+    "id": "single_date_240722"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-24T00:00:00",
+        "end": "2022-08-24T23:59:59"
+      }
+    },
+    "id": "single_date_240822"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-06-25T00:00:00",
+        "end": "2022-06-25T23:59:59"
+      }
+    },
+    "id": "single_date_250622"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-25T00:00:00",
+        "end": "2022-07-25T23:59:59"
+      }
+    },
+    "id": "single_date_250722"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-25T00:00:00",
+        "end": "2022-08-25T23:59:59"
+      }
+    },
+    "id": "single_date_250822"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-06-26T00:00:00",
+        "end": "2022-06-26T23:59:59"
+      }
+    },
+    "id": "single_date_260622"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-26T00:00:00",
+        "end": "2022-07-26T23:59:59"
+      }
+    },
+    "id": "single_date_260722"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-26T00:00:00",
+        "end": "2022-08-26T23:59:59"
+      }
+    },
+    "id": "single_date_260822"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-06-27T00:00:00",
+        "end": "2022-06-27T23:59:59"
+      }
+    },
+    "id": "single_date_270622"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-27T00:00:00",
+        "end": "2022-07-27T23:59:59"
+      }
+    },
+    "id": "single_date_270722"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-27T00:00:00",
+        "end": "2022-08-27T23:59:59"
+      }
+    },
+    "id": "single_date_270822"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-06-28T00:00:00",
+        "end": "2022-06-28T23:59:59"
+      }
+    },
+    "id": "single_date_280622"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-28T00:00:00",
+        "end": "2022-07-28T23:59:59"
+      }
+    },
+    "id": "single_date_280722"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-28T00:00:00",
+        "end": "2022-08-28T23:59:59"
+      }
+    },
+    "id": "single_date_280822"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-06-29T00:00:00",
+        "end": "2022-06-29T23:59:59"
+      }
+    },
+    "id": "single_date_290622"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-29T00:00:00",
+        "end": "2022-07-29T23:59:59"
+      }
+    },
+    "id": "single_date_290722"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-29T00:00:00",
+        "end": "2022-08-29T23:59:59"
+      }
+    },
+    "id": "single_date_290822"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-06-30T00:00:00",
+        "end": "2022-06-30T23:59:59"
+      }
+    },
+    "id": "single_date_300622"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-30T00:00:00",
+        "end": "2022-07-30T23:59:59"
+      }
+    },
+    "id": "single_date_300722"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-31T00:00:00",
+        "end": "2022-07-31T23:59:59"
+      }
+    },
+    "id": "single_date_310722"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-02T09:00:00",
+        "end": "2022-08-11T09:00:00"
+      }
+    },
+    "id": "ss1_dailies_0208_1108_22"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-05T09:00:00",
+        "end": "2022-07-07T09:00:00"
+      }
+    },
+    "id": "ss1_dailies_0507_0707_22"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-07T09:00:00",
+        "end": "2022-07-12T09:00:00"
+      }
+    },
+    "id": "ss1_dailies_0707_1207_22"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-11T09:00:00",
+        "end": "2022-08-16T09:00:00"
+      }
+    },
+    "id": "ss1_dailies_1108_1608_22"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-12T09:00:00",
+        "end": "2022-07-14T09:00:00"
+      }
+    },
+    "id": "ss1_dailies_1207_1407_22"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-14T09:00:00",
+        "end": "2022-07-19T09:00:00"
+      }
+    },
+    "id": "ss1_dailies_1407_1907_22"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-16T09:00:00",
+        "end": "2022-08-18T09:00:00"
+      }
+    },
+    "id": "ss1_dailies_1608_1808_22"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-18T09:00:00",
+        "end": "2022-08-23T09:00:00"
+      }
+    },
+    "id": "ss1_dailies_1808_2308_22"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-19T09:00:00",
+        "end": "2022-07-21T09:00:00"
+      }
+    },
+    "id": "ss1_dailies_1907_2107_22"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-06-21T09:00:00",
+        "end": "2022-06-30T09:00:00"
+      }
+    },
+    "id": "ss1_dailies_2106_3006_22"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-06-21T09:00:00",
+        "end": "2022-06-30T09:00:00"
+      }
+    },
+    "id": "ss1_dailies_2106_fill_22"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-21T09:00:00",
+        "end": "2022-07-26T09:00:00"
+      }
+    },
+    "id": "ss1_dailies_2107_2607_22"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-23T09:00:00",
+        "end": "2022-08-25T09:00:00"
+      }
+    },
+    "id": "ss1_dailies_2308_2508_22"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-25T09:00:00",
+        "end": "2022-08-30T09:00:00"
+      }
+    },
+    "id": "ss1_dailies_2508_3008_22"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-26T09:00:00",
+        "end": "2022-07-28T09:00:00"
+      }
+    },
+    "id": "ss1_dailies_2607_2807_22"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-28T09:00:00",
+        "end": "2022-08-02T09:00:00"
+      }
+    },
+    "id": "ss1_dailies_2807_0208_22"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-06-30T09:00:00",
+        "end": "2022-07-05T09:00:00"
+      }
+    },
+    "id": "ss1_dailies_3006_0507_22"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-03-13T00:00:00",
+        "end": "2022-08-29T23:59:59"
+      }
+    },
+    "id": "ss1_entire_dates"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-27T09:00:00",
+        "end": "2022-08-30T08:59:59"
+      }
+    },
+    "id": "ss1_ft_wk10_sat_mon"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-25T09:00:00",
+        "end": "2022-08-30T08:59:59"
+      }
+    },
+    "id": "ss1_ft_wk10_thur_mon"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-23T09:00:00",
+        "end": "2022-08-27T08:59:59"
+      }
+    },
+    "id": "ss1_ft_wk10_tues_fri"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-06-25T09:00:00",
+        "end": "2022-06-29T08:59:59"
+      }
+    },
+    "id": "ss1_ft_wk1_sat_weds"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-06-23T09:00:00",
+        "end": "2022-06-28T08:59:59"
+      }
+    },
+    "id": "ss1_ft_wk1_thur_mon"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-03-13T09:00:00",
+        "end": "2022-06-25T08:59:59"
+      }
+    },
+    "id": "ss1_ft_wk1_tues_fri"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-02T09:00:00",
+        "end": "2022-07-07T08:59:59"
+      }
+    },
+    "id": "ss1_ft_wk2_sat_weds"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-06-28T09:00:00",
+        "end": "2022-07-02T08:59:59"
+      }
+    },
+    "id": "ss1_ft_wk2_tues_fri"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-09T09:00:00",
+        "end": "2022-07-14T08:59:59"
+      }
+    },
+    "id": "ss1_ft_wk3_sat_weds"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-05T09:00:00",
+        "end": "2022-07-09T08:59:59"
+      }
+    },
+    "id": "ss1_ft_wk3_tues_fri"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-16T09:00:00",
+        "end": "2022-07-21T08:59:59"
+      }
+    },
+    "id": "ss1_ft_wk4_sat_weds"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-12T09:00:00",
+        "end": "2022-07-16T08:59:59"
+      }
+    },
+    "id": "ss1_ft_wk4_tues_fri"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-23T09:00:00",
+        "end": "2022-07-28T08:59:59"
+      }
+    },
+    "id": "ss1_ft_wk5_sat_weds"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-19T09:00:00",
+        "end": "2022-07-23T08:59:59"
+      }
+    },
+    "id": "ss1_ft_wk5_tues_fri"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-30T09:00:00",
+        "end": "2022-08-04T08:59:59"
+      }
+    },
+    "id": "ss1_ft_wk6_sat_weds"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-28T09:00:00",
+        "end": "2022-08-02T08:59:59"
+      }
+    },
+    "id": "ss1_ft_wk6_thur_mon"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-26T09:00:00",
+        "end": "2022-07-30T08:59:59"
+      }
+    },
+    "id": "ss1_ft_wk6_tues_fri"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-02T09:00:00",
+        "end": "2022-08-06T08:59:59"
+      }
+    },
+    "id": "ss1_ft_wk7_tues_fri"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-13T09:00:00",
+        "end": "2022-08-19T08:59:59"
+      }
+    },
+    "id": "ss1_ft_wk8_sat_weds"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-09T09:00:00",
+        "end": "2022-08-13T08:59:59"
+      }
+    },
+    "id": "ss1_ft_wk8_tues_fri"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-16T09:00:00",
+        "end": "2022-08-20T08:59:59"
+      }
+    },
+    "id": "ss1_ft_wk9_tues_fri"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-03-13T09:00:00",
+        "end": "2022-06-30T08:59:59"
+      }
+    },
+    "id": "ss1_k_wk1_tue_weds"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-06-30T09:00:00",
+        "end": "2022-07-07T08:59:59"
+      }
+    },
+    "id": "ss1_k_wk2_thur_weds"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-07T09:00:00",
+        "end": "2022-07-14T08:59:59"
+      }
+    },
+    "id": "ss1_k_wk3_thur_weds"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-14T09:00:00",
+        "end": "2022-07-21T08:59:59"
+      }
+    },
+    "id": "ss1_k_wk4_thur_weds"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-21T09:00:00",
+        "end": "2022-07-28T08:59:59"
+      }
+    },
+    "id": "ss1_k_wk5_thur_weds"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-28T09:00:00",
+        "end": "2022-08-04T08:59:59"
+      }
+    },
+    "id": "ss1_k_wk6_thur_weds"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-04T09:00:00",
+        "end": "2022-08-11T08:59:59"
+      }
+    },
+    "id": "ss1_k_wk7_thur_weds"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-11T09:00:00",
+        "end": "2022-08-18T08:59:59"
+      }
+    },
+    "id": "ss1_k_wk8_thur_weds"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-18T09:00:00",
+        "end": "2022-08-25T08:59:59"
+      }
+    },
+    "id": "ss1_k_wk9_thur_weds"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-06-21T09:00:00",
+        "end": null
+      }
+    },
+    "id": "ss1_seasonals_2106_22_no_end"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-06-21T09:00:00",
+        "end": "2022-08-30T09:00:00"
+      }
+    },
+    "id": "ss1_seasonals_2106_3008_22"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-04T09:00:00",
+        "end": "2022-08-11T09:00:00"
+      }
+    },
+    "id": "ss1_weeklies_0408_1108_22"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-07T09:00:00",
+        "end": "2022-07-14T09:00:00"
+      }
+    },
+    "id": "ss1_weeklies_0707_1407_22"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-11T09:00:00",
+        "end": "2022-08-18T09:00:00"
+      }
+    },
+    "id": "ss1_weeklies_1108_1808_22"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-14T09:00:00",
+        "end": "2022-07-21T09:00:00"
+      }
+    },
+    "id": "ss1_weeklies_1407_2107_22"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-18T09:00:00",
+        "end": "2022-08-25T09:00:00"
+      }
+    },
+    "id": "ss1_weeklies_1808_2508_22"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-06-21T09:00:00",
+        "end": "2022-06-30T09:00:00"
+      }
+    },
+    "id": "ss1_weeklies_2106_3006_22"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-21T09:00:00",
+        "end": "2022-07-28T09:00:00"
+      }
+    },
+    "id": "ss1_weeklies_2107_2807_22"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-08-25T09:00:00",
+        "end": "2022-08-30T09:00:00"
+      }
+    },
+    "id": "ss1_weeklies_2508_3008_22"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-28T09:00:00",
+        "end": "2022-08-04T09:00:00"
+      }
+    },
+    "id": "ss1_weeklies_2807_0408_22"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-06-30T09:00:00",
+        "end": "2022-07-07T09:00:00"
+      }
+    },
+    "id": "ss1_weeklies_3006_0707_22"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-02-17T00:00:00",
+        "end": "2022-04-30T23:59:59"
+      }
+    },
+    "id": "ss1_wk1_dates"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-04-28T00:00:00",
+        "end": "2022-08-29T23:59:59"
+      }
+    },
+    "id": "ss1_wk2_tues_to_end"
+  },
+  {
+    "parameters": {
+      "type": "purchase_history",
+      "data": {
+        "bundle": {
+          "id": "season_pass_bundle"
+        },
+        "quantity": {
+          "operator": "less_than",
+          "max": 1
+        }
+      }
+    },
+    "id": "target_season001_pass_not-purchased"
+  },
+  {
+    "parameters": {
+      "type": "purchase_history",
+      "data": {
+        "bundle": {
+          "id": "season_pass_bundle"
+        },
+        "quantity": {
+          "operator": "more_than",
+          "min": 0
+        }
+      }
+    },
+    "id": "target_season001_pass_purchased_ss1"
+  },
+  {
+    "parameters": {
+      "type": "purchase_history",
+      "data": {
+        "bundle": {
+          "id": "ss001_bundle_seasonpass"
+        },
+        "quantity": {
+          "operator": "less_than",
+          "max": 1
+        }
+      }
+    },
+    "id": "target_seasonpass_ss1_not-purchased"
+  },
+  {
+    "parameters": {
+      "type": "item_quantity",
+      "data": {
+        "item": {
+          "type": "season_passes",
+          "reference": "season_passes.ss001_seasonpass"
+        },
+        "quantity": {
+          "operator": "less_than",
+          "max": 1
+        }
+      }
+    },
+    "id": "target_seasonpass_ss1_not_owned"
+  },
+  {
+    "parameters": {
+      "type": "item_quantity",
+      "data": {
+        "item": {
+          "type": "season_passes",
+          "reference": "season_passes.ss001_seasonpass"
+        },
+        "quantity": {
+          "operator": "more_than",
+          "min": 0
+        }
+      }
+    },
+    "id": "target_seasonpass_ss1_owned"
+  },
+  {
+    "parameters": {
+      "type": "purchase_history",
+      "data": {
+        "bundle": {
+          "id": "ss001_bundle_seasonpass"
+        },
+        "quantity": {
+          "operator": "more_than",
+          "min": 0
+        }
+      }
+    },
+    "id": "target_seasonpass_ss1_purchased"
   }
 ]

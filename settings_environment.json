@@ -91,6 +91,34 @@
           "id": "dev_porting"
         },
         {
+          "profile_id": "1203936",
+          "profile_name": "Dev 2",
+          "custom_cms_branch": null,
+          "enable_bots": true,
+          "solo": {
+            "default_show_min": 1,
+            "default_show_max": 60,
+            "bots_show_min": 1,
+            "bots_show_max": 20
+          },
+          "squads": {
+            "default_show_min": 8,
+            "default_show_max": 60,
+            "squad_size": 4,
+            "default_min_squad_count": 2,
+            "default_max_squad_count": 15
+          },
+          "platforms": {
+            "platform_min": 0,
+            "platform_max": 6
+          },
+          "seconds_before_allocation": 20,
+          "max_seconds_to_wait_for_proposal": 0,
+          "seconds_to_wait_for_max_match_size": 0,
+          "match_function_version": "1.13.4",
+          "id": "dev_2"
+        },
+        {
           "profile_id": "1208927",
           "profile_name": "Dev 3",
           "custom_cms_branch": null,
@@ -117,6 +145,34 @@
           "seconds_to_wait_for_max_match_size": 0,
           "match_function_version": "1.13.4",
           "id": "dev_3"
+        },
+        {
+          "profile_id": "1208930",
+          "profile_name": "SDET",
+          "platforms": {
+            "platform_min": 0,
+            "platform_max": 6
+          },
+          "custom_cms_branch": null,
+          "enable_bots": true,
+          "seconds_before_allocation": 20,
+          "max_seconds_to_wait_for_proposal": 0,
+          "seconds_to_wait_for_max_match_size": 0,
+          "match_function_version": "1.13.4",
+          "solo": {
+            "default_show_min": 1,
+            "default_show_max": 60,
+            "bots_show_min": 1,
+            "bots_show_max": 20
+          },
+          "squads": {
+            "default_show_min": 8,
+            "default_show_max": 60,
+            "default_min_squad_count": 2,
+            "default_max_squad_count": 15,
+            "squad_size": 4
+          },
+          "id": "sdet"
         }
       ]
     },
@@ -134,8 +190,16 @@
         "profile_name": "Porting"
       },
       {
+        "profile_id": 1203936,
+        "profile_name": "Dev 2"
+      },
+      {
         "profile_id": 1208927,
         "profile_name": "Dev 3"
+      },
+      {
+        "profile_id": 1208930,
+        "profile_name": "SDET"
       }
     ],
     "id": "clientdev"
@@ -795,40 +859,74 @@
     "environment_id": 9,
     "client_environment_name": "OpenBeta",
     "config": {
-      "type": "locked",
-      "profile": {
-        "profile_id": "1195781",
-        "profile_name": "Fallguys - OpenBeta",
-        "platforms": {
-          "platform_min": 0,
-          "platform_max": 6
+      "type": "ranged",
+      "profiles": [
+        {
+          "profile_id": "1195781",
+          "profile_name": "Open Beta",
+          "platforms": {
+            "platform_min": 0,
+            "platform_max": 6
+          },
+          "custom_cms_branch": null,
+          "enable_bots": false,
+          "solo": {
+            "default_show_min": 40,
+            "default_show_max": 60,
+            "bots_show_min": null,
+            "bots_show_max": null
+          },
+          "squads": {
+            "default_show_min": 40,
+            "default_show_max": 60,
+            "squad_size": 4,
+            "default_min_squad_count": 10,
+            "default_max_squad_count": 15
+          },
+          "seconds_before_allocation": 10,
+          "max_seconds_to_wait_for_proposal": 0,
+          "seconds_to_wait_for_max_match_size": 0,
+          "match_function_version": "1.13.4",
+          "id": "beta_open"
         },
-        "custom_cms_branch": null,
-        "enable_bots": false,
-        "solo": {
-          "default_show_min": 40,
-          "default_show_max": 60,
-          "bots_show_min": null,
-          "bots_show_max": null
-        },
-        "squads": {
-          "default_show_min": 40,
-          "default_show_max": 60,
-          "squad_size": 4,
-          "default_min_squad_count": 10,
-          "default_max_squad_count": 15
-        },
-        "seconds_before_allocation": 10,
-        "max_seconds_to_wait_for_proposal": 0,
-        "seconds_to_wait_for_max_match_size": 0,
-        "match_function_version": "1.13.4",
-        "id": "beta_open"
-      }
+        {
+          "profile_id": "1209827",
+          "profile_name": "Open Beta 2",
+          "platforms": {
+            "platform_min": 0,
+            "platform_max": 6
+          },
+          "custom_cms_branch": null,
+          "enable_bots": false,
+          "solo": {
+            "default_show_min": 40,
+            "default_show_max": 60,
+            "bots_show_min": null,
+            "bots_show_max": null
+          },
+          "squads": {
+            "default_show_min": 40,
+            "default_show_max": 60,
+            "squad_size": 4,
+            "default_min_squad_count": 10,
+            "default_max_squad_count": 15
+          },
+          "seconds_before_allocation": 10,
+          "max_seconds_to_wait_for_proposal": 0,
+          "seconds_to_wait_for_max_match_size": 0,
+          "match_function_version": "1.13.4",
+          "id": "beta_open_2"
+        }
+      ]
     },
     "profiles": [
       {
         "profile_id": 1195781,
-        "profile_name": "Fallguys - OpenBeta"
+        "profile_name": "Open Beta"
+      },
+      {
+        "profile_id": 1209827,
+        "profile_name": "Open Beta 2"
       }
     ],
     "id": "openbeta"
@@ -883,15 +981,15 @@
     "config": {
       "type": "locked",
       "profile": {
-        "profile_id": "1196228",
-        "profile_name": "Production - B",
+        "profile_id": "1196225",
+        "profile_name": "Production - A",
         "platforms": {
           "platform_min": null,
           "platform_max": null
         },
         "custom_cms_branch": null,
         "enable_bots": false,
-        "seconds_before_allocation": 0,
+        "seconds_before_allocation": 2,
         "max_seconds_to_wait_for_proposal": 0,
         "seconds_to_wait_for_max_match_size": 0,
         "match_function_version": "1.13.4",
@@ -908,7 +1006,7 @@
           "default_min_squad_count": 10,
           "default_max_squad_count": 15
         },
-        "id": "prod_b"
+        "id": "prod_a"
       }
     },
     "profiles": [],
@@ -957,35 +1055,37 @@
     "environment_id": 11,
     "client_environment_name": "Staging",
     "config": {
-      "type": "locked",
-      "profile": {
-        "profile_id": "1196231",
-        "profile_name": "Staging",
-        "platforms": {
-          "platform_min": 0,
-          "platform_max": 6
-        },
-        "custom_cms_branch": null,
-        "enable_bots": false,
-        "solo": {
-          "default_show_min": 40,
-          "default_show_max": 60,
-          "bots_show_min": 1,
-          "bots_show_max": 20
-        },
-        "squads": {
-          "default_show_min": 40,
-          "default_show_max": 60,
-          "squad_size": 4,
-          "default_min_squad_count": 10,
-          "default_max_squad_count": 15
-        },
-        "seconds_before_allocation": 20,
-        "max_seconds_to_wait_for_proposal": 0,
-        "seconds_to_wait_for_max_match_size": 0,
-        "match_function_version": "1.13.4",
-        "id": "staging"
-      }
+      "type": "ranged",
+      "profiles": [
+        {
+          "profile_id": "1196231",
+          "profile_name": "Staging",
+          "platforms": {
+            "platform_min": 0,
+            "platform_max": 6
+          },
+          "custom_cms_branch": "symphony_1_leads_playtest",
+          "enable_bots": false,
+          "solo": {
+            "default_show_min": 40,
+            "default_show_max": 60,
+            "bots_show_min": 1,
+            "bots_show_max": 20
+          },
+          "squads": {
+            "default_show_min": 40,
+            "default_show_max": 60,
+            "squad_size": 4,
+            "default_min_squad_count": 10,
+            "default_max_squad_count": 15
+          },
+          "seconds_before_allocation": 20,
+          "max_seconds_to_wait_for_proposal": 0,
+          "seconds_to_wait_for_max_match_size": 0,
+          "match_function_version": "1.13.4",
+          "id": "staging"
+        }
+      ]
     },
     "profiles": [
       {

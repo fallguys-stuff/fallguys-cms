@@ -16,10 +16,24 @@
     "id": "achievements_enabled"
   },
   {
+    "value": false,
+    "platforms_whitelist": [],
+    "target_ids": [],
+    "id": "afk_util"
+  },
+  {
     "value": 4,
     "platforms_whitelist": [],
     "target_ids": [],
     "id": "age_rating_display_duration"
+  },
+  {
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": [],
+    "id": "allow_celebration_skip"
   },
   {
     "value": true,
@@ -38,7 +52,7 @@
     "id": "analytics_enabled"
   },
   {
-    "value": 4,
+    "value": 1,
     "platforms_whitelist": [],
     "target_ids": [],
     "id": "backtrace_limiter"
@@ -48,6 +62,14 @@
     "platforms_whitelist": [],
     "target_ids": [],
     "id": "block_metrics_for_private_lobbies_enabled"
+  },
+  {
+    "value": true,
+    "target_ids": [
+      "prime_users"
+    ],
+    "platforms_whitelist": [],
+    "id": "challenge_groups_enabled"
   },
   {
     "value": false,
@@ -62,6 +84,24 @@
     ],
     "platforms_whitelist": [],
     "id": "challenges_enabled"
+  },
+  {
+    "value": true,
+    "platforms_whitelist": [],
+    "target_ids": [],
+    "id": "character_enable_auto_hang"
+  },
+  {
+    "value": true,
+    "platforms_whitelist": [],
+    "target_ids": [],
+    "id": "character_enable_auto_hang_new_players"
+  },
+  {
+    "value": false,
+    "platforms_whitelist": [],
+    "target_ids": [],
+    "id": "character_enable_auto_hang_old_players"
   },
   {
     "value": true,
@@ -156,10 +196,17 @@
   {
     "value": true,
     "target_ids": [
-      "windows_users"
+      "windows_users",
+      "switch_users"
     ],
     "platforms_whitelist": [],
     "id": "epic_display_names_enabled"
+  },
+  {
+    "value": false,
+    "platforms_whitelist": [],
+    "target_ids": [],
+    "id": "epic_entitlements_quantity_adjustment_dlcs"
   },
   {
     "value": false,
@@ -229,8 +276,18 @@
   },
   {
     "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
     "platforms_whitelist": [],
-    "target_ids": [],
+    "id": "grab_prompt_enabled"
+  },
+  {
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": [],
     "id": "hard_currency_enabled"
   },
   {
@@ -296,6 +353,14 @@
     ],
     "platforms_whitelist": [],
     "id": "lwa_enabled"
+  },
+  {
+    "value": false,
+    "target_ids": [
+      "disabled_year_1900"
+    ],
+    "platforms_whitelist": [],
+    "id": "menu_3d_background_enabled"
   },
   {
     "value": true,
@@ -449,6 +514,14 @@
   },
   {
     "value": false,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": [],
+    "id": "season_pass_enabled"
+  },
+  {
+    "value": false,
     "platforms_whitelist": [],
     "target_ids": [],
     "id": "season_tracks_enabled"
@@ -530,13 +603,15 @@
     "id": "survey_url"
   },
   {
-    "value": false,
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
     "platforms_whitelist": [],
-    "target_ids": [],
     "id": "sym_store_enabled"
   },
   {
-    "value": false,
+    "value": true,
     "target_ids": [
       "after_prime_global_launch"
     ],
@@ -574,6 +649,22 @@
     ],
     "platforms_whitelist": [],
     "id": "tracking_nameplates_enabled"
+  },
+  {
+    "value": 4,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": [],
+    "id": "victory_skip_prompt_show_delay"
+  },
+  {
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": [],
+    "id": "voice_chat_enabled"
   },
   {
     "value": true,

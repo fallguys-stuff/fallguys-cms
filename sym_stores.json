@@ -1,15 +1,20 @@
 [
   {
     "storefronts": [
-      "test_sym_storefront_s6",
-      "test_sym_storefront_featured",
-      "test_sym_storefront_currency"
+      "ss001_storefront_season",
+      "ss001_storefront_featured",
+      "ss001_storefront_item_shop",
+      "ss001_storefront_currency",
+      "sym_storeroom_promo_bundles"
     ],
     "target_ids": [
       "after_prime_global_launch"
     ],
-    "currency_storefront": null,
-    "iap_disclaimer_text": "iap_disclaimer_pc",
-    "id": "test_store"
+    "currency_storefront": "ss001_storefront_currency",
+    "default_iap_disclaimer_text": "localised_strings.iap_disclaimer_default_jp_url",
+    "steam_iap_disclaimer_text": "localised_strings.iap_disclaimer_default_jp_url",
+    "ps4_iap_disclaimer_text": "localised_strings.iap_disclaimer_default_jp_url",
+    "unfocused_storefront_opacity": 1,
+    "id": "store_0001"
   }
 ]
