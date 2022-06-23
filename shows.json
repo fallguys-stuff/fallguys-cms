@@ -85,7 +85,7 @@
     },
     "private_lobby_size": {
       "type": "override",
-      "min_players": 2,
+      "min_players": 30,
       "max_players": 60
     },
     "show_type": {
@@ -207,33 +207,6 @@
     "closes_at": "2021-11-14T00:00:00",
     "skill_score_factor_override": null,
     "id": "event_bubble_template"
-  },
-  {
-    "show_name": "localised_strings.show_title_squads_day_at_races_s1",
-    "show_description": "localised_strings.show_desc_day_at_races_s1",
-    "show_image": "RaceLevels",
-    "default_episode": "levels_episode.episode_event_only_day_at_races",
-    "episode_reward_settings_id": "squads",
-    "min_party_size": 1,
-    "max_party_size": 4,
-    "opens_at": "2022-06-24T09:00:00",
-    "closes_at": "2022-06-27T09:00:00",
-    "show_type": {
-      "showtype_switch": "squad",
-      "squad_size": 4
-    },
-    "size": {
-      "type": "override",
-      "min_players": 28,
-      "max_players": 44
-    },
-    "private_lobby_size": {
-      "type": "default"
-    },
-    "show_image_cms": "show_selector_day_at_the_races",
-    "themeable_override": null,
-    "skill_score_factor_override": null,
-    "id": "event_day_at_races_squads_2406_to_2606_2022"
   },
   {
     "show_name": "localised_strings.show_title_squads_day_at_races_s1",
@@ -468,7 +441,7 @@
     },
     "private_lobby_size": {
       "type": "override",
-      "min_players": 2,
+      "min_players": 30,
       "max_players": 60
     },
     "show_type": {
@@ -1058,7 +1031,7 @@
     },
     "private_lobby_size": {
       "type": "override",
-      "min_players": 8,
+      "min_players": 30,
       "max_players": 32
     },
     "show_type": {
@@ -1228,7 +1201,7 @@
     },
     "private_lobby_size": {
       "type": "override",
-      "min_players": 2,
+      "min_players": 30,
       "max_players": 40
     },
     "show_type": {
@@ -1405,34 +1378,6 @@
     "closes_at": "2022-07-07T09:00:00",
     "skill_score_factor_override": null,
     "id": "event_only_finals_0507_to_0607_2022"
-  },
-  {
-    "show_name": "localised_strings.show_name_only_finals",
-    "show_description": "localised_strings.show_desc_only_finals",
-    "show_image": null,
-    "show_image_cms": "show_selector_show_only_finals",
-    "min_party_size": 1,
-    "max_party_size": 1,
-    "size": {
-      "type": "override",
-      "min_players": 6,
-      "max_players": 6
-    },
-    "private_lobby_size": {
-      "type": "override",
-      "min_players": 2,
-      "max_players": 6
-    },
-    "show_type": {
-      "showtype_switch": "individual"
-    },
-    "default_episode": "levels_episode.episode_event_only_finals_template",
-    "episode_reward_settings_id": "solo_rewards",
-    "themeable_override": null,
-    "opens_at": "2022-06-27T09:00:00",
-    "closes_at": "2022-06-29T09:00:00",
-    "skill_score_factor_override": null,
-    "id": "event_only_finals_2706_to_2806_2022"
   },
   {
     "show_name": "localised_strings.show_name_only_finals",
@@ -1791,8 +1736,34 @@
       "max_players": 30
     },
     "private_lobby_size": {
+      "type": "default"
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.episode_event_only_jump_club",
+    "episode_reward_settings_id": "solos",
+    "themeable_override": null,
+    "opens_at": "2022-06-27T09:00:00",
+    "closes_at": "2022-06-29T09:00:00",
+    "skill_score_factor_override": null,
+    "id": "event_only_jump_club_2706_to_2806_2022"
+  },
+  {
+    "show_name": "localised_strings.show_name_only_jump_club",
+    "show_description": "localised_strings.show_desc_only_jump_club",
+    "show_image": "JumpAround",
+    "show_image_cms": "show_selector_show_jumparound",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
       "type": "override",
-      "min_players": 2,
+      "min_players": 24,
+      "max_players": 30
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 30,
       "max_players": 30
     },
     "show_type": {
@@ -1831,6 +1802,30 @@
     "closes_at": null,
     "skill_score_factor_override": null,
     "id": "event_only_jump_club_template"
+  },
+  {
+    "show_name": "localised_strings.show_name_only_races",
+    "show_description": "localised_strings.show_desc_only_races",
+    "show_image": "RaceLevels",
+    "show_image_cms": "show_selector_show_racelevels",
+    "default_episode": "levels_episode.episode_event_only_races_any_final",
+    "episode_reward_settings_id": "solo_rewards",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "default"
+    },
+    "private_lobby_size": {
+      "type": "default"
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "themeable_override": null,
+    "opens_at": "2022-06-24T09:00:00",
+    "closes_at": "2022-06-27T09:00:00",
+    "skill_score_factor_override": null,
+    "id": "event_only_races_any_final_2406_to_2606_2022"
   },
   {
     "show_name": "localised_strings.show_name_only_races",
@@ -1894,7 +1889,7 @@
     },
     "private_lobby_size": {
       "type": "override",
-      "min_players": 2,
+      "min_players": 30,
       "max_players": 60
     },
     "show_type": {
@@ -2096,7 +2091,7 @@
     },
     "private_lobby_size": {
       "type": "override",
-      "min_players": 2,
+      "min_players": 30,
       "max_players": 40
     },
     "show_type": {
@@ -2242,7 +2237,7 @@
     },
     "private_lobby_size": {
       "type": "override",
-      "min_players": 2,
+      "min_players": 30,
       "max_players": 60
     },
     "show_type": {
@@ -2342,7 +2337,7 @@
     },
     "private_lobby_size": {
       "type": "override",
-      "min_players": 2,
+      "min_players": 30,
       "max_players": 60
     },
     "show_type": {
@@ -2420,7 +2415,7 @@
     },
     "private_lobby_size": {
       "type": "override",
-      "min_players": 2,
+      "min_players": 30,
       "max_players": 60
     },
     "show_type": {
@@ -2476,7 +2471,7 @@
     },
     "private_lobby_size": {
       "type": "override",
-      "min_players": 1,
+      "min_players": 30,
       "max_players": 40
     },
     "show_type": {
@@ -2504,7 +2499,7 @@
     },
     "private_lobby_size": {
       "type": "override",
-      "min_players": 2,
+      "min_players": 30,
       "max_players": 40
     },
     "show_type": {
@@ -2640,7 +2635,7 @@
     },
     "private_lobby_size": {
       "type": "override",
-      "min_players": 2,
+      "min_players": 30,
       "max_players": 40
     },
     "show_type": {
@@ -2692,7 +2687,7 @@
     },
     "private_lobby_size": {
       "type": "override",
-      "min_players": 2,
+      "min_players": 30,
       "max_players": 60
     },
     "show_type": {
@@ -3008,7 +3003,7 @@
     },
     "private_lobby_size": {
       "type": "override",
-      "min_players": 2,
+      "min_players": 30,
       "max_players": 60
     },
     "show_type": {
@@ -3082,7 +3077,7 @@
     },
     "private_lobby_size": {
       "type": "override",
-      "min_players": 2,
+      "min_players": 30,
       "max_players": 60
     },
     "show_type": {
@@ -3168,7 +3163,7 @@
     },
     "private_lobby_size": {
       "type": "override",
-      "min_players": 2,
+      "min_players": 30,
       "max_players": 40
     },
     "show_type": {
@@ -3333,7 +3328,7 @@
     },
     "private_lobby_size": {
       "type": "override",
-      "min_players": 2,
+      "min_players": 30,
       "max_players": 38
     },
     "show_type": {
@@ -3572,7 +3567,7 @@
     },
     "private_lobby_size": {
       "type": "override",
-      "min_players": 2,
+      "min_players": 30,
       "max_players": 60
     },
     "show_type": {
@@ -3813,7 +3808,7 @@
     },
     "private_lobby_size": {
       "type": "override",
-      "min_players": 2,
+      "min_players": 30,
       "max_players": 60
     },
     "show_type": {
@@ -4023,7 +4018,7 @@
     },
     "private_lobby_size": {
       "type": "override",
-      "min_players": 12,
+      "min_players": 30,
       "max_players": 45
     },
     "show_type": {
