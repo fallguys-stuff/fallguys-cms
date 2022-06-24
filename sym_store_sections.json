@@ -233,7 +233,7 @@
   {
     "name": "sym_storesection_title_dressup",
     "storefront": "ss001_storefront_featured",
-    "order_preference": 66,
+    "order_preference": 96,
     "section_height": 2,
     "show_refresh_timer": true,
     "refresh_cycle_length_seconds": null,
@@ -275,9 +275,37 @@
       }
     ],
     "target_ids": [
-      "ss1_ft_wk5_sat_weds"
+      "ss1_ft_wk1_sat_weds"
     ],
     "id": "ss001_feat_wk1_sat"
+  },
+  {
+    "name": "sym_storesection_title_more_offers",
+    "storefront": "ss001_storefront_featured",
+    "order_preference": 93,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "refresh_cycle_length_seconds": null,
+    "bundle_slots": [
+      {
+        "bundle_slot": "slot_bundle_ss1_aiai_2x2",
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        }
+      },
+      {
+        "bundle_slot": "slot_bundle_ss1_gato_2x2",
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        }
+      }
+    ],
+    "target_ids": [
+      "ss1_ft_wk1_sat_weds"
+    ],
+    "id": "ss001_feat_wk1_sat_02"
   },
   {
     "name": "sym_storesection_title_sports_stars",
@@ -611,7 +639,7 @@
   {
     "name": "sym_storesection_title_cutecritters",
     "storefront": "ss001_storefront_featured",
-    "order_preference": 96,
+    "order_preference": 66,
     "section_height": 2,
     "show_refresh_timer": true,
     "refresh_cycle_length_seconds": null,
@@ -639,7 +667,7 @@
       }
     ],
     "target_ids": [
-      "ss1_ft_wk1_sat_weds"
+      "ss1_ft_wk5_sat_weds"
     ],
     "id": "ss001_feat_wk5_sat"
   },
@@ -1602,6 +1630,13 @@
           "tile_width": 2,
           "tile_height": 2
         }
+      },
+      {
+        "bundle_slot": "ss001_season_poppingwhizbanger",
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        }
       }
     ],
     "target_ids": [
@@ -1696,6 +1731,13 @@
       },
       {
         "bundle_slot": "hidden_slot_promo_sb_5000",
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        }
+      },
+      {
+        "bundle_slot": "hidden_slot_promo_gamepassperk_001",
         "layout": {
           "tile_width": 2,
           "tile_height": 2
