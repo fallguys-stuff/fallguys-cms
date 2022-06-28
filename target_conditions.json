@@ -330,6 +330,17 @@
       "type": "date_time",
       "data": {
         "operator": "between",
+        "start": "2022-07-07T09:00:00",
+        "end": "2022-07-12T09:00:00"
+      }
+    },
+    "id": "date_0707_to_1107_2022"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
         "start": "2022-01-08T08:00:00",
         "end": "2022-01-12T08:00:00"
       }
@@ -1118,6 +1129,22 @@
   },
   {
     "parameters": {
+      "type": "item_quantity",
+      "data": {
+        "item": {
+          "type": "cosmetics_nameplates",
+          "reference": "cosmetics_nameplates.nameplate_ss1_15"
+        },
+        "quantity": {
+          "operator": "equal_to",
+          "exact": 0
+        }
+      }
+    },
+    "id": "does_not_own_nameplate_ss1_15"
+  },
+  {
+    "parameters": {
       "type": "purchase_history",
       "data": {
         "bundle": {
@@ -1130,6 +1157,36 @@
       }
     },
     "id": "has_not_purchased_japan_discount_bundle"
+  },
+  {
+    "parameters": {
+      "type": "purchase_history",
+      "data": {
+        "bundle": {
+          "id": "ss001_season_poppingwhizbanger"
+        },
+        "quantity": {
+          "operator": "less_than",
+          "max": 1
+        }
+      }
+    },
+    "id": "has_not_purchased_ss1_popping"
+  },
+  {
+    "parameters": {
+      "type": "purchase_history",
+      "data": {
+        "bundle": {
+          "id": "ss001_starter_bundle"
+        },
+        "quantity": {
+          "operator": "less_than",
+          "max": 1
+        }
+      }
+    },
+    "id": "has_not_purchased_ss1_starterbundle"
   },
   {
     "parameters": {
@@ -1367,6 +1424,17 @@
       }
     },
     "id": "is_le_ss1_pelican"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-06-29T10:00:00",
+        "end": "2022-07-11T10:00:00"
+      }
+    },
+    "id": "is_le_ss1_wobble"
   },
   {
     "parameters": {
@@ -3256,6 +3324,17 @@
       }
     },
     "id": "ss1_ft_wk2_sat_weds"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-06-30T09:00:00",
+        "end": "2022-07-05T08:59:59"
+      }
+    },
+    "id": "ss1_ft_wk2_thur_mon"
   },
   {
     "parameters": {
