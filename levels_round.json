@@ -76,13 +76,20 @@
       "qualification_tier": {
         "multiplier": 1,
         "badge": "gold",
-        "description": "localised_strings.badge_text_victory"
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": null,
+        "medal_description_value": null
       }
     },
     "visualiser_estimate_percentage_qualification": 50,
     "visualiser_estimate_variance": 0,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_disconnect",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_1v1_button_basher_40"
   },
   {
@@ -765,6 +772,9 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_airtime_40"
   },
   {
@@ -1367,19 +1377,25 @@
           "team_score": 20,
           "multiplier": 3,
           "badge": "gold",
-          "description": "localised_strings.badge_text_points_20"
+          "description": "localised_strings.badge_text_points_20",
+          "medal_description": null,
+          "medal_description_value": null
         },
         {
           "team_score": 10,
           "multiplier": 2,
           "badge": "silver",
-          "description": "localised_strings.badge_text_points_10"
+          "description": "localised_strings.badge_text_points_10",
+          "medal_description": null,
+          "medal_description_value": null
         },
         {
           "team_score": 3,
           "multiplier": 1,
           "badge": "bronze",
-          "description": "localised_strings.badge_text_points_3"
+          "description": "localised_strings.badge_text_points_3",
+          "medal_description": null,
+          "medal_description_value": null
         }
       ]
     },
@@ -1387,6 +1403,9 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_score_basketfall",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_basketfall_40"
   },
   {
@@ -1422,19 +1441,25 @@
           "team_score": 20,
           "multiplier": 3,
           "badge": "gold",
-          "description": "localised_strings.badge_text_points_20"
+          "description": "localised_strings.badge_text_points_20",
+          "medal_description": null,
+          "medal_description_value": null
         },
         {
           "team_score": 10,
           "multiplier": 2,
           "badge": "silver",
-          "description": "localised_strings.badge_text_points_10"
+          "description": "localised_strings.badge_text_points_10",
+          "medal_description": null,
+          "medal_description_value": null
         },
         {
           "team_score": 3,
           "multiplier": 1,
           "badge": "bronze",
-          "description": "localised_strings.badge_text_points_3"
+          "description": "localised_strings.badge_text_points_3",
+          "medal_description": null,
+          "medal_description_value": null
         }
       ]
     },
@@ -1442,6 +1467,11 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_score_basketfall",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_basketfall_aprilstart"
   },
   {
@@ -2402,19 +2432,25 @@
           "team_score": 20,
           "multiplier": 3,
           "badge": "gold",
-          "description": "localised_strings.badge_text_points_20"
+          "description": "localised_strings.badge_text_points_20",
+          "medal_description": null,
+          "medal_description_value": null
         },
         {
           "team_score": 10,
           "multiplier": 2,
           "badge": "silver",
-          "description": "localised_strings.badge_text_points_10"
+          "description": "localised_strings.badge_text_points_10",
+          "medal_description": null,
+          "medal_description_value": null
         },
         {
           "team_score": 3,
           "multiplier": 1,
           "badge": "bronze",
-          "description": "localised_strings.badge_text_points_3"
+          "description": "localised_strings.badge_text_points_3",
+          "medal_description": null,
+          "medal_description_value": null
         }
       ]
     },
@@ -2422,6 +2458,11 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_score_basketfall",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_basketfall_xtreme_aprilstart"
   },
   {
@@ -2617,6 +2658,9 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_biggestfan_40"
   },
   {
@@ -2689,6 +2733,8 @@
     "scene_name": "FallGuy_BiggestFan",
     "game_rules": "game_rules.round_biggestfan",
     "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Race",
     "ingame_music_event": "MUS_InGame_Round_Race",
     "extra_ambience_soundbank": null,
@@ -2746,8 +2792,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_biggestfan_difficult"
   },
   {
@@ -3741,16 +3785,24 @@
     "scene_name": "FallGuy_BlastBall_ArenaSurvival",
     "game_rules": "game_rules.round_blastball_arenasurvival_only_finals",
     "level_archetype": "archetype_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Final_SS1",
     "ingame_music_event": "MUS_InGame_Round_Final_SS1",
-    "main_ambience_state": "normal",
     "extra_ambience_soundbank": null,
     "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "normal",
     "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_BlastBall",
     "level_badge_name": "BlastBallArena",
     "level_variation": null,
     "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
     "tags": [
       "level_tags.covenant_final",
       "level_tags.playspace_platform",
@@ -3771,14 +3823,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
-    "lower_main_ambience_volume": false,
-    "collectable_spawn": null,
-    "collectable_spawn_overrides": null,
-    "tom_level_variation_supported": false,
-    "tom_level_variation_overrides": null,
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
-    "crown_prompt_max_distance": 100,
     "id": "round_blastball_arenasurvival_only_finals"
   },
   {
@@ -3786,6 +3830,8 @@
     "scene_name": "FallGuy_BlastBall_ArenaSurvival",
     "game_rules": "game_rules.round_blastball_arenasurvival_pelican",
     "level_archetype": "archetype_final",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Final_SS1",
     "ingame_music_event": "MUS_InGame_Round_Final_SS1",
     "extra_ambience_soundbank": null,
@@ -3793,10 +3839,16 @@
     "lower_main_ambience_volume": false,
     "main_ambience_state": "silent",
     "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_BlastBall",
     "level_badge_name": "BlastBallArena",
     "level_variation": null,
     "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "tags": [],
     "bonus": {
       "type": "qualification",
       "qualification_tier": {
@@ -3811,14 +3863,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
-    "collectable_spawn": null,
-    "collectable_spawn_overrides": null,
-    "crown_prompt_max_distance": 100,
-    "tom_level_variation_supported": false,
-    "tom_level_variation_overrides": null,
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
-    "tags": [],
     "id": "round_blastball_arenasurvival_pelican"
   },
   {
@@ -4034,13 +4078,18 @@
       "qualification_tier": {
         "multiplier": 1,
         "badge": "gold",
-        "description": "localised_strings.badge_text_survived"
+        "description": "localised_strings.badge_text_survived",
+        "medal_description": null,
+        "medal_description_value": null
       }
     },
     "visualiser_estimate_percentage_qualification": 46,
     "visualiser_estimate_variance": 22,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_block_party_40"
   },
   {
@@ -4074,13 +4123,20 @@
       "qualification_tier": {
         "multiplier": 1,
         "badge": "gold",
-        "description": "localised_strings.badge_text_survived"
+        "description": "localised_strings.badge_text_survived",
+        "medal_description": null,
+        "medal_description_value": null
       }
     },
     "visualiser_estimate_percentage_qualification": 46,
     "visualiser_estimate_variance": 22,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_block_party_aprilstart"
   },
   {
@@ -4125,6 +4181,8 @@
     "visualiser_estimate_variance": 22,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "id": "round_block_party_difficult"
   },
   {
@@ -4178,6 +4236,8 @@
     "scene_name": "FallGuy_Block_Party",
     "game_rules": "game_rules.round_block_party_event_only_survival_s61",
     "level_archetype": "archetype_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Survival",
     "ingame_music_event": "MUS_InGame_Round_Survival",
     "extra_ambience_soundbank": null,
@@ -4214,8 +4274,6 @@
     "visualiser_estimate_variance": 22,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_block_party_event_only_survival_s61"
   },
   {
@@ -4223,6 +4281,8 @@
     "scene_name": "FallGuy_Block_Party",
     "game_rules": "game_rules.round_block_party_event_only_survival_s61_final",
     "level_archetype": "archetype_final",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Final",
     "ingame_music_event": "MUS_InGame_Round_Final",
     "extra_ambience_soundbank": null,
@@ -4259,8 +4319,6 @@
     "visualiser_estimate_variance": 22,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_block_party_event_only_survival_s61_final"
   },
   {
@@ -5067,13 +5125,17 @@
           "team_position": 1,
           "multiplier": 2,
           "badge": "gold",
-          "description": "localised_strings.badge_text_position_01"
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": null,
+          "medal_description_value": null
         },
         {
           "team_position": 2,
           "multiplier": 1,
           "badge": "silver",
-          "description": "localised_strings.badge_text_position_02"
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": null,
+          "medal_description_value": null
         }
       ]
     },
@@ -5081,6 +5143,11 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_block_party_xtreme_aprilstart"
   },
   {
@@ -5225,13 +5292,17 @@
           "team_position": 1,
           "multiplier": 2,
           "badge": "gold",
-          "description": "localised_strings.badge_text_position_01"
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": null,
+          "medal_description_value": null
         },
         {
           "team_position": 2,
           "multiplier": 1,
           "badge": "silver",
-          "description": "localised_strings.badge_text_position_02"
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": null,
+          "medal_description_value": null
         }
       ]
     },
@@ -5239,6 +5310,9 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_disconnect",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_chicken_chase_40"
   },
   {
@@ -5390,13 +5464,17 @@
           "team_position": 1,
           "multiplier": 2,
           "badge": "gold",
-          "description": "localised_strings.badge_text_position_01"
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": null,
+          "medal_description_value": null
         },
         {
           "team_position": 2,
           "multiplier": 1,
           "badge": "silver",
-          "description": "localised_strings.badge_text_position_02"
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": null,
+          "medal_description_value": null
         }
       ]
     },
@@ -5404,6 +5482,11 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_disconnect",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_chicken_chase_event_aprilstart"
   },
   {
@@ -5614,13 +5697,17 @@
           "team_position": 1,
           "multiplier": 2,
           "badge": "gold",
-          "description": "localised_strings.badge_text_position_01"
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": null,
+          "medal_description_value": null
         },
         {
           "team_position": 2,
           "multiplier": 1,
           "badge": "silver",
-          "description": "localised_strings.badge_text_position_02"
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": null,
+          "medal_description_value": null
         }
       ]
     },
@@ -5628,6 +5715,11 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_disconnect",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_chicken_chase_event_xtreme_aprilstart"
   },
   {
@@ -6046,6 +6138,9 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_chompchomp_40"
   },
   {
@@ -6053,6 +6148,8 @@
     "scene_name": "FallGuy_ChompChomp_01",
     "game_rules": "game_rules.round_chompchomp",
     "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Race",
     "ingame_music_event": "MUS_InGame_Round_Race",
     "extra_ambience_soundbank": null,
@@ -6110,8 +6207,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_chompchomp_difficult"
   },
   {
@@ -6119,6 +6214,8 @@
     "scene_name": "FallGuy_ChompChomp_01",
     "game_rules": "game_rules.round_chompchomp_squads",
     "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Race",
     "ingame_music_event": "MUS_InGame_Round_Race",
     "extra_ambience_soundbank": null,
@@ -6126,10 +6223,13 @@
     "lower_main_ambience_volume": false,
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_ChompChomp",
     "level_badge_name": "ChompChomp",
     "level_variation": "levels_variation.variation_chompchomp",
     "level_variation_overrides": "levels_variation_overrides.var_over_chompchomp_vulture",
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "tags": [
@@ -6171,11 +6271,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
-    "crown_prompt_max_distance": 100,
-    "tom_level_variation_supported": null,
-    "tom_level_variation_overrides": null,
     "id": "round_chompchomp_event_aprilstart"
   },
   {
@@ -6505,6 +6600,8 @@
     "scene_name": "FallGuy_ChompChomp_01",
     "game_rules": "game_rules.round_chompchomp_squads",
     "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Race",
     "ingame_music_event": "MUS_InGame_Round_Race",
     "extra_ambience_soundbank": null,
@@ -6512,10 +6609,13 @@
     "lower_main_ambience_volume": false,
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_ChompChomp",
     "level_badge_name": "ChompChomp",
     "level_variation": "levels_variation.variation_chompchomp",
     "level_variation_overrides": "levels_variation_overrides.var_over_chompchomp_event_xtreme_vulture",
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "tags": [
@@ -6557,11 +6657,6 @@
     "visualiser_estimate_variance": 10,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival_race",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
-    "crown_prompt_max_distance": 100,
-    "tom_level_variation_supported": null,
-    "tom_level_variation_overrides": null,
     "id": "round_chompchomp_event_xtreme_aprilstart"
   },
   {
@@ -6828,6 +6923,8 @@
     "scene_name": "FallGuy_ChompChomp_01",
     "game_rules": "game_rules.round_chompchomp_pelican",
     "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Race",
     "ingame_music_event": "MUS_InGame_Round_Race",
     "extra_ambience_soundbank": null,
@@ -6880,8 +6977,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_chompchomp_pelican"
   },
   {
@@ -7564,7 +7659,7 @@
       "team_position_tiers": [
         {
           "team_position": 1,
-          "multiplier": 2,
+          "multiplier": 3,
           "badge": "gold",
           "description": "localised_strings.badge_text_position_01",
           "medal_description": "localised_strings.medal_context_team_position_01",
@@ -7572,10 +7667,18 @@
         },
         {
           "team_position": 2,
-          "multiplier": 1,
+          "multiplier": 2,
           "badge": "silver",
           "description": "localised_strings.badge_text_position_02",
           "medal_description": "localised_strings.medal_context_team_position_02",
+          "medal_description_value": null
+        },
+        {
+          "team_position": 3,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_position_03",
+          "medal_description": "localised_strings.medal_context_team_position_03",
           "medal_description_value": null
         }
       ]
@@ -7617,15 +7720,27 @@
       "team_position_tiers": [
         {
           "team_position": 1,
-          "multiplier": 2,
+          "multiplier": 3,
           "badge": "gold",
-          "description": "localised_strings.badge_text_position_01"
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_team_position_01",
+          "medal_description_value": null
         },
         {
           "team_position": 2,
-          "multiplier": 1,
+          "multiplier": 2,
           "badge": "silver",
-          "description": "localised_strings.badge_text_position_02"
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": "localised_strings.medal_context_team_position_02",
+          "medal_description_value": null
+        },
+        {
+          "team_position": 3,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_position_03",
+          "medal_description": "localised_strings.medal_context_team_position_03",
+          "medal_description_value": null
         }
       ]
     },
@@ -7633,6 +7748,9 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_special_tail_tag",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_conveyor_arena_40"
   },
   {
@@ -7687,8 +7805,8 @@
           "team_position": 3,
           "multiplier": 1,
           "badge": "bronze",
-          "description": null,
-          "medal_description": null,
+          "description": "localised_strings.badge_text_position_03",
+          "medal_description": "localised_strings.medal_context_team_position_03",
           "medal_description_value": null
         }
       ]
@@ -7710,7 +7828,7 @@
     "ingame_music_event": "MUS_InGame_Round_Team",
     "extra_ambience_soundbank": null,
     "extra_ambience_event": null,
-    "lower_main_ambience_volume": null,
+    "lower_main_ambience_volume": false,
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
     "crown_prompt_max_distance": 100,
@@ -7718,7 +7836,7 @@
     "level_badge_name": "TailTag",
     "level_variation": "levels_variation.variation_conveyor_arena",
     "level_variation_overrides": null,
-    "tom_level_variation_supported": null,
+    "tom_level_variation_supported": false,
     "tom_level_variation_overrides": null,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
@@ -7751,8 +7869,8 @@
           "team_position": 3,
           "multiplier": 1,
           "badge": "bronze",
-          "description": null,
-          "medal_description": null,
+          "description": "localised_strings.badge_text_position_03",
+          "medal_description": "localised_strings.medal_context_team_position_03",
           "medal_description_value": null
         }
       ]
@@ -7815,8 +7933,8 @@
           "team_position": 3,
           "multiplier": 1,
           "badge": "bronze",
-          "description": null,
-          "medal_description": null,
+          "description": "localised_strings.badge_text_position_03",
+          "medal_description": "localised_strings.medal_context_team_position_03",
           "medal_description_value": null
         }
       ]
@@ -7879,8 +7997,8 @@
           "team_position": 3,
           "multiplier": 1,
           "badge": "bronze",
-          "description": null,
-          "medal_description": null,
+          "description": "localised_strings.badge_text_position_03",
+          "medal_description": "localised_strings.medal_context_team_position_03",
           "medal_description_value": null
         }
       ]
@@ -7943,8 +8061,8 @@
           "team_position": 3,
           "multiplier": 1,
           "badge": "bronze",
-          "description": null,
-          "medal_description": null,
+          "description": "localised_strings.badge_text_position_03",
+          "medal_description": "localised_strings.medal_context_team_position_03",
           "medal_description_value": null
         }
       ]
@@ -8036,13 +8154,18 @@
       "qualification_tier": {
         "multiplier": 1,
         "badge": "gold",
-        "description": "localised_strings.badge_text_victory"
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": null,
+        "medal_description_value": null
       }
     },
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_disconnect",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_crown_maze_40"
   },
   {
@@ -8453,6 +8576,9 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_dodge_fall_40"
   },
   {
@@ -8460,6 +8586,8 @@
     "scene_name": "FallGuy_DodgeFall",
     "game_rules": "game_rules.round_dodge_fall",
     "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Race",
     "ingame_music_event": "MUS_InGame_Round_Race",
     "extra_ambience_soundbank": null,
@@ -8517,8 +8645,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_dodge_fall_difficult"
   },
   {
@@ -8997,6 +9123,8 @@
     "level_variation_overrides": null,
     "tom_level_variation_supported": false,
     "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
     "tags": [
       "level_tags.covenant_free_for_all",
       "level_tags.playspace_track",
@@ -9037,8 +9165,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "collectable_spawn": null,
-    "collectable_spawn_overrides": null,
     "id": "round_door_dash"
   },
   {
@@ -9101,6 +9227,9 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_door_dash_40"
   },
   {
@@ -9108,6 +9237,8 @@
     "scene_name": "FallGuy_DoorDash",
     "game_rules": "game_rules.round_door_dash",
     "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Race",
     "ingame_music_event": "MUS_InGame_Round_Race",
     "extra_ambience_soundbank": null,
@@ -9164,8 +9295,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_door_dash_difficult"
   },
   {
@@ -9173,6 +9302,8 @@
     "scene_name": "FallGuy_DoorDash",
     "game_rules": "game_rules.round_door_dash_squads",
     "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Race",
     "ingame_music_event": "MUS_InGame_Round_Race",
     "extra_ambience_soundbank": null,
@@ -9180,10 +9311,13 @@
     "lower_main_ambience_volume": false,
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_DoorRush",
     "level_badge_name": "DoorDash",
     "level_variation": "levels_variation.variation_door_dash",
     "level_variation_overrides": "levels_variation_overrides.var_over_door_dash_event_vulture",
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "tags": [
@@ -9225,11 +9359,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
-    "crown_prompt_max_distance": 100,
-    "tom_level_variation_supported": null,
-    "tom_level_variation_overrides": null,
     "id": "round_door_dash_event_aprilstart"
   },
   {
@@ -9755,6 +9884,8 @@
     "scene_name": "FallGuy_DoorDash",
     "game_rules": "game_rules.round_door_dash_squads",
     "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Race",
     "ingame_music_event": "MUS_InGame_Round_Race",
     "extra_ambience_soundbank": null,
@@ -9811,8 +9942,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_door_dash_event_xtreme_aprilstart"
   },
   {
@@ -11042,6 +11171,9 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_drumtop_40"
   },
   {
@@ -11179,6 +11311,8 @@
     "scene_name": "FallGuy_DrumTop",
     "game_rules": "game_rules.round_drumtop",
     "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Race_Season_05",
     "ingame_music_event": "MUS_InGame_Round_Race_Season_05",
     "extra_ambience_soundbank": "BNK_Ambiences_Season_05",
@@ -11235,8 +11369,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_drumtop_difficult"
   },
   {
@@ -12875,13 +13007,17 @@
           "team_position": 1,
           "multiplier": 2,
           "badge": "gold",
-          "description": "localised_strings.badge_text_position_01"
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": null,
+          "medal_description_value": null
         },
         {
           "team_position": 2,
           "multiplier": 1,
           "badge": "silver",
-          "description": "localised_strings.badge_text_position_02"
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": null,
+          "medal_description_value": null
         }
       ]
     },
@@ -12889,6 +13025,9 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_disconnect",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_egg_grab_40"
   },
   {
@@ -13008,6 +13147,8 @@
     "scene_name": "FallGuy_EggGrab",
     "game_rules": "game_rules.round_egg_grab_squads",
     "level_archetype": "archetype_team",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Team",
     "ingame_music_event": "MUS_InGame_Round_Team",
     "extra_ambience_soundbank": null,
@@ -13058,8 +13199,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_disconnect",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_egg_grab_event_aprilstart"
   },
   {
@@ -13126,6 +13265,8 @@
     "scene_name": "FallGuy_EggGrab",
     "game_rules": "game_rules.round_egg_grab_squads",
     "level_archetype": "archetype_team",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Team",
     "ingame_music_event": "MUS_InGame_Round_Team",
     "extra_ambience_soundbank": null,
@@ -13176,8 +13317,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_disconnect",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_egg_grab_event_xtreme_aprilstart"
   },
   {
@@ -13600,6 +13739,8 @@
     "scene_name": "FallGuy_SkeeFall",
     "game_rules": "game_rules.round_skeefall_event_only_skeefall_timetrial_s6_1",
     "level_archetype": "archetype_final",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Final",
     "ingame_music_event": "MUS_InGame_Round_Final",
     "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
@@ -13657,8 +13798,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_event_only_skeefall_timetrial_s6_1"
   },
   {
@@ -13762,19 +13901,25 @@
           "team_score": 10,
           "multiplier": 3,
           "badge": "gold",
-          "description": "localised_strings.badge_text_goals_01"
+          "description": "localised_strings.badge_text_goals_01",
+          "medal_description": null,
+          "medal_description_value": null
         },
         {
           "team_score": 5,
           "multiplier": 2,
           "badge": "silver",
-          "description": "localised_strings.badge_text_goals_02"
+          "description": "localised_strings.badge_text_goals_02",
+          "medal_description": null,
+          "medal_description_value": null
         },
         {
           "team_score": 3,
           "multiplier": 1,
           "badge": "bronze",
-          "description": "localised_strings.badge_text_goals_03"
+          "description": "localised_strings.badge_text_goals_03",
+          "medal_description": null,
+          "medal_description_value": null
         }
       ]
     },
@@ -13782,6 +13927,9 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_score_fallball",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_fall_ball_60_players_40"
   },
   {
@@ -13842,6 +13990,11 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_score_fallball",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_fall_ball_aprilstart"
   },
   {
@@ -14039,10 +14192,10 @@
     "level_archetype": "archetype_team",
     "ingame_music_soundbank": "BNK_Music_GP_Team",
     "ingame_music_event": "MUS_InGame_Round_Team",
-    "main_ambience_state": "normal",
     "extra_ambience_soundbank": null,
     "extra_ambience_event": null,
     "lower_main_ambience_volume": false,
+    "main_ambience_state": "normal",
     "player_name_max_distance": 50,
     "loading_screen_name": "Splash_FallBall",
     "level_badge_name": "FallBall",
@@ -14061,19 +14214,25 @@
           "team_score": 10,
           "multiplier": 3,
           "badge": "gold",
-          "description": "localised_strings.badge_text_goals_01"
+          "description": "localised_strings.badge_text_goals_01",
+          "medal_description": null,
+          "medal_description_value": null
         },
         {
           "team_score": 5,
           "multiplier": 2,
           "badge": "silver",
-          "description": "localised_strings.badge_text_goals_02"
+          "description": "localised_strings.badge_text_goals_02",
+          "medal_description": null,
+          "medal_description_value": null
         },
         {
           "team_score": 3,
           "multiplier": 1,
           "badge": "bronze",
-          "description": "localised_strings.badge_text_goals_03"
+          "description": "localised_strings.badge_text_goals_03",
+          "medal_description": null,
+          "medal_description_value": null
         }
       ]
     },
@@ -14081,6 +14240,11 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_score_fallball",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_fall_ball_cup_only_squads_01"
   },
   {
@@ -14090,10 +14254,10 @@
     "level_archetype": "archetype_team",
     "ingame_music_soundbank": "BNK_Music_GP_Team",
     "ingame_music_event": "MUS_InGame_Round_Team",
-    "main_ambience_state": "normal",
     "extra_ambience_soundbank": null,
     "extra_ambience_event": null,
     "lower_main_ambience_volume": false,
+    "main_ambience_state": "normal",
     "player_name_max_distance": 50,
     "loading_screen_name": "Splash_FallBall",
     "level_badge_name": "FallBall",
@@ -14113,19 +14277,25 @@
           "team_score": 10,
           "multiplier": 3,
           "badge": "gold",
-          "description": "localised_strings.badge_text_goals_01"
+          "description": "localised_strings.badge_text_goals_01",
+          "medal_description": null,
+          "medal_description_value": null
         },
         {
           "team_score": 5,
           "multiplier": 2,
           "badge": "silver",
-          "description": "localised_strings.badge_text_goals_02"
+          "description": "localised_strings.badge_text_goals_02",
+          "medal_description": null,
+          "medal_description_value": null
         },
         {
           "team_score": 3,
           "multiplier": 1,
           "badge": "bronze",
-          "description": "localised_strings.badge_text_goals_03"
+          "description": "localised_strings.badge_text_goals_03",
+          "medal_description": null,
+          "medal_description_value": null
         }
       ]
     },
@@ -14133,6 +14303,11 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_score_fallball",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_fall_ball_cup_only_squads_02"
   },
   {
@@ -14142,10 +14317,10 @@
     "level_archetype": "archetype_team",
     "ingame_music_soundbank": "BNK_Music_GP_Team",
     "ingame_music_event": "MUS_InGame_Round_Team",
-    "main_ambience_state": "normal",
     "extra_ambience_soundbank": null,
     "extra_ambience_event": null,
     "lower_main_ambience_volume": false,
+    "main_ambience_state": "normal",
     "player_name_max_distance": 50,
     "loading_screen_name": "Splash_FallBall",
     "level_badge_name": "FallBall",
@@ -14165,19 +14340,25 @@
           "team_score": 10,
           "multiplier": 3,
           "badge": "gold",
-          "description": "localised_strings.badge_text_goals_01"
+          "description": "localised_strings.badge_text_goals_01",
+          "medal_description": null,
+          "medal_description_value": null
         },
         {
           "team_score": 5,
           "multiplier": 2,
           "badge": "silver",
-          "description": "localised_strings.badge_text_goals_02"
+          "description": "localised_strings.badge_text_goals_02",
+          "medal_description": null,
+          "medal_description_value": null
         },
         {
           "team_score": 3,
           "multiplier": 1,
           "badge": "bronze",
-          "description": "localised_strings.badge_text_goals_03"
+          "description": "localised_strings.badge_text_goals_03",
+          "medal_description": null,
+          "medal_description_value": null
         }
       ]
     },
@@ -14185,6 +14366,11 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_score_fallball",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_fall_ball_cup_only_squads_final"
   },
   {
@@ -14892,6 +15078,11 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_score_fallball",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_fall_ball_xtreme_aprilstart"
   },
   {
@@ -15049,6 +15240,8 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_disconnect",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "id": "round_fall_mountain_difficult"
   },
   {
@@ -15313,13 +15506,18 @@
       "qualification_tier": {
         "multiplier": 1,
         "badge": "gold",
-        "description": "localised_strings.badge_text_victory"
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": null,
+        "medal_description_value": null
       }
     },
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_disconnect",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_fall_mountain_hub_complete_40"
   },
   {
@@ -15785,13 +15983,18 @@
       "qualification_tier": {
         "multiplier": 1,
         "badge": "gold",
-        "description": "localised_strings.badge_text_victory"
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": null,
+        "medal_description_value": null
       }
     },
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_floor_fall_40"
   },
   {
@@ -16088,6 +16291,7 @@
     "tom_level_variation_overrides": null,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
+    "tags": [],
     "bonus": {
       "type": "qualification",
       "qualification_tier": {
@@ -16102,7 +16306,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
-    "tags": [],
     "id": "round_floor_fall_event_only_low_grav_01"
   },
   {
@@ -16128,6 +16331,7 @@
     "tom_level_variation_overrides": null,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
+    "tags": [],
     "bonus": {
       "type": "qualification",
       "qualification_tier": {
@@ -16142,7 +16346,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
-    "tags": [],
     "id": "round_floor_fall_event_only_low_grav_02"
   },
   {
@@ -16168,6 +16371,7 @@
     "tom_level_variation_overrides": null,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
+    "tags": [],
     "bonus": {
       "type": "qualification",
       "qualification_tier": {
@@ -16182,7 +16386,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
-    "tags": [],
     "id": "round_floor_fall_event_only_low_grav_final"
   },
   {
@@ -16265,6 +16468,11 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_floor_fall_hilaria"
   },
   {
@@ -16440,13 +16648,18 @@
       "qualification_tier": {
         "multiplier": 1,
         "badge": "gold",
-        "description": "localised_strings.badge_text_survived"
+        "description": "localised_strings.badge_text_survived",
+        "medal_description": null,
+        "medal_description_value": null
       }
     },
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_floor_fall_mini_40"
   },
   {
@@ -16718,13 +16931,18 @@
       "qualification_tier": {
         "multiplier": 1,
         "badge": "gold",
-        "description": "localised_strings.badge_text_victory"
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": null,
+        "medal_description_value": null
       }
     },
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_floor_fall_mini_low_grav_40"
   },
   {
@@ -17263,6 +17481,9 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_follow-the-leader_40"
   },
   {
@@ -17473,13 +17694,18 @@
       "qualification_tier": {
         "multiplier": 1,
         "badge": "gold",
-        "description": "localised_strings.badge_text_survived"
+        "description": "localised_strings.badge_text_survived",
+        "medal_description": null,
+        "medal_description_value": null
       }
     },
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_fruit_bowl_40"
   },
   {
@@ -17522,6 +17748,8 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "id": "round_fruit_bowl_difficult"
   },
   {
@@ -17691,13 +17919,18 @@
       "qualification_tier": {
         "multiplier": 1,
         "badge": "gold",
-        "description": "localised_strings.badge_text_survived"
+        "description": "localised_strings.badge_text_survived",
+        "medal_description": null,
+        "medal_description_value": null
       }
     },
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_fruitpunch_40"
   },
   {
@@ -17743,6 +17976,8 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "id": "round_fruitpunch_difficult"
   },
   {
@@ -17894,10 +18129,16 @@
     "lower_main_ambience_volume": false,
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_BigShots",
     "level_badge_name": "BigShots",
     "level_variation": "levels_variation.variation_fruitpunch",
     "level_variation_overrides": "levels_variation_overrides.var_over_fruitpunch_pelican",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_one_zone",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.pelican_one_zone",
+    "tags": [],
     "bonus": {
       "type": "qualification",
       "qualification_tier": {
@@ -17912,12 +18153,8 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
-    "collectable_spawn": "collectable_spawn.default_one_zone",
-    "collectable_spawn_overrides": "collectable_spawn_overrides.pelican_one_zone",
-    "crown_prompt_max_distance": 100,
-    "tom_level_variation_supported": false,
-    "tom_level_variation_overrides": null,
-    "tags": [],
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "id": "round_fruitpunch_pelican"
   },
   {
@@ -18408,6 +18645,9 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_gauntlet_01_40"
   },
   {
@@ -18415,6 +18655,8 @@
     "scene_name": "FallGuy_Gauntlet_01",
     "game_rules": "game_rules.round_gauntlet_01",
     "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Race",
     "ingame_music_event": "MUS_InGame_Round_Race",
     "extra_ambience_soundbank": null,
@@ -18471,8 +18713,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_gauntlet_01_difficult"
   },
   {
@@ -19310,6 +19550,9 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_gauntlet_02_40"
   },
   {
@@ -19317,6 +19560,8 @@
     "scene_name": "FallGuy_Gauntlet_02_01",
     "game_rules": "game_rules.round_gauntlet_02",
     "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Race",
     "ingame_music_event": "MUS_InGame_Round_Race",
     "extra_ambience_soundbank": null,
@@ -19373,8 +19618,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_gauntlet_02_difficult"
   },
   {
@@ -19831,6 +20074,8 @@
     "scene_name": "FallGuy_Gauntlet_02_01",
     "game_rules": "game_rules.round_gauntlet_02_pelican",
     "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Race",
     "ingame_music_event": "MUS_InGame_Round_Race",
     "extra_ambience_soundbank": null,
@@ -19883,8 +20128,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_gauntlet_02_pelican"
   },
   {
@@ -20525,6 +20768,9 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_gauntlet_03_40"
   },
   {
@@ -20532,6 +20778,8 @@
     "scene_name": "FallGuy_Gauntlet_03",
     "game_rules": "game_rules.round_gauntlet_03",
     "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Race",
     "ingame_music_event": "MUS_InGame_Round_Race",
     "extra_ambience_soundbank": null,
@@ -20588,8 +20836,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_gauntlet_03_difficult"
   },
   {
@@ -21747,6 +21993,9 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_gauntlet_04_40"
   },
   {
@@ -21754,6 +22003,8 @@
     "scene_name": "FallGuy_Gauntlet_04",
     "game_rules": "game_rules.round_gauntlet_04",
     "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Race_Season_02",
     "ingame_music_event": "MUS_InGame_Round_Race_Season_02",
     "extra_ambience_soundbank": null,
@@ -21810,8 +22061,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_gauntlet_04_difficult"
   },
   {
@@ -23499,6 +23748,9 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_gauntlet_05_40"
   },
   {
@@ -23506,6 +23758,8 @@
     "scene_name": "FallGuy_Gauntlet_05",
     "game_rules": "game_rules.round_gauntlet_05",
     "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Race_Season_03",
     "ingame_music_event": "MUS_InGame_Round_Race_Season_03",
     "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
@@ -23562,8 +23816,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_gauntlet_05_difficult"
   },
   {
@@ -23571,6 +23823,8 @@
     "scene_name": "FallGuy_Gauntlet_05",
     "game_rules": "game_rules.round_gauntlet_05_squads",
     "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Race_Season_03",
     "ingame_music_event": "MUS_InGame_Round_Race_Season_03",
     "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
@@ -23578,10 +23832,13 @@
     "lower_main_ambience_volume": false,
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_TundraRun",
     "level_badge_name": "TundraRun",
     "level_variation": "levels_variation.variation_gauntlet_05",
     "level_variation_overrides": "levels_variation_overrides.var_over_gauntlet_05_vulture",
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "tags": [
@@ -23624,11 +23881,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
-    "crown_prompt_max_distance": 100,
-    "tom_level_variation_supported": null,
-    "tom_level_variation_overrides": null,
     "id": "round_gauntlet_05_event_aprilstart"
   },
   {
@@ -24286,6 +24538,8 @@
     "scene_name": "FallGuy_Gauntlet_05",
     "game_rules": "game_rules.round_gauntlet_05",
     "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Race_Season_03",
     "ingame_music_event": "MUS_InGame_Round_Race_Season_03",
     "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
@@ -24342,8 +24596,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_gauntlet_05_onboarding"
   },
   {
@@ -24741,6 +24993,8 @@
     "scene_name": "FallGuy_Gauntlet_05",
     "game_rules": "game_rules.round_gauntlet_05_squads",
     "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Race_Season_03",
     "ingame_music_event": "MUS_InGame_Round_Race_Season_03",
     "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
@@ -24748,10 +25002,13 @@
     "lower_main_ambience_volume": false,
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_TundraRun",
     "level_badge_name": "TundraRun",
     "level_variation": "levels_variation.variation_gauntlet_05",
     "level_variation_overrides": "levels_variation_overrides.var_over_gauntlet_05_xtreme_vulture",
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "tags": [
@@ -24794,11 +25051,6 @@
     "visualiser_estimate_variance": 10,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival_race",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
-    "crown_prompt_max_distance": 100,
-    "tom_level_variation_supported": null,
-    "tom_level_variation_overrides": null,
     "id": "round_gauntlet_05_xtreme_aprilstart"
   },
   {
@@ -25056,6 +25308,9 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_gauntlet_06_40"
   },
   {
@@ -25063,6 +25318,8 @@
     "scene_name": "FallGuy_Gauntlet_06",
     "game_rules": "game_rules.round_gauntlet_06",
     "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Race_Season_04",
     "ingame_music_event": "MUS_InGame_Round_Race_Season_04",
     "extra_ambience_soundbank": null,
@@ -25119,8 +25376,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_gauntlet_06_difficult"
   },
   {
@@ -26177,10 +26432,13 @@
     "lower_main_ambience_volume": true,
     "main_ambience_state": "lower_volume",
     "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_TreetopTumble",
     "level_badge_name": "TreetopTumble",
     "level_variation": "levels_variation.variation_gauntlet_07",
     "level_variation_overrides": null,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "tags": [
@@ -26223,9 +26481,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "crown_prompt_max_distance": 100,
-    "tom_level_variation_supported": null,
-    "tom_level_variation_overrides": null,
     "id": "round_gauntlet_07_40"
   },
   {
@@ -26298,6 +26553,8 @@
     "scene_name": "FallGuy_Gauntlet_07",
     "game_rules": "game_rules.round_gauntlet_07",
     "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Race_Season_05",
     "ingame_music_event": "MUS_InGame_Round_Race_Season_05",
     "extra_ambience_soundbank": "BNK_Ambiences_Season_05",
@@ -26354,8 +26611,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_gauntlet_07_difficult"
   },
   {
@@ -26818,6 +27073,8 @@
     "scene_name": "FallGuy_Gauntlet_07",
     "game_rules": "game_rules.round_gauntlet_07",
     "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Race_Season_05",
     "ingame_music_event": "MUS_InGame_Round_Race_Season_05",
     "extra_ambience_soundbank": "BNK_Ambiences_Season_05",
@@ -26874,8 +27131,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_gauntlet_07_onboarding"
   },
   {
@@ -27608,10 +27863,13 @@
     "lower_main_ambience_volume": false,
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_PartyPromenade",
     "level_badge_name": "BalloonCannon",
     "level_variation": "levels_variation.variation_gauntlet_08",
     "level_variation_overrides": null,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "tags": [
@@ -27655,9 +27913,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "crown_prompt_max_distance": 100,
-    "tom_level_variation_supported": null,
-    "tom_level_variation_overrides": null,
     "id": "round_gauntlet_08_40"
   },
   {
@@ -28342,12 +28597,19 @@
     "ingame_music_event": "MUS_InGame_Round_Survival_SS1",
     "extra_ambience_soundbank": null,
     "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
     "main_ambience_state": "silent",
     "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_HexARing",
     "level_badge_name": "JumpClubShowdown",
     "level_variation": null,
     "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "tags": [],
     "bonus": {
       "type": "qualification",
       "qualification_tier": {
@@ -28362,13 +28624,6 @@
     "visualiser_estimate_variance": 24,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
-    "lower_main_ambience_volume": false,
-    "collectable_spawn": null,
-    "collectable_spawn_overrides": null,
-    "crown_prompt_max_distance": 100,
-    "tom_level_variation_supported": false,
-    "tom_level_variation_overrides": null,
-    "tags": [],
     "id": "round_hexaring_event_only_01"
   },
   {
@@ -28382,12 +28637,19 @@
     "ingame_music_event": "MUS_InGame_Round_Survival_SS1",
     "extra_ambience_soundbank": null,
     "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
     "main_ambience_state": "silent",
     "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_HexARing",
     "level_badge_name": "JumpClubShowdown",
     "level_variation": null,
     "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "tags": [],
     "bonus": {
       "type": "qualification",
       "qualification_tier": {
@@ -28402,13 +28664,6 @@
     "visualiser_estimate_variance": 24,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
-    "lower_main_ambience_volume": false,
-    "collectable_spawn": null,
-    "collectable_spawn_overrides": null,
-    "crown_prompt_max_distance": 100,
-    "tom_level_variation_supported": false,
-    "tom_level_variation_overrides": null,
-    "tags": [],
     "id": "round_hexaring_event_only_02"
   },
   {
@@ -28422,12 +28677,19 @@
     "ingame_music_event": "MUS_InGame_Round_Final_SS1",
     "extra_ambience_soundbank": null,
     "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
     "main_ambience_state": "silent",
     "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_HexARing",
     "level_badge_name": "JumpClubShowdown",
     "level_variation": null,
     "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "tags": [],
     "bonus": {
       "type": "qualification",
       "qualification_tier": {
@@ -28442,13 +28704,6 @@
     "visualiser_estimate_variance": 24,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
-    "lower_main_ambience_volume": false,
-    "collectable_spawn": null,
-    "collectable_spawn_overrides": null,
-    "crown_prompt_max_distance": 100,
-    "tom_level_variation_supported": false,
-    "tom_level_variation_overrides": null,
-    "tags": [],
     "id": "round_hexaring_event_only_final"
   },
   {
@@ -28456,31 +28711,22 @@
     "scene_name": "FallGuy_HexARing",
     "game_rules": "game_rules.round_hexaring_only_finals",
     "level_archetype": "archetype_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Final_SS1",
     "ingame_music_event": "MUS_InGame_Round_Final_SS1",
-    "main_ambience_state": "normal",
     "extra_ambience_soundbank": null,
     "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "normal",
     "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_JumpShowdown",
     "level_badge_name": "JumpClubShowdown",
     "level_variation": null,
     "level_variation_overrides": null,
-    "bonus": {
-      "type": "qualification",
-      "qualification_tier": {
-        "multiplier": 1,
-        "badge": "gold",
-        "description": "localised_strings.badge_text_survived",
-        "medal_description": null,
-        "medal_description_value": null
-      }
-    },
-    "visualiser_estimate_percentage_qualification": 74,
-    "visualiser_estimate_variance": 24,
-    "visualiser_estimate_weighting": 1,
-    "fall_feed": "fall_feed_survival",
-    "lower_main_ambience_volume": false,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "tags": [
@@ -28490,11 +28736,20 @@
       "level_tags.saftey_early_final",
       "level_tags.ss1_round"
     ],
-    "tom_level_variation_supported": false,
-    "tom_level_variation_overrides": null,
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
-    "crown_prompt_max_distance": 100,
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_survived",
+        "medal_description": null,
+        "medal_description_value": null
+      }
+    },
+    "visualiser_estimate_percentage_qualification": 74,
+    "visualiser_estimate_variance": 24,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival",
     "id": "round_hexaring_only_finals"
   },
   {
@@ -28772,13 +29027,17 @@
           "team_position": 1,
           "multiplier": 2,
           "badge": "gold",
-          "description": "localised_strings.badge_text_position_01"
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": null,
+          "medal_description_value": null
         },
         {
           "team_position": 2,
           "multiplier": 1,
           "badge": "silver",
-          "description": "localised_strings.badge_text_position_02"
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": null,
+          "medal_description_value": null
         }
       ]
     },
@@ -28786,6 +29045,9 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_score_hoop",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_hoops_40"
   },
   {
@@ -28989,10 +29251,13 @@
     "lower_main_ambience_volume": null,
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_HoopsLegends",
     "level_badge_name": "HoopsLegends",
     "level_variation": "levels_variation.variation_hoops_blockade_solo",
     "level_variation_overrides": null,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "tags": [
@@ -29037,9 +29302,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_score_hoop_race",
-    "crown_prompt_max_distance": 100,
-    "tom_level_variation_supported": null,
-    "tom_level_variation_overrides": null,
     "id": "round_hoops_blockade_solo_40"
   },
   {
@@ -29047,6 +29309,8 @@
     "scene_name": "FallGuy_Hoops_Blockade",
     "game_rules": "game_rules.round_hoops_blockade_solo",
     "level_archetype": "archetype_hunt",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Hunt_Season_02",
     "ingame_music_event": "MUS_InGame_Round_Hunt_Season_02",
     "extra_ambience_soundbank": null,
@@ -29105,8 +29369,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_score_hoop_race",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_hoops_blockade_solo_difficult"
   },
   {
@@ -29248,6 +29510,8 @@
     "scene_name": "FallGuy_Hoops_Blockade",
     "game_rules": "game_rules.round_hoops_blockade_solo_trios",
     "level_archetype": "archetype_hunt",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Hunt_Season_02",
     "ingame_music_event": "MUS_InGame_Round_Hunt_Season_02",
     "extra_ambience_soundbank": null,
@@ -29255,10 +29519,13 @@
     "lower_main_ambience_volume": false,
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_HoopsLegends",
     "level_badge_name": "HoopsLegends",
     "level_variation": "levels_variation.variation_hoops_blockade_solo",
     "level_variation_overrides": null,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "tags": [
@@ -29303,11 +29570,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": null,
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
-    "crown_prompt_max_distance": 100,
-    "tom_level_variation_supported": null,
-    "tom_level_variation_overrides": null,
     "id": "round_hoops_blockade_solo_trios"
   },
   {
@@ -30089,6 +30351,8 @@
     "scene_name": "FallGuy_HoverboardSurvival",
     "game_rules": "game_rules.round_hoverboardsurv_event_only_survival_s61_final",
     "level_archetype": "archetype_final",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Final",
     "ingame_music_event": "MUS_InGame_Round_Final",
     "extra_ambience_soundbank": null,
@@ -30127,8 +30391,6 @@
     "visualiser_estimate_variance": 20,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival_race_first_place_only",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_hoverboardsurv_event_only_survival_s61_final"
   },
   {
@@ -30212,13 +30474,18 @@
       "qualification_tier": {
         "multiplier": 1,
         "badge": "gold",
-        "description": "localised_strings.badge_text_survived"
+        "description": "localised_strings.badge_text_survived",
+        "medal_description": null,
+        "medal_description_value": null
       }
     },
     "visualiser_estimate_percentage_qualification": 35,
     "visualiser_estimate_variance": 20,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival_race_first_place_only",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_hoverboardsurvival_40"
   },
   {
@@ -30264,6 +30531,8 @@
     "visualiser_estimate_variance": 20,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival_race_first_place_only",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "id": "round_hoverboardsurvival_difficult"
   },
   {
@@ -30412,6 +30681,8 @@
     "scene_name": "FallGuy_HoverboardSurvival",
     "game_rules": "game_rules.round_hoverboardsurvival_event_only_survival_s61",
     "level_archetype": "archetype_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Survival_Season_04",
     "ingame_music_event": "MUS_InGame_Round_Survival_Season_04",
     "extra_ambience_soundbank": null,
@@ -30450,8 +30721,6 @@
     "visualiser_estimate_variance": 20,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival_race_first_place_only",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_hoverboardsurvival_event_only_survival_s61"
   },
   {
@@ -31137,10 +31406,13 @@
     "lower_main_ambience_volume": null,
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_FreezyPeak",
     "level_badge_name": "FreezyPeak",
     "level_variation": "levels_variation.variation_iceclimb",
     "level_variation_overrides": null,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "tags": [
@@ -31183,9 +31455,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "crown_prompt_max_distance": 100,
-    "tom_level_variation_supported": null,
-    "tom_level_variation_overrides": null,
     "id": "round_iceclimb_40"
   },
   {
@@ -31193,6 +31462,8 @@
     "scene_name": "FallGuy_IceClimb_01",
     "game_rules": "game_rules.round_iceclimb",
     "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Race_Season_03",
     "ingame_music_event": "MUS_InGame_Round_Race_Season_03",
     "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
@@ -31249,8 +31520,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_iceclimb_difficult"
   },
   {
@@ -31258,6 +31527,8 @@
     "scene_name": "FallGuy_IceClimb_01",
     "game_rules": "game_rules.round_iceclimb_squads",
     "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Race_Season_03",
     "ingame_music_event": "MUS_InGame_Round_Race_Season_03",
     "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
@@ -31265,10 +31536,13 @@
     "lower_main_ambience_volume": false,
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_FreezyPeak",
     "level_badge_name": "FreezyPeak",
     "level_variation": "levels_variation.variation_iceclimb",
     "level_variation_overrides": "levels_variation_overrides.var_over_iceclimb_event_vulture",
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "tags": [
@@ -31311,11 +31585,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
-    "crown_prompt_max_distance": 100,
-    "tom_level_variation_supported": null,
-    "tom_level_variation_overrides": null,
     "id": "round_iceclimb_event_aprilstart"
   },
   {
@@ -31778,6 +32047,8 @@
     "scene_name": "FallGuy_IceClimb_01",
     "game_rules": "game_rules.round_iceclimb_squads",
     "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Race_Season_03",
     "ingame_music_event": "MUS_InGame_Round_Race_Season_03",
     "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
@@ -31785,10 +32056,13 @@
     "lower_main_ambience_volume": false,
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_FreezyPeak",
     "level_badge_name": "FreezyPeak",
     "level_variation": "levels_variation.variation_iceclimb",
     "level_variation_overrides": "levels_variation_overrides.var_over_iceclimb_event_xtreme_vulture",
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "tags": [
@@ -31831,11 +32105,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
-    "crown_prompt_max_distance": 100,
-    "tom_level_variation_supported": null,
-    "tom_level_variation_overrides": null,
     "id": "round_iceclimb_event_xtreme_aprilstart"
   },
   {
@@ -32613,7 +32882,9 @@
           "team_position": 1,
           "multiplier": 1,
           "badge": "gold",
-          "description": "localised_strings.badge_text_position_01"
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": null,
+          "medal_description_value": null
         }
       ]
     },
@@ -32621,6 +32892,9 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_special_jinx",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_jinxed_40"
   },
   {
@@ -33131,13 +33405,18 @@
       "qualification_tier": {
         "multiplier": 1,
         "badge": "gold",
-        "description": "localised_strings.badge_text_survived"
+        "description": "localised_strings.badge_text_survived",
+        "medal_description": null,
+        "medal_description_value": null
       }
     },
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_jump_club_40"
   },
   {
@@ -33277,6 +33556,8 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "id": "round_jump_club_difficult"
   },
   {
@@ -33553,6 +33834,8 @@
     "scene_name": "FallGuy_JumpClub_01",
     "game_rules": "game_rules.round_jump_club_event_only_survival_s61",
     "level_archetype": "archetype_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Survival",
     "ingame_music_event": "MUS_InGame_Round_Survival",
     "extra_ambience_soundbank": null,
@@ -33591,8 +33874,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_jump_club_event_only_survival_s61"
   },
   {
@@ -33600,6 +33881,8 @@
     "scene_name": "FallGuy_JumpClub_01",
     "game_rules": "game_rules.round_jump_club_event_only_survival_s61_final",
     "level_archetype": "archetype_final",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Final",
     "ingame_music_event": "MUS_InGame_Round_Final",
     "extra_ambience_soundbank": null,
@@ -33637,8 +33920,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_jump_club_event_only_survival_s61_final"
   },
   {
@@ -33908,13 +34189,18 @@
       "qualification_tier": {
         "multiplier": 1,
         "badge": "gold",
-        "description": "localised_strings.badge_text_survived"
+        "description": "localised_strings.badge_text_survived",
+        "medal_description": null,
+        "medal_description_value": null
       }
     },
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_jump_showdown_40"
   },
   {
@@ -33961,6 +34247,8 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "id": "round_jump_showdown_difficult"
   },
   {
@@ -34348,6 +34636,8 @@
     "scene_name": "FallGuy_JumpShowdown_01",
     "game_rules": "game_rules.round_jump_showdown_event_only_survival_s61_final",
     "level_archetype": "archetype_final",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Final",
     "ingame_music_event": "MUS_InGame_Round_Final",
     "extra_ambience_soundbank": null,
@@ -34385,8 +34675,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_jump_showdown_event_only_survival_s61_final"
   },
   {
@@ -34799,6 +35087,9 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": null,
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_king_of_the_hill_40"
   },
   {
@@ -34806,6 +35097,8 @@
     "scene_name": "FallGuy_KingOfTheHill2",
     "game_rules": "game_rules.round_score_zones_solo",
     "level_archetype": "archetype_hunt",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Hunt_Season_05",
     "ingame_music_event": "MUS_InGame_Round_Hunt_Season_05",
     "extra_ambience_soundbank": "BNK_Ambiences_Season_05",
@@ -34864,8 +35157,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_king_of_the_hill_difficult"
   },
   {
@@ -35610,10 +35901,13 @@
     "lower_main_ambience_volume": null,
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_FloorIsLava",
     "level_badge_name": "FloorIsLava",
     "level_variation": "levels_variation.variation_lava",
     "level_variation_overrides": null,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "tags": [
@@ -35658,9 +35952,6 @@
     "visualiser_estimate_variance": 20,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival_race",
-    "crown_prompt_max_distance": 100,
-    "tom_level_variation_supported": null,
-    "tom_level_variation_overrides": null,
     "id": "round_lava_40"
   },
   {
@@ -35668,6 +35959,8 @@
     "scene_name": "FallGuy_Lava_02",
     "game_rules": "game_rules.round_lava",
     "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Race",
     "ingame_music_event": "MUS_InGame_Round_Race",
     "extra_ambience_soundbank": null,
@@ -35726,8 +36019,6 @@
     "visualiser_estimate_variance": 20,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival_race",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_lava_difficult"
   },
   {
@@ -37525,13 +37816,18 @@
       "qualification_tier": {
         "multiplier": 1,
         "badge": "gold",
-        "description": "localised_strings.badge_text_survived"
+        "description": "localised_strings.badge_text_survived",
+        "medal_description": null,
+        "medal_description_value": null
       }
     },
     "visualiser_estimate_percentage_qualification": 74,
     "visualiser_estimate_variance": 24,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_match_fall_40"
   },
   {
@@ -37573,6 +37869,11 @@
     "visualiser_estimate_variance": 24,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_match_fall_aprilstart"
   },
   {
@@ -37618,6 +37919,8 @@
     "visualiser_estimate_variance": 24,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "id": "round_match_fall_difficult"
   },
   {
@@ -38075,6 +38378,11 @@
     "visualiser_estimate_variance": 24,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_match_fall_xtreme_aprilstart"
   },
   {
@@ -38204,10 +38512,13 @@
     "lower_main_ambience_volume": true,
     "main_ambience_state": "lower_volume",
     "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_PegwinPoolParty",
     "level_badge_name": "PegwinPoolParty",
     "level_variation": "levels_variation.variation_penguin_solos",
     "level_variation_overrides": null,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "tags": [
@@ -38253,9 +38564,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": -1,
     "fall_feed": "fall_feed_race",
-    "crown_prompt_max_distance": 100,
-    "tom_level_variation_supported": null,
-    "tom_level_variation_overrides": null,
     "id": "round_penguin_solos_40"
   },
   {
@@ -38263,6 +38571,8 @@
     "scene_name": "FallGuy_Penguin_Solos",
     "game_rules": "game_rules.round_penguin_solos",
     "level_archetype": "archetype_hunt",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Hunt_Season_05",
     "ingame_music_event": "MUS_InGame_Round_Hunt_Season_05",
     "extra_ambience_soundbank": "BNK_Ambiences_Season_05",
@@ -38321,8 +38631,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": -1,
     "fall_feed": "fall_feed_race",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_penguin_solos_difficult"
   },
   {
@@ -39075,10 +39383,13 @@
     "lower_main_ambience_volume": false,
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_PipeDream",
     "level_badge_name": "Pipe",
     "level_variation": "levels_variation.variation_pipedup",
     "level_variation_overrides": null,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "tags": [
@@ -39122,9 +39433,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "crown_prompt_max_distance": 100,
-    "tom_level_variation_supported": null,
-    "tom_level_variation_overrides": null,
     "id": "round_pipedup_40"
   },
   {
@@ -39533,13 +39841,18 @@
       "qualification_tier": {
         "multiplier": 1,
         "badge": "gold",
-        "description": "localised_strings.badge_text_survived"
+        "description": "localised_strings.badge_text_survived",
+        "medal_description": null,
+        "medal_description_value": null
       }
     },
     "visualiser_estimate_percentage_qualification": 40,
     "visualiser_estimate_variance": 20,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_robotrampage_arena_2_40"
   },
   {
@@ -39585,6 +39898,8 @@
     "visualiser_estimate_variance": 20,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "id": "round_robotrampage_arena_2_difficult"
   },
   {
@@ -39630,6 +39945,8 @@
     "visualiser_estimate_variance": 20,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "id": "round_robotrampage_arena_2_easy"
   },
   {
@@ -39999,6 +40316,8 @@
     "scene_name": "FallGuy_RobotRampage_Arena2",
     "game_rules": "game_rules.round_robotrampage_event_only_survival_s61",
     "level_archetype": "archetype_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Survival_Season_05",
     "ingame_music_event": "MUS_InGame_Round_Survival_Season_05",
     "extra_ambience_soundbank": "BNK_Ambiences_Season_05",
@@ -40036,8 +40355,6 @@
     "visualiser_estimate_variance": 20,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_robotrampage_event_only_survival_s61"
   },
   {
@@ -40045,6 +40362,8 @@
     "scene_name": "FallGuy_RobotRampage_Arena2",
     "game_rules": "game_rules.round_robotrampage_event_only_survival_s61_final",
     "level_archetype": "archetype_final",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Final",
     "ingame_music_event": "MUS_InGame_Round_Final",
     "extra_ambience_soundbank": "BNK_Ambiences_Season_05",
@@ -40082,8 +40401,6 @@
     "visualiser_estimate_variance": 20,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_robotrampage_event_only_survival_s61_final"
   },
   {
@@ -40179,13 +40496,17 @@
           "team_position": 1,
           "multiplier": 2,
           "badge": "gold",
-          "description": "localised_strings.badge_text_position_01"
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": null,
+          "medal_description_value": null
         },
         {
           "team_position": 2,
           "multiplier": 1,
           "badge": "silver",
-          "description": "localised_strings.badge_text_position_02"
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": null,
+          "medal_description_value": null
         }
       ]
     },
@@ -40193,6 +40514,9 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race_first_only",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_rocknroll_40"
   },
   {
@@ -40614,13 +40938,18 @@
       "qualification_tier": {
         "multiplier": 1,
         "badge": "gold",
-        "description": "localised_strings.badge_text_victory"
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": null,
+        "medal_description_value": null
       }
     },
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_special_tail_tag",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_royal_rumble_40"
   },
   {
@@ -41724,10 +42053,13 @@
     "lower_main_ambience_volume": false,
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_FullTilt",
     "level_badge_name": "360Platforms",
     "level_variation": "levels_variation.variation_see_saw_360",
     "level_variation_overrides": null,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "tags": [
@@ -41771,9 +42103,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "crown_prompt_max_distance": 100,
-    "tom_level_variation_supported": null,
-    "tom_level_variation_overrides": null,
     "id": "round_see_saw_360_40"
   },
   {
@@ -42179,10 +42508,13 @@
     "lower_main_ambience_volume": null,
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_SeeSaw",
     "level_badge_name": "SeeSaw",
     "level_variation": "levels_variation.variation_see_saw",
     "level_variation_overrides": null,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "tags": [
@@ -42225,9 +42557,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "crown_prompt_max_distance": 100,
-    "tom_level_variation_supported": null,
-    "tom_level_variation_overrides": null,
     "id": "round_see_saw_40"
   },
   {
@@ -42235,6 +42564,8 @@
     "scene_name": "FallGuy_SeeSaw_variant2",
     "game_rules": "game_rules.round_see_saw",
     "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Race",
     "ingame_music_event": "MUS_InGame_Round_Race",
     "extra_ambience_soundbank": null,
@@ -42291,8 +42622,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_see_saw_difficult"
   },
   {
@@ -43151,10 +43480,13 @@
     "lower_main_ambience_volume": null,
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_ShortCircuit",
     "level_badge_name": "ShortCircuit",
     "level_variation": "levels_variation.variation_shortcircuit",
     "level_variation_overrides": null,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "tags": [
@@ -43198,9 +43530,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "crown_prompt_max_distance": 100,
-    "tom_level_variation_supported": null,
-    "tom_level_variation_overrides": null,
     "id": "round_shortcircuit_40"
   },
   {
@@ -43208,6 +43537,8 @@
     "scene_name": "FallGuy_ShortCircuit",
     "game_rules": "game_rules.round_shortcircuit",
     "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Race_Season_04",
     "ingame_music_event": "MUS_InGame_Round_Race_Season_04",
     "extra_ambience_soundbank": null,
@@ -43265,8 +43596,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_shortcircuit_difficult"
   },
   {
@@ -44271,10 +44600,13 @@
     "lower_main_ambience_volume": false,
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_Skifall",
     "level_badge_name": "Skifall",
     "level_variation": "levels_variation.variation_skeefall",
     "level_variation_overrides": null,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "tags": [
@@ -44318,9 +44650,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "crown_prompt_max_distance": 100,
-    "tom_level_variation_supported": null,
-    "tom_level_variation_overrides": null,
     "id": "round_skeefall_40"
   },
   {
@@ -44394,6 +44723,8 @@
     "scene_name": "FallGuy_SkeeFall",
     "game_rules": "game_rules.round_skeefall",
     "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Race_Season_03",
     "ingame_music_event": "MUS_InGame_Round_Race_Season_03",
     "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
@@ -44451,8 +44782,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_skeefall_difficult"
   },
   {
@@ -45582,6 +45911,8 @@
     "scene_name": "FallGuy_SkeeFall",
     "game_rules": "game_rules.round_skeefall_trios",
     "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Race_Season_03",
     "ingame_music_event": "MUS_InGame_Round_Race_Season_03",
     "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
@@ -45589,10 +45920,13 @@
     "lower_main_ambience_volume": false,
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_Skifall",
     "level_badge_name": "Skifall",
     "level_variation": "levels_variation.variation_skeefall",
     "level_variation_overrides": null,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "tags": [
@@ -45636,11 +45970,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
-    "crown_prompt_max_distance": 100,
-    "tom_level_variation_supported": null,
-    "tom_level_variation_overrides": null,
     "id": "round_skeefall_trios"
   },
   {
@@ -45922,10 +46251,13 @@
     "lower_main_ambience_volume": false,
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_Slimescraper",
     "level_badge_name": "Slimescraper",
     "level_variation": "levels_variation.variation_slimeclimb_2",
     "level_variation_overrides": null,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "tags": [
@@ -45970,9 +46302,6 @@
     "visualiser_estimate_variance": 20,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival_race",
-    "crown_prompt_max_distance": 100,
-    "tom_level_variation_supported": null,
-    "tom_level_variation_overrides": null,
     "id": "round_slimeclimb_2_40"
   },
   {
@@ -45980,6 +46309,8 @@
     "scene_name": "FallGuy_SlimeClimb_2",
     "game_rules": "game_rules.round_slimeclimb_2",
     "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Race_Season_04",
     "ingame_music_event": "MUS_InGame_Round_Race_Season_04",
     "extra_ambience_soundbank": null,
@@ -46038,8 +46369,6 @@
     "visualiser_estimate_variance": 20,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival_race",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_slimeclimb_2_difficult"
   },
   {
@@ -46973,6 +47302,8 @@
     "scene_name": "FallGuy_SnowballSurvival",
     "game_rules": "game_rules.round_snowballsurv_event_only_survival_s61_final",
     "level_archetype": "archetype_final",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Final",
     "ingame_music_event": "MUS_InGame_Round_Final",
     "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
@@ -47010,8 +47341,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_snowballsurv_event_only_survival_s61_final"
   },
   {
@@ -47094,13 +47423,18 @@
       "qualification_tier": {
         "multiplier": 1,
         "badge": "gold",
-        "description": "localised_strings.badge_text_survived"
+        "description": "localised_strings.badge_text_survived",
+        "medal_description": null,
+        "medal_description_value": null
       }
     },
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_snowballsurvival_40"
   },
   {
@@ -47274,6 +47608,8 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "id": "round_snowballsurvival_difficult"
   },
   {
@@ -47309,6 +47645,11 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_snowballsurvival_event_aprilstart"
   },
   {
@@ -47362,6 +47703,8 @@
     "scene_name": "FallGuy_SnowballSurvival",
     "game_rules": "game_rules.round_snowballsurvival_event_only_survival_s61",
     "level_archetype": "archetype_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Survival",
     "ingame_music_event": "MUS_InGame_Round_Survival",
     "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
@@ -47399,8 +47742,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_snowballsurvival_event_only_survival_s61"
   },
   {
@@ -47475,6 +47816,11 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_snowballsurvival_event_xtreme_aprilstart"
   },
   {
@@ -48168,13 +48514,17 @@
           "team_position": 1,
           "multiplier": 2,
           "badge": "gold",
-          "description": "localised_strings.badge_text_position_01"
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": null,
+          "medal_description_value": null
         },
         {
           "team_position": 2,
           "multiplier": 1,
           "badge": "silver",
-          "description": "localised_strings.badge_text_position_02"
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": null,
+          "medal_description_value": null
         }
       ]
     },
@@ -48182,6 +48532,9 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race_first_only",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_snowy_scrap_40"
   },
   {
@@ -48348,6 +48701,11 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race_first_only",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_snowy_scrap_event_aprilstart"
   },
   {
@@ -48456,6 +48814,11 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race_first_only",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_snowy_scrap_event_xtreme_aprilstart"
   },
   {
@@ -49017,6 +49380,8 @@
     "scene_name": "FallGuy_SpinRing",
     "game_rules": "game_rules.round_spin_ring",
     "level_archetype": "archetype_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Survival_SS1",
     "ingame_music_event": "MUS_InGame_Round_Survival_SS1",
     "extra_ambience_soundbank": null,
@@ -49053,8 +49418,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": null,
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_spin_ring_onboarding"
   },
   {
@@ -49483,19 +49846,25 @@
           "possession": 80,
           "multiplier": 3,
           "badge": "gold",
-          "description": "localised_strings.badge_text_tailtime_01"
+          "description": "localised_strings.badge_text_tailtime_01",
+          "medal_description": null,
+          "medal_description_value": null
         },
         {
           "possession": 60,
           "multiplier": 2,
           "badge": "silver",
-          "description": "localised_strings.badge_text_tailtime_02"
+          "description": "localised_strings.badge_text_tailtime_02",
+          "medal_description": null,
+          "medal_description_value": null
         },
         {
           "possession": 30,
           "multiplier": 1,
           "badge": "bronze",
-          "description": "localised_strings.badge_text_tailtime_03"
+          "description": "localised_strings.badge_text_tailtime_03",
+          "medal_description": null,
+          "medal_description_value": null
         }
       ]
     },
@@ -49503,6 +49872,9 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_special_tail_tag",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_tail_tag_40"
   },
   {
@@ -49631,6 +50003,8 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_special_tail_tag",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "id": "round_tail_tag_difficult"
   },
   {
@@ -50190,19 +50564,25 @@
           "team_score": 325,
           "multiplier": 3,
           "badge": "gold",
-          "description": "localised_strings.badge_text_tiles_gold"
+          "description": "localised_strings.badge_text_tiles_gold",
+          "medal_description": null,
+          "medal_description_value": null
         },
         {
           "team_score": 285,
           "multiplier": 2,
           "badge": "silver",
-          "description": "localised_strings.badge_text_tiles_silver"
+          "description": "localised_strings.badge_text_tiles_silver",
+          "medal_description": null,
+          "medal_description_value": null
         },
         {
           "team_score": 245,
           "multiplier": 1,
           "badge": "bronze",
-          "description": "localised_strings.badge_text_tiles_bronze"
+          "description": "localised_strings.badge_text_tiles_bronze",
+          "medal_description": null,
+          "medal_description_value": null
         }
       ]
     },
@@ -50210,6 +50590,9 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_disconnect",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_territory_control_40"
   },
   {
@@ -51210,13 +51593,18 @@
       "qualification_tier": {
         "multiplier": 1,
         "badge": "gold",
-        "description": "localised_strings.badge_text_victory"
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": null,
+        "medal_description_value": null
       }
     },
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_thin_ice_40"
   },
   {
@@ -51262,6 +51650,8 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "id": "round_thin_ice_difficult"
   },
   {
@@ -51303,6 +51693,11 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_thin_ice_event_aprilstart"
   },
   {
@@ -51436,6 +51831,11 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_thin_ice_event_extreme_aprilstart"
   },
   {
@@ -51934,13 +52334,18 @@
       "qualification_tier": {
         "multiplier": 1,
         "badge": "gold",
-        "description": "localised_strings.badge_text_victory"
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": null,
+        "medal_description_value": null
       }
     },
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_thin_ice_mini_40"
   },
   {
@@ -52120,13 +52525,18 @@
       "qualification_tier": {
         "multiplier": 1,
         "badge": "gold",
-        "description": "localised_strings.badge_text_victory"
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": null,
+        "medal_description_value": null
       }
     },
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_thin_ice_mini_low_grav_40"
   },
   {
@@ -52134,6 +52544,8 @@
     "scene_name": "FallGuy_ThinIce",
     "game_rules": "game_rules.round_thin_ice_pelican",
     "level_archetype": "archetype_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Survival",
     "ingame_music_event": "MUS_InGame_Round_Survival",
     "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
@@ -52141,10 +52553,18 @@
     "lower_main_ambience_volume": false,
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_Thinice",
     "level_badge_name": "ThinIce",
     "level_variation": "levels_variation.variation_thin_ice",
     "level_variation_overrides": "levels_variation_overrides.var_over_thin_ice_pelican",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_one_zone",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.pelican_one_zone",
+    "tags": [
+      "level_tags.featured_round"
+    ],
     "bonus": {
       "type": "qualification",
       "qualification_tier": {
@@ -52159,16 +52579,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
-    "collectable_spawn": "collectable_spawn.default_one_zone",
-    "collectable_spawn_overrides": "collectable_spawn_overrides.pelican_one_zone",
-    "tom_level_variation_supported": false,
-    "tom_level_variation_overrides": null,
-    "crown_prompt_max_distance": 100,
-    "tags": [
-      "level_tags.featured_round"
-    ],
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_thin_ice_pelican"
   },
   {
@@ -52703,10 +53113,13 @@
     "lower_main_ambience_volume": false,
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_TipToe",
     "level_badge_name": "TipToe",
     "level_variation": "levels_variation.variation_tip_toe",
     "level_variation_overrides": null,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "tags": [
@@ -52749,9 +53162,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "crown_prompt_max_distance": 100,
-    "tom_level_variation_supported": null,
-    "tom_level_variation_overrides": null,
     "id": "round_tip_toe_40"
   },
   {
@@ -52823,6 +53233,8 @@
     "scene_name": "FallGuy_TipToe",
     "game_rules": "game_rules.round_tip_toe",
     "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Race_SS1",
     "ingame_music_event": "MUS_InGame_Round_Race_SS1",
     "extra_ambience_soundbank": null,
@@ -52879,8 +53291,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_tip_toe_difficult"
   },
   {
@@ -53815,13 +54225,18 @@
       "qualification_tier": {
         "multiplier": 1,
         "badge": "gold",
-        "description": "localised_strings.badge_text_survived"
+        "description": "localised_strings.badge_text_survived",
+        "medal_description": null,
+        "medal_description_value": null
       }
     },
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_tunnel_40"
   },
   {
@@ -53916,6 +54331,8 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "id": "round_tunnel_difficult"
   },
   {
@@ -54313,13 +54730,18 @@
       "qualification_tier": {
         "multiplier": 1,
         "badge": "gold",
-        "description": "localised_strings.badge_text_victory"
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": null,
+        "medal_description_value": null
       }
     },
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "crown_prompt_max_distance": 100,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "id": "round_tunnel_final_40"
   },
   {
@@ -54412,6 +54834,8 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "id": "round_tunnel_final_difficult"
   },
   {
@@ -54603,6 +55027,8 @@
     "scene_name": "FallGuy_Tunnel_Final",
     "game_rules": "game_rules.round_tunnel_final_event_only_survival_s61_final",
     "level_archetype": "archetype_final",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Final",
     "ingame_music_event": "MUS_InGame_Round_Final",
     "extra_ambience_soundbank": null,
@@ -54639,8 +55065,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_tunnel_final_event_only_survival_s61_final"
   },
   {
@@ -55183,10 +55607,13 @@
     "lower_main_ambience_volume": false,
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_RollOn",
     "level_badge_name": "RollOn",
     "level_variation": "levels_variation.variation_tunnel_race",
     "level_variation_overrides": null,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "tags": [
@@ -55229,9 +55656,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "crown_prompt_max_distance": 100,
-    "tom_level_variation_supported": null,
-    "tom_level_variation_overrides": null,
     "id": "round_tunnel_race_40"
   },
   {
@@ -55239,6 +55663,8 @@
     "scene_name": "FallGuy_Tunnel_Race_01",
     "game_rules": "game_rules.round_tunnel_race",
     "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Race",
     "ingame_music_event": "MUS_InGame_Round_Race",
     "extra_ambience_soundbank": null,
@@ -55296,8 +55722,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_tunnel_race_difficult"
   },
   {
@@ -55630,6 +56054,8 @@
     "scene_name": "FallGuy_Tunnel_Race_01",
     "game_rules": "game_rules.round_tunnel_race",
     "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Race",
     "ingame_music_event": "MUS_InGame_Round_Race",
     "extra_ambience_soundbank": null,
@@ -55687,8 +56113,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_tunnel_race_onboarding"
   },
   {
@@ -56503,10 +56927,13 @@
     "lower_main_ambience_volume": false,
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_WallGuys",
     "level_badge_name": "WallGuys",
     "level_variation": "levels_variation.variation_wall_guys",
     "level_variation_overrides": null,
+    "tom_level_variation_supported": null,
+    "tom_level_variation_overrides": null,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "tags": [
@@ -56550,9 +56977,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "crown_prompt_max_distance": 100,
-    "tom_level_variation_supported": null,
-    "tom_level_variation_overrides": null,
     "id": "round_wall_guys_40"
   },
   {
@@ -56560,6 +56984,8 @@
     "scene_name": "FallGuy_WallGuys",
     "game_rules": "game_rules.round_wall_guys",
     "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_GP_Race_Season_02",
     "ingame_music_event": "MUS_InGame_Round_Race_Season_02",
     "extra_ambience_soundbank": null,
@@ -56616,8 +57042,6 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
-    "preparation_music_soundbank": null,
-    "preparation_music_event": null,
     "id": "round_wall_guys_difficult"
   },
   {
