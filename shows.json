@@ -1690,32 +1690,6 @@
       "showtype_switch": "individual"
     },
     "default_episode": "levels_episode.episode_event_only_jump_club",
-    "episode_reward_settings_id": "solos",
-    "themeable_override": null,
-    "opens_at": "2022-07-01T09:00:00",
-    "closes_at": "2022-07-04T09:00:00",
-    "skill_score_factor_override": null,
-    "id": "event_only_jump_club_0107_to_0307_2022"
-  },
-  {
-    "show_name": "localised_strings.show_name_only_jump_club",
-    "show_description": "localised_strings.show_desc_only_jump_club",
-    "show_image": "JumpAround",
-    "show_image_cms": "show_selector_show_jumparound",
-    "min_party_size": 1,
-    "max_party_size": 4,
-    "size": {
-      "type": "override",
-      "min_players": 24,
-      "max_players": 30
-    },
-    "private_lobby_size": {
-      "type": "default"
-    },
-    "show_type": {
-      "showtype_switch": "individual"
-    },
-    "default_episode": "levels_episode.episode_event_only_jump_club",
     "episode_reward_settings_id": "solo_rewards",
     "themeable_override": null,
     "opens_at": "2022-05-23T09:00:00",
@@ -3284,6 +3258,35 @@
     "closes_at": "2022-05-09T09:00:00",
     "skill_score_factor_override": null,
     "id": "event_stars03_0305_to_0805_2022"
+  },
+  {
+    "show_name": "localised_strings.show_title_fallevent",
+    "show_description": "localised_strings.show_desc_fallevent",
+    "show_image": null,
+    "default_episode": "levels_episode.event_autumn_festival_squads",
+    "episode_reward_settings_id": "squads",
+    "show_image_cms": "show_selector_summer_squads",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 16,
+      "max_players": 16
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 16,
+      "max_players": 16
+    },
+    "show_type": {
+      "showtype_switch": "squad",
+      "squad_size": 4
+    },
+    "themeable_override": null,
+    "opens_at": "2022-07-01T09:00:00",
+    "closes_at": "2022-07-04T09:00:00",
+    "skill_score_factor_override": null,
+    "id": "event_summer_squads_0107_0407_2022"
   },
   {
     "show_name": "localised_strings.show_title_fallevent",
