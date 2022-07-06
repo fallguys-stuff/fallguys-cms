@@ -981,15 +981,15 @@
     "config": {
       "type": "locked",
       "profile": {
-        "profile_id": "1210445",
-        "profile_name": "Production - C",
+        "profile_id": "1196228",
+        "profile_name": "Production - B",
         "platforms": {
           "platform_min": null,
           "platform_max": null
         },
         "custom_cms_branch": null,
         "enable_bots": false,
-        "seconds_before_allocation": 0,
+        "seconds_before_allocation": 2,
         "max_seconds_to_wait_for_proposal": 0,
         "seconds_to_wait_for_max_match_size": 0,
         "match_function_version": "1.13.4",
@@ -1002,11 +1002,11 @@
         "squads": {
           "default_show_min": 40,
           "default_show_max": 60,
+          "squad_size": 4,
           "default_min_squad_count": 10,
-          "default_max_squad_count": 15,
-          "squad_size": 4
+          "default_max_squad_count": 15
         },
-        "id": "prod_c"
+        "id": "prod_b"
       }
     },
     "profiles": [],
@@ -1064,7 +1064,7 @@
             "platform_min": 0,
             "platform_max": 6
           },
-          "custom_cms_branch": "symphony_1_leads_playtest",
+          "custom_cms_branch": "staging_qa",
           "enable_bots": false,
           "solo": {
             "default_show_min": 40,
