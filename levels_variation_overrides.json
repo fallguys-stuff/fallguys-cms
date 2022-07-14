@@ -11772,7 +11772,7 @@
             "weighting": 90
           },
           {
-            "key": "Punchers`",
+            "key": "Punchers",
             "weighting": 10
           }
         ]
@@ -15607,6 +15607,21 @@
   {
     "set_switchers_overrides": [
       {
+        "key": "Spinner",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_over_jumpclub_satellite_collection"
+  },
+  {
+    "set_switchers_overrides": [
+      {
         "key": "Centre",
         "undefined_weightings_behaviour": "set_to_zero",
         "weightings": [
@@ -18687,6 +18702,25 @@
         "undefined_weightings_behaviour": "set_to_zero",
         "weightings": [
           {
+            "key": "Original",
+            "weighting": 50
+          },
+          {
+            "key": "SafeCentre",
+            "weighting": 50
+          }
+        ]
+      }
+    ],
+    "id": "var_over_snowballsurvival_satellite_collection"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "Floor",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
             "key": "MoreTiles",
             "weighting": 100
           }
@@ -20246,6 +20280,31 @@
       }
     ],
     "id": "var_over_tunnel_race_yeetus"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "Spawners",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Rings",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_over_tunnel_satellite_collection"
   },
   {
     "set_switchers_overrides": [

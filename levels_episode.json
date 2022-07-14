@@ -174,7 +174,7 @@
     "id": "episode_event_elimination_gauntlets_squads"
   },
   {
-    "director": "levels_director.director_simple",
+    "director": "levels_director.director_no_weightings",
     "roundpool": "levels_roundpool.roundpool_event_end_of_season_s2",
     "debug_force_playing_single_round_only": false,
     "debug_ignore_min_players_on_round_selection": false,
@@ -317,6 +317,32 @@
     "id": "episode_event_le_halloween_team_squads"
   },
   {
+    "director": "levels_director.director_no_weightings",
+    "roundpool": "levels_roundpool.roundpool_event_le_satellite_collectibles",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_jump_club_event_le_satellite_collectibles",
+    "allow_toms": false,
+    "bucket_override_roundpools": [],
+    "id": "episode_event_le_satellite_collectibles"
+  },
+  {
+    "director": "levels_director.director_no_weightings",
+    "roundpool": "levels_roundpool.roundpool_event_le_satellite_collectibles_solo",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_jump_club_satellite_collectibles_solo",
+    "allow_toms": false,
+    "bucket_override_roundpools": [],
+    "id": "episode_event_le_satellite_collectibles_solo"
+  },
+  {
     "director": "levels_director.director_event_newyears6",
     "roundpool": "levels_roundpool.roundpool_event_newyears6",
     "bucket_override_roundpools": [],
@@ -367,6 +393,19 @@
     "allow_toms": false,
     "bucket_override_roundpools": [],
     "id": "episode_event_only_blast_ball_trials"
+  },
+  {
+    "director": "levels_director.director_no_weightings",
+    "roundpool": "levels_roundpool.roundpool_event_only_bluejay",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_bluejay",
+    "allow_toms": false,
+    "bucket_override_roundpools": [],
+    "id": "episode_event_only_bluejay"
   },
   {
     "director": "levels_director.director_no_weightings",
@@ -942,15 +981,15 @@
   },
   {
     "director": "levels_director.director_event_fan_favourites",
-    "roundpool": "levels_roundpool.roundpool_s5_fan_favourites",
-    "bucket_override_roundpools": [],
+    "roundpool": "levels_roundpool.roundpool_s7_fan_favourites",
     "debug_force_playing_single_round_only": false,
     "debug_ignore_min_players_on_round_selection": false,
     "debug_use_player_count_multiplier": false,
     "debug_player_count_multiplier": 3,
     "ignore_team_sizes_in_selection": false,
-    "fallback_round": "levels_round.round_floor_fall_3_point_5_fan_favourite",
+    "fallback_round": "levels_round.round_jump_showdown",
     "allow_toms": false,
+    "bucket_override_roundpools": [],
     "id": "episode_fan_favourites"
   },
   {
@@ -1316,6 +1355,19 @@
     "fallback_round": "levels_round.round_block_party_squads",
     "allow_toms": false,
     "id": "episode_just_block_party_squads"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_bluejay",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_bluejay",
+    "allow_toms": false,
+    "bucket_override_roundpools": [],
+    "id": "episode_just_bluejay"
   },
   {
     "director": "levels_director.director_simple",
@@ -3495,7 +3547,7 @@
   },
   {
     "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.roundpool_event_autumn_festival_no_rocknroll",
+    "roundpool": "levels_roundpool.roundpool_event_autumn_festival_squads",
     "debug_force_playing_single_round_only": false,
     "debug_ignore_min_players_on_round_selection": false,
     "debug_use_player_count_multiplier": false,
