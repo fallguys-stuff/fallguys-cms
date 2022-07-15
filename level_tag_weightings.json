@@ -3443,13 +3443,13 @@
       },
       {
         "tag": "level_tags.ss1_round",
-        "bonus": 550,
-        "repeat_malus": 100,
-        "repeat_decay": 50,
+        "bonus": 200,
+        "repeat_malus": 200,
+        "repeat_decay": 100,
         "apply_bonus_when": {
           "type": "before_stage",
           "setting": {
-            "stage": 5
+            "stage": 3
           }
         }
       },
@@ -3573,27 +3573,6 @@
   {
     "tag_score": [
       {
-        "tag": "level_tags.covenant_free_for_all",
-        "bonus": 100,
-        "repeat_malus": 0,
-        "repeat_decay": 0,
-        "apply_bonus_when": {
-          "type": "before_stage",
-          "setting": {
-            "stage": 4
-          }
-        }
-      },
-      {
-        "tag": "level_tags.covenant_team",
-        "bonus": 5000,
-        "repeat_malus": 5000,
-        "repeat_decay": 5000,
-        "apply_bonus_when": {
-          "type": "always"
-        }
-      },
-      {
         "tag": "level_tags.covenant_final",
         "bonus": 800,
         "repeat_malus": 0,
@@ -3656,11 +3635,14 @@
       },
       {
         "tag": "level_tags.team_final",
-        "bonus": 1000,
+        "bonus": 10000,
         "repeat_malus": 0,
         "repeat_decay": 0,
         "apply_bonus_when": {
-          "type": "always"
+          "type": "after_stage",
+          "setting": {
+            "stage": 3
+          }
         }
       },
       {
@@ -3735,15 +3717,6 @@
         "bonus": 0,
         "repeat_malus": 500000,
         "repeat_decay": 0,
-        "apply_bonus_when": {
-          "type": "always"
-        }
-      },
-      {
-        "tag": "level_tags.ss1_round",
-        "bonus": 1000,
-        "repeat_malus": 100,
-        "repeat_decay": 50,
         "apply_bonus_when": {
           "type": "always"
         }
@@ -3851,6 +3824,27 @@
         }
       },
       {
+        "tag": "level_tags.covenant_free_for_all",
+        "bonus": 100,
+        "repeat_malus": 0,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "before_stage",
+          "setting": {
+            "stage": 4
+          }
+        }
+      },
+      {
+        "tag": "level_tags.covenant_team",
+        "bonus": 2500,
+        "repeat_malus": 5000,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
         "tag": "level_tags.exclusive_item_collection",
         "bonus": 0,
         "repeat_malus": 50000,
@@ -3878,9 +3872,9 @@
       },
       {
         "tag": "level_tags.covenant_team",
-        "bonus": 5000,
+        "bonus": 2500,
         "repeat_malus": 5000,
-        "repeat_decay": 5000,
+        "repeat_decay": 0,
         "apply_bonus_when": {
           "type": "always"
         }
@@ -3948,7 +3942,7 @@
       },
       {
         "tag": "level_tags.team_final",
-        "bonus": 1000,
+        "bonus": 10000,
         "repeat_malus": 0,
         "repeat_decay": 0,
         "apply_bonus_when": {
@@ -4051,15 +4045,6 @@
         "bonus": 0,
         "repeat_malus": 500000,
         "repeat_decay": 0,
-        "apply_bonus_when": {
-          "type": "always"
-        }
-      },
-      {
-        "tag": "level_tags.ss1_round",
-        "bonus": 1000,
-        "repeat_malus": 100,
-        "repeat_decay": 50,
         "apply_bonus_when": {
           "type": "always"
         }
