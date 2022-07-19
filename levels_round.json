@@ -3748,6 +3748,46 @@
   {
     "display_name": "localised_strings.level_name_blastball_arenasurvival",
     "scene_name": "FallGuy_BlastBall_ArenaSurvival",
+    "game_rules": "game_rules.round_blastball_arenasurvival_pelican",
+    "level_archetype": "archetype_final",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Final_SS1",
+    "ingame_music_event": "MUS_InGame_Round_Final_SS1",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": "MUS_Jingles_Stadium_SS1_Final",
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_BlastBall",
+    "level_badge_name": "BlastBallArena",
+    "level_variation": null,
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "tags": [],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_survived",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "medal_description_value": null
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival",
+    "id": "round_blastball_arenasurvival_blast_ball_banger"
+  },
+  {
+    "display_name": "localised_strings.level_name_blastball_arenasurvival",
+    "scene_name": "FallGuy_BlastBall_ArenaSurvival",
     "game_rules": "game_rules.round_blastball_arenasurvival_blast_ball_trials_01",
     "level_archetype": "archetype_survival",
     "preparation_music_soundbank": null,
@@ -6623,6 +6663,67 @@
     "tom_level_variation_supported": null,
     "tom_level_variation_overrides": null,
     "id": "round_chompchomp_40"
+  },
+  {
+    "display_name": "localised_strings.level_name_chomp_chomp",
+    "scene_name": "FallGuy_ChompChomp_01",
+    "game_rules": "game_rules.round_chompchomp_pelican",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Race",
+    "ingame_music_event": "MUS_InGame_Round_Race",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_ChompChomp",
+    "level_badge_name": "ChompChomp",
+    "level_variation": "levels_variation.variation_chompchomp",
+    "level_variation_overrides": "levels_variation_overrides.var_over_chompchomp_pelican",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "tags": [],
+    "id": "round_chompchomp_blast_ball_banger"
   },
   {
     "display_name": "localised_strings.level_name_chomp_chomp",
@@ -18727,6 +18828,46 @@
   {
     "display_name": "localised_strings.level_name_fruitpunch",
     "scene_name": "FallGuy_FruitPunch",
+    "game_rules": "game_rules.round_fruitpunch_pelican",
+    "level_archetype": "archetype_survival",
+    "ingame_music_soundbank": "BNK_Music_GP_Survival_Season_04",
+    "ingame_music_event": "MUS_InGame_Round_Survival_Season_04",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_BigShots",
+    "level_badge_name": "BigShots",
+    "level_variation": "levels_variation.variation_fruitpunch",
+    "level_variation_overrides": "levels_variation_overrides.var_over_fruitpunch_pelican",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_survived",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "medal_description_value": null
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "tags": [],
+    "id": "round_fruitpunch_blast_ball_banger"
+  },
+  {
+    "display_name": "localised_strings.level_name_fruitpunch",
+    "scene_name": "FallGuy_FruitPunch",
     "game_rules": "game_rules.round_fruitpunch",
     "level_archetype": "archetype_survival",
     "ingame_music_soundbank": "BNK_Music_GP_Survival_Season_04",
@@ -20345,6 +20486,67 @@
     "tom_level_variation_supported": null,
     "tom_level_variation_overrides": null,
     "id": "round_gauntlet_02_40"
+  },
+  {
+    "display_name": "localised_strings.level_name_gauntlet_02",
+    "scene_name": "FallGuy_Gauntlet_02_01",
+    "game_rules": "game_rules.round_gauntlet_02_pelican",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Race",
+    "ingame_music_event": "MUS_InGame_Round_Race",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_Rotatonator",
+    "level_badge_name": "Rotatonator",
+    "level_variation": "levels_variation.variation_gauntlet_02",
+    "level_variation_overrides": "levels_variation_overrides.var_over_gauntlet_02_pelican",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "tags": [],
+    "id": "round_gauntlet_02_blast_ball_banger"
   },
   {
     "display_name": "localised_strings.level_name_gauntlet_02",
@@ -43424,8 +43626,7 @@
     "tags": [
       "level_tags.covenant_free_for_all",
       "level_tags.playspace_track",
-      "level_tags.season_06",
-      "level_tags.featured_round"
+      "level_tags.season_06"
     ],
     "bonus": {
       "type": "position",
@@ -52855,6 +53056,48 @@
   {
     "display_name": "localised_strings.level_name_thin_ice",
     "scene_name": "FallGuy_ThinIce",
+    "game_rules": "game_rules.round_thin_ice_pelican",
+    "level_archetype": "archetype_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Survival",
+    "ingame_music_event": "MUS_InGame_Round_Survival",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
+    "extra_ambience_event": "AMB_Season_03_Snow",
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_Thinice",
+    "level_badge_name": "ThinIce",
+    "level_variation": "levels_variation.variation_thin_ice",
+    "level_variation_overrides": "levels_variation_overrides.var_over_thin_ice_pelican",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "tags": [
+      "level_tags.featured_round"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_survived",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "medal_description_value": null
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival",
+    "id": "round_thin_ice_blast_ball_banger"
+  },
+  {
+    "display_name": "localised_strings.level_name_thin_ice",
+    "scene_name": "FallGuy_ThinIce",
     "game_rules": "game_rules.round_thin_ice",
     "level_archetype": "archetype_final",
     "ingame_music_soundbank": "BNK_Music_GP_Final_Season_03",
@@ -54472,6 +54715,67 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
     "id": "round_tip_toe_aprilstart"
+  },
+  {
+    "display_name": "localised_strings.level_name_tip_toe",
+    "scene_name": "FallGuy_TipToe",
+    "game_rules": "game_rules.round_tip_toe_pelican",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Race",
+    "ingame_music_event": "MUS_InGame_Round_Race",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_TipToe",
+    "level_badge_name": "TipToe",
+    "level_variation": "levels_variation.variation_tip_toe",
+    "level_variation_overrides": "levels_variation_overrides.var_over_tip_toe_pelican",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "tags": [],
+    "id": "round_tip_toe_blast_ball_banger"
   },
   {
     "display_name": "localised_strings.level_name_tip_toe",
