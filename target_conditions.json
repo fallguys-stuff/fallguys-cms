@@ -1163,6 +1163,21 @@
       "type": "purchase_history",
       "data": {
         "bundle": {
+          "id": "ss001_season_neighneigh"
+        },
+        "quantity": {
+          "operator": "less_than",
+          "max": 1
+        }
+      }
+    },
+    "id": "has_not_purchased_ss1_neighneigh"
+  },
+  {
+    "parameters": {
+      "type": "purchase_history",
+      "data": {
+        "bundle": {
           "id": "ss001_season_poppingwhizbanger"
         },
         "quantity": {
@@ -1187,6 +1202,21 @@
       }
     },
     "id": "has_not_purchased_ss1_starterbundle"
+  },
+  {
+    "parameters": {
+      "type": "purchase_history",
+      "data": {
+        "bundle": {
+          "id": "bundle_2x2_ss001_wildfire_pack"
+        },
+        "quantity": {
+          "operator": "less_than",
+          "max": 1
+        }
+      }
+    },
+    "id": "has_not_purchased_ss1_wildfire"
   },
   {
     "parameters": {
@@ -3825,6 +3855,17 @@
       "type": "date_time",
       "data": {
         "operator": "between",
+        "start": "2022-07-21T09:00:00",
+        "end": "2022-08-29T23:59:59"
+      }
+    },
+    "id": "ss1_neighneigh_dates"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
         "start": "2022-06-21T09:00:00",
         "end": null
       }
@@ -3957,6 +3998,17 @@
       "type": "date_time",
       "data": {
         "operator": "between",
+        "start": "2022-07-21T09:00:00",
+        "end": "2022-08-29T23:59:59"
+      }
+    },
+    "id": "ss1_wildfire_dates"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
         "start": "2022-02-17T00:00:00",
         "end": "2022-04-30T23:59:59"
       }
@@ -3973,6 +4025,17 @@
       }
     },
     "id": "ss1_wk2_tues_to_end"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-07-21T09:00:00",
+        "end": "2022-08-29T23:59:59"
+      }
+    },
+    "id": "ss1_wk5_thurs_to_end"
   },
   {
     "parameters": {
