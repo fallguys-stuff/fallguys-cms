@@ -5331,6 +5331,33 @@
   {
     "set_switchers_overrides": [
       {
+        "key": "Difficulty",
+        "undefined_weightings_behaviour": "use_defaults",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 0
+          },
+          {
+            "key": "Hard",
+            "weighting": 0
+          },
+          {
+            "key": "Easy",
+            "weighting": 0
+          },
+          {
+            "key": "No Spin",
+            "weighting": 1
+          }
+        ]
+      }
+    ],
+    "id": "toms_variation_over_spinring_onboarding"
+  },
+  {
+    "set_switchers_overrides": [
+      {
         "key": "Section_2",
         "undefined_weightings_behaviour": "set_to_zero",
         "weightings": [
