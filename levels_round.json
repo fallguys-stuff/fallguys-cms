@@ -5640,15 +5640,11 @@
     "main_ambience_state": "lower_volume",
     "player_name_max_distance": 50,
     "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_BlueJay",
+    "level_badge_name": "BlueJay",
     "tom_level_variation_supported": false,
-    "visualiser_estimate_percentage_qualification": -1,
-    "visualiser_estimate_variance": -1,
-    "visualiser_estimate_weighting": 1,
-    "fall_feed": "fall_feed_score",
     "preparation_music_soundbank": null,
     "preparation_music_event": null,
-    "loading_screen_name": null,
-    "level_badge_name": null,
     "level_variation": null,
     "level_variation_overrides": null,
     "tom_level_variation_overrides": null,
@@ -5656,8 +5652,40 @@
     "collectable_spawn_overrides": null,
     "tags": [],
     "bonus": {
-      "type": null
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 10
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
     },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_score",
     "id": "round_bluejay_event_01"
   },
   {
@@ -5673,24 +5701,51 @@
     "main_ambience_state": "lower_volume",
     "player_name_max_distance": 50,
     "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_BlueJay",
+    "level_badge_name": "BlueJay",
     "tom_level_variation_supported": false,
-    "visualiser_estimate_percentage_qualification": -1,
-    "visualiser_estimate_variance": -1,
-    "visualiser_estimate_weighting": 1,
-    "fall_feed": "fall_feed_race",
     "preparation_music_soundbank": null,
     "preparation_music_event": null,
-    "loading_screen_name": null,
-    "level_badge_name": null,
     "level_variation": null,
     "level_variation_overrides": null,
     "tom_level_variation_overrides": null,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "bonus": {
-      "type": null
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 10
+        },
+        {
+          "position_percentage": 2,
+          "multiplier": 20,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
     },
-    "tags": [],
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_score",
     "id": "round_bluejay_event_02"
   },
   {
@@ -5706,24 +5761,51 @@
     "main_ambience_state": "lower_volume",
     "player_name_max_distance": 50,
     "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_BlueJay",
+    "level_badge_name": "BlueJay",
     "tom_level_variation_supported": false,
-    "visualiser_estimate_percentage_qualification": -1,
-    "visualiser_estimate_variance": -1,
-    "visualiser_estimate_weighting": 1,
-    "fall_feed": "fall_feed_race",
     "preparation_music_soundbank": null,
     "preparation_music_event": null,
-    "loading_screen_name": null,
-    "level_badge_name": null,
     "level_variation": null,
     "level_variation_overrides": null,
     "tom_level_variation_overrides": null,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "bonus": {
-      "type": null
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 10
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_possession",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
     },
-    "tags": [],
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_score",
     "id": "round_bluejay_event_03_final"
   },
   {
