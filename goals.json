@@ -2549,6 +2549,25 @@
     "id": "play_any_round_only_hexaring_ss1_idol_games"
   },
   {
+    "player_action_id": "play_any_round_only_hexaring_ss1_idol_games_02",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_only_hexaring_idol_games"
+      }
+    ],
+    "id": "play_any_round_only_hexaring_ss1_idol_games_02"
+  },
+  {
     "player_action_id": "play_any_round_any_show_ss1_idol_games",
     "target": {
       "type": "aggregate",
@@ -7581,13 +7600,13 @@
     "player_action_id": "top_speed_hunt",
     "target": {
       "type": "aggregate",
-      "value": 50
+      "value": 15
     },
     "description": "localised_strings.challenge_desc_038",
     "description_parameters": [
       {
         "type": "numeric",
-        "numeric_value": 50
+        "numeric_value": 15
       },
       {
         "type": "localised",
@@ -8124,6 +8143,21 @@
       }
     ],
     "id": "win_only_hexaring_ss1_idol_games"
+  },
+  {
+    "player_action_id": "win_only_hexaring_idol_games_02",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_only_hexaring_idol_games"
+      }
+    ],
+    "id": "win_only_hexaring_ss1_idol_games_02"
   },
   {
     "player_action_id": "win_oriole",

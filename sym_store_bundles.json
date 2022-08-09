@@ -1574,6 +1574,105 @@
     "id": "bundle_1x2_costumeset_discoball_02"
   },
   {
+    "display_name": "costume_doom_cacodemon",
+    "bundle_description": "costumeset_desc_ss1_warbler_03",
+    "bundle_type_subtitle": "upper",
+    "rarity": "special_4",
+    "category": "costume",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "item_id": "gems",
+          "quantity": 400
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "costumes_upper",
+          "item_id": "top_doom_cacodemon"
+        }
+      ],
+      "extra": []
+    },
+    "bundle_tile_image": "bundle_1x2_doom_cacodemon_01",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "bundle_bg_1x2_warbler_01",
+    "bundle_background_custom_colour": null,
+    "show_ribbon_label": false,
+    "ribbon_label_text": "storelabel_discount_primos",
+    "show_corner_label": false,
+    "corner_label_text": null,
+    "id": "bundle_1x2_costumeset_doom_cacodemon_01"
+  },
+  {
+    "display_name": "costume_doom_cyberdemon",
+    "bundle_description": "costumeset_desc_ss1_warbler_02",
+    "bundle_type_subtitle": "bundle_subtitle_costumeset_default",
+    "rarity": "special_4",
+    "category": "costume",
+    "has_stock": true,
+    "stock": 2,
+    "bundle_type": {
+      "bundle_type": "costume_set",
+      "purchase_options": {
+        "type": "currencies",
+        "item_id": "gems"
+      },
+      "cosmetics": [
+        {
+          "type": "costume_sets",
+          "item_id": "costumeset_doom_cyberdemon"
+        }
+      ]
+    },
+    "bundle_tile_image": "bundle_1x2_doom_cyberdemon_01",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "bundle_bg_1x2_warbler_01",
+    "bundle_background_custom_colour": null,
+    "show_ribbon_label": true,
+    "ribbon_label_text": "storelabel_discount_primos",
+    "show_corner_label": false,
+    "corner_label_text": null,
+    "id": "bundle_1x2_costumeset_doom_cyberdemon_01"
+  },
+  {
+    "display_name": "costume_doom_doom_slayer",
+    "bundle_description": "costumeset_desc_ss1_warbler_01",
+    "bundle_type_subtitle": "bundle_subtitle_costumeset_default",
+    "rarity": "special_4",
+    "category": "costume",
+    "has_stock": true,
+    "stock": 2,
+    "bundle_type": {
+      "bundle_type": "costume_set",
+      "purchase_options": {
+        "type": "currencies",
+        "item_id": "gems"
+      },
+      "cosmetics": [
+        {
+          "type": "costume_sets",
+          "item_id": "costumeset_doom_slayer"
+        }
+      ]
+    },
+    "bundle_tile_image": "bundle_1x2_doom_slayer_01",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "bundle_bg_1x2_warbler_01",
+    "bundle_background_custom_colour": null,
+    "show_ribbon_label": true,
+    "ribbon_label_text": "storelabel_discount_primos",
+    "show_corner_label": false,
+    "corner_label_text": null,
+    "id": "bundle_1x2_costumeset_doom_slayer_01"
+  },
+  {
     "display_name": "top_dove_01",
     "bundle_description": "bundle_desc_costumeset_default",
     "bundle_type_subtitle": "bundle_subtitle_costumeset_default",
@@ -44636,6 +44735,48 @@
     "id": "bundle_ss1_toucan_002"
   },
   {
+    "display_name": "bundle_name_ip_ss1_warbler",
+    "bundle_description": "bundle_desc_ip_ss1_warbler",
+    "bundle_type_subtitle": "bundle_subtitle_ip_ss1_warbler",
+    "rarity": "special_4",
+    "category": "costume",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "discount",
+      "purchase_options": {
+        "type": "currencies",
+        "item_id": "gems"
+      },
+      "discount": 1600,
+      "cosmetics": [
+        {
+          "type": "costume_sets",
+          "item_id": "costumeset_doom_slayer"
+        },
+        {
+          "type": "costume_sets",
+          "item_id": "costumeset_doom_cyberdemon"
+        },
+        {
+          "type": "costumes_upper",
+          "item_id": "top_doom_cacodemon",
+          "cost": 400
+        }
+      ],
+      "extra": []
+    },
+    "bundle_tile_image": "bundle_2x2_ss1_warbler_01",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "bundle_bg_2x2_warbler_01",
+    "bundle_background_custom_colour": null,
+    "show_ribbon_label": true,
+    "ribbon_label_text": "storelabel_discount_primos",
+    "show_corner_label": false,
+    "corner_label_text": null,
+    "id": "bundle_ss1_warbler_01"
+  },
+  {
     "display_name": "bundle_name_ss1_melonheads",
     "bundle_description": "bundle_desc_ss1_melonheads",
     "bundle_type_subtitle": "bundle_subtitle_ss1_melonheads",
@@ -45691,6 +45832,55 @@
     "show_corner_label": false,
     "corner_label_text": null,
     "id": "promo_egs_ss1_toucan_001"
+  },
+  {
+    "display_name": null,
+    "bundle_description": "blank_sym_store_bundle_desc",
+    "bundle_type_subtitle": "blank_sym_store_bundle_subtitle",
+    "rarity": "rare",
+    "category": "costume",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "iap",
+        "iap": "promo_egs_ss1_warbler_01",
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_doom_doom_slayer"
+        },
+        {
+          "type": "costumes_upper",
+          "item_id": "top_doom_doom_slayer"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_doom_cyberdemon"
+        },
+        {
+          "type": "costumes_upper",
+          "item_id": "top_doom_cyberdemon"
+        },
+        {
+          "type": "costumes_upper",
+          "item_id": "top_doom_cacodemon"
+        }
+      ],
+      "extra": []
+    },
+    "bundle_tile_image": null,
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": null,
+    "bundle_background_custom_colour": null,
+    "show_ribbon_label": false,
+    "ribbon_label_text": null,
+    "show_corner_label": false,
+    "corner_label_text": null,
+    "id": "promo_egs_ss1_warbler_001"
   },
   {
     "display_name": null,
