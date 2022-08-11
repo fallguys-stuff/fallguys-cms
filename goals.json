@@ -6372,25 +6372,6 @@
     "id": "weekly_air_time"
   },
   {
-    "player_action_id": "player_collected_default",
-    "target": {
-      "type": "aggregate",
-      "value": 400
-    },
-    "description": "localised_strings.challenge_desc_032",
-    "description_parameters": [
-      {
-        "type": "localised",
-        "localised_value": "localised_strings.level_score_context_king_of_the_hill"
-      },
-      {
-        "type": "localised",
-        "localised_value": "localised_strings.challenge_criteria_any_round"
-      }
-    ],
-    "id": "weekly_bubbles"
-  },
-  {
     "player_action_id": "carry_any",
     "target": {
       "type": "aggregate",
@@ -6677,6 +6658,25 @@
       }
     ],
     "id": "weekly_hug"
+  },
+  {
+    "player_action_id": "player_jumped_final",
+    "target": {
+      "type": "aggregate",
+      "value": 400
+    },
+    "description": "localised_strings.challenge_desc_016_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 400
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_round_type_final"
+      }
+    ],
+    "id": "weekly_jump_final"
   },
   {
     "player_action_id": "player_jumped_hunt",
@@ -7334,6 +7334,21 @@
       }
     ],
     "id": "weekly_qualify_logic"
+  },
+  {
+    "player_action_id": "player_qualified_round_solo_score",
+    "target": {
+      "type": "aggregate",
+      "value": 300
+    },
+    "description": "localised_strings.challenge_desc_032_show_extra",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_non_team_round"
+      }
+    ],
+    "id": "weekly_qualify_solo_score"
   },
   {
     "player_action_id": "qualify_from_survival_rounds",

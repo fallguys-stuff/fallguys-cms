@@ -3684,32 +3684,6 @@
   {
     "config": {
       "metric_id": "player_collected",
-      "collectable_type": "default",
-      "team_id": null,
-      "is_final_round": null,
-      "level_archetype": null,
-      "level_id": null,
-      "overtime": null,
-      "is_in_party": null,
-      "party_size": null,
-      "position_placed": null,
-      "team_score": null,
-      "round_index": null,
-      "round_qualified": null,
-      "qualified_player_count": null,
-      "show_id": null,
-      "is_private_lobby": "false",
-      "costume_faceplate": null,
-      "costume_upper": null,
-      "costume_lower": null,
-      "costume_colour_schema": null,
-      "costume_pattern": null
-    },
-    "id": "player_collected_default"
-  },
-  {
-    "config": {
-      "metric_id": "player_collected",
       "collectable_type": "oriole",
       "team_id": null,
       "is_final_round": null,
@@ -4583,6 +4557,31 @@
     "config": {
       "metric_id": "player_jumped",
       "team_id": null,
+      "is_final_round": "true",
+      "level_archetype": "archetype_final",
+      "level_id": null,
+      "overtime": null,
+      "is_in_party": null,
+      "party_size": null,
+      "position_placed": null,
+      "team_score": null,
+      "round_index": null,
+      "round_qualified": null,
+      "qualified_player_count": null,
+      "show_id": null,
+      "is_private_lobby": "false",
+      "costume_faceplate": null,
+      "costume_upper": null,
+      "costume_lower": null,
+      "costume_colour_schema": null,
+      "costume_pattern": null
+    },
+    "id": "player_jumped_final"
+  },
+  {
+    "config": {
+      "metric_id": "player_jumped",
+      "team_id": null,
       "is_final_round": null,
       "level_archetype": null,
       "level_id": null,
@@ -4934,6 +4933,31 @@
       "costume_pattern": null
     },
     "id": "player_qualified_carrying_pegwin_race_oriole"
+  },
+  {
+    "config": {
+      "metric_id": "player_round_solo_score",
+      "team_id": null,
+      "is_final_round": null,
+      "level_archetype": null,
+      "level_id": null,
+      "overtime": null,
+      "is_in_party": null,
+      "party_size": null,
+      "position_placed": null,
+      "team_score": null,
+      "round_index": null,
+      "round_qualified": "true",
+      "qualified_player_count": null,
+      "show_id": null,
+      "is_private_lobby": "false",
+      "costume_faceplate": null,
+      "costume_upper": null,
+      "costume_lower": null,
+      "costume_colour_schema": null,
+      "costume_pattern": null
+    },
+    "id": "player_qualified_round_solo_score"
   },
   {
     "config": {
