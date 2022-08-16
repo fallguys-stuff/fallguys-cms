@@ -7612,20 +7612,20 @@
     "id": "weekly_throw"
   },
   {
-    "player_action_id": "top_speed_hunt",
+    "player_action_id": "play_round_any",
     "target": {
       "type": "aggregate",
       "value": 15
     },
-    "description": "localised_strings.challenge_desc_038",
+    "description": "localised_strings.challenge_desc_027_individual",
     "description_parameters": [
       {
-        "type": "numeric",
-        "numeric_value": 15
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
       },
       {
         "type": "localised",
-        "localised_value": "localised_strings.challenge_round_type_hunt"
+        "localised_value": "localised_strings.challenge_criteria_any_show"
       }
     ],
     "id": "weekly_top_speed"
