@@ -596,7 +596,7 @@
     "player_action_id": "collect_end_of_season_ss1_solo",
     "target": {
       "type": "aggregate",
-      "value": 30
+      "value": 40
     },
     "description": "localised_strings.challenge_desc_032",
     "description_parameters": [
@@ -634,7 +634,7 @@
     "player_action_id": "collect_end_of_season_ss1_solo",
     "target": {
       "type": "aggregate",
-      "value": 60
+      "value": 80
     },
     "description": "localised_strings.challenge_desc_032",
     "description_parameters": [
@@ -653,7 +653,7 @@
     "player_action_id": "collect_end_of_season_ss1_solo",
     "target": {
       "type": "aggregate",
-      "value": 100
+      "value": 130
     },
     "description": "localised_strings.challenge_desc_032",
     "description_parameters": [
@@ -2490,6 +2490,180 @@
       }
     ],
     "id": "knocked_down_blastball_pelican"
+  },
+  {
+    "player_action_id": "play_round_any",
+    "target": {
+      "type": "aggregate",
+      "value": 50
+    },
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "id": "le_kudos_play_rounds_01"
+  },
+  {
+    "player_action_id": "play_round_any",
+    "target": {
+      "type": "aggregate",
+      "value": 100
+    },
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "id": "le_kudos_play_rounds_02"
+  },
+  {
+    "player_action_id": "reach_round_2",
+    "target": {
+      "type": "aggregate",
+      "value": 30
+    },
+    "description": "localised_strings.challenge_desc_004_general",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_le_bluejay_006_show"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "id": "le_kudos_qualify_r1_01"
+  },
+  {
+    "player_action_id": "reach_round_2",
+    "target": {
+      "type": "aggregate",
+      "value": 60
+    },
+    "description": "localised_strings.challenge_desc_004_general",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_le_bluejay_006_show"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "id": "le_kudos_qualify_r1_02"
+  },
+  {
+    "player_action_id": "reach_round_3",
+    "target": {
+      "type": "aggregate",
+      "value": 20
+    },
+    "description": "localised_strings.challenge_desc_004_general",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_le_bluejay_007_show"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "id": "le_kudos_qualify_r2_01"
+  },
+  {
+    "player_action_id": "reach_round_3",
+    "target": {
+      "type": "aggregate",
+      "value": 40
+    },
+    "description": "localised_strings.challenge_desc_004_general",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_le_bluejay_007_show"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "id": "le_kudos_qualify_r2_02"
+  },
+  {
+    "player_action_id": "reach_final_round",
+    "target": {
+      "type": "aggregate",
+      "value": 10
+    },
+    "description": "localised_strings.challenge_desc_031",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "id": "le_kudos_reach_final_01"
+  },
+  {
+    "player_action_id": "reach_final_round",
+    "target": {
+      "type": "aggregate",
+      "value": 20
+    },
+    "description": "localised_strings.challenge_desc_031",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "id": "le_kudos_reach_final_02"
+  },
+  {
+    "player_action_id": "run_time",
+    "target": {
+      "type": "aggregate",
+      "value": 3600
+    },
+    "description": "localised_strings.challenge_desc_041",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3600
+      }
+    ],
+    "id": "le_kudos_run_time_01"
+  },
+  {
+    "player_action_id": "run_time",
+    "target": {
+      "type": "aggregate",
+      "value": 7299
+    },
+    "description": "localised_strings.challenge_desc_041",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 7299
+      }
+    ],
+    "id": "le_kudos_run_time_02"
   },
   {
     "player_action_id": "play_race_rounds_le_stars_01_show",
@@ -7834,7 +8008,7 @@
     "player_action_id": "win_end_of_season_ss1_solo",
     "target": {
       "type": "aggregate",
-      "value": 1
+      "value": 3
     },
     "description": "localised_strings.challenge_desc_015_singular",
     "description_parameters": [
@@ -7864,7 +8038,7 @@
     "player_action_id": "win_end_of_season_ss1_solo",
     "target": {
       "type": "aggregate",
-      "value": 3
+      "value": 10
     },
     "description": "localised_strings.challenge_desc_015_singular",
     "description_parameters": [
