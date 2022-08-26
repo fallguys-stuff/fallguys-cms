@@ -956,10 +956,25 @@
     "description_parameters": [
       {
         "type": "localised",
-        "localised_value": "localised_strings.le_ss1_satellite_collectibles_show_title"
+        "localised_value": "localised_strings.show_name_blast_ball_banger"
       }
     ],
     "id": "daily_play_ss1_week_10"
+  },
+  {
+    "player_action_id": "play_show_ss1_week_12",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_027_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.le_ss1_satellite_collectibles_show_title"
+      }
+    ],
+    "id": "daily_play_ss1_week_12"
   },
   {
     "player_action_id": "play_show_ss1_week_2",
@@ -1277,6 +1292,25 @@
       "type": "aggregate",
       "value": 3
     },
+    "description": "localised_strings.challenge_desc_004_general",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_blast_ball_banger"
+      }
+    ],
+    "id": "daily_qualify_ss1_week_10"
+  },
+  {
+    "player_action_id": "qualify_from_rounds_ss1_week_12",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
     "description": "localised_strings.challenge_desc_015_singular",
     "description_parameters": [
       {
@@ -1284,7 +1318,7 @@
         "localised_value": "localised_strings.le_ss1_satellite_collectibles_show_title"
       }
     ],
-    "id": "daily_qualify_ss1_week_10"
+    "id": "daily_qualify_ss1_week_12"
   },
   {
     "player_action_id": "qualify_from_rounds_ss1_week_2",
@@ -6834,6 +6868,21 @@
     "id": "weekly_hug"
   },
   {
+    "player_action_id": "carry_any",
+    "target": {
+      "type": "aggregate",
+      "value": 400
+    },
+    "description": "localised_strings.challenge_desc_008_simple",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 400
+      }
+    ],
+    "id": "weekly_jump_final"
+  },
+  {
     "player_action_id": "player_jumped_final",
     "target": {
       "type": "aggregate",
@@ -6850,7 +6899,7 @@
         "localised_value": "localised_strings.challenge_round_type_final"
       }
     ],
-    "id": "weekly_jump_final"
+    "id": "weekly_jump_final_v2"
   },
   {
     "player_action_id": "player_jumped_hunt",
@@ -7510,6 +7559,25 @@
     "id": "weekly_qualify_logic"
   },
   {
+    "player_action_id": "player_jumped_survival",
+    "target": {
+      "type": "aggregate",
+      "value": 300
+    },
+    "description": "localised_strings.challenge_desc_016_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 300
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_round_type_survival"
+      }
+    ],
+    "id": "weekly_qualify_solo_score"
+  },
+  {
     "player_action_id": "player_qualified_round_solo_score",
     "target": {
       "type": "aggregate",
@@ -7522,7 +7590,7 @@
         "localised_value": "localised_strings.challenge_criteria_non_team_round"
       }
     ],
-    "id": "weekly_qualify_solo_score"
+    "id": "weekly_qualify_solo_score_v2"
   },
   {
     "player_action_id": "qualify_from_survival_rounds",
