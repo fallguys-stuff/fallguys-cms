@@ -168,6 +168,34 @@
     "id": "beta_closed_5"
   },
   {
+    "profile_id": "1206995",
+    "profile_name": "Closed Beta 6",
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "custom_cms_branch": null,
+    "enable_bots": false,
+    "seconds_before_allocation": 10,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
+    "solo": {
+      "default_show_min": 40,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_show_min": 40,
+      "default_show_max": 60,
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15,
+      "squad_size": 4
+    },
+    "id": "beta_closed_6"
+  },
+  {
     "profile_id": "1195781",
     "profile_name": "Open Beta",
     "platforms": {
@@ -336,6 +364,34 @@
     "id": "dev_3"
   },
   {
+    "profile_id": "1210442",
+    "profile_name": "Dev 4",
+    "custom_cms_branch": "symphony_2_qa",
+    "enable_bots": true,
+    "solo": {
+      "default_show_min": 1,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_show_min": 8,
+      "default_show_max": 60,
+      "squad_size": 4,
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15
+    },
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "seconds_before_allocation": 20,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
+    "id": "dev_4"
+  },
+  {
     "profile_id": "1202518",
     "profile_name": "Porting",
     "platforms": {
@@ -446,6 +502,34 @@
       "squad_size": null
     },
     "id": "loadtest2"
+  },
+  {
+    "profile_id": "1195784",
+    "profile_name": "mobile",
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 11
+    },
+    "custom_cms_branch": null,
+    "enable_bots": true,
+    "seconds_before_allocation": 20,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
+    "solo": {
+      "default_show_min": 1,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_show_min": 8,
+      "default_show_max": 60,
+      "default_min_squad_count": 2,
+      "default_max_squad_count": 15,
+      "squad_size": 4
+    },
+    "id": "mobile"
   },
   {
     "profile_id": "1203936",

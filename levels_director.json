@@ -1,5 +1,15 @@
 [
   {
+    "select_rounds_once_only": false,
+    "ideal_player_count_weighting": 1,
+    "disqualification_score_mul": 1,
+    "phantom_disqualification_percentage_for_survival_rounds": 0,
+    "max_number_of_rounds_for_toms": 0,
+    "tag_weighting": null,
+    "bucket_override_max_tom_rounds": [],
+    "id": "director_1v1_volleyfall_ss2_show2"
+  },
+  {
     "select_rounds_once_only": true,
     "ideal_player_count_weighting": 1,
     "disqualification_score_mul": 1,
@@ -339,11 +349,11 @@
     "bucket_override_max_tom_rounds": [
       {
         "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_lowest",
-        "max_tom_rounds": 5
+        "max_tom_rounds": 2
       },
       {
         "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_mid",
-        "max_tom_rounds": 2
+        "max_tom_rounds": 1
       },
       {
         "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_high",
@@ -415,6 +425,49 @@
   {
     "select_rounds_once_only": true,
     "ideal_player_count_weighting": 1,
+    "disqualification_score_mul": 1,
+    "phantom_disqualification_percentage_for_survival_rounds": 0,
+    "max_number_of_rounds_for_toms": 2,
+    "bucket_override_max_tom_rounds": [
+      {
+        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_lowest",
+        "max_tom_rounds": 2
+      },
+      {
+        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_mid",
+        "max_tom_rounds": 1
+      },
+      {
+        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_high",
+        "max_tom_rounds": 0
+      }
+    ],
+    "tag_weighting": "level_tag_weightings.tag_weightings_solo_show_ss2_launch",
+    "id": "director_solo_show_ss2_launch"
+  },
+  {
+    "select_rounds_once_only": true,
+    "ideal_player_count_weighting": 1,
+    "tag_weighting": "level_tag_weightings.tag_weightings_solo_show_ss2_parrot",
+    "disqualification_score_mul": 1,
+    "phantom_disqualification_percentage_for_survival_rounds": 0,
+    "max_number_of_rounds_for_toms": 5,
+    "bucket_override_max_tom_rounds": [],
+    "id": "director_solo_show_ss2_parrot"
+  },
+  {
+    "select_rounds_once_only": true,
+    "ideal_player_count_weighting": 1,
+    "disqualification_score_mul": 1,
+    "phantom_disqualification_percentage_for_survival_rounds": 0,
+    "tag_weighting": "level_tag_weightings.tag_weightings_solo_cc_ss2",
+    "max_number_of_rounds_for_toms": 0,
+    "bucket_override_max_tom_rounds": [],
+    "id": "director_solos_cc_ss2"
+  },
+  {
+    "select_rounds_once_only": true,
+    "ideal_player_count_weighting": 1,
     "tag_weighting": "level_tag_weightings.tag_weightings_squads",
     "disqualification_score_mul": 1,
     "phantom_disqualification_percentage_for_survival_rounds": 0,
@@ -451,6 +504,26 @@
     "max_number_of_rounds_for_toms": 2,
     "bucket_override_max_tom_rounds": [],
     "id": "director_squads_points_rounds_test"
+  },
+  {
+    "select_rounds_once_only": true,
+    "ideal_player_count_weighting": 1,
+    "tag_weighting": "level_tag_weightings.tag_weightings_squads_ss2_launch",
+    "disqualification_score_mul": 1,
+    "phantom_disqualification_percentage_for_survival_rounds": 0,
+    "max_number_of_rounds_for_toms": 2,
+    "bucket_override_max_tom_rounds": [],
+    "id": "director_squads_ss2_launch"
+  },
+  {
+    "select_rounds_once_only": true,
+    "ideal_player_count_weighting": 1,
+    "tag_weighting": "level_tag_weightings.tag_weightings_squads_ss2_parrot",
+    "disqualification_score_mul": 1,
+    "phantom_disqualification_percentage_for_survival_rounds": 0,
+    "max_number_of_rounds_for_toms": 2,
+    "bucket_override_max_tom_rounds": [],
+    "id": "director_squads_ss2_parrot"
   },
   {
     "select_rounds_once_only": true,
