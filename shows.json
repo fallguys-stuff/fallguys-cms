@@ -6212,11 +6212,10 @@
   },
   {
     "show_name": "localised_strings.show_title_solo_show",
-    "show_description": "localised_strings.show_desc_solo_show_ss2_launch",
+    "show_description": "localised_strings.show_desc_main_parrot",
     "show_image": "MainShow",
-    "show_image_cms": "show_selector_show_mainshow",
-    "default_episode": "levels_episode.episode_solo_show_ss2_launch",
-    "episode_reward_settings_id": "solos",
+    "show_image_cms": "show_selector_parrot_solo",
+    "hide_countdown": true,
     "min_party_size": 1,
     "max_party_size": 4,
     "size": {
@@ -6230,11 +6229,12 @@
     "show_type": {
       "showtype_switch": "individual"
     },
+    "default_episode": "levels_episode.episode_solo_show_ss2_parrot",
+    "episode_reward_settings_id": "solos",
     "themeable_override": null,
     "opens_at": "2020-04-17T00:00:01",
     "closes_at": null,
     "skill_score_factor_override": null,
-    "hide_countdown": true,
     "id": "main_show"
   },
   {
@@ -7025,17 +7025,14 @@
   },
   {
     "show_name": "localised_strings.show_title_duos_show",
-    "show_description": "localised_strings.show_desc_squads_duos_show_ss2_launch",
+    "show_description": "localised_strings.show_desc_squads_duos_parrot",
     "show_image": "Duos",
-    "show_image_cms": "show_selector_show_duos",
-    "default_episode": "levels_episode.episode_duos_show_ss2_launch",
-    "episode_reward_settings_id": "duos",
+    "show_image_cms": "show_selector_parrot_duo",
+    "hide_countdown": true,
     "min_party_size": 1,
     "max_party_size": 2,
     "size": {
-      "type": "override",
-      "min_players": 40,
-      "max_players": 60
+      "type": "default"
     },
     "private_lobby_size": {
       "type": "default"
@@ -7044,11 +7041,12 @@
       "showtype_switch": "squad",
       "squad_size": 2
     },
+    "default_episode": "levels_episode.episode_duos_show_ss2_parrot",
+    "episode_reward_settings_id": "duos",
     "themeable_override": null,
     "opens_at": "2020-04-17T00:00:01",
     "closes_at": null,
     "skill_score_factor_override": null,
-    "hide_countdown": true,
     "id": "squads_2player_template"
   },
   {
@@ -7191,11 +7189,10 @@
   },
   {
     "show_name": "localised_strings.show_title_squad_show",
-    "show_description": "localised_strings.show_desc_squads_squads_show_ss2_launch",
+    "show_description": "localised_strings.show_desc_squad_show_parrot",
     "show_image": "SquadShow",
-    "show_image_cms": "show_selector_show_squadshows",
-    "default_episode": "levels_episode.episode_squads_show_ss2_launch",
-    "episode_reward_settings_id": "squads",
+    "show_image_cms": "show_selector_parrot_squads",
+    "hide_countdown": true,
     "min_party_size": 1,
     "max_party_size": 4,
     "size": {
@@ -7208,11 +7205,12 @@
       "showtype_switch": "squad",
       "squad_size": 4
     },
+    "default_episode": "levels_episode.episode_squads_show_ss2_parrot",
+    "episode_reward_settings_id": "squads",
     "themeable_override": null,
     "opens_at": "2020-04-17T09:00:00",
     "closes_at": null,
     "skill_score_factor_override": null,
-    "hide_countdown": true,
     "id": "squads_4player"
   },
   {
