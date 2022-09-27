@@ -5513,6 +5513,35 @@
     "id": "event_vulture_template"
   },
   {
+    "show_name": "localised_strings.show_name_event_walnut",
+    "show_description": "localised_strings.show_desc_event_walnut",
+    "show_image": "FloorFallLevels",
+    "show_image_cms": "show_selector_show_walnut",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 16,
+      "max_players": 20
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 4,
+      "max_players": 20
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.episode_walnut",
+    "episode_reward_settings_id": "solo_rewards",
+    "themeable_override": null,
+    "opens_at": "2022-10-06T09:00:00",
+    "closes_at": "2022-10-11T09:00:00",
+    "skill_score_factor_override": null,
+    "hide_countdown": false,
+    "id": "event_walnut_template"
+  },
+  {
     "show_name": "localised_strings.show_title_s6_duos_festival",
     "show_description": "localised_strings.show_desc_s6_duos_festival",
     "show_image": "Duos",

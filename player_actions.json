@@ -962,6 +962,39 @@
   },
   {
     "config": {
+      "metric_id": "distance_run",
+      "team_id": null,
+      "is_in_squad": null,
+      "is_final_round": null,
+      "level_archetype": null,
+      "level_id": null,
+      "overtime": null,
+      "is_in_party": null,
+      "party_size": null,
+      "position_placed": null,
+      "team_score": null,
+      "round_index": null,
+      "round_qualified": null,
+      "qualified_player_count": null,
+      "show_id": "event_walnut_template",
+      "is_private_lobby": "false",
+      "fell_in_slime": null,
+      "player_respawn_count": null,
+      "qualify_time": null,
+      "team_goals_scored": null,
+      "hoops_dived_through": null,
+      "time_survived": null,
+      "costume_faceplate": null,
+      "costume_upper": null,
+      "costume_lower": null,
+      "costume_colour_schema": null,
+      "costume_pattern": null,
+      "dimensions": []
+    },
+    "id": "distance_run_walnut"
+  },
+  {
+    "config": {
       "metric_id": "badge_won",
       "rarity": null,
       "team_id": null,
@@ -3886,6 +3919,29 @@
       "overtime": null,
       "is_in_party": null,
       "episode_id": null,
+      "show_id": null,
+      "is_final_round": null,
+      "is_private_lobby": null,
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": []
+    },
+    "id": "play_round_hazelnut"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "level_id": null,
+      "level_archetype": null,
+      "round_index": null,
+      "round_qualified": null,
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
       "show_id": "event_end_of_season_s3",
       "is_final_round": null,
       "is_private_lobby": null,
@@ -4634,6 +4690,29 @@
       "dimensions": []
     },
     "id": "play_show_ss1_week_9"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "level_id": null,
+      "level_archetype": null,
+      "round_index": 0,
+      "round_qualified": null,
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
+      "show_id": "event_walnut_template",
+      "is_final_round": null,
+      "is_private_lobby": "false",
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": []
+    },
+    "id": "play_show_walnut"
   },
   {
     "config": {
@@ -7616,6 +7695,62 @@
     "config": {
       "metric_id": "round_reached",
       "level_id": null,
+      "level_archetype": null,
+      "round_index": null,
+      "round_qualified": null,
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
+      "show_id": null,
+      "is_final_round": null,
+      "is_private_lobby": null,
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": [
+        {
+          "dimension_id": "player_respawn_count",
+          "operator": "less_or_equal",
+          "integer_value": 0,
+          "dimension_type": "integer_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "string_value": "squads_4player",
+          "dimension_type": "string_dimension",
+          "case_sensitive": false
+        },
+        {
+          "dimension_id": "level_archetype",
+          "operator": "equal",
+          "string_value": "archetype_race",
+          "dimension_type": "string_dimension",
+          "case_sensitive": false
+        },
+        {
+          "dimension_id": "round_qualified",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        }
+      ]
+    },
+    "id": "qualify_from_a_race_round_no_respawn_squads_walnut"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "level_id": null,
       "level_archetype": "archetype_race",
       "round_index": null,
       "round_qualified": "true",
@@ -8966,6 +9101,29 @@
     "config": {
       "metric_id": "round_reached",
       "level_id": null,
+      "level_archetype": null,
+      "round_index": null,
+      "round_qualified": "true",
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
+      "show_id": "event_walnut_template",
+      "is_final_round": null,
+      "is_private_lobby": "false",
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": []
+    },
+    "id": "qualify_from_rounds_walnut_show"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "level_id": null,
       "level_archetype": "archetype_survival",
       "round_index": null,
       "round_qualified": "true",
@@ -9076,6 +9234,111 @@
       "dimensions": []
     },
     "id": "qualify_from_team_rounds_squad"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "level_id": null,
+      "level_archetype": null,
+      "round_index": null,
+      "round_qualified": null,
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
+      "show_id": null,
+      "is_final_round": null,
+      "is_private_lobby": null,
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": [
+        {
+          "dimension_id": "level_archetype",
+          "operator": "equal",
+          "string_value": "archetype_race",
+          "dimension_type": "string_dimension",
+          "case_sensitive": false
+        },
+        {
+          "dimension_id": "round_qualified",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "qualify_time",
+          "operator": "less_or_equal",
+          "integer_value": 30,
+          "dimension_type": "integer_dimension"
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        }
+      ]
+    },
+    "id": "qualify_in_30_seconds_walnut"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "level_id": null,
+      "level_archetype": null,
+      "round_index": null,
+      "round_qualified": null,
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
+      "show_id": null,
+      "is_final_round": null,
+      "is_private_lobby": null,
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": [
+        {
+          "dimension_id": "level_archetype",
+          "operator": "equal",
+          "string_value": "archetype_race",
+          "dimension_type": "string_dimension",
+          "case_sensitive": false
+        },
+        {
+          "dimension_id": "round_qualified",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "qualify_time",
+          "operator": "less_or_equal",
+          "integer_value": 45,
+          "dimension_type": "integer_dimension"
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "string_value": "main_show",
+          "dimension_type": "string_dimension",
+          "case_sensitive": false
+        }
+      ]
+    },
+    "id": "qualify_in_45_seconds_walnut"
   },
   {
     "config": {
@@ -10467,6 +10730,29 @@
       "overtime": null,
       "is_in_party": null,
       "episode_id": null,
+      "show_id": "event_walnut_template",
+      "is_final_round": null,
+      "is_private_lobby": "false",
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": []
+    },
+    "id": "reach_round_2_walnut_w4"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "level_id": null,
+      "level_archetype": null,
+      "round_index": 1,
+      "round_qualified": null,
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
       "show_id": "event_week_of_romance_s6_duo_teams",
       "is_final_round": null,
       "is_private_lobby": "false",
@@ -10962,6 +11248,29 @@
       "dimensions": []
     },
     "id": "reach_round_3_vulture"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "level_id": null,
+      "level_archetype": null,
+      "round_index": 2,
+      "round_qualified": null,
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
+      "show_id": "event_walnut_template",
+      "is_final_round": null,
+      "is_private_lobby": "false",
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": []
+    },
+    "id": "reach_round_3_walnut_w4"
   },
   {
     "config": {
@@ -11867,6 +12176,99 @@
       "dimensions": []
     },
     "id": "steal_a_tail"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "level_id": null,
+      "level_archetype": null,
+      "round_index": null,
+      "round_qualified": null,
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
+      "show_id": null,
+      "is_final_round": null,
+      "is_private_lobby": null,
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": [
+        {
+          "dimension_id": "level_archetype",
+          "operator": "equal",
+          "string_value": "archetype_survival",
+          "dimension_type": "string_dimension",
+          "case_sensitive": false
+        },
+        {
+          "dimension_id": "time_survived",
+          "operator": "more_or_equal",
+          "integer_value": 60,
+          "dimension_type": "integer_dimension"
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "string_value": "event_walnut_template",
+          "dimension_type": "string_dimension",
+          "case_sensitive": false
+        }
+      ]
+    },
+    "id": "survive_for_60_sec_walnut"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "level_id": null,
+      "level_archetype": null,
+      "round_index": null,
+      "round_qualified": null,
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
+      "show_id": null,
+      "is_final_round": null,
+      "is_private_lobby": null,
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": [
+        {
+          "dimension_id": "time_survived",
+          "operator": "more_or_equal",
+          "integer_value": 30,
+          "dimension_type": "integer_dimension"
+        },
+        {
+          "dimension_id": "level_archetype",
+          "operator": "equal",
+          "string_value": "archetype_survival",
+          "dimension_type": "string_dimension",
+          "case_sensitive": false
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        }
+      ]
+    },
+    "id": "survive_time_survival_rounds_walnut_w4"
   },
   {
     "config": {
@@ -13143,6 +13545,29 @@
       "dimensions": []
     },
     "id": "win_vulture"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "level_id": null,
+      "level_archetype": null,
+      "round_index": null,
+      "round_qualified": "true",
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
+      "show_id": "event_walnut_template",
+      "is_final_round": "true",
+      "is_private_lobby": "false",
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": []
+    },
+    "id": "win_walnut"
   },
   {
     "config": {

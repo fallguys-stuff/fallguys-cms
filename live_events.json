@@ -5172,6 +5172,203 @@
     "id": "le_ss2_parrot"
   },
   {
+    "title": "localised_strings.le_ss2_walnut_title",
+    "description": "localised_strings.le_ss2_walnut_desc",
+    "target_ids": [
+      "le_ss2_walnut"
+    ],
+    "tool_tip_image": "ui-liveevents-walnut-tooltip",
+    "background_image": "ui-liveevents-walnut-bg",
+    "promotional_image": "ui-liveevents-walnut-costume",
+    "reward_icon_image": "ui-liveevents-walnut-token",
+    "ui_detail_colour": "colour.challenges_green",
+    "milestones": [
+      {
+        "xp_required": 100,
+        "reward_id": "nickname_ss2_14"
+      },
+      {
+        "xp_required": 300,
+        "reward_id": "kudos_bonus_200"
+      },
+      {
+        "xp_required": 500,
+        "reward_id": "nameplate_ss02_event_hexathon"
+      },
+      {
+        "xp_required": 700,
+        "reward_id": "pattern_ss02_32"
+      },
+      {
+        "xp_required": 800,
+        "reward_id": "bottom_ss02_spacepirate_02"
+      },
+      {
+        "xp_required": 1000,
+        "reward_id": "top_ss02_spacepirate_02"
+      }
+    ],
+    "challenges": [
+      {
+        "goal_id": "qualify_without_respawn_squads_walnut",
+        "xp_awarded": 100,
+        "goal_title_locked": null,
+        "goal_description_locked": {
+          "template": null,
+          "template_parameters": []
+        },
+        "unlock_conditions": []
+      },
+      {
+        "goal_id": "win_squads_walnut",
+        "xp_awarded": 100,
+        "goal_title_locked": null,
+        "goal_description_locked": {
+          "template": null,
+          "template_parameters": []
+        },
+        "unlock_conditions": []
+      },
+      {
+        "goal_id": "reach_final_round_duos_walnut",
+        "xp_awarded": 100,
+        "goal_title_locked": "challenge_locked",
+        "goal_description_locked": {
+          "template": "challenge_unlock_multiple_of_a_type",
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "walnut_challenge_group_title_1"
+            }
+          ]
+        },
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "qualify_without_respawn_squads_walnut"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "win_squads_walnut"
+          }
+        ]
+      },
+      {
+        "goal_id": "win_duos_walnut",
+        "xp_awarded": 100,
+        "goal_title_locked": "challenge_locked",
+        "goal_description_locked": {
+          "template": "challenge_unlock_multiple_of_a_type",
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "walnut_challenge_group_title_1"
+            }
+          ]
+        },
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "qualify_without_respawn_squads_walnut"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "win_squads_walnut"
+          }
+        ]
+      },
+      {
+        "goal_id": "qualify_less_than_seconds_walnut",
+        "xp_awarded": 100,
+        "goal_title_locked": "challenge_locked",
+        "goal_description_locked": {
+          "template": "challenge_unlock_multiple_of_a_type",
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "walnut_challenge_group_title_2"
+            }
+          ]
+        },
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "reach_final_round_duos_walnut"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "win_duos_walnut"
+          }
+        ]
+      },
+      {
+        "goal_id": "win_main_walnut",
+        "xp_awarded": 100,
+        "goal_title_locked": "challenge_locked",
+        "goal_description_locked": {
+          "template": "challenge_unlock_multiple_of_a_type",
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "walnut_challenge_group_title_2"
+            }
+          ]
+        },
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "reach_final_round_duos_walnut"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "win_duos_walnut"
+          }
+        ]
+      },
+      {
+        "goal_id": "distance_run_walnut",
+        "xp_awarded": 100,
+        "goal_title_locked": null,
+        "goal_description_locked": {
+          "template": null,
+          "template_parameters": []
+        },
+        "unlock_conditions": []
+      },
+      {
+        "goal_id": "survive_time_walnut",
+        "xp_awarded": 100,
+        "goal_title_locked": null,
+        "goal_description_locked": {
+          "template": null,
+          "template_parameters": []
+        },
+        "unlock_conditions": []
+      },
+      {
+        "goal_id": "win_walnut_x1",
+        "xp_awarded": 100,
+        "goal_title_locked": null,
+        "goal_description_locked": {
+          "template": null,
+          "template_parameters": []
+        },
+        "unlock_conditions": []
+      },
+      {
+        "goal_id": "win_walnut_x2",
+        "xp_awarded": 100,
+        "goal_title_locked": null,
+        "goal_description_locked": {
+          "template": null,
+          "template_parameters": []
+        },
+        "unlock_conditions": []
+      }
+    ],
+    "id": "le_ss2_walnut"
+  },
+  {
     "title": "localised_strings.le_crownladder_title",
     "description": "localised_strings.le_crownladder_desc",
     "target_ids": [
