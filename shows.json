@@ -3399,7 +3399,7 @@
     "show_type": {
       "showtype_switch": "individual"
     },
-    "default_episode": "levels_episode.episode_event_only_season_4",
+    "default_episode": "levels_episode.episode_event_only_season_4_custom_lobby",
     "episode_reward_settings_id": "solo_rewards",
     "themeable_override": null,
     "opens_at": "2021-03-22T12:00:00",
@@ -3535,6 +3535,33 @@
     "closes_at": "2022-09-11T09:00:00",
     "skill_score_factor_override": null,
     "id": "event_only_season_5_0909_to_1009_2022"
+  },
+  {
+    "show_name": "localised_strings.show_title_s5",
+    "show_description": "localised_strings.show_desc_s5",
+    "show_image": "WelcomeToTheJungle",
+    "show_image_cms": "show_selector_show_season5",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "default"
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 10,
+      "max_players": 60
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.episode_event_only_season_5_custom_lobby",
+    "episode_reward_settings_id": "solos",
+    "themeable_override": null,
+    "opens_at": "2020-03-05T00:00:00",
+    "closes_at": "2021-07-19T17:11:00",
+    "skill_score_factor_override": null,
+    "hide_countdown": false,
+    "id": "event_only_season_5_custom_lobby"
   },
   {
     "show_name": "localised_strings.show_title_s5",
