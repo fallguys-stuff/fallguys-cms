@@ -5924,6 +5924,55 @@
     "id": "ss001_seasonpass"
   },
   {
+    "name": "sym_storesection_title_daily",
+    "storefront": "ss002_storefront_item_shop",
+    "order_preference": 40,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "refresh_cycle_length_seconds": 86400,
+    "bundle_slots": [
+      {
+        "bundle_slot": "slot_pool_costumes_01",
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        }
+      },
+      {
+        "bundle_slot": "slot_pool_mixed_01",
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        }
+      },
+      {
+        "bundle_slot": "slot_pool_mixed_02",
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        }
+      },
+      {
+        "bundle_slot": "slot_pool_nameplates_01",
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 1
+        }
+      },
+      {
+        "bundle_slot": "slot_pool_nicknames_01",
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 1
+        }
+      }
+    ],
+    "target_ids": [
+      "ss2_entire_dates"
+    ],
+    "id": "ss002_itemshop_dailies"
+  },
+  {
     "name": "sym_storesection_title_seasonbundles",
     "storefront": "ss002_storefront_season",
     "order_preference": 10,
