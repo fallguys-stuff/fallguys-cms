@@ -457,6 +457,36 @@
     "id": "duos_show_ss2_parrot"
   },
   {
+    "show_name": "localised_strings.show_name_only_ss2_almond",
+    "show_description": "localised_strings.show_desc_only_ss2_almond",
+    "show_image": null,
+    "show_image_cms": "show_selector_show_ss2_almond",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 36,
+      "max_players": 40
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 8,
+      "max_players": 40
+    },
+    "show_type": {
+      "showtype_switch": "squad",
+      "squad_size": 4
+    },
+    "default_episode": "levels_episode.event_only_ss2_squads_almond",
+    "episode_reward_settings_id": "squads",
+    "themeable_override": null,
+    "opens_at": "2022-11-01T09:00:00",
+    "closes_at": "2022-11-04T09:00:00",
+    "skill_score_factor_override": null,
+    "hide_countdown": false,
+    "id": "event_almond_squads_011122_031122"
+  },
+  {
     "show_name": "localised_strings.show_title_beasty_guys",
     "show_description": "localised_strings.show_desc_beasty_guys",
     "show_image": null,
@@ -1213,6 +1243,33 @@
     "skill_score_factor_override": null,
     "hide_countdown": false,
     "id": "event_end_of_season_s5"
+  },
+  {
+    "show_name": "localised_strings.show_name_fall_ball_cup",
+    "show_description": "localised_strings.show_desc_fall_ball_cup",
+    "show_image": "FallBallCup",
+    "show_image_cms": "show_selector_show_fallballcup",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 24,
+      "max_players": 32
+    },
+    "private_lobby_size": {
+      "type": "default"
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.episode_event_only_fall_ball",
+    "episode_reward_settings_id": "solos",
+    "themeable_override": null,
+    "opens_at": "2022-10-10T09:00:00",
+    "closes_at": "2022-10-13T09:00:00",
+    "skill_score_factor_override": null,
+    "hide_countdown": false,
+    "id": "event_fall_ball_101022_121022"
   },
   {
     "show_name": "localised_strings.show_name_fan_favourites",
@@ -4398,7 +4455,7 @@
     "default_episode": "levels_episode.episode_event_only_slime_climb_2",
     "episode_reward_settings_id": "solo_rewards",
     "themeable_override": null,
-    "opens_at": "2022-12-29T09:00:00",
+    "opens_at": "2022-10-29T09:00:00",
     "closes_at": "2022-10-31T09:00:00",
     "skill_score_factor_override": null,
     "hide_countdown": false,
@@ -4576,19 +4633,23 @@
     "id": "event_only_survival_3009_to_0210_2022"
   },
   {
-    "show_name": "localised_strings.show_name_only_survival",
-    "show_description": "localised_strings.show_desc_only_survival",
+    "show_name": "localised_strings.show_title_survival_of_the_fittest",
+    "show_description": "localised_strings.show_desc_survival_of_the_fittest",
     "show_image": "SurvivalLevels",
-    "show_image_cms": "show_selector_show_survivallevels",
-    "default_episode": "levels_episode.episode_event_only_survival",
-    "episode_reward_settings_id": "solo_hard_mode",
+    "show_image_cms": "show_selector_show_survival_of_the_fittest",
+    "default_episode": "levels_episode.episode_event_only_survival_s61",
+    "episode_reward_settings_id": "solo_rewards_hard_mode",
     "min_party_size": 1,
     "max_party_size": 4,
     "size": {
-      "type": "default"
+      "type": "override",
+      "min_players": 20,
+      "max_players": 30
     },
     "private_lobby_size": {
-      "type": "default"
+      "type": "override",
+      "min_players": 1,
+      "max_players": 40
     },
     "show_type": {
       "showtype_switch": "individual"
@@ -4599,6 +4660,35 @@
     "skill_score_factor_override": null,
     "hide_countdown": false,
     "id": "event_only_survival_3110_0111_2022"
+  },
+  {
+    "show_name": "localised_strings.show_title_survival_of_the_fittest",
+    "show_description": "localised_strings.show_desc_survival_of_the_fittest",
+    "show_image": null,
+    "show_image_cms": "show_selector_show_survival_of_the_fittest",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 20,
+      "max_players": 30
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 1,
+      "max_players": 40
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.episode_event_only_survival_s61",
+    "episode_reward_settings_id": "solo_rewards_hard_mode",
+    "opens_at": "2022-10-31T09:00:00",
+    "closes_at": "2022-11-02T09:00:00",
+    "themeable_override": null,
+    "skill_score_factor_override": null,
+    "hide_countdown": false,
+    "id": "event_only_survival_fittest_3110_0111_2022"
   },
   {
     "show_name": "localised_strings.show_name_only_survival",
@@ -6364,6 +6454,31 @@
   {
     "show_name": "localised_strings.show_name_big_yeetus_tour",
     "show_description": "localised_strings.show_desc_big_yeetus_tour",
+    "show_image": "YeetusTour",
+    "show_image_cms": "show_selector_show_yeetustour",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "default"
+    },
+    "private_lobby_size": {
+      "type": "default"
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.episode_event_yeetus",
+    "episode_reward_settings_id": "solo_rewards",
+    "themeable_override": null,
+    "opens_at": "2022-10-11T09:00:00",
+    "closes_at": "2022-10-13T09:00:00",
+    "skill_score_factor_override": null,
+    "hide_countdown": false,
+    "id": "event_yeetus_111022_121022"
+  },
+  {
+    "show_name": "localised_strings.show_name_big_yeetus_tour",
+    "show_description": "localised_strings.show_desc_big_yeetus_tour",
     "show_image": null,
     "show_image_cms": "show_selector_show_yeetustour",
     "min_party_size": 1,
@@ -6494,6 +6609,35 @@
     "skill_score_factor_override": null,
     "hide_countdown": false,
     "id": "invisibeans_0803_to_1303_2022"
+  },
+  {
+    "show_name": "localised_strings.level_name_invisibeans",
+    "show_description": "localised_strings.show_desc_invisibeans",
+    "show_image": null,
+    "show_image_cms": "show_selector_show_invisibeans",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 8,
+      "max_players": 12
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 10,
+      "max_players": 12
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.episode_just_invisibeans",
+    "episode_reward_settings_id": "sweet_thieves",
+    "themeable_override": null,
+    "opens_at": "2022-10-18T09:00:00",
+    "closes_at": "2022-10-21T09:00:00",
+    "skill_score_factor_override": null,
+    "hide_countdown": false,
+    "id": "invisibeans_181022_201022"
   },
   {
     "show_name": "localised_strings.level_name_invisibeans",
@@ -6920,6 +7064,35 @@
     "closes_at": null,
     "skill_score_factor_override": null,
     "id": "only_1v1_volleyfall"
+  },
+  {
+    "show_name": "localised_strings.show_name_ss1_or_ss2_show2",
+    "show_description": "localised_strings.show_desc_only_1v1_volleyfall",
+    "show_image_cms": "show_selector_show_1v1_volleyfall",
+    "hide_countdown": false,
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 16,
+      "max_players": 16
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 16,
+      "max_players": 16
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.episode_1v1_volleyfall_solos",
+    "episode_reward_settings_id": "solo_rewards",
+    "opens_at": "2022-10-19T09:00:00",
+    "show_image": null,
+    "themeable_override": null,
+    "closes_at": "2022-10-22T09:00:00",
+    "skill_score_factor_override": null,
+    "id": "only_1v1_volleyfall_191022_211022"
   },
   {
     "show_name": "localised_strings.show_name_ss1_or_ss2_show2",
