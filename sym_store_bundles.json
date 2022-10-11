@@ -9997,7 +9997,7 @@
     },
     "bundle_tile_image": "bundle_1x2_costumeset_s6_vulture_01_01",
     "bundle_background_custom_pattern_image": null,
-    "bundle_background_custom_gradient_image": null,
+    "bundle_background_custom_gradient_image": "vulture_1x2_background",
     "bundle_background_custom_colour": null,
     "show_ribbon_label": true,
     "ribbon_label_text": "storelabel_discount_primos",
@@ -10028,7 +10028,7 @@
     },
     "bundle_tile_image": "bundle_1x2_costumeset_s6_vulture_02_01",
     "bundle_background_custom_pattern_image": null,
-    "bundle_background_custom_gradient_image": null,
+    "bundle_background_custom_gradient_image": "vulture_1x2_background",
     "bundle_background_custom_colour": null,
     "show_ribbon_label": true,
     "ribbon_label_text": "storelabel_discount_primos",
@@ -10059,7 +10059,7 @@
     },
     "bundle_tile_image": "bundle_1x2_costumeset_s6_vulture_03_01",
     "bundle_background_custom_pattern_image": null,
-    "bundle_background_custom_gradient_image": null,
+    "bundle_background_custom_gradient_image": "vulture_1x2_background",
     "bundle_background_custom_colour": null,
     "show_ribbon_label": true,
     "ribbon_label_text": "storelabel_discount_primos",
@@ -10090,7 +10090,7 @@
     },
     "bundle_tile_image": "bundle_1x2_costumeset_s6_vulture_05_01",
     "bundle_background_custom_pattern_image": null,
-    "bundle_background_custom_gradient_image": null,
+    "bundle_background_custom_gradient_image": "vulture_1x2_background",
     "bundle_background_custom_colour": null,
     "show_ribbon_label": true,
     "ribbon_label_text": "storelabel_discount_primos",
@@ -12210,6 +12210,68 @@
     "show_corner_label": false,
     "corner_label_text": null,
     "id": "bundle_1x2_costumeset_starranger_02"
+  },
+  {
+    "display_name": "costume_ss02_ip_swan01_01",
+    "bundle_description": "bundle_description_default",
+    "bundle_type_subtitle": "bundle_subtitle_default",
+    "rarity": "special_4",
+    "category": "costume",
+    "has_stock": true,
+    "stock": 2,
+    "bundle_type": {
+      "bundle_type": "costume_set",
+      "purchase_options": {
+        "type": "currencies",
+        "item_id": "gems"
+      },
+      "cosmetics": [
+        {
+          "type": "costume_sets",
+          "item_id": "bundle_1x2_costumeset_swan01"
+        }
+      ]
+    },
+    "bundle_tile_image": "costumeset_swan01_1x2_title",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "swan_duo_1x2_background",
+    "bundle_background_custom_colour": null,
+    "show_ribbon_label": true,
+    "ribbon_label_text": "storelabel_discount_primos",
+    "show_corner_label": false,
+    "corner_label_text": null,
+    "id": "bundle_1x2_costumeset_swan01"
+  },
+  {
+    "display_name": "costume_ss02_swan02_01",
+    "bundle_description": "bundle_description_default",
+    "bundle_type_subtitle": "bundle_subtitle_default",
+    "rarity": "special_4",
+    "category": "costume",
+    "has_stock": true,
+    "stock": 2,
+    "bundle_type": {
+      "bundle_type": "costume_set",
+      "purchase_options": {
+        "type": "currencies",
+        "item_id": "gems"
+      },
+      "cosmetics": [
+        {
+          "type": "costume_sets",
+          "item_id": "bundle_1x2_costumeset_swan02"
+        }
+      ]
+    },
+    "bundle_tile_image": "costumeset_swan02_1x2_title",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "swan_duo_1x2_background",
+    "bundle_background_custom_colour": null,
+    "show_ribbon_label": true,
+    "ribbon_label_text": "storelabel_discount_primos",
+    "show_corner_label": false,
+    "corner_label_text": null,
+    "id": "bundle_1x2_costumeset_swan02"
   },
   {
     "display_name": "costume_ss1_toughenough_01",
@@ -15640,7 +15702,7 @@
     "rarity": "rare",
     "category": "costume",
     "has_stock": true,
-    "stock": 2,
+    "stock": 1,
     "bundle_type": {
       "bundle_type": "discount",
       "purchase_options": {
@@ -16434,6 +16496,95 @@
     "id": "bundle_2x2_grabbag_sparrow_02"
   },
   {
+    "display_name": "bundle_name_vulture_01",
+    "bundle_description": "bundle_desc_vulture_01",
+    "bundle_type_subtitle": "bundle_subtitle_vulture_01",
+    "rarity": "special_4",
+    "category": "costume",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "discount",
+      "purchase_options": {
+        "type": "currencies",
+        "item_id": "gems"
+      },
+      "discount": 1300,
+      "cosmetics": [
+        {
+          "type": "costume_sets",
+          "item_id": "costumeset_s6_vulture_01_01"
+        },
+        {
+          "type": "costume_sets",
+          "item_id": "costumeset_s6_vulture_02_01"
+        },
+        {
+          "type": "costumes_patterns",
+          "item_id": "pattern_s6_vulture_01",
+          "cost": 300
+        }
+      ],
+      "extra": [
+        {
+          "type": "cosmetics_nicknames",
+          "item_id": "nickname_s6_024"
+        }
+      ]
+    },
+    "bundle_tile_image": "vulture_grabbag_2x2_title",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "vulture_2x2_background",
+    "bundle_background_custom_colour": null,
+    "show_ribbon_label": true,
+    "ribbon_label_text": "storelabel_discount_primos",
+    "show_corner_label": false,
+    "corner_label_text": null,
+    "id": "bundle_2x2_grabbag_vulture"
+  },
+  {
+    "display_name": "bundle_name_vulture_02",
+    "bundle_description": "bundle_desc_vulture_02",
+    "bundle_type_subtitle": "bundle_subtitle_vulture_02",
+    "rarity": "special_4",
+    "category": "costume",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "discount",
+      "purchase_options": {
+        "type": "currencies",
+        "item_id": "gems"
+      },
+      "discount": 1500,
+      "cosmetics": [
+        {
+          "type": "costume_sets",
+          "item_id": "costumeset_s6_vulture_05_01"
+        },
+        {
+          "type": "costume_sets",
+          "item_id": "costumeset_s6_vulture_03_01"
+        },
+        {
+          "type": "cosmetics_punchlines",
+          "item_id": "celebration_s6_vulture_01",
+          "cost": 700
+        }
+      ],
+      "extra": []
+    },
+    "bundle_tile_image": "vulture03_grabbag_2x2_title",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "vulture_2x2_background",
+    "bundle_background_custom_colour": null,
+    "show_ribbon_label": true,
+    "ribbon_label_text": "storelabel_discount_primos",
+    "show_corner_label": false,
+    "corner_label_text": null,
+    "id": "bundle_2x2_grabbag_vulture_03"
+  },
+  {
     "display_name": "bundle_name_kingfisher_01",
     "bundle_description": "bundle_desc_kingfisher_01",
     "bundle_type_subtitle": "bundle_subtitle_kingfisher_01",
@@ -16782,6 +16933,43 @@
     "show_corner_label": false,
     "corner_label_text": null,
     "id": "bundle_2x2_ss1_pochard_01"
+  },
+  {
+    "display_name": "bundle_name_swan",
+    "bundle_description": "bundle_desc_swan",
+    "bundle_type_subtitle": "bundle_subtitle_swan",
+    "rarity": "special_4",
+    "category": "costume",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "discount",
+      "purchase_options": {
+        "type": "currencies",
+        "item_id": "gems"
+      },
+      "discount": 1200,
+      "cosmetics": [
+        {
+          "type": "costume_sets",
+          "item_id": "bundle_1x2_costumeset_swan01"
+        },
+        {
+          "type": "costume_sets",
+          "item_id": "bundle_1x2_costumeset_swan02"
+        }
+      ],
+      "extra": []
+    },
+    "bundle_tile_image": "swan_duo_2x2_title",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "swan_duo_2x2_background",
+    "bundle_background_custom_colour": null,
+    "show_ribbon_label": true,
+    "ribbon_label_text": "storelabel_discount_primos",
+    "show_corner_label": false,
+    "corner_label_text": null,
+    "id": "bundle_2x2_swan_duo"
   },
   {
     "display_name": "bundle_name_spacetrex",
@@ -17527,25 +17715,22 @@
     "display_name": "celebration_s6_vulture_01",
     "bundle_description": "blank_sym_store_bundle_desc",
     "bundle_type_subtitle": "bundle_subtitle_celebration_default01",
-    "rarity": null,
+    "rarity": "special_4",
     "category": "costume",
     "has_stock": true,
     "stock": 1,
     "bundle_type": {
-      "bundle_type": "default",
+      "bundle_type": "discount",
       "purchase_options": {
-        "payment_type": "inventory_items",
-        "payment_items": {
-          "type": "currencies",
-          "item_id": "gems",
-          "quantity": 1600
-        },
-        "purchase_quantity": 1
+        "type": "currencies",
+        "item_id": "gems"
       },
+      "discount": 0,
       "cosmetics": [
         {
           "type": "cosmetics_punchlines",
-          "item_id": "celebration_s6_vulture_01"
+          "item_id": "celebration_s6_vulture_01",
+          "cost": 700
         }
       ],
       "extra": []
@@ -46677,20 +46862,17 @@
     "has_stock": true,
     "stock": 1,
     "bundle_type": {
-      "bundle_type": "default",
+      "bundle_type": "discount",
       "purchase_options": {
-        "payment_type": "inventory_items",
-        "payment_items": {
-          "type": "currencies",
-          "item_id": "gems",
-          "quantity": 400
-        },
-        "purchase_quantity": 1
+        "type": "currencies",
+        "item_id": "gems"
       },
+      "discount": 0,
       "cosmetics": [
         {
           "type": "costumes_patterns",
-          "item_id": "pattern_s6_vulture_01"
+          "item_id": "pattern_s6_vulture_01",
+          "cost": 300
         }
       ],
       "extra": []
@@ -52153,6 +52335,128 @@
     "show_corner_label": false,
     "corner_label_text": null,
     "id": "promo_egs_ss2_sparrow"
+  },
+  {
+    "display_name": null,
+    "bundle_description": "blank_sym_store_bundle_desc",
+    "bundle_type_subtitle": "blank_sym_store_bundle_subtitle",
+    "rarity": "rare",
+    "category": "costume",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "iap",
+        "iap": "promo_egs_ss2_swan_01",
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_ss02_ip_swan01_01"
+        },
+        {
+          "type": "costumes_upper",
+          "item_id": "top_ss02_ip_swan01_01"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_ss02_swan02_01"
+        },
+        {
+          "type": "costumes_upper",
+          "item_id": "top_ss02_swan02_01"
+        }
+      ],
+      "extra": []
+    },
+    "bundle_tile_image": null,
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": null,
+    "bundle_background_custom_colour": null,
+    "show_ribbon_label": false,
+    "ribbon_label_text": null,
+    "show_corner_label": false,
+    "corner_label_text": null,
+    "id": "promo_egs_ss2_swan_01"
+  },
+  {
+    "display_name": null,
+    "bundle_description": "blank_sym_store_bundle_desc",
+    "bundle_type_subtitle": "blank_sym_store_bundle_subtitle",
+    "rarity": "rare",
+    "category": "costume",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "iap",
+        "iap": "promo_egs_ss2_vulture_01",
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_s6_vulture_01_01"
+        },
+        {
+          "type": "costumes_upper",
+          "item_id": "top_s6_vulture_01_01"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_s6_vulture_02_01"
+        },
+        {
+          "type": "costumes_upper",
+          "item_id": "top_s6_vulture_02_01"
+        },
+        {
+          "type": "costumes_patterns",
+          "item_id": "pattern_s6_vulture_01"
+        },
+        {
+          "type": "cosmetics_nicknames",
+          "item_id": "nickname_s6_024"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_s6_vulture_05_01"
+        },
+        {
+          "type": "costumes_upper",
+          "item_id": "top_s6_vulture_05_01"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_s6_vulture_03_01"
+        },
+        {
+          "type": "costumes_upper",
+          "item_id": "top_s6_vulture_03_01"
+        },
+        {
+          "type": "cosmetics_punchlines",
+          "item_id": "celebration_s6_vulture_01"
+        },
+        {
+          "type": "cosmetics_nameplates",
+          "item_id": "nameplate_s6_028"
+        }
+      ],
+      "extra": []
+    },
+    "bundle_tile_image": null,
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": null,
+    "bundle_background_custom_colour": null,
+    "show_ribbon_label": false,
+    "ribbon_label_text": null,
+    "show_corner_label": false,
+    "corner_label_text": null,
+    "id": "promo_egs_ss2_vulture_01"
   },
   {
     "display_name": null,

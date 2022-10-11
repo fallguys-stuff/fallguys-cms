@@ -20031,11 +20031,11 @@
         "weightings": [
           {
             "key": "Off",
-            "weighting": 60
+            "weighting": 100
           },
           {
             "key": "GravityZone",
-            "weighting": 40
+            "weighting": 0
           }
         ]
       },
@@ -20282,8 +20282,12 @@
         "undefined_weightings_behaviour": "set_to_zero",
         "weightings": [
           {
-            "key": "GravityZone",
+            "key": "Off",
             "weighting": 100
+          },
+          {
+            "key": "GravityZone",
+            "weighting": 0
           }
         ]
       },
