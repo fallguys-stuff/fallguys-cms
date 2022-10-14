@@ -1262,6 +1262,36 @@
           "max": 1
         },
         "bundle": {
+          "id": "ss002_rmt_doc_glover"
+        }
+      }
+    },
+    "id": "has_not_purchased_ss2_docglover"
+  },
+  {
+    "parameters": {
+      "type": "purchase_history",
+      "data": {
+        "quantity": {
+          "operator": "less_than",
+          "max": 1
+        },
+        "bundle": {
+          "id": "ss002_rmt_pegwin_party"
+        }
+      }
+    },
+    "id": "has_not_purchased_ss2_pegwinparty"
+  },
+  {
+    "parameters": {
+      "type": "purchase_history",
+      "data": {
+        "quantity": {
+          "operator": "less_than",
+          "max": 1
+        },
+        "bundle": {
           "id": "ss002_rmt_season_plushfox"
         }
       }
@@ -5228,11 +5258,33 @@
       "type": "date_time",
       "data": {
         "operator": "between",
+        "start": "2022-10-17T09:00:00",
+        "end": "2022-11-21T08:59:59"
+      }
+    },
+    "id": "ss2_docglover_dates"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
         "start": "2022-09-15T13:00:00",
         "end": "2022-11-21T23:59:59"
       }
     },
     "id": "ss2_entire_dates"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-10-17T09:00:00",
+        "end": "2022-11-21T08:59:59"
+      }
+    },
+    "id": "ss2_pegwinparty_dates"
   },
   {
     "parameters": {
@@ -5475,6 +5527,17 @@
       }
     },
     "id": "ss2_weeklies_2909_0610_22"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-10-17T09:00:00",
+        "end": "2022-11-21T23:59:59"
+      }
+    },
+    "id": "ss2_wk6_monday_to_end"
   },
   {
     "parameters": {
