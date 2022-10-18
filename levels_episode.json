@@ -235,7 +235,7 @@
   },
   {
     "director": "levels_director.director_pelican",
-    "roundpool": "levels_roundpool.roundpool_blast_ball_banger",
+    "roundpool": "levels_roundpool.roundpool_blast_ball_banger_8_2",
     "debug_force_playing_single_round_only": false,
     "debug_ignore_min_players_on_round_selection": false,
     "debug_use_player_count_multiplier": false,
@@ -331,7 +331,7 @@
   },
   {
     "director": "levels_director.director_duos_ss2_launch",
-    "roundpool": "levels_roundpool.roundpool_duos_show_ss2_launch",
+    "roundpool": "levels_roundpool.roundpool_duos_show_ss2_launch_8_2",
     "debug_force_playing_single_round_only": false,
     "debug_ignore_min_players_on_round_selection": false,
     "debug_use_player_count_multiplier": false,
@@ -371,7 +371,6 @@
   {
     "director": "levels_director.director_event_anniversary_season_1",
     "roundpool": "levels_roundpool.roundpool_event_anniversary_season_1",
-    "bucket_override_roundpools": [],
     "debug_force_playing_single_round_only": false,
     "debug_ignore_min_players_on_round_selection": false,
     "debug_use_player_count_multiplier": false,
@@ -379,6 +378,7 @@
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_floor_fall",
     "allow_toms": false,
+    "bucket_override_roundpools": [],
     "id": "episode_event_anniversary_season_1"
   },
   {
@@ -448,7 +448,7 @@
   },
   {
     "director": "levels_director.director_event_xtreme_fall_guys",
-    "roundpool": "levels_roundpool.roundpool_event_elimination_gauntlets_squads",
+    "roundpool": "levels_roundpool.roundpool_event_elimination_gauntlets_squads_8_2",
     "debug_force_playing_single_round_only": false,
     "debug_ignore_min_players_on_round_selection": false,
     "debug_use_player_count_multiplier": false,
@@ -721,7 +721,7 @@
   },
   {
     "director": "levels_director.director_event_only_day_at_races",
-    "roundpool": "levels_roundpool.roundpool_event_only_squads_day_at_races",
+    "roundpool": "levels_roundpool.roundpool_event_only_squads_day_at_races_8_2",
     "debug_force_playing_single_round_only": false,
     "debug_ignore_min_players_on_round_selection": false,
     "debug_use_player_count_multiplier": false,
@@ -3425,6 +3425,19 @@
   },
   {
     "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_pumpkin_pie",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_pumpkin_pie",
+    "allow_toms": false,
+    "bucket_override_roundpools": [],
+    "id": "episode_just_pumpkin_pie"
+  },
+  {
+    "director": "levels_director.director_simple",
     "roundpool": "levels_roundpool.roundpool_robotrampage_arena_sy2_launchvariation",
     "debug_force_playing_single_round_only": true,
     "debug_ignore_min_players_on_round_selection": false,
@@ -3932,6 +3945,19 @@
   },
   {
     "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_testbed_wormhole",
+    "fallback_round": "levels_round.round_testbed_wormhole",
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_force_playing_single_round_only": true,
+    "ignore_team_sizes_in_selection": true,
+    "allow_toms": false,
+    "bucket_override_roundpools": [],
+    "id": "episode_just_testbed_wormhole"
+  },
+  {
+    "director": "levels_director.director_simple",
     "roundpool": "levels_roundpool.roundpool_just_thin_ice",
     "bucket_override_roundpools": [],
     "debug_force_playing_single_round_only": true,
@@ -4113,6 +4139,58 @@
     "id": "episode_just_wall_guys"
   },
   {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_level-variation_victoria_01",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_hexsnake_victoriavariation",
+    "allow_toms": false,
+    "bucket_override_roundpools": [],
+    "id": "episode_level-variation_victoria_1"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_level-variation_victoria_02",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_hexsnake_victoriavariation",
+    "allow_toms": false,
+    "bucket_override_roundpools": [],
+    "id": "episode_level-variation_victoria_2"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_level-variation_victoria_03",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_hexsnake_victoriavariation",
+    "allow_toms": false,
+    "bucket_override_roundpools": [],
+    "id": "episode_level-variation_victoria_3"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_level-variation_victoria_04_squad",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": true,
+    "fallback_round": "levels_round.round_hexsnake_victoriavariation",
+    "allow_toms": false,
+    "bucket_override_roundpools": [],
+    "id": "episode_level-variation_victoria_4_squads"
+  },
+  {
     "director": "levels_director.director_event_ninja",
     "roundpool": "levels_roundpool.roundpool_level_variation_sy2_launch_01",
     "debug_force_playing_single_round_only": false,
@@ -4176,6 +4254,58 @@
     "allow_toms": false,
     "bucket_override_roundpools": [],
     "id": "episode_level_variation_sy2_launch_05"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_level-variation_victoria_01",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_hexsnake_victoriavariation",
+    "allow_toms": false,
+    "bucket_override_roundpools": [],
+    "id": "episode_level_variation_victoria_1"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_level-variation_victoria_02",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_hexsnake_victoriavariation",
+    "allow_toms": false,
+    "bucket_override_roundpools": [],
+    "id": "episode_level_variation_victoria_2"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_level-variation_victoria_03",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_hexsnake_victoriavariation",
+    "allow_toms": false,
+    "bucket_override_roundpools": [],
+    "id": "episode_level_variation_victoria_3"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_level-variation_victoria_04_squad",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": true,
+    "fallback_round": "levels_round.round_hexsnake_victoriavariation",
+    "allow_toms": false,
+    "bucket_override_roundpools": [],
+    "id": "episode_level_variation_victoria_4_squads"
   },
   {
     "director": "levels_director.director_no_weightings",
@@ -4244,7 +4374,7 @@
   },
   {
     "director": "levels_director.director_solo_show_ss2_launch",
-    "roundpool": "levels_roundpool.roundpool_solo_show_ss2_launch",
+    "roundpool": "levels_roundpool.roundpool_solo_show_ss2_launch_8_2",
     "debug_force_playing_single_round_only": false,
     "debug_ignore_min_players_on_round_selection": false,
     "debug_use_player_count_multiplier": false,
@@ -4255,15 +4385,15 @@
     "bucket_override_roundpools": [
       {
         "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_lowest",
-        "roundpool": "levels_roundpool.roundpool_solo_show_ss2_low_bucket"
+        "roundpool": "levels_roundpool.roundpool_solo_show_ss2_low_bucket_8_2"
       },
       {
         "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_mid",
-        "roundpool": "levels_roundpool.roundpool_solo_show_ss2_mid_bucket"
+        "roundpool": "levels_roundpool.roundpool_solo_show_ss2_mid_bucket_8_2"
       },
       {
         "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_high",
-        "roundpool": "levels_roundpool.roundpool_solo_show_ss2_high_bucket"
+        "roundpool": "levels_roundpool.roundpool_solo_show_ss2_high_bucket_8_2"
       }
     ],
     "id": "episode_solo_show_ss2_launch"
@@ -4309,7 +4439,7 @@
   },
   {
     "director": "levels_director.director_squads_ss2_launch",
-    "roundpool": "levels_roundpool.roundpool_squads_show_ss2_launch",
+    "roundpool": "levels_roundpool.roundpool_squads_show_ss2_launch_8_2",
     "debug_force_playing_single_round_only": false,
     "debug_ignore_min_players_on_round_selection": false,
     "debug_use_player_count_multiplier": false,

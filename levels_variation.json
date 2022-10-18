@@ -846,6 +846,11 @@
             "key": "Hammers",
             "weighting": 30,
             "difficulty": null
+          },
+          {
+            "key": "Victoria",
+            "difficulty": null,
+            "weighting": 5000
           }
         ]
       },
@@ -866,6 +871,11 @@
             "key": "Tubes",
             "difficulty": null,
             "weighting": 0
+          },
+          {
+            "key": "Victoria",
+            "difficulty": null,
+            "weighting": 5000
           }
         ]
       },
@@ -1518,6 +1528,81 @@
             "difficulty": null
           }
         ]
+      },
+      {
+        "key": "Victoria1CentrePillar",
+        "weightings": [
+          {
+            "key": "On",
+            "difficulty": null,
+            "weighting": 0
+          },
+          {
+            "key": "Off",
+            "difficulty": null,
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "Victoria2BambooWall",
+        "weightings": [
+          {
+            "key": "On",
+            "difficulty": null,
+            "weighting": 0
+          },
+          {
+            "key": "Off",
+            "difficulty": null,
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "Victoria3Ramps",
+        "weightings": [
+          {
+            "key": "On",
+            "difficulty": null,
+            "weighting": 0
+          },
+          {
+            "key": "Off",
+            "difficulty": null,
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "Victoria4Freefall",
+        "weightings": [
+          {
+            "key": "On",
+            "difficulty": null,
+            "weighting": 0
+          },
+          {
+            "key": "Off",
+            "difficulty": null,
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "Victoria5ConveyorToCentre",
+        "weightings": [
+          {
+            "key": "On",
+            "difficulty": null,
+            "weighting": 0
+          },
+          {
+            "key": "Off",
+            "difficulty": null,
+            "weighting": 1
+          }
+        ]
       }
     ],
     "id": "variation_crown_maze"
@@ -1716,6 +1801,21 @@
             "key": "On",
             "weighting": 0,
             "difficulty": null
+          }
+        ]
+      },
+      {
+        "key": "Doors",
+        "weightings": [
+          {
+            "key": "Original",
+            "difficulty": null,
+            "weighting": 100
+          },
+          {
+            "key": "Victoria",
+            "difficulty": null,
+            "weighting": 0
           }
         ]
       }
@@ -2275,31 +2375,21 @@
   {
     "set_switchers": [
       {
-        "key": "Centre",
+        "key": "Gravity",
         "weightings": [
           {
-            "key": "Original",
-            "weighting": 45,
+            "key": "Off",
+            "weighting": 100,
             "difficulty": null
           },
           {
-            "key": "Turntable",
-            "weighting": 30,
-            "difficulty": null
-          },
-          {
-            "key": "FourBall",
-            "weighting": 5,
-            "difficulty": null
-          },
-          {
-            "key": "Bananaball",
+            "key": "GZ_Whole",
             "weighting": 0,
             "difficulty": null
           },
           {
-            "key": "Flippers",
-            "weighting": 20,
+            "key": "GZ_Centre",
+            "weighting": 0,
             "difficulty": null
           }
         ]
@@ -2309,23 +2399,28 @@
         "weightings": [
           {
             "key": "Off",
-            "weighting": 40,
+            "weighting": 100,
             "difficulty": null
           },
           {
             "key": "Pendulums",
-            "weighting": 20,
+            "weighting": 0,
             "difficulty": null
           },
           {
             "key": "Hammers",
-            "weighting": 20,
+            "weighting": 0,
             "difficulty": null
           },
           {
             "key": "Punchers",
-            "weighting": 20,
+            "weighting": 0,
             "difficulty": null
+          },
+          {
+            "key": "Victoria",
+            "difficulty": null,
+            "weighting": 0
           }
         ]
       },
@@ -2345,20 +2440,35 @@
         ]
       },
       {
-        "key": "Gravity",
+        "key": "Centre",
         "weightings": [
           {
-            "key": "Off",
+            "key": "Original",
             "difficulty": null,
-            "weighting": 100
+            "weighting": 45
           },
           {
-            "key": "GZ_Whole",
+            "key": "Turntable",
+            "difficulty": null,
+            "weighting": 30
+          },
+          {
+            "key": "FourBall",
+            "difficulty": null,
+            "weighting": 5
+          },
+          {
+            "key": "Bananaball",
             "difficulty": null,
             "weighting": 0
           },
           {
-            "key": "GZ_Centre",
+            "key": "Flippers",
+            "difficulty": null,
+            "weighting": 20
+          },
+          {
+            "key": "Victoria",
             "difficulty": null,
             "weighting": 0
           }
@@ -2513,9 +2623,49 @@
             "weighting": 0
           }
         ]
+      },
+      {
+        "key": "Crown",
+        "weightings": [
+          {
+            "key": "Normal",
+            "difficulty": null,
+            "weighting": 100
+          },
+          {
+            "key": "Victoria",
+            "difficulty": null,
+            "weighting": 0
+          },
+          {
+            "key": "Reverse",
+            "difficulty": null,
+            "weighting": 0
+          }
+        ]
       }
     ],
     "id": "variation_fall_mountain_hub_complete"
+  },
+  {
+    "set_switchers": [
+      {
+        "key": "Victoria",
+        "weightings": [
+          {
+            "key": "Off",
+            "difficulty": null,
+            "weighting": 100
+          },
+          {
+            "key": "On",
+            "difficulty": null,
+            "weighting": 0
+          }
+        ]
+      }
+    ],
+    "id": "variation_ffa_button_bashers"
   },
   {
     "set_switchers": [
@@ -5100,17 +5250,112 @@
   {
     "set_switchers": [
       {
+        "key": "Segment_A",
+        "weightings": [
+          {
+            "key": "Original",
+            "difficulty": null,
+            "weighting": 100
+          },
+          {
+            "key": "Victoria",
+            "difficulty": null,
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "Segment_B",
+        "weightings": [
+          {
+            "key": "Original",
+            "difficulty": null,
+            "weighting": 100
+          },
+          {
+            "key": "Victoria",
+            "difficulty": null,
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "Segment_C",
+        "weightings": [
+          {
+            "key": "Original",
+            "difficulty": null,
+            "weighting": 100
+          },
+          {
+            "key": "Victoria",
+            "difficulty": null,
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "Segment_D",
+        "weightings": [
+          {
+            "key": "Original",
+            "difficulty": null,
+            "weighting": 100
+          },
+          {
+            "key": "Victoria",
+            "difficulty": null,
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "Segment_E",
+        "weightings": [
+          {
+            "key": "Original",
+            "difficulty": null,
+            "weighting": 100
+          },
+          {
+            "key": "Victoria",
+            "difficulty": null,
+            "weighting": 0
+          }
+        ]
+      }
+    ],
+    "id": "variation_gauntlet_10"
+  },
+  {
+    "set_switchers": [
+      {
         "key": "Blastballs",
         "weightings": [
           {
             "key": "Off",
             "difficulty": null,
-            "weighting": 75
+            "weighting": 100
           },
           {
             "key": "On",
             "difficulty": null,
-            "weighting": 25
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "Victoria",
+        "weightings": [
+          {
+            "key": "Off",
+            "difficulty": null,
+            "weighting": 100
+          },
+          {
+            "key": "On",
+            "difficulty": null,
+            "weighting": 0
           }
         ]
       }
@@ -5475,6 +5720,86 @@
   {
     "set_switchers": [
       {
+        "key": "Section1_IonThrusters",
+        "weightings": [
+          {
+            "key": "Original",
+            "difficulty": null,
+            "weighting": 100
+          },
+          {
+            "key": "Victoria",
+            "difficulty": null,
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "Section2_RespawningHexTiles",
+        "weightings": [
+          {
+            "key": "Original",
+            "difficulty": null,
+            "weighting": 100
+          },
+          {
+            "key": "Victoria",
+            "difficulty": null,
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "Section3_IslandHexTiles",
+        "weightings": [
+          {
+            "key": "Original",
+            "difficulty": null,
+            "weighting": 100
+          },
+          {
+            "key": "Victoria",
+            "difficulty": null,
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "Section3_FinalStraight",
+        "weightings": [
+          {
+            "key": "Off",
+            "difficulty": null,
+            "weighting": 100
+          },
+          {
+            "key": "Victoria",
+            "difficulty": null,
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "Section3_FinalRamp",
+        "weightings": [
+          {
+            "key": "Original",
+            "difficulty": null,
+            "weighting": 0
+          },
+          {
+            "key": "SpinnerBar",
+            "difficulty": null,
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "variation_hoverboardsurvival_2"
+  },
+  {
+    "set_switchers": [
+      {
         "key": "BottomFlippers_01",
         "weightings": [
           {
@@ -5706,6 +6031,11 @@
             "key": "Off",
             "weighting": 0,
             "difficulty": null
+          },
+          {
+            "key": "Victoria",
+            "difficulty": null,
+            "weighting": 0
           }
         ]
       },
@@ -5721,6 +6051,11 @@
             "key": "Off",
             "weighting": 0,
             "difficulty": null
+          },
+          {
+            "key": "Victoria",
+            "difficulty": null,
+            "weighting": 0
           }
         ]
       }
@@ -6440,7 +6775,7 @@
           {
             "key": "PipeSet1_Config4",
             "difficulty": "all_players",
-            "weighting": 0
+            "weighting": 20
           },
           {
             "key": "PipeSet1_Config5",
@@ -6580,6 +6915,181 @@
   {
     "set_switchers": [
       {
+        "key": "JailButton",
+        "weightings": [
+          {
+            "key": "30Seconds",
+            "difficulty": "all_players",
+            "weighting": 0
+          },
+          {
+            "key": "45Seconds",
+            "difficulty": "all_players",
+            "weighting": 0
+          },
+          {
+            "key": "NoButton",
+            "difficulty": "all_players",
+            "weighting": 0
+          },
+          {
+            "key": "60Seconds",
+            "difficulty": "all_players",
+            "weighting": 0
+          },
+          {
+            "key": "6Seconds",
+            "difficulty": "all_players",
+            "weighting": 0
+          },
+          {
+            "key": "180Seconds",
+            "difficulty": "all_players",
+            "weighting": 0
+          },
+          {
+            "key": "15Seconds",
+            "difficulty": "all_players",
+            "weighting": 0
+          },
+          {
+            "key": "RotatingPortal_2P_30Seconds",
+            "difficulty": "all_players",
+            "weighting": 0
+          },
+          {
+            "key": "RotatingPortal_1P_30Seconds",
+            "difficulty": "all_players",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "Jail",
+        "weightings": [
+          {
+            "key": "Disabled",
+            "difficulty": "all_players",
+            "weighting": 1
+          },
+          {
+            "key": "TrapezesJail",
+            "difficulty": "all_players",
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "Biome_Boxes",
+        "weightings": [
+          {
+            "key": "Forcefields_5s",
+            "difficulty": "all_players",
+            "weighting": 0
+          },
+          {
+            "key": "Forcefields_10s",
+            "difficulty": "all_players",
+            "weighting": 0
+          },
+          {
+            "key": "Forcefields_15s",
+            "difficulty": "all_players",
+            "weighting": 0
+          },
+          {
+            "key": "ForcefieldsReduced_5s",
+            "difficulty": "all_players",
+            "weighting": 0
+          },
+          {
+            "key": "ForcefieldsReduced_10s",
+            "difficulty": "all_players",
+            "weighting": 0
+          },
+          {
+            "key": "ForcefieldsReduced_15s",
+            "difficulty": "all_players",
+            "weighting": 0
+          },
+          {
+            "key": "TurnstilesOnly",
+            "difficulty": "all_players",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "Biome_Water",
+        "weightings": [
+          {
+            "key": "Disabled",
+            "difficulty": "all_players",
+            "weighting": 0
+          },
+          {
+            "key": "Forcefields_5s",
+            "difficulty": "all_players",
+            "weighting": 0
+          },
+          {
+            "key": "Forcefields_10s",
+            "difficulty": "all_players",
+            "weighting": 1
+          },
+          {
+            "key": "Forcefields_15s",
+            "difficulty": "all_players",
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "SideRoute_ToBoxes",
+        "weightings": [
+          {
+            "key": "Scythes",
+            "difficulty": "all_players",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "SideRoute_ToWater",
+        "weightings": [
+          {
+            "key": "Turnstiles",
+            "difficulty": "all_players",
+            "weighting": 0
+          },
+          {
+            "key": "TurnstilesReduced",
+            "difficulty": "all_players",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "CentralArea",
+        "weightings": [
+          {
+            "key": "Flippers",
+            "difficulty": "all_players",
+            "weighting": 0
+          },
+          {
+            "key": "Portals",
+            "difficulty": "all_players",
+            "weighting": 1
+          }
+        ]
+      }
+    ],
+    "id": "variation_pumpkin_pie"
+  },
+  {
+    "set_switchers": [
+      {
         "key": "Centre",
         "weightings": [
           {
@@ -6629,6 +7139,11 @@
           },
           {
             "key": "HexDrums",
+            "difficulty": null,
+            "weighting": 0
+          },
+          {
+            "key": "Victoria",
             "difficulty": null,
             "weighting": 0
           }
@@ -6995,6 +7510,86 @@
   {
     "set_switchers": [],
     "id": "variation_royal_rumble"
+  },
+  {
+    "set_switchers": [
+      {
+        "key": "Section01",
+        "weightings": [
+          {
+            "key": "Off",
+            "difficulty": null,
+            "weighting": 100
+          },
+          {
+            "key": "LaunchVictoria_01",
+            "difficulty": null,
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "Section02",
+        "weightings": [
+          {
+            "key": "Off",
+            "difficulty": null,
+            "weighting": 100
+          },
+          {
+            "key": "LaunchVictoria_02",
+            "difficulty": null,
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "SectionTrolleybots",
+        "weightings": [
+          {
+            "key": "Off",
+            "difficulty": null,
+            "weighting": 100
+          },
+          {
+            "key": "OutsideVictoria",
+            "difficulty": null,
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "Section03",
+        "weightings": [
+          {
+            "key": "Off",
+            "difficulty": null,
+            "weighting": 100
+          },
+          {
+            "key": "LaunchVictoria_03",
+            "difficulty": null,
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "Section04",
+        "weightings": [
+          {
+            "key": "Off",
+            "difficulty": null,
+            "weighting": 100
+          },
+          {
+            "key": "LaunchVictoria_04",
+            "difficulty": null,
+            "weighting": 0
+          }
+        ]
+      }
+    ],
+    "id": "variation_satellitehoppers"
   },
   {
     "set_switchers": [
@@ -7663,8 +8258,13 @@
           },
           {
             "key": "YeetusClan",
-            "weighting": 0,
-            "difficulty": null
+            "difficulty": null,
+            "weighting": 0
+          },
+          {
+            "key": "Victoria",
+            "difficulty": null,
+            "weighting": 0
           }
         ]
       },
@@ -7695,6 +8295,11 @@
             "key": "Short",
             "weighting": 0,
             "difficulty": null
+          },
+          {
+            "key": "Victoria",
+            "difficulty": null,
+            "weighting": 0
           }
         ]
       }
@@ -8745,6 +9350,11 @@
             "key": "Trolleybots",
             "difficulty": null,
             "weighting": 0
+          },
+          {
+            "key": "Victoria_TrolleyBots",
+            "difficulty": null,
+            "weighting": 0
           }
         ]
       },
@@ -8825,6 +9435,191 @@
       }
     ],
     "id": "variation_tip_toe"
+  },
+  {
+    "set_switchers": [
+      {
+        "key": "DuoVictoriaN",
+        "weightings": [
+          {
+            "key": "Off",
+            "difficulty": null,
+            "weighting": 100
+          },
+          {
+            "key": "Victoria",
+            "difficulty": null,
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "DuoVictoriaE",
+        "weightings": [
+          {
+            "key": "Off",
+            "difficulty": null,
+            "weighting": 100
+          },
+          {
+            "key": "Victoria",
+            "difficulty": null,
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "DuoVictoriaS",
+        "weightings": [
+          {
+            "key": "Off",
+            "difficulty": null,
+            "weighting": 100
+          },
+          {
+            "key": "Victoria",
+            "difficulty": null,
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "DuoVictoriaW",
+        "weightings": [
+          {
+            "key": "Off",
+            "difficulty": null,
+            "weighting": 100
+          },
+          {
+            "key": "Victoria",
+            "difficulty": null,
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "TrioVictoriaN",
+        "weightings": [
+          {
+            "key": "Off",
+            "difficulty": null,
+            "weighting": 100
+          },
+          {
+            "key": "Victoria",
+            "difficulty": null,
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "TrioVictoriaE",
+        "weightings": [
+          {
+            "key": "Off",
+            "difficulty": null,
+            "weighting": 100
+          },
+          {
+            "key": "Victoria",
+            "difficulty": null,
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "TrioVictoriaS",
+        "weightings": [
+          {
+            "key": "Off",
+            "difficulty": null,
+            "weighting": 100
+          },
+          {
+            "key": "Victoria",
+            "difficulty": null,
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "TrioVictoriaW",
+        "weightings": [
+          {
+            "key": "Off",
+            "difficulty": null,
+            "weighting": 100
+          },
+          {
+            "key": "Victoria",
+            "difficulty": null,
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "QuadVictoriaN",
+        "weightings": [
+          {
+            "key": "Off",
+            "difficulty": null,
+            "weighting": 100
+          },
+          {
+            "key": "Victoria",
+            "difficulty": null,
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "QuadVictoriaE",
+        "weightings": [
+          {
+            "key": "Off",
+            "difficulty": null,
+            "weighting": 100
+          },
+          {
+            "key": "Victoria",
+            "difficulty": null,
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "QuadVictoriaS",
+        "weightings": [
+          {
+            "key": "Off",
+            "difficulty": null,
+            "weighting": 100
+          },
+          {
+            "key": "Victoria",
+            "difficulty": null,
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "QuadVictoriaW",
+        "weightings": [
+          {
+            "key": "Off",
+            "difficulty": null,
+            "weighting": 100
+          },
+          {
+            "key": "Victoria",
+            "difficulty": null,
+            "weighting": 0
+          }
+        ]
+      }
+    ],
+    "id": "variation_tiptoefinale"
   },
   {
     "set_switchers": [

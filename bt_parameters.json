@@ -331,48 +331,6 @@
         }
       },
       {
-        "name": "MaxStupidAttempts",
-        "parameter": {
-          "value_type": "int",
-          "int_value": 0
-        }
-      },
-      {
-        "name": "VisionDistance",
-        "parameter": {
-          "value_type": "float",
-          "float_value": 19
-        }
-      },
-      {
-        "name": "OpenDoorDetectionRadius",
-        "parameter": {
-          "value_type": "float",
-          "float_value": 21
-        }
-      },
-      {
-        "name": "OpenDoorsRatio",
-        "parameter": {
-          "value_type": "float",
-          "float_value": 0.1
-        }
-      },
-      {
-        "name": "MinWaitBeforeSelectingNextDoorSet",
-        "parameter": {
-          "value_type": "float",
-          "float_value": 0.1
-        }
-      },
-      {
-        "name": "MaxWaitBeforeSelectingNextDoorSet",
-        "parameter": {
-          "value_type": "float",
-          "float_value": 0.2
-        }
-      },
-      {
         "name": "MinInitialDelay",
         "parameter": {
           "value_type": "float",
@@ -405,6 +363,20 @@
         "parameter": {
           "value_type": "float",
           "float_value": 0
+        }
+      },
+      {
+        "name": "AvoidSameDoorProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0.5
+        }
+      },
+      {
+        "name": "NavMeshLinkCost",
+        "parameter": {
+          "value_type": "int",
+          "int_value": 10
         }
       }
     ],
@@ -455,9 +427,31 @@
           "value_type": "float",
           "float_value": 1
         }
+      },
+      {
+        "name": "ZeroQualVelocityScale",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "FullQualVelocityScale",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "QualVelocityDeviation",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0
+        }
       }
     ],
     "bt_refresh_rate": -1,
+    "toms_navmesh_tile_size": -1,
     "id": "bt_drumtop"
   },
   {
@@ -1147,6 +1141,27 @@
           "value_type": "int",
           "int_value": 10
         }
+      },
+      {
+        "name": "ZeroQualVelocityScale",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0.96
+        }
+      },
+      {
+        "name": "FullQualVelocityScale",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0.96
+        }
+      },
+      {
+        "name": "QualVelocityDeviation",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0
+        }
       }
     ],
     "bt_refresh_rate": -1,
@@ -1210,6 +1225,27 @@
           "value_type": "float",
           "float_value": 3
         }
+      },
+      {
+        "name": "ZeroQualVelocityScale",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "FullQualVelocityScale",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "QualVelocityDeviation",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0
+        }
       }
     ],
     "bt_refresh_rate": -1,
@@ -1230,20 +1266,6 @@
         "parameter": {
           "value_type": "float",
           "float_value": 0.6
-        }
-      },
-      {
-        "name": "MinFinalGapDiveProbability",
-        "parameter": {
-          "value_type": "float",
-          "float_value": 0.5
-        }
-      },
-      {
-        "name": "MaxFinalGapDiveProbability",
-        "parameter": {
-          "value_type": "float",
-          "float_value": 0.7
         }
       },
       {
@@ -1278,7 +1300,84 @@
         "name": "MaxInitialDelay",
         "parameter": {
           "value_type": "float",
-          "float_value": 0.2
+          "float_value": 0.5
+        }
+      },
+      {
+        "name": "ZeroQualVelocityScale",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "FullQualVelocityScale",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "QualVelocityDeviation",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0
+        }
+      },
+      {
+        "name": "MinSpinningBarJumpDelay",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0
+        }
+      },
+      {
+        "name": "MaxSpinningBarJumpDelay",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0
+        }
+      },
+      {
+        "name": "MinDiveAirTime",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0.3
+        }
+      },
+      {
+        "name": "MaxDiveAirTime",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0.3
+        }
+      },
+      {
+        "name": "MinFinalGapDiveProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0.7
+        }
+      },
+      {
+        "name": "MaxFinalGapDiveProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "MinFinalGapJumpProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0.7
+        }
+      },
+      {
+        "name": "MaxFinalGapJumpProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
         }
       }
     ],
@@ -1357,6 +1456,27 @@
           "value_type": "float",
           "float_value": 0.5
         }
+      },
+      {
+        "name": "ZeroQualVelocityScale",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "FullQualVelocityScale",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "QualVelocityDeviation",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0
+        }
       }
     ],
     "bt_refresh_rate": -1,
@@ -1405,6 +1525,27 @@
         "parameter": {
           "value_type": "float",
           "float_value": 0.6
+        }
+      },
+      {
+        "name": "ZeroQualVelocityScale",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "FullQualVelocityScale",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "QualVelocityDeviation",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0
         }
       }
     ],
@@ -1477,6 +1618,27 @@
         "parameter": {
           "value_type": "float",
           "float_value": 2
+        }
+      },
+      {
+        "name": "ZeroQualVelocityScale",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "FullQualVelocityScale",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "QualVelocityDeviation",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0
         }
       }
     ],
@@ -1616,11 +1778,116 @@
           "value_type": "float",
           "float_value": 10
         }
+      },
+      {
+        "name": "ZeroQualVelocityScale",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "FullQualVelocityScale",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "QualVelocityDeviation",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0
+        }
       }
     ],
     "bt_refresh_rate": -1,
     "toms_navmesh_tile_size": -1,
     "id": "bt_gauntlet_07"
+  },
+  {
+    "bt_refresh_rate": -1,
+    "toms_navmesh_tile_size": -1,
+    "parameters": [
+      {
+        "name": "MinInitialDelay",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0.5
+        }
+      },
+      {
+        "name": "MaxInitialDelay",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1.5
+        }
+      },
+      {
+        "name": "JumpProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "DiveProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "MinThinkingTime",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0
+        }
+      },
+      {
+        "name": "MaxThinkingTime",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0
+        }
+      },
+      {
+        "name": "MantleProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "MinDiveAirTime",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0.3
+        }
+      },
+      {
+        "name": "MaxDiveAirTime",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0.3
+        }
+      },
+      {
+        "name": "AboveThreshold",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 4
+        }
+      },
+      {
+        "name": "BelowThreshold",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 4
+        }
+      }
+    ],
+    "id": "bt_gauntlet_08"
   },
   {
     "parameters": [
@@ -1656,14 +1923,14 @@
         "name": "MinInitialDelay",
         "parameter": {
           "value_type": "float",
-          "float_value": 0.5
+          "float_value": 2
         }
       },
       {
         "name": "MaxInitialDelay",
         "parameter": {
           "value_type": "float",
-          "float_value": 1.25
+          "float_value": 4
         }
       },
       {
@@ -1677,20 +1944,138 @@
         "name": "SlowDownBeforeFinishLineProbability",
         "parameter": {
           "value_type": "float",
-          "float_value": 0.6
+          "float_value": 0.8
         }
       },
       {
         "name": "WaitBeforeAllowingMovementAgain",
         "parameter": {
           "value_type": "float",
-          "float_value": 1.5
+          "float_value": 2
+        }
+      },
+      {
+        "name": "ZeroQualVelocityScale",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "FullQualVelocityScale",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "QualVelocityDeviation",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0
         }
       }
     ],
     "bt_refresh_rate": -1,
     "toms_navmesh_tile_size": -1,
     "id": "bt_gauntlet_09"
+  },
+  {
+    "bt_refresh_rate": -1,
+    "toms_navmesh_tile_size": -1,
+    "parameters": [],
+    "id": "bt_gauntlet_10"
+  },
+  {
+    "bt_refresh_rate": -1,
+    "toms_navmesh_tile_size": -1,
+    "parameters": [
+      {
+        "name": "MinInitialDelay",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0.5
+        }
+      },
+      {
+        "name": "MaxInitialDelay",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1.5
+        }
+      },
+      {
+        "name": "JumpProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "DiveProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "MantleProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "MinThinkingTime",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0
+        }
+      },
+      {
+        "name": "MaxThinkingTime",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0
+        }
+      },
+      {
+        "name": "EmoteMinRemainingPossibleQualifications",
+        "parameter": {
+          "value_type": "int",
+          "int_value": 5
+        }
+      },
+      {
+        "name": "EmoteMaxNumberOfCharactersInArea",
+        "parameter": {
+          "value_type": "int",
+          "int_value": 10
+        }
+      },
+      {
+        "name": "EmoteProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0.25
+        }
+      },
+      {
+        "name": "EmoteMinDuration",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 2
+        }
+      },
+      {
+        "name": "EmoteMaxDuration",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 7
+        }
+      }
+    ],
+    "id": "bt_iceclimb"
   },
   {
     "parameters": [
@@ -2326,7 +2711,7 @@
         "name": "MaxThinkingTime",
         "parameter": {
           "value_type": "float",
-          "float_value": 0.1
+          "float_value": 0
         }
       },
       {
@@ -2363,11 +2748,151 @@
           "value_type": "float",
           "float_value": 3
         }
+      },
+      {
+        "name": "JumpProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0.8
+        }
       }
     ],
     "bt_refresh_rate": -1,
     "toms_navmesh_tile_size": -1,
     "id": "bt_see_saw"
+  },
+  {
+    "bt_refresh_rate": -1,
+    "toms_navmesh_tile_size": -1,
+    "parameters": [
+      {
+        "name": "MinInitialDelay",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0.1
+        }
+      },
+      {
+        "name": "MaxInitialDelay",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0.5
+        }
+      },
+      {
+        "name": "JumpProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "DiveProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "MinThinkingTime",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0
+        }
+      },
+      {
+        "name": "MaxThinkingTime",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0
+        }
+      },
+      {
+        "name": "CanFindNewSeeSawProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "MinDiveAirTime",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0.3
+        }
+      },
+      {
+        "name": "MaxDiveAirTime",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0.3
+        }
+      }
+    ],
+    "id": "bt_seesaw360"
+  },
+  {
+    "bt_refresh_rate": -1,
+    "toms_navmesh_tile_size": -1,
+    "parameters": [
+      {
+        "name": "MinInitialDelay",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0.5
+        }
+      },
+      {
+        "name": "MaxInitialDelay",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1.5
+        }
+      },
+      {
+        "name": "JumpProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "DiveProbability",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "MinThinkingTime",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0
+        }
+      },
+      {
+        "name": "MaxThinkingTime",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0
+        }
+      },
+      {
+        "name": "HesitationMinWaitTime",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0.1
+        }
+      },
+      {
+        "name": "HesitationMaxWaitTime",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0.3
+        }
+      }
+    ],
+    "id": "bt_short_circuit"
   },
   {
     "parameters": [
@@ -2439,6 +2964,27 @@
         "parameter": {
           "value_type": "float",
           "float_value": 1.5
+        }
+      },
+      {
+        "name": "ZeroQualVelocityScale",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "FullQualVelocityScale",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
+        }
+      },
+      {
+        "name": "QualVelocityDeviation",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 0
         }
       }
     ],
@@ -2607,6 +3153,13 @@
         "parameter": {
           "value_type": "float",
           "float_value": 0.2
+        }
+      },
+      {
+        "name": "VelocityScale",
+        "parameter": {
+          "value_type": "float",
+          "float_value": 1
         }
       }
     ],

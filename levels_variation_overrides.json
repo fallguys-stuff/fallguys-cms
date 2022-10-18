@@ -4937,6 +4937,35 @@
   {
     "set_switchers_overrides": [
       {
+        "key": "Fan",
+        "undefined_weightings_behaviour": "use_defaults",
+        "weightings": [
+          {
+            "key": "Fan",
+            "weighting": 0
+          },
+          {
+            "key": "Water",
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "BetweenGates",
+        "undefined_weightings_behaviour": "use_defaults",
+        "weightings": [
+          {
+            "key": "Turntables",
+            "weighting": 0
+          }
+        ]
+      }
+    ],
+    "id": "toms_variation_over_doordash"
+  },
+  {
+    "set_switchers_overrides": [
+      {
         "key": "Section_4",
         "undefined_weightings_behaviour": "use_defaults",
         "weightings": [
@@ -5129,6 +5158,89 @@
       }
     ],
     "id": "toms_variation_over_gauntlet_07"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "Slope",
+        "undefined_weightings_behaviour": "use_defaults",
+        "weightings": [
+          {
+            "key": "Short",
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "Section_1",
+        "undefined_weightings_behaviour": "use_defaults",
+        "weightings": [
+          {
+            "key": "Hammers",
+            "weighting": 0
+          },
+          {
+            "key": "YeetusClan",
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "Section_2",
+        "undefined_weightings_behaviour": "use_defaults",
+        "weightings": [
+          {
+            "key": "Punchers",
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "Section_3",
+        "undefined_weightings_behaviour": "use_defaults",
+        "weightings": [
+          {
+            "key": "Flippers_01",
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "Section_2_Gravity",
+        "undefined_weightings_behaviour": "use_defaults",
+        "weightings": [
+          {
+            "key": "GravityZone",
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "Section_End",
+        "undefined_weightings_behaviour": "use_defaults",
+        "weightings": [
+          {
+            "key": "IceTiles",
+            "weighting": 0
+          },
+          {
+            "key": "YeetusClan",
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "Sides",
+        "undefined_weightings_behaviour": "use_defaults",
+        "weightings": [
+          {
+            "key": "Flippers",
+            "weighting": 0
+          }
+        ]
+      }
+    ],
+    "id": "toms_variation_over_skeefall"
   },
   {
     "set_switchers_overrides": [
@@ -5665,6 +5777,21 @@
       }
     ],
     "id": "var_over_block_party_xtreme_vulture"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "Victoria",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "On",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_over_button_arena_victoriavariation"
   },
   {
     "set_switchers_overrides": [
@@ -8247,6 +8374,391 @@
   {
     "set_switchers_overrides": [
       {
+        "key": "Victoria1CentrePillar",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "On",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "Victoria2BambooWall",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "On",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "Victoria3Ramps",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "On",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "Victoria4Freefall",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "On",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "Victoria5ConveyorToCentre",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "On",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "BumperFrogs",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "WaterBollards",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "HammerWalkway",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "BumperCubes",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "SpinningDoor",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "RotatingDrumPit",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "RideableLog",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "DrawbridgeJumps",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "RampPit",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "SlimeFrogs",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "ConvayorDrums",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "BounceFrogger",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "RampsFrog",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "SpinningHammers",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "MovingSlimeFrogs",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "MovableBoulder",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "ConveyorFrog",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "CurvedWalkways",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "RotatingBollards",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "MovableBoulder",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "Punchers",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "Frogger",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "OutwardDrums",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "RotatingDrumPit",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "Flippers",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "Ramps",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "Bumpers",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "OnlySpinningArm",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "TriangleFlipper",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "RampPit",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "WaterPillars",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "OnlyFan",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 1
+          }
+        ]
+      },
+      {
+        "key": "DrawbridgeJumps",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 1
+          }
+        ]
+      }
+    ],
+    "id": "var_over_crown_maze_victoriavariation"
+  },
+  {
+    "set_switchers_overrides": [
+      {
         "key": "LogSpawner",
         "undefined_weightings_behaviour": "set_to_zero",
         "weightings": [
@@ -8849,6 +9361,21 @@
       }
     ],
     "id": "var_over_door_dash_ss2_launch"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "Doors",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Victoria",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_over_door_dash_victoriavariation"
   },
   {
     "set_switchers_overrides": [
@@ -10301,6 +10828,31 @@
         "undefined_weightings_behaviour": "set_to_zero",
         "weightings": [
           {
+            "key": "Victoria",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Goals",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Victoria",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_over_fall_ball_victoriavariatio"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "Centre",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
             "key": "FourBall",
             "weighting": 100
           }
@@ -10758,6 +11310,36 @@
       }
     ],
     "id": "var_over_fall_mountain_v51_01"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "Crown",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Victoria",
+            "weighting": 1
+          }
+        ]
+      }
+    ],
+    "id": "var_over_fall_mountain_victoriavariation_1"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "Crown",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Reverse",
+            "weighting": 1
+          }
+        ]
+      }
+    ],
+    "id": "var_over_fall_mountain_victoriavariation_2"
   },
   {
     "set_switchers_overrides": [
@@ -15436,6 +16018,86 @@
   {
     "set_switchers_overrides": [
       {
+        "key": "Segment_A",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Victoria",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Segment_B",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Victoria",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Segment_C",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Victoria",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Segment_D",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Victoria",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Segment_E",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Victoria",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_over_gauntlet_10_victoriavariation_1"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "Victoria",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "On",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Blastballs",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "On",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_over_hex_snake_victoriavariation"
+  },
+  {
+    "set_switchers_overrides": [
+      {
         "key": "Blastballs",
         "undefined_weightings_behaviour": "set_to_zero",
         "weightings": [
@@ -15795,6 +16457,110 @@
       }
     ],
     "id": "var_over_hoops_variation_01"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "Section01",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "LaunchVictoria_01",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section02",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "LaunchVictoria_02",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section03",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "LaunchVictoria_03",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section04",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "LaunchVictoria_04",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "SectionTrolleybots",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "OutsideVictoria",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_over_hoppers_victoriavariation_1"
+  },
+  {
+    "set_switchers_overrides": [],
+    "id": "var_over_hoppers_victoriavariation_2"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "Section1_IonThrusters",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Victoria",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section2_RespawningHexTiles",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Victoria",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section3_IslandHexTiles",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Victoria",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section3_FinalStraight",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Victoria",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_over_hoverboard_2_victoriavariation"
   },
   {
     "set_switchers_overrides": [
@@ -16814,6 +17580,31 @@
       }
     ],
     "id": "var_over_jinxed_ss2_launch"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "Trenches",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Victoria",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Tops",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Victoria",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_over_jinxed_victoriavariation"
   },
   {
     "set_switchers_overrides": [
@@ -18988,6 +19779,21 @@
   {
     "set_switchers_overrides": [
       {
+        "key": "Outside_Arena",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Victoria",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_over_robot_rampage_victoriavariation"
+  },
+  {
+    "set_switchers_overrides": [
+      {
         "key": "RhinoAmount",
         "undefined_weightings_behaviour": "set_to_zero",
         "weightings": [
@@ -19980,6 +20786,81 @@
       }
     ],
     "id": "var_over_shortcircuit_variation_s4_5"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "Section_End",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Victoria",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Slope",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Victoria",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section_1",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section_2",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section_3",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section_2_Gravity",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Sides",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_over_skee_fall_victoriavariation"
   },
   {
     "set_switchers_overrides": [
@@ -21814,6 +22695,31 @@
   {
     "set_switchers_overrides": [
       {
+        "key": "Bridges",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Victoria",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Corners",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Victoria",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_over_team_tail_tag_victoriavariation"
+  },
+  {
+    "set_switchers_overrides": [
+      {
         "key": "GravityFields",
         "undefined_weightings_behaviour": "set_to_zero",
         "weightings": [
@@ -22242,6 +23148,131 @@
   {
     "set_switchers_overrides": [
       {
+        "key": "DuoVictoriaN",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Victoria",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "DuoVictoriaE",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Victoria",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "DuoVictoriaS",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Victoria",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "DuoVictoriaW",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Victoria",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "TrioVictoriaN",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Victoria",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "TrioVictoriaE",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Victoria",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "TrioVictoriaS",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Victoria",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "TrioVictoriaW",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Victoria",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "QuadVictoriaN",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Victoria",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "QuadVictoriaE",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Victoria",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "QuadVictoriaS",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Victoria",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "QuadVictoriaW",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Victoria",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_over_tip_toe_finale_victoriavariation"
+  },
+  {
+    "set_switchers_overrides": [
+      {
         "key": "LogSwings",
         "undefined_weightings_behaviour": "use_defaults",
         "weightings": [
@@ -22398,6 +23429,21 @@
       }
     ],
     "id": "var_over_tip_toe_variation_01"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "LogSwings",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Victoria_TrolleyBots",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_over_tip_toe_victoriavariation"
   },
   {
     "set_switchers_overrides": [
