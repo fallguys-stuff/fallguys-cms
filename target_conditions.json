@@ -1272,6 +1272,21 @@
     "parameters": {
       "type": "purchase_history",
       "data": {
+        "bundle": {
+          "id": "ss001_rmt_garrulus_pack_01"
+        },
+        "quantity": {
+          "operator": "less_than",
+          "max": 1
+        }
+      }
+    },
+    "id": "has_not_purchased_ss2_garrulus"
+  },
+  {
+    "parameters": {
+      "type": "purchase_history",
+      "data": {
         "quantity": {
           "operator": "less_than",
           "max": 1
@@ -5258,6 +5273,17 @@
       "type": "date_time",
       "data": {
         "operator": "between",
+        "start": "2022-10-24T09:00:00",
+        "end": "2022-11-21T23:59:59"
+      }
+    },
+    "id": "ss2_dates_wk7monday_to_end_seasons"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
         "start": "2022-10-17T09:00:00",
         "end": "2022-11-21T08:59:59"
       }
@@ -5274,6 +5300,17 @@
       }
     },
     "id": "ss2_entire_dates"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-10-24T09:00:00",
+        "end": "2022-11-21T23:59:59"
+      }
+    },
+    "id": "ss2_garrulus_dates"
   },
   {
     "parameters": {
