@@ -5585,6 +5585,243 @@
     "id": "le_ss2_parrot"
   },
   {
+    "title": "localised_strings.le_victoria_event_title",
+    "description": "localised_strings.le_victoria_event_desc",
+    "challenges": [
+      {
+        "goal_id": "use_solo_victoria",
+        "xp_awarded": 100,
+        "goal_title_locked": null,
+        "goal_description_locked": {
+          "template": null,
+          "template_parameters": []
+        },
+        "unlock_conditions": []
+      },
+      {
+        "goal_id": "use_squads_victoria",
+        "xp_awarded": 100,
+        "goal_title_locked": null,
+        "goal_description_locked": {
+          "template": null,
+          "template_parameters": []
+        },
+        "unlock_conditions": []
+      },
+      {
+        "goal_id": "qualify_solo_victoria",
+        "xp_awarded": 100,
+        "goal_title_locked": null,
+        "goal_description_locked": {
+          "template": null,
+          "template_parameters": []
+        },
+        "unlock_conditions": []
+      },
+      {
+        "goal_id": "qualify_squads_victoria",
+        "xp_awarded": 100,
+        "goal_title_locked": null,
+        "goal_description_locked": {
+          "template": null,
+          "template_parameters": []
+        },
+        "unlock_conditions": []
+      },
+      {
+        "goal_id": "race_victoria",
+        "xp_awarded": 100,
+        "goal_title_locked": "challenge_title_le_victoria_003",
+        "goal_description_locked": {
+          "template": "challenge_unlock_multiple_of_a_type",
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "challenge_title_le_victoria_002"
+            }
+          ]
+        },
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "qualify_solo_victoria"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "qualify_squads_victoria"
+          }
+        ]
+      },
+      {
+        "goal_id": "team_victoria",
+        "xp_awarded": 100,
+        "goal_title_locked": "challenge_title_le_victoria_003",
+        "goal_description_locked": {
+          "template": "challenge_unlock_multiple_of_a_type",
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "challenge_title_le_victoria_002"
+            }
+          ]
+        },
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "qualify_solo_victoria"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "qualify_squads_victoria"
+          }
+        ]
+      },
+      {
+        "goal_id": "survival_victoria",
+        "xp_awarded": 100,
+        "goal_title_locked": "challenge_title_le_victoria_003",
+        "goal_description_locked": {
+          "template": "challenge_unlock_multiple_of_a_type",
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "challenge_title_le_victoria_002"
+            }
+          ]
+        },
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "qualify_solo_victoria"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "qualify_squads_victoria"
+          }
+        ]
+      },
+      {
+        "goal_id": "hunt_victoria",
+        "xp_awarded": 100,
+        "goal_title_locked": "challenge_title_le_victoria_003",
+        "goal_description_locked": {
+          "template": "challenge_unlock_multiple_of_a_type",
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "challenge_title_le_victoria_002"
+            }
+          ]
+        },
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "qualify_solo_victoria"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "qualify_squads_victoria"
+          }
+        ]
+      },
+      {
+        "goal_id": "qualify_60s_victoria",
+        "xp_awarded": 100,
+        "goal_title_locked": "challenge_title_le_victoria_004",
+        "goal_description_locked": {
+          "template": "challenge_unlock_multiple_of_a_type",
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "challenge_title_le_victoria_003"
+            }
+          ]
+        },
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "race_victoria"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "team_victoria"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "hunt_victoria"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "survival_victoria"
+          }
+        ]
+      },
+      {
+        "goal_id": "final_victoria",
+        "xp_awarded": 100,
+        "goal_title_locked": "challenge_title_le_victoria_005",
+        "goal_description_locked": {
+          "template": "challenge_unlock_multiple_of_a_type",
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "challenge_title_le_victoria_003"
+            }
+          ]
+        },
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "race_victoria"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "team_victoria"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "hunt_victoria"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "survival_victoria"
+          }
+        ]
+      }
+    ],
+    "tool_tip_image": "ui-liveevents-victoria-tooltip",
+    "background_image": "ui-liveevents-victoria-bg",
+    "promotional_image": "ui-liveevents-victoria-costume",
+    "reward_icon_image": "ui-liveevents-victoria-token",
+    "ui_detail_colour": "colour.challenges_green",
+    "milestones": [
+      {
+        "xp_required": 100,
+        "reward_id": "nickname_ss2_11"
+      },
+      {
+        "xp_required": 200,
+        "reward_id": "kudos_bonus_200"
+      },
+      {
+        "xp_required": 500,
+        "reward_id": "nameplate_ss02_event_wormhole"
+      },
+      {
+        "xp_required": 700,
+        "reward_id": "pattern_ss02_31"
+      },
+      {
+        "xp_required": 1000,
+        "reward_id": "top_ss02_sih_gogglesinfnid_01"
+      }
+    ],
+    "target_ids": [
+      "le_ss2_victoria"
+    ],
+    "id": "le_ss2_victoria"
+  },
+  {
     "title": "localised_strings.le_ss2_walnut_title",
     "description": "localised_strings.le_ss2_walnut_desc",
     "target_ids": [

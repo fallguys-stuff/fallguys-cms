@@ -700,6 +700,34 @@
     "id": "qa_compat"
   },
   {
+    "profile_id": "1208105",
+    "profile_name": "CompatQA 2",
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "custom_cms_branch": "robb_s810_abtest_setup",
+    "enable_bots": false,
+    "solo": {
+      "default_show_min": 1,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_show_min": 4,
+      "default_show_max": 60,
+      "squad_size": 4,
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15
+    },
+    "seconds_before_allocation": 20,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
+    "id": "qa_compat_2"
+  },
+  {
     "profile_id": "1203450",
     "profile_name": "Compliance QA",
     "platforms": {

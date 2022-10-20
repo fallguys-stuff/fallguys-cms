@@ -5428,7 +5428,8 @@
       "level_tags.playspace_platform",
       "level_tags.saftey_nonstarter",
       "level_tags.saftey_early_final",
-      "level_tags.ss1_final"
+      "level_tags.ss1_final",
+      "level_tags.ss2_no_var"
     ],
     "bonus": {
       "type": "qualification",
@@ -10710,6 +10711,72 @@
     "id": "round_conveyor_arena_duos_ss2_parrot"
   },
   {
+    "display_name": "localised_strings.level_name_team_tail_tag_victoria",
+    "scene_name": "FallGuy_ConveyorArena_01",
+    "game_rules": "game_rules.round_conveyor_arena_duos_ss2_launch",
+    "level_archetype": "archetype_team",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Team",
+    "ingame_music_event": "MUS_InGame_Round_Team",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_TeamTailTag",
+    "level_badge_name": "TailTag",
+    "level_variation": "levels_variation.variation_conveyor_arena",
+    "level_variation_overrides": "levels_variation_overrides.var_over_conveyor_arena_victoria",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.exclusive_tailtag_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.ss2_var",
+      "level_tags.ss2_victoria"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_team_position_01",
+          "medal_description_value": null
+        },
+        {
+          "team_position": 2,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": "localised_strings.medal_context_team_position_02",
+          "medal_description_value": null
+        },
+        {
+          "team_position": 3,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_position_03",
+          "medal_description": "localised_strings.medal_context_team_position_03",
+          "medal_description_value": null
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_special_tail_tag",
+    "id": "round_conveyor_arena_duos_victoria"
+  },
+  {
     "display_name": "localised_strings.level_name_team_tail_tag",
     "scene_name": "FallGuy_ConveyorArena_01",
     "game_rules": "game_rules.round_conveyor_arena_squads",
@@ -11031,6 +11098,72 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_special_tail_tag",
     "id": "round_conveyor_arena_squads_uneven_teams"
+  },
+  {
+    "display_name": "localised_strings.level_name_team_tail_tag_victoria",
+    "scene_name": "FallGuy_ConveyorArena_01",
+    "game_rules": "game_rules.round_conveyor_arena_squads",
+    "level_archetype": "archetype_team",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Team",
+    "ingame_music_event": "MUS_InGame_Round_Team",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_TeamTailTag",
+    "level_badge_name": "TailTag",
+    "level_variation": "levels_variation.variation_conveyor_arena",
+    "level_variation_overrides": "levels_variation_overrides.var_over_conveyor_arena_victoria",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.exclusive_tailtag_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.ss2_var",
+      "level_tags.ss2_victoria"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_team_position_01",
+          "medal_description_value": null
+        },
+        {
+          "team_position": 2,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": "localised_strings.medal_context_team_position_02",
+          "medal_description_value": null
+        },
+        {
+          "team_position": 3,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_position_03",
+          "medal_description": "localised_strings.medal_context_team_position_03",
+          "medal_description_value": null
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_special_tail_tag",
+    "id": "round_conveyor_arena_squads_victoria"
   },
   {
     "display_name": "localised_strings.level_name_team_tail_tag",
@@ -11697,6 +11830,57 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_disconnect",
     "id": "round_crown_maze_trios"
+  },
+  {
+    "display_name": "localised_strings.level_name_crown_maze_victoria",
+    "scene_name": "FallGuy_Crown_Maze_Topdown",
+    "game_rules": "game_rules.round_crown_maze_ss2_launch",
+    "level_archetype": "archetype_final",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Final_Season_05",
+    "ingame_music_event": "MUS_InGame_Round_Final_Season_05",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_05",
+    "extra_ambience_event": "AMB_Season_05_Jungle",
+    "lower_main_ambience_volume": true,
+    "main_ambience_state": "lower_volume",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_LostTemple",
+    "level_badge_name": "LostTemple",
+    "level_variation": "levels_variation.variation_crown_maze",
+    "level_variation_overrides": "levels_variation_overrides.var_over_crown_maze_victoria",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "tags": [
+      "level_tags.playspace_arena",
+      "level_tags.covenant_final",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_early_final",
+      "level_tags.season_05_final",
+      "level_tags.lowered_final",
+      "level_tags.slight_lowering",
+      "level_tags.lower_crown_final",
+      "level_tags.ss2_no_var",
+      "level_tags.ss2_victoria"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "medal_description_value": null
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_disconnect",
+    "id": "round_crown_maze_victoria"
   },
   {
     "display_name": "localised_strings.level_name_crown_maze",
@@ -14550,6 +14734,72 @@
     "id": "round_door_dash_squads_ss2_parrot"
   },
   {
+    "display_name": "localised_strings.level_name_door_dash_victoria",
+    "scene_name": "FallGuy_DoorDash",
+    "game_rules": "game_rules.round_door_dash_squads",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Race",
+    "ingame_music_event": "MUS_InGame_Round_Race",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_DoorRush",
+    "level_badge_name": "DoorDash",
+    "level_variation": "levels_variation.variation_door_dash",
+    "level_variation_overrides": "levels_variation_overrides.var_over_door_dash_victoria",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_track",
+      "level_tags.ss2_no_var",
+      "level_tags.ss2_victoria"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "id": "round_door_dash_squads_victoria"
+  },
+  {
     "display_name": "localised_strings.level_name_door_dash",
     "scene_name": "FallGuy_DoorDash",
     "game_rules": "game_rules.round_door_dash",
@@ -14941,6 +15191,73 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
     "id": "round_door_dash_variation_s5_1"
+  },
+  {
+    "display_name": "localised_strings.level_name_door_dash_victoria",
+    "scene_name": "FallGuy_DoorDash",
+    "game_rules": "game_rules.round_door_dash",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Race",
+    "ingame_music_event": "MUS_InGame_Round_Race",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_DoorRush",
+    "level_badge_name": "DoorDash",
+    "level_variation": "levels_variation.variation_door_dash",
+    "level_variation_overrides": "levels_variation_overrides.var_over_door_dash_victoria",
+    "tom_level_variation_supported": true,
+    "tom_level_variation_overrides": "levels_variation_overrides.toms_variation_over_doordash",
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_track",
+      "level_tags.season_01",
+      "level_tags.ss2_no_var",
+      "level_tags.ss2_victoria"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "id": "round_door_dash_victoria"
   },
   {
     "display_name": "localised_strings.level_name_door_dash",
@@ -19103,6 +19420,73 @@
     "id": "round_fall_ball_duos_ss2_launch"
   },
   {
+    "display_name": "localised_strings.level_name_fall_ball_victoria",
+    "scene_name": "FallGuy_FallBall_5",
+    "game_rules": "game_rules.round_fall_ball_duos_ss2_launch",
+    "level_archetype": "archetype_team",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Team",
+    "ingame_music_event": "MUS_InGame_Round_Team",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_FallBall",
+    "level_badge_name": "FallBall",
+    "level_variation": "levels_variation.variation_fall_ball_60_players",
+    "level_variation_overrides": "levels_variation_overrides.var_over_fall_ball_victoria",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.saftey_late_stage_team_round",
+      "level_tags.exclusive_fall_ball",
+      "level_tags.ss2_var",
+      "level_tags.ss2_victoria"
+    ],
+    "bonus": {
+      "type": "team_score",
+      "team_score_tiers": [
+        {
+          "team_score": 10,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_goals_01",
+          "medal_description": "localised_strings.medal_context_team_score",
+          "medal_description_value": 10
+        },
+        {
+          "team_score": 5,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_goals_02",
+          "medal_description": "localised_strings.medal_context_team_score",
+          "medal_description_value": 5
+        },
+        {
+          "team_score": 3,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_goals_03",
+          "medal_description": "localised_strings.medal_context_team_score",
+          "medal_description_value": 3
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_score_fallball",
+    "id": "round_fall_ball_duos_victoria"
+  },
+  {
     "display_name": "localised_strings.level_name_fall_ball",
     "scene_name": "FallGuy_FallBall_5",
     "game_rules": "game_rules.round_fall_ball_duos_week_of_romance_s6_duo_teams",
@@ -19822,6 +20206,141 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_score_fallball",
     "id": "round_fall_ball_squads_ss2_parrot_final"
+  },
+  {
+    "display_name": "localised_strings.level_name_fall_ball_victoria",
+    "scene_name": "FallGuy_FallBall_5",
+    "game_rules": "game_rules.round_fall_ball_squads_ss2_launch",
+    "level_archetype": "archetype_team",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Team",
+    "ingame_music_event": "MUS_InGame_Round_Team",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_FallBall",
+    "level_badge_name": "FallBall",
+    "level_variation": "levels_variation.variation_fall_ball_60_players",
+    "level_variation_overrides": "levels_variation_overrides.var_over_fall_ball_victoria",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.saftey_late_stage_team_round",
+      "level_tags.exclusive_fall_ball",
+      "level_tags.ss2_var",
+      "level_tags.ss2_victoria"
+    ],
+    "bonus": {
+      "type": "team_score",
+      "team_score_tiers": [
+        {
+          "team_score": 10,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_goals_01",
+          "medal_description": "localised_strings.medal_context_team_score",
+          "medal_description_value": 10
+        },
+        {
+          "team_score": 5,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_goals_02",
+          "medal_description": "localised_strings.medal_context_team_score",
+          "medal_description_value": 5
+        },
+        {
+          "team_score": 3,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_goals_03",
+          "medal_description": "localised_strings.medal_context_team_score",
+          "medal_description_value": 3
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_score_fallball",
+    "id": "round_fall_ball_squads_victoria"
+  },
+  {
+    "display_name": "localised_strings.level_name_fall_ball_victoria",
+    "scene_name": "FallGuy_FallBall_5",
+    "game_rules": "game_rules.round_fall_ball_squads_ss2_launch_final",
+    "level_archetype": "archetype_team",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Team",
+    "ingame_music_event": "MUS_InGame_Round_Team",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_FallBall",
+    "level_badge_name": "FallBall",
+    "level_variation": "levels_variation.variation_fall_ball_60_players",
+    "level_variation_overrides": "levels_variation_overrides.var_over_fall_ball_victoria",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.saftey_late_stage_team_round",
+      "level_tags.team_final",
+      "level_tags.exclusive_fall_ball",
+      "level_tags.ss2_var",
+      "level_tags.ss2_victoria"
+    ],
+    "bonus": {
+      "type": "team_score",
+      "team_score_tiers": [
+        {
+          "team_score": 10,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_goals_01",
+          "medal_description": "localised_strings.medal_context_team_score",
+          "medal_description_value": 10
+        },
+        {
+          "team_score": 5,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_goals_02",
+          "medal_description": "localised_strings.medal_context_team_score",
+          "medal_description_value": 5
+        },
+        {
+          "team_score": 3,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_goals_03",
+          "medal_description": "localised_strings.medal_context_team_score",
+          "medal_description_value": 3
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_score_fallball",
+    "id": "round_fall_ball_squads_victoria_final"
   },
   {
     "display_name": "localised_strings.level_name_fall_ball",
@@ -20889,6 +21408,55 @@
     "id": "round_fall_mountain_hub_complete_ss2_parrot"
   },
   {
+    "display_name": "localised_strings.level_name_fall_mountain_victoria",
+    "scene_name": "FallGuy_FallMountain_Hub_Complete",
+    "game_rules": "game_rules.round_fall_mountain_hub_complete_ss2_launch",
+    "level_archetype": "archetype_final",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Final",
+    "ingame_music_event": "MUS_InGame_Round_Final",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_FallMountain",
+    "level_badge_name": "FallMountain",
+    "level_variation": "levels_variation.variation_fall_mountain_hub_complete",
+    "level_variation_overrides": "levels_variation_overrides.var_over_fall_mountain_victoria",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "tags": [
+      "level_tags.covenant_final",
+      "level_tags.playspace_gauntlet",
+      "level_tags.saftey_early_final",
+      "level_tags.season_01_final",
+      "level_tags.slight_lowering",
+      "level_tags.lower_crown_final",
+      "level_tags.ss2_no_var",
+      "level_tags.ss2_victoria"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "medal_description_value": null
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_disconnect",
+    "id": "round_fall_mountain_hub_complete_victoria"
+  },
+  {
     "display_name": "localised_strings.level_name_fall_mountain",
     "scene_name": "FallGuy_FallMountain_Hub_Complete",
     "game_rules": "game_rules.round_fall_mountain_hub_complete",
@@ -21812,6 +22380,70 @@
     "id": "round_ffa_button_bashers_ss2_parrot"
   },
   {
+    "display_name": "localised_strings.level_name_ffa_button_bashers_victoria",
+    "scene_name": "FallGuy_FFA_Button_Bashers",
+    "game_rules": "game_rules.round_ffa_button_bashers_ss2_launch",
+    "level_archetype": "archetype_hunt",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Season_08",
+    "ingame_music_soundbank": "BNK_Music_GP_Survival_Season_08",
+    "ingame_music_event": "MUS_InGame_Round_Survival_Season_08",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_FranticFactory",
+    "level_badge_name": "Button_Bashers",
+    "level_variation": "levels_variation.variation_ffa_button_bashers",
+    "level_variation_overrides": "levels_variation_overrides.var_over_ffa_button_bashers_victoria",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "tags": [
+      "level_tags.ss2_round",
+      "level_tags.ss2_victoria"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "id": "round_ffa_button_bashers_victoria"
+  },
+  {
     "display_name": "localised_strings.level_name_ffa_button_bashers",
     "scene_name": "FallGuy_FFA_Button_Bashers",
     "game_rules": "game_rules.round_ffa_button_bashers",
@@ -21874,7 +22506,8 @@
       "level_tags.saftey_early_final",
       "level_tags.season_01_final",
       "level_tags.lowered_round",
-      "level_tags.lowered_final"
+      "level_tags.lowered_final",
+      "level_tags.ss2_no_var"
     ],
     "bonus": {
       "type": "qualification",
@@ -38324,6 +38957,72 @@
     "id": "round_gauntlet_10_squads_ss2_parrot"
   },
   {
+    "display_name": "localised_strings.level_name_gauntlet_10_victoria",
+    "scene_name": "FallGuy_Gauntlet_10",
+    "game_rules": "game_rules.round_gauntlet_10_squads",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Season_08",
+    "ingame_music_soundbank": "BNK_Music_GP_Race_Season_08",
+    "ingame_music_event": "MUS_InGame_Round_Race_Season_08",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_SpaceRace",
+    "level_badge_name": "Gauntlet10",
+    "level_variation": "levels_variation.variation_gauntlet_10",
+    "level_variation_overrides": "levels_variation_overrides.var_over_gauntlet_10_victoria",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_gauntlet",
+      "level_tags.ss2_round",
+      "level_tags.ss2_victoria"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "id": "round_gauntlet_10_squads_victoria"
+  },
+  {
     "display_name": "localised_strings.level_name_gauntlet_10",
     "scene_name": "FallGuy_Gauntlet_10",
     "game_rules": "game_rules.round_gauntlet_10",
@@ -38545,6 +39244,70 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
     "id": "round_gauntlet_10_ss2_solo_rounds"
+  },
+  {
+    "display_name": "localised_strings.level_name_gauntlet_10_victoria",
+    "scene_name": "FallGuy_Gauntlet_10",
+    "game_rules": "game_rules.round_gauntlet_10",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Season_08",
+    "ingame_music_soundbank": "BNK_Music_GP_Race_Season_08",
+    "ingame_music_event": "MUS_InGame_Round_Race_Season_08",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_SpaceRace",
+    "level_badge_name": "Gauntlet10",
+    "level_variation": "levels_variation.variation_gauntlet_10",
+    "level_variation_overrides": "levels_variation_overrides.var_over_gauntlet_10_victoria",
+    "tom_level_variation_supported": true,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "tags": [
+      "level_tags.ss2_round",
+      "level_tags.ss2_victoria"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "id": "round_gauntlet_10_victoria"
   },
   {
     "display_name": "localised_strings.level_name_gauntlet_10",
@@ -39574,6 +40337,53 @@
     "id": "round_hexsnake_squads_ss2_launch"
   },
   {
+    "display_name": "localised_strings.level_name_hexsnake_victoria",
+    "scene_name": "FallGuy_HexSnake",
+    "game_rules": "game_rules.round_hexsnake_squads_ss2_launch",
+    "level_archetype": "archetype_final",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Season_08",
+    "ingame_music_soundbank": "BNK_Music_GP_Survival_Season_08",
+    "ingame_music_event": "MUS_InGame_Round_Survival_Season_08",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_HexaTerrestrial",
+    "level_badge_name": "HexSnake",
+    "level_variation": "levels_variation.variation_hexsnake",
+    "level_variation_overrides": "levels_variation_overrides.var_over_hexsnake_victoria",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "tags": [
+      "level_tags.covenant_final",
+      "level_tags.playspace_platform",
+      "level_tags.saftey_nonstarter",
+      "level_tags.saftey_early_final",
+      "level_tags.ss2_round",
+      "level_tags.ss2_victoria"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "medal_description_value": null
+      }
+    },
+    "visualiser_estimate_percentage_qualification": 74,
+    "visualiser_estimate_variance": 24,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival",
+    "id": "round_hexsnake_squads_victoria"
+  },
+  {
     "display_name": "localised_strings.level_name_hexsnake",
     "scene_name": "FallGuy_HexSnake",
     "game_rules": "game_rules.round_hexsnake_ss2_launch",
@@ -39746,6 +40556,53 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
     "id": "round_hexsnake_survival_victoriavariation"
+  },
+  {
+    "display_name": "localised_strings.level_name_hexsnake_victoria",
+    "scene_name": "FallGuy_HexSnake",
+    "game_rules": "game_rules.round_hexsnake_ss2_launch",
+    "level_archetype": "archetype_final",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Season_08",
+    "ingame_music_soundbank": "BNK_Music_GP_Survival_Season_08",
+    "ingame_music_event": "MUS_InGame_Round_Survival_Season_08",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_HexaTerrestrial",
+    "level_badge_name": "HexSnake",
+    "level_variation": "levels_variation.variation_hexsnake",
+    "level_variation_overrides": "levels_variation_overrides.var_over_hexsnake_victoria",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "tags": [
+      "level_tags.covenant_final",
+      "level_tags.playspace_platform",
+      "level_tags.saftey_nonstarter",
+      "level_tags.saftey_early_final",
+      "level_tags.ss2_round",
+      "level_tags.ss2_victoria"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "medal_description_value": null
+      }
+    },
+    "visualiser_estimate_percentage_qualification": 74,
+    "visualiser_estimate_variance": 24,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival",
+    "id": "round_hexsnake_victoria"
   },
   {
     "display_name": "localised_strings.level_name_hexsnake",
@@ -42161,6 +43018,49 @@
     "id": "round_hoverboardsurvival2_squads_survival"
   },
   {
+    "display_name": "localised_strings.level_name_hoverboardsurvival2_victoria",
+    "scene_name": "FallGuy_Hoverboard_Survival_2",
+    "game_rules": "game_rules.round_hoverboardsurvival2_ss2_launch",
+    "level_archetype": "archetype_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Season_08",
+    "ingame_music_soundbank": "BNK_Music_GP_Survival_Season_08",
+    "ingame_music_event": "MUS_InGame_Round_Survival_Season_08",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_HyperdriveHeroes",
+    "level_badge_name": "HoverboardSurvival2",
+    "level_variation": "levels_variation.variation_hoverboardsurvival_2",
+    "level_variation_overrides": "levels_variation_overrides.var_over_hoverboardsurvival_2_victoria",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "tags": [
+      "level_tags.ss2_round",
+      "level_tags.ss2_victoria"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_survived",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "medal_description_value": null
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival_race_first_place_only",
+    "id": "round_hoverboardsurvival2_squads_victoria"
+  },
+  {
     "display_name": "localised_strings.level_name_hoverboardheroes2",
     "scene_name": "FallGuy_Hoverboard_Survival_2",
     "game_rules": "game_rules.round_hoverboardsurvival2_ss2_launch",
@@ -42277,6 +43177,49 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival_race_first_place_only",
     "id": "round_hoverboardsurvival2_ss2_solo_rounds"
+  },
+  {
+    "display_name": "localised_strings.level_name_hoverboardsurvival2_victoria",
+    "scene_name": "FallGuy_Hoverboard_Survival_2",
+    "game_rules": "game_rules.round_hoverboardsurvival2_ss2_launch",
+    "level_archetype": "archetype_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Season_08",
+    "ingame_music_soundbank": "BNK_Music_GP_Survival_Season_08",
+    "ingame_music_event": "MUS_InGame_Round_Survival_Season_08",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_HyperdriveHeroes",
+    "level_badge_name": "HoverboardSurvival2",
+    "level_variation": "levels_variation.variation_hoverboardsurvival_2",
+    "level_variation_overrides": "levels_variation_overrides.var_over_hoverboardsurvival_2_victoria",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "tags": [
+      "level_tags.ss2_round",
+      "level_tags.ss2_victoria"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_survived",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "medal_description_value": null
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival_race_first_place_only",
+    "id": "round_hoverboardsurvival2_victoria"
   },
   {
     "display_name": "localised_strings.level_name_hoverboardsurvival2",
@@ -45874,6 +46817,56 @@
     "id": "round_jinxed_duos_ss2_parrot"
   },
   {
+    "display_name": "localised_strings.level_name_jinxed_victoria",
+    "scene_name": "FallGuy_TeamInfected",
+    "game_rules": "game_rules.round_jinxed_duos_ss2_launch",
+    "level_archetype": "archetype_team",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Team",
+    "ingame_music_event": "MUS_InGame_Round_Team",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_Jinxed",
+    "level_badge_name": "Jinxed",
+    "level_variation": "levels_variation.variation_jinxed",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.team_final",
+      "level_tags.ss2_no_var",
+      "level_tags.ss2_victoria"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 1,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_team_position_01",
+          "medal_description_value": null
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_special_jinx",
+    "id": "round_jinxed_duos_victoria"
+  },
+  {
     "display_name": "localised_strings.level_name_jinxed",
     "scene_name": "FallGuy_TeamInfected",
     "game_rules": "game_rules.round_jinxed_duos_week_of_romance_s6_duo_teams",
@@ -46355,6 +47348,56 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_special_jinx",
     "id": "round_jinxed_squads_ss2_parrot_final"
+  },
+  {
+    "display_name": "localised_strings.level_name_jinxed_victoria",
+    "scene_name": "FallGuy_TeamInfected",
+    "game_rules": "game_rules.round_jinxed_ss2_launch",
+    "level_archetype": "archetype_team",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Team",
+    "ingame_music_event": "MUS_InGame_Round_Team",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_Jinxed",
+    "level_badge_name": "Jinxed",
+    "level_variation": "levels_variation.variation_jinxed",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.team_final",
+      "level_tags.ss2_no_var",
+      "level_tags.ss2_victoria"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 1,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_team_position_01",
+          "medal_description_value": null
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_special_jinx",
+    "id": "round_jinxed_squads_victoria"
   },
   {
     "display_name": "localised_strings.level_name_jinxed",
@@ -47668,7 +48711,7 @@
     "level_badge_name": "JumpClubShowdown",
     "level_variation": "levels_variation.variation_jump_showdown",
     "level_variation_overrides": null,
-    "tom_level_variation_supported": null,
+    "tom_level_variation_supported": false,
     "tom_level_variation_overrides": null,
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
@@ -47681,7 +48724,8 @@
       "level_tags.season_01_final",
       "level_tags.lowered_final",
       "level_tags.slight_lowering",
-      "level_tags.mid_show_final_enabler"
+      "level_tags.mid_show_final_enabler",
+      "level_tags.ss2_no_var"
     ],
     "bonus": {
       "type": "qualification",
@@ -55443,6 +56487,55 @@
     "id": "round_robotrampage_arena_2_variation_s5_1"
   },
   {
+    "display_name": "localised_strings.level_name_robot_rampage_victoria",
+    "scene_name": "FallGuy_RobotRampage_Arena2",
+    "game_rules": "game_rules.round_robotrampage_arena_2_ss2_launch",
+    "level_archetype": "archetype_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Survival_Season_05",
+    "ingame_music_event": "MUS_InGame_Round_Survival_Season_05",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_05",
+    "extra_ambience_event": "AMB_Season_05_Jungle",
+    "lower_main_ambience_volume": true,
+    "main_ambience_state": "lower_volume",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_StompinGround",
+    "level_badge_name": "StompinGround",
+    "level_variation": "levels_variation.variation_robotrampage",
+    "level_variation_overrides": "levels_variation_overrides.var_over_robotrampage_victoria",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.season_05",
+      "level_tags.survival_round",
+      "level_tags.slight_lowering",
+      "level_tags.ss2_var",
+      "level_tags.ss2_victoria"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_survived",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "medal_description_value": null
+      }
+    },
+    "visualiser_estimate_percentage_qualification": 40,
+    "visualiser_estimate_variance": 20,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival",
+    "id": "round_robotrampage_arena_2_victoria"
+  },
+  {
     "display_name": "localised_strings.level_name_robot_rampage",
     "scene_name": "FallGuy_RobotRampage_Arena2",
     "game_rules": "game_rules.round_robotrampage_arena_2",
@@ -57245,6 +58338,70 @@
     "id": "round_satellitehoppers_squads_ss2_parrot"
   },
   {
+    "display_name": "localised_strings.level_name_satellitehoppers_victoria",
+    "scene_name": "FallGuy_SatelliteHoppers",
+    "game_rules": "game_rules.round_satellitehoppers_squads",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Season_08",
+    "ingame_music_soundbank": "BNK_Music_GP_Race_Season_08",
+    "ingame_music_event": "MUS_InGame_Round_Race_Season_08",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_CosmicHighway",
+    "level_badge_name": "SatelliteHoppers",
+    "level_variation": "levels_variation.variation_satellitehoppers",
+    "level_variation_overrides": "levels_variation_overrides.var_over_satellitehoppers_victoria",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "tags": [
+      "level_tags.ss2_round",
+      "level_tags.ss2_victoria"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "id": "round_satellitehoppers_squads_victoria"
+  },
+  {
     "display_name": "localised_strings.level_name_satellitehoppers",
     "scene_name": "FallGuy_SatelliteHoppers",
     "game_rules": "game_rules.round_satellitehoppers",
@@ -57494,6 +58651,134 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
     "id": "round_satellitehoppers_ss2_solo_rounds"
+  },
+  {
+    "display_name": "localised_strings.level_name_satellitehoppers_victoria",
+    "scene_name": "FallGuy_SatelliteHoppers",
+    "game_rules": "game_rules.round_satellitehoppers",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Season_08",
+    "ingame_music_soundbank": "BNK_Music_GP_Race_Season_08",
+    "ingame_music_event": "MUS_InGame_Round_Race_Season_08",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_CosmicHighway",
+    "level_badge_name": "SatelliteHoppers",
+    "level_variation": "levels_variation.variation_satellitehoppers",
+    "level_variation_overrides": "levels_variation_overrides.var_over_satellitehoppers_victoria",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "tags": [
+      "level_tags.ss2_round",
+      "level_tags.ss2_victoria"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "id": "round_satellitehoppers_victoria"
+  },
+  {
+    "display_name": "localised_strings.level_name_satellitehoppers_victoria",
+    "scene_name": "FallGuy_SatelliteHoppers",
+    "game_rules": "game_rules.round_satellitehoppers_lower_players",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Season_08",
+    "ingame_music_soundbank": "BNK_Music_GP_Race_Season_08",
+    "ingame_music_event": "MUS_InGame_Round_Race_Season_08",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_CosmicHighway",
+    "level_badge_name": "SatelliteHoppers",
+    "level_variation": "levels_variation.variation_satellitehoppers",
+    "level_variation_overrides": "levels_variation_overrides.var_over_satellitehoppers_victoria",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "tags": [
+      "level_tags.ss2_round",
+      "level_tags.ss2_victoria"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "id": "round_satellitehoppers_victoria_lower_players"
   },
   {
     "display_name": "localised_strings.level_name_satellitehoppers",
@@ -62924,6 +64209,74 @@
     "id": "round_skeefall_squads_ss2_launch"
   },
   {
+    "display_name": "localised_strings.level_name_ski_fall_victoria",
+    "scene_name": "FallGuy_SkeeFall",
+    "game_rules": "game_rules.round_skeefall_squads_ss2_launch",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Race_Season_03",
+    "ingame_music_event": "MUS_InGame_Round_Race_Season_03",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
+    "extra_ambience_event": "AMB_Season_03_Snow",
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_Skifall",
+    "level_badge_name": "Skifall",
+    "level_variation": "levels_variation.variation_skeefall",
+    "level_variation_overrides": "levels_variation_overrides.var_over_skeefall_victoria",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_track",
+      "level_tags.saftey_nonstarter",
+      "level_tags.season_03",
+      "level_tags.ss2_no_var",
+      "level_tags.ss2_victoria"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": null,
+    "id": "round_skeefall_squads_victoria"
+  },
+  {
     "display_name": "localised_strings.level_name_ski_fall",
     "scene_name": "FallGuy_SkeeFall",
     "game_rules": "game_rules.round_skeefall_ss2_launch",
@@ -63319,6 +64672,74 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
     "id": "round_skeefall_variation_tweak"
+  },
+  {
+    "display_name": "localised_strings.level_name_ski_fall_victoria",
+    "scene_name": "FallGuy_SkeeFall",
+    "game_rules": "game_rules.round_skeefall_ss2_launch",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Race_Season_03",
+    "ingame_music_event": "MUS_InGame_Round_Race_Season_03",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
+    "extra_ambience_event": "AMB_Season_03_Snow",
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_Skifall",
+    "level_badge_name": "Skifall",
+    "level_variation": "levels_variation.variation_skeefall",
+    "level_variation_overrides": "levels_variation_overrides.var_over_skeefall_victoria",
+    "tom_level_variation_supported": true,
+    "tom_level_variation_overrides": "levels_variation_overrides.toms_variation_over_skeefall",
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_track",
+      "level_tags.saftey_nonstarter",
+      "level_tags.season_03",
+      "level_tags.ss2_no_var",
+      "level_tags.ss2_victoria"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "id": "round_skeefall_victoria"
   },
   {
     "display_name": "localised_strings.level_name_ski_fall",
@@ -72742,6 +74163,72 @@
     "id": "round_tip_toe_squads_ss2_launch"
   },
   {
+    "display_name": "localised_strings.level_name_tip_toe_victoria",
+    "scene_name": "FallGuy_TipToe",
+    "game_rules": "game_rules.round_tip_toe_squads_ss2_launch",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Race",
+    "ingame_music_event": "MUS_InGame_Round_Race",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_TipToe",
+    "level_badge_name": "TipToe",
+    "level_variation": "levels_variation.variation_tip_toe",
+    "level_variation_overrides": "levels_variation_overrides.var_over_tip_toe_victoria",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_track",
+      "level_tags.ss2_var",
+      "level_tags.ss2_victoria"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "id": "round_tip_toe_squads_victoria"
+  },
+  {
     "display_name": "localised_strings.level_name_tip_toe",
     "scene_name": "FallGuy_TipToe",
     "game_rules": "game_rules.round_tip_toe_ss2_launch",
@@ -73000,6 +74487,73 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
     "id": "round_tip_toe_variation_01"
+  },
+  {
+    "display_name": "localised_strings.level_name_tip_toe_victoria",
+    "scene_name": "FallGuy_TipToe",
+    "game_rules": "game_rules.round_tip_toe_ss2_launch",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Race",
+    "ingame_music_event": "MUS_InGame_Round_Race",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_TipToe",
+    "level_badge_name": "TipToe",
+    "level_variation": "levels_variation.variation_tip_toe",
+    "level_variation_overrides": "levels_variation_overrides.var_over_tip_toe_victoria",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_track",
+      "level_tags.season_01",
+      "level_tags.ss2_var",
+      "level_tags.ss2_victoria"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "id": "round_tip_toe_victoria"
   },
   {
     "display_name": "localised_strings.level_name_tip_toe",
@@ -73465,6 +75019,92 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_disconnect",
     "id": "round_tiptoefinale_ss2_launch_duos"
+  },
+  {
+    "display_name": "localised_strings.level_name_tiptoefinale_victoria",
+    "scene_name": "FallGuy_Tip_Toe_Finale",
+    "game_rules": "game_rules.round_tiptoefinale",
+    "level_archetype": "archetype_final",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Season_08",
+    "ingame_music_soundbank": "BNK_Music_GP_Survival_Season_08",
+    "ingame_music_event": "MUS_InGame_Round_Survival_Season_08",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_TipToeFinale",
+    "level_badge_name": "TipToeFinale",
+    "level_variation": "levels_variation.variation_tiptoefinale",
+    "level_variation_overrides": "levels_variation_overrides.var_over_tiptoefinale_victoria_duos",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "tags": [
+      "level_tags.ss2_round",
+      "level_tags.ss2_victoria"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "medal_description_value": null
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_disconnect",
+    "id": "round_tiptoefinale_victoria_duos"
+  },
+  {
+    "display_name": "localised_strings.level_name_tiptoefinale_victoria",
+    "scene_name": "FallGuy_Tip_Toe_Finale",
+    "game_rules": "game_rules.round_tiptoefinale",
+    "level_archetype": "archetype_final",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Season_08",
+    "ingame_music_soundbank": "BNK_Music_GP_Survival_Season_08",
+    "ingame_music_event": "MUS_InGame_Round_Survival_Season_08",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_TipToeFinale",
+    "level_badge_name": "TipToeFinale",
+    "level_variation": "levels_variation.variation_tiptoefinale",
+    "level_variation_overrides": "levels_variation_overrides.var_over_tiptoefinale_victoria_squads",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "tags": [
+      "level_tags.ss2_round",
+      "level_tags.ss2_victoria"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "medal_description_value": null
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_disconnect",
+    "id": "round_tiptoefinale_victoria_squads"
   },
   {
     "display_name": null,

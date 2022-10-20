@@ -457,36 +457,6 @@
     "id": "duos_show_ss2_parrot"
   },
   {
-    "show_name": "localised_strings.show_name_only_ss2_almond",
-    "show_description": "localised_strings.show_desc_only_ss2_almond",
-    "show_image": null,
-    "show_image_cms": "show_selector_show_ss2_almond",
-    "min_party_size": 1,
-    "max_party_size": 4,
-    "size": {
-      "type": "override",
-      "min_players": 36,
-      "max_players": 40
-    },
-    "private_lobby_size": {
-      "type": "override",
-      "min_players": 8,
-      "max_players": 40
-    },
-    "show_type": {
-      "showtype_switch": "squad",
-      "squad_size": 4
-    },
-    "default_episode": "levels_episode.event_only_ss2_squads_almond",
-    "episode_reward_settings_id": "squads",
-    "themeable_override": null,
-    "opens_at": "2022-11-01T09:00:00",
-    "closes_at": "2022-11-04T09:00:00",
-    "skill_score_factor_override": null,
-    "hide_countdown": false,
-    "id": "event_almond_squads_011122_031122"
-  },
-  {
     "show_name": "localised_strings.show_title_beasty_guys",
     "show_description": "localised_strings.show_desc_beasty_guys",
     "show_image": null,
@@ -2379,6 +2349,33 @@
     "skill_score_factor_override": null,
     "hide_countdown": false,
     "id": "event_only_drumtop_template"
+  },
+  {
+    "show_name": "localised_strings.show_name_fall_ball_cup",
+    "show_description": "localised_strings.show_desc_fall_ball_cup",
+    "show_image": "FallBallCup",
+    "show_image_cms": "show_selector_show_fallballcup",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 24,
+      "max_players": 32
+    },
+    "private_lobby_size": {
+      "type": "default"
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.episode_event_only_fall_ball",
+    "episode_reward_settings_id": "solos",
+    "themeable_override": null,
+    "opens_at": "2022-11-01T09:00:00",
+    "closes_at": "2022-11-04T09:00:00",
+    "skill_score_factor_override": null,
+    "hide_countdown": false,
+    "id": "event_only_fall_ball_011122_031122"
   },
   {
     "show_name": "localised_strings.show_name_fall_ball_cup",
@@ -4482,7 +4479,7 @@
       "showtype_switch": "individual"
     },
     "default_episode": "levels_episode.episode_event_only_slime_climb_2",
-    "episode_reward_settings_id": "solo_rewards",
+    "episode_reward_settings_id": "solos",
     "themeable_override": null,
     "opens_at": "2022-10-29T09:00:00",
     "closes_at": "2022-10-31T09:00:00",
@@ -7018,8 +7015,9 @@
     "show_name": "localised_strings.show_title_solo_show",
     "show_description": "localised_strings.show_desc_solo_show_ss2_launch",
     "show_image": "MainShow",
-    "show_image_cms": "show_selector_show_mainshow",
-    "hide_countdown": true,
+    "show_image_cms": "show_selector_show_mainshow_victoria",
+    "default_episode": "levels_episode.episode_solo_show_victoria",
+    "episode_reward_settings_id": "solos",
     "min_party_size": 1,
     "max_party_size": 4,
     "size": {
@@ -7033,12 +7031,11 @@
     "show_type": {
       "showtype_switch": "individual"
     },
-    "default_episode": "levels_episode.episode_solo_show_ss2_launch",
-    "episode_reward_settings_id": "solos",
     "themeable_override": null,
     "opens_at": "2020-04-17T00:00:01",
     "closes_at": null,
     "skill_score_factor_override": null,
+    "hide_countdown": false,
     "id": "main_show"
   },
   {
@@ -7632,7 +7629,7 @@
       "showtype_switch": "individual"
     },
     "default_episode": "levels_episode.episode_robotrampage_ss2_show1",
-    "episode_reward_settings_id": "solo_3_round_multiwinner",
+    "episode_reward_settings_id": "solos",
     "themeable_override": null,
     "opens_at": "2022-10-25T09:00:00",
     "closes_at": "2022-10-27T09:00:00",
@@ -7992,8 +7989,9 @@
     "show_name": "localised_strings.show_title_duos_show",
     "show_description": "localised_strings.show_desc_squads_duos_show_ss2_launch",
     "show_image": "Duos",
-    "show_image_cms": "show_selector_show_duos",
-    "hide_countdown": true,
+    "show_image_cms": "show_selector_show_duos_victoria",
+    "default_episode": "levels_episode.episode_duos_show_victoria",
+    "episode_reward_settings_id": "duos",
     "min_party_size": 1,
     "max_party_size": 2,
     "size": {
@@ -8008,12 +8006,11 @@
       "showtype_switch": "squad",
       "squad_size": 2
     },
-    "default_episode": "levels_episode.episode_duos_show_ss2_launch",
-    "episode_reward_settings_id": "duos",
     "themeable_override": null,
     "opens_at": "2020-04-17T00:00:01",
     "closes_at": null,
     "skill_score_factor_override": null,
+    "hide_countdown": false,
     "id": "squads_2player_template"
   },
   {
@@ -8158,8 +8155,9 @@
     "show_name": "localised_strings.show_title_squad_show",
     "show_description": "localised_strings.show_desc_squads_squads_show_ss2_launch",
     "show_image": "SquadShow",
-    "show_image_cms": "show_selector_show_squadshows",
-    "hide_countdown": true,
+    "show_image_cms": "show_selector_show_squadshows_victoria",
+    "default_episode": "levels_episode.episode_squads_show_victoria",
+    "episode_reward_settings_id": "squads",
     "min_party_size": 1,
     "max_party_size": 4,
     "size": {
@@ -8172,12 +8170,11 @@
       "showtype_switch": "squad",
       "squad_size": 4
     },
-    "default_episode": "levels_episode.episode_squads_show_ss2_launch",
-    "episode_reward_settings_id": "squads",
     "themeable_override": null,
     "opens_at": "2020-04-17T09:00:00",
     "closes_at": null,
     "skill_score_factor_override": null,
+    "hide_countdown": false,
     "id": "squads_4player"
   },
   {

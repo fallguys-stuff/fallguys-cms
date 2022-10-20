@@ -3406,6 +3406,29 @@
   {
     "config": {
       "metric_id": "round_reached",
+      "level_id": null,
+      "level_archetype": null,
+      "round_index": 0,
+      "round_qualified": null,
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
+      "show_id": "squads_2player_template",
+      "is_final_round": null,
+      "is_private_lobby": "false",
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": []
+    },
+    "id": "play_duos_show_victoria_w5"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
       "level_id": "round_egg_grab_duos_week_of_romance_s6_duo_teams",
       "level_archetype": null,
       "round_index": null,
@@ -4855,6 +4878,52 @@
   {
     "config": {
       "metric_id": "round_reached",
+      "level_id": null,
+      "level_archetype": null,
+      "round_index": 0,
+      "round_qualified": null,
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
+      "show_id": "main_show",
+      "is_final_round": null,
+      "is_private_lobby": "false",
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": []
+    },
+    "id": "play_solos_show_victoria_w5"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "level_id": null,
+      "level_archetype": null,
+      "round_index": 0,
+      "round_qualified": null,
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
+      "show_id": "squads_4player",
+      "is_final_round": null,
+      "is_private_lobby": "false",
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": []
+    },
+    "id": "play_squads_show_victoria_w5"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
       "level_id": "round_starlink_almond",
       "level_archetype": null,
       "round_index": null,
@@ -6021,7 +6090,7 @@
       "round_qualified": null,
       "qualified_player_count": null,
       "show_id": null,
-      "is_private_lobby": null,
+      "is_private_lobby": "false",
       "fell_in_slime": null,
       "player_respawn_count": null,
       "qualify_time": null,
@@ -7212,6 +7281,52 @@
       "dimensions": []
     },
     "id": "player_qualified_carrying_pegwin_race_oriole"
+  },
+  {
+    "config": {
+      "metric_id": "player_fell",
+      "team_id": null,
+      "is_in_squad": null,
+      "is_final_round": null,
+      "level_archetype": null,
+      "level_id": null,
+      "overtime": null,
+      "is_in_party": null,
+      "party_size": null,
+      "position_placed": null,
+      "team_score": null,
+      "round_index": null,
+      "round_qualified": null,
+      "qualified_player_count": null,
+      "show_id": null,
+      "is_private_lobby": null,
+      "fell_in_slime": null,
+      "player_respawn_count": null,
+      "qualify_time": null,
+      "team_goals_scored": null,
+      "hoops_dived_through": null,
+      "time_survived": null,
+      "costume_faceplate": null,
+      "costume_upper": null,
+      "costume_lower": null,
+      "costume_colour_schema": null,
+      "costume_pattern": null,
+      "dimensions": [
+        {
+          "dimension_id": "round_qualified",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        }
+      ]
+    },
+    "id": "player_qualified_fell_victoria_w5"
   },
   {
     "config": {
@@ -8739,6 +8854,29 @@
       "overtime": null,
       "is_in_party": null,
       "episode_id": null,
+      "show_id": "squads_2player_template",
+      "is_final_round": null,
+      "is_private_lobby": "false",
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": []
+    },
+    "id": "qualify_from_rounds_duos_victoria_w5"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "level_id": null,
+      "level_archetype": null,
+      "round_index": null,
+      "round_qualified": "true",
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
       "show_id": "main_show",
       "is_final_round": null,
       "is_private_lobby": "false",
@@ -8785,6 +8923,29 @@
       "overtime": null,
       "is_in_party": null,
       "episode_id": null,
+      "show_id": "main_show",
+      "is_final_round": null,
+      "is_private_lobby": "false",
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": []
+    },
+    "id": "qualify_from_rounds_solos_victoria_w5"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "level_id": null,
+      "level_archetype": null,
+      "round_index": null,
+      "round_qualified": "true",
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
       "show_id": null,
       "is_final_round": null,
       "is_private_lobby": "false",
@@ -8820,6 +8981,29 @@
       "dimensions": []
     },
     "id": "qualify_from_rounds_squads"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "level_id": null,
+      "level_archetype": null,
+      "round_index": null,
+      "round_qualified": "true",
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
+      "show_id": "squads_4player",
+      "is_final_round": null,
+      "is_private_lobby": "false",
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": []
+    },
+    "id": "qualify_from_rounds_squads_victoria_w5"
   },
   {
     "config": {
@@ -9546,6 +9730,106 @@
       "dimensions": []
     },
     "id": "qualify_round_in_a_party"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "level_id": null,
+      "level_archetype": null,
+      "round_index": null,
+      "round_qualified": null,
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
+      "show_id": null,
+      "is_final_round": null,
+      "is_private_lobby": null,
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": [
+        {
+          "dimension_id": "is_in_squad",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "level_tags",
+          "operator": "contains_all",
+          "string_array_value": [
+            "level_tags.ss2_victoria"
+          ],
+          "dimension_type": "array_dimension"
+        },
+        {
+          "dimension_id": "round_qualified",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        }
+      ]
+    },
+    "id": "qualify_solo_victoria"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "level_id": null,
+      "level_archetype": null,
+      "round_index": null,
+      "round_qualified": null,
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
+      "show_id": null,
+      "is_final_round": null,
+      "is_private_lobby": null,
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": [
+        {
+          "dimension_id": "is_in_squad",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "level_tags",
+          "operator": "contains_all",
+          "string_array_value": [
+            "level_tags.ss2_victoria"
+          ],
+          "dimension_type": "array_dimension"
+        },
+        {
+          "dimension_id": "round_qualified",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        }
+      ]
+    },
+    "id": "qualify_squads_victoria"
   },
   {
     "config": {
@@ -10316,6 +10600,29 @@
       "overtime": null,
       "is_in_party": null,
       "episode_id": null,
+      "show_id": "squads_2player_template",
+      "is_final_round": null,
+      "is_private_lobby": "false",
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": []
+    },
+    "id": "reach_round_2_duos_victoria_w5"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "level_id": null,
+      "level_archetype": null,
+      "round_index": 1,
+      "round_qualified": null,
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
       "show_id": null,
       "is_final_round": null,
       "is_private_lobby": "false",
@@ -10661,6 +10968,29 @@
       "overtime": null,
       "is_in_party": null,
       "episode_id": null,
+      "show_id": "main_show",
+      "is_final_round": null,
+      "is_private_lobby": "false",
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": []
+    },
+    "id": "reach_round_2_solos_victoria_w5"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "level_id": null,
+      "level_archetype": null,
+      "round_index": 1,
+      "round_qualified": null,
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
       "show_id": null,
       "is_final_round": null,
       "is_private_lobby": "false",
@@ -10719,6 +11049,29 @@
       "dimensions": []
     },
     "id": "reach_round_2_squads4"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "level_id": null,
+      "level_archetype": null,
+      "round_index": 1,
+      "round_qualified": null,
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
+      "show_id": "squads_4player",
+      "is_final_round": null,
+      "is_private_lobby": "false",
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": []
+    },
+    "id": "reach_round_2_squads_victoria_w5"
   },
   {
     "config": {
@@ -11029,6 +11382,29 @@
       "overtime": null,
       "is_in_party": null,
       "episode_id": null,
+      "show_id": "squads_2player_template",
+      "is_final_round": null,
+      "is_private_lobby": "false",
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": []
+    },
+    "id": "reach_round_3_duos_victoria_w5"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "level_id": null,
+      "level_archetype": null,
+      "round_index": 2,
+      "round_qualified": null,
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
       "show_id": null,
       "is_final_round": null,
       "is_private_lobby": "false",
@@ -11121,6 +11497,29 @@
       "overtime": null,
       "is_in_party": null,
       "episode_id": null,
+      "show_id": "main_show",
+      "is_final_round": null,
+      "is_private_lobby": "false",
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": []
+    },
+    "id": "reach_round_3_solos_victoria_w5"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "level_id": null,
+      "level_archetype": null,
+      "round_index": 2,
+      "round_qualified": null,
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
       "show_id": null,
       "is_final_round": null,
       "is_private_lobby": "false",
@@ -11133,6 +11532,29 @@
       "dimensions": []
     },
     "id": "reach_round_3_squad"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "level_id": null,
+      "level_archetype": null,
+      "round_index": 2,
+      "round_qualified": null,
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
+      "show_id": "squads_4player",
+      "is_final_round": null,
+      "is_private_lobby": "false",
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": []
+    },
+    "id": "reach_round_3_squads_victoria_w5"
   },
   {
     "config": {
@@ -12501,6 +12923,39 @@
       "is_in_squad": null,
       "is_final_round": null,
       "level_archetype": null,
+      "level_id": null,
+      "overtime": null,
+      "is_in_party": null,
+      "party_size": null,
+      "position_placed": null,
+      "team_score": null,
+      "round_index": null,
+      "round_qualified": null,
+      "qualified_player_count": null,
+      "show_id": null,
+      "is_private_lobby": "false",
+      "fell_in_slime": null,
+      "player_respawn_count": null,
+      "qualify_time": null,
+      "team_goals_scored": null,
+      "hoops_dived_through": null,
+      "time_survived": null,
+      "costume_faceplate": null,
+      "costume_upper": null,
+      "costume_lower": null,
+      "costume_colour_schema": null,
+      "costume_pattern": null,
+      "dimensions": []
+    },
+    "id": "top_speed_victoria_w5"
+  },
+  {
+    "config": {
+      "metric_id": "player_reach_terminal_velocity",
+      "team_id": null,
+      "is_in_squad": null,
+      "is_final_round": null,
+      "level_archetype": null,
       "level_id": "round_wall_guys_event_clan_of_yeetus_ss1",
       "overtime": null,
       "is_in_party": null,
@@ -12526,6 +12981,489 @@
       "dimensions": []
     },
     "id": "top_speed_wall_guys_clan_of_yeetus"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "level_id": null,
+      "level_archetype": null,
+      "round_index": null,
+      "round_qualified": null,
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
+      "show_id": null,
+      "is_final_round": null,
+      "is_private_lobby": null,
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": [
+        {
+          "dimension_id": "is_final_round",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "level_tags",
+          "operator": "contains_all",
+          "string_array_value": [
+            "level_tags.ss2_victoria"
+          ],
+          "dimension_type": "array_dimension"
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        }
+      ]
+    },
+    "id": "victoria_final"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "level_id": null,
+      "level_archetype": null,
+      "round_index": null,
+      "round_qualified": null,
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
+      "show_id": null,
+      "is_final_round": null,
+      "is_private_lobby": null,
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": [
+        {
+          "dimension_id": "level_tags",
+          "operator": "contains_all",
+          "string_array_value": [],
+          "dimension_type": "array_dimension"
+        },
+        {
+          "dimension_id": "level_archetype",
+          "operator": "equal",
+          "string_value": "archetype_race",
+          "dimension_type": "string_dimension",
+          "case_sensitive": false
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        }
+      ]
+    },
+    "id": "victoria_play_final"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "level_id": null,
+      "level_archetype": null,
+      "round_index": null,
+      "round_qualified": null,
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
+      "show_id": null,
+      "is_final_round": null,
+      "is_private_lobby": null,
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": [
+        {
+          "dimension_id": "level_tags",
+          "operator": "contains_all",
+          "string_array_value": [
+            "level_tags.ss2_victoria"
+          ],
+          "dimension_type": "array_dimension"
+        },
+        {
+          "dimension_id": "level_archetype",
+          "operator": "equal",
+          "string_value": "archetype_hunt",
+          "dimension_type": "string_dimension",
+          "case_sensitive": false
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        }
+      ]
+    },
+    "id": "victoria_play_hunt"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "level_id": null,
+      "level_archetype": null,
+      "round_index": null,
+      "round_qualified": null,
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
+      "show_id": null,
+      "is_final_round": null,
+      "is_private_lobby": null,
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": [
+        {
+          "dimension_id": "level_tags",
+          "operator": "contains_all",
+          "string_array_value": [
+            "level_tags.ss2_victoria"
+          ],
+          "dimension_type": "array_dimension"
+        },
+        {
+          "dimension_id": "level_archetype",
+          "operator": "equal",
+          "string_value": "archetype_race",
+          "dimension_type": "string_dimension",
+          "case_sensitive": false
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        }
+      ]
+    },
+    "id": "victoria_play_race"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "level_id": null,
+      "level_archetype": null,
+      "round_index": null,
+      "round_qualified": null,
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
+      "show_id": null,
+      "is_final_round": null,
+      "is_private_lobby": null,
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": [
+        {
+          "dimension_id": "level_tags",
+          "operator": "contains_all",
+          "string_array_value": [
+            "level_tags.ss2_victoria"
+          ],
+          "dimension_type": "array_dimension"
+        },
+        {
+          "dimension_id": "level_archetype",
+          "operator": "equal",
+          "string_value": "archetype_survival",
+          "dimension_type": "string_dimension",
+          "case_sensitive": false
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        }
+      ]
+    },
+    "id": "victoria_play_survival"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "level_id": null,
+      "level_archetype": null,
+      "round_index": null,
+      "round_qualified": null,
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
+      "show_id": null,
+      "is_final_round": null,
+      "is_private_lobby": null,
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": [
+        {
+          "dimension_id": "level_tags",
+          "operator": "contains_all",
+          "string_array_value": [
+            "level_tags.ss2_victoria"
+          ],
+          "dimension_type": "array_dimension"
+        },
+        {
+          "dimension_id": "level_archetype",
+          "operator": "equal",
+          "string_value": "archetype_team",
+          "dimension_type": "string_dimension",
+          "case_sensitive": false
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        }
+      ]
+    },
+    "id": "victoria_play_team"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "level_id": null,
+      "level_archetype": null,
+      "round_index": null,
+      "round_qualified": null,
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
+      "show_id": null,
+      "is_final_round": null,
+      "is_private_lobby": null,
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": [
+        {
+          "dimension_id": "round_qualified",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "qualify_time",
+          "operator": "less_or_equal",
+          "integer_value": 60,
+          "dimension_type": "integer_dimension"
+        },
+        {
+          "dimension_id": "level_tags",
+          "operator": "contains_all",
+          "string_array_value": [
+            "level_tags.ss2_victoria"
+          ],
+          "dimension_type": "array_dimension"
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        }
+      ]
+    },
+    "id": "victoria_qualify_60s"
+  },
+  {
+    "config": {
+      "metric_id": "player_enters_wormhole",
+      "player_action_state": null,
+      "carry_type": null,
+      "team_id": null,
+      "is_in_squad": "true",
+      "is_final_round": null,
+      "level_archetype": null,
+      "level_id": null,
+      "overtime": null,
+      "is_in_party": null,
+      "party_size": null,
+      "position_placed": null,
+      "team_score": null,
+      "round_index": null,
+      "round_qualified": "true",
+      "qualified_player_count": null,
+      "show_id": null,
+      "is_private_lobby": null,
+      "fell_in_slime": null,
+      "player_respawn_count": null,
+      "qualify_time": null,
+      "team_goals_scored": null,
+      "hoops_dived_through": null,
+      "time_survived": null,
+      "costume_faceplate": null,
+      "costume_upper": null,
+      "costume_lower": null,
+      "costume_colour_schema": null,
+      "costume_pattern": null,
+      "dimensions": []
+    },
+    "id": "victoria_qualify_solo_victoria"
+  },
+  {
+    "config": {
+      "metric_id": "player_enters_wormhole",
+      "player_action_state": null,
+      "carry_type": null,
+      "team_id": null,
+      "is_in_squad": "true",
+      "is_final_round": null,
+      "level_archetype": null,
+      "level_id": null,
+      "overtime": null,
+      "is_in_party": null,
+      "party_size": null,
+      "position_placed": null,
+      "team_score": null,
+      "round_index": null,
+      "round_qualified": "true",
+      "qualified_player_count": null,
+      "show_id": null,
+      "is_private_lobby": null,
+      "fell_in_slime": null,
+      "player_respawn_count": null,
+      "qualify_time": null,
+      "team_goals_scored": null,
+      "hoops_dived_through": null,
+      "time_survived": null,
+      "costume_faceplate": null,
+      "costume_upper": null,
+      "costume_lower": null,
+      "costume_colour_schema": null,
+      "costume_pattern": null,
+      "dimensions": []
+    },
+    "id": "victoria_qualify_squads_victoria"
+  },
+  {
+    "config": {
+      "metric_id": "player_enters_wormhole",
+      "player_action_state": null,
+      "carry_type": null,
+      "team_id": null,
+      "is_in_squad": null,
+      "is_final_round": null,
+      "level_archetype": null,
+      "level_id": null,
+      "overtime": null,
+      "is_in_party": null,
+      "party_size": null,
+      "position_placed": null,
+      "team_score": null,
+      "round_index": null,
+      "round_qualified": null,
+      "qualified_player_count": null,
+      "show_id": null,
+      "is_private_lobby": null,
+      "fell_in_slime": null,
+      "player_respawn_count": null,
+      "qualify_time": null,
+      "team_goals_scored": null,
+      "hoops_dived_through": null,
+      "time_survived": null,
+      "costume_faceplate": null,
+      "costume_upper": null,
+      "costume_lower": null,
+      "costume_colour_schema": null,
+      "costume_pattern": null,
+      "dimensions": [
+        {
+          "dimension_id": "is_in_squad",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        }
+      ]
+    },
+    "id": "victoria_use_solo"
+  },
+  {
+    "config": {
+      "metric_id": "player_enters_wormhole",
+      "player_action_state": null,
+      "carry_type": null,
+      "team_id": null,
+      "is_in_squad": null,
+      "is_final_round": null,
+      "level_archetype": null,
+      "level_id": null,
+      "overtime": null,
+      "is_in_party": null,
+      "party_size": null,
+      "position_placed": null,
+      "team_score": null,
+      "round_index": null,
+      "round_qualified": null,
+      "qualified_player_count": null,
+      "show_id": null,
+      "is_private_lobby": null,
+      "fell_in_slime": null,
+      "player_respawn_count": null,
+      "qualify_time": null,
+      "team_goals_scored": null,
+      "hoops_dived_through": null,
+      "time_survived": null,
+      "costume_faceplate": null,
+      "costume_upper": null,
+      "costume_lower": null,
+      "costume_colour_schema": null,
+      "costume_pattern": null,
+      "dimensions": [
+        {
+          "dimension_id": "is_in_squad",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        }
+      ]
+    },
+    "id": "victoria_use_squads"
   },
   {
     "config": {
@@ -13262,6 +14200,36 @@
       "dimensions": []
     },
     "id": "win_show_hw_team_squads"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "level_id": null,
+      "level_archetype": "archetype_final",
+      "round_index": null,
+      "round_qualified": "true",
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
+      "show_id": null,
+      "is_final_round": "true",
+      "is_private_lobby": "false",
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": [
+        {
+          "dimension_id": "qualify_time",
+          "operator": "less_or_equal",
+          "integer_value": 40,
+          "dimension_type": "integer_dimension"
+        }
+      ]
+    },
+    "id": "win_show_in_40_secs"
   },
   {
     "config": {

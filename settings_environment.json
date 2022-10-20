@@ -538,40 +538,74 @@
     "environment_id": 7,
     "client_environment_name": "CompatQA",
     "config": {
-      "type": "locked",
-      "profile": {
-        "profile_id": "1194128",
-        "profile_name": "CompatQA",
-        "platforms": {
-          "platform_min": 0,
-          "platform_max": 6
+      "type": "ranged",
+      "profiles": [
+        {
+          "profile_id": "1194128",
+          "profile_name": "CompatQA",
+          "platforms": {
+            "platform_min": 0,
+            "platform_max": 6
+          },
+          "custom_cms_branch": null,
+          "enable_bots": false,
+          "solo": {
+            "default_show_min": 1,
+            "default_show_max": 60,
+            "bots_show_min": 1,
+            "bots_show_max": 20
+          },
+          "squads": {
+            "default_show_min": 4,
+            "default_show_max": 60,
+            "squad_size": 4,
+            "default_min_squad_count": 10,
+            "default_max_squad_count": 15
+          },
+          "seconds_before_allocation": 20,
+          "max_seconds_to_wait_for_proposal": 0,
+          "seconds_to_wait_for_max_match_size": 0,
+          "match_function_version": "1.13.4",
+          "id": "qa_compat"
         },
-        "custom_cms_branch": null,
-        "enable_bots": false,
-        "solo": {
-          "default_show_min": 1,
-          "default_show_max": 60,
-          "bots_show_min": 1,
-          "bots_show_max": 20
-        },
-        "squads": {
-          "default_show_min": 4,
-          "default_show_max": 60,
-          "squad_size": 4,
-          "default_min_squad_count": 10,
-          "default_max_squad_count": 15
-        },
-        "seconds_before_allocation": 20,
-        "max_seconds_to_wait_for_proposal": 0,
-        "seconds_to_wait_for_max_match_size": 0,
-        "match_function_version": "1.13.4",
-        "id": "qa_compat"
-      }
+        {
+          "profile_id": "1208105",
+          "profile_name": "CompatQA 2",
+          "platforms": {
+            "platform_min": 0,
+            "platform_max": 6
+          },
+          "custom_cms_branch": "robb_s810_abtest_setup",
+          "enable_bots": false,
+          "solo": {
+            "default_show_min": 1,
+            "default_show_max": 60,
+            "bots_show_min": 1,
+            "bots_show_max": 20
+          },
+          "squads": {
+            "default_show_min": 4,
+            "default_show_max": 60,
+            "squad_size": 4,
+            "default_min_squad_count": 10,
+            "default_max_squad_count": 15
+          },
+          "seconds_before_allocation": 20,
+          "max_seconds_to_wait_for_proposal": 0,
+          "seconds_to_wait_for_max_match_size": 0,
+          "match_function_version": "1.13.4",
+          "id": "qa_compat_2"
+        }
+      ]
     },
     "profiles": [
       {
         "profile_id": 1194128,
         "profile_name": "CompatQA"
+      },
+      {
+        "profile_id": 1208105,
+        "profile_name": "CompatQA 2"
       }
     ],
     "id": "compatqa"
