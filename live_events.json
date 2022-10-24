@@ -5585,6 +5585,203 @@
     "id": "le_ss2_parrot"
   },
   {
+    "title": "localised_strings.le_ss2_pistachio_title",
+    "description": "localised_strings.le_ss2_pistachio_desc",
+    "milestones": [
+      {
+        "xp_required": 200,
+        "reward_id": "nickname_ss2_16"
+      },
+      {
+        "xp_required": 300,
+        "reward_id": "kudos_bonus_200"
+      },
+      {
+        "xp_required": 500,
+        "reward_id": "nameplate_ss02_event_trickerortreater"
+      },
+      {
+        "xp_required": 800,
+        "reward_id": "pattern_ss02_33"
+      },
+      {
+        "xp_required": 1000,
+        "reward_id": "bottom_ss02_sif_slippershalloowen_01"
+      }
+    ],
+    "target_ids": [
+      "le_ss2_pistachio"
+    ],
+    "tool_tip_image": "ui-liveevents-tooltip-pistachio",
+    "background_image": "ui-liveevents-bg-pistachio",
+    "promotional_image": "ui-liveevents-costume-pistachio",
+    "reward_icon_image": "ui-icon-token-pistachio",
+    "challenges": [
+      {
+        "goal_id": "play_as_seeker_pistachio",
+        "xp_awarded": 100,
+        "goal_title_locked": null,
+        "goal_description_locked": {
+          "template": null,
+          "template_parameters": []
+        },
+        "unlock_conditions": []
+      },
+      {
+        "goal_id": "play_as_hider_pistachio",
+        "xp_awarded": 100,
+        "goal_title_locked": null,
+        "goal_description_locked": {
+          "template": null,
+          "template_parameters": []
+        },
+        "unlock_conditions": []
+      },
+      {
+        "goal_id": "grab_players_pistachio_seeker_25",
+        "xp_awarded": 100,
+        "goal_title_locked": null,
+        "goal_description_locked": {
+          "template": "challenge_unlock_singular",
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "challenge_title_le_ss2_pistachio_1"
+            }
+          ]
+        },
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "play_as_seeker_pistachio"
+          }
+        ]
+      },
+      {
+        "goal_id": "carry_sweets_hider_pistachio_80",
+        "xp_awarded": 100,
+        "goal_title_locked": null,
+        "goal_description_locked": {
+          "template": "challenge_unlock_singular",
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "challenge_title_le_ss2_pistachio_4"
+            }
+          ]
+        },
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "play_as_hider_pistachio"
+          }
+        ]
+      },
+      {
+        "goal_id": "grab_players_pistachio_seeker_10_match",
+        "xp_awarded": 100,
+        "goal_title_locked": null,
+        "goal_description_locked": {
+          "template": "challenge_unlock_singular",
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "challenge_title_le_ss2_pistachio_1"
+            }
+          ]
+        },
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "play_as_seeker_pistachio"
+          }
+        ]
+      },
+      {
+        "goal_id": "button_pressed_as_hider_pistachio_20",
+        "xp_awarded": 100,
+        "goal_title_locked": null,
+        "goal_description_locked": {
+          "template": "challenge_unlock_singular",
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "challenge_title_le_ss2_pistachio_4"
+            }
+          ]
+        },
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "play_as_hider_pistachio"
+          }
+        ]
+      },
+      {
+        "goal_id": "player_enters_wormhole_seeker_pistachio_40",
+        "xp_awarded": 100,
+        "goal_title_locked": null,
+        "goal_description_locked": {
+          "template": "challenge_unlock_singular",
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "challenge_title_le_ss2_pistachio_1"
+            }
+          ]
+        },
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "play_as_seeker_pistachio"
+          }
+        ]
+      },
+      {
+        "goal_id": "player_enters_wormhole_hider_pistachio_40",
+        "xp_awarded": 100,
+        "goal_title_locked": null,
+        "goal_description_locked": {
+          "template": "challenge_unlock_singular",
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "challenge_title_le_ss2_pistachio_4"
+            }
+          ]
+        },
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "play_as_hider_pistachio"
+          }
+        ]
+      },
+      {
+        "goal_id": "win_pistachio_5",
+        "xp_awarded": 100,
+        "goal_title_locked": null,
+        "goal_description_locked": {
+          "template": null,
+          "template_parameters": []
+        },
+        "unlock_conditions": []
+      },
+      {
+        "goal_id": "win_pistachio_10",
+        "xp_awarded": 100,
+        "goal_title_locked": null,
+        "goal_description_locked": {
+          "template": null,
+          "template_parameters": []
+        },
+        "unlock_conditions": []
+      }
+    ],
+    "ui_detail_colour": "colour.challenges_green",
+    "id": "le_ss2_pistachio"
+  },
+  {
     "title": "localised_strings.le_victoria_event_title",
     "description": "localised_strings.le_victoria_event_desc",
     "challenges": [

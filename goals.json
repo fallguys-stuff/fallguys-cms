@@ -262,6 +262,22 @@
     "player_action_id": "button_pressed",
     "target": {
       "type": "aggregate",
+      "value": 20
+    },
+    "description": "localised_strings.challenge_desc_le_ss2_pistachio_08",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.invisibeans_hider_name_ss2_pistachio"
+      }
+    ],
+    "title": "localised_strings.challenge_title_le_ss2_pistachio_5",
+    "id": "button_pressed_as_hider_pistachio_20"
+  },
+  {
+    "player_action_id": "button_pressed",
+    "target": {
+      "type": "aggregate",
       "value": 5
     },
     "description": "localised_strings.challenge_desc_press_button_as_in_show",
@@ -400,6 +416,42 @@
     ],
     "title": null,
     "id": "carry_pegwin_60_oriole"
+  },
+  {
+    "player_action_id": "carry_sweets_invisibeans",
+    "target": {
+      "type": "aggregate",
+      "value": 50
+    },
+    "description": "localised_strings.challenge_desc_le_ss2_pistachio_07",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 50
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.level_name_invisibeans_ss2_pistachio_event"
+      }
+    ],
+    "title": "localised_strings.challenge_title_le_ss2_pistachio_5",
+    "id": "carry_sweets_hider_pistachio_50"
+  },
+  {
+    "player_action_id": "carry_sweets_hider_pistachio",
+    "target": {
+      "type": "aggregate",
+      "value": 80
+    },
+    "description": "localised_strings.challenge_desc_le_ss2_pistachio_07",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.invisibeans_hider_name_ss2_pistachio"
+      }
+    ],
+    "title": "localised_strings.challenge_title_le_ss2_pistachio_5",
+    "id": "carry_sweets_hider_pistachio_80"
   },
   {
     "player_action_id": "carry_sweets_invisibeans",
@@ -1115,6 +1167,22 @@
     "id": "daily_play_show_almond_ss2_w1"
   },
   {
+    "player_action_id": "play_show_pistachio_w7",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_027_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.level_name_invisibeans_ss2_pistachio_event"
+      }
+    ],
+    "title": null,
+    "id": "daily_play_show_pistachio_w7"
+  },
+  {
     "player_action_id": "play_show_any",
     "target": {
       "type": "aggregate",
@@ -1630,6 +1698,26 @@
     ],
     "title": null,
     "id": "daily_qualify_no_respawn"
+  },
+  {
+    "player_action_id": "qualify_from_rounds_pistachio_w7",
+    "target": {
+      "type": "aggregate",
+      "value": 4
+    },
+    "description": "localised_strings.challenge_desc_004_general",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.level_name_invisibeans_ss2_pistachio_event"
+      }
+    ],
+    "title": null,
+    "id": "daily_qualify_pistachio_w7"
   },
   {
     "player_action_id": "qualify_from_race_rounds",
@@ -3359,6 +3447,71 @@
     "id": "grab_players_invisibeans_5_le_stars03"
   },
   {
+    "player_action_id": "grab_thief_as_seeker_pistachio",
+    "target": {
+      "type": "last_value",
+      "operator": "more_or_equal",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_le_ss2_pistachio_03",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 5
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.invisibeans_seeker_name_ss2_pistachio"
+      }
+    ],
+    "title": "localised_strings.challenge_title_le_ss2_pistachio_2",
+    "id": "grab_players_pistachio_seeker_10_match"
+  },
+  {
+    "player_action_id": "grab_thief_as_seeker_invisibeans",
+    "target": {
+      "type": "aggregate",
+      "value": 15
+    },
+    "description": "localised_strings.challenge_desc_le_ss2_pistachio_02",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.invisibeans_seeker_name_ss2_pistachio"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.invisibeans_hider_name_plural_ss2_pistachio"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.level_name_invisibeans_ss2_pistachio_event"
+      }
+    ],
+    "title": "localised_strings.challenge_title_le_ss2_pistachio_2",
+    "id": "grab_players_pistachio_seeker_15"
+  },
+  {
+    "player_action_id": "grab_thief_as_seeker_pistachio",
+    "target": {
+      "type": "aggregate",
+      "value": 35
+    },
+    "description": "localised_strings.challenge_desc_le_ss2_pistachio_02",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.invisibeans_hider_name_plural_ss2_pistachio"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.invisibeans_seeker_name_ss2_pistachio"
+      }
+    ],
+    "title": "localised_strings.challenge_title_le_ss2_pistachio_2",
+    "id": "grab_players_pistachio_seeker_25"
+  },
+  {
     "player_action_id": "play_round_hazelnut",
     "target": {
       "type": "aggregate",
@@ -4177,6 +4330,26 @@
     "id": "play_any_round_ss1_idol_games"
   },
   {
+    "player_action_id": "play_as_hider_pistachio",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_le_ss2_pistachio_01",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.level_name_invisibeans_ss2_pistachio_event"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.invisibeans_hider_name_ss2_pistachio"
+      }
+    ],
+    "title": "localised_strings.challenge_title_le_ss2_pistachio_4",
+    "id": "play_as_hider_pistachio"
+  },
+  {
     "player_action_id": "play_as_hider",
     "target": {
       "type": "aggregate",
@@ -4214,6 +4387,26 @@
       }
     ],
     "id": "play_as_hider_x3_le_stars03"
+  },
+  {
+    "player_action_id": "play_as_seeker_pistachio",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_le_ss2_pistachio_01",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.level_name_invisibeans_ss2_pistachio_event"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.invisibeans_seeker_name_ss2_pistachio"
+      }
+    ],
+    "title": "localised_strings.challenge_title_le_ss2_pistachio_1",
+    "id": "play_as_seeker_pistachio"
   },
   {
     "player_action_id": "play_as_seeker",
@@ -5452,6 +5645,86 @@
     "description": "localised_strings.challenge_desc_hilaria_05",
     "description_parameters": [],
     "id": "player_emoted_hilaria"
+  },
+  {
+    "player_action_id": "player_enters_wormhole_hider_pistachio",
+    "target": {
+      "type": "aggregate",
+      "value": 30
+    },
+    "title": "localised_strings.challenge_title_le_ss2_pistachio_5",
+    "description": "localised_strings.challenge_desc_le_ss2_pistachio_10",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.invisibeans_seeker_name_plural_ss2_pistachio"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.invisibeans_hider_name_ss2_pistachio"
+      }
+    ],
+    "id": "player_enters_wormhole_hider_pistachio_30"
+  },
+  {
+    "player_action_id": "player_enters_wormhole_hider_pistachio",
+    "target": {
+      "type": "aggregate",
+      "value": 40
+    },
+    "title": "localised_strings.challenge_title_le_ss2_pistachio_6",
+    "description": "localised_strings.challenge_desc_le_ss2_pistachio_10",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.invisibeans_seeker_name_plural_ss2_pistachio"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.invisibeans_hider_name_ss2_pistachio"
+      }
+    ],
+    "id": "player_enters_wormhole_hider_pistachio_40"
+  },
+  {
+    "player_action_id": "player_enters_wormhole_seeker_pistachio",
+    "target": {
+      "type": "aggregate",
+      "value": 30
+    },
+    "title": "localised_strings.challenge_title_le_ss2_pistachio_2",
+    "description": "localised_strings.challenge_desc_le_ss2_pistachio_04",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.invisibeans_hider_name_plural_ss2_pistachio"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.invisibeans_seeker_name_ss2_pistachio"
+      }
+    ],
+    "id": "player_enters_wormhole_seeker_pistachio_30"
+  },
+  {
+    "player_action_id": "player_enters_wormhole_seeker_pistachio",
+    "target": {
+      "type": "aggregate",
+      "value": 40
+    },
+    "title": "localised_strings.challenge_title_le_ss2_pistachio_3",
+    "description": "localised_strings.challenge_desc_le_ss2_pistachio_04",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.invisibeans_hider_name_plural_ss2_pistachio"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.invisibeans_seeker_name_ss2_pistachio"
+      }
+    ],
+    "id": "player_enters_wormhole_seeker_pistachio_40"
   },
   {
     "player_action_id": "player_grabbed",
@@ -8864,6 +9137,26 @@
     "id": "weekly_carry"
   },
   {
+    "player_action_id": "carry_any_pistachio_w7",
+    "target": {
+      "type": "aggregate",
+      "value": 150
+    },
+    "description": "localised_strings.challenge_desc_008",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      },
+      {
+        "type": "numeric",
+        "numeric_value": 150
+      }
+    ],
+    "title": null,
+    "id": "weekly_carry_pistachio_w7"
+  },
+  {
     "player_action_id": "distance_run_walnut",
     "target": {
       "type": "aggregate",
@@ -9081,6 +9374,26 @@
     ],
     "title": null,
     "id": "weekly_grab_opposition"
+  },
+  {
+    "player_action_id": "grab_player_other_team_pistachio_w7",
+    "target": {
+      "type": "aggregate",
+      "value": 15
+    },
+    "description": "localised_strings.challenge_desc_040_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 15
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "title": null,
+    "id": "weekly_grab_players_other_team_pistachio_w7"
   },
   {
     "player_action_id": "player_grabbed_round_2",
@@ -10733,6 +11046,30 @@
     "id": "weekly_run_finals"
   },
   {
+    "player_action_id": "run_distance_and_qualify_time_pistachio_w7",
+    "target": {
+      "type": "aggregate",
+      "value": 100
+    },
+    "description": "localised_strings.challenge_desc_024_show_qualify_time",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 100
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "numeric",
+        "numeric_value": 90
+      }
+    ],
+    "title": null,
+    "id": "weekly_run_meters_qualify_secs_pistachio_w7"
+  },
+  {
     "player_action_id": "run_round_2",
     "target": {
       "type": "aggregate",
@@ -10899,6 +11236,22 @@
     ],
     "title": null,
     "id": "weekly_score_no_team_parrot"
+  },
+  {
+    "player_action_id": "player_score_points_pistachio_w7",
+    "target": {
+      "type": "aggregate",
+      "value": 100
+    },
+    "description": "localised_strings.challenge_desc_032_show_extra",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "title": null,
+    "id": "weekly_score_pistachio_w7"
   },
   {
     "player_action_id": "survive_time_survival_rounds_walnut_w4",
@@ -11113,6 +11466,86 @@
     ],
     "title": null,
     "id": "win_any"
+  },
+  {
+    "player_action_id": "win_invisibeans_as_hider",
+    "target": {
+      "type": "aggregate",
+      "value": 10
+    },
+    "description": "localised_strings.challenge_desc_le_ss2_pistachio_11",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.invisibeans_hider_name_ss2_pistachio"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.level_name_invisibeans_ss2_pistachio_event"
+      }
+    ],
+    "title": "localised_strings.challenge_title_le_ss2_pistachio_6",
+    "id": "win_as_hider_pistachio_10"
+  },
+  {
+    "player_action_id": "win_invisibeans_as_hider",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_le_ss2_pistachio_11",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.invisibeans_hider_name_ss2_pistachio"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.level_name_invisibeans_ss2_pistachio_event"
+      }
+    ],
+    "title": "localised_strings.challenge_title_le_ss2_pistachio_6",
+    "id": "win_as_hider_pistachio_5"
+  },
+  {
+    "player_action_id": "win_invisibeans_as_seeker",
+    "target": {
+      "type": "aggregate",
+      "value": 10
+    },
+    "description": "localised_strings.challenge_desc_le_ss2_pistachio_05",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.invisibeans_seeker_name_ss2_pistachio"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.level_name_invisibeans_ss2_pistachio_event"
+      }
+    ],
+    "title": "localised_strings.challenge_title_le_ss2_pistachio_3",
+    "id": "win_as_seeker_pistachio_10"
+  },
+  {
+    "player_action_id": "win_invisibeans_as_seeker",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_le_ss2_pistachio_05",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.invisibeans_seeker_name_ss2_pistachio"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.level_name_invisibeans_ss2_pistachio_event"
+      }
+    ],
+    "title": "localised_strings.challenge_title_le_ss2_pistachio_3",
+    "id": "win_as_seeker_pistachio_5"
   },
   {
     "player_action_id": "win_clan_of_yeetus",
@@ -11608,6 +12041,38 @@
     ],
     "title": null,
     "id": "win_oriole"
+  },
+  {
+    "player_action_id": "win_invisibeans_pistachio",
+    "target": {
+      "type": "aggregate",
+      "value": 10
+    },
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.level_name_invisibeans_ss2_pistachio_event"
+      }
+    ],
+    "title": "localised_strings.challenge_title_le_ss2_pistachio_7",
+    "id": "win_pistachio_10"
+  },
+  {
+    "player_action_id": "win_invisibeans_pistachio",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.level_name_invisibeans_ss2_pistachio_event"
+      }
+    ],
+    "title": "localised_strings.challenge_title_le_ss2_pistachio_7",
+    "id": "win_pistachio_5"
   },
   {
     "player_action_id": "win_show_hw_slime_climb",

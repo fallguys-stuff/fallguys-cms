@@ -137,5 +137,144 @@
       }
     ],
     "id": "round_invisibeans"
+  },
+  {
+    "use_team_idx_wins_on_time_elapsed": true,
+    "team_idx_wins_on_time_elapsed": 0,
+    "team_time_left_red_alert_thresholds": [
+      30,
+      30
+    ],
+    "team_dynamic_score_target_multipliers": [
+      1,
+      1.5
+    ],
+    "team_dynamic_score_target_danger_thresholds": [
+      70,
+      50
+    ],
+    "team_distribution_ratios": [
+      {
+        "min_player_count": 1,
+        "max_player_count": 5,
+        "ratios": [
+          0.5,
+          0.5
+        ]
+      },
+      {
+        "min_player_count": 6,
+        "max_player_count": 6,
+        "ratios": [
+          0.34,
+          0.66
+        ]
+      },
+      {
+        "min_player_count": 7,
+        "max_player_count": 8,
+        "ratios": [
+          0.45,
+          0.55
+        ]
+      },
+      {
+        "min_player_count": 9,
+        "max_player_count": 10,
+        "ratios": [
+          0.34,
+          0.66
+        ]
+      },
+      {
+        "min_player_count": 11,
+        "max_player_count": 12,
+        "ratios": [
+          0.4,
+          0.6
+        ]
+      },
+      {
+        "min_player_count": 13,
+        "max_player_count": 60,
+        "ratios": [
+          0.34,
+          0.66
+        ]
+      }
+    ],
+    "team_distribution_backfilling": "descending",
+    "team_round_infos": [
+      "localised_strings.level_info_invisibeans_ss2_pistachio_seekers",
+      "localised_strings.level_info_invisibeans_ss2_pistachio_hiders"
+    ],
+    "team_objective_texts": [
+      "localised_strings.level_objective_invisibeans_ss2_pistachio_seekers",
+      "localised_strings.level_objective_invisibeans_ss2_pistachio_hiders"
+    ],
+    "team_objective_hint_texts": [
+      "localised_strings.level_hint_invisibeans_ss2_pistachio_seekers",
+      "localised_strings.level_hint_invisibeans_hiders"
+    ],
+    "use_team_dynamic_score_target_multipliers": true,
+    "use_team_distribution_ratios": true,
+    "team_qualified_banner_texts": [
+      "localised_strings.invisibeans_winner_ss2_pistachio_seekers",
+      "localised_strings.invisibeans_winner_ss2_pistachio_hiders"
+    ],
+    "team_eliminated_banner_texts": [
+      "localised_strings.invisibeans_defeated_ss2_pistachio_seekers",
+      "localised_strings.invisibeans_defeated_ss2_pistachio_hiders"
+    ],
+    "use_team_specific_intro_ui": true,
+    "team_start_game_messages": [
+      {
+        "title": "localised_strings.level_info_title_invisibeans_seekers_pistachio",
+        "body": "localised_strings.level_info_invisibeans_ss2_pistachio_seekers_icons"
+      },
+      {
+        "title": "localised_strings.level_info_title_invisibeans_hiders_pistachio",
+        "body": "localised_strings.level_info_invisibeans_ss2_pistachio_hiders_icons"
+      }
+    ],
+    "team_score_context_texts": [
+      "localised_strings.level_score_context_invisibeans_seekers",
+      "localised_strings.level_score_context_invisibeans_hiders"
+    ],
+    "team_name_singular": [
+      "localised_strings.invisibeans_seeker_name_ss2_pistachio",
+      "localised_strings.invisibeans_hider_name_ss2_pistachio"
+    ],
+    "team_name_plural": [
+      "localised_strings.invisibeans_seeker_name_plural_ss2_pistachio",
+      "localised_strings.invisibeans_hider_name_plural_ss2_pistachio"
+    ],
+    "team_score_warning_message": [
+      "localised_strings.level_hint_invisibeans_seekers_losing_pistachio",
+      "localised_strings.level_hint_invisibeans_hiders_breakout_pistachio"
+    ],
+    "metadata": [
+      {
+        "id": "SEEKER_CAUGHT_HIDER_MESSAGE",
+        "value_field": "localised_strings.level_hint_invisibeans_seeker_capt_hider_pistachio"
+      },
+      {
+        "id": "HIDER_CAUGHT_MESSAGE",
+        "value_field": "localised_strings.level_hint_invisibeans_hider_captured_automated"
+      },
+      {
+        "id": "HIDER_CARRYING_MESSAGE",
+        "value_field": "localised_strings.level_hint_invisibeans_hider_take_egg"
+      },
+      {
+        "id": "HIDER_SCORED_MESSAGE",
+        "value_field": "localised_strings.level_hint_invisibeans_hider_score_again"
+      },
+      {
+        "id": "JAILBREAK_MESSAGE",
+        "value_field": "localised_strings.level_hint_invisibeans_jailbreak"
+      }
+    ],
+    "id": "round_invisibeans_ss2_pistachio_event"
   }
 ]
