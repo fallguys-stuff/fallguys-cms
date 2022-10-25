@@ -1263,6 +1263,22 @@
     "id": "daily_play_solos_show_victoria_w5"
   },
   {
+    "player_action_id": "play_show_squads_potoo",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_027_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "title": null,
+    "id": "daily_play_squads_potoo_w8"
+  },
+  {
     "player_action_id": "play_show_squads",
     "target": {
       "type": "aggregate",
@@ -1880,6 +1896,26 @@
     "id": "daily_qualify_squads"
   },
   {
+    "player_action_id": "qualify_from_rounds_squads_potoo_w8",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_004_general",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_potoo_test"
+      }
+    ],
+    "title": null,
+    "id": "daily_qualify_squads_potoo_w8"
+  },
+  {
     "player_action_id": "qualify_from_rounds_squads_victoria_w5",
     "target": {
       "type": "aggregate",
@@ -2329,6 +2365,26 @@
     "id": "daily_reach_round_2_squads"
   },
   {
+    "player_action_id": "reach_round_2_squads_potoo_w8",
+    "target": {
+      "type": "aggregate",
+      "value": 4
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 2
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "title": null,
+    "id": "daily_reach_round_2_squads_potoo_w8"
+  },
+  {
     "player_action_id": "reach_round_2_squads_victoria_w5",
     "target": {
       "type": "aggregate",
@@ -2547,6 +2603,26 @@
     ],
     "title": null,
     "id": "daily_reach_round_3_squads"
+  },
+  {
+    "player_action_id": "reach_round_3_squads_potoo_w8",
+    "target": {
+      "type": "aggregate",
+      "value": 2
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_potoo_test"
+      }
+    ],
+    "title": null,
+    "id": "daily_reach_round_3_squads_potoo_w8"
   },
   {
     "player_action_id": "reach_round_3_squads_victoria_w5",
@@ -6287,6 +6363,182 @@
     "id": "possess_item_any_15"
   },
   {
+    "player_action_id": "ss2_potoo_collect_item1_any",
+    "target": {
+      "type": "aggregate",
+      "value": 50
+    },
+    "title": "localised_strings.challenge_desc_le_potoo_002_show_title",
+    "description": "localised_strings.challenge_desc_le_potoo_001_show_01",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_le_potoo_002_show_art_01"
+      }
+    ],
+    "id": "potoo_ss2_collect_item1_any"
+  },
+  {
+    "player_action_id": "ss2_potoo_collect_item1_any",
+    "target": {
+      "type": "aggregate",
+      "value": 100
+    },
+    "title": "localised_strings.challenge_desc_le_potoo_002_show_title",
+    "description": "localised_strings.challenge_desc_le_potoo_001_show_01",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_le_potoo_002_show_art_01"
+      }
+    ],
+    "id": "potoo_ss2_collect_item1_any_2"
+  },
+  {
+    "player_action_id": "ss2_potoo_collect_item2_any",
+    "target": {
+      "type": "aggregate",
+      "value": 50
+    },
+    "title": "localised_strings.challenge_desc_le_potoo_003_show_title",
+    "description": "localised_strings.challenge_desc_le_potoo_001_show_01",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_le_potoo_003_show_art_02"
+      }
+    ],
+    "id": "potoo_ss2_collect_item2_any"
+  },
+  {
+    "player_action_id": "ss2_potoo_collect_item2_any",
+    "target": {
+      "type": "aggregate",
+      "value": 100
+    },
+    "title": "localised_strings.challenge_desc_le_potoo_003_show_title",
+    "description": "localised_strings.challenge_desc_le_potoo_001_show_01",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_le_potoo_003_show_art_02"
+      }
+    ],
+    "id": "potoo_ss2_collect_item2_any_2"
+  },
+  {
+    "player_action_id": "ss2_potoo_collect_itemall_any",
+    "target": {
+      "type": "aggregate",
+      "value": 100
+    },
+    "title": "localised_strings.challenge_desc_le_potoo_005_show_title",
+    "description": "localised_strings.challenge_desc_le_potoo_001_show_01",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_le_potoo_004_show_art_03"
+      }
+    ],
+    "id": "potoo_ss2_collect_itemall_any"
+  },
+  {
+    "player_action_id": "ss2_potoo_collect_itemall_any",
+    "target": {
+      "type": "aggregate",
+      "value": 200
+    },
+    "title": "localised_strings.challenge_desc_le_potoo_005_show_title",
+    "description": "localised_strings.challenge_desc_le_potoo_001_show_01",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_le_potoo_004_show_art_03"
+      }
+    ],
+    "id": "potoo_ss2_collect_itemall_any_2"
+  },
+  {
+    "player_action_id": "ss2_potoo_collect_itemall_race",
+    "target": {
+      "type": "aggregate",
+      "value": 80
+    },
+    "title": "localised_strings.challenge_desc_le_potoo_004_show_title",
+    "description": "localised_strings.challenge_desc_032",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_le_potoo_004_show_art_03"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_round_type_race"
+      }
+    ],
+    "id": "potoo_ss2_collect_itemall_race"
+  },
+  {
+    "player_action_id": "ss2_potoo_collect_itemall_race",
+    "target": {
+      "type": "aggregate",
+      "value": 160
+    },
+    "title": "localised_strings.challenge_desc_le_potoo_004_show_title",
+    "description": "localised_strings.challenge_desc_032",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_le_potoo_004_show_art_03"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_round_type_race"
+      }
+    ],
+    "id": "potoo_ss2_collect_itemall_race_2"
+  },
+  {
+    "player_action_id": "ss2_potoo_collect_itemall_survive",
+    "target": {
+      "type": "aggregate",
+      "value": 30
+    },
+    "title": "localised_strings.challenge_desc_le_potoo_001_show_title",
+    "description": "localised_strings.challenge_desc_032",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_le_potoo_004_show_art_03"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_round_type_survival"
+      }
+    ],
+    "id": "potoo_ss2_collect_itemall_survive"
+  },
+  {
+    "player_action_id": "ss2_potoo_collect_itemall_survive",
+    "target": {
+      "type": "aggregate",
+      "value": 60
+    },
+    "title": "localised_strings.challenge_desc_le_potoo_001_show_title",
+    "description": "localised_strings.challenge_desc_032",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_le_potoo_004_show_art_03"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_round_type_survival"
+      }
+    ],
+    "id": "potoo_ss2_collect_itemall_survive_2"
+  },
+  {
     "player_action_id": "qualify_from_a_round",
     "target": {
       "type": "aggregate",
@@ -9496,6 +9748,26 @@
     "id": "weekly_hit_by_explosion"
   },
   {
+    "player_action_id": "hit_by_explosion",
+    "target": {
+      "type": "aggregate",
+      "value": 30
+    },
+    "description": "localised_strings.challenge_desc_034_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_039"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      }
+    ],
+    "title": null,
+    "id": "weekly_hit_by_explosion_potoo_w8"
+  },
+  {
     "player_action_id": "score_a_hoop",
     "target": {
       "type": "aggregate",
@@ -10159,6 +10431,30 @@
     ],
     "title": null,
     "id": "weekly_medals_silver_race"
+  },
+  {
+    "player_action_id": "earn_silver_medal_race_potoo",
+    "target": {
+      "type": "aggregate",
+      "value": 6
+    },
+    "description": "localised_strings.challenge_desc_013_round_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_medal_02"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_round_type_race"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_squads_show"
+      }
+    ],
+    "title": null,
+    "id": "weekly_medals_silver_race_potoo_w8"
   },
   {
     "player_action_id": "earn_silver_medal_round_1",

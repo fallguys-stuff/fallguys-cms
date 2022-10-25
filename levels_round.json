@@ -1348,6 +1348,138 @@
   {
     "display_name": "localised_strings.level_name_airtime",
     "scene_name": "FallGuy_Airtime",
+    "game_rules": "game_rules.round_airtime",
+    "level_archetype": "archetype_hunt",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Hunt_Season_06",
+    "ingame_music_event": "MUS_InGame_Round_Hunt_Season_06",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_AirTime",
+    "level_badge_name": "AirTime",
+    "level_variation": null,
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_arena",
+      "level_tags.season_06",
+      "level_tags.slight_lowering"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_score_hoop_race",
+    "id": "round_airtime_collectables_ss2_potoo"
+  },
+  {
+    "display_name": "localised_strings.level_name_airtime",
+    "scene_name": "FallGuy_Airtime",
+    "game_rules": "game_rules.round_airtime_squads_potoo",
+    "level_archetype": "archetype_hunt",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Hunt_Season_06",
+    "ingame_music_event": "MUS_InGame_Round_Hunt_Season_06",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_AirTime",
+    "level_badge_name": "AirTime",
+    "level_variation": null,
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_arena",
+      "level_tags.season_06",
+      "level_tags.slight_lowering"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_score_hoop_race",
+    "id": "round_airtime_collectables_ss2_squads_potoo"
+  },
+  {
+    "display_name": "localised_strings.level_name_airtime",
+    "scene_name": "FallGuy_Airtime",
     "game_rules": "game_rules.round_airtime_squads",
     "level_archetype": "archetype_hunt",
     "preparation_music_soundbank": null,
@@ -4218,6 +4350,138 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
     "id": "round_biggestfan_collectables_model2"
+  },
+  {
+    "display_name": "localised_strings.level_name_biggest_fan",
+    "scene_name": "FallGuy_BiggestFan",
+    "game_rules": "game_rules.round_biggestfan_ss2_potoo",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Race",
+    "ingame_music_event": "MUS_InGame_Round_Race",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_BiggestFan",
+    "level_badge_name": "BiggestFan",
+    "level_variation": "levels_variation.variation_biggestfan",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_track",
+      "level_tags.season_02",
+      "level_tags.slight_featuring"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "id": "round_biggestfan_collectables_ss2_potoo"
+  },
+  {
+    "display_name": "localised_strings.level_name_biggest_fan",
+    "scene_name": "FallGuy_BiggestFan",
+    "game_rules": "game_rules.round_biggestfan_squads_potoo",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Race",
+    "ingame_music_event": "MUS_InGame_Round_Race",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_BiggestFan",
+    "level_badge_name": "BiggestFan",
+    "level_variation": "levels_variation.variation_biggestfan",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_track",
+      "level_tags.season_02",
+      "level_tags.slight_featuring"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "id": "round_biggestfan_collectables_ss2_squads_potoo"
   },
   {
     "display_name": "localised_strings.level_name_biggest_fan",
@@ -10518,6 +10782,127 @@
   {
     "display_name": "localised_strings.level_name_team_tail_tag",
     "scene_name": "FallGuy_ConveyorArena_01",
+    "game_rules": "game_rules.round_conveyor_arena_squads_potoo",
+    "level_archetype": "archetype_team",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Team",
+    "ingame_music_event": "MUS_InGame_Round_Team",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_TeamTailTag",
+    "level_badge_name": "TailTag",
+    "level_variation": "levels_variation.variation_conveyor_arena",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.exclusive_item_collection"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 2,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_team_position_01",
+          "medal_description_value": null
+        },
+        {
+          "team_position": 2,
+          "multiplier": 1,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": "localised_strings.medal_context_team_position_02",
+          "medal_description_value": null
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_special_tail_tag",
+    "id": "round_conveyor_arena_collectable_ss2_potoo"
+  },
+  {
+    "display_name": "localised_strings.level_name_team_tail_tag",
+    "scene_name": "FallGuy_ConveyorArena_01",
+    "game_rules": "game_rules.round_conveyor_arena_squads_potoo",
+    "level_archetype": "archetype_team",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Team",
+    "ingame_music_event": "MUS_InGame_Round_Team",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_TeamTailTag",
+    "level_badge_name": "TailTag",
+    "level_variation": "levels_variation.variation_conveyor_arena",
+    "level_variation_overrides": "levels_variation_overrides.var_over_conveyor_arena_victoria",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.ss2_var",
+      "level_tags.ss2_victoria"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_team_position_01",
+          "medal_description_value": null
+        },
+        {
+          "team_position": 2,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": "localised_strings.medal_context_team_position_02",
+          "medal_description_value": null
+        },
+        {
+          "team_position": 3,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_position_03",
+          "medal_description": "localised_strings.medal_context_team_position_03",
+          "medal_description_value": null
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_special_tail_tag",
+    "id": "round_conveyor_arena_collectable_ss2_squads_potoo"
+  },
+  {
+    "display_name": "localised_strings.level_name_team_tail_tag",
+    "scene_name": "FallGuy_ConveyorArena_01",
     "game_rules": "game_rules.round_conveyor_arena_duos",
     "level_archetype": "archetype_team",
     "preparation_music_soundbank": null,
@@ -12264,6 +12649,138 @@
   {
     "display_name": "localised_strings.level_name_dodge_fall",
     "scene_name": "FallGuy_DodgeFall",
+    "game_rules": "game_rules.round_dodge_fall_ss2_potoo",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Race",
+    "ingame_music_event": "MUS_InGame_Round_Race",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_FruitChute",
+    "level_badge_name": "Fruitchute",
+    "level_variation": "levels_variation.variation_dodge_fall",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_track",
+      "level_tags.saftey_generic_penalty",
+      "level_tags.season_01"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "id": "round_dodge_fall_collectables_ss2_potoo"
+  },
+  {
+    "display_name": "localised_strings.level_name_dodge_fall",
+    "scene_name": "FallGuy_DodgeFall",
+    "game_rules": "game_rules.round_dodge_fall_squads_potoo",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Race",
+    "ingame_music_event": "MUS_InGame_Round_Race",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_FruitChute",
+    "level_badge_name": "Fruitchute",
+    "level_variation": "levels_variation.variation_dodge_fall",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_track",
+      "level_tags.saftey_generic_penalty",
+      "level_tags.season_01"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "id": "round_dodge_fall_collectables_ss2_squads_potoo"
+  },
+  {
+    "display_name": "localised_strings.level_name_dodge_fall",
+    "scene_name": "FallGuy_DodgeFall",
     "game_rules": "game_rules.round_dodge_fall",
     "level_archetype": "archetype_race",
     "preparation_music_soundbank": null,
@@ -13307,6 +13824,137 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
     "id": "round_door_dash_collectable_model2"
+  },
+  {
+    "display_name": "localised_strings.level_name_door_dash",
+    "scene_name": "FallGuy_DoorDash",
+    "game_rules": "game_rules.round_door_dash_ss2_potoo",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Race",
+    "ingame_music_event": "MUS_InGame_Round_Race",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_DoorRush",
+    "level_badge_name": "DoorDash",
+    "level_variation": "levels_variation.variation_door_dash",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_track",
+      "level_tags.season_01"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "id": "round_door_dash_collectable_ss2_potoo"
+  },
+  {
+    "display_name": "localised_strings.level_name_door_dash",
+    "scene_name": "FallGuy_DoorDash",
+    "game_rules": "game_rules.round_door_dash_squads_potoo",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Race",
+    "ingame_music_event": "MUS_InGame_Round_Race",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_DoorRush",
+    "level_badge_name": "DoorDash",
+    "level_variation": "levels_variation.variation_door_dash",
+    "level_variation_overrides": "levels_variation_overrides.var_over_door_dash_victoria",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_track",
+      "level_tags.ss2_no_var",
+      "level_tags.ss2_victoria"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "id": "round_door_dash_collectable_ss2_squads_potoo"
   },
   {
     "display_name": "localised_strings.level_name_door_dash",
@@ -18847,6 +19495,73 @@
     "id": "round_fall_ball_60_players_collectables_model2"
   },
   {
+    "display_name": "localised_strings.level_name_fall_ball",
+    "scene_name": "FallGuy_FallBall_5",
+    "game_rules": "game_rules.round_fall_ball_squads_non_final_potoo",
+    "level_archetype": "archetype_team",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Team",
+    "ingame_music_event": "MUS_InGame_Round_Team",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_FallBall",
+    "level_badge_name": "FallBall",
+    "level_variation": "levels_variation.variation_fall_ball_60_players",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.season_01",
+      "level_tags.saftey_late_stage_team_round",
+      "level_tags.2_teams",
+      "level_tags.exclusive_fall_ball"
+    ],
+    "bonus": {
+      "type": "team_score",
+      "team_score_tiers": [
+        {
+          "team_score": 10,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_goals_01",
+          "medal_description": "localised_strings.medal_context_team_score",
+          "medal_description_value": 10
+        },
+        {
+          "team_score": 5,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_goals_02",
+          "medal_description": "localised_strings.medal_context_team_score",
+          "medal_description_value": 10
+        },
+        {
+          "team_score": 3,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_goals_03",
+          "medal_description": "localised_strings.medal_context_team_score",
+          "medal_description_value": 3
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_score_fallball",
+    "id": "round_fall_ball_60_players_collectables_ss2_potoo"
+  },
+  {
     "display_name": "localised_strings.level_name_fall_ball_stars1",
     "scene_name": "FallGuy_FallBall_5",
     "game_rules": "game_rules.round_fall_ball_squads",
@@ -18910,6 +19625,76 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_score_fallball",
     "id": "round_fall_ball_aprilstart"
+  },
+  {
+    "display_name": "localised_strings.level_name_fall_ball",
+    "scene_name": "FallGuy_FallBall_5",
+    "game_rules": "game_rules.round_fall_ball_squads_final_potoo",
+    "level_archetype": "archetype_team",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Team",
+    "ingame_music_event": "MUS_InGame_Round_Team",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_FallBall",
+    "level_badge_name": "FallBall",
+    "level_variation": "levels_variation.variation_fall_ball_60_players",
+    "level_variation_overrides": "levels_variation_overrides.var_over_fall_ball_victoria",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.season_01",
+      "level_tags.saftey_late_stage_team_round",
+      "level_tags.2_teams",
+      "level_tags.exclusive_fall_ball",
+      "level_tags.team_final",
+      "level_tags.ss2_var",
+      "level_tags.ss2_victoria"
+    ],
+    "bonus": {
+      "type": "team_score",
+      "team_score_tiers": [
+        {
+          "team_score": 10,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_goals_01",
+          "medal_description": "localised_strings.medal_context_team_score",
+          "medal_description_value": 10
+        },
+        {
+          "team_score": 5,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_goals_02",
+          "medal_description": "localised_strings.medal_context_team_score",
+          "medal_description_value": 10
+        },
+        {
+          "team_score": 3,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_goals_03",
+          "medal_description": "localised_strings.medal_context_team_score",
+          "medal_description_value": 3
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_score_fallball",
+    "id": "round_fall_ball_collectables_squads_final_potoo"
   },
   {
     "display_name": "localised_strings.level_name_fall_ball",
@@ -20999,6 +21784,104 @@
     "extra_ambience_soundbank": null,
     "extra_ambience_event": null,
     "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_FallMountain",
+    "level_badge_name": "FallMountain",
+    "level_variation": "levels_variation.variation_fall_mountain_hub_complete",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_final",
+      "level_tags.playspace_gauntlet",
+      "level_tags.saftey_early_final",
+      "level_tags.season_01_final",
+      "level_tags.slight_lowering",
+      "level_tags.lower_crown_final",
+      "level_tags.mid_show_final_enabler"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "medal_description_value": null
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_disconnect",
+    "id": "round_fall_mountain_collectables_ss2_potoo"
+  },
+  {
+    "display_name": "localised_strings.level_name_fall_mountain",
+    "scene_name": "FallGuy_FallMountain_Hub_Complete",
+    "game_rules": "game_rules.round_fall_mountain_squads_potoo",
+    "level_archetype": "archetype_final",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Final",
+    "ingame_music_event": "MUS_InGame_Round_Final",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_FallMountain",
+    "level_badge_name": "FallMountain",
+    "level_variation": "levels_variation.variation_fall_mountain_hub_complete",
+    "level_variation_overrides": "levels_variation_overrides.var_over_fall_mountain_victoria",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_final",
+      "level_tags.playspace_gauntlet",
+      "level_tags.saftey_early_final",
+      "level_tags.season_01_final",
+      "level_tags.slight_lowering",
+      "level_tags.lower_crown_final",
+      "level_tags.mid_show_final_enabler",
+      "level_tags.ss2_no_var",
+      "level_tags.ss2_victoria"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "medal_description_value": null
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_disconnect",
+    "id": "round_fall_mountain_collectables_ss2_squads_potoo"
+  },
+  {
+    "display_name": "localised_strings.level_name_fall_mountain",
+    "scene_name": "FallGuy_FallMountain_Hub_Complete",
+    "game_rules": "game_rules.round_fall_mountain_hub_complete",
+    "level_archetype": "archetype_final",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Final",
+    "ingame_music_event": "MUS_InGame_Round_Final",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
     "crown_prompt_max_distance": 100,
@@ -22129,6 +23012,67 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
     "id": "round_ffa_button_bashers_collectables_model2"
+  },
+  {
+    "display_name": "localised_strings.level_name_ffa_button_bashers",
+    "scene_name": "FallGuy_FFA_Button_Bashers",
+    "game_rules": "game_rules.round_ffa_button_bashers",
+    "level_archetype": "archetype_hunt",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Season_08",
+    "ingame_music_soundbank": "BNK_Music_GP_Survival_Season_08",
+    "ingame_music_event": "MUS_InGame_Round_Survival_Season_08",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": null,
+    "level_badge_name": "Button_Bashers",
+    "level_variation": null,
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 10
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "id": "round_ffa_button_bashers_collectables_ss2_potoo"
   },
   {
     "display_name": "localised_strings.level_name_ffa_button_bashers",
@@ -27063,6 +28007,136 @@
   {
     "display_name": "localised_strings.level_name_gauntlet_02",
     "scene_name": "FallGuy_Gauntlet_02_01",
+    "game_rules": "game_rules.round_gauntlet_02_ss2_potoo",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Race",
+    "ingame_music_event": "MUS_InGame_Round_Race",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_Rotatonator",
+    "level_badge_name": "Rotatonator",
+    "level_variation": "levels_variation.variation_gauntlet_02",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_gauntlet",
+      "level_tags.season_01"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "id": "round_gauntlet_02_collectables_ss2_potoo"
+  },
+  {
+    "display_name": "localised_strings.level_name_gauntlet_02",
+    "scene_name": "FallGuy_Gauntlet_02_01",
+    "game_rules": "game_rules.round_gauntlet_02_squads_potoo",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Race",
+    "ingame_music_event": "MUS_InGame_Round_Race",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_Rotatonator",
+    "level_badge_name": "Rotatonator",
+    "level_variation": "levels_variation.variation_gauntlet_02",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_gauntlet",
+      "level_tags.season_01"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "id": "round_gauntlet_02_collectables_ss2_squads_potoo"
+  },
+  {
+    "display_name": "localised_strings.level_name_gauntlet_02",
+    "scene_name": "FallGuy_Gauntlet_02_01",
     "game_rules": "game_rules.round_gauntlet_02",
     "level_archetype": "archetype_race",
     "preparation_music_soundbank": null,
@@ -28736,6 +29810,136 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
     "id": "round_gauntlet_03_collectables_model2"
+  },
+  {
+    "display_name": "localised_strings.level_name_gauntlet_03",
+    "scene_name": "FallGuy_Gauntlet_03",
+    "game_rules": "game_rules.round_gauntlet_03_ss2_potoo",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Race",
+    "ingame_music_event": "MUS_InGame_Round_Race",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_Whirligig",
+    "level_badge_name": "Whirligig",
+    "level_variation": "levels_variation.variation_gauntlet_03",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_gauntlet",
+      "level_tags.season_01"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "id": "round_gauntlet_03_collectables_ss2_potoo"
+  },
+  {
+    "display_name": "localised_strings.level_name_gauntlet_03",
+    "scene_name": "FallGuy_Gauntlet_03",
+    "game_rules": "game_rules.round_gauntlet_03_squads_potoo",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Race",
+    "ingame_music_event": "MUS_InGame_Round_Race",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_Whirligig",
+    "level_badge_name": "Whirligig",
+    "level_variation": "levels_variation.variation_gauntlet_03",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_gauntlet",
+      "level_tags.season_01"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "id": "round_gauntlet_03_collectables_ss2_squads_potoo"
   },
   {
     "display_name": "localised_strings.level_name_gauntlet_03",
@@ -32246,6 +33450,136 @@
   {
     "display_name": "localised_strings.level_name_tundra_run",
     "scene_name": "FallGuy_Gauntlet_05",
+    "game_rules": "game_rules.round_gauntlet_05_ss2_potoo",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Race_Season_03",
+    "ingame_music_event": "MUS_InGame_Round_Race_Season_03",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
+    "extra_ambience_event": "AMB_Season_03_Snow",
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_TundraRun",
+    "level_badge_name": "TundraRun",
+    "level_variation": "levels_variation.variation_gauntlet_05",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_gauntlet",
+      "level_tags.season_03"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "id": "round_gauntlet_05_collectable_ss2_potoo"
+  },
+  {
+    "display_name": "localised_strings.level_name_tundra_run",
+    "scene_name": "FallGuy_Gauntlet_05",
+    "game_rules": "game_rules.round_gauntlet_05_squads_potoo",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Race_Season_03",
+    "ingame_music_event": "MUS_InGame_Round_Race_Season_03",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
+    "extra_ambience_event": "AMB_Season_03_Snow",
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_TundraRun",
+    "level_badge_name": "TundraRun",
+    "level_variation": "levels_variation.variation_gauntlet_05",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_gauntlet",
+      "level_tags.season_03"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "id": "round_gauntlet_05_collectable_ss2_squads_potoo"
+  },
+  {
+    "display_name": "localised_strings.level_name_tundra_run",
+    "scene_name": "FallGuy_Gauntlet_05",
     "game_rules": "game_rules.round_gauntlet_05",
     "level_archetype": "archetype_race",
     "preparation_music_soundbank": null,
@@ -34328,6 +35662,136 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
     "id": "round_gauntlet_06_collectables_model2"
+  },
+  {
+    "display_name": "localised_strings.level_name_skyline_stumble",
+    "scene_name": "FallGuy_Gauntlet_06",
+    "game_rules": "game_rules.round_gauntlet_06_ss2_potoo",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Race_Season_04",
+    "ingame_music_event": "MUS_InGame_Round_Race_Season_04",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_SkylineStumble",
+    "level_badge_name": "SkylineStumble",
+    "level_variation": "levels_variation.variation_gauntlet_06",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_gauntlet",
+      "level_tags.season_04"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "id": "round_gauntlet_06_collectables_ss2_potoo"
+  },
+  {
+    "display_name": "localised_strings.level_name_skyline_stumble",
+    "scene_name": "FallGuy_Gauntlet_06",
+    "game_rules": "game_rules.round_gauntlet_06_squads_potoo",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Race_Season_04",
+    "ingame_music_event": "MUS_InGame_Round_Race_Season_04",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_SkylineStumble",
+    "level_badge_name": "SkylineStumble",
+    "level_variation": "levels_variation.variation_gauntlet_06",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_gauntlet",
+      "level_tags.season_04"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "id": "round_gauntlet_06_collectables_ss2_squads_potoo"
   },
   {
     "display_name": "localised_strings.level_name_skyline_stumble",
@@ -37461,6 +38925,136 @@
     "id": "round_gauntlet_08_collectables_model2"
   },
   {
+    "display_name": "localised_strings.level_name_gauntlet_8",
+    "scene_name": "FallGuy_Gauntlet_08",
+    "game_rules": "game_rules.round_gauntlet_08_ss2_potoo",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Race_Season_06",
+    "ingame_music_event": "MUS_InGame_Round_Race_Season_06",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_PartyPromenade",
+    "level_badge_name": "BalloonCannon",
+    "level_variation": "levels_variation.variation_gauntlet_08",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_gauntlet",
+      "level_tags.season_06"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 10
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "id": "round_gauntlet_08_collectables_ss2_potoo"
+  },
+  {
+    "display_name": "localised_strings.level_name_gauntlet_8",
+    "scene_name": "FallGuy_Gauntlet_08",
+    "game_rules": "game_rules.round_gauntlet_08_squads_potoo",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Race_Season_06",
+    "ingame_music_event": "MUS_InGame_Round_Race_Season_06",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_PartyPromenade",
+    "level_badge_name": "BalloonCannon",
+    "level_variation": "levels_variation.variation_gauntlet_08",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_gauntlet",
+      "level_tags.season_06"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 10
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "id": "round_gauntlet_08_collectables_ss2_squads_potoo"
+  },
+  {
     "display_name": "localised_strings.level_name_gauntlet_08_xtreme",
     "scene_name": "FallGuy_Gauntlet_08",
     "game_rules": "game_rules.round_gauntlet_08_event_elimination",
@@ -38759,6 +40353,133 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
     "id": "round_gauntlet_10_collectables_model2"
+  },
+  {
+    "display_name": "localised_strings.level_name_gauntlet_10",
+    "scene_name": "FallGuy_Gauntlet_10",
+    "game_rules": "game_rules.round_gauntlet_10",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Season_08",
+    "ingame_music_soundbank": "BNK_Music_GP_Race_Season_08",
+    "ingame_music_event": "MUS_InGame_Round_Race_Season_08",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": null,
+    "level_badge_name": null,
+    "level_variation": "levels_variation.variation_gauntlet_08",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "id": "round_gauntlet_10_collectables_ss2_potoo"
+  },
+  {
+    "display_name": "localised_strings.level_name_gauntlet_10",
+    "scene_name": "FallGuy_Gauntlet_10",
+    "game_rules": "game_rules.round_gauntlet_10_squads_potoo",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Season_08",
+    "ingame_music_soundbank": "BNK_Music_GP_Race_Season_08",
+    "ingame_music_event": "MUS_InGame_Round_Race_Season_08",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": null,
+    "level_badge_name": null,
+    "level_variation": "levels_variation.variation_gauntlet_10",
+    "level_variation_overrides": "levels_variation_overrides.var_over_gauntlet_10_victoria",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_gauntlet",
+      "level_tags.ss2_round",
+      "level_tags.ss2_victoria"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "id": "round_gauntlet_10_collectables_ss2_squads_potoo"
   },
   {
     "display_name": "localised_strings.level_name_gauntlet_10",
@@ -41536,6 +43257,65 @@
   {
     "display_name": "localised_strings.level_name_hoopsie_daisy",
     "scene_name": "FallGuy_Hoops_01",
+    "game_rules": "game_rules.round_hoops_squads_potoo",
+    "level_archetype": "archetype_team",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Team",
+    "ingame_music_event": "MUS_InGame_Round_Team",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_HoopsieDaisy",
+    "level_badge_name": "HoopsieDaisy",
+    "level_variation": "levels_variation.variation_hoops",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.saftey_late_stage_team_round",
+      "level_tags.exclusive_hoops_jumping",
+      "level_tags.season_01",
+      "level_tags.3_teams"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 2,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_team_position_01",
+          "medal_description_value": null
+        },
+        {
+          "team_position": 2,
+          "multiplier": 1,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": "localised_strings.medal_context_team_position_02",
+          "medal_description_value": null
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_score_hoop",
+    "id": "round_hoops_collectables_ss2_potoo"
+  },
+  {
+    "display_name": "localised_strings.level_name_hoopsie_daisy",
+    "scene_name": "FallGuy_Hoops_01",
     "game_rules": "game_rules.round_hoops_duos",
     "level_archetype": "archetype_team",
     "preparation_music_soundbank": null,
@@ -42765,6 +44545,53 @@
     "id": "round_hoverboardsurvival2_almond"
   },
   {
+    "display_name": "localised_strings.level_name_hoverboardsurvival2",
+    "scene_name": "FallGuy_Hoverboard_Survival_2",
+    "game_rules": "game_rules.round_hoverboardsurvival2_squads_potoo",
+    "level_archetype": "archetype_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Season_08",
+    "ingame_music_soundbank": "BNK_Music_GP_Survival_Season_08",
+    "ingame_music_event": "MUS_InGame_Round_Survival_Season_08",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": null,
+    "level_badge_name": "HoverboardSurvival2",
+    "level_variation": "levels_variation.variation_hoverboardsurvival_2",
+    "level_variation_overrides": "levels_variation_overrides.var_over_hoverboardsurvival_2_victoria",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_platform",
+      "level_tags.saftey_wild_elimination",
+      "level_tags.survival_round",
+      "level_tags.ss2_round",
+      "level_tags.ss2_victoria"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_survived",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "medal_description_value": null
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival_race_first_place_only",
+    "id": "round_hoverboardsurvival2_collect_squads_potoo"
+  },
+  {
     "display_name": "localised_strings.level_name_hoverboardheroes2",
     "scene_name": "FallGuy_Hoverboard_Survival_2",
     "game_rules": "game_rules.round_hoverboardsurvival2",
@@ -42883,6 +44710,46 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival_race_first_place_only",
     "id": "round_hoverboardsurvival2_collectables_model2"
+  },
+  {
+    "display_name": "localised_strings.level_name_hoverboardsurvival2",
+    "scene_name": "FallGuy_Hoverboard_Survival_2",
+    "game_rules": "game_rules.round_hoverboardsurvival2",
+    "level_archetype": "archetype_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Season_08",
+    "ingame_music_soundbank": "BNK_Music_GP_Survival_Season_08",
+    "ingame_music_event": "MUS_InGame_Round_Survival_Season_08",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": null,
+    "level_badge_name": "HoverboardSurvival2",
+    "level_variation": null,
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_survived",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "medal_description_value": null
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": null,
+    "id": "round_hoverboardsurvival2_collectables_ss2_potoo"
   },
   {
     "display_name": "localised_strings.level_name_hoverboardheroes2",
@@ -43442,6 +45309,53 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival_race_first_place_only",
     "id": "round_hoverboardsurvival_collectables_model2"
+  },
+  {
+    "display_name": "localised_strings.level_name_hoverboardsurvival",
+    "scene_name": "FallGuy_HoverboardSurvival",
+    "game_rules": "game_rules.round_hoverboardsurvival",
+    "level_archetype": "archetype_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Survival_Season_04",
+    "ingame_music_event": "MUS_InGame_Round_Survival_Season_04",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_HoverboardHeroes",
+    "level_badge_name": "hoverboard_heroes",
+    "level_variation": "levels_variation.variation_hoverboardsurvival",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.saftey_wild_elimination",
+      "level_tags.playspace_platform",
+      "level_tags.saftey_nonstarter",
+      "level_tags.season_04",
+      "level_tags.survival_round"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_survived",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "medal_description_value": null
+      }
+    },
+    "visualiser_estimate_percentage_qualification": 35,
+    "visualiser_estimate_variance": 20,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival_race_first_place_only",
+    "id": "round_hoverboardsurvival_collectables_ss2_potoo"
   },
   {
     "display_name": "localised_strings.level_name_hoverboardsurvival",
@@ -44750,6 +46664,136 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
     "id": "round_iceclimb_collectables_model2"
+  },
+  {
+    "display_name": "localised_strings.level_name_ice_climb",
+    "scene_name": "FallGuy_IceClimb_01",
+    "game_rules": "game_rules.round_iceclimb_ss2_potoo",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Race_Season_03",
+    "ingame_music_event": "MUS_InGame_Round_Race_Season_03",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
+    "extra_ambience_event": "AMB_Season_03_Snow",
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_FreezyPeak",
+    "level_badge_name": "FreezyPeak",
+    "level_variation": "levels_variation.variation_iceclimb",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_gauntlet",
+      "level_tags.season_03"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 10
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "id": "round_iceclimb_collectables_ss2_potoo"
+  },
+  {
+    "display_name": "localised_strings.level_name_ice_climb",
+    "scene_name": "FallGuy_IceClimb_01",
+    "game_rules": "game_rules.round_iceclimb_squads_potoo",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Race_Season_03",
+    "ingame_music_event": "MUS_InGame_Round_Race_Season_03",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
+    "extra_ambience_event": "AMB_Season_03_Snow",
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_FreezyPeak",
+    "level_badge_name": "FreezyPeak",
+    "level_variation": "levels_variation.variation_iceclimb",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_gauntlet",
+      "level_tags.season_03"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 10
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "id": "round_iceclimb_collectables_ss2_squads_potoo"
   },
   {
     "display_name": "localised_strings.level_name_ice_climb",
@@ -46672,6 +48716,111 @@
   {
     "display_name": "localised_strings.level_name_jinxed",
     "scene_name": "FallGuy_TeamInfected",
+    "game_rules": "game_rules.round_jinxed_squads_final_potoo",
+    "level_archetype": "archetype_team",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Team",
+    "ingame_music_event": "MUS_InGame_Round_Team",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_Jinxed",
+    "level_badge_name": "Jinxed",
+    "level_variation": "levels_variation.variation_jinxed",
+    "level_variation_overrides": "levels_variation_overrides.var_over_jinxed_victoria",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.season_01",
+      "level_tags.2_teams",
+      "level_tags.exclusive_jinxed",
+      "level_tags.team_final",
+      "level_tags.ss2_no_var",
+      "level_tags.ss2_victoria"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 1,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_team_position_01",
+          "medal_description_value": null
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_special_jinx",
+    "id": "round_jinxed_collectables_ss2_final_potoo"
+  },
+  {
+    "display_name": "localised_strings.level_name_jinxed",
+    "scene_name": "FallGuy_TeamInfected",
+    "game_rules": "game_rules.round_jinxed_squads_non_final_potoo",
+    "level_archetype": "archetype_team",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Team",
+    "ingame_music_event": "MUS_InGame_Round_Team",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_Jinxed",
+    "level_badge_name": "Jinxed",
+    "level_variation": "levels_variation.variation_jinxed",
+    "level_variation_overrides": "levels_variation_overrides.var_over_jinxed_victoria",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.season_01",
+      "level_tags.2_teams",
+      "level_tags.exclusive_jinxed",
+      "level_tags.ss2_no_var",
+      "level_tags.ss2_victoria"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 1,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_team_position_01",
+          "medal_description_value": null
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_special_jinx",
+    "id": "round_jinxed_collectables_ss2_potoo"
+  },
+  {
+    "display_name": "localised_strings.level_name_jinxed",
+    "scene_name": "FallGuy_TeamInfected",
     "game_rules": "game_rules.round_jinxed_duos",
     "level_archetype": "archetype_team",
     "preparation_music_soundbank": null,
@@ -47869,6 +50018,100 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
     "id": "round_jump_club_collectables_model2"
+  },
+  {
+    "display_name": "localised_strings.level_name_jump_club",
+    "scene_name": "FallGuy_JumpClub_01",
+    "game_rules": "game_rules.round_jump_club_ss2_potoo",
+    "level_archetype": "archetype_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Survival",
+    "ingame_music_event": "MUS_InGame_Round_Survival",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_JumpClub",
+    "level_badge_name": "JumpClub",
+    "level_variation": "levels_variation.variation_jump_club",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_platform",
+      "level_tags.exclusive_spoke_jump",
+      "level_tags.saftey_nonstarter",
+      "level_tags.season_01",
+      "level_tags.survival_round"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_survived",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "medal_description_value": null
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival",
+    "id": "round_jump_club_collectables_ss2_potoo"
+  },
+  {
+    "display_name": "localised_strings.level_name_jump_club",
+    "scene_name": "FallGuy_JumpClub_01",
+    "game_rules": "game_rules.round_jump_club_squads_potoo",
+    "level_archetype": "archetype_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Survival",
+    "ingame_music_event": "MUS_InGame_Round_Survival",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_JumpClub",
+    "level_badge_name": "JumpClub",
+    "level_variation": "levels_variation.variation_jump_club",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_platform",
+      "level_tags.exclusive_spoke_jump",
+      "level_tags.saftey_nonstarter",
+      "level_tags.season_01",
+      "level_tags.survival_round"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_survived",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "medal_description_value": null
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival",
+    "id": "round_jump_club_collectables_ss2_squads_potoo"
   },
   {
     "display_name": "localised_strings.level_name_jump_club",
@@ -54598,6 +56841,136 @@
     "id": "round_pipedup_collectables_model2"
   },
   {
+    "display_name": "localised_strings.level_name_pipedup",
+    "scene_name": "FallGuy_PipedUp",
+    "game_rules": "game_rules.round_pipedup",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Race_Season_06",
+    "ingame_music_event": "MUS_InGame_Round_Race_Season_06",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_PipeDream",
+    "level_badge_name": "Pipe",
+    "level_variation": "levels_variation.variation_pipedup",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_track",
+      "level_tags.season_06"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 10
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "id": "round_pipedup_collectables_ss2_potoo"
+  },
+  {
+    "display_name": "localised_strings.level_name_pipedup",
+    "scene_name": "FallGuy_PipedUp",
+    "game_rules": "game_rules.round_pipedup_squads_potoo",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Race_Season_06",
+    "ingame_music_event": "MUS_InGame_Round_Race_Season_06",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_PipeDream",
+    "level_badge_name": "Pipe",
+    "level_variation": "levels_variation.variation_pipedup",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_track",
+      "level_tags.season_06"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 10
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "id": "round_pipedup_collectables_ss2_squads_potoo"
+  },
+  {
     "display_name": "localised_strings.level_name_pipedup_xtreme",
     "scene_name": "FallGuy_PipedUp",
     "game_rules": "game_rules.round_pipedup_event_elimination",
@@ -56726,6 +59099,101 @@
   {
     "display_name": "localised_strings.level_name_robot_rampage",
     "scene_name": "FallGuy_RobotRampage_Arena2",
+    "game_rules": "game_rules.round_robotrampage_arena_2_ss2_potoo",
+    "level_archetype": "archetype_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Survival_Season_05",
+    "ingame_music_event": "MUS_InGame_Round_Survival_Season_05",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_05",
+    "extra_ambience_event": "AMB_Season_05_Jungle",
+    "lower_main_ambience_volume": true,
+    "main_ambience_state": "lower_volume",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_StompinGround",
+    "level_badge_name": "StompinGround",
+    "level_variation": "levels_variation.variation_robotrampage",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.season_05",
+      "level_tags.survival_round",
+      "level_tags.slight_lowering"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_survived",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "medal_description_value": null
+      }
+    },
+    "visualiser_estimate_percentage_qualification": 40,
+    "visualiser_estimate_variance": 20,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival",
+    "id": "round_robotrampage_collectables_ss2_potoo"
+  },
+  {
+    "display_name": "localised_strings.level_name_robot_rampage",
+    "scene_name": "FallGuy_RobotRampage_Arena2",
+    "game_rules": "game_rules.round_robotrampage_squads_potoo",
+    "level_archetype": "archetype_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Survival_Season_05",
+    "ingame_music_event": "MUS_InGame_Round_Survival_Season_05",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_05",
+    "extra_ambience_event": "AMB_Season_05_Jungle",
+    "lower_main_ambience_volume": true,
+    "main_ambience_state": "lower_volume",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_StompinGround",
+    "level_badge_name": "StompinGround",
+    "level_variation": "levels_variation.variation_robotrampage",
+    "level_variation_overrides": "levels_variation_overrides.var_over_robotrampage_victoria",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.season_05",
+      "level_tags.survival_round",
+      "level_tags.ss2_var",
+      "level_tags.ss2_victoria"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_survived",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "medal_description_value": null
+      }
+    },
+    "visualiser_estimate_percentage_qualification": 40,
+    "visualiser_estimate_variance": 20,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival",
+    "id": "round_robotrampage_collectables_ss2_squads_potoo"
+  },
+  {
+    "display_name": "localised_strings.level_name_robot_rampage",
+    "scene_name": "FallGuy_RobotRampage_Arena2",
     "game_rules": "game_rules.round_robotrampage_event_only_survival_s61",
     "level_archetype": "archetype_survival",
     "preparation_music_soundbank": null,
@@ -57965,6 +60433,72 @@
   {
     "display_name": "localised_strings.level_name_satellitehoppers",
     "scene_name": "FallGuy_SatelliteHoppers",
+    "game_rules": "game_rules.round_satellitehoppers_squads_potoo",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Season_08",
+    "ingame_music_soundbank": "BNK_Music_GP_Race_Season_08",
+    "ingame_music_event": "MUS_InGame_Round_Race_Season_08",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_CosmicHighway",
+    "level_badge_name": "SatelliteHoppers",
+    "level_variation": "levels_variation.variation_satellitehoppers",
+    "level_variation_overrides": "levels_variation_overrides.var_over_satellitehoppers_victoria",
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_track",
+      "level_tags.ss2_round",
+      "level_tags.ss2_victoria"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "id": "round_satellitehoppers_collect_ss2_squads_potoo"
+  },
+  {
+    "display_name": "localised_strings.level_name_satellitehoppers",
+    "scene_name": "FallGuy_SatelliteHoppers",
     "game_rules": "game_rules.round_satellitehoppers",
     "level_archetype": "archetype_race",
     "preparation_music_soundbank": null,
@@ -58144,6 +60678,67 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
     "id": "round_satellitehoppers_collectables_model2"
+  },
+  {
+    "display_name": "localised_strings.level_name_satellitehoppers",
+    "scene_name": "FallGuy_SatelliteHoppers",
+    "game_rules": "game_rules.round_satellitehoppers",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Season_08",
+    "ingame_music_soundbank": "BNK_Music_GP_Race_Season_08",
+    "ingame_music_event": "MUS_InGame_Round_Race_Season_08",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_CosmicHighway",
+    "level_badge_name": "SatelliteHoppers",
+    "level_variation": null,
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "tags": [],
+    "id": "round_satellitehoppers_collectables_ss2_potoo"
   },
   {
     "display_name": "localised_strings.level_name_satellitehoppers",
@@ -58379,7 +60974,7 @@
           "position_percentage": 20,
           "multiplier": 2,
           "badge": "silver",
-          "description": "localised_strings.badge_text_position_02",
+          "description": "localised_strings.badge_text_percentage_020",
           "medal_description": "localised_strings.medal_context_position",
           "medal_description_value": 20
         },
@@ -58694,7 +61289,7 @@
           "position_percentage": 20,
           "multiplier": 2,
           "badge": "silver",
-          "description": "localised_strings.badge_text_position_02",
+          "description": "localised_strings.badge_text_percentage_020",
           "medal_description": "localised_strings.medal_context_position",
           "medal_description_value": 20
         },
@@ -58758,7 +61353,7 @@
           "position_percentage": 20,
           "multiplier": 2,
           "badge": "silver",
-          "description": "localised_strings.badge_text_position_02",
+          "description": "localised_strings.badge_text_percentage_020",
           "medal_description": "localised_strings.medal_context_position",
           "medal_description_value": 20
         },
@@ -61697,6 +64292,72 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
     "id": "round_shortcircuit_collectables_model2"
+  },
+  {
+    "display_name": "localised_strings.level_name_short_circuit",
+    "scene_name": "FallGuy_ShortCircuit",
+    "game_rules": "game_rules.round_shortcircuit_ss2_potoo",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Race_Season_04",
+    "ingame_music_event": "MUS_InGame_Round_Race_Season_04",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_ShortCircuit",
+    "level_badge_name": "ShortCircuit",
+    "level_variation": "levels_variation.variation_shortcircuit",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_track",
+      "level_tags.playspace_gauntlet",
+      "level_tags.season_04"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 10
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "id": "round_shortcircuit_collectables_ss2_potoo"
   },
   {
     "display_name": "localised_strings.level_name_short_circuit",
@@ -65141,6 +67802,140 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival_race",
     "id": "round_slimeclimb_2_collectables_model2"
+  },
+  {
+    "display_name": "localised_strings.level_name_slimescraper",
+    "scene_name": "FallGuy_SlimeClimb_2",
+    "game_rules": "game_rules.round_slimeclimb_2_ss2_potoo",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Race_Season_04",
+    "ingame_music_event": "MUS_InGame_Round_Race_Season_04",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_Slimescraper",
+    "level_badge_name": "Slimescraper",
+    "level_variation": "levels_variation.variation_slimeclimb_2",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_track",
+      "level_tags.saftey_wild_elimination",
+      "level_tags.season_04",
+      "level_tags.slight_featuring"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 10
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": 35,
+    "visualiser_estimate_variance": 20,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival_race",
+    "id": "round_slimeclimb_2_collectables_ss2_potoo"
+  },
+  {
+    "display_name": "localised_strings.level_name_slimescraper",
+    "scene_name": "FallGuy_SlimeClimb_2",
+    "game_rules": "game_rules.round_slimeclimb_2_squads_potoo",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Race_Season_04",
+    "ingame_music_event": "MUS_InGame_Round_Race_Season_04",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_Slimescraper",
+    "level_badge_name": "Slimescraper",
+    "level_variation": "levels_variation.variation_slimeclimb_2",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_track",
+      "level_tags.saftey_wild_elimination",
+      "level_tags.season_04",
+      "level_tags.slight_featuring"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 10
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": 35,
+    "visualiser_estimate_variance": 20,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival_race",
+    "id": "round_slimeclimb_2_collectables_ss2_squads_potoo"
   },
   {
     "display_name": "localised_strings.level_name_slimescraper",
@@ -69685,6 +72480,138 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_special_tail_tag",
     "id": "round_tail_tag_collectable_model2"
+  },
+  {
+    "display_name": "localised_strings.level_name_tail_tag",
+    "scene_name": "FallGuy_TailTag_2",
+    "game_rules": "game_rules.round_tail_tag_ss2_potoo",
+    "level_archetype": "archetype_hunt",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Hunt",
+    "ingame_music_event": "MUS_InGame_Round_Hunt",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_TailTag",
+    "level_badge_name": "TailTag",
+    "level_variation": "levels_variation.variation_tail_tag",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_arena",
+      "level_tags.exclusive_steal_tag",
+      "level_tags.saftey_nonstarter",
+      "level_tags.level_tailtag",
+      "level_tags.season_01"
+    ],
+    "bonus": {
+      "type": "possession",
+      "possession_tiers": [
+        {
+          "possession": 80,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_tailtime_01",
+          "medal_description": "localised_strings.medal_context_possession",
+          "medal_description_value": 80
+        },
+        {
+          "possession": 60,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_tailtime_02",
+          "medal_description": "localised_strings.medal_context_possession",
+          "medal_description_value": 60
+        },
+        {
+          "possession": 30,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_tailtime_03",
+          "medal_description": "localised_strings.medal_context_possession",
+          "medal_description_value": 30
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_special_tail_tag",
+    "id": "round_tail_tag_collectable_ss2_potoo"
+  },
+  {
+    "display_name": "localised_strings.level_name_tail_tag",
+    "scene_name": "FallGuy_TailTag_2",
+    "game_rules": "game_rules.round_tail_tag",
+    "level_archetype": "archetype_hunt",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Hunt",
+    "ingame_music_event": "MUS_InGame_Round_Hunt",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_TailTag",
+    "level_badge_name": "TailTag",
+    "level_variation": "levels_variation.variation_tail_tag",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_arena",
+      "level_tags.exclusive_steal_tag",
+      "level_tags.saftey_nonstarter",
+      "level_tags.level_tailtag",
+      "level_tags.season_01"
+    ],
+    "bonus": {
+      "type": "possession",
+      "possession_tiers": [
+        {
+          "possession": 80,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_tailtime_01",
+          "medal_description": "localised_strings.medal_context_possession",
+          "medal_description_value": 80
+        },
+        {
+          "possession": 60,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_tailtime_02",
+          "medal_description": "localised_strings.medal_context_possession",
+          "medal_description_value": 60
+        },
+        {
+          "possession": 30,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_tailtime_03",
+          "medal_description": "localised_strings.medal_context_possession",
+          "medal_description_value": 30
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_special_tail_tag",
+    "id": "round_tail_tag_collectable_ss2_squads_potoo"
   },
   {
     "display_name": "localised_strings.level_name_tail_tag",
@@ -75023,7 +77950,7 @@
   {
     "display_name": "localised_strings.level_name_tiptoefinale_victoria",
     "scene_name": "FallGuy_Tip_Toe_Finale",
-    "game_rules": "game_rules.round_tiptoefinale",
+    "game_rules": "game_rules.round_tiptoefinale_duos",
     "level_archetype": "archetype_final",
     "preparation_music_soundbank": null,
     "preparation_music_event": "MUS_InGame_PreparationPhase_Season_08",
@@ -76048,6 +78975,100 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
     "id": "round_tunnel_final_collectables_model2"
+  },
+  {
+    "display_name": "localised_strings.level_name_roll_off",
+    "scene_name": "FallGuy_Tunnel_Final",
+    "game_rules": "game_rules.round_tunnel_final",
+    "level_archetype": "archetype_final",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Final",
+    "ingame_music_event": "MUS_InGame_Round_Final",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_RollOff",
+    "level_badge_name": "RolloutFinal",
+    "level_variation": "levels_variation.variation_tunnel_final",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_final",
+      "level_tags.playspace_platform",
+      "level_tags.saftey_nonstarter",
+      "level_tags.exclusive_roll_out",
+      "level_tags.season_03_final",
+      "level_tags.lowered_final"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "medal_description_value": null
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival",
+    "id": "round_tunnel_final_collectables_ss2_potoo"
+  },
+  {
+    "display_name": "localised_strings.level_name_roll_off",
+    "scene_name": "FallGuy_Tunnel_Final",
+    "game_rules": "game_rules.round_tunnel_final_squads_potoo",
+    "level_archetype": "archetype_final",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Final",
+    "ingame_music_event": "MUS_InGame_Round_Final",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_RollOff",
+    "level_badge_name": "RolloutFinal",
+    "level_variation": "levels_variation.variation_tunnel_final",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_final",
+      "level_tags.playspace_platform",
+      "level_tags.saftey_nonstarter",
+      "level_tags.exclusive_roll_out",
+      "level_tags.season_03_final",
+      "level_tags.lowered_final"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "medal_description_value": null
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival",
+    "id": "round_tunnel_final_collectables_ss2_squads_potoo"
   },
   {
     "display_name": "localised_strings.level_name_roll_off",
@@ -78677,6 +81698,136 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
     "id": "round_wall_guys_collectables_model2"
+  },
+  {
+    "display_name": "localised_strings.level_name_wall_guys",
+    "scene_name": "FallGuy_WallGuys",
+    "game_rules": "game_rules.round_wall_guys_ss2_potoo",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Race_Season_02",
+    "ingame_music_event": "MUS_InGame_Round_Race_Season_02",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_WallGuys",
+    "level_badge_name": "WallGuys",
+    "level_variation": "levels_variation.variation_wall_guys",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_track",
+      "level_tags.season_02"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 10
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "id": "round_wall_guys_collectables_ss2_potoo"
+  },
+  {
+    "display_name": "localised_strings.level_name_wall_guys",
+    "scene_name": "FallGuy_WallGuys",
+    "game_rules": "game_rules.round_wall_guys_squads_potoo",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_GP_Race_Season_02",
+    "ingame_music_event": "MUS_InGame_Round_Race_Season_02",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "lower_main_ambience_volume": false,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_WallGuys",
+    "level_badge_name": "WallGuys",
+    "level_variation": "levels_variation.variation_wall_guys",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.event_ss2_potoo",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_track",
+      "level_tags.season_02"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 10
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "id": "round_wall_guys_collectables_ss2_squads_potoo"
   },
   {
     "display_name": "localised_strings.level_name_wall_guys",
