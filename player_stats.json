@@ -1,0 +1,146 @@
+[
+  {
+    "player_action_id": "player_actions.player_dived",
+    "tracking_strategy": "take_max",
+    "metric_path": "player_dived",
+    "id": "actions_done_dived_max"
+  },
+  {
+    "player_action_id": "player_actions.player_dived",
+    "tracking_strategy": "sum",
+    "metric_path": "player_dived",
+    "id": "actions_done_dived_total"
+  },
+  {
+    "player_action_id": "player_actions.player_emotes",
+    "tracking_strategy": "sum",
+    "metric_path": "player_emoted",
+    "id": "actions_done_emote_total"
+  },
+  {
+    "player_action_id": "player_actions.player_fell",
+    "tracking_strategy": "take_max",
+    "metric_path": "player_fell",
+    "id": "actions_done_fell_max"
+  },
+  {
+    "player_action_id": "player_actions.player_fell",
+    "tracking_strategy": "sum",
+    "metric_path": "player_fell",
+    "id": "actions_done_fell_total"
+  },
+  {
+    "player_action_id": "player_actions.player_grabbed",
+    "tracking_strategy": "take_max",
+    "metric_path": "player_grabbed",
+    "id": "actions_done_grabbed_max"
+  },
+  {
+    "player_action_id": "player_actions.player_grabbed",
+    "tracking_strategy": "sum",
+    "metric_path": "player_grabbed",
+    "id": "actions_done_grabbed_total"
+  },
+  {
+    "player_action_id": "player_actions.player_hugged",
+    "tracking_strategy": "take_max",
+    "metric_path": "player_hugged",
+    "id": "actions_done_hugged_max"
+  },
+  {
+    "player_action_id": "player_actions.player_hugged",
+    "tracking_strategy": "sum",
+    "metric_path": "player_hugged",
+    "id": "actions_done_hugged_total"
+  },
+  {
+    "player_action_id": "player_actions.player_jumped",
+    "tracking_strategy": "sum",
+    "metric_path": "player_jumped",
+    "id": "actions_done_jumps_total"
+  },
+  {
+    "player_action_id": "player_actions.steal_a_tail",
+    "tracking_strategy": "sum",
+    "metric_path": "tails_stolen",
+    "id": "actions_done_tail_stolen_total"
+  },
+  {
+    "player_action_id": "player_actions.player_air_time",
+    "tracking_strategy": "sum",
+    "metric_path": "player_air_time",
+    "id": "air_time_total"
+  },
+  {
+    "player_action_id": "player_actions.earn_bronze_medal",
+    "tracking_strategy": "sum",
+    "metric_path": "badge_won.bronze",
+    "id": "badges_won_bronze_total"
+  },
+  {
+    "player_action_id": "player_actions.gold_medal_in_show",
+    "tracking_strategy": "sum",
+    "metric_path": "badge_won.gold",
+    "id": "badges_won_gold_total"
+  },
+  {
+    "player_action_id": "player_actions.earn_silver_medal",
+    "tracking_strategy": "sum",
+    "metric_path": "badge_won.silver",
+    "id": "badges_won_silver_total"
+  },
+  {
+    "player_action_id": "player_actions.show_win_streak",
+    "tracking_strategy": "take_max",
+    "metric_path": "episode_win_streak",
+    "id": "episodes_won_streak_best"
+  },
+  {
+    "player_action_id": "player_actions.show_win_streak",
+    "tracking_strategy": "take_last",
+    "metric_path": "episode_win_streak",
+    "id": "episodes_won_streak_current"
+  },
+  {
+    "player_action_id": "player_actions.win_show",
+    "tracking_strategy": "sum",
+    "metric_path": "show_won",
+    "id": "episodes_won_total"
+  },
+  {
+    "player_action_id": "player_actions.score_a_fallball_goal",
+    "tracking_strategy": "sum",
+    "metric_path": "goals_scored",
+    "id": "goals_scored_total"
+  },
+  {
+    "player_action_id": "player_actions.score_a_hoop",
+    "tracking_strategy": "take_max",
+    "metric_path": "hoops_scored",
+    "id": "hoops_scored_max"
+  },
+  {
+    "player_action_id": "player_actions.qualify_from_a_round",
+    "tracking_strategy": "sum",
+    "metric_path": "round_qualified",
+    "id": "rounds_qualified_total"
+  },
+  {
+    "player_action_id": "player_actions.reach_final_round",
+    "tracking_strategy": "sum",
+    "metric_path": "round_reached.true",
+    "id": "rounds_reached_final_total"
+  },
+  {
+    "player_action_id": "player_actions.qualify_first_position_any_round",
+    "tracking_strategy": "sum",
+    "metric_path": "position_placed.1",
+    "id": "rounds_won_total"
+  },
+  {
+    "player_action_id": "player_actions.play_show_in_party",
+    "tracking_strategy": "sum",
+    "metric_path": "round_reached_in_party.0",
+    "id": "shows_played_in_party_total"
+  }
+]
