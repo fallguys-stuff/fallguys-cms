@@ -702,6 +702,40 @@
   {
     "config": {
       "metric_id": "player_carried",
+      "carry_type": null,
+      "team_id": null,
+      "is_in_squad": null,
+      "is_final_round": null,
+      "level_archetype": null,
+      "level_id": "round_penguin_solos_event_peanut_ss2",
+      "overtime": null,
+      "is_in_party": null,
+      "party_size": null,
+      "position_placed": null,
+      "team_score": null,
+      "round_index": null,
+      "round_qualified": null,
+      "qualified_player_count": null,
+      "show_id": null,
+      "is_private_lobby": null,
+      "fell_in_slime": null,
+      "player_respawn_count": null,
+      "qualify_time": null,
+      "team_goals_scored": null,
+      "hoops_dived_through": null,
+      "time_survived": null,
+      "costume_faceplate": null,
+      "costume_upper": null,
+      "costume_lower": null,
+      "costume_colour_schema": null,
+      "costume_pattern": null,
+      "dimensions": []
+    },
+    "id": "carry_pegwin_ss2_peanut"
+  },
+  {
+    "config": {
+      "metric_id": "player_carried",
       "carry_type": "sweet",
       "team_id": "hider",
       "is_in_squad": null,
@@ -3856,6 +3890,29 @@
       "dimensions": []
     },
     "id": "play_logic_rounds"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "level_id": "round_fall_mountain_variants_event_peanut_ss2",
+      "level_archetype": null,
+      "round_index": null,
+      "round_qualified": null,
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
+      "show_id": null,
+      "is_final_round": null,
+      "is_private_lobby": null,
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": []
+    },
+    "id": "play_mountain_ss2_peanut"
   },
   {
     "config": {
@@ -7917,6 +7974,36 @@
   },
   {
     "config": {
+      "metric_id": "round_reached",
+      "level_id": null,
+      "level_archetype": "archetype_final",
+      "round_index": null,
+      "round_qualified": null,
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
+      "show_id": null,
+      "is_final_round": null,
+      "is_private_lobby": null,
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": [
+        {
+          "dimension_id": "time_survived",
+          "operator": "more_or_equal",
+          "integer_value": 60,
+          "dimension_type": "integer_dimension"
+        }
+      ]
+    },
+    "id": "player_survive_60_secs_finals_peanut_w9"
+  },
+  {
+    "config": {
       "metric_id": "throw_carry_object",
       "carry_type": null,
       "team_id": null,
@@ -7948,6 +8035,72 @@
       "dimensions": []
     },
     "id": "player_throw"
+  },
+  {
+    "config": {
+      "metric_id": "player_round_solo_score",
+      "team_id": null,
+      "is_in_squad": null,
+      "is_final_round": null,
+      "level_archetype": null,
+      "level_id": "round_skeefall_event_peanut_ss2_final",
+      "overtime": null,
+      "is_in_party": null,
+      "party_size": null,
+      "position_placed": null,
+      "team_score": null,
+      "round_index": null,
+      "round_qualified": null,
+      "qualified_player_count": null,
+      "show_id": null,
+      "is_private_lobby": null,
+      "fell_in_slime": null,
+      "player_respawn_count": null,
+      "qualify_time": null,
+      "team_goals_scored": null,
+      "hoops_dived_through": null,
+      "time_survived": null,
+      "costume_faceplate": null,
+      "costume_upper": null,
+      "costume_lower": null,
+      "costume_colour_schema": null,
+      "costume_pattern": null,
+      "dimensions": []
+    },
+    "id": "point_in_skifall_ss2_peanut"
+  },
+  {
+    "config": {
+      "metric_id": "player_round_solo_score",
+      "team_id": null,
+      "is_in_squad": null,
+      "is_final_round": null,
+      "level_archetype": null,
+      "level_id": "round_hoops_blockade_solo_event_peanut_ss2",
+      "overtime": null,
+      "is_in_party": null,
+      "party_size": null,
+      "position_placed": null,
+      "team_score": null,
+      "round_index": null,
+      "round_qualified": null,
+      "qualified_player_count": null,
+      "show_id": null,
+      "is_private_lobby": null,
+      "fell_in_slime": null,
+      "player_respawn_count": null,
+      "qualify_time": null,
+      "team_goals_scored": null,
+      "hoops_dived_through": null,
+      "time_survived": null,
+      "costume_faceplate": null,
+      "costume_upper": null,
+      "costume_lower": null,
+      "costume_colour_schema": null,
+      "costume_pattern": null,
+      "dimensions": []
+    },
+    "id": "points_hoopsie_ss2_peanut"
   },
   {
     "config": {
@@ -13493,6 +13646,43 @@
         {
           "dimension_id": "time_survived",
           "operator": "more_or_equal",
+          "integer_value": 30,
+          "dimension_type": "integer_dimension"
+        },
+        {
+          "dimension_id": "level_id",
+          "operator": "equal",
+          "string_value": "round_fruitpunch_event_peanut_ss2",
+          "dimension_type": "string_dimension",
+          "case_sensitive": false
+        }
+      ]
+    },
+    "id": "survive_bigshot_ss2_peanut"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "level_id": null,
+      "level_archetype": null,
+      "round_index": null,
+      "round_qualified": null,
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
+      "show_id": null,
+      "is_final_round": null,
+      "is_private_lobby": null,
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": [
+        {
+          "dimension_id": "time_survived",
+          "operator": "more_or_equal",
           "integer_value": 60,
           "dimension_type": "integer_dimension"
         },
@@ -13540,6 +13730,117 @@
           "dimension_type": "integer_dimension"
         },
         {
+          "dimension_id": "level_id",
+          "operator": "equal",
+          "string_value": "round_floor_fall_event_peanut_ss2",
+          "dimension_type": "string_dimension",
+          "case_sensitive": false
+        }
+      ]
+    },
+    "id": "survive_hexagon_ss2_peanut"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "level_id": null,
+      "level_archetype": null,
+      "round_index": null,
+      "round_qualified": null,
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
+      "show_id": null,
+      "is_final_round": null,
+      "is_private_lobby": null,
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": [
+        {
+          "dimension_id": "time_survived",
+          "operator": "more_or_equal",
+          "integer_value": 20,
+          "dimension_type": "integer_dimension"
+        },
+        {
+          "dimension_id": "level_id",
+          "operator": "equal",
+          "string_value": "round_jump_showdown_event_peanut_ss2",
+          "dimension_type": "string_dimension",
+          "case_sensitive": false
+        }
+      ]
+    },
+    "id": "survive_jump_showdown_ss2_peanut"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "level_id": null,
+      "level_archetype": null,
+      "round_index": null,
+      "round_qualified": null,
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
+      "show_id": null,
+      "is_final_round": null,
+      "is_private_lobby": null,
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": [
+        {
+          "dimension_id": "time_survived",
+          "operator": "more_or_equal",
+          "integer_value": 30,
+          "dimension_type": "integer_dimension"
+        },
+        {
+          "dimension_id": "level_id",
+          "operator": "equal",
+          "string_value": "round_robotrampage_arena_2_event_peanut_ss2",
+          "dimension_type": "string_dimension",
+          "case_sensitive": false
+        }
+      ]
+    },
+    "id": "survive_stompin_ss2_peanut"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "level_id": null,
+      "level_archetype": null,
+      "round_index": null,
+      "round_qualified": null,
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
+      "show_id": null,
+      "is_final_round": null,
+      "is_private_lobby": null,
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": [
+        {
+          "dimension_id": "time_survived",
+          "operator": "more_or_equal",
+          "integer_value": 30,
+          "dimension_type": "integer_dimension"
+        },
+        {
           "dimension_id": "level_archetype",
           "operator": "equal",
           "string_value": "archetype_survival",
@@ -13555,6 +13856,40 @@
       ]
     },
     "id": "survive_time_survival_rounds_walnut_w4"
+  },
+  {
+    "config": {
+      "metric_id": "throw_carry_object",
+      "carry_type": null,
+      "team_id": null,
+      "is_in_squad": null,
+      "is_final_round": null,
+      "level_archetype": null,
+      "level_id": "round_blastball_arenasurvival_event_peanut_ss2",
+      "overtime": null,
+      "is_in_party": null,
+      "party_size": null,
+      "position_placed": null,
+      "team_score": null,
+      "round_index": null,
+      "round_qualified": null,
+      "qualified_player_count": null,
+      "show_id": null,
+      "is_private_lobby": null,
+      "fell_in_slime": null,
+      "player_respawn_count": null,
+      "qualify_time": null,
+      "team_goals_scored": null,
+      "hoops_dived_through": null,
+      "time_survived": null,
+      "costume_faceplate": null,
+      "costume_upper": null,
+      "costume_lower": null,
+      "costume_colour_schema": null,
+      "costume_pattern": null,
+      "dimensions": []
+    },
+    "id": "throw_10_blastballs_ss2_peanut"
   },
   {
     "config": {
@@ -15400,6 +15735,29 @@
       "dimensions": []
     },
     "id": "win_summer_squads_show"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "level_id": "round_halloween_event_peanut_ss2",
+      "level_archetype": null,
+      "round_index": null,
+      "round_qualified": "true",
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
+      "show_id": null,
+      "is_final_round": "true",
+      "is_private_lobby": null,
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": []
+    },
+    "id": "win_sweet_thieves_ss2_peanut"
   },
   {
     "config": {
