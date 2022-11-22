@@ -51,6 +51,15 @@
     "id": "button_pressed"
   },
   {
+    "description": "A challenge was been completed",
+    "dimensions": [
+      {
+        "type": "challenge_tags"
+      }
+    ],
+    "id": "challenge_completed"
+  },
+  {
     "description": "Metric for tracking when a player is the last person to qualify in a race.",
     "dimensions": [],
     "id": "close_call"
@@ -74,6 +83,11 @@
     "description": "Distance run",
     "dimensions": [],
     "id": "distance_run"
+  },
+  {
+    "description": "Distance slid",
+    "dimensions": [],
+    "id": "distance_slid"
   },
   {
     "description": "Number of times a player lost an episode",
@@ -334,6 +348,11 @@
     "id": "player_run_time"
   },
   {
+    "description": "Player slide time in seconds",
+    "dimensions": [],
+    "id": "player_slide_time"
+  },
+  {
     "description": "Times player has infected other players",
     "dimensions": [],
     "id": "players_infected"
@@ -518,6 +537,11 @@
     "description": "Times player throws an object",
     "dimensions": [],
     "id": "throw_carry_object"
+  },
+  {
+    "description": "Times player collected time attack item",
+    "dimensions": [],
+    "id": "time_attack_collected"
   },
   {
     "description": "Time player spent invisible in seconds",
