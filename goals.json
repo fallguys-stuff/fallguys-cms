@@ -7384,19 +7384,23 @@
     "id": "qualify_6_rounds_in_a_party"
   },
   {
-    "player_action_id": "impossible_challenge",
+    "player_action_id": "qualify_round_2_finals_marathon",
     "target": {
       "type": "aggregate",
       "value": 5
     },
-    "description": "localised_strings.challenge_locked_date",
+    "description": "localised_strings.challenge_desc_004_general",
     "description_parameters": [
       {
         "type": "localised",
-        "localised_value": "localised_strings.day_of_the_week_tuesday"
+        "localised_value": "localised_strings.challenge_desc_le_bluejay_007_show"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_only_finals"
       }
     ],
-    "title": "localised_strings.challenge_locked",
+    "title": "localised_strings.challenge_title_le_anchovy_005",
     "challenge_tags": [],
     "id": "qualify_any_show_round_2_anchovy"
   },
@@ -8217,6 +8221,23 @@
     "id": "reach_final_round_duos"
   },
   {
+    "player_action_id": "reach_final_round_duos",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_031",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "title": "localised_strings.show_title_duos_show",
+    "challenge_tags": [],
+    "id": "reach_final_round_duos_koi"
+  },
+  {
     "player_action_id": "reach_final_round_duos_s6_glizzy01",
     "target": {
       "type": "last_value",
@@ -8355,6 +8376,23 @@
     "id": "reach_final_round_main"
   },
   {
+    "player_action_id": "reach_final_round_main",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_031",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "title": "localised_strings.show_title_solo_show",
+    "challenge_tags": [],
+    "id": "reach_final_round_main_koi"
+  },
+  {
     "player_action_id": "reach_final_round_solos_ss1_idol_games",
     "target": {
       "type": "aggregate",
@@ -8406,6 +8444,23 @@
     "title": null,
     "challenge_tags": [],
     "id": "reach_final_round_squads4_s6"
+  },
+  {
+    "player_action_id": "reach_final_round_squads4",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_031",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "title": "localised_strings.show_title_squad_show",
+    "challenge_tags": [],
+    "id": "reach_final_round_squads_koi"
   },
   {
     "player_action_id": "reach_final_round_squads_ss1_idol_games",
@@ -9104,6 +9159,27 @@
     "id": "reach_round_4_duos"
   },
   {
+    "player_action_id": "reach_round_4_duos",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 4
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "title": "localised_strings.show_title_duos_show",
+    "challenge_tags": [],
+    "id": "reach_round_4_duos_koi"
+  },
+  {
     "player_action_id": "reach_round_4_duos_s6",
     "target": {
       "type": "aggregate",
@@ -9193,6 +9269,28 @@
     "id": "reach_round_4_main"
   },
   {
+    "player_action_id": "reach_round_4_main",
+    "target": {
+      "type": "last_value",
+      "operator": "equal",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 4
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "title": "localised_strings.show_title_solo_show",
+    "challenge_tags": [],
+    "id": "reach_round_4_main_koi"
+  },
+  {
     "player_action_id": "reach_round_4_newyears6",
     "target": {
       "type": "aggregate",
@@ -9277,6 +9375,28 @@
     "title": null,
     "challenge_tags": [],
     "id": "reach_round_4_squads4_s6"
+  },
+  {
+    "player_action_id": "reach_round_4_squads4",
+    "target": {
+      "type": "last_value",
+      "operator": "equal",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 4
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "title": "localised_strings.show_title_squad_show",
+    "challenge_tags": [],
+    "id": "reach_round_4_squads_koi"
   },
   {
     "player_action_id": "reach_round_4_trios",
@@ -14026,19 +14146,19 @@
     "id": "win_any"
   },
   {
-    "player_action_id": "impossible_challenge",
+    "player_action_id": "win_show_finals_marathon",
     "target": {
       "type": "aggregate",
       "value": 1
     },
-    "description": "localised_strings.challenge_locked_date",
+    "description": "localised_strings.challenge_desc_015_singular",
     "description_parameters": [
       {
         "type": "localised",
-        "localised_value": "localised_strings.day_of_the_week_tuesday"
+        "localised_value": "localised_strings.show_name_only_finals"
       }
     ],
-    "title": "localised_strings.challenge_locked",
+    "title": "localised_strings.challenge_title_le_anchovy_005",
     "challenge_tags": [],
     "id": "win_any_anchovy"
   },
@@ -14156,6 +14276,23 @@
     "title": null,
     "challenge_tags": [],
     "id": "win_duos"
+  },
+  {
+    "player_action_id": "win_duos",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "title": "localised_strings.show_title_duos_show",
+    "challenge_tags": [],
+    "id": "win_duos_koi"
   },
   {
     "player_action_id": "win_duos_s6_glizzy01",
@@ -14579,6 +14716,23 @@
   {
     "player_action_id": "win_main_show",
     "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "title": "localised_strings.show_title_solo_show",
+    "challenge_tags": [],
+    "id": "win_main_koi"
+  },
+  {
+    "player_action_id": "win_main_show",
+    "target": {
       "type": "last_value",
       "operator": "equal",
       "value": 1
@@ -14944,6 +15098,40 @@
     "title": null,
     "challenge_tags": [],
     "id": "win_squads4_s6"
+  },
+  {
+    "player_action_id": "win_squads4",
+    "target": {
+      "type": "aggregate",
+      "value": 2
+    },
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "title": "localised_strings.show_title_squad_show",
+    "challenge_tags": [],
+    "id": "win_squads_2_koi"
+  },
+  {
+    "player_action_id": "win_squads4",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "title": "localised_strings.show_title_squad_show",
+    "challenge_tags": [],
+    "id": "win_squads_koi"
   },
   {
     "player_action_id": "win_squads4_ss1_idol_games",
