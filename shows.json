@@ -1857,7 +1857,7 @@
   },
   {
     "show_name": "localised_strings.show_title_anchovy",
-    "show_description": "localised_strings.show_desc_anchovy_01",
+    "show_description": "localised_strings.show_desc_anchovy_02",
     "show_image": null,
     "show_image_cms": "show_selector_anchovy_no_event",
     "min_party_size": 1,
@@ -1886,9 +1886,9 @@
   },
   {
     "show_name": "localised_strings.show_title_anchovy",
-    "show_description": "localised_strings.show_desc_anchovy_01",
+    "show_description": "localised_strings.show_desc_anchovy_02",
     "show_image": null,
-    "show_image_cms": "show_selector_anchovy",
+    "show_image_cms": "show_selector_anchovy_no_event",
     "min_party_size": 1,
     "max_party_size": 4,
     "size": {
@@ -3127,7 +3127,7 @@
       "showtype_switch": "individual"
     },
     "default_episode": "levels_episode.episode_event_only_hoverboardsurvival",
-    "episode_reward_settings_id": "solo_rewards",
+    "episode_reward_settings_id": "solos",
     "themeable_override": null,
     "opens_at": "2020-01-01T09:00:00",
     "closes_at": "2030-01-01T09:00:00",
@@ -5489,6 +5489,35 @@
     "closes_at": "2030-01-01T09:00:00",
     "skill_score_factor_override": null,
     "id": "event_s6_651_template"
+  },
+  {
+    "show_name": "localised_strings.show_name_s9_crayfish",
+    "show_description": "localised_strings.show_desc_s9_crayfish",
+    "show_image": null,
+    "show_image_cms": "show_selector_crayfish",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 36,
+      "max_players": 40
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 1,
+      "max_players": 40
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.episode_s9_crayfish_template",
+    "episode_reward_settings_id": "solos",
+    "themeable_override": null,
+    "opens_at": "2022-12-13T10:00:00",
+    "closes_at": "2023-01-05T10:00:00",
+    "skill_score_factor_override": null,
+    "hide_countdown": false,
+    "id": "event_s9_crayfish_template"
   },
   {
     "show_name": "localised_strings.show_name_season_2_highlight",
@@ -7930,7 +7959,7 @@
       "showtype_switch": "individual"
     },
     "default_episode": "levels_episode.episode_1v1_volleyfall_solos",
-    "episode_reward_settings_id": "squads_1_round",
+    "episode_reward_settings_id": "solos",
     "opens_at": "2020-01-01T09:00:00",
     "themeable_override": null,
     "closes_at": "2050-01-01T09:00:00",

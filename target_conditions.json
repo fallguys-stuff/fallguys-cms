@@ -1336,6 +1336,66 @@
     "parameters": {
       "type": "purchase_history",
       "data": {
+        "bundle": {
+          "id": "bundle_1x2_costumeset_ss1_letsgoskiing_01"
+        },
+        "quantity": {
+          "operator": "less_than",
+          "max": 1
+        }
+      }
+    },
+    "id": "has_not_purchased_s9_letsgoskiing"
+  },
+  {
+    "parameters": {
+      "type": "purchase_history",
+      "data": {
+        "bundle": {
+          "id": "bundle_s9_rmt_eggbert_01"
+        },
+        "quantity": {
+          "operator": "less_than",
+          "max": 1
+        }
+      }
+    },
+    "id": "has_not_purchased_s9_rmt_eggbert_01"
+  },
+  {
+    "parameters": {
+      "type": "purchase_history",
+      "data": {
+        "bundle": {
+          "id": "bundle_s9_rmt_icecreamtriple_02"
+        },
+        "quantity": {
+          "operator": "less_than",
+          "max": 1
+        }
+      }
+    },
+    "id": "has_not_purchased_s9_rmt_icecreamtriple_02"
+  },
+  {
+    "parameters": {
+      "type": "purchase_history",
+      "data": {
+        "bundle": {
+          "id": "bundle_s9_rmt_inapinch_01"
+        },
+        "quantity": {
+          "operator": "less_than",
+          "max": 1
+        }
+      }
+    },
+    "id": "has_not_purchased_s9_rmt_inapinch_01"
+  },
+  {
+    "parameters": {
+      "type": "purchase_history",
+      "data": {
         "quantity": {
           "operator": "less_than",
           "max": 1
@@ -1346,6 +1406,36 @@
       }
     },
     "id": "has_not_purchased_s9_rmt_otterwaiter_01"
+  },
+  {
+    "parameters": {
+      "type": "purchase_history",
+      "data": {
+        "bundle": {
+          "id": "bundle_s9_rmt_piratemonkey_01"
+        },
+        "quantity": {
+          "operator": "less_than",
+          "max": 1
+        }
+      }
+    },
+    "id": "has_not_purchased_s9_rmt_piratemonkey_01"
+  },
+  {
+    "parameters": {
+      "type": "purchase_history",
+      "data": {
+        "bundle": {
+          "id": "bundle_s9_rmt_topbrass_01"
+        },
+        "quantity": {
+          "operator": "less_than",
+          "max": 1
+        }
+      }
+    },
+    "id": "has_not_purchased_s9_rmt_topbrass_01"
   },
   {
     "parameters": {
@@ -1689,6 +1779,28 @@
       }
     },
     "id": "is_le_s6_vulture"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-12-13T10:00:00",
+        "end": "2023-01-05T10:00:00"
+      }
+    },
+    "id": "is_le_s9_crayfish"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-01-05T10:00:00",
+        "end": "2023-01-19T10:00:00"
+      }
+    },
+    "id": "is_le_s9_eel"
   },
   {
     "parameters": {
@@ -2747,11 +2859,22 @@
       "type": "date_time",
       "data": {
         "operator": "between",
-        "start": "2022-11-11T00:00:00",
+        "start": "2022-11-11T09:00:00",
         "end": "2023-11-14T23:59:59"
       }
     },
     "id": "rmt_extended_dates"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-12-26T09:00:00",
+        "end": "2023-11-14T23:59:59"
+      }
+    },
+    "id": "rmt_s9_extended"
   },
   {
     "parameters": {
@@ -3671,6 +3794,17 @@
       "type": "date_time",
       "data": {
         "operator": "between",
+        "start": "2022-12-26T09:00:00",
+        "end": "2023-11-14T23:59:59"
+      }
+    },
+    "id": "s9_eggbert_01_dates"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
         "start": "2023-01-27T09:00:00",
         "end": "2023-02-01T08:59:59"
       }
@@ -3891,6 +4025,17 @@
       "type": "date_time",
       "data": {
         "operator": "between",
+        "start": "2022-12-01T09:00:00",
+        "end": "2022-12-08T08:59:59"
+      }
+    },
+    "id": "s9_ft_wk2_turkey"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
         "start": "2022-11-30T09:00:00",
         "end": "2022-12-05T08:59:59"
       }
@@ -4035,10 +4180,21 @@
       "data": {
         "operator": "between",
         "start": "2022-12-13T09:00:00",
-        "end": "2022-12-18T08:59:59"
+        "end": "2022-12-27T08:59:59"
       }
     },
     "id": "s9_ft_wk4_tue"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-12-13T09:00:00",
+        "end": "2022-12-27T08:59:59"
+      }
+    },
+    "id": "s9_ft_wk4_tue_xmas"
   },
   {
     "parameters": {
@@ -4112,7 +4268,7 @@
       "data": {
         "operator": "between",
         "start": "2022-12-20T09:00:00",
-        "end": "2022-12-25T08:59:59"
+        "end": "2022-12-27T08:59:59"
       }
     },
     "id": "s9_ft_wk5_tue"
@@ -4441,6 +4597,28 @@
       "type": "date_time",
       "data": {
         "operator": "between",
+        "start": "2022-12-05T09:00:00",
+        "end": "2023-02-13T23:59:59"
+      }
+    },
+    "id": "s9_icecreamtriple_02_dates"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-01-02T09:00:00",
+        "end": "2023-11-14T23:59:59"
+      }
+    },
+    "id": "s9_inapinch_01_dates"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
         "start": "2023-01-26T09:00:00",
         "end": "2023-02-02T08:59:59"
       }
@@ -4562,6 +4740,17 @@
       "type": "date_time",
       "data": {
         "operator": "between",
+        "start": "2022-12-13T09:00:00",
+        "end": "2022-12-27T08:59:59"
+      }
+    },
+    "id": "s9_letsgoskiing_dates"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
         "start": "2022-11-22T09:00:00",
         "end": "2023-02-13T23:59:59"
       }
@@ -4573,11 +4762,33 @@
       "type": "date_time",
       "data": {
         "operator": "between",
+        "start": "2022-11-28T09:00:00",
+        "end": "2023-02-13T23:59:59"
+      }
+    },
+    "id": "s9_piratemonkey_01_dates"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
         "start": "2022-11-22T13:00:00",
         "end": "2023-04-04T09:00:00"
       }
     },
     "id": "s9_seasonals"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-01-09T09:00:00",
+        "end": "2023-11-14T23:59:59"
+      }
+    },
+    "id": "s9_topbrass_01"
   },
   {
     "parameters": {
@@ -4611,6 +4822,39 @@
       }
     },
     "id": "s9_wk2_monday_to_end"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2022-12-26T09:00:00",
+        "end": "2023-02-13T23:59:59"
+      }
+    },
+    "id": "s9_wk6_monday_to_end"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-01-02T09:00:00",
+        "end": "2023-02-13T23:59:59"
+      }
+    },
+    "id": "s9_wk7_monday_to_end"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-01-09T09:00:00",
+        "end": "2023-02-13T23:59:59"
+      }
+    },
+    "id": "s9_wk8_monday_to_end"
   },
   {
     "parameters": {

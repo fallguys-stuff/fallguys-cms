@@ -302,6 +302,16 @@
   {
     "select_rounds_once_only": true,
     "ideal_player_count_weighting": 1,
+    "disqualification_score_mul": 1.5,
+    "phantom_disqualification_percentage_for_survival_rounds": 0,
+    "tag_weighting": "level_tag_weightings.tag_weightings_s9_crayfish_template",
+    "max_number_of_rounds_for_toms": 2,
+    "bucket_override_max_tom_rounds": [],
+    "id": "director_event_s9_crayfish_template"
+  },
+  {
+    "select_rounds_once_only": true,
+    "ideal_player_count_weighting": 1,
     "tag_weighting": "level_tag_weightings.tag_weightings_event_season_2_highlight",
     "disqualification_score_mul": 1,
     "phantom_disqualification_percentage_for_survival_rounds": 0,
@@ -512,7 +522,7 @@
         "max_tom_rounds": 0
       }
     ],
-    "tag_weighting": "level_tag_weightings.tag_weightings_solo_show_s9",
+    "tag_weighting": "level_tag_weightings.tag_weightings_solo_show_s9_unfeatured",
     "id": "director_solo_show_s9"
   },
   {
@@ -624,7 +634,7 @@
   {
     "select_rounds_once_only": true,
     "ideal_player_count_weighting": 1,
-    "tag_weighting": "level_tag_weightings.tag_weightings_squads_s9",
+    "tag_weighting": "level_tag_weightings.tag_weightings_squads_s9_unfeatured",
     "disqualification_score_mul": 1,
     "phantom_disqualification_percentage_for_survival_rounds": 0,
     "max_number_of_rounds_for_toms": 2,

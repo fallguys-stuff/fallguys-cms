@@ -3974,6 +3974,344 @@
     "id": "le_s9_anchovy"
   },
   {
+    "title": "localised_strings.le_crayfish_event_title",
+    "description": "localised_strings.le_crayfish_event_desc",
+    "target_ids": [
+      "le_s9_crayfish"
+    ],
+    "challenges": [
+      {
+        "goal_id": "crayfish_01",
+        "xp_awarded": 100,
+        "goal_title_locked": null,
+        "goal_description_locked": {
+          "template": null,
+          "template_parameters": []
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": []
+      },
+      {
+        "goal_id": "crayfish_02",
+        "xp_awarded": 100,
+        "goal_title_locked": null,
+        "goal_description_locked": {
+          "template": null,
+          "template_parameters": []
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": []
+      },
+      {
+        "goal_id": "crayfish_03",
+        "xp_awarded": 100,
+        "goal_title_locked": "challenge_title_le_crayfish_007",
+        "goal_description_locked": {
+          "template": "challenge_unlock_singular",
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "challenge_title_le_crayfish_006"
+            }
+          ]
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "crayfish_01"
+          }
+        ]
+      },
+      {
+        "goal_id": "crayfish_04",
+        "xp_awarded": 100,
+        "goal_title_locked": null,
+        "goal_description_locked": {
+          "template": null,
+          "template_parameters": []
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": []
+      },
+      {
+        "goal_id": "crayfish_05",
+        "xp_awarded": 100,
+        "goal_title_locked": "challenge_title_le_crayfish_008",
+        "goal_description_locked": {
+          "template": "challenge_unlock_singular",
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "challenge_title_le_crayfish_007"
+            }
+          ]
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "crayfish_03"
+          }
+        ]
+      },
+      {
+        "goal_id": "crayfish_06",
+        "xp_awarded": 100,
+        "goal_title_locked": null,
+        "goal_description_locked": {
+          "template": null,
+          "template_parameters": []
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": []
+      },
+      {
+        "goal_id": "crayfish_07",
+        "xp_awarded": 100,
+        "goal_title_locked": "challenge_title_le_crayfish_009",
+        "goal_description_locked": {
+          "template": "challenge_unlock_singular",
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "challenge_title_le_crayfish_008"
+            }
+          ]
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "crayfish_05"
+          }
+        ]
+      },
+      {
+        "goal_id": "crayfish_08",
+        "xp_awarded": 100,
+        "goal_title_locked": null,
+        "goal_description_locked": {
+          "template": null,
+          "template_parameters": []
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": []
+      },
+      {
+        "goal_id": "crayfish_09",
+        "xp_awarded": 100,
+        "goal_title_locked": "challenge_title_le_crayfish_010",
+        "goal_description_locked": {
+          "template": "challenge_unlock_singular",
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "challenge_title_le_crayfish_009"
+            }
+          ]
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "crayfish_07"
+          }
+        ]
+      },
+      {
+        "goal_id": "crayfish_10",
+        "xp_awarded": 100,
+        "goal_title_locked": null,
+        "goal_description_locked": {
+          "template": null,
+          "template_parameters": []
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": []
+      }
+    ],
+    "tool_tip_image": "ui-liveevents-crayfish-tooltip",
+    "background_image": "ui-liveevents-crayfish-bg",
+    "promotional_image": "ui-liveevents-crayfish-costume",
+    "reward_icon_image": "ui-liveevents-crayfish-token",
+    "ui_detail_colour": "colour.challenges_green",
+    "milestones": [
+      {
+        "xp_required": 100,
+        "reward_id": "nickname_s09_crayfish"
+      },
+      {
+        "xp_required": 200,
+        "reward_id": "kudos_bonus_200"
+      },
+      {
+        "xp_required": 500,
+        "reward_id": "bottom_nutcracker_01"
+      },
+      {
+        "xp_required": 700,
+        "reward_id": "s9_nameplate_christmas"
+      },
+      {
+        "xp_required": 1000,
+        "reward_id": "top_nutcracker_01"
+      }
+    ],
+    "id": "le_s9_crayfish"
+  },
+  {
+    "title": "localised_strings.le_s9_eel_event_title",
+    "description": "localised_strings.le_s9_eel_event_desc",
+    "target_ids": [
+      "le_s9_eel"
+    ],
+    "challenges": [
+      {
+        "goal_id": "eel_01",
+        "xp_awarded": 100,
+        "goal_title_locked": null,
+        "goal_description_locked": {
+          "template": null,
+          "template_parameters": []
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": []
+      },
+      {
+        "goal_id": "eel_02",
+        "xp_awarded": 100,
+        "goal_title_locked": null,
+        "goal_description_locked": {
+          "template": null,
+          "template_parameters": []
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": []
+      },
+      {
+        "goal_id": "eel_03",
+        "xp_awarded": 100,
+        "goal_title_locked": null,
+        "goal_description_locked": {
+          "template": null,
+          "template_parameters": []
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": []
+      },
+      {
+        "goal_id": "eel_04",
+        "xp_awarded": 100,
+        "goal_title_locked": null,
+        "goal_description_locked": {
+          "template": null,
+          "template_parameters": []
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": []
+      },
+      {
+        "goal_id": "eel_05",
+        "xp_awarded": 100,
+        "goal_title_locked": null,
+        "goal_description_locked": {
+          "template": null,
+          "template_parameters": []
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": []
+      },
+      {
+        "goal_id": "eel_06",
+        "xp_awarded": 100,
+        "goal_title_locked": null,
+        "goal_description_locked": {
+          "template": null,
+          "template_parameters": []
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": []
+      },
+      {
+        "goal_id": "eel_07",
+        "xp_awarded": 100,
+        "goal_title_locked": null,
+        "goal_description_locked": {
+          "template": null,
+          "template_parameters": []
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": []
+      },
+      {
+        "goal_id": "eel_08",
+        "xp_awarded": 100,
+        "goal_title_locked": null,
+        "goal_description_locked": {
+          "template": null,
+          "template_parameters": []
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": []
+      },
+      {
+        "goal_id": "eel_09",
+        "xp_awarded": 100,
+        "goal_title_locked": null,
+        "goal_description_locked": {
+          "template": null,
+          "template_parameters": []
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": []
+      },
+      {
+        "goal_id": "eel_10",
+        "xp_awarded": 100,
+        "goal_title_locked": null,
+        "goal_description_locked": {
+          "template": null,
+          "template_parameters": []
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": []
+      }
+    ],
+    "milestones": [
+      {
+        "xp_required": 100,
+        "reward_id": "nickname_s09_eel"
+      },
+      {
+        "xp_required": 200,
+        "reward_id": "s9_nameplate_newlove"
+      },
+      {
+        "xp_required": 300,
+        "reward_id": "kudos_bonus_200"
+      },
+      {
+        "xp_required": 400,
+        "reward_id": "bottom_s09_sif_colourfulshoes_01"
+      },
+      {
+        "xp_required": 600,
+        "reward_id": "pattern_s09_30"
+      },
+      {
+        "xp_required": 800,
+        "reward_id": "top_s09_sitb_colourfulcape_01"
+      }
+    ],
+    "tool_tip_image": "ui-liveevents-tooltip-eel",
+    "background_image": "ui-liveevents-bg-eel",
+    "promotional_image": "ui-liveevents-costume-eel",
+    "reward_icon_image": "ui-liveevents-token-eel",
+    "ui_detail_colour": "colour.challenges_green",
+    "id": "le_s9_eel"
+  },
+  {
     "title": "localised_strings.s9_le_koi_title",
     "description": "localised_strings.s9_le_koi_desc",
     "target_ids": [

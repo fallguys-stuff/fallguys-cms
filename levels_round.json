@@ -1509,6 +1509,73 @@
   {
     "display_name": "localised_strings.level_name_airtime",
     "scene_name": "FallGuy_Airtime",
+    "game_rules": "game_rules.round_airtime_s9_crayfish",
+    "level_archetype": "archetype_hunt",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_Grand_Festifall",
+    "ingame_music_event": "MUS_InGame_Grand_Festifall",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_AirTime",
+    "level_badge_name": "AirTime",
+    "level_variation": null,
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.crayfish_three_zones",
+    "timeattack_spawns": null,
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_arena",
+      "level_tags.season_06",
+      "level_tags.slight_lowering"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_score_hoop_race",
+    "dlc_level": null,
+    "id": "round_airtime_s9_crayfish"
+  },
+  {
+    "display_name": "localised_strings.level_name_airtime",
+    "scene_name": "FallGuy_Airtime",
     "dlc_level": null,
     "game_rules": "game_rules.round_airtime_squads",
     "level_archetype": "archetype_hunt",
@@ -5092,6 +5159,73 @@
   {
     "display_name": "localised_strings.level_name_biggest_fan",
     "scene_name": "FallGuy_BiggestFan",
+    "game_rules": "game_rules.round_biggestfan_s9_crayfish",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_Sir_Fall_A_Lot",
+    "ingame_music_event": "MUS_InGame_Sir_Fall_A_Lot",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_BiggestFan",
+    "level_badge_name": "BiggestFan",
+    "level_variation": "levels_variation.variation_biggestfan",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.crayfish_three_zones",
+    "timeattack_spawns": null,
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_track",
+      "level_tags.season_02",
+      "level_tags.slight_featuring"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "dlc_level": null,
+    "id": "round_biggestfan_s9_crayfish"
+  },
+  {
+    "display_name": "localised_strings.level_name_biggest_fan",
+    "scene_name": "FallGuy_BiggestFan",
     "dlc_level": null,
     "game_rules": "game_rules.round_biggestfan",
     "level_archetype": "archetype_race",
@@ -6349,6 +6483,53 @@
   {
     "display_name": "localised_strings.level_name_blastball_arenasurvival",
     "scene_name": "FallGuy_BlastBall_ArenaSurvival",
+    "game_rules": "game_rules.round_blastball_arenasurvival_s9_crayfish",
+    "level_archetype": "archetype_final",
+    "preparation_music_soundbank": "BNK_Music_PreparationPhase_Season_07",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Season_07",
+    "ingame_music_soundbank": "BNK_Music_Falling_Dancefloor",
+    "ingame_music_event": "MUS_InGame_Falling_Dancefloor",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_BlastBall",
+    "level_badge_name": "BlastBallArena",
+    "level_variation": null,
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "timeattack_spawns": null,
+    "tags": [
+      "level_tags.covenant_final",
+      "level_tags.playspace_platform",
+      "level_tags.saftey_nonstarter",
+      "level_tags.saftey_early_final",
+      "level_tags.ss1_final"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_survived",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "medal_description_value": null
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival",
+    "dlc_level": null,
+    "id": "round_blastball_arenasurvival_s9_crayfish"
+  },
+  {
+    "display_name": "localised_strings.level_name_blastball_arenasurvival",
+    "scene_name": "FallGuy_BlastBall_ArenaSurvival",
     "dlc_level": null,
     "game_rules": "game_rules.round_blastball_arenasurvival_squads_survival",
     "level_archetype": "archetype_final",
@@ -6440,7 +6621,7 @@
     "display_name": "localised_strings.level_name_blastball_arenasurvival",
     "scene_name": "FallGuy_BlastBall_ArenaSurvival",
     "game_rules": "game_rules.round_blastball_only_finals_v2_final",
-    "level_archetype": "archetype_survival",
+    "level_archetype": "archetype_final",
     "preparation_music_soundbank": "BNK_Music_PreparationPhase_Season_07",
     "preparation_music_event": "MUS_InGame_PreparationPhase_Season_07",
     "ingame_music_soundbank": "BNK_Music_Falling_Dancefloor",
@@ -11762,6 +11943,63 @@
   {
     "display_name": "localised_strings.level_name_team_tail_tag",
     "scene_name": "FallGuy_ConveyorArena_01",
+    "game_rules": "game_rules.round_conveyor_arena_s9_crayfish",
+    "level_archetype": "archetype_team",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_Beans_Round_Table",
+    "ingame_music_event": "MUS_InGame_Beans_Round_Table",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_TeamTailTag",
+    "level_badge_name": "TailTag",
+    "level_variation": "levels_variation.variation_conveyor_arena",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_lm_three_zones_test_model2",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.default_lm_three_zones",
+    "timeattack_spawns": null,
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.exclusive_item_collection"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 2,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_team_position_01",
+          "medal_description_value": null
+        },
+        {
+          "team_position": 2,
+          "multiplier": 1,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": "localised_strings.medal_context_team_position_02",
+          "medal_description_value": null
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_special_tail_tag",
+    "dlc_level": null,
+    "id": "round_conveyor_arena_s9_crayfish"
+  },
+  {
+    "display_name": "localised_strings.level_name_team_tail_tag",
+    "scene_name": "FallGuy_ConveyorArena_01",
     "dlc_level": null,
     "game_rules": "game_rules.round_conveyor_arena_squads",
     "level_archetype": "archetype_team",
@@ -13740,6 +13978,75 @@
   {
     "display_name": "localised_strings.level_name_dodge_fall",
     "scene_name": "FallGuy_DodgeFall",
+    "game_rules": "game_rules.round_dodge_fall_s9_crayfish",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_Fall_N_Roll",
+    "ingame_music_event": "MUS_InGame_Fall_N_Roll",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_FruitChute",
+    "level_badge_name": "Fruitchute",
+    "level_variation": "levels_variation.variation_dodge_fall",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.crayfish_three_zones",
+    "timeattack_spawns": null,
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_track",
+      "level_tags.saftey_generic_penalty",
+      "level_tags.season_01",
+      "level_tags.ss2_var",
+      "level_tags.contains_collectibles"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "dlc_level": null,
+    "id": "round_dodge_fall_s9_crayfish"
+  },
+  {
+    "display_name": "localised_strings.level_name_dodge_fall",
+    "scene_name": "FallGuy_DodgeFall",
     "dlc_level": null,
     "game_rules": "game_rules.round_dodge_fall_squads",
     "level_archetype": "archetype_race",
@@ -15588,6 +15895,74 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
     "id": "round_door_dash_oriole"
+  },
+  {
+    "display_name": "localised_strings.level_name_door_dash",
+    "scene_name": "FallGuy_DoorDash",
+    "game_rules": "game_rules.round_door_dash_s9_crayfish",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_Fall_N_Roll",
+    "ingame_music_event": "MUS_InGame_Fall_N_Roll",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_DoorRush",
+    "level_badge_name": "DoorDash",
+    "level_variation": "levels_variation.variation_door_dash",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.crayfish_three_zones",
+    "timeattack_spawns": null,
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_track",
+      "level_tags.season_01",
+      "level_tags.ss2_no_var",
+      "level_tags.contains_collectibles"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "dlc_level": null,
+    "id": "round_door_dash_s9_crayfish"
   },
   {
     "display_name": "localised_strings.level_name_door_dash",
@@ -23541,7 +23916,7 @@
     "scene_name": "FallGuy_FallMountain_Hub_Complete",
     "dlc_level": null,
     "game_rules": "game_rules.round_fall_mountain_variants",
-    "level_archetype": "archetype_race",
+    "level_archetype": "archetype_final",
     "preparation_music_soundbank": null,
     "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_Final_Fall",
@@ -23614,7 +23989,7 @@
     "scene_name": "FallGuy_FallMountain_Hub_Complete",
     "dlc_level": null,
     "game_rules": "game_rules.round_fall_mountain_variants_squads_day_at_races",
-    "level_archetype": "archetype_race",
+    "level_archetype": "archetype_final",
     "preparation_music_soundbank": null,
     "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_Final_Fall",
@@ -24098,6 +24473,68 @@
     "fall_feed": "fall_feed_race",
     "timeattack_spawns": null,
     "id": "round_ffa_button_bashers_collectables_ss2_potoo"
+  },
+  {
+    "display_name": "localised_strings.level_name_ffa_button_bashers",
+    "scene_name": "FallGuy_FFA_Button_Bashers",
+    "game_rules": "game_rules.round_ffa_button_bashers_s9_crayfish",
+    "level_archetype": "archetype_hunt",
+    "preparation_music_soundbank": "BNK_Music_PreparationPhase_Season_08",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Season_08",
+    "ingame_music_soundbank": "BNK_Music_Rung_Equip",
+    "ingame_music_event": "MUS_InGame_Rung_Equip",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_FranticFactory",
+    "level_badge_name": "Button_Bashers",
+    "level_variation": "levels_variation.variation_ffa_button_bashers",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.crayfish_three_zones",
+    "timeattack_spawns": null,
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 10
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "dlc_level": null,
+    "tags": [],
+    "id": "round_ffa_button_bashers_s9_crayfish"
   },
   {
     "display_name": "localised_strings.level_name_ffa_button_bashers",
@@ -25794,7 +26231,7 @@
     "display_name": "localised_strings.level_name_floor_fall",
     "scene_name": "FallGuy_FloorFall",
     "game_rules": "game_rules.round_floor_fall_only_finals_v2_final",
-    "level_archetype": "archetype_survival",
+    "level_archetype": "archetype_final",
     "preparation_music_soundbank": null,
     "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_Final_Fall",
@@ -26014,6 +26451,55 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
     "id": "round_floor_fall_oriole"
+  },
+  {
+    "display_name": "localised_strings.level_name_floor_fall",
+    "scene_name": "FallGuy_FloorFall",
+    "game_rules": "game_rules.round_floor_fall_s9_crayfish",
+    "level_archetype": "archetype_final",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_Final_Fall",
+    "ingame_music_event": "MUS_InGame_Final_Fall",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_Hexagone",
+    "level_badge_name": "Hexagone",
+    "level_variation": "levels_variation.variation_floor_fall",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "timeattack_spawns": null,
+    "tags": [
+      "level_tags.covenant_final",
+      "level_tags.playspace_platform",
+      "level_tags.saftey_nonstarter",
+      "level_tags.saftey_early_final",
+      "level_tags.season_01_final",
+      "level_tags.lowered_round",
+      "level_tags.lowered_final"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "medal_description_value": null
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival",
+    "dlc_level": null,
+    "id": "round_floor_fall_s9_crayfish"
   },
   {
     "display_name": "localised_strings.level_name_floor_fall",
@@ -26783,6 +27269,72 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_score_hoop_race",
     "id": "round_follow-the-leader_s6_launch"
+  },
+  {
+    "display_name": "localised_strings.level_name_ftl",
+    "scene_name": "FallGuy_FollowTheLeader_UNPACKED",
+    "game_rules": "game_rules.round_follow-the-leader_s9_crayfish",
+    "level_archetype": "archetype_hunt",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_Grand_Festifall",
+    "ingame_music_event": "MUS_InGame_Grand_Festifall",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_LeadingLight",
+    "level_badge_name": "ScoringBean",
+    "level_variation": "levels_variation.variation_followtheleader",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.crayfish_three_zones",
+    "timeattack_spawns": null,
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_arena",
+      "level_tags.season_06"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_score_hoop_race",
+    "dlc_level": null,
+    "id": "round_follow-the-leader_s9_crayfish"
   },
   {
     "display_name": "localised_strings.level_name_ftl",
@@ -30424,6 +30976,72 @@
   {
     "display_name": "localised_strings.level_name_gauntlet_02",
     "scene_name": "FallGuy_Gauntlet_02_01",
+    "game_rules": "game_rules.round_gauntlet_02_s9_crayfish",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_Fall_N_Roll",
+    "ingame_music_event": "MUS_InGame_Fall_N_Roll",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_Rotatonator",
+    "level_badge_name": "Rotatonator",
+    "level_variation": "levels_variation.variation_gauntlet_02",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.crayfish_three_zones",
+    "timeattack_spawns": null,
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_gauntlet",
+      "level_tags.season_01"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "dlc_level": null,
+    "id": "round_gauntlet_02_s9_crayfish"
+  },
+  {
+    "display_name": "localised_strings.level_name_gauntlet_02",
+    "scene_name": "FallGuy_Gauntlet_02_01",
     "dlc_level": null,
     "game_rules": "game_rules.round_gauntlet_02",
     "level_archetype": "archetype_race",
@@ -32458,6 +33076,74 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
     "id": "round_gauntlet_03_oriole"
+  },
+  {
+    "display_name": "localised_strings.level_name_gauntlet_03",
+    "scene_name": "FallGuy_Gauntlet_03",
+    "game_rules": "game_rules.round_gauntlet_03_s9_crayfish",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_Fall_N_Roll",
+    "ingame_music_event": "MUS_InGame_Fall_N_Roll",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_Whirligig",
+    "level_badge_name": "Whirligig",
+    "level_variation": "levels_variation.variation_gauntlet_03",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": true,
+    "tom_level_variation_overrides": "levels_variation_overrides.toms_variation_over_gauntlet_03",
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.crayfish_three_zones",
+    "timeattack_spawns": null,
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_gauntlet",
+      "level_tags.season_01",
+      "level_tags.ss2_var",
+      "level_tags.contains_collectibles"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "dlc_level": null,
+    "id": "round_gauntlet_03_s9_crayfish"
   },
   {
     "display_name": "localised_strings.level_name_gauntlet_03",
@@ -36292,6 +36978,74 @@
   {
     "display_name": "localised_strings.level_name_tundra_run",
     "scene_name": "FallGuy_Gauntlet_05",
+    "game_rules": "game_rules.round_gauntlet_05_s9_crayfish",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_Skis_On_Beans",
+    "ingame_music_event": "MUS_InGame_Skis_On_Beans",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
+    "extra_ambience_event": "AMB_Season_03_Snow",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_TundraRun",
+    "level_badge_name": "TundraRun",
+    "level_variation": "levels_variation.variation_gauntlet_05",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": true,
+    "tom_level_variation_overrides": "levels_variation_overrides.toms_variation_over_gauntlet_05",
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.crayfish_three_zones",
+    "timeattack_spawns": null,
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_gauntlet",
+      "level_tags.season_03",
+      "level_tags.ss2_var",
+      "level_tags.contains_collectibles"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "dlc_level": null,
+    "id": "round_gauntlet_05_s9_crayfish"
+  },
+  {
+    "display_name": "localised_strings.level_name_tundra_run",
+    "scene_name": "FallGuy_Gauntlet_05",
     "dlc_level": null,
     "game_rules": "game_rules.round_gauntlet_05",
     "level_archetype": "archetype_race",
@@ -36972,7 +37726,7 @@
     "player_name_max_distance": 50,
     "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_TundraRun",
-    "level_badge_name": "TundraRun",
+    "level_badge_name": "TimeAttack",
     "level_variation": "levels_variation.variation_gauntlet_05",
     "level_variation_overrides": "levels_variation_overrides.var_over_gauntlet_05_timeattack_final",
     "tom_level_variation_supported": false,
@@ -38341,6 +39095,72 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
     "id": "round_gauntlet_06_fan_favourites"
+  },
+  {
+    "display_name": "localised_strings.level_name_skyline_stumble",
+    "scene_name": "FallGuy_Gauntlet_06",
+    "game_rules": "game_rules.round_gauntlet_s9_crayfish",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_Falling_Stars",
+    "ingame_music_event": "MUS_InGame_Falling_Stars",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_SkylineStumble",
+    "level_badge_name": "SkylineStumble",
+    "level_variation": "levels_variation.variation_gauntlet_06",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.crayfish_three_zones",
+    "timeattack_spawns": null,
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_gauntlet",
+      "level_tags.season_04"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "dlc_level": null,
+    "id": "round_gauntlet_06_s9_crayfish"
   },
   {
     "display_name": "localised_strings.level_name_skyline_stumble",
@@ -41248,6 +42068,72 @@
   {
     "display_name": "localised_strings.level_name_gauntlet_8",
     "scene_name": "FallGuy_Gauntlet_08",
+    "game_rules": "game_rules.round_gauntlet_08_s9_crayfish",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_Carousel_Stumble",
+    "ingame_music_event": "MUS_InGame_Carousel_Stumble",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_PartyPromenade",
+    "level_badge_name": "BalloonCannon",
+    "level_variation": "levels_variation.variation_gauntlet_08",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.crayfish_three_zones",
+    "timeattack_spawns": null,
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_gauntlet",
+      "level_tags.season_06"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 10
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "dlc_level": null,
+    "id": "round_gauntlet_08_s9_crayfish"
+  },
+  {
+    "display_name": "localised_strings.level_name_gauntlet_8",
+    "scene_name": "FallGuy_Gauntlet_08",
     "dlc_level": null,
     "game_rules": "game_rules.round_gauntlet_08_squads",
     "level_archetype": "archetype_race",
@@ -41271,10 +42157,8 @@
     "timeattack_spawns": null,
     "tags": [
       "level_tags.covenant_free_for_all",
-      "level_tags.playspace_track",
+      "level_tags.playspace_gauntlet",
       "level_tags.season_06",
-      "level_tags.slight_featuring",
-      "level_tags.featured_round",
       "level_tags.s9_var"
     ],
     "bonus": {
@@ -42689,6 +43573,68 @@
   {
     "display_name": "localised_strings.level_name_gauntlet_10",
     "scene_name": "FallGuy_Gauntlet_10",
+    "game_rules": "game_rules.round_gauntlet_10_s9_crayfish",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": "BNK_Music_PreparationPhase_Season_08",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Season_08",
+    "ingame_music_soundbank": "BNK_Music_Cheap_Ethics",
+    "ingame_music_event": "MUS_InGame_Cheap_Ethics",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_SpaceRace",
+    "level_badge_name": "Gauntlet10",
+    "level_variation": "levels_variation.variation_gauntlet_10",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.crayfish_three_zones",
+    "timeattack_spawns": null,
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": null
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": null
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "dlc_level": null,
+    "tags": [],
+    "id": "round_gauntlet_10_s9_crayfish"
+  },
+  {
+    "display_name": "localised_strings.level_name_gauntlet_10",
+    "scene_name": "FallGuy_Gauntlet_10",
     "dlc_level": null,
     "game_rules": "game_rules.round_gauntlet_10_squads",
     "level_archetype": "archetype_race",
@@ -43826,7 +44772,7 @@
     "display_name": "localised_strings.level_name_hexaring",
     "scene_name": "FallGuy_HexARing",
     "game_rules": "game_rules.round_hexaring_only_finals_v2_final",
-    "level_archetype": "archetype_survival",
+    "level_archetype": "archetype_final",
     "preparation_music_soundbank": "BNK_Music_PreparationPhase_Season_07",
     "preparation_music_event": "MUS_InGame_PreparationPhase_Season_07",
     "ingame_music_soundbank": "BNK_Music_Falling_Dancefloor",
@@ -44045,6 +44991,53 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
     "id": "round_hexaring_only_season_6"
+  },
+  {
+    "display_name": "localised_strings.level_name_hexaring",
+    "scene_name": "FallGuy_HexARing",
+    "game_rules": "game_rules.round_hexaring_s9_crayfish",
+    "level_archetype": "archetype_final",
+    "preparation_music_soundbank": "BNK_Music_PreparationPhase_Season_07",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Season_07",
+    "ingame_music_soundbank": "BNK_Music_Falling_Dancefloor",
+    "ingame_music_event": "MUS_InGame_Falling_Dancefloor",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_HexARing",
+    "level_badge_name": "Hex-A-Ring",
+    "level_variation": null,
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "timeattack_spawns": null,
+    "tags": [
+      "level_tags.covenant_final",
+      "level_tags.playspace_platform",
+      "level_tags.saftey_nonstarter",
+      "level_tags.saftey_early_final",
+      "level_tags.ss1_final"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_survived",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "medal_description_value": null
+      }
+    },
+    "visualiser_estimate_percentage_qualification": 74,
+    "visualiser_estimate_variance": 24,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival",
+    "dlc_level": null,
+    "id": "round_hexaring_s9_crayfish"
   },
   {
     "display_name": "localised_strings.level_name_hexaring",
@@ -44501,7 +45494,7 @@
     "display_name": "localised_strings.level_name_hexsnake",
     "scene_name": "FallGuy_HexSnake",
     "game_rules": "game_rules.round_hexsnake_only_finals_v2_final",
-    "level_archetype": "archetype_survival",
+    "level_archetype": "archetype_final",
     "preparation_music_soundbank": "BNK_Music_PreparationPhase_Season_08",
     "preparation_music_event": "MUS_InGame_PreparationPhase_Season_08",
     "ingame_music_soundbank": "BNK_Music_Rung_Equip",
@@ -44673,6 +45666,52 @@
     "dlc_level": null,
     "timeattack_spawns": null,
     "id": "round_hexsnake_only_finals_v2_r3_r4"
+  },
+  {
+    "display_name": "localised_strings.level_name_hexsnake",
+    "scene_name": "FallGuy_HexSnake",
+    "game_rules": "game_rules.round_hexsnake_s9_crayfish",
+    "level_archetype": "archetype_final",
+    "preparation_music_soundbank": "BNK_Music_PreparationPhase_Season_08",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Season_08",
+    "ingame_music_soundbank": "BNK_Music_Rung_Equip",
+    "ingame_music_event": "MUS_InGame_Rung_Equip",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_HexaTerrestrial",
+    "level_badge_name": "HexSnake",
+    "level_variation": "levels_variation.variation_hexsnake",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "timeattack_spawns": null,
+    "tags": [
+      "level_tags.covenant_final",
+      "level_tags.playspace_platform",
+      "level_tags.saftey_nonstarter",
+      "level_tags.saftey_early_final"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "medal_description_value": null
+      }
+    },
+    "visualiser_estimate_percentage_qualification": 74,
+    "visualiser_estimate_variance": 24,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival",
+    "dlc_level": null,
+    "id": "round_hexsnake_s9_crayfish"
   },
   {
     "display_name": "localised_strings.level_name_hexsnake",
@@ -44921,8 +45960,8 @@
     "main_ambience_state": "silent",
     "player_name_max_distance": 50,
     "crown_prompt_max_distance": 100,
-    "loading_screen_name": "Splash_FloorFall",
-    "level_badge_name": "FloorFall",
+    "loading_screen_name": "Splash_HexaTerrestrial",
+    "level_badge_name": "HexSnake",
     "level_variation": "levels_variation.variation_hexsnake",
     "level_variation_overrides": "levels_variation_overrides.var_over_hex_snake_victoriavariation",
     "tom_level_variation_supported": false,
@@ -44930,7 +45969,6 @@
     "collectable_spawn": null,
     "collectable_spawn_overrides": null,
     "timeattack_spawns": null,
-    "tags": [],
     "bonus": {
       "type": "qualification",
       "qualification_tier": {
@@ -44945,6 +45983,7 @@
     "visualiser_estimate_variance": 24,
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
+    "tags": [],
     "id": "round_hexsnake_survival_victoriavariation"
   },
   {
@@ -45010,8 +46049,8 @@
     "main_ambience_state": "silent",
     "player_name_max_distance": 50,
     "crown_prompt_max_distance": 100,
-    "loading_screen_name": "Splash_FloorFall",
-    "level_badge_name": "FloorFall",
+    "loading_screen_name": "Splash_HexaTerrestrial",
+    "level_badge_name": "HexSnake",
     "level_variation": "levels_variation.variation_hexsnake",
     "level_variation_overrides": "levels_variation_overrides.var_over_hex_snake_victoriavariation",
     "tom_level_variation_supported": false,
@@ -46536,6 +47575,66 @@
   {
     "display_name": "localised_strings.level_name_hoopsie_daisy",
     "scene_name": "FallGuy_Hoops_01",
+    "game_rules": "game_rules.round_hoops_s9_crayfish",
+    "level_archetype": "archetype_team",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_Beans_Round_Table",
+    "ingame_music_event": "MUS_InGame_Beans_Round_Table",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_HoopsieDaisy",
+    "level_badge_name": "HoopsieDaisy",
+    "level_variation": "levels_variation.variation_hoops",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_lm_three_zones_test_model2",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.default_lm_three_zones",
+    "timeattack_spawns": null,
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.saftey_late_stage_team_round",
+      "level_tags.exclusive_hoops_jumping",
+      "level_tags.season_01",
+      "level_tags.3_teams"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 2,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_team_position_01",
+          "medal_description_value": null
+        },
+        {
+          "team_position": 2,
+          "multiplier": 1,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": "localised_strings.medal_context_team_position_02",
+          "medal_description_value": null
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_score_hoop",
+    "dlc_level": null,
+    "id": "round_hoops_s9_crayfish"
+  },
+  {
+    "display_name": "localised_strings.level_name_hoopsie_daisy",
+    "scene_name": "FallGuy_Hoops_01",
     "dlc_level": null,
     "game_rules": "game_rules.round_hoops",
     "level_archetype": "archetype_team",
@@ -47516,6 +48615,54 @@
     "fall_feed": null,
     "timeattack_spawns": null,
     "id": "round_hoverboardsurvival2_collectables_ss2_potoo"
+  },
+  {
+    "display_name": "localised_strings.level_name_hoverboardheroes2",
+    "scene_name": "FallGuy_Hoverboard_Survival_2",
+    "game_rules": "game_rules.round_hoverboardsurvival2_s9_crayfish",
+    "level_archetype": "archetype_survival",
+    "preparation_music_soundbank": "BNK_Music_PreparationPhase_Season_08",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Season_08",
+    "ingame_music_soundbank": "BNK_Music_Rung_Equip",
+    "ingame_music_event": "MUS_InGame_Rung_Equip",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_HyperdriveHeroes",
+    "level_badge_name": "HoverboardSurvival2",
+    "level_variation": "levels_variation.variation_hoverboardsurvival_2",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.crayfish_three_zones",
+    "timeattack_spawns": null,
+    "tags": [
+      "level_tags.ss2_round",
+      "level_tags.contains_collectibles",
+      "level_tags.survival_round",
+      "level_tags.exclusive_hoverboard",
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_platform"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_survived",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "medal_description_value": null
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival_race_first_place_only",
+    "dlc_level": null,
+    "id": "round_hoverboardsurvival2_s9_crayfish"
   },
   {
     "display_name": "localised_strings.level_name_hoverboardheroes2",
@@ -48585,6 +49732,57 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival_race_first_place_only",
     "id": "round_hoverboardsurvival_s4_show"
+  },
+  {
+    "display_name": "localised_strings.level_name_hoverboardsurvival",
+    "scene_name": "FallGuy_HoverboardSurvival",
+    "game_rules": "game_rules.round_hoverboardsurvival_s9_crayfish",
+    "level_archetype": "archetype_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_Future_Utobeania",
+    "ingame_music_event": "MUS_InGame_Future_Utobeania",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_HoverboardHeroes",
+    "level_badge_name": "hoverboard_heroes",
+    "level_variation": "levels_variation.variation_hoverboardsurvival",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.crayfish_three_zones",
+    "timeattack_spawns": null,
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.saftey_wild_elimination",
+      "level_tags.playspace_platform",
+      "level_tags.saftey_nonstarter",
+      "level_tags.season_04",
+      "level_tags.survival_round",
+      "level_tags.ss2_no_var",
+      "level_tags.contains_collectibles",
+      "level_tags.exclusive_hoverboard"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_survived",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "medal_description_value": null
+      }
+    },
+    "visualiser_estimate_percentage_qualification": 35,
+    "visualiser_estimate_variance": 20,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival_race_first_place_only",
+    "dlc_level": null,
+    "id": "round_hoverboardsurvival_s9_crayfish"
   },
   {
     "display_name": "localised_strings.level_name_hoverboardsurvival",
@@ -50408,6 +51606,74 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
     "id": "round_iceclimb_event_yeetus"
+  },
+  {
+    "display_name": "localised_strings.level_name_ice_climb",
+    "scene_name": "FallGuy_IceClimb_01",
+    "game_rules": "game_rules.round_iceclimb_s9_crayfish",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_Skis_On_Beans",
+    "ingame_music_event": "MUS_InGame_Skis_On_Beans",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
+    "extra_ambience_event": "AMB_Season_03_Snow",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_FreezyPeak",
+    "level_badge_name": "FreezyPeak",
+    "level_variation": "levels_variation.variation_iceclimb",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.crayfish_three_zones",
+    "timeattack_spawns": null,
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_gauntlet",
+      "level_tags.season_03",
+      "level_tags.ss2_no_var",
+      "level_tags.contains_collectibles"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 10
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "dlc_level": null,
+    "id": "round_iceclimb_s9_crayfish"
   },
   {
     "display_name": "localised_strings.level_name_ice_climb",
@@ -53601,6 +54867,54 @@
   {
     "display_name": "localised_strings.level_name_jump_club",
     "scene_name": "FallGuy_JumpClub_01",
+    "game_rules": "game_rules.round_jump_club_s9_crayfish",
+    "level_archetype": "archetype_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_Fall_For_The_Team",
+    "ingame_music_event": "MUS_InGame_Fall_For_The_Team",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_JumpClub",
+    "level_badge_name": "JumpClub",
+    "level_variation": "levels_variation.variation_jump_club",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.crayfish_three_zones",
+    "timeattack_spawns": null,
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_platform",
+      "level_tags.exclusive_spoke_jump",
+      "level_tags.saftey_nonstarter",
+      "level_tags.season_01",
+      "level_tags.survival_round"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_survived",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "medal_description_value": null
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival",
+    "dlc_level": null,
+    "id": "round_jump_club_s9_crayfish"
+  },
+  {
+    "display_name": "localised_strings.level_name_jump_club",
+    "scene_name": "FallGuy_JumpClub_01",
     "dlc_level": null,
     "game_rules": "game_rules.round_jump_club_satellite_collectibles_solo",
     "level_archetype": "archetype_final",
@@ -54657,7 +55971,7 @@
     "display_name": "localised_strings.level_name_jump_showdown",
     "scene_name": "FallGuy_JumpShowdown_01",
     "game_rules": "game_rules.round_jump_showdown_only_finals_v2_final",
-    "level_archetype": "archetype_survival",
+    "level_archetype": "archetype_final",
     "preparation_music_soundbank": null,
     "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_Final_Fall",
@@ -54829,6 +56143,57 @@
     "dlc_level": null,
     "timeattack_spawns": null,
     "id": "round_jump_showdown_only_finals_v2_r3_r4"
+  },
+  {
+    "display_name": "localised_strings.level_name_jump_showdown",
+    "scene_name": "FallGuy_JumpShowdown_01",
+    "game_rules": "game_rules.round_jump_showdown_s9_crayfish",
+    "level_archetype": "archetype_final",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_Final_Fall",
+    "ingame_music_event": "MUS_InGame_Final_Fall",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_JumpShowdown",
+    "level_badge_name": "JumpClubShowdown",
+    "level_variation": "levels_variation.variation_jump_showdown",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "timeattack_spawns": null,
+    "tags": [
+      "level_tags.covenant_final",
+      "level_tags.playspace_platform",
+      "level_tags.exclusive_spoke_jump",
+      "level_tags.saftey_nonstarter",
+      "level_tags.saftey_early_final",
+      "level_tags.season_01_final",
+      "level_tags.lowered_final",
+      "level_tags.slight_lowering",
+      "level_tags.mid_show_final_enabler"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_survived",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "medal_description_value": null
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival",
+    "dlc_level": null,
+    "id": "round_jump_showdown_s9_crayfish"
   },
   {
     "display_name": "localised_strings.level_name_jump_showdown",
@@ -56330,7 +57695,7 @@
     "scene_name": "FallGuy_Kraken_Attack",
     "dlc_level": null,
     "game_rules": "game_rules.round_kraken_attack_only_finals_v2_r1",
-    "level_archetype": "archetype_final",
+    "level_archetype": "archetype_survival",
     "preparation_music_soundbank": "BNK_Music_PreparationPhase_Season_09",
     "preparation_music_event": "MUS_InGame_PreparationPhase_Season_09",
     "ingame_music_soundbank": "BNK_Music_Critic_Carrot",
@@ -56378,7 +57743,7 @@
     "scene_name": "FallGuy_Kraken_Attack",
     "dlc_level": null,
     "game_rules": "game_rules.round_kraken_attack_only_finals_v2_r2",
-    "level_archetype": "archetype_final",
+    "level_archetype": "archetype_survival",
     "preparation_music_soundbank": "BNK_Music_PreparationPhase_Season_09",
     "preparation_music_event": "MUS_InGame_PreparationPhase_Season_09",
     "ingame_music_soundbank": "BNK_Music_Critic_Carrot",
@@ -56426,7 +57791,7 @@
     "scene_name": "FallGuy_Kraken_Attack",
     "dlc_level": null,
     "game_rules": "game_rules.round_kraken_attack_only_finals_v2_r3_r4",
-    "level_archetype": "archetype_final",
+    "level_archetype": "archetype_survival",
     "preparation_music_soundbank": "BNK_Music_PreparationPhase_Season_09",
     "preparation_music_event": "MUS_InGame_PreparationPhase_Season_09",
     "ingame_music_soundbank": "BNK_Music_Critic_Carrot",
@@ -56468,6 +57833,53 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival",
     "id": "round_kraken_attack_only_finals_v2_r3_r4"
+  },
+  {
+    "display_name": "localised_strings.level_name_kraken_attack",
+    "scene_name": "FallGuy_Kraken_Attack",
+    "game_rules": "game_rules.round_kraken_attack_s9_crayfish",
+    "level_archetype": "archetype_final",
+    "preparation_music_soundbank": "BNK_Music_PreparationPhase_Season_09",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Season_09",
+    "ingame_music_soundbank": "BNK_Music_Critic_Carrot",
+    "ingame_music_event": "MUS_InGame_Critic_Carrot",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_KrakenAttack",
+    "level_badge_name": "KrakenAttack",
+    "level_variation": null,
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_survived",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "medal_description_value": null
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival",
+    "timeattack_spawns": null,
+    "tags": [
+      "level_tags.covenant_final",
+      "level_tags.playspace_platform",
+      "level_tags.saftey_nonstarter",
+      "level_tags.saftey_early_final",
+      "level_tags.s9_round"
+    ],
+    "dlc_level": null,
+    "id": "round_kraken_attack_s9_crayfish"
   },
   {
     "display_name": "localised_strings.level_name_kraken_attack",
@@ -57590,6 +59002,75 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_survival_race",
     "id": "round_lava_oriole"
+  },
+  {
+    "display_name": "localised_strings.level_name_floor_is_lava",
+    "scene_name": "FallGuy_Lava_02",
+    "game_rules": "game_rules.round_lava_s9_crayfish",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_Fall_N_Roll",
+    "ingame_music_event": "MUS_InGame_Fall_N_Roll",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_FloorIsLava",
+    "level_badge_name": "FloorIsLava",
+    "level_variation": "levels_variation.variation_lava",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.crayfish_three_zones",
+    "timeattack_spawns": null,
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_gauntlet",
+      "level_tags.saftey_wild_elimination",
+      "level_tags.unique_slime_climb",
+      "level_tags.season_01",
+      "level_tags.s9_var"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": 35,
+    "visualiser_estimate_variance": 20,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival_race",
+    "dlc_level": null,
+    "id": "round_lava_s9_crayfish"
   },
   {
     "display_name": "localised_strings.level_name_floor_is_lava",
@@ -60952,6 +62433,74 @@
     "display_name": "localised_strings.level_name_pipedup",
     "scene_name": "FallGuy_PipedUp",
     "dlc_level": null,
+    "game_rules": "game_rules.round_pipedup_s9_crayfish",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_Carousel_Stumble",
+    "ingame_music_event": "MUS_InGame_Carousel_Stumble",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_PipeDream",
+    "level_badge_name": "Pipe",
+    "level_variation": "levels_variation.variation_pipedup",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.crayfish_three_zones",
+    "timeattack_spawns": null,
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_track",
+      "level_tags.season_06",
+      "level_tags.ss2_no_var",
+      "level_tags.contains_collectibles"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 10
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "id": "round_pipedup_s9_crayfish"
+  },
+  {
+    "display_name": "localised_strings.level_name_pipedup",
+    "scene_name": "FallGuy_PipedUp",
+    "dlc_level": null,
     "game_rules": "game_rules.round_pipedup_squads",
     "level_archetype": "archetype_race",
     "preparation_music_soundbank": null,
@@ -63162,6 +64711,54 @@
     "id": "round_robotrampage_event_only_survival_s61_final"
   },
   {
+    "display_name": "localised_strings.level_name_robot_rampage",
+    "scene_name": "FallGuy_RobotRampage_Arena2",
+    "game_rules": "game_rules.round_robotrampage_arena_2_s9_crayfish",
+    "level_archetype": "archetype_survival",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_DnB_Drums_Beans",
+    "ingame_music_event": "MUS_InGame_DnB_Drums_Beans",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_05",
+    "extra_ambience_event": "AMB_Season_05_Jungle",
+    "main_ambience_state": "lower_volume",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_StompinGround",
+    "level_badge_name": "StompinGround",
+    "level_variation": "levels_variation.variation_robotrampage",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.crayfish_three_zones",
+    "timeattack_spawns": null,
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.season_05",
+      "level_tags.survival_round",
+      "level_tags.slight_lowering"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_survived",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "medal_description_value": null
+      }
+    },
+    "visualiser_estimate_percentage_qualification": 40,
+    "visualiser_estimate_variance": 20,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival",
+    "dlc_level": null,
+    "id": "round_robotrampage_s9_crayfish"
+  },
+  {
     "display_name": "localised_strings.level_name_rock_n_roll",
     "scene_name": "FallGuy_RocknRoll",
     "dlc_level": null,
@@ -64680,6 +66277,68 @@
     "fall_feed": "fall_feed_race",
     "timeattack_spawns": null,
     "id": "round_satellitehoppers_collectables_ss2_potoo"
+  },
+  {
+    "display_name": "localised_strings.level_name_satellitehoppers",
+    "scene_name": "FallGuy_SatelliteHoppers",
+    "game_rules": "game_rules.round_satellitehoppers_s9_crayfish",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": "BNK_Music_PreparationPhase_Season_08",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Season_08",
+    "ingame_music_soundbank": "BNK_Music_Cheap_Ethics",
+    "ingame_music_event": "MUS_InGame_Cheap_Ethics",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_CosmicHighway",
+    "level_badge_name": "SatelliteHoppers",
+    "level_variation": "levels_variation.variation_satellitehoppers",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.crayfish_three_zones",
+    "timeattack_spawns": null,
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "dlc_level": null,
+    "tags": [],
+    "id": "round_satellitehoppers_s9_crayfish"
   },
   {
     "display_name": "localised_strings.level_name_satellitehoppers",
@@ -69026,6 +70685,73 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
     "id": "round_shortcircuit_oriole"
+  },
+  {
+    "display_name": "localised_strings.level_name_short_circuit",
+    "scene_name": "FallGuy_ShortCircuit",
+    "game_rules": "game_rules.round_shortcircuit_s9_crayfish",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_Falling_Stars",
+    "ingame_music_event": "MUS_InGame_Falling_Stars",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_ShortCircuit",
+    "level_badge_name": "ShortCircuit",
+    "level_variation": "levels_variation.variation_shortcircuit",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.crayfish_three_zones",
+    "timeattack_spawns": null,
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_track",
+      "level_tags.playspace_gauntlet",
+      "level_tags.season_04"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 10
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "dlc_level": null,
+    "id": "round_shortcircuit_s9_crayfish"
   },
   {
     "display_name": "localised_strings.level_name_short_circuit",
@@ -77885,6 +79611,73 @@
   {
     "display_name": "localised_strings.level_name_tail_tag",
     "scene_name": "FallGuy_TailTag_2",
+    "game_rules": "game_rules.round_tail_tag_s9_crayfish",
+    "level_archetype": "archetype_hunt",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_Survive_The_Fall",
+    "ingame_music_event": "MUS_InGame_Survive_The_Fall",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_TailTag",
+    "level_badge_name": "TailTag",
+    "level_variation": "levels_variation.variation_tail_tag",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.crayfish_three_zones",
+    "timeattack_spawns": null,
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_arena",
+      "level_tags.exclusive_steal_tag",
+      "level_tags.saftey_nonstarter",
+      "level_tags.level_tailtag",
+      "level_tags.season_01"
+    ],
+    "bonus": {
+      "type": "possession",
+      "possession_tiers": [
+        {
+          "possession": 80,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_tailtime_01",
+          "medal_description": "localised_strings.medal_context_possession",
+          "medal_description_value": 80
+        },
+        {
+          "possession": 60,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_tailtime_02",
+          "medal_description": "localised_strings.medal_context_possession",
+          "medal_description_value": 60
+        },
+        {
+          "possession": 30,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_tailtime_03",
+          "medal_description": "localised_strings.medal_context_possession",
+          "medal_description_value": 30
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_special_tail_tag",
+    "dlc_level": null,
+    "id": "round_tail_tag_s9_crayfish"
+  },
+  {
+    "display_name": "localised_strings.level_name_tail_tag",
+    "scene_name": "FallGuy_TailTag_2",
     "dlc_level": null,
     "game_rules": "game_rules.round_tail_tag",
     "level_archetype": "archetype_hunt",
@@ -84578,7 +86371,7 @@
     "display_name": "localised_strings.level_name_roll_off",
     "scene_name": "FallGuy_Tunnel_Final",
     "game_rules": "game_rules.round_tunnel_final_only_finals_v2_final",
-    "level_archetype": "archetype_survival",
+    "level_archetype": "archetype_final",
     "preparation_music_soundbank": null,
     "preparation_music_event": null,
     "ingame_music_soundbank": "BNK_Music_Final_Fall",
@@ -84662,6 +86455,54 @@
     "dlc_level": null,
     "timeattack_spawns": null,
     "id": "round_tunnel_final_only_finals_v2_r3_r4"
+  },
+  {
+    "display_name": "localised_strings.level_name_roll_off",
+    "scene_name": "FallGuy_Tunnel_Final",
+    "game_rules": "game_rules.round_tunnel_final_s9_crayfish",
+    "level_archetype": "archetype_final",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_Final_Fall",
+    "ingame_music_event": "MUS_InGame_Final_Fall",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_RollOff",
+    "level_badge_name": "RolloutFinal",
+    "level_variation": "levels_variation.variation_tunnel_final",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": null,
+    "collectable_spawn_overrides": null,
+    "timeattack_spawns": null,
+    "tags": [
+      "level_tags.covenant_final",
+      "level_tags.playspace_platform",
+      "level_tags.saftey_nonstarter",
+      "level_tags.exclusive_roll_out",
+      "level_tags.season_03_final",
+      "level_tags.lowered_final"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 1,
+        "badge": "gold",
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "medal_description_value": null
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_survival",
+    "dlc_level": null,
+    "id": "round_tunnel_final_s9_crayfish"
   },
   {
     "display_name": "localised_strings.level_name_roll_off",
@@ -87609,6 +89450,72 @@
     "visualiser_estimate_weighting": 1,
     "fall_feed": "fall_feed_race",
     "id": "round_wall_guys_oriole"
+  },
+  {
+    "display_name": "localised_strings.level_name_wall_guys",
+    "scene_name": "FallGuy_WallGuys",
+    "game_rules": "game_rules.round_wall_guys_s9_crayfish",
+    "level_archetype": "archetype_race",
+    "preparation_music_soundbank": null,
+    "preparation_music_event": null,
+    "ingame_music_soundbank": "BNK_Music_Sir_Fall_A_Lot",
+    "ingame_music_event": "MUS_InGame_Sir_Fall_A_Lot",
+    "extra_ambience_soundbank": null,
+    "extra_ambience_event": null,
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_WallGuys",
+    "level_badge_name": "WallGuys",
+    "level_variation": "levels_variation.variation_wall_guys",
+    "level_variation_overrides": null,
+    "tom_level_variation_supported": false,
+    "tom_level_variation_overrides": null,
+    "collectable_spawn": "collectable_spawn.default_three_zones",
+    "collectable_spawn_overrides": "collectable_spawn_overrides.crayfish_three_zones",
+    "timeattack_spawns": null,
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_track",
+      "level_tags.season_02"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 3,
+          "badge": "gold",
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 10
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 2,
+          "badge": "silver",
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 1,
+          "badge": "bronze",
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50
+        }
+      ],
+      "medal_discription": null,
+      "medal_description_value": null
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "fall_feed": "fall_feed_race",
+    "dlc_level": null,
+    "id": "round_wall_guys_s9_crayfish"
   },
   {
     "display_name": "localised_strings.level_name_wall_guys",
