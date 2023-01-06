@@ -44,6 +44,25 @@
     },
     "config": {
       "type": "relative",
+      "parent_schedule_id": "s9_lts_schedule_hexathon",
+      "schedule_anchor_point": "start",
+      "parent_schedule_anchor_point": "end",
+      "schedule_length_unit": "day",
+      "schedule_length_unit_multiplier": 3,
+      "offset": {
+        "unit": "day",
+        "unit_multiplier": 15
+      }
+    },
+    "id": "s9_lts_schedule_final_marathon_c"
+  },
+  {
+    "item": {
+      "group_id": "matchmaking_gates",
+      "item_id": "s9_gate_finals_marathon"
+    },
+    "config": {
+      "type": "relative",
       "parent_schedule_id": "s9_lts_schedule_volleyfall_trials",
       "schedule_anchor_point": "start",
       "parent_schedule_anchor_point": "end",
@@ -145,25 +164,6 @@
   {
     "item": {
       "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_volleyfall_trials"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "s9_lts_schedule_hexathon",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 15
-      }
-    },
-    "id": "s9_lts_schedule_volleyfall_trials_b"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
       "item_id": "s9_gate_xtreme_solos"
     },
     "config": {
@@ -175,7 +175,7 @@
       "schedule_length_unit_multiplier": 2,
       "offset": {
         "unit": "day",
-        "unit_multiplier": 2
+        "unit_multiplier": 6
       }
     },
     "id": "s9_lts_schedule_xtreme_solos"
@@ -535,7 +535,7 @@
       "schedule_length_unit_multiplier": 4,
       "offset": {
         "unit": "day",
-        "unit_multiplier": 4
+        "unit_multiplier": 2
       }
     },
     "id": "show_s9_lets_get_kraken_1"
