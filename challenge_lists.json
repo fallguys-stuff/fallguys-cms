@@ -112,6 +112,62 @@
   },
   {
     "challenge_pool_ids": [
+      "daily_pool_s9_haddock"
+    ],
+    "challenge_list_ui_id": "challenge_list_ui.common_daily",
+    "refresh_interval_config": {
+      "type": "daily",
+      "multiplier": 1
+    },
+    "should_renew": false,
+    "rarity_distribution": [
+      {
+        "rarity": "special",
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      },
+      {
+        "rarity": "event_haddock_rarity_01",
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      },
+      {
+        "rarity": "uncommon_fame",
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      },
+      {
+        "rarity": "rare_fame",
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      },
+      {
+        "rarity": "rare_kudos",
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      },
+      {
+        "rarity": "epic_kudos",
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      }
+    ],
+    "id": "daily_challenges_list_s9_haddock"
+  },
+  {
+    "challenge_pool_ids": [
       "daily_pool_ss1_default"
     ],
     "challenge_list_ui_id": "challenge_list_ui.common_daily",
@@ -901,6 +957,35 @@
       }
     ],
     "id": "daily_prime_1"
+  },
+  {
+    "challenge_list_ui_id": "challenge_list_ui.event_haddock",
+    "refresh_interval_config": {
+      "type": "indefinite"
+    },
+    "should_renew": false,
+    "challenge_pool_ids": [
+      "event_pool_s9_haddock_meta",
+      "event_pool_s9_haddock"
+    ],
+    "rarity_distribution": [
+      {
+        "rarity": "event_haddock_rarity_01",
+        "required_number": 2,
+        "cooldown_interval_config": {
+          "type": "daily",
+          "multiplier": 1
+        }
+      },
+      {
+        "rarity": "event_haddock_meta_rarity",
+        "required_number": 4,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      }
+    ],
+    "id": "event_challenges_list_haddock_s9"
   },
   {
     "challenge_pool_ids": [

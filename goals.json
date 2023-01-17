@@ -1538,6 +1538,26 @@
     "id": "daily_play_shows"
   },
   {
+    "player_action_id": "play_show_any",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_027_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "title": null,
+    "challenge_tags": [
+      "haddock_challenge_tag",
+      "daily_challenge"
+    ],
+    "id": "daily_play_shows_haddock"
+  },
+  {
     "player_action_id": "play_show_any_solos",
     "target": {
       "type": "aggregate",
@@ -3903,6 +3923,258 @@
     "title": "localised_strings.callenge_title_eel_03",
     "challenge_tags": [],
     "id": "eel_10"
+  },
+  {
+    "player_action_id": "any_show_party_haddock",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "title": null,
+    "description": "localised_strings.challenge_desc_027_generic_party_repeatable",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_refresh_daily"
+      }
+    ],
+    "challenge_tags": [
+      "haddock_challenge_tag"
+    ],
+    "id": "event_haddock_01"
+  },
+  {
+    "player_action_id": "any_solo_show_party_haddock",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "title": null,
+    "description": "localised_strings.challenge_desc_027_generic_party_repeatable",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_solos_show"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_refresh_daily"
+      }
+    ],
+    "challenge_tags": [
+      "haddock_challenge_tag"
+    ],
+    "id": "event_haddock_02"
+  },
+  {
+    "player_action_id": "any_squad_show_party_haddock",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "title": null,
+    "description": "localised_strings.challenge_desc_027_generic_party_repeatable",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_squads_show"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_refresh_daily"
+      }
+    ],
+    "challenge_tags": [
+      "haddock_challenge_tag"
+    ],
+    "id": "event_haddock_03"
+  },
+  {
+    "player_action_id": "race_rounds_party_haddock",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "title": null,
+    "description": "localised_strings.challenge_desc_027_generic_party_repeatable",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_round_type_race"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_refresh_daily"
+      }
+    ],
+    "challenge_tags": [
+      "haddock_challenge_tag"
+    ],
+    "id": "event_haddock_04"
+  },
+  {
+    "player_action_id": "qualify_any_round_party_haddock",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "title": null,
+    "description": "localised_strings.challenge_desc_004_party_02_repeatable",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_refresh_daily"
+      }
+    ],
+    "challenge_tags": [
+      "haddock_challenge_tag"
+    ],
+    "id": "event_haddock_05"
+  },
+  {
+    "player_action_id": "qualify_race_round_party_haddock",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "title": null,
+    "description": "localised_strings.challenge_desc_004_party_02_repeatable",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_round_type_race"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_refresh_daily"
+      }
+    ],
+    "challenge_tags": [
+      "haddock_challenge_tag"
+    ],
+    "id": "event_haddock_06"
+  },
+  {
+    "player_action_id": "reach_round_party_haddock",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "title": null,
+    "description": "localised_strings.challenge_desc_004_round_number_party_repeatable",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_refresh_daily"
+      }
+    ],
+    "challenge_tags": [
+      "haddock_challenge_tag"
+    ],
+    "id": "event_haddock_07"
+  },
+  {
+    "player_action_id": "play_rounds_party_haddock",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "title": null,
+    "description": "localised_strings.challenge_desc_027_generic_party_repeatable",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_refresh_daily"
+      }
+    ],
+    "challenge_tags": [
+      "haddock_challenge_tag"
+    ],
+    "id": "event_haddock_08"
+  },
+  {
+    "player_action_id": "haddock_meta_challenge",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "title": null,
+    "description": "localised_strings.challenge_desc_challenge_event_meta_001",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_rarity_haddock_02"
+      }
+    ],
+    "challenge_tags": [],
+    "id": "event_haddock_meta_01"
+  },
+  {
+    "player_action_id": "haddock_meta_challenge",
+    "target": {
+      "type": "aggregate",
+      "value": 4
+    },
+    "title": null,
+    "description": "localised_strings.challenge_desc_challenge_event_meta_002",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_rarity_haddock_02"
+      }
+    ],
+    "challenge_tags": [],
+    "id": "event_haddock_meta_02"
+  },
+  {
+    "player_action_id": "haddock_meta_challenge",
+    "target": {
+      "type": "aggregate",
+      "value": 7
+    },
+    "title": null,
+    "description": "localised_strings.challenge_desc_challenge_event_meta_002",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_rarity_haddock_02"
+      }
+    ],
+    "challenge_tags": [],
+    "id": "event_haddock_meta_03"
+  },
+  {
+    "player_action_id": "haddock_meta_challenge",
+    "target": {
+      "type": "aggregate",
+      "value": 10
+    },
+    "title": null,
+    "description": "localised_strings.challenge_desc_challenge_event_meta_002",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_rarity_haddock_02"
+      }
+    ],
+    "challenge_tags": [],
+    "id": "event_haddock_meta_04"
   },
   {
     "player_action_id": "play_round_wobble_01",
