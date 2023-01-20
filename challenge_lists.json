@@ -112,7 +112,8 @@
   },
   {
     "challenge_pool_ids": [
-      "daily_pool_s9_haddock"
+      "daily_pool_s9_haddock",
+      "event_pool_s9_haddock_daily"
     ],
     "challenge_list_ui_id": "challenge_list_ui.common_daily",
     "refresh_interval_config": {
@@ -131,6 +132,13 @@
       {
         "rarity": "event_haddock_rarity_01",
         "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      },
+      {
+        "rarity": "event_haddock_rarity_02",
+        "required_number": 2,
         "cooldown_interval_config": {
           "type": "none"
         }
