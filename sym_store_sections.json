@@ -3166,7 +3166,7 @@
   {
     "name": "storesection_broccolikungfu_name",
     "storefront": "ss003_storefront_featured",
-    "order_preference": 281,
+    "order_preference": 1000,
     "section_height": 2,
     "show_refresh_timer": true,
     "refresh_cycle_length_seconds": null,
@@ -6351,7 +6351,7 @@
   {
     "name": "storesection_title_kid_rocket_duo",
     "storefront": "ss003_storefront_featured",
-    "order_preference": 256,
+    "order_preference": 995,
     "section_height": 2,
     "show_refresh_timer": true,
     "refresh_cycle_length_seconds": null,
@@ -10188,6 +10188,62 @@
       "ss3_entire_dates"
     ],
     "id": "ss003_itemshop_dailies"
+  },
+  {
+    "name": "sym_storesection_title_daily",
+    "storefront": "ss003_storefront_item_shop",
+    "order_preference": 50,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "refresh_cycle_length_seconds": 86400,
+    "bundle_slots": [
+      {
+        "bundle_slot": "slot_pool_single_uppers",
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        }
+      },
+      {
+        "bundle_slot": "slot_pool_single_lowers",
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        }
+      },
+      {
+        "bundle_slot": "slot_pool_patterns_k",
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        }
+      },
+      {
+        "bundle_slot": "slot_pool_color_faceplate_k",
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        }
+      },
+      {
+        "bundle_slot": "slot_pool_nameplate_k",
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 1
+        }
+      },
+      {
+        "bundle_slot": "slot_pool_nickname_k",
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 1
+        }
+      }
+    ],
+    "target_ids": [
+      "s9_itemshop_singles_to_end_season"
+    ],
+    "id": "ss003_itemshop_dailies_single_items"
   },
   {
     "name": "sym_storesection_title_seasonbundles",
