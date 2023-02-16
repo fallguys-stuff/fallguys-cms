@@ -3634,6 +3634,35 @@
   {
     "tag_score": [
       {
+        "tag": "level_tags.covenant_team",
+        "bonus": 10000,
+        "repeat_malus": 0,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "before_stage",
+          "setting": {
+            "stage": 3
+          }
+        }
+      },
+      {
+        "tag": "level_tags.covenant_final",
+        "bonus": 1000,
+        "repeat_malus": 0,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "after_stage",
+          "setting": {
+            "stage": 4
+          }
+        }
+      }
+    ],
+    "id": "tag_weightings_fallball"
+  },
+  {
+    "tag_score": [
+      {
         "tag": "level_tags.covenant_free_for_all",
         "bonus": 2000,
         "repeat_malus": 0,
