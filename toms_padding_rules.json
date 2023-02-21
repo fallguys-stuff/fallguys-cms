@@ -2,11 +2,11 @@
   {
     "enabled": true,
     "required_number_of_human_players": 1,
-    "activate_after": 0,
+    "initial_toms_to_queue": 10,
     "max_toms_to_queue": 10,
+    "activate_after": 0,
     "time_between_padding_start_min": 0.1,
     "time_between_padding_start_max": 0.1,
-    "initial_toms_to_queue": 10,
     "id": "10_toms_round_1"
   },
   {
@@ -32,11 +32,11 @@
   {
     "enabled": false,
     "required_number_of_human_players": 1,
-    "activate_after": 1,
+    "initial_toms_to_queue": 0,
     "max_toms_to_queue": 0,
+    "activate_after": 1,
     "time_between_padding_start_min": 0.5,
     "time_between_padding_start_max": 1.5,
-    "initial_toms_to_queue": 0,
     "id": "default"
   },
   {
@@ -72,21 +72,41 @@
   {
     "enabled": true,
     "required_number_of_human_players": 1,
+    "initial_toms_to_queue": 10,
+    "max_toms_to_queue": 10,
     "activate_after": 0,
-    "max_toms_to_queue": 20,
     "time_between_padding_start_min": 0.1,
     "time_between_padding_start_max": 0.1,
+    "id": "up_to_10_toms"
+  },
+  {
+    "enabled": true,
+    "required_number_of_human_players": 1,
+    "initial_toms_to_queue": 18,
+    "max_toms_to_queue": 18,
+    "activate_after": 0,
+    "time_between_padding_start_min": 0.1,
+    "time_between_padding_start_max": 0.1,
+    "id": "up_to_18_toms"
+  },
+  {
+    "enabled": true,
+    "required_number_of_human_players": 1,
     "initial_toms_to_queue": 20,
+    "max_toms_to_queue": 20,
+    "activate_after": 0,
+    "time_between_padding_start_min": 0.1,
+    "time_between_padding_start_max": 0.1,
     "id": "up_to_20_toms"
   },
   {
     "enabled": true,
     "required_number_of_human_players": 1,
-    "activate_after": 0,
+    "initial_toms_to_queue": 30,
     "max_toms_to_queue": 30,
+    "activate_after": 0,
     "time_between_padding_start_min": 0.1,
     "time_between_padding_start_max": 0.1,
-    "initial_toms_to_queue": 30,
     "id": "up_to_30_toms"
   },
   {
@@ -98,5 +118,15 @@
     "time_between_padding_start_max": 1.5,
     "initial_toms_to_queue": 20,
     "id": "up_to_40_toms"
+  },
+  {
+    "enabled": true,
+    "required_number_of_human_players": 1,
+    "initial_toms_to_queue": 9,
+    "max_toms_to_queue": 9,
+    "activate_after": 0,
+    "time_between_padding_start_min": 0.1,
+    "time_between_padding_start_max": 0.1,
+    "id": "up_to_9_toms"
   }
 ]

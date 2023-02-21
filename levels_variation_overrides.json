@@ -19449,6 +19449,43 @@
         "undefined_weightings_behaviour": "set_to_zero",
         "weightings": [
           {
+            "key": "Original",
+            "weighting": 100
+          },
+          {
+            "key": "DoubleEnded",
+            "weighting": 0
+          },
+          {
+            "key": "TripleEnded",
+            "weighting": 0
+          }
+        ]
+      },
+      {
+        "key": "Spawners",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          },
+          {
+            "key": "BerryBlasters",
+            "weighting": 0
+          }
+        ]
+      }
+    ],
+    "id": "var_over_jump_club_onboarding"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "Spinner",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
             "key": "Thrusters",
             "weighting": 0
           }

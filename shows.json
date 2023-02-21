@@ -7803,26 +7803,28 @@
     "show_description": "localised_strings.show_desc_main",
     "show_image": "MainShow",
     "show_image_cms": "show_selector_show_mainshow",
-    "default_episode": "levels_episode.episode_solo_show_s9",
-    "episode_reward_settings_id": "solos",
+    "hide_countdown": true,
     "min_party_size": 1,
     "max_party_size": 4,
     "size": {
-      "type": "default"
+      "type": "override",
+      "min_players": 36,
+      "max_players": 40
     },
     "private_lobby_size": {
       "type": "override",
       "min_players": 5,
-      "max_players": 60
+      "max_players": 40
     },
     "show_type": {
       "showtype_switch": "individual"
     },
+    "default_episode": "levels_episode.episode_solo_show_s9_40",
+    "episode_reward_settings_id": "solos",
     "themeable_override": null,
     "opens_at": "2020-01-01T09:00:00",
     "closes_at": "2050-01-01T09:00:00",
     "skill_score_factor_override": null,
-    "hide_countdown": true,
     "id": "main_show"
   },
   {
@@ -7853,35 +7855,6 @@
     "closes_at": "2030-01-01T09:00:00",
     "skill_score_factor_override": null,
     "id": "main_show_2player"
-  },
-  {
-    "show_name": "localised_strings.show_name_main",
-    "show_description": "localised_strings.show_desc_main",
-    "show_image": "MainShow",
-    "show_image_cms": "show_selector_show_mainshow",
-    "hide_countdown": false,
-    "min_party_size": 1,
-    "max_party_size": 4,
-    "size": {
-      "type": "override",
-      "min_players": 40,
-      "max_players": 40
-    },
-    "private_lobby_size": {
-      "type": "override",
-      "min_players": 12,
-      "max_players": 60
-    },
-    "show_type": {
-      "showtype_switch": "individual"
-    },
-    "default_episode": "levels_episode.episode_content_complete_40",
-    "episode_reward_settings_id": "solos",
-    "themeable_override": null,
-    "opens_at": "2020-01-01T09:00:00",
-    "closes_at": "2030-01-01T09:00:00",
-    "skill_score_factor_override": null,
-    "id": "main_show_40"
   },
   {
     "show_name": "localised_strings.show_title_solo_show",

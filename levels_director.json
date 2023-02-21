@@ -530,6 +530,29 @@
     "ideal_player_count_weighting": 1,
     "disqualification_score_mul": 1,
     "phantom_disqualification_percentage_for_survival_rounds": 0,
+    "tag_weighting": "level_tag_weightings.tag_weightings_solo_show_s9_40",
+    "max_number_of_rounds_for_toms": 2,
+    "bucket_override_max_tom_rounds": [
+      {
+        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_lowest",
+        "max_tom_rounds": 2
+      },
+      {
+        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_mid",
+        "max_tom_rounds": 1
+      },
+      {
+        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_high",
+        "max_tom_rounds": 0
+      }
+    ],
+    "id": "director_solo_show_s9_40"
+  },
+  {
+    "select_rounds_once_only": true,
+    "ideal_player_count_weighting": 1,
+    "disqualification_score_mul": 1,
+    "phantom_disqualification_percentage_for_survival_rounds": 0,
     "max_number_of_rounds_for_toms": 2,
     "bucket_override_max_tom_rounds": [
       {
