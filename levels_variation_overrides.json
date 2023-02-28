@@ -19677,6 +19677,41 @@
     "set_switchers_overrides": [
       {
         "key": "Outside",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Platforms",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Easy",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Spinners",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Slower",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_over_jump_showdown_onboarding"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "Outside",
         "undefined_weightings_behaviour": "use_defaults",
         "weightings": [
           {
