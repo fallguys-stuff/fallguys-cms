@@ -1592,6 +1592,26 @@
     "id": "daily_play_shows_squads"
   },
   {
+    "player_action_id": "play_show_any",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_027_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "title": null,
+    "challenge_tags": [
+      "stingray_challenge_tag",
+      "daily_challenge"
+    ],
+    "id": "daily_play_shows_stingray"
+  },
+  {
     "player_action_id": "play_show_main",
     "target": {
       "type": "aggregate",
@@ -4271,6 +4291,188 @@
     ],
     "challenge_tags": [],
     "id": "event_haddock_meta_04"
+  },
+  {
+    "player_action_id": "any_show_party_haddock",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "title": null,
+    "description": "localised_strings.challenge_desc_027_generic_party_repeatable",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [
+      "stingray_challenge_tag"
+    ],
+    "id": "event_stingray_01"
+  },
+  {
+    "player_action_id": "race_rounds_party_haddock",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "title": null,
+    "description": "localised_strings.challenge_desc_027_generic_party_repeatable",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_round_type_race"
+      }
+    ],
+    "challenge_tags": [
+      "stingray_challenge_tag"
+    ],
+    "id": "event_stingray_02"
+  },
+  {
+    "player_action_id": "qualify_any_round_party_haddock",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "title": null,
+    "description": "localised_strings.challenge_desc_004_party_02_repeatable",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      }
+    ],
+    "challenge_tags": [
+      "stingray_challenge_tag"
+    ],
+    "id": "event_stingray_03"
+  },
+  {
+    "player_action_id": "qualify_race_round_party_haddock",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "title": null,
+    "description": "localised_strings.challenge_desc_004_party_02_repeatable",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_round_type_race"
+      }
+    ],
+    "challenge_tags": [
+      "stingray_challenge_tag"
+    ],
+    "id": "event_stingray_04"
+  },
+  {
+    "player_action_id": "reach_round_party_haddock",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "title": null,
+    "description": "localised_strings.challenge_desc_004_round_number_party_repeatable",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      }
+    ],
+    "challenge_tags": [
+      "stingray_challenge_tag"
+    ],
+    "id": "event_stingray_05"
+  },
+  {
+    "player_action_id": "play_rounds_party_haddock",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "title": null,
+    "description": "localised_strings.challenge_desc_027_generic_party_repeatable",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      }
+    ],
+    "challenge_tags": [
+      "stingray_challenge_tag"
+    ],
+    "id": "event_stingray_06"
+  },
+  {
+    "player_action_id": "stingray_meta_challenge",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "title": null,
+    "description": "localised_strings.challenge_desc_challenge_event_meta_001",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_rarity_stingray"
+      }
+    ],
+    "challenge_tags": [],
+    "id": "event_stingray_meta_01"
+  },
+  {
+    "player_action_id": "stingray_meta_challenge",
+    "target": {
+      "type": "aggregate",
+      "value": 4
+    },
+    "title": null,
+    "description": "localised_strings.challenge_desc_challenge_event_meta_002",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_rarity_stingray"
+      }
+    ],
+    "challenge_tags": [],
+    "id": "event_stingray_meta_02"
+  },
+  {
+    "player_action_id": "stingray_meta_challenge",
+    "target": {
+      "type": "aggregate",
+      "value": 7
+    },
+    "title": null,
+    "description": "localised_strings.challenge_desc_challenge_event_meta_002",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_rarity_stingray"
+      }
+    ],
+    "challenge_tags": [],
+    "id": "event_stingray_meta_03"
+  },
+  {
+    "player_action_id": "stingray_meta_challenge",
+    "target": {
+      "type": "aggregate",
+      "value": 10
+    },
+    "title": null,
+    "description": "localised_strings.challenge_desc_challenge_event_meta_002",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_rarity_stingray"
+      }
+    ],
+    "challenge_tags": [],
+    "id": "event_stingray_meta_04"
   },
   {
     "player_action_id": "play_round_wobble_01",
@@ -11256,6 +11458,197 @@
     "id": "silver_8_fall_guys_fiesta"
   },
   {
+    "player_action_id": "distance_run_walnut",
+    "target": {
+      "type": "aggregate",
+      "value": 5000
+    },
+    "description": "localised_strings.challenge_desc_024_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 5000
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_event_walnut"
+      }
+    ],
+    "title": "localised_strings.walnut_challenge_group_title_4",
+    "challenge_tags": [],
+    "id": "sturgeon_distance_run"
+  },
+  {
+    "player_action_id": "qualify_from_a_race_round_no_respawn_squads_walnut",
+    "target": {
+      "type": "aggregate",
+      "value": 6
+    },
+    "description": "localised_strings.challenge_desc_qualify_without_respawning_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_round_type_race"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "title": "localised_strings.walnut_challenge_group_title_1",
+    "challenge_tags": [],
+    "id": "sturgeon_qualify_no_respawn_squads"
+  },
+  {
+    "player_action_id": "qualify_in_45_seconds_walnut",
+    "target": {
+      "type": "aggregate",
+      "value": 2
+    },
+    "description": "localised_strings.challenge_desc_qualify_time_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_round_type_race"
+      },
+      {
+        "type": "numeric",
+        "numeric_value": 45
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "title": "localised_strings.walnut_challenge_group_title_3",
+    "challenge_tags": [],
+    "id": "sturgeon_qualify_under_seconds"
+  },
+  {
+    "player_action_id": "reach_final_round_duos",
+    "target": {
+      "type": "aggregate",
+      "value": 4
+    },
+    "description": "localised_strings.challenge_desc_031",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "title": "localised_strings.walnut_challenge_group_title_2",
+    "challenge_tags": [],
+    "id": "sturgeon_reach_final_duos"
+  },
+  {
+    "player_action_id": "survive_for_60_sec_walnut",
+    "target": {
+      "type": "aggregate",
+      "value": 10
+    },
+    "description": "localised_strings.challenge_desc_survive_time_in_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 60
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_event_walnut"
+      }
+    ],
+    "title": "localised_strings.walnut_challenge_group_title_4",
+    "challenge_tags": [],
+    "id": "sturgeon_survive_time"
+  },
+  {
+    "player_action_id": "win_duos",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "title": "localised_strings.walnut_challenge_group_title_2",
+    "challenge_tags": [],
+    "id": "sturgeon_win_duos"
+  },
+  {
+    "player_action_id": "win_main_show",
+    "target": {
+      "type": "last_value",
+      "operator": "equal",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "title": "localised_strings.walnut_challenge_group_title_3",
+    "challenge_tags": [],
+    "id": "sturgeon_win_main"
+  },
+  {
+    "player_action_id": "win_squads4",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "title": "localised_strings.walnut_challenge_group_title_1",
+    "challenge_tags": [],
+    "id": "sturgeon_win_squads"
+  },
+  {
+    "player_action_id": "win_walnut",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_event_walnut"
+      }
+    ],
+    "title": "localised_strings.walnut_challenge_group_title_4",
+    "challenge_tags": [],
+    "id": "sturgeon_win_sturgeon"
+  },
+  {
+    "player_action_id": "win_walnut",
+    "target": {
+      "type": "aggregate",
+      "value": 2
+    },
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_event_walnut"
+      }
+    ],
+    "title": "localised_strings.walnut_challenge_group_title_4",
+    "challenge_tags": [],
+    "id": "sturgeon_win_sturgeon_hard"
+  },
+  {
     "player_action_id": "victoria_play_survival",
     "target": {
       "type": "aggregate",
@@ -11433,6 +11826,119 @@
     ],
     "challenge_tags": [],
     "id": "tagless_play_rounds_any_90"
+  },
+  {
+    "player_action_id": "play_show_any",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "title": null,
+    "description": "localised_strings.challenge_desc_027_singular_repeatable",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_repeatable"
+      }
+    ],
+    "challenge_tags": [],
+    "id": "tagless_play_show_any_1"
+  },
+  {
+    "player_action_id": "reach_round_2",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "title": null,
+    "description": "localised_strings.challenge_desc_023_show_repeatable",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 2
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_repeatable"
+      }
+    ],
+    "challenge_tags": [],
+    "id": "tagless_reach_2nd_round_any_1"
+  },
+  {
+    "player_action_id": "reach_round_3_hazelnut",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "title": null,
+    "description": "localised_strings.challenge_desc_023_show_repeatable",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_repeatable"
+      }
+    ],
+    "challenge_tags": [],
+    "id": "tagless_reach_3rd_round_any_1"
+  },
+  {
+    "player_action_id": "reach_final_round",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "title": null,
+    "description": "localised_strings.challenge_desc_031_repeatable",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_repeatable"
+      }
+    ],
+    "challenge_tags": [],
+    "id": "tagless_reach_final_round_any_1"
+  },
+  {
+    "player_action_id": "win_show",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "title": null,
+    "description": "localised_strings.challenge_desc_015_singular_repeatable",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_repeatable"
+      }
+    ],
+    "challenge_tags": [],
+    "id": "tagless_win_show_any_1"
   },
   {
     "player_action_id": "victoria_play_team",

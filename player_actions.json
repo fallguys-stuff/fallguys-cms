@@ -16506,6 +16506,38 @@
   },
   {
     "config": {
+      "metric_id": "challenge_completed",
+      "level_id": null,
+      "level_archetype": null,
+      "round_index": null,
+      "round_qualified": null,
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
+      "show_id": null,
+      "is_final_round": null,
+      "is_private_lobby": null,
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": [
+        {
+          "dimension_id": "challenge_tags",
+          "operator": "contains_all",
+          "string_array_value": [
+            "stingray_challenge_tag"
+          ],
+          "dimension_type": "array_dimension"
+        }
+      ]
+    },
+    "id": "stingray_meta_challenge"
+  },
+  {
+    "config": {
       "metric_id": "round_reached",
       "level_id": null,
       "level_archetype": null,

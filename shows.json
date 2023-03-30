@@ -6344,7 +6344,7 @@
     "show_name": "localised_strings.show_name_event_walnut",
     "show_description": "localised_strings.show_desc_event_walnut",
     "show_image": "FloorFallLevels",
-    "show_image_cms": "show_selector_show_walnut",
+    "show_image_cms": "show_selector_show_hexathon",
     "hide_countdown": false,
     "min_party_size": 1,
     "max_party_size": 4,
@@ -7998,6 +7998,35 @@
     "id": "only_solo_ss2_rounds_show"
   },
   {
+    "show_name": "localised_strings.show_title_pl_vaulted_show",
+    "show_description": "localised_strings.show_desc_pl_vaulted",
+    "show_image": "MainShow",
+    "show_image_cms": "show_selector_show_the_vault",
+    "hide_countdown": true,
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 12,
+      "max_players": 40
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 12,
+      "max_players": 40
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.episode_pl_vaulted_show",
+    "episode_reward_settings_id": "solos",
+    "themeable_override": null,
+    "opens_at": "2020-01-01T09:00:00",
+    "closes_at": "2050-01-01T09:00:00",
+    "skill_score_factor_override": null,
+    "id": "pl_vaulted_show"
+  },
+  {
     "show_name": null,
     "show_description": null,
     "show_image": null,
@@ -9121,5 +9150,34 @@
     "closes_at": "2030-01-01T09:00:00",
     "skill_score_factor_override": null,
     "id": "toms_show2"
+  },
+  {
+    "show_name": "localised_strings.show_name_xtremeparty",
+    "show_description": "localised_strings.show_description_xtremeparty",
+    "show_image": "XTreme",
+    "show_image_cms": "show_selector_xtreme_party",
+    "hide_countdown": false,
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 2,
+      "max_players": 4
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 1,
+      "max_players": 4
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.s9_xtreme_party",
+    "episode_reward_settings_id": "solo_1_round_multiwinner",
+    "themeable_override": null,
+    "opens_at": "2020-01-01T09:00:00",
+    "closes_at": "2050-01-01T09:00:00",
+    "skill_score_factor_override": null,
+    "id": "xtreme_party"
   }
 ]
