@@ -506,6 +506,25 @@
   {
     "item": {
       "group_id": "matchmaking_gates",
+      "item_id": "s9_gate_lets_get_kraken"
+    },
+    "config": {
+      "type": "relative",
+      "parent_schedule_id": "show_s9_hexathon_2",
+      "schedule_anchor_point": "start",
+      "parent_schedule_anchor_point": "end",
+      "schedule_length_unit": "day",
+      "schedule_length_unit_multiplier": 3,
+      "offset": {
+        "unit": "day",
+        "unit_multiplier": 105
+      }
+    },
+    "id": "show_s9_anchovy_7"
+  },
+  {
+    "item": {
+      "group_id": "matchmaking_gates",
       "item_id": "s9_gate_blast_ball_trials"
     },
     "config": {
@@ -685,6 +704,25 @@
       }
     },
     "id": "show_s9_day_at_races_4"
+  },
+  {
+    "item": {
+      "group_id": "matchmaking_gates",
+      "item_id": "s9_gate_day_at_the_races_solo"
+    },
+    "config": {
+      "type": "relative",
+      "parent_schedule_id": "show_s9_hexathon_2",
+      "schedule_anchor_point": "start",
+      "parent_schedule_anchor_point": "end",
+      "schedule_length_unit": "day",
+      "schedule_length_unit_multiplier": 5,
+      "offset": {
+        "unit": "day",
+        "unit_multiplier": 98
+      }
+    },
+    "id": "show_s9_day_at_races_5"
   },
   {
     "item": {
@@ -1018,6 +1056,25 @@
       }
     },
     "id": "show_s9_hexathon_5"
+  },
+  {
+    "item": {
+      "group_id": "matchmaking_gates",
+      "item_id": "s9_gate_hexathon"
+    },
+    "config": {
+      "type": "relative",
+      "parent_schedule_id": "show_s9_hexathon_2",
+      "schedule_anchor_point": "start",
+      "parent_schedule_anchor_point": "end",
+      "schedule_length_unit": "day",
+      "schedule_length_unit_multiplier": 3,
+      "offset": {
+        "unit": "day",
+        "unit_multiplier": 98
+      }
+    },
+    "id": "show_s9_hexathon_6"
   },
   {
     "item": {
@@ -1469,6 +1526,25 @@
   {
     "item": {
       "group_id": "matchmaking_gates",
+      "item_id": "s9_gate_xtreme_solos"
+    },
+    "config": {
+      "type": "relative",
+      "parent_schedule_id": "show_s9_hexathon_2",
+      "schedule_anchor_point": "start",
+      "parent_schedule_anchor_point": "end",
+      "schedule_length_unit": "day",
+      "schedule_length_unit_multiplier": 7,
+      "offset": {
+        "unit": "day",
+        "unit_multiplier": 103
+      }
+    },
+    "id": "show_s9_xtreme_solo_show_4"
+  },
+  {
+    "item": {
+      "group_id": "matchmaking_gates",
       "item_id": "s9_gate_xtreme_squads"
     },
     "config": {
@@ -1541,5 +1617,24 @@
       }
     },
     "id": "show_s9_xtreme_squads_4"
+  },
+  {
+    "item": {
+      "group_id": "matchmaking_gates",
+      "item_id": "s9_gate_xtreme_squads"
+    },
+    "config": {
+      "type": "relative",
+      "parent_schedule_id": "show_s9_hexathon_2",
+      "schedule_anchor_point": "start",
+      "parent_schedule_anchor_point": "end",
+      "schedule_length_unit": "day",
+      "schedule_length_unit_multiplier": 3,
+      "offset": {
+        "unit": "day",
+        "unit_multiplier": 95
+      }
+    },
+    "id": "show_s9_xtreme_squads_5"
   }
 ]
