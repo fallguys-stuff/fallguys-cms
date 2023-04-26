@@ -10473,8 +10473,7 @@
   {
     "player_action_id": "reach_round_4_main",
     "target": {
-      "type": "last_value",
-      "operator": "equal",
+      "type": "aggregate",
       "value": 1
     },
     "description": "localised_strings.challenge_desc_023_show",
@@ -10488,7 +10487,7 @@
         "localised_value": "localised_strings.show_title_solo_show"
       }
     ],
-    "title": null,
+    "title": "localised_strings.show_title_solo_show",
     "challenge_tags": [],
     "id": "reach_round_4_main"
   },
