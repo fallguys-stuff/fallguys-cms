@@ -5510,7 +5510,7 @@
         "undefined_weightings_behaviour": "use_defaults",
         "weightings": [
           {
-            "key": "RhinosAndPenguins",
+            "key": "On",
             "weighting": 0
           }
         ]
@@ -5759,6 +5759,81 @@
       }
     ],
     "id": "toms_variation_over_skeefall"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "Section_1",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section_2",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section_3",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section_2_Gravity",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section_End",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Victoria",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Sides",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Slope",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Victoria",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "toms_variation_over_skeefall_victoria"
   },
   {
     "set_switchers_overrides": [
@@ -6240,6 +6315,21 @@
       }
     ],
     "id": "var_over_biggestfan_sy2_launchvariation"
+  },
+  {
+    "set_switchers_overrides": [
+      {
+        "key": "VariationPriorities",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "EasyRun",
+            "weighting": 100
+          }
+        ]
+      }
+    ],
+    "id": "var_over_block_party_easy"
   },
   {
     "set_switchers_overrides": [

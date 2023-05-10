@@ -273,14 +273,8 @@
     "id": "episode_content_complete"
   },
   {
-    "director": "levels_director.director_main_show",
+    "director": "levels_director.director_solo_show_s10",
     "roundpool": "levels_roundpool.roundpool_content_complete_40",
-    "bucket_override_roundpools": [
-      {
-        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_mid",
-        "roundpool": "levels_roundpool.roundpool_toms_main_show_40"
-      }
-    ],
     "debug_force_playing_single_round_only": false,
     "debug_ignore_min_players_on_round_selection": false,
     "debug_use_player_count_multiplier": false,
@@ -288,6 +282,7 @@
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_floor_fall_40",
     "allow_toms": true,
+    "bucket_override_roundpools": [],
     "id": "episode_content_complete_40"
   },
   {
@@ -328,6 +323,19 @@
     "fallback_round": "levels_round.round_floor_fall_squads",
     "allow_toms": false,
     "id": "episode_deterministic_squads"
+  },
+  {
+    "director": "levels_director.director_duos_s10",
+    "roundpool": "levels_roundpool.roundpool_duos_show_s10",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 7,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_floor_fall_duos",
+    "allow_toms": false,
+    "bucket_override_roundpools": [],
+    "id": "episode_duos_show_s10"
   },
   {
     "director": "levels_director.director_squads_s9",
@@ -461,7 +469,7 @@
   },
   {
     "director": "levels_director.director_event_xtreme_fall_guys",
-    "roundpool": "levels_roundpool.roundpool_event_elimination_gauntlets_s9_vaulted",
+    "roundpool": "levels_roundpool.roundpool_event_elimination_gauntlets_s10",
     "debug_force_playing_single_round_only": false,
     "debug_ignore_min_players_on_round_selection": false,
     "debug_use_player_count_multiplier": false,
@@ -474,7 +482,7 @@
   },
   {
     "director": "levels_director.director_event_xtreme_fall_guys",
-    "roundpool": "levels_roundpool.roundpool_event_elimination_gauntlet_squad_s9vault",
+    "roundpool": "levels_roundpool.roundpool_event_elimination_gauntlets_squad_s10",
     "debug_force_playing_single_round_only": false,
     "debug_ignore_min_players_on_round_selection": false,
     "debug_use_player_count_multiplier": false,
@@ -1085,7 +1093,8 @@
   },
   {
     "director": "levels_director.director_simple",
-    "roundpool": "levels_roundpool.roundpool_event_only_survival_no_thin_ice_s9_vault",
+    "roundpool": "levels_roundpool.roundpool_event_only_survival",
+    "bucket_override_roundpools": [],
     "debug_force_playing_single_round_only": false,
     "debug_ignore_min_players_on_round_selection": false,
     "debug_use_player_count_multiplier": false,
@@ -1093,7 +1102,6 @@
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_floor_fall",
     "allow_toms": false,
-    "bucket_override_roundpools": [],
     "id": "episode_event_only_survival"
   },
   {
@@ -1760,149 +1768,6 @@
     "id": "episode_just_block_party"
   },
   {
-    "director": "levels_director.director_simple",
-    "roundpool": "levels_roundpool.roundpool_just_block_party_season_5_variation_1",
-    "bucket_override_roundpools": [],
-    "debug_force_playing_single_round_only": true,
-    "debug_ignore_min_players_on_round_selection": false,
-    "debug_use_player_count_multiplier": false,
-    "debug_player_count_multiplier": 3,
-    "ignore_team_sizes_in_selection": false,
-    "fallback_round": "levels_round.round_block_party_season_5_variation_1",
-    "allow_toms": false,
-    "id": "episode_just_block_party_s5_variation_1"
-  },
-  {
-    "director": "levels_director.director_simple",
-    "roundpool": "levels_roundpool.roundpool_just_block_party_season_5_variation_10",
-    "bucket_override_roundpools": [],
-    "debug_force_playing_single_round_only": true,
-    "debug_ignore_min_players_on_round_selection": false,
-    "debug_use_player_count_multiplier": false,
-    "debug_player_count_multiplier": 3,
-    "ignore_team_sizes_in_selection": false,
-    "fallback_round": "levels_round.round_block_party_season_5_variation_10",
-    "allow_toms": false,
-    "id": "episode_just_block_party_s5_variation_10"
-  },
-  {
-    "director": "levels_director.director_simple",
-    "roundpool": "levels_roundpool.roundpool_just_block_party_season_5_variation_11",
-    "bucket_override_roundpools": [],
-    "debug_force_playing_single_round_only": true,
-    "debug_ignore_min_players_on_round_selection": false,
-    "debug_use_player_count_multiplier": false,
-    "debug_player_count_multiplier": 3,
-    "ignore_team_sizes_in_selection": false,
-    "fallback_round": "levels_round.round_block_party_season_5_variation_11",
-    "allow_toms": false,
-    "id": "episode_just_block_party_s5_variation_11"
-  },
-  {
-    "director": "levels_director.director_simple",
-    "roundpool": "levels_roundpool.roundpool_just_block_party_season_5_variation_2",
-    "bucket_override_roundpools": [],
-    "debug_force_playing_single_round_only": true,
-    "debug_ignore_min_players_on_round_selection": false,
-    "debug_use_player_count_multiplier": false,
-    "debug_player_count_multiplier": 3,
-    "ignore_team_sizes_in_selection": false,
-    "fallback_round": "levels_round.round_block_party_season_5_variation_2",
-    "allow_toms": false,
-    "id": "episode_just_block_party_s5_variation_2"
-  },
-  {
-    "director": "levels_director.director_simple",
-    "roundpool": "levels_roundpool.roundpool_just_block_party_season_5_variation_3",
-    "bucket_override_roundpools": [],
-    "debug_force_playing_single_round_only": true,
-    "debug_ignore_min_players_on_round_selection": false,
-    "debug_use_player_count_multiplier": false,
-    "debug_player_count_multiplier": 3,
-    "ignore_team_sizes_in_selection": false,
-    "fallback_round": "levels_round.round_block_party_season_5_variation_3",
-    "allow_toms": false,
-    "id": "episode_just_block_party_s5_variation_3"
-  },
-  {
-    "director": "levels_director.director_simple",
-    "roundpool": "levels_roundpool.roundpool_just_block_party_season_5_variation_4",
-    "bucket_override_roundpools": [],
-    "debug_force_playing_single_round_only": true,
-    "debug_ignore_min_players_on_round_selection": false,
-    "debug_use_player_count_multiplier": false,
-    "debug_player_count_multiplier": 3,
-    "ignore_team_sizes_in_selection": false,
-    "fallback_round": "levels_round.round_block_party_season_5_variation_4",
-    "allow_toms": false,
-    "id": "episode_just_block_party_s5_variation_4"
-  },
-  {
-    "director": "levels_director.director_simple",
-    "roundpool": "levels_roundpool.roundpool_just_block_party_season_5_variation_5",
-    "bucket_override_roundpools": [],
-    "debug_force_playing_single_round_only": true,
-    "debug_ignore_min_players_on_round_selection": false,
-    "debug_use_player_count_multiplier": false,
-    "debug_player_count_multiplier": 3,
-    "ignore_team_sizes_in_selection": false,
-    "fallback_round": "levels_round.round_block_party_season_5_variation_5",
-    "allow_toms": false,
-    "id": "episode_just_block_party_s5_variation_5"
-  },
-  {
-    "director": "levels_director.director_simple",
-    "roundpool": "levels_roundpool.roundpool_just_block_party_season_5_variation_6",
-    "bucket_override_roundpools": [],
-    "debug_force_playing_single_round_only": true,
-    "debug_ignore_min_players_on_round_selection": false,
-    "debug_use_player_count_multiplier": false,
-    "debug_player_count_multiplier": 3,
-    "ignore_team_sizes_in_selection": false,
-    "fallback_round": "levels_round.round_block_party_season_5_variation_6",
-    "allow_toms": false,
-    "id": "episode_just_block_party_s5_variation_6"
-  },
-  {
-    "director": "levels_director.director_simple",
-    "roundpool": "levels_roundpool.roundpool_just_block_party_season_5_variation_7",
-    "bucket_override_roundpools": [],
-    "debug_force_playing_single_round_only": true,
-    "debug_ignore_min_players_on_round_selection": false,
-    "debug_use_player_count_multiplier": false,
-    "debug_player_count_multiplier": 3,
-    "ignore_team_sizes_in_selection": false,
-    "fallback_round": "levels_round.round_block_party_season_5_variation_7",
-    "allow_toms": false,
-    "id": "episode_just_block_party_s5_variation_7"
-  },
-  {
-    "director": "levels_director.director_simple",
-    "roundpool": "levels_roundpool.roundpool_just_block_party_season_5_variation_8",
-    "bucket_override_roundpools": [],
-    "debug_force_playing_single_round_only": true,
-    "debug_ignore_min_players_on_round_selection": false,
-    "debug_use_player_count_multiplier": false,
-    "debug_player_count_multiplier": 3,
-    "ignore_team_sizes_in_selection": false,
-    "fallback_round": "levels_round.round_block_party_season_5_variation_8",
-    "allow_toms": false,
-    "id": "episode_just_block_party_s5_variation_8"
-  },
-  {
-    "director": "levels_director.director_simple",
-    "roundpool": "levels_roundpool.roundpool_just_block_party_season_5_variation_9",
-    "bucket_override_roundpools": [],
-    "debug_force_playing_single_round_only": true,
-    "debug_ignore_min_players_on_round_selection": false,
-    "debug_use_player_count_multiplier": false,
-    "debug_player_count_multiplier": 3,
-    "ignore_team_sizes_in_selection": false,
-    "fallback_round": "levels_round.round_block_party_season_5_variation_9",
-    "allow_toms": false,
-    "id": "episode_just_block_party_s5_variation_9"
-  },
-  {
     "director": "levels_director.director_squads",
     "roundpool": "levels_roundpool.roundpool_just_block_party_squads",
     "bucket_override_roundpools": [],
@@ -2499,6 +2364,17 @@
     "allow_toms": false,
     "bucket_override_roundpools": [],
     "id": "episode_just_follow_the_line"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_fraggle",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_fraggle",
+    "id": "episode_just_fraggle"
   },
   {
     "director": "levels_director.director_simple",
@@ -4322,6 +4198,32 @@
   },
   {
     "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_testbed",
+    "debug_force_playing_single_round_only": true,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_testbed",
+    "ignore_team_sizes_in_selection": false,
+    "allow_toms": false,
+    "bucket_override_roundpools": [],
+    "id": "episode_just_testbed"
+  },
+  {
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_testbed_lives_system",
+    "fallback_round": "levels_round.round_testbed_lives_system",
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_force_playing_single_round_only": true,
+    "ignore_team_sizes_in_selection": true,
+    "allow_toms": false,
+    "bucket_override_roundpools": [],
+    "id": "episode_just_testbed_lives_system"
+  },
+  {
+    "director": "levels_director.director_simple",
     "roundpool": "levels_roundpool.roundpool_just_testbed_wormhole",
     "fallback_round": "levels_round.round_testbed_wormhole",
     "debug_use_player_count_multiplier": false,
@@ -4711,6 +4613,36 @@
     "id": "episode_robotrampage_ss2_show1"
   },
   {
+    "director": "levels_director.director_solo_show_s10",
+    "roundpool": "levels_roundpool.roundpool_solo_show_s10_default",
+    "bucket_override_roundpools": [
+      {
+        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_ftue",
+        "roundpool": "levels_roundpool.roundpool_solo_show_s10_ftue"
+      },
+      {
+        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_lowest",
+        "roundpool": "levels_roundpool.roundpool_solo_show_s10_low"
+      },
+      {
+        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_mid",
+        "roundpool": "levels_roundpool.roundpool_solo_show_s10_mid"
+      },
+      {
+        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_high",
+        "roundpool": "levels_roundpool.roundpool_solo_show_s10_high"
+      }
+    ],
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_floor_fall_40",
+    "allow_toms": true,
+    "id": "episode_s10_solo_show"
+  },
+  {
     "director": "levels_director.director_event_s9_crayfish_template",
     "roundpool": "levels_roundpool.roundpool_s9_crayfish_template",
     "debug_force_playing_single_round_only": false,
@@ -4988,6 +4920,19 @@
     "id": "episode_squads_collect_ss2_potoo_test"
   },
   {
+    "director": "levels_director.director_squads_s10",
+    "roundpool": "levels_roundpool.roundpool_squads_show_s10",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 7,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_floor_fall_squads",
+    "allow_toms": false,
+    "bucket_override_roundpools": [],
+    "id": "episode_squads_show_s10"
+  },
+  {
     "director": "levels_director.director_squads_s9",
     "roundpool": "levels_roundpool.roundpool_squads_show_s9",
     "debug_force_playing_single_round_only": false,
@@ -4999,6 +4944,19 @@
     "allow_toms": false,
     "bucket_override_roundpools": [],
     "id": "episode_squads_show_s9"
+  },
+  {
+    "director": "levels_director.director_squads_s9_vaulted_40",
+    "roundpool": "levels_roundpool.roundpool_squads_show_s9_vaulted_40",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 7,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_floor_fall_squads",
+    "allow_toms": false,
+    "bucket_override_roundpools": [],
+    "id": "episode_squads_show_s9_vaulted_40"
   },
   {
     "director": "levels_director.director_squads_ss2_launch",
@@ -5176,6 +5134,19 @@
   },
   {
     "director": "levels_director.director_no_weightings",
+    "roundpool": "levels_roundpool.roundpool_wle_s10_wk01_mrs",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.wle_s10_orig_round_010",
+    "allow_toms": false,
+    "bucket_override_roundpools": [],
+    "id": "episode_wle_s10_wk01_mrs"
+  },
+  {
+    "director": "levels_director.director_no_weightings",
     "roundpool": "levels_roundpool.roundpool_event_autumn_festival_squads",
     "debug_force_playing_single_round_only": false,
     "debug_ignore_min_players_on_round_selection": false,
@@ -5279,6 +5250,58 @@
     "id": "only_solo_ss2_rounds"
   },
   {
+    "director": "levels_director.director_solo_show_s10_template",
+    "roundpool": "levels_roundpool.roundpool_main_show_template_base",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_floor_fall_40",
+    "allow_toms": false,
+    "bucket_override_roundpools": [],
+    "id": "s10_main_show_template_base"
+  },
+  {
+    "director": "levels_director.director_solo_show_s10_template",
+    "roundpool": "levels_roundpool.main_show_template_large",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_floor_fall_40",
+    "allow_toms": false,
+    "bucket_override_roundpools": [],
+    "id": "s10_main_show_template_large"
+  },
+  {
+    "director": "levels_director.director_solo_show_s10_template",
+    "roundpool": "levels_roundpool.main_show_template_medium",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_floor_fall_40",
+    "allow_toms": false,
+    "bucket_override_roundpools": [],
+    "id": "s10_main_show_template_medium"
+  },
+  {
+    "director": "levels_director.director_no_weightings",
+    "roundpool": "levels_roundpool.squadcelebration_squads",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.s10_fallball_squads_squadcelebration_final",
+    "allow_toms": false,
+    "bucket_override_roundpools": [],
+    "id": "s10_squadcelebration"
+  },
+  {
     "director": "levels_director.director_no_weightings",
     "roundpool": "levels_roundpool.xtreme_party",
     "debug_force_playing_single_round_only": false,
@@ -5329,5 +5352,161 @@
     "fallback_round": "levels_round.round_floor_fall_squads",
     "allow_toms": false,
     "id": "squads_4player"
+  },
+  {
+    "director": "levels_director.wle_lobby_template",
+    "roundpool": "levels_roundpool.wle_automation_test_s10_retro",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_floor_fall",
+    "allow_toms": false,
+    "bucket_override_roundpools": [],
+    "id": "wle_automation_test_s10_retro"
+  },
+  {
+    "director": "levels_director.wle_lobby_template",
+    "roundpool": "levels_roundpool.wle_automation_test_s10_vanilla",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_floor_fall",
+    "allow_toms": false,
+    "bucket_override_roundpools": [],
+    "id": "wle_automation_test_s10_vanilla"
+  },
+  {
+    "director": "levels_director.wle_lobby_template",
+    "roundpool": "levels_roundpool.wle_lobby_template",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.round_floor_fall",
+    "allow_toms": false,
+    "bucket_override_roundpools": [],
+    "id": "wle_lobby_template"
+  },
+  {
+    "director": "levels_director.director_no_weightings",
+    "roundpool": "levels_roundpool.wle_s10_wk01_srs_01",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.wle_s10_round_012",
+    "allow_toms": false,
+    "bucket_override_roundpools": [],
+    "id": "wle_s10_wk01_srs_01"
+  },
+  {
+    "director": "levels_director.director_no_weightings",
+    "roundpool": "levels_roundpool.wle_s10_wk01_srs_02",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.wle_s10_round_011",
+    "allow_toms": false,
+    "bucket_override_roundpools": [],
+    "id": "wle_s10_wk01_srs_02"
+  },
+  {
+    "director": "levels_director.director_no_weightings",
+    "roundpool": "levels_roundpool.wle_s10_wk01_srs_03",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.wle_s10_round_010",
+    "allow_toms": false,
+    "bucket_override_roundpools": [],
+    "id": "wle_s10_wk01_srs_03"
+  },
+  {
+    "director": "levels_director.director_no_weightings",
+    "roundpool": "levels_roundpool.wle_s10_wk01_srs_04",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.wle_s10_orig_round_032",
+    "allow_toms": false,
+    "bucket_override_roundpools": [],
+    "id": "wle_s10_wk01_srs_04"
+  },
+  {
+    "director": "levels_director.director_no_weightings",
+    "roundpool": "levels_roundpool.wle_s10_wk02_srs_05",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.wle_s10_orig_round_033",
+    "allow_toms": false,
+    "bucket_override_roundpools": [],
+    "id": "wle_s10_wk02_srs_05"
+  },
+  {
+    "director": "levels_director.director_no_weightings",
+    "roundpool": "levels_roundpool.wle_s10_wk02_srs_06",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.wle_s10_orig_round_034",
+    "allow_toms": false,
+    "bucket_override_roundpools": [],
+    "id": "wle_s10_wk02_srs_06"
+  },
+  {
+    "director": "levels_director.director_no_weightings",
+    "roundpool": "levels_roundpool.wle_s10_wk02_srs_07",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.wle_s10_orig_round_035",
+    "allow_toms": false,
+    "bucket_override_roundpools": [],
+    "id": "wle_s10_wk02_srs_07"
+  },
+  {
+    "director": "levels_director.director_no_weightings",
+    "roundpool": "levels_roundpool.wle_s10_wk02_srs_08",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.wle_s10_orig_round_036",
+    "allow_toms": false,
+    "bucket_override_roundpools": [],
+    "id": "wle_s10_wk02_srs_08"
+  },
+  {
+    "director": "levels_director.director_no_weightings",
+    "roundpool": "levels_roundpool.wle_template",
+    "debug_force_playing_single_round_only": false,
+    "debug_ignore_min_players_on_round_selection": false,
+    "debug_use_player_count_multiplier": false,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": false,
+    "fallback_round": "levels_round.wle_s10_round_001",
+    "allow_toms": false,
+    "bucket_override_roundpools": [],
+    "id": "wle_template"
   }
 ]

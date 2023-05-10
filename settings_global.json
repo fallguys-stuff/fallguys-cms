@@ -5,6 +5,14 @@
       "after_prime_global_launch"
     ],
     "platforms_whitelist": [],
+    "id": "40_player_qualification_screen_enabled"
+  },
+  {
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": [],
     "id": "ability_score_enabled"
   },
   {
@@ -52,6 +60,12 @@
     "id": "analytics_enabled"
   },
   {
+    "value": true,
+    "platforms_whitelist": [],
+    "target_ids": [],
+    "id": "analytics_server_enabled"
+  },
+  {
     "value": 4,
     "platforms_whitelist": [],
     "target_ids": [],
@@ -72,9 +86,16 @@
     "id": "cabin_mode_enabled"
   },
   {
+    "value": false,
+    "platforms_whitelist": [],
+    "target_ids": [],
+    "id": "cabined_creative_enabled"
+  },
+  {
     "value": true,
     "target_ids": [
-      "prime_users"
+      "prime_users",
+      "ports3_users"
     ],
     "platforms_whitelist": [],
     "id": "challenge_groups_enabled"
@@ -88,7 +109,8 @@
   {
     "value": true,
     "target_ids": [
-      "prime_users"
+      "prime_users",
+      "ports3_users"
     ],
     "platforms_whitelist": [],
     "id": "challenges_enabled"
@@ -165,6 +187,14 @@
   },
   {
     "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": [],
+    "id": "creative_mode_enabled"
+  },
+  {
+    "value": true,
     "platforms_whitelist": [],
     "target_ids": [],
     "id": "cross_progression_wallet_enabled"
@@ -186,7 +216,8 @@
   {
     "value": true,
     "target_ids": [
-      "prime_users"
+      "prime_users",
+      "ports3_users"
     ],
     "platforms_whitelist": [],
     "id": "crown_shards_enabled"
@@ -209,6 +240,14 @@
   },
   {
     "value": false,
+    "target_ids": [
+      "disabled_year_1900"
+    ],
+    "platforms_whitelist": [],
+    "id": "debug_lobbies_are_enabled"
+  },
+  {
+    "value": false,
     "platforms_whitelist": [],
     "target_ids": [],
     "id": "egs_entitlements_enabled"
@@ -224,6 +263,54 @@
     "platforms_whitelist": [],
     "target_ids": [],
     "id": "elimination_auto_leave_timer"
+  },
+  {
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": [],
+    "id": "enable_xbox_cert_fix"
+  },
+  {
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": [],
+    "id": "end_of_round_leave_timer_enabled"
+  },
+  {
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": [],
+    "id": "end_of_round_spectate_prompt_enabled"
+  },
+  {
+    "value": 3,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": [],
+    "id": "eos_online_toast_hold_invite"
+  },
+  {
+    "value": 5,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": [],
+    "id": "eos_online_toast_invite_delay"
+  },
+  {
+    "value": 10,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": [],
+    "id": "eos_online_toast_notification_timer"
   },
   {
     "value": true,
@@ -274,6 +361,14 @@
       "after_prime_global_launch"
     ],
     "platforms_whitelist": [],
+    "id": "fame_pass_legal_popup_enabled"
+  },
+  {
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": [],
     "id": "fame_tier_skips_enabled"
   },
   {
@@ -299,6 +394,48 @@
     ],
     "platforms_whitelist": [],
     "id": "fn_matchmaker_enabled"
+  },
+  {
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": [],
+    "id": "fraggle_creatorid_enabled"
+  },
+  {
+    "value": true,
+    "platforms_whitelist": [],
+    "target_ids": [],
+    "id": "fraggle_enabled"
+  },
+  {
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": [],
+    "id": "fraggle_plobbies_enabled"
+  },
+  {
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": [],
+    "id": "fraggle_private_lobbies_enabled"
+  },
+  {
+    "value": true,
+    "platforms_whitelist": [],
+    "target_ids": [],
+    "id": "fraggle_server_writing_enabled"
+  },
+  {
+    "value": false,
+    "platforms_whitelist": [],
+    "target_ids": [],
+    "id": "fraggle_survival_enabled"
   },
   {
     "value": false,
@@ -662,7 +799,8 @@
   {
     "value": true,
     "target_ids": [
-      "prime_users"
+      "prime_users",
+      "ports3_users"
     ],
     "platforms_whitelist": [],
     "id": "store_refresh_notification_pip_enabled"
@@ -728,12 +866,34 @@
     "id": "tracking_nameplates_enabled"
   },
   {
+    "value": false,
+    "platforms_whitelist": [],
+    "target_ids": [],
+    "id": "tweentool_enabled"
+  },
+  {
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": [],
+    "id": "ugc_async_netprefab_load_enabled"
+  },
+  {
     "value": true,
     "target_ids": [
       "after_prime_global_launch"
     ],
     "platforms_whitelist": [],
     "id": "ugc_levels_enabled"
+  },
+  {
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": [],
+    "id": "ugc_number_of_plays_enabled"
   },
   {
     "value": 4,
@@ -764,5 +924,13 @@
     ],
     "platforms_whitelist": [],
     "id": "welcome_message_enabled"
+  },
+  {
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": [],
+    "id": "wle_use_new_capacity_cache"
   }
 ]

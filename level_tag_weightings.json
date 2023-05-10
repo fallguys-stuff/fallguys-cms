@@ -114,6 +114,266 @@
     "tag_score": [
       {
         "tag": "level_tags.covenant_free_for_all",
+        "bonus": 200,
+        "repeat_malus": 100,
+        "repeat_decay": 100,
+        "apply_bonus_when": {
+          "type": "before_stage",
+          "setting": {
+            "stage": 4
+          }
+        }
+      },
+      {
+        "tag": "level_tags.covenant_team",
+        "bonus": 100,
+        "repeat_malus": 50,
+        "repeat_decay": 50,
+        "apply_bonus_when": {
+          "type": "before_stage",
+          "setting": {
+            "stage": 4
+          }
+        }
+      },
+      {
+        "tag": "level_tags.covenant_final",
+        "bonus": 1000,
+        "repeat_malus": 0,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "after_stage",
+          "setting": {
+            "stage": 5
+          }
+        }
+      },
+      {
+        "tag": "level_tags.playspace_gauntlet",
+        "bonus": 100,
+        "repeat_malus": 100,
+        "repeat_decay": 100,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.playspace_track",
+        "bonus": 100,
+        "repeat_malus": 100,
+        "repeat_decay": 100,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.playspace_platform",
+        "bonus": 100,
+        "repeat_malus": 100,
+        "repeat_decay": 100,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.playspace_arena",
+        "bonus": 100,
+        "repeat_malus": 100,
+        "repeat_decay": 100,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.season_01",
+        "bonus": 0,
+        "repeat_malus": 1000,
+        "repeat_decay": 1000,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.season_02",
+        "bonus": 0,
+        "repeat_malus": 1000,
+        "repeat_decay": 500,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.season_03",
+        "bonus": 0,
+        "repeat_malus": 1000,
+        "repeat_decay": 500,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.season_04",
+        "bonus": 0,
+        "repeat_malus": 1000,
+        "repeat_decay": 500,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.season_05",
+        "bonus": 0,
+        "repeat_malus": 1000,
+        "repeat_decay": 500,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.season_06",
+        "bonus": 0,
+        "repeat_malus": 1000,
+        "repeat_decay": 500,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.season_07",
+        "bonus": 0,
+        "repeat_malus": 1000,
+        "repeat_decay": 500,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.season_08",
+        "bonus": 0,
+        "repeat_malus": 1000,
+        "repeat_decay": 500,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.season_09",
+        "bonus": 0,
+        "repeat_malus": 1000,
+        "repeat_decay": 500,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.race_round",
+        "bonus": 100,
+        "repeat_malus": 100,
+        "repeat_decay": 100,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.hunt_round",
+        "bonus": 100,
+        "repeat_malus": 100,
+        "repeat_decay": 100,
+        "apply_bonus_when": {
+          "type": "after_stage",
+          "setting": {
+            "stage": 4
+          }
+        }
+      },
+      {
+        "tag": "level_tags.survival_round",
+        "bonus": 100,
+        "repeat_malus": 100,
+        "repeat_decay": 100,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.logic_round",
+        "bonus": 150,
+        "repeat_malus": 100,
+        "repeat_decay": 100,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.exclusive_tunnel",
+        "bonus": 0,
+        "repeat_malus": 10000,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.exclusive_seesaws",
+        "bonus": 0,
+        "repeat_malus": 10000,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.exclusive_slime_climb",
+        "bonus": 0,
+        "repeat_malus": 10000,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.exclusive_blastball",
+        "bonus": 0,
+        "repeat_malus": 10000,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.exclusive_hoops_jumping",
+        "bonus": 0,
+        "repeat_malus": 10000,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.exclusive_spoke_jump",
+        "bonus": 0,
+        "repeat_malus": 10000,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.exclusive_hex",
+        "bonus": 0,
+        "repeat_malus": 10000,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      }
+    ],
+    "id": "tag_weightings_duos_s10"
+  },
+  {
+    "tag_score": [
+      {
+        "tag": "level_tags.covenant_free_for_all",
         "bonus": 100,
         "repeat_malus": 0,
         "repeat_decay": 0,
@@ -5136,6 +5396,173 @@
         }
       },
       {
+        "tag": "level_tags.exclusive_1v1",
+        "bonus": 0,
+        "repeat_malus": 500000,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.exclusive_hoverboard",
+        "bonus": 0,
+        "repeat_malus": 500000,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.exclusive_circuit",
+        "bonus": 0,
+        "repeat_malus": 500000,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.exclusive_wild_elimination",
+        "bonus": 0,
+        "repeat_malus": 500000,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.level_tag_ugc",
+        "bonus": 800,
+        "repeat_malus": 400,
+        "repeat_decay": 400,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      }
+    ],
+    "id": "tag_weightings_solo_show_s10"
+  },
+  {
+    "tag_score": [
+      {
+        "tag": "level_tags.covenant_free_for_all",
+        "bonus": 200,
+        "repeat_malus": 0,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "before_stage",
+          "setting": {
+            "stage": 4
+          }
+        }
+      },
+      {
+        "tag": "level_tags.covenant_final",
+        "bonus": 400,
+        "repeat_malus": 0,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "after_stage",
+          "setting": {
+            "stage": 5
+          }
+        }
+      },
+      {
+        "tag": "level_tags.playspace_track",
+        "bonus": 300,
+        "repeat_malus": 200,
+        "repeat_decay": 200,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.playspace_gauntlet",
+        "bonus": 300,
+        "repeat_malus": 200,
+        "repeat_decay": 200,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.playspace_arena",
+        "bonus": 300,
+        "repeat_malus": 200,
+        "repeat_decay": 200,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.playspace_platform",
+        "bonus": 300,
+        "repeat_malus": 200,
+        "repeat_decay": 200,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.exclusive_steal_tag",
+        "bonus": 0,
+        "repeat_malus": 500000,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.exclusive_spoke_jump",
+        "bonus": 0,
+        "repeat_malus": 500000,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.exclusive_hoops_jumping",
+        "bonus": 0,
+        "repeat_malus": 500000,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.exclusive_item_collection",
+        "bonus": 0,
+        "repeat_malus": 500000,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.exclusive_roll_out",
+        "bonus": 0,
+        "repeat_malus": 500000,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.saftey_wild_elimination",
+        "bonus": -5000,
+        "repeat_malus": 0,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "after_stage",
+          "setting": {
+            "stage": 5
+          }
+        }
+      },
+      {
         "tag": "level_tags.saftey_nonstarter",
         "bonus": -5000,
         "repeat_malus": 0,
@@ -7205,6 +7632,227 @@
     "tag_score": [
       {
         "tag": "level_tags.covenant_free_for_all",
+        "bonus": 200,
+        "repeat_malus": 0,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "before_stage",
+          "setting": {
+            "stage": 4
+          }
+        }
+      },
+      {
+        "tag": "level_tags.covenant_final",
+        "bonus": 400,
+        "repeat_malus": 0,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "after_stage",
+          "setting": {
+            "stage": 5
+          }
+        }
+      },
+      {
+        "tag": "level_tags.saftey_nonstarter",
+        "bonus": -5000,
+        "repeat_malus": 0,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "before_stage",
+          "setting": {
+            "stage": 1
+          }
+        }
+      },
+      {
+        "tag": "level_tags.team_final",
+        "bonus": 400,
+        "repeat_malus": 0,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "after_stage",
+          "setting": {
+            "stage": 5
+          }
+        }
+      },
+      {
+        "tag": "level_tags.solo_final",
+        "bonus": 400,
+        "repeat_malus": 0,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "before_stage",
+          "setting": {
+            "stage": 5
+          }
+        }
+      },
+      {
+        "tag": "level_tags.exclusive_wild_elimination",
+        "bonus": 300,
+        "repeat_malus": 100,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "range",
+          "setting": {
+            "from": 3,
+            "to": 4
+          }
+        }
+      },
+      {
+        "tag": "level_tags.playspace_arena",
+        "bonus": 500,
+        "repeat_malus": 50,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "before_stage",
+          "setting": {
+            "stage": 2
+          }
+        }
+      },
+      {
+        "tag": "level_tags.playspace_track",
+        "bonus": 200,
+        "repeat_malus": 50,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "after_stage",
+          "setting": {
+            "stage": 2
+          }
+        }
+      },
+      {
+        "tag": "level_tags.survival_round",
+        "bonus": 500,
+        "repeat_malus": 100,
+        "repeat_decay": 500,
+        "apply_bonus_when": {
+          "type": "range",
+          "setting": {
+            "from": 2,
+            "to": 4
+          }
+        }
+      },
+      {
+        "tag": "level_tags.exclusive_1v1",
+        "bonus": 0,
+        "repeat_malus": 5000,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.exclusive_fall_ball",
+        "bonus": 0,
+        "repeat_malus": 5000,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.exclusive_basketfall",
+        "bonus": 0,
+        "repeat_malus": 5000,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.exclusive_jinxed",
+        "bonus": 0,
+        "repeat_malus": 5000,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.exclusive_hoops_jumping",
+        "bonus": 0,
+        "repeat_malus": 5000,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.exclusive_item_collection",
+        "bonus": 0,
+        "repeat_malus": 5000,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.exclusive_hoverboard",
+        "bonus": 0,
+        "repeat_malus": 5000,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.exclusive_circuit",
+        "bonus": 0,
+        "repeat_malus": 5000,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.3_teams",
+        "bonus": 1000,
+        "repeat_malus": 5000,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "range",
+          "setting": {
+            "from": 3,
+            "to": 4
+          }
+        }
+      },
+      {
+        "tag": "level_tags.2_teams",
+        "bonus": 100,
+        "repeat_malus": 5000,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "after_stage",
+          "setting": {
+            "stage": 4
+          }
+        }
+      },
+      {
+        "tag": "level_tags.race_round",
+        "bonus": 0,
+        "repeat_malus": 100,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      }
+    ],
+    "id": "tag_weightings_squads_s10"
+  },
+  {
+    "tag_score": [
+      {
+        "tag": "level_tags.covenant_free_for_all",
         "bonus": 100,
         "repeat_malus": 0,
         "repeat_decay": 0,
@@ -8913,5 +9561,33 @@
       }
     ],
     "id": "tag_weightings_week_of_romance_s6_duo_teams"
+  },
+  {
+    "tag_score": [
+      {
+        "tag": "level_tags.fraggle",
+        "bonus": 200,
+        "repeat_malus": 0,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      }
+    ],
+    "id": "wle_lobby_template"
+  },
+  {
+    "tag_score": [
+      {
+        "tag": "level_tags.level_tag_ugc",
+        "bonus": 200,
+        "repeat_malus": 0,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      }
+    ],
+    "id": "wle_tag_weightings"
   }
 ]

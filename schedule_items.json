@@ -2,1639 +2,334 @@
   {
     "item": {
       "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_blast_ball_trials"
+      "item_id": "duos_show"
+    },
+    "config": {
+      "type": "absolute",
+      "starts_at": "2023-05-09T10:00:00",
+      "ends_at": null
+    },
+    "id": "show_s10_duos_show"
+  },
+  {
+    "item": {
+      "group_id": "matchmaking_gates",
+      "item_id": "fall_ball_cup"
     },
     "config": {
       "type": "relative",
-      "parent_schedule_id": "s9_schedule_anchovy",
+      "parent_schedule_id": "show_s10_duos_show",
       "schedule_anchor_point": "start",
       "parent_schedule_anchor_point": "start",
       "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
+      "schedule_length_unit_multiplier": 7,
+      "offset": {
+        "unit": "day",
+        "unit_multiplier": 23
+      }
+    },
+    "id": "show_s10_fall_ball_cup_01"
+  },
+  {
+    "item": {
+      "group_id": "matchmaking_gates",
+      "item_id": "finals_marathon"
+    },
+    "config": {
+      "type": "relative",
+      "parent_schedule_id": "show_s10_duos_show",
+      "schedule_anchor_point": "start",
+      "parent_schedule_anchor_point": "start",
+      "schedule_length_unit": "day",
+      "schedule_length_unit_multiplier": 7,
       "offset": {
         "unit": "day",
         "unit_multiplier": 2
       }
     },
-    "id": "s9_lts_schedule_blast_ball_trials"
+    "id": "show_s10_finals_marathon_01"
   },
   {
     "item": {
       "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_finals_marathon"
+      "item_id": "hexagravity_trials"
     },
     "config": {
       "type": "relative",
-      "parent_schedule_id": "s9_lts_schedule_hexathon",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 2,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 7
-      }
-    },
-    "id": "s9_lts_schedule_final_marathon_b"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_finals_marathon"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "s9_lts_schedule_hexathon",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 15
-      }
-    },
-    "id": "s9_lts_schedule_final_marathon_c"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_finals_marathon"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "s9_lts_schedule_volleyfall_trials",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 7,
-      "offset": {
-        "unit": "none"
-      }
-    },
-    "id": "s9_lts_schedule_finals_marathon"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_hexagone_trials"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "s9_lts_schedule_hexathon",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 2,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 11
-      }
-    },
-    "id": "s9_lts_schedule_hexagone_trials"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_hexathon"
-    },
-    "config": {
-      "type": "absolute",
-      "starts_at": "2022-12-20T10:00:00",
-      "ends_at": "2022-12-22T10:00:00"
-    },
-    "id": "s9_lts_schedule_hexathon"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_hexathon"
-    },
-    "config": {
-      "type": "absolute",
-      "starts_at": "2023-03-09T10:00:00",
-      "ends_at": "2023-03-21T10:00:00"
-    },
-    "id": "s9_lts_schedule_hexathon_2"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_lets_get_kraken"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "s9_lts_schedule_hexathon",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 2,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 3
-      }
-    },
-    "id": "s9_lts_schedule_lets_get_kraken"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_stompin_ground_stand_off"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "s9_lts_schedule_hexathon",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 2,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 21
-      }
-    },
-    "id": "s9_lts_schedule_stompin_ground_standoff"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_volleyfall_trials"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "s9_lts_schedule_blast_ball_trials",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 2,
-      "offset": {
-        "unit": "none"
-      }
-    },
-    "id": "s9_lts_schedule_volleyfall_trials"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_xtreme_solos"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_blast_ball_trials_1",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 4,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 6
-      }
-    },
-    "id": "s9_lts_schedule_xtreme_solos"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_xtreme_squads"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "s9_lts_schedule_hexathon",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 2,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 5
-      }
-    },
-    "id": "s9_lts_schedule_xtreme_squads"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_lets_get_kraken"
-    },
-    "config": {
-      "type": "absolute",
-      "starts_at": "2022-11-22T10:00:00",
-      "ends_at": "2022-12-06T10:00:00"
-    },
-    "id": "s9_schedule_anchovy"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "mm_gate_s9_core_duo"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "s9_schedule_anchovy",
+      "parent_schedule_id": "show_s10_duos_show",
       "schedule_anchor_point": "start",
       "parent_schedule_anchor_point": "start",
       "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 1000,
+      "schedule_length_unit_multiplier": 7,
       "offset": {
-        "unit": "none"
+        "unit": "day",
+        "unit_multiplier": 30
       }
     },
-    "id": "s9_schedule_core_duo_show"
+    "id": "show_s10_hex_a_gravity_trials_01"
   },
   {
     "item": {
       "group_id": "matchmaking_gates",
-      "item_id": "mm_gate_s9_core_solo"
+      "item_id": "hexathon"
+    },
+    "config": {
+      "type": "relative",
+      "parent_schedule_id": "show_s10_duos_show",
+      "schedule_anchor_point": "start",
+      "parent_schedule_anchor_point": "start",
+      "schedule_length_unit": "day",
+      "schedule_length_unit_multiplier": 7,
+      "offset": {
+        "unit": "day",
+        "unit_multiplier": 16
+      }
+    },
+    "id": "show_s10_hex_a_thon_01"
+  },
+  {
+    "item": {
+      "group_id": "matchmaking_gates",
+      "item_id": "solos_show"
     },
     "config": {
       "type": "absolute",
       "starts_at": "2020-11-22T10:00:00",
       "ends_at": null
     },
-    "id": "s9_schedule_core_solo_show"
+    "id": "show_s10_solos_show"
   },
   {
     "item": {
       "group_id": "matchmaking_gates",
-      "item_id": "mm_gate_s9_core_squads"
+      "item_id": "squads_show"
+    },
+    "config": {
+      "type": "absolute",
+      "starts_at": "2023-04-25T10:00:00",
+      "ends_at": null
+    },
+    "id": "show_s10_squads_show"
+  },
+  {
+    "item": {
+      "group_id": "matchmaking_gates",
+      "item_id": "survival_of_the_fittest"
     },
     "config": {
       "type": "relative",
-      "parent_schedule_id": "s9_schedule_core_solo_show",
+      "parent_schedule_id": "show_s10_duos_show",
       "schedule_anchor_point": "start",
       "parent_schedule_anchor_point": "start",
       "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 1000,
-      "offset": {
-        "unit": "none"
-      }
-    },
-    "id": "s9_schedule_core_squads_show"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "mm_gate_s9_crayfish"
-    },
-    "config": {
-      "type": "absolute",
-      "starts_at": "2022-12-13T10:00:00",
-      "ends_at": "2023-01-05T10:00:00"
-    },
-    "id": "s9_schedule_crayfish"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_eel"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "s9_schedule_anchovy",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 9,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 35
-      }
-    },
-    "id": "s9_schedule_eel"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "mm_gate_timeattack_shuffle"
-    },
-    "config": {
-      "type": "absolute",
-      "starts_at": "2022-11-22T13:00:00",
-      "ends_at": "2022-11-25T10:00:00"
-    },
-    "id": "s9_time_attack_01_shuffle"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "mm_gate_timeattack_trackattack"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "s9_time_attack_01_shuffle",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
-      "offset": {
-        "unit": "none"
-      }
-    },
-    "id": "s9_time_attack_02_trackattack"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "mm_gate_timeattack_shuffle"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "s9_time_attack_01_shuffle",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 4,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 3
-      }
-    },
-    "id": "s9_time_attack_03_shuffle"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "mm_gate_timeattack_lilyleapers"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "s9_time_attack_01_shuffle",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 7
-      }
-    },
-    "id": "s9_time_attack_04_lilyleapers"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "mm_gate_timeattack_shuffle"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "s9_time_attack_01_shuffle",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 4,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 10
-      }
-    },
-    "id": "s9_time_attack_05_shuffle"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "mm_gate_timeattack_treetoptumble"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "s9_time_attack_01_shuffle",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 14
-      }
-    },
-    "id": "s9_time_attack_06_treetop"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_lets_get_kraken"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 2,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 24
-      }
-    },
-    "id": "show_s9_anchovy_2"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_lets_get_kraken"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 2,
+      "schedule_length_unit_multiplier": 7,
       "offset": {
         "unit": "day",
         "unit_multiplier": 37
       }
     },
-    "id": "show_s9_anchovy_3"
+    "id": "show_s10_survival_of_the_fittest_01"
   },
   {
     "item": {
       "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_lets_get_kraken"
+      "item_id": "xtreme_squads"
     },
     "config": {
       "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
+      "parent_schedule_id": "show_s10_duos_show",
       "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
+      "parent_schedule_anchor_point": "start",
       "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 4,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 51
-      }
-    },
-    "id": "show_s9_anchovy_4"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_lets_get_kraken"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 4,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 77
-      }
-    },
-    "id": "show_s9_anchovy_5"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_lets_get_kraken"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 91
-      }
-    },
-    "id": "show_s9_anchovy_6"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_lets_get_kraken"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 105
-      }
-    },
-    "id": "show_s9_anchovy_7"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_blast_ball_trials"
-    },
-    "config": {
-      "type": "absolute",
-      "starts_at": "2023-01-07T10:00:00",
-      "ends_at": "2023-01-11T10:00:00"
-    },
-    "id": "show_s9_blast_ball_trials_1"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_blast_ball_trials"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_blast_ball_trials_1",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 16
-      }
-    },
-    "id": "show_s9_blast_ball_trials_2"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_blast_ball_trials"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 2,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 29
-      }
-    },
-    "id": "show_s9_blast_ball_trials_3"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_blast_ball_trials"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 42
-      }
-    },
-    "id": "show_s9_blast_ball_trials_4"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_blast_ball_trials"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 63
-      }
-    },
-    "id": "show_s9_blast_ball_trials_5"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_blast_ball_trials"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 77
-      }
-    },
-    "id": "show_s9_blast_ball_trials_6"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_day_at_the_races_solo"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "s9_lts_schedule_hexathon",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 2,
+      "schedule_length_unit_multiplier": 7,
       "offset": {
         "unit": "day",
         "unit_multiplier": 9
       }
     },
-    "id": "show_s9_day_at_races_1"
+    "id": "show_s10_xtreme_squads_01"
   },
   {
     "item": {
       "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_day_at_the_races_solo"
+      "item_id": "wle_s10_wk01_mrs_01"
     },
     "config": {
       "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
+      "parent_schedule_id": "show_s10_duos_show",
       "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
+      "parent_schedule_anchor_point": "start",
       "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
+      "schedule_length_unit_multiplier": 13,
       "offset": {
         "unit": "day",
-        "unit_multiplier": 11
+        "unit_multiplier": 1
       }
     },
-    "id": "show_s9_day_at_races_2"
+    "id": "show_wle_s10_wk01_mrs_01"
   },
   {
     "item": {
       "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_day_at_the_races_solo"
+      "item_id": "wle_s10_wk1_srs_01"
     },
     "config": {
       "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
+      "parent_schedule_id": "show_s10_duos_show",
       "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
+      "parent_schedule_anchor_point": "start",
       "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
+      "schedule_length_unit_multiplier": 6,
       "offset": {
         "unit": "day",
-        "unit_multiplier": 39
+        "unit_multiplier": 1
       }
     },
-    "id": "show_s9_day_at_races_3"
+    "id": "show_wle_s10_wk01_srs_01"
   },
   {
     "item": {
       "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_day_at_the_races_solo"
+      "item_id": "wle_s10_wk1_srs_02"
     },
     "config": {
       "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
+      "parent_schedule_id": "show_s10_duos_show",
       "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
+      "parent_schedule_anchor_point": "start",
       "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 5,
+      "schedule_length_unit_multiplier": 6,
       "offset": {
         "unit": "day",
-        "unit_multiplier": 84
+        "unit_multiplier": 1
       }
     },
-    "id": "show_s9_day_at_races_4"
+    "id": "show_wle_s10_wk01_srs_02"
   },
   {
     "item": {
       "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_day_at_the_races_solo"
+      "item_id": "wle_s10_wk1_srs_03"
     },
     "config": {
       "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
+      "parent_schedule_id": "show_s10_duos_show",
       "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
+      "parent_schedule_anchor_point": "start",
       "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 5,
+      "schedule_length_unit_multiplier": 6,
       "offset": {
         "unit": "day",
-        "unit_multiplier": 98
+        "unit_multiplier": 1
       }
     },
-    "id": "show_s9_day_at_races_5"
+    "id": "show_wle_s10_wk01_srs_03"
   },
   {
     "item": {
       "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_fall_ball_cup"
+      "item_id": "wle_s10_wk1_srs_04"
     },
     "config": {
       "type": "relative",
-      "parent_schedule_id": "s9_lts_schedule_hexathon",
+      "parent_schedule_id": "show_s10_duos_show",
       "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
+      "parent_schedule_anchor_point": "start",
       "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
-      "offset": {
-        "unit": "none"
-      }
-    },
-    "id": "show_s9_fall_ball_cup_1"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_fall_ball_cup"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
-      "offset": {
-        "unit": "none"
-      }
-    },
-    "id": "show_s9_fall_ball_cup_2"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_fall_ball_cup"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 2,
+      "schedule_length_unit_multiplier": 6,
       "offset": {
         "unit": "day",
-        "unit_multiplier": 16
+        "unit_multiplier": 1
       }
     },
-    "id": "show_s9_fall_ball_cup_3"
+    "id": "show_wle_s10_wk01_srs_04"
   },
   {
     "item": {
       "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_fall_ball_cup"
+      "item_id": "wle_s10_wk2_srs_05"
     },
     "config": {
       "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
+      "parent_schedule_id": "show_s10_duos_show",
       "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
+      "parent_schedule_anchor_point": "start",
       "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 31
-      }
-    },
-    "id": "show_s9_fall_ball_cup_4"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_fall_ball_cup"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 4,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 58
-      }
-    },
-    "id": "show_s9_fall_ball_cup_5"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_finals_marathon"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_blast_ball_trials_1",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 4,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 19
-      }
-    },
-    "id": "show_s9_finals_marathon_4"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_finals_marathon"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 21
-      }
-    },
-    "id": "show_s9_finals_marathon_5"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_finals_marathon"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 55
-      }
-    },
-    "id": "show_s9_finals_marathon_6"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_finals_marathon"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 71
-      }
-    },
-    "id": "show_s9_finals_marathon_7"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_hexagone_trials"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "s9_schedule_anchovy",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 4
-      }
-    },
-    "id": "show_s9_hexagone_trials_1"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_hexagone_trials"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 26
-      }
-    },
-    "id": "show_s9_hexagone_trials_2"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_hexagone_trials"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 2,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 66
-      }
-    },
-    "id": "show_s9_hexagone_trials_3"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "hexagravity_trials"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "s9_lts_schedule_hexathon",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 2,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 25
-      }
-    },
-    "id": "show_s9_hexagravity_trials_1"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "hexagravity_trials"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 70
-      }
-    },
-    "id": "show_s9_hexagravity_trials_2"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_hexathon"
-    },
-    "config": {
-      "type": "absolute",
-      "starts_at": "2023-01-18T10:00:00",
-      "ends_at": "2023-01-20T10:00:00"
-    },
-    "id": "show_s9_hexathon_2"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_hexathon"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 18
-      }
-    },
-    "id": "show_s9_hexathon_3"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_hexathon"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 35
-      }
-    },
-    "id": "show_s9_hexathon_4"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_hexathon"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 84
-      }
-    },
-    "id": "show_s9_hexathon_5"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_hexathon"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 98
-      }
-    },
-    "id": "show_s9_hexathon_6"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_jump_around"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "s9_schedule_anchovy",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 2,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 12
-      }
-    },
-    "id": "show_s9_jump_around_1"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_jump_around"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "s9_lts_schedule_hexathon",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 2,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 23
-      }
-    },
-    "id": "show_s9_jump_around_2"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_jump_around"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 17
-      }
-    },
-    "id": "show_s9_jump_around_3"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_jump_around"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 48
-      }
-    },
-    "id": "show_s9_jump_around_4"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_lets_get_kraken"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_blast_ball_trials_1",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 4,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 2
-      }
-    },
-    "id": "show_s9_lets_get_kraken_1"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_lets_get_kraken"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 3
-      }
-    },
-    "id": "show_s9_lets_get_kraken_2"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_lily_leapers_limbo"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_blast_ball_trials_1",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 2,
-      "offset": {
-        "unit": "none"
-      }
-    },
-    "id": "show_s9_lily_leapers_limbo_1"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_ring_hexathlon"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "s9_lts_schedule_hexathon",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 18
-      }
-    },
-    "id": "show_s9_ring_hexathlon_2"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_ring_hexathlon"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_blast_ball_trials_1",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 13
-      }
-    },
-    "id": "show_s9_ring_hexathlon_3"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_slime_climb_time"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "s9_lts_schedule_hexathon",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 2,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 13
-      }
-    },
-    "id": "show_s9_slime_climb_time_1"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_slime_climb_time"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "s9_schedule_anchovy",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 2,
+      "schedule_length_unit_multiplier": 7,
       "offset": {
         "unit": "day",
         "unit_multiplier": 7
       }
     },
-    "id": "show_s9_slime_climb_time_2"
+    "id": "show_wle_s10_wk02_srs_05"
   },
   {
     "item": {
       "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_slime_climb_time"
+      "item_id": "wle_s10_wk2_srs_06"
     },
     "config": {
       "type": "relative",
-      "parent_schedule_id": "show_s9_blast_ball_trials_1",
+      "parent_schedule_id": "show_s10_duos_show",
       "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 10
-      }
-    },
-    "id": "show_s9_slime_climb_time_3"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_slime_climb_time"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 2,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 14
-      }
-    },
-    "id": "show_s9_slime_climb_time_4"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_slime_climb_time"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 28
-      }
-    },
-    "id": "show_s9_slime_climb_time_5"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_slime_climb_time"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 42
-      }
-    },
-    "id": "show_s9_slime_climb_time_6"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_slime_climb_time"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 2,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 62
-      }
-    },
-    "id": "show_s9_slime_climb_time_7"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_slime_climb_time"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 74
-      }
-    },
-    "id": "show_s9_slime_climb_time_8"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_stompin_ground_stand_off"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 2,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 9
-      }
-    },
-    "id": "show_s9_stompin_ground_stand_off_2"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_stompin_ground_stand_off"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 68
-      }
-    },
-    "id": "show_s9_stompin_ground_stand_off_3"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_sweet_thieves"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "s9_schedule_anchovy",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 4,
-      "offset": {
-        "unit": "none"
-      }
-    },
-    "id": "show_s9_sweet_thieves_1"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "show_s9_xtreme_party"
-    },
-    "config": {
-      "type": "absolute",
-      "starts_at": "2023-03-28T10:00:00",
-      "ends_at": "2023-03-31T10:00:00"
-    },
-    "id": "show_s9_xtreme_party_1"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_xtreme_solos"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "s9_schedule_anchovy",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 9
-      }
-    },
-    "id": "show_s9_xtreme_solo_show_1"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_xtreme_solos"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 34
-      }
-    },
-    "id": "show_s9_xtreme_solo_show_2"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_xtreme_solos"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 6,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 89
-      }
-    },
-    "id": "show_s9_xtreme_solo_show_3"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_xtreme_solos"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
+      "parent_schedule_anchor_point": "start",
       "schedule_length_unit": "day",
       "schedule_length_unit_multiplier": 7,
       "offset": {
         "unit": "day",
-        "unit_multiplier": 103
+        "unit_multiplier": 7
       }
     },
-    "id": "show_s9_xtreme_solo_show_4"
+    "id": "show_wle_s10_wk02_srs_06"
   },
   {
     "item": {
       "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_xtreme_squads"
+      "item_id": "wle_s10_wk2_srs_07"
     },
     "config": {
       "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
+      "parent_schedule_id": "show_s10_duos_show",
       "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
+      "parent_schedule_anchor_point": "start",
       "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
+      "schedule_length_unit_multiplier": 7,
       "offset": {
         "unit": "day",
-        "unit_multiplier": 6
+        "unit_multiplier": 7
       }
     },
-    "id": "show_s9_xtreme_squads_1"
+    "id": "show_wle_s10_wk02_srs_07"
   },
   {
     "item": {
       "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_xtreme_squads"
+      "item_id": "wle_s10_wk2_srs_08"
     },
     "config": {
       "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
+      "parent_schedule_id": "show_s10_duos_show",
       "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
+      "parent_schedule_anchor_point": "start",
       "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 4,
+      "schedule_length_unit_multiplier": 7,
       "offset": {
         "unit": "day",
-        "unit_multiplier": 20
+        "unit_multiplier": 7
       }
     },
-    "id": "show_s9_xtreme_squads_2"
+    "id": "show_wle_s10_wk02_srs_08"
   },
   {
     "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_xtreme_squads"
+      "group_id": "settings_show_selector",
+      "item_id": "default_settings"
     },
     "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 2,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 64
-      }
+      "type": "absolute",
+      "starts_at": "2022-01-01T00:00:00",
+      "ends_at": "2023-12-31T23:59:59"
     },
-    "id": "show_s9_xtreme_squads_3"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_xtreme_squads"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 81
-      }
-    },
-    "id": "show_s9_xtreme_squads_4"
-  },
-  {
-    "item": {
-      "group_id": "matchmaking_gates",
-      "item_id": "s9_gate_xtreme_squads"
-    },
-    "config": {
-      "type": "relative",
-      "parent_schedule_id": "show_s9_hexathon_2",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "end",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 3,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 95
-      }
-    },
-    "id": "show_s9_xtreme_squads_5"
+    "id": "test_show_selector_settings"
   }
 ]

@@ -1,6 +1,48 @@
 [
   {
     "challenge_pool_ids": [
+      "daily_pool_s10_default"
+    ],
+    "challenge_list_ui_id": "challenge_list_ui.common_daily",
+    "refresh_interval_config": {
+      "type": "daily",
+      "multiplier": 1
+    },
+    "should_renew": false,
+    "rarity_distribution": [
+      {
+        "rarity": "special",
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      },
+      {
+        "rarity": "common",
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      },
+      {
+        "rarity": "uncommon",
+        "required_number": 3,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      },
+      {
+        "rarity": "rare",
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      }
+    ],
+    "id": "daily_challenges_list_s10_default"
+  },
+  {
+    "challenge_pool_ids": [
       "event_pool_s9_compensation"
     ],
     "challenge_list_ui_id": "challenge_list_ui.event_compensation",
@@ -1240,6 +1282,54 @@
     "id": "event_challenges_list_hazlenut_02"
   },
   {
+    "challenge_pool_ids": [
+      "event_pool_s10_pretzel"
+    ],
+    "challenge_list_ui_id": "challenge_list_ui.event_pretzel",
+    "refresh_interval_config": {
+      "type": "indefinite"
+    },
+    "should_renew": false,
+    "rarity_distribution": [
+      {
+        "rarity": "event_pretzel_rarity",
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      },
+      {
+        "rarity": "event_pretzel_rarity_01",
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      },
+      {
+        "rarity": "event_pretzel_rarity_02",
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      },
+      {
+        "rarity": "event_pretzel_rarity_03",
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      },
+      {
+        "rarity": "event_pretzel_rarity_04",
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      }
+    ],
+    "id": "event_challenges_list_pretzel"
+  },
+  {
     "challenge_list_ui_id": "challenge_list_ui.event_stingray",
     "refresh_interval_config": {
       "type": "indefinite"
@@ -1336,6 +1426,61 @@
       }
     ],
     "id": "hourly_challenges"
+  },
+  {
+    "challenge_pool_ids": [
+      "marathon_pool_s10_1"
+    ],
+    "challenge_list_ui_id": "challenge_list_ui.common_seasonal",
+    "refresh_interval_config": {
+      "type": "indefinite"
+    },
+    "should_renew": false,
+    "rarity_distribution": [
+      {
+        "rarity": "special",
+        "required_number": 2,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      },
+      {
+        "rarity": "common",
+        "required_number": 2,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      },
+      {
+        "rarity": "uncommon",
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      },
+      {
+        "rarity": "rare",
+        "required_number": 2,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      },
+      {
+        "rarity": "epic",
+        "required_number": 2,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      },
+      {
+        "rarity": "legendary",
+        "required_number": 2,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      }
+    ],
+    "id": "marathon_challenges_list_s10_1"
   },
   {
     "challenge_pool_ids": [
@@ -2217,6 +2362,62 @@
       }
     ],
     "id": "weekend_challenges_timeattack_tundrarun_01"
+  },
+  {
+    "challenge_pool_ids": [
+      "weekly_pool_s10_default"
+    ],
+    "challenge_list_ui_id": "challenge_list_ui.common_weekly",
+    "refresh_interval_config": {
+      "type": "daily",
+      "multiplier": 7
+    },
+    "should_renew": false,
+    "rarity_distribution": [
+      {
+        "rarity": "bonus_fame",
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      },
+      {
+        "rarity": "common",
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      },
+      {
+        "rarity": "uncommon",
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      },
+      {
+        "rarity": "rare",
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      },
+      {
+        "rarity": "epic",
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      },
+      {
+        "rarity": "legendary",
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      }
+    ],
+    "id": "weekly_challenges_list_s10_default"
   },
   {
     "challenge_pool_ids": [

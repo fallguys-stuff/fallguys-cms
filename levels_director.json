@@ -12,6 +12,16 @@
   {
     "select_rounds_once_only": true,
     "ideal_player_count_weighting": 1,
+    "tag_weighting": "level_tag_weightings.tag_weightings_duos_s10",
+    "disqualification_score_mul": 0,
+    "phantom_disqualification_percentage_for_survival_rounds": 0,
+    "max_number_of_rounds_for_toms": 2,
+    "bucket_override_max_tom_rounds": [],
+    "id": "director_duos_s10"
+  },
+  {
+    "select_rounds_once_only": true,
+    "ideal_player_count_weighting": 1,
     "tag_weighting": "level_tag_weightings.tag_weightings_duos_ss2_launch",
     "disqualification_score_mul": 1,
     "phantom_disqualification_percentage_for_survival_rounds": 0,
@@ -507,6 +517,43 @@
     "ideal_player_count_weighting": 1,
     "disqualification_score_mul": 1,
     "phantom_disqualification_percentage_for_survival_rounds": 0,
+    "tag_weighting": "level_tag_weightings.tag_weightings_solo_show_s10",
+    "max_number_of_rounds_for_toms": 5,
+    "bucket_override_max_tom_rounds": [
+      {
+        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_ftue",
+        "max_tom_rounds": 5
+      },
+      {
+        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_lowest",
+        "max_tom_rounds": 2
+      },
+      {
+        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_mid",
+        "max_tom_rounds": 1
+      },
+      {
+        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_high",
+        "max_tom_rounds": 0
+      }
+    ],
+    "id": "director_solo_show_s10"
+  },
+  {
+    "select_rounds_once_only": true,
+    "ideal_player_count_weighting": 1,
+    "disqualification_score_mul": 1,
+    "phantom_disqualification_percentage_for_survival_rounds": 0,
+    "max_number_of_rounds_for_toms": 0,
+    "tag_weighting": "level_tag_weightings.tag_weightings_solo_show_s10",
+    "bucket_override_max_tom_rounds": [],
+    "id": "director_solo_show_s10_template"
+  },
+  {
+    "select_rounds_once_only": true,
+    "ideal_player_count_weighting": 1,
+    "disqualification_score_mul": 1,
+    "phantom_disqualification_percentage_for_survival_rounds": 0,
     "max_number_of_rounds_for_toms": 2,
     "bucket_override_max_tom_rounds": [
       {
@@ -661,12 +708,32 @@
   {
     "select_rounds_once_only": true,
     "ideal_player_count_weighting": 1,
+    "tag_weighting": "level_tag_weightings.tag_weightings_squads_s10",
+    "disqualification_score_mul": 1,
+    "phantom_disqualification_percentage_for_survival_rounds": 0,
+    "max_number_of_rounds_for_toms": 2,
+    "bucket_override_max_tom_rounds": [],
+    "id": "director_squads_s10"
+  },
+  {
+    "select_rounds_once_only": true,
+    "ideal_player_count_weighting": 1,
     "tag_weighting": "level_tag_weightings.tag_weightings_squads_s9_unfeatured",
     "disqualification_score_mul": 1,
     "phantom_disqualification_percentage_for_survival_rounds": 0,
     "max_number_of_rounds_for_toms": 2,
     "bucket_override_max_tom_rounds": [],
     "id": "director_squads_s9"
+  },
+  {
+    "select_rounds_once_only": true,
+    "ideal_player_count_weighting": 1,
+    "tag_weighting": "level_tag_weightings.tag_weightings_squads_s10",
+    "disqualification_score_mul": 1,
+    "phantom_disqualification_percentage_for_survival_rounds": 0,
+    "max_number_of_rounds_for_toms": 2,
+    "bucket_override_max_tom_rounds": [],
+    "id": "director_squads_s9_vaulted_40"
   },
   {
     "select_rounds_once_only": true,
@@ -787,5 +854,35 @@
     "max_number_of_rounds_for_toms": 2,
     "bucket_override_max_tom_rounds": [],
     "id": "director_weightings_symphony_launch"
+  },
+  {
+    "select_rounds_once_only": true,
+    "ideal_player_count_weighting": 1,
+    "disqualification_score_mul": 1,
+    "phantom_disqualification_percentage_for_survival_rounds": 0,
+    "tag_weighting": "level_tag_weightings.wle_tag_weightings",
+    "max_number_of_rounds_for_toms": 0,
+    "bucket_override_max_tom_rounds": [],
+    "id": "wle_director"
+  },
+  {
+    "select_rounds_once_only": true,
+    "ideal_player_count_weighting": 1,
+    "disqualification_score_mul": 1,
+    "phantom_disqualification_percentage_for_survival_rounds": 0,
+    "tag_weighting": "level_tag_weightings.wle_tag_weightings",
+    "max_number_of_rounds_for_toms": 2,
+    "bucket_override_max_tom_rounds": [],
+    "id": "wle_director_squads"
+  },
+  {
+    "select_rounds_once_only": false,
+    "ideal_player_count_weighting": 1,
+    "disqualification_score_mul": 1,
+    "phantom_disqualification_percentage_for_survival_rounds": 0,
+    "tag_weighting": "level_tag_weightings.wle_lobby_template",
+    "max_number_of_rounds_for_toms": 0,
+    "bucket_override_max_tom_rounds": [],
+    "id": "wle_lobby_template"
   }
 ]

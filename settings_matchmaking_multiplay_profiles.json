@@ -11,11 +11,11 @@
       "bots_show_max": 20
     },
     "squads": {
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15,
       "default_show_min": 40,
       "default_show_max": 60,
-      "squad_size": 4,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
+      "squad_size": 4
     },
     "platforms": {
       "platform_min": 0,
@@ -39,11 +39,11 @@
       "bots_show_max": 20
     },
     "squads": {
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15,
       "default_show_min": 4,
       "default_show_max": 60,
-      "squad_size": 4,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
+      "squad_size": 4
     },
     "platforms": {
       "platform_min": 0,
@@ -67,11 +67,11 @@
       "bots_show_max": 20
     },
     "squads": {
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15,
       "default_show_min": 4,
       "default_show_max": 60,
-      "squad_size": 4,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
+      "squad_size": 4
     },
     "platforms": {
       "platform_min": 0,
@@ -95,11 +95,11 @@
       "bots_show_max": 20
     },
     "squads": {
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15,
       "default_show_min": 4,
       "default_show_max": 60,
-      "squad_size": 4,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
+      "squad_size": 4
     },
     "platforms": {
       "platform_min": 0,
@@ -127,11 +127,11 @@
       "bots_show_max": 20
     },
     "squads": {
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15,
       "default_show_min": 40,
       "default_show_max": 60,
-      "squad_size": 4,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
+      "squad_size": 4
     },
     "seconds_before_allocation": 10,
     "max_seconds_to_wait_for_proposal": 0,
@@ -155,11 +155,11 @@
       "bots_show_max": 20
     },
     "squads": {
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15,
       "default_show_min": 40,
       "default_show_max": 60,
-      "squad_size": 4,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
+      "squad_size": 4
     },
     "seconds_before_allocation": 10,
     "max_seconds_to_wait_for_proposal": 0,
@@ -211,11 +211,11 @@
       "bots_show_max": null
     },
     "squads": {
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15,
       "default_show_min": 40,
       "default_show_max": 60,
-      "squad_size": 4,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
+      "squad_size": 4
     },
     "seconds_before_allocation": 10,
     "max_seconds_to_wait_for_proposal": 0,
@@ -253,7 +253,7 @@
   },
   {
     "profile_id": "1206305",
-    "profile_name": "DesignA",
+    "profile_name": "Design A - uses FN MM",
     "platforms": {
       "platform_min": null,
       "platform_max": null
@@ -265,15 +265,15 @@
     "seconds_to_wait_for_max_match_size": 0,
     "match_function_version": "1.13.4",
     "solo": {
-      "default_show_min": null,
-      "default_show_max": null,
+      "default_show_min": 1,
+      "default_show_max": 60,
       "bots_show_min": null,
       "bots_show_max": null
     },
     "squads": {
-      "default_show_min": null,
-      "default_show_max": null,
-      "default_min_squad_count": 10,
+      "default_show_min": 4,
+      "default_show_max": 60,
+      "default_min_squad_count": 1,
       "default_max_squad_count": 15,
       "squad_size": null
     },
@@ -392,6 +392,62 @@
     "id": "dev_4"
   },
   {
+    "profile_id": "1210910",
+    "profile_name": "Dev 5",
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "custom_cms_branch": null,
+    "enable_bots": false,
+    "seconds_before_allocation": 10,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
+    "solo": {
+      "default_show_min": 1,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_show_min": 8,
+      "default_show_max": 60,
+      "default_min_squad_count": 2,
+      "default_max_squad_count": 15,
+      "squad_size": 4
+    },
+    "id": "dev_5"
+  },
+  {
+    "profile_id": "1211807",
+    "profile_name": "Dev External 1",
+    "custom_cms_branch": null,
+    "enable_bots": true,
+    "solo": {
+      "default_show_min": 1,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_show_min": 8,
+      "default_show_max": 60,
+      "squad_size": 4,
+      "default_min_squad_count": 2,
+      "default_max_squad_count": 15
+    },
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "seconds_before_allocation": 10,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
+    "id": "dev_external_1"
+  },
+  {
     "profile_id": "1211813",
     "profile_name": "Dev External 2",
     "custom_cms_branch": null,
@@ -406,7 +462,7 @@
       "default_show_min": 8,
       "default_show_max": 60,
       "squad_size": 4,
-      "default_min_squad_count": 10,
+      "default_min_squad_count": 2,
       "default_max_squad_count": 15
     },
     "platforms": {
@@ -497,7 +553,7 @@
       "platform_min": 0,
       "platform_max": 6
     },
-    "seconds_before_allocation": 20,
+    "seconds_before_allocation": 10,
     "max_seconds_to_wait_for_proposal": 0,
     "seconds_to_wait_for_max_match_size": 0,
     "match_function_version": "1.13.4",
@@ -603,11 +659,11 @@
       "bots_show_max": null
     },
     "squads": {
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15,
       "default_show_min": 4,
       "default_show_max": 60,
-      "squad_size": 4,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
+      "squad_size": 4
     },
     "seconds_before_allocation": 0,
     "max_seconds_to_wait_for_proposal": 0,
@@ -715,11 +771,11 @@
       "bots_show_max": 20
     },
     "squads": {
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15,
       "default_show_min": 4,
       "default_show_max": 60,
-      "squad_size": 4,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
+      "squad_size": 4
     },
     "seconds_before_allocation": 20,
     "max_seconds_to_wait_for_proposal": 0,
@@ -771,11 +827,11 @@
       "bots_show_max": null
     },
     "squads": {
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15,
       "default_show_min": 4,
       "default_show_max": 60,
-      "squad_size": 4,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
+      "squad_size": 4
     },
     "seconds_before_allocation": 20,
     "max_seconds_to_wait_for_proposal": 0,
@@ -790,7 +846,7 @@
       "platform_min": 7,
       "platform_max": 11
     },
-    "custom_cms_branch": null,
+    "custom_cms_branch": "season_10_0_0_creative",
     "enable_bots": false,
     "seconds_before_allocation": 20,
     "max_seconds_to_wait_for_proposal": 0,
@@ -827,11 +883,11 @@
       "bots_show_max": 20
     },
     "squads": {
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15,
       "default_show_min": 2,
       "default_show_max": 60,
-      "squad_size": 2,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
+      "squad_size": 2
     },
     "seconds_before_allocation": 20,
     "max_seconds_to_wait_for_proposal": 0,
@@ -879,11 +935,11 @@
       "bots_show_max": 20
     },
     "squads": {
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15,
       "default_show_min": 4,
       "default_show_max": 60,
-      "squad_size": 4,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
+      "squad_size": 4
     },
     "platforms": {
       "platform_min": 0,
@@ -907,11 +963,11 @@
       "bots_show_max": 20
     },
     "squads": {
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15,
       "default_show_min": 2,
       "default_show_max": 60,
-      "squad_size": 2,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
+      "squad_size": 2
     },
     "platforms": {
       "platform_min": 0,
@@ -935,11 +991,11 @@
       "bots_show_max": 20
     },
     "squads": {
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15,
       "default_show_min": 2,
       "default_show_max": 60,
-      "squad_size": 2,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
+      "squad_size": 2
     },
     "platforms": {
       "platform_min": 0,
@@ -963,11 +1019,11 @@
       "bots_show_max": 20
     },
     "squads": {
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15,
       "default_show_min": 2,
       "default_show_max": 60,
-      "squad_size": 2,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
+      "squad_size": 2
     },
     "platforms": {
       "platform_min": 0,
@@ -995,6 +1051,34 @@
       "bots_show_max": 20
     },
     "squads": {
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15,
+      "default_show_min": 4,
+      "default_show_max": 60,
+      "squad_size": 4
+    },
+    "seconds_before_allocation": 20,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
+    "id": "qa_internal_4"
+  },
+  {
+    "profile_id": "1210415",
+    "profile_name": "Internal QA 5",
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "custom_cms_branch": null,
+    "enable_bots": false,
+    "solo": {
+      "default_show_min": 1,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
       "default_show_min": 4,
       "default_show_max": 60,
       "squad_size": 4,
@@ -1005,7 +1089,35 @@
     "max_seconds_to_wait_for_proposal": 0,
     "seconds_to_wait_for_max_match_size": 0,
     "match_function_version": "1.13.4",
-    "id": "qa_internal_4"
+    "id": "qa_internal_5"
+  },
+  {
+    "profile_id": "1210418",
+    "profile_name": "Internal QA 6",
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "custom_cms_branch": null,
+    "enable_bots": false,
+    "solo": {
+      "default_show_min": 1,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_show_min": 4,
+      "default_show_max": 60,
+      "squad_size": 4,
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15
+    },
+    "seconds_before_allocation": 20,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
+    "id": "qa_internal_6"
   },
   {
     "profile_id": "1204134",
@@ -1019,11 +1131,11 @@
       "bots_show_max": null
     },
     "squads": {
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15,
       "default_show_min": 4,
       "default_show_max": 8,
-      "squad_size": 2,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
+      "squad_size": 2
     },
     "platforms": {
       "platform_min": 7,
@@ -1070,7 +1182,7 @@
       "platform_min": 0,
       "platform_max": 6
     },
-    "custom_cms_branch": "staging_qa",
+    "custom_cms_branch": null,
     "enable_bots": false,
     "solo": {
       "default_show_min": 40,
@@ -1079,11 +1191,11 @@
       "bots_show_max": 20
     },
     "squads": {
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15,
       "default_show_min": 40,
       "default_show_max": 60,
-      "squad_size": 4,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
+      "squad_size": 4
     },
     "seconds_before_allocation": 20,
     "max_seconds_to_wait_for_proposal": 0,
@@ -1103,11 +1215,11 @@
       "bots_show_max": 20
     },
     "squads": {
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15,
       "default_show_min": 4,
       "default_show_max": 60,
-      "squad_size": 2,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
+      "squad_size": 2
     },
     "platforms": {
       "platform_min": 0,

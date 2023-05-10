@@ -1,5 +1,44 @@
 [
   {
+    "name": "fallguys-clientdev",
+    "environment": "clientdev",
+    "fall_guys_matches_endpoint": "https://matchmaking-gateway-clientdev.fallguys-dev.oncatapult.com/matches",
+    "fall_guys_ratings_endpoint": "https://matchmaking-gateway-clientdev.fallguys-dev.oncatapult.com/scores",
+    "queue_pop_interval": 1,
+    "session_assignment_assign_match_timeout": 15,
+    "requeue_after_failed_session_assignment": false,
+    "server_join_throttling_per_sec": 16,
+    "bucket_split": 1,
+    "options_allow_backfill": true,
+    "id": "clientdev"
+  },
+  {
+    "name": "fallguys-closedbeta",
+    "environment": "closedbeta",
+    "fall_guys_matches_endpoint": "https://matchmaking-gateway-closedbeta.fallguys-dev.oncatapult.com/matches",
+    "fall_guys_ratings_endpoint": "https://matchmaking-gateway-closedbeta.fallguys-dev.oncatapult.com/scores",
+    "queue_pop_interval": 1,
+    "session_assignment_assign_match_timeout": 15,
+    "requeue_after_failed_session_assignment": false,
+    "server_join_throttling_per_sec": 16,
+    "bucket_split": 1,
+    "options_allow_backfill": true,
+    "id": "closedbeta"
+  },
+  {
+    "name": "fallguys-internalqa",
+    "environment": "internalqa",
+    "fall_guys_matches_endpoint": "https://matchmaking-gateway-internalqa.fallguys-dev.oncatapult.com/matches",
+    "fall_guys_ratings_endpoint": "https://matchmaking-gateway-internalqa.fallguys-dev.oncatapult.com/scores",
+    "queue_pop_interval": 1,
+    "session_assignment_assign_match_timeout": 15,
+    "requeue_after_failed_session_assignment": false,
+    "server_join_throttling_per_sec": 16,
+    "bucket_split": 1,
+    "options_allow_backfill": true,
+    "id": "internalqa"
+  },
+  {
     "name": "fallguys-prod",
     "environment": "prod3",
     "fall_guys_matches_endpoint": "https://matchmaking-gateway-prod3.fallguys.oncatapult.com/matches",
