@@ -1366,6 +1366,21 @@
     "parameters": {
       "type": "purchase_history",
       "data": {
+        "bundle": {
+          "id": "bundle_punk_idol_01"
+        },
+        "quantity": {
+          "operator": "less_than",
+          "max": 1
+        }
+      }
+    },
+    "id": "has_not_purchased_s10_rmt_punk_idol_01"
+  },
+  {
+    "parameters": {
+      "type": "purchase_history",
+      "data": {
         "quantity": {
           "operator": "less_than",
           "max": 1
@@ -2867,6 +2882,17 @@
       "type": "date_time",
       "data": {
         "operator": "between",
+        "start": "2023-05-25T10:00:00",
+        "end": "2023-06-01T10:00:00"
+      }
+    },
+    "id": "le_s10_cheese"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
         "start": "2022-01-28T09:00:00",
         "end": "2022-01-31T09:00:00"
       }
@@ -3476,10 +3502,21 @@
       "data": {
         "operator": "between",
         "start": "2023-03-14T09:00:00",
-        "end": "2023-05-25T08:59:59"
+        "end": "2023-05-11T08:59:59"
       }
     },
     "id": "s10_rmt_wk1_c"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-05-25T09:00:00",
+        "end": "2024-05-11T08:59:59"
+      }
+    },
+    "id": "s10_rmt_wk3"
   },
   {
     "parameters": {

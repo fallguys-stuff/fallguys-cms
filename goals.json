@@ -6254,6 +6254,27 @@
     "id": "play_5_race_rounds_vulture"
   },
   {
+    "player_action_id": "play_any_round_hexathon",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_event_walnut"
+      }
+    ],
+    "title": "localised_strings.show_name_event_walnut",
+    "challenge_tags": [],
+    "id": "play_any_round_hexathon"
+  },
+  {
     "player_action_id": "play_any_round_only_blastball_ss1_idol_games",
     "target": {
       "type": "aggregate",
@@ -6854,6 +6875,27 @@
     "id": "play_round_2_duos_ss1_idol_games"
   },
   {
+    "player_action_id": "play_round_3_duos",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "title": "localised_strings.show_title_duos_show",
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [],
+    "id": "play_round_3_duos"
+  },
+  {
     "player_action_id": "play_round_3_duos_ss1_idol_games",
     "target": {
       "type": "aggregate",
@@ -6873,6 +6915,27 @@
     ],
     "challenge_tags": [],
     "id": "play_round_3_duos_ss1_idol_games"
+  },
+  {
+    "player_action_id": "play_round_3_squads",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "title": "localised_strings.show_title_squad_show",
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_show_title_squad_show"
+      }
+    ],
+    "challenge_tags": [],
+    "id": "play_round_3_squads"
   },
   {
     "player_action_id": "play_round_3_squads_ss1_idol_games",
@@ -10111,6 +10174,23 @@
     "id": "reach_final_round_main_koi"
   },
   {
+    "player_action_id": "reach_final_round_solos",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "title": "localised_strings.show_title_solo_show",
+    "description": "localised_strings.challenge_desc_031",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [],
+    "id": "reach_final_round_solos"
+  },
+  {
     "player_action_id": "reach_final_round_solos_ss1_idol_games",
     "target": {
       "type": "aggregate",
@@ -10126,6 +10206,23 @@
     ],
     "challenge_tags": [],
     "id": "reach_final_round_solos_ss1_idol_games"
+  },
+  {
+    "player_action_id": "reach_final_round_squads",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "title": "localised_strings.show_title_squad_show",
+    "description": "localised_strings.challenge_desc_031",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_show_title_squad_show"
+      }
+    ],
+    "challenge_tags": [],
+    "id": "reach_final_round_squads"
   },
   {
     "player_action_id": "reach_final_round_squads4",
@@ -11029,6 +11126,27 @@
     "title": null,
     "challenge_tags": [],
     "id": "reach_round_4_newyears6"
+  },
+  {
+    "player_action_id": "reach_round_4_solos",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "title": "localised_strings.show_title_solo_show",
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 4
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [],
+    "id": "reach_round_4_solos"
   },
   {
     "player_action_id": "reach_round_4_solos_ss1_idol_games",
@@ -16519,14 +16637,14 @@
       "operator": "equal",
       "value": 1
     },
+    "title": "localised_strings.show_title_duos_show",
     "description": "localised_strings.challenge_desc_015_singular",
     "description_parameters": [
       {
         "type": "localised",
-        "localised_value": "localised_strings.newsfeed_duo_show_title"
+        "localised_value": "localised_strings.challenge_criteria_show_title_duos_show"
       }
     ],
-    "title": null,
     "challenge_tags": [],
     "id": "win_duos"
   },
@@ -16716,6 +16834,23 @@
     "title": null,
     "challenge_tags": [],
     "id": "win_end_of_season_03_ss1_solo"
+  },
+  {
+    "player_action_id": "win_hexathon",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_event_walnut"
+      }
+    ],
+    "title": "localised_strings.show_name_event_walnut",
+    "challenge_tags": [],
+    "id": "win_hexathon"
   },
   {
     "player_action_id": "win_hilaria",
@@ -16956,7 +17091,7 @@
       "operator": "equal",
       "value": 1
     },
-    "title": null,
+    "title": "localised_strings.show_title_solo_show",
     "description": "localised_strings.challenge_desc_015_singular",
     "description_parameters": [
       {
@@ -17269,7 +17404,7 @@
       "type": "aggregate",
       "value": 1
     },
-    "title": null,
+    "title": "localised_strings.show_title_squad_show",
     "description": "localised_strings.challenge_desc_015_singular",
     "description_parameters": [
       {
