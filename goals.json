@@ -12356,6 +12356,48 @@
     "id": "survive_time_walnut"
   },
   {
+    "player_action_id": "win_show",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_015_singular_repeatable",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_repeatable"
+      }
+    ],
+    "title": null,
+    "challenge_tags": [],
+    "id": "taggless-win_any_show_1"
+  },
+  {
+    "player_action_id": "play_round_any",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "title": null,
+    "description": "localised_strings.challenge_desc_027_singular_repeatable",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_repeatable"
+      }
+    ],
+    "challenge_tags": [],
+    "id": "tagless_play_rounds_any_1"
+  },
+  {
     "player_action_id": "play_round_any",
     "target": {
       "type": "aggregate",
@@ -12517,6 +12559,29 @@
       "type": "aggregate",
       "value": 1
     },
+    "description": "localised_strings.challenge_desc_031_repeatable",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_repeatable"
+      }
+    ],
+    "title": null,
+    "challenge_tags": [
+      "weekly_challenge"
+    ],
+    "id": "tagless_reach_final_1"
+  },
+  {
+    "player_action_id": "reach_final_round",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
     "title": null,
     "description": "localised_strings.challenge_desc_031_repeatable",
     "description_parameters": [
@@ -12531,6 +12596,60 @@
     ],
     "challenge_tags": [],
     "id": "tagless_reach_final_round_any_1"
+  },
+  {
+    "player_action_id": "reach_round_2",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_023_show_repeatable",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 2
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_repeatable"
+      }
+    ],
+    "title": null,
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "id": "tagless_reach_round_2_1"
+  },
+  {
+    "player_action_id": "reach_round_3",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_023_show_repeatable",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_desc_repeatable"
+      }
+    ],
+    "title": null,
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "id": "tagless_reach_round_3_1"
   },
   {
     "player_action_id": "win_show",
