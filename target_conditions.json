@@ -3102,7 +3102,7 @@
       "data": {
         "operator": "between",
         "start": "2023-05-10T10:00:00",
-        "end": "2023-06-13T10:00:00"
+        "end": "2023-07-18T10:00:00"
       }
     },
     "id": "s10_dailies_season"
@@ -3117,6 +3117,17 @@
       }
     },
     "id": "s10_fishingpelican_02_dates"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-06-10T10:00:00",
+        "end": "2023-06-24T09:59:59"
+      }
+    },
+    "id": "s10_ft_bittern"
   },
   {
     "parameters": {
@@ -3157,7 +3168,7 @@
       "data": {
         "operator": "between",
         "start": "2023-06-03T10:00:00",
-        "end": "2023-06-08T09:59:59"
+        "end": "2023-06-09T09:59:59"
       }
     },
     "id": "s10_ft_w6_sat"
@@ -3475,6 +3486,17 @@
       "type": "date_time",
       "data": {
         "operator": "between",
+        "start": "2023-06-10T10:00:00",
+        "end": "2023-06-15T09:59:59"
+      }
+    },
+    "id": "s10_ft_wk7_sat"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
         "start": "2023-06-08T10:00:00",
         "end": "2023-06-13T09:59:59"
       }
@@ -3502,6 +3524,17 @@
       }
     },
     "id": "s10_marathon_season_1"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-06-20T10:00:00",
+        "end": "2023-08-22T10:00:00"
+      }
+    },
+    "id": "s10_marathon_season_2"
   },
   {
     "parameters": {
@@ -3601,6 +3634,72 @@
       }
     },
     "id": "s10_weeklies_wk07"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-06-27T10:00:00",
+        "end": "2023-07-04T10:00:00"
+      }
+    },
+    "id": "s10_weeklies_wk08"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-07-04T10:00:00",
+        "end": "2023-07-11T10:00:00"
+      }
+    },
+    "id": "s10_weeklies_wk09"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-07-11T10:00:00",
+        "end": "2023-07-18T10:00:00"
+      }
+    },
+    "id": "s10_weeklies_wk10"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-07-18T10:00:00",
+        "end": "2023-07-25T10:00:00"
+      }
+    },
+    "id": "s10_weeklies_wk11"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-07-25T10:00:00",
+        "end": "2023-08-01T10:00:00"
+      }
+    },
+    "id": "s10_weeklies_wk12"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-08-01T10:00:00",
+        "end": "2023-08-08T10:00:00"
+      }
+    },
+    "id": "s10_weeklies_wk13"
   },
   {
     "parameters": {
@@ -8586,6 +8685,28 @@
   },
   {
     "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-06-13T10:00:00",
+        "end": "2023-07-18T09:59:59"
+      }
+    },
+    "id": "ss4_fp_2"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-06-05T10:00:00",
+        "end": "2023-07-18T09:59:59"
+      }
+    },
+    "id": "ss4_fp_2_store"
+  },
+  {
+    "parameters": {
       "type": "item_quantity",
       "data": {
         "item": {
@@ -8599,6 +8720,38 @@
       }
     },
     "id": "target_famepass_ss4_1_not_owned"
+  },
+  {
+    "parameters": {
+      "type": "item_quantity",
+      "data": {
+        "item": {
+          "type": "season_passes",
+          "reference": "season_passes.ss004_02_seasonpass"
+        },
+        "quantity": {
+          "operator": "less_than",
+          "max": 1
+        }
+      }
+    },
+    "id": "target_famepass_ss4_2_not_owned"
+  },
+  {
+    "parameters": {
+      "type": "item_quantity",
+      "data": {
+        "item": {
+          "type": "season_passes",
+          "reference": "season_passes.ss004_02_seasonpass"
+        },
+        "quantity": {
+          "operator": "more_than",
+          "min": 0
+        }
+      }
+    },
+    "id": "target_famepass_ss4_2_owned"
   },
   {
     "parameters": {

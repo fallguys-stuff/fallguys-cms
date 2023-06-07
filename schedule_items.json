@@ -2,6 +2,25 @@
   {
     "item": {
       "group_id": "matchmaking_gates",
+      "item_id": "blast_ball_trials"
+    },
+    "config": {
+      "type": "relative",
+      "parent_schedule_id": "show_s10_duos_show",
+      "schedule_anchor_point": "start",
+      "parent_schedule_anchor_point": "start",
+      "schedule_length_unit": "day",
+      "schedule_length_unit_multiplier": 7,
+      "offset": {
+        "unit": "day",
+        "unit_multiplier": 65
+      }
+    },
+    "id": "show_s10_blast_ball_trials_01"
+  },
+  {
+    "item": {
+      "group_id": "matchmaking_gates",
       "item_id": "duos_show"
     },
     "config": {
@@ -90,6 +109,25 @@
   {
     "item": {
       "group_id": "matchmaking_gates",
+      "item_id": "hexathon"
+    },
+    "config": {
+      "type": "relative",
+      "parent_schedule_id": "show_s10_duos_show",
+      "schedule_anchor_point": "start",
+      "parent_schedule_anchor_point": "start",
+      "schedule_length_unit": "day",
+      "schedule_length_unit_multiplier": 8,
+      "offset": {
+        "unit": "day",
+        "unit_multiplier": 50
+      }
+    },
+    "id": "show_s10_hex_a_thon_02"
+  },
+  {
+    "item": {
+      "group_id": "matchmaking_gates",
       "item_id": "solos_show"
     },
     "config": {
@@ -98,6 +136,25 @@
       "ends_at": null
     },
     "id": "show_s10_solos_show"
+  },
+  {
+    "item": {
+      "group_id": "matchmaking_gates",
+      "item_id": "squadcelebration"
+    },
+    "config": {
+      "type": "relative",
+      "parent_schedule_id": "show_s10_duos_show",
+      "schedule_anchor_point": "start",
+      "parent_schedule_anchor_point": "start",
+      "schedule_length_unit": "day",
+      "schedule_length_unit_multiplier": 7,
+      "offset": {
+        "unit": "day",
+        "unit_multiplier": 58
+      }
+    },
+    "id": "show_s10_squad_celebration_01"
   },
   {
     "item": {
@@ -122,13 +179,32 @@
       "schedule_anchor_point": "start",
       "parent_schedule_anchor_point": "start",
       "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 7,
+      "schedule_length_unit_multiplier": 6,
       "offset": {
         "unit": "day",
         "unit_multiplier": 37
       }
     },
     "id": "show_s10_survival_of_the_fittest_01"
+  },
+  {
+    "item": {
+      "group_id": "matchmaking_gates",
+      "item_id": "xtreme_solos"
+    },
+    "config": {
+      "type": "relative",
+      "parent_schedule_id": "show_s10_duos_show",
+      "schedule_anchor_point": "start",
+      "parent_schedule_anchor_point": "start",
+      "schedule_length_unit": "day",
+      "schedule_length_unit_multiplier": 7,
+      "offset": {
+        "unit": "day",
+        "unit_multiplier": 43
+      }
+    },
+    "id": "show_s10_xtreme_solos_01"
   },
   {
     "item": {
@@ -148,6 +224,25 @@
       }
     },
     "id": "show_s10_xtreme_squads_01"
+  },
+  {
+    "item": {
+      "group_id": "matchmaking_gates",
+      "item_id": "xtreme_squads"
+    },
+    "config": {
+      "type": "relative",
+      "parent_schedule_id": "show_s10_duos_show",
+      "schedule_anchor_point": "start",
+      "parent_schedule_anchor_point": "start",
+      "schedule_length_unit": "day",
+      "schedule_length_unit_multiplier": 7,
+      "offset": {
+        "unit": "day",
+        "unit_multiplier": 72
+      }
+    },
+    "id": "show_s10_xtreme_squads_02"
   },
   {
     "item": {
