@@ -1351,6 +1351,21 @@
     "parameters": {
       "type": "purchase_history",
       "data": {
+        "quantity": {
+          "operator": "less_than",
+          "max": 1
+        },
+        "bundle": {
+          "id": "bundle_minermole_01"
+        }
+      }
+    },
+    "id": "has_not_purchased_s10_minermole_01"
+  },
+  {
+    "parameters": {
+      "type": "purchase_history",
+      "data": {
         "bundle": {
           "id": "bundle_arcademachine_01"
         },
@@ -1631,6 +1646,21 @@
       }
     },
     "id": "has_purchased_s10_fishingpelican_02"
+  },
+  {
+    "parameters": {
+      "type": "purchase_history",
+      "data": {
+        "quantity": {
+          "operator": "more_than",
+          "min": 0
+        },
+        "bundle": {
+          "id": "bundle_minermole_01"
+        }
+      }
+    },
+    "id": "has_purchased_s10_minermole_01"
   },
   {
     "parameters": {
@@ -3535,6 +3565,17 @@
       }
     },
     "id": "s10_marathon_season_2"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-06-13T10:00:00",
+        "end": "2023-08-22T09:59:59"
+      }
+    },
+    "id": "s10_minermole_01_dates"
   },
   {
     "parameters": {
