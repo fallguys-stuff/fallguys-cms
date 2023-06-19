@@ -1366,12 +1366,12 @@
     "parameters": {
       "type": "purchase_history",
       "data": {
+        "bundle": {
+          "id": "bundle_arcademachine_01"
+        },
         "quantity": {
           "operator": "less_than",
           "max": 1
-        },
-        "bundle": {
-          "id": "bundle_arcademachine_01"
         }
       }
     },
@@ -1904,7 +1904,7 @@
       "data": {
         "operator": "between",
         "start": "2023-03-21T10:00:00",
-        "end": "2023-04-07T10:00:00"
+        "end": "2023-03-28T10:00:00"
       }
     },
     "id": "is_le_s9_cod"
@@ -1937,7 +1937,7 @@
       "data": {
         "operator": "between",
         "start": "2023-01-05T10:00:00",
-        "end": "2023-01-30T10:00:00"
+        "end": "2023-01-19T10:00:00"
       }
     },
     "id": "is_le_s9_eel"
@@ -1958,7 +1958,7 @@
       "type": "date_time",
       "data": {
         "operator": "between",
-        "start": "2023-01-23T17:00:00",
+        "start": "2023-01-24T10:00:00",
         "end": "2023-02-07T10:00:00"
       }
     },
@@ -1970,7 +1970,7 @@
       "data": {
         "operator": "between",
         "start": "2023-01-19T10:00:00",
-        "end": "2023-01-23T17:00:00"
+        "end": "2023-01-24T10:00:00"
       }
     },
     "id": "is_le_s9_haddock_02"
@@ -1981,7 +1981,7 @@
       "data": {
         "operator": "between",
         "start": "2023-02-16T10:00:00",
-        "end": "2023-03-08T10:00:00"
+        "end": "2023-02-28T10:00:00"
       }
     },
     "id": "is_le_s9_kudos_carnival_01"
@@ -1992,7 +1992,7 @@
       "data": {
         "operator": "between",
         "start": "2023-03-30T10:00:00",
-        "end": "2023-04-01T10:00:00"
+        "end": "2023-04-11T10:00:00"
       }
     },
     "id": "is_le_s9_kudos_carnival_02"
@@ -2190,7 +2190,7 @@
       "data": {
         "operator": "between",
         "start": "2023-03-09T10:00:00",
-        "end": "2023-03-09T10:00:00"
+        "end": "2023-03-21T10:00:00"
       }
     },
     "id": "is_le_ss3_sturgeon"
@@ -2919,8 +2919,8 @@
       "type": "date_time",
       "data": {
         "operator": "between",
-        "start": "2023-05-24T10:00:00",
-        "end": "2023-06-09T12:30:00"
+        "start": "2023-05-25T10:00:00",
+        "end": "2023-06-01T10:00:00"
       }
     },
     "id": "le_s10_cheese"
@@ -3029,8 +3029,8 @@
       "type": "date_time",
       "data": {
         "operator": "between",
-        "start": "2023-05-22T10:00:00",
-        "end": "2023-05-22T12:00:00"
+        "start": "2023-02-02T10:00:00",
+        "end": "2023-02-14T10:00:00"
       }
     },
     "id": "le_s9_arowana"
@@ -3052,7 +3052,7 @@
       "data": {
         "operator": "between",
         "start": "2023-04-27T10:00:00",
-        "end": "2023-04-27T10:01:00"
+        "end": "2023-05-10T10:00:00"
       }
     },
     "id": "le_s9_shark_dates"
@@ -3186,204 +3186,6 @@
       "type": "date_time",
       "data": {
         "operator": "between",
-        "start": "2023-07-24T10:00:00",
-        "end": "2023-07-29T09:59:59"
-      }
-    },
-    "id": "s10_ft_fp3_wk11_mon"
-  },
-  {
-    "parameters": {
-      "type": "date_time",
-      "data": {
-        "operator": "between",
-        "start": "2023-07-22T10:00:00",
-        "end": "2023-07-27T09:59:59"
-      }
-    },
-    "id": "s10_ft_fp3_wk11_sat"
-  },
-  {
-    "parameters": {
-      "type": "date_time",
-      "data": {
-        "operator": "between",
-        "start": "2023-07-20T10:00:00",
-        "end": "2023-07-27T09:59:59"
-      }
-    },
-    "id": "s10_ft_fp3_wk11_scout"
-  },
-  {
-    "parameters": {
-      "type": "date_time",
-      "data": {
-        "operator": "between",
-        "start": "2023-07-20T10:00:00",
-        "end": "2023-07-25T09:59:59"
-      }
-    },
-    "id": "s10_ft_fp3_wk11_thurs"
-  },
-  {
-    "parameters": {
-      "type": "date_time",
-      "data": {
-        "operator": "between",
-        "start": "2023-07-25T10:00:00",
-        "end": "2023-08-01T09:59:59"
-      }
-    },
-    "id": "s10_ft_fp3_wk11_tues"
-  },
-  {
-    "parameters": {
-      "type": "date_time",
-      "data": {
-        "operator": "between",
-        "start": "2023-07-31T10:00:00",
-        "end": "2023-08-05T09:59:59"
-      }
-    },
-    "id": "s10_ft_fp3_wk12_mon"
-  },
-  {
-    "parameters": {
-      "type": "date_time",
-      "data": {
-        "operator": "between",
-        "start": "2023-07-29T10:00:00",
-        "end": "2023-08-03T09:59:59"
-      }
-    },
-    "id": "s10_ft_fp3_wk12_sat"
-  },
-  {
-    "parameters": {
-      "type": "date_time",
-      "data": {
-        "operator": "between",
-        "start": "2023-07-27T10:00:00",
-        "end": "2023-08-01T09:59:59"
-      }
-    },
-    "id": "s10_ft_fp3_wk12_thurs"
-  },
-  {
-    "parameters": {
-      "type": "date_time",
-      "data": {
-        "operator": "between",
-        "start": "2023-08-01T10:00:00",
-        "end": "2023-08-06T09:59:59"
-      }
-    },
-    "id": "s10_ft_fp3_wk12_tues"
-  },
-  {
-    "parameters": {
-      "type": "date_time",
-      "data": {
-        "operator": "between",
-        "start": "2023-08-08T10:00:00",
-        "end": "2023-08-15T09:59:59"
-      }
-    },
-    "id": "s10_ft_fp3_wk13_brows"
-  },
-  {
-    "parameters": {
-      "type": "date_time",
-      "data": {
-        "operator": "between",
-        "start": "2023-08-07T10:00:00",
-        "end": "2023-08-12T09:59:59"
-      }
-    },
-    "id": "s10_ft_fp3_wk13_mon"
-  },
-  {
-    "parameters": {
-      "type": "date_time",
-      "data": {
-        "operator": "between",
-        "start": "2023-08-05T10:00:00",
-        "end": "2023-08-10T09:59:59"
-      }
-    },
-    "id": "s10_ft_fp3_wk13_sat"
-  },
-  {
-    "parameters": {
-      "type": "date_time",
-      "data": {
-        "operator": "between",
-        "start": "2023-08-03T10:00:00",
-        "end": "2023-08-08T09:59:51"
-      }
-    },
-    "id": "s10_ft_fp3_wk13_thurs"
-  },
-  {
-    "parameters": {
-      "type": "date_time",
-      "data": {
-        "operator": "between",
-        "start": "2023-08-08T10:00:00",
-        "end": "2023-08-13T09:59:59"
-      }
-    },
-    "id": "s10_ft_fp3_wk13_tues"
-  },
-  {
-    "parameters": {
-      "type": "date_time",
-      "data": {
-        "operator": "between",
-        "start": "2023-08-14T10:00:00",
-        "end": "2023-08-19T09:59:59"
-      }
-    },
-    "id": "s10_ft_fp3_wk14_mon"
-  },
-  {
-    "parameters": {
-      "type": "date_time",
-      "data": {
-        "operator": "between",
-        "start": "2023-08-12T10:00:00",
-        "end": "2023-08-17T09:59:59"
-      }
-    },
-    "id": "s10_ft_fp3_wk14_sat"
-  },
-  {
-    "parameters": {
-      "type": "date_time",
-      "data": {
-        "operator": "between",
-        "start": "2023-08-10T10:00:00",
-        "end": "2023-08-15T09:59:59"
-      }
-    },
-    "id": "s10_ft_fp3_wk14_thurs"
-  },
-  {
-    "parameters": {
-      "type": "date_time",
-      "data": {
-        "operator": "between",
-        "start": "2023-08-15T10:00:00",
-        "end": "2023-08-20T09:59:59"
-      }
-    },
-    "id": "s10_ft_fp3_wk14_tues"
-  },
-  {
-    "parameters": {
-      "type": "date_time",
-      "data": {
-        "operator": "between",
         "start": "2023-05-10T10:00:00",
         "end": "2023-05-15T09:59:59"
       }
@@ -3433,17 +3235,6 @@
       }
     },
     "id": "s10_ft_w7_sat"
-  },
-  {
-    "parameters": {
-      "type": "date_time",
-      "data": {
-        "operator": "between",
-        "start": "2023-06-29T10:00:00",
-        "end": "2023-07-04T09:59:59"
-      }
-    },
-    "id": "s10_ft_wk10_thurs"
   },
   {
     "parameters": {
@@ -5606,7 +5397,7 @@
       "type": "date_time",
       "data": {
         "operator": "between",
-        "start": "2023-03-30T09:00:00",
+        "start": "2023-04-09T09:00:00",
         "end": "2023-04-14T08:59:59"
       }
     },
@@ -5727,7 +5518,7 @@
       "type": "date_time",
       "data": {
         "operator": "between",
-        "start": "2023-04-13T09:00:00",
+        "start": "2023-04-24T09:00:00",
         "end": "2023-04-29T08:59:59"
       }
     },
@@ -5738,7 +5529,7 @@
       "type": "date_time",
       "data": {
         "operator": "between",
-        "start": "2023-04-13T09:00:00",
+        "start": "2023-04-29T09:00:00",
         "end": "2023-05-04T08:59:59"
       }
     },
@@ -5749,7 +5540,7 @@
       "type": "date_time",
       "data": {
         "operator": "between",
-        "start": "2023-04-13T09:00:00",
+        "start": "2023-04-27T09:00:00",
         "end": "2023-05-02T08:59:59"
       }
     },
@@ -5760,7 +5551,7 @@
       "type": "date_time",
       "data": {
         "operator": "between",
-        "start": "2023-04-12T09:00:00",
+        "start": "2023-04-26T09:00:00",
         "end": "2023-05-01T08:59:59"
       }
     },
@@ -5771,7 +5562,7 @@
       "type": "date_time",
       "data": {
         "operator": "between",
-        "start": "2023-04-13T09:00:00",
+        "start": "2023-05-01T09:00:00",
         "end": "2023-05-06T08:59:59"
       }
     },
@@ -5782,7 +5573,7 @@
       "type": "date_time",
       "data": {
         "operator": "between",
-        "start": "2023-04-13T09:00:00",
+        "start": "2023-05-06T09:00:00",
         "end": "2023-05-11T08:59:59"
       }
     },
@@ -5793,7 +5584,7 @@
       "type": "date_time",
       "data": {
         "operator": "between",
-        "start": "2023-04-13T09:00:00",
+        "start": "2023-05-04T09:00:00",
         "end": "2023-05-09T08:59:59"
       }
     },
@@ -5804,7 +5595,7 @@
       "type": "date_time",
       "data": {
         "operator": "between",
-        "start": "2023-04-13T09:00:00",
+        "start": "2023-05-03T09:00:00",
         "end": "2023-05-08T08:59:59"
       }
     },
@@ -5815,7 +5606,7 @@
       "type": "date_time",
       "data": {
         "operator": "between",
-        "start": "2023-04-13T09:00:00",
+        "start": "2023-05-08T09:00:00",
         "end": "2023-05-13T08:59:59"
       }
     },
@@ -9004,7 +8795,7 @@
       "type": "date_time",
       "data": {
         "operator": "between",
-        "start": "2023-05-19T10:00:00",
+        "start": "2023-06-13T10:00:00",
         "end": "2023-07-18T09:59:59"
       }
     },
