@@ -1351,6 +1351,21 @@
     "parameters": {
       "type": "purchase_history",
       "data": {
+        "bundle": {
+          "id": "bundle_costumeset_s10_mermaid_01"
+        },
+        "quantity": {
+          "operator": "less_than",
+          "max": 1
+        }
+      }
+    },
+    "id": "has_not_purchased_s10_mermaid_01"
+  },
+  {
+    "parameters": {
+      "type": "purchase_history",
+      "data": {
         "quantity": {
           "operator": "less_than",
           "max": 1
@@ -1366,12 +1381,12 @@
     "parameters": {
       "type": "purchase_history",
       "data": {
-        "bundle": {
-          "id": "bundle_arcademachine_01"
-        },
         "quantity": {
           "operator": "less_than",
           "max": 1
+        },
+        "bundle": {
+          "id": "bundle_arcademachine_01"
         }
       }
     },
@@ -3241,6 +3256,17 @@
       "type": "date_time",
       "data": {
         "operator": "between",
+        "start": "2023-06-24T10:00:00",
+        "end": "2023-06-29T09:59:59"
+      }
+    },
+    "id": "s10_ft_wk10_sat"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
         "start": "2023-04-22T10:00:00",
         "end": "2023-04-27T09:59:59"
       }
@@ -3582,6 +3608,17 @@
       "type": "date_time",
       "data": {
         "operator": "between",
+        "start": "2023-06-26T10:00:00",
+        "end": "2023-07-01T09:59:59"
+      }
+    },
+    "id": "s10_ft_wk8_mon_new"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
         "start": "2023-06-17T10:00:00",
         "end": "2023-06-22T09:59:59"
       }
@@ -3609,6 +3646,28 @@
       }
     },
     "id": "s10_ft_wk8_tues"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-06-27T10:00:00",
+        "end": "2023-07-02T09:59:59"
+      }
+    },
+    "id": "s10_ft_wk8_tues_new"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-06-22T10:00:00",
+        "end": "2023-06-27T09:59:59"
+      }
+    },
+    "id": "s10_ft_wk9_thurs"
   },
   {
     "parameters": {
@@ -3807,6 +3866,17 @@
       }
     },
     "id": "s10_weeklies_wk13"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-06-27T10:00:00",
+        "end": "2023-07-03T09:59:59"
+      }
+    },
+    "id": "s10_wk9_bagel"
   },
   {
     "parameters": {
