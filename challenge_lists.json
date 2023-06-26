@@ -1,6 +1,47 @@
 [
   {
     "challenge_pool_ids": [
+      "event_pool_customs"
+    ],
+    "challenge_list_ui_id": "challenge_list_ui.common_customs",
+    "refresh_interval_config": {
+      "type": "indefinite"
+    },
+    "should_renew": true,
+    "rarity_distribution": [
+      {
+        "rarity": "common",
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      },
+      {
+        "rarity": "uncommon",
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      },
+      {
+        "rarity": "rare",
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      },
+      {
+        "rarity": "epic",
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      }
+    ],
+    "id": "custom_challenges"
+  },
+  {
+    "challenge_pool_ids": [
       "daily_pool_s10_default"
     ],
     "challenge_list_ui_id": "challenge_list_ui.common_daily",
