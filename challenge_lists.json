@@ -84,6 +84,63 @@
   },
   {
     "challenge_pool_ids": [
+      "daily_pool_s10_pie_2",
+      "event_pool_s10_pie"
+    ],
+    "challenge_list_ui_id": "challenge_list_ui.common_daily",
+    "refresh_interval_config": {
+      "type": "daily",
+      "multiplier": 1
+    },
+    "should_renew": false,
+    "rarity_distribution": [
+      {
+        "rarity": "special",
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      },
+      {
+        "rarity": "event_pie_rarity_01",
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      },
+      {
+        "rarity": "event_pie_rarity_02",
+        "required_number": 2,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      },
+      {
+        "rarity": "common",
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      },
+      {
+        "rarity": "uncommon",
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      },
+      {
+        "rarity": "rare",
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      }
+    ],
+    "id": "daily_challenges_list_s10_pie"
+  },
+  {
+    "challenge_pool_ids": [
       "event_pool_s9_compensation"
     ],
     "challenge_list_ui_id": "challenge_list_ui.event_compensation",
@@ -1369,6 +1426,26 @@
       }
     ],
     "id": "event_challenges_list_pretzel"
+  },
+  {
+    "challenge_list_ui_id": "challenge_list_ui.event_pie",
+    "refresh_interval_config": {
+      "type": "indefinite"
+    },
+    "should_renew": false,
+    "challenge_pool_ids": [
+      "event_pool_s10_pie_meta"
+    ],
+    "rarity_distribution": [
+      {
+        "rarity": "event_pie_meta_rarity",
+        "required_number": 4,
+        "cooldown_interval_config": {
+          "type": "none"
+        }
+      }
+    ],
+    "id": "event_challenges_list_s10_pie"
   },
   {
     "challenge_list_ui_id": "challenge_list_ui.event_stingray",

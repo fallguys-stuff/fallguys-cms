@@ -4876,6 +4876,38 @@
   },
   {
     "config": {
+      "metric_id": "challenge_completed",
+      "level_id": null,
+      "level_archetype": null,
+      "round_index": null,
+      "round_qualified": null,
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
+      "show_id": null,
+      "is_final_round": null,
+      "is_private_lobby": null,
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": [
+        {
+          "dimension_id": "challenge_tags",
+          "operator": "contains_all",
+          "string_array_value": [
+            "pie_challenge_tag"
+          ],
+          "dimension_type": "array_dimension"
+        }
+      ]
+    },
+    "id": "pie_meta_challenge"
+  },
+  {
+    "config": {
       "metric_id": "round_reached",
       "level_id": null,
       "level_archetype": "archetype_hunt",
@@ -5034,6 +5066,29 @@
       "dimensions": []
     },
     "id": "play_any_round_any_show_ss1_idol_games"
+  },
+  {
+    "config": {
+      "metric_id": "round_reached",
+      "level_id": null,
+      "level_archetype": null,
+      "round_index": null,
+      "round_qualified": null,
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
+      "show_id": "event_only_finals_v2_template",
+      "is_final_round": null,
+      "is_private_lobby": null,
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null,
+      "dimensions": []
+    },
+    "id": "play_any_round_finals_marathon"
   },
   {
     "config": {
@@ -19288,7 +19343,7 @@
       "level_id": null,
       "level_archetype": null,
       "round_index": null,
-      "round_qualified": "true",
+      "round_qualified": null,
       "overtime": null,
       "is_in_party": null,
       "episode_id": null,

@@ -1714,8 +1714,9 @@
     ],
     "title": null,
     "challenge_tags": [
-      "haddock_challenge_tag",
-      "daily_challenge"
+      "pie_challenge_tag",
+      "daily_challenge",
+      "haddock_challenge_tag"
     ],
     "id": "daily_play_shows_haddock"
   },
@@ -4455,6 +4456,74 @@
     "id": "event_haddock_meta_04"
   },
   {
+    "player_action_id": "pie_meta_challenge",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "title": null,
+    "description": "localised_strings.challenge_desc_challenge_event_meta_001",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.newsfeed_pie_event_now_title"
+      }
+    ],
+    "challenge_tags": [],
+    "id": "event_pie_meta_01"
+  },
+  {
+    "player_action_id": "pie_meta_challenge",
+    "target": {
+      "type": "aggregate",
+      "value": 4
+    },
+    "title": null,
+    "description": "localised_strings.challenge_desc_challenge_event_meta_001",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.newsfeed_pie_event_now_title"
+      }
+    ],
+    "challenge_tags": [],
+    "id": "event_pie_meta_02"
+  },
+  {
+    "player_action_id": "pie_meta_challenge",
+    "target": {
+      "type": "aggregate",
+      "value": 7
+    },
+    "title": null,
+    "description": "localised_strings.challenge_desc_challenge_event_meta_001",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.newsfeed_pie_event_now_title"
+      }
+    ],
+    "challenge_tags": [],
+    "id": "event_pie_meta_03"
+  },
+  {
+    "player_action_id": "pie_meta_challenge",
+    "target": {
+      "type": "aggregate",
+      "value": 10
+    },
+    "title": null,
+    "description": "localised_strings.challenge_desc_challenge_event_meta_001",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.newsfeed_pie_event_now_title"
+      }
+    ],
+    "challenge_tags": [],
+    "id": "event_pie_meta_04"
+  },
+  {
     "player_action_id": "play_round_any",
     "target": {
       "type": "aggregate",
@@ -4568,6 +4637,101 @@
       "pretzel_challenge_tag"
     ],
     "id": "event_pretzel_05"
+  },
+  {
+    "player_action_id": "play_rounds_party_haddock",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "title": null,
+    "description": "localised_strings.challenge_desc_027_generic_party",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [
+      "pie_challenge_tag"
+    ],
+    "id": "event_s10_pie_01"
+  },
+  {
+    "player_action_id": "reach_round_party_haddock",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "title": null,
+    "description": "localised_strings.challenge_desc_004_round_number_party",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      }
+    ],
+    "challenge_tags": [
+      "pie_challenge_tag"
+    ],
+    "id": "event_s10_pie_02"
+  },
+  {
+    "player_action_id": "play_rounds_party_haddock",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "title": null,
+    "description": "localised_strings.challenge_desc_027_generic_party",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      }
+    ],
+    "challenge_tags": [
+      "pie_challenge_tag"
+    ],
+    "id": "event_s10_pie_03"
+  },
+  {
+    "player_action_id": "race_rounds_party_haddock",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "title": null,
+    "description": "localised_strings.challenge_desc_027_generic_party",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_round_type_race"
+      }
+    ],
+    "challenge_tags": [
+      "pie_challenge_tag"
+    ],
+    "id": "event_s10_pie_04"
+  },
+  {
+    "player_action_id": "qualify_race_round_party_haddock",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "title": null,
+    "description": "localised_strings.challenge_desc_004_party_02",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_round_type_race"
+      }
+    ],
+    "challenge_tags": [
+      "pie_challenge_tag"
+    ],
+    "id": "event_s10_pie_05"
   },
   {
     "player_action_id": "any_show_party_haddock",
@@ -6300,6 +6464,27 @@
     "title": null,
     "challenge_tags": [],
     "id": "play_5_race_rounds_vulture"
+  },
+  {
+    "player_action_id": "play_any_round_finals_marathon",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_only_finals"
+      }
+    ],
+    "title": "localised_strings.show_name_only_finals",
+    "challenge_tags": [],
+    "id": "play_any_round_finals_marathon"
   },
   {
     "player_action_id": "play_any_round_hexathon",
@@ -17022,6 +17207,23 @@
     "title": null,
     "challenge_tags": [],
     "id": "win_end_of_season_03_ss1_solo"
+  },
+  {
+    "player_action_id": "win_show_finals_marathon",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_only_finals"
+      }
+    ],
+    "title": "localised_strings.show_name_only_finals",
+    "challenge_tags": [],
+    "id": "win_finals_marathon"
   },
   {
     "player_action_id": "win_hexathon",
