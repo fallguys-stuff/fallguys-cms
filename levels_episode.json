@@ -248,21 +248,7 @@
   },
   {
     "director": "levels_director.director_main_show",
-    "roundpool": "levels_roundpool.roundpool_content_complete",
-    "bucket_override_roundpools": [
-      {
-        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_lowest",
-        "roundpool": "levels_roundpool.roundpool_solo_lowest_elo"
-      },
-      {
-        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_mid",
-        "roundpool": "levels_roundpool.roundpool_solo_mid_elo_new"
-      },
-      {
-        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_high",
-        "roundpool": "levels_roundpool.roundpool_solo_high_elo"
-      }
-    ],
+    "roundpool": "levels_roundpool.roundpool_solo_high_elo",
     "debug_force_playing_single_round_only": false,
     "debug_ignore_min_players_on_round_selection": false,
     "debug_use_player_count_multiplier": false,
@@ -270,6 +256,7 @@
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_floor_fall",
     "allow_toms": true,
+    "bucket_override_roundpools": [],
     "id": "episode_content_complete"
   },
   {
@@ -4654,24 +4641,6 @@
   {
     "director": "levels_director.director_solo_show_s10",
     "roundpool": "levels_roundpool.roundpool_solo_show_s10_default",
-    "bucket_override_roundpools": [
-      {
-        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_ftue",
-        "roundpool": "levels_roundpool.roundpool_solo_show_s10_ftue"
-      },
-      {
-        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_lowest",
-        "roundpool": "levels_roundpool.roundpool_solo_show_s10_low"
-      },
-      {
-        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_mid",
-        "roundpool": "levels_roundpool.roundpool_solo_show_s10_mid"
-      },
-      {
-        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_high",
-        "roundpool": "levels_roundpool.roundpool_solo_show_s10_high"
-      }
-    ],
     "debug_force_playing_single_round_only": false,
     "debug_ignore_min_players_on_round_selection": false,
     "debug_use_player_count_multiplier": false,
@@ -4679,6 +4648,7 @@
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_floor_fall_40",
     "allow_toms": true,
+    "bucket_override_roundpools": [],
     "id": "episode_s10_solo_show"
   },
   {
@@ -4762,20 +4732,6 @@
   {
     "director": "levels_director.director_solo_show_s9",
     "roundpool": "levels_roundpool.roundpool_solo_show_s9",
-    "bucket_override_roundpools": [
-      {
-        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_lowest",
-        "roundpool": "levels_roundpool.roundpool_solo_show_s9_low"
-      },
-      {
-        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_mid",
-        "roundpool": "levels_roundpool.roundpool_solo_show_s9_mid"
-      },
-      {
-        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_high",
-        "roundpool": "levels_roundpool.roundpool_solo_show_s9_high"
-      }
-    ],
     "debug_force_playing_single_round_only": false,
     "debug_ignore_min_players_on_round_selection": false,
     "debug_use_player_count_multiplier": false,
@@ -4783,29 +4739,12 @@
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_floor_fall",
     "allow_toms": true,
+    "bucket_override_roundpools": [],
     "id": "episode_solo_show_s9"
   },
   {
     "director": "levels_director.director_solo_show_s9_40",
     "roundpool": "levels_roundpool.roundpool_solo_show_s9_40",
-    "bucket_override_roundpools": [
-      {
-        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_ftue",
-        "roundpool": "levels_roundpool.roundpool_solo_show_s9_ftue_40"
-      },
-      {
-        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_lowest",
-        "roundpool": "levels_roundpool.roundpool_solo_show_s9_low_40"
-      },
-      {
-        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_mid",
-        "roundpool": "levels_roundpool.roundpool_solo_show_s9_mid_40"
-      },
-      {
-        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_high",
-        "roundpool": "levels_roundpool.roundpool_solo_show_s9_high_40"
-      }
-    ],
     "debug_force_playing_single_round_only": false,
     "debug_ignore_min_players_on_round_selection": false,
     "debug_use_player_count_multiplier": false,
@@ -4813,25 +4752,12 @@
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_floor_fall_mini_40",
     "allow_toms": true,
+    "bucket_override_roundpools": [],
     "id": "episode_solo_show_s9_40"
   },
   {
     "director": "levels_director.director_solo_show_s9",
     "roundpool": "levels_roundpool.roundpool_solo_show_s9_private_lobbies",
-    "bucket_override_roundpools": [
-      {
-        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_lowest",
-        "roundpool": "levels_roundpool.roundpool_solo_show_s9_low_private_lobbies"
-      },
-      {
-        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_mid",
-        "roundpool": "levels_roundpool.roundpool_solo_show_s9_mid_private_lobbies"
-      },
-      {
-        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_high",
-        "roundpool": "levels_roundpool.roundpool_solo_show_s9_high_private_lobbies"
-      }
-    ],
     "debug_force_playing_single_round_only": false,
     "debug_ignore_min_players_on_round_selection": false,
     "debug_use_player_count_multiplier": false,
@@ -4839,6 +4765,7 @@
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_floor_fall",
     "allow_toms": true,
+    "bucket_override_roundpools": [],
     "id": "episode_solo_show_s9_private_lobbies"
   },
   {
@@ -4851,20 +4778,7 @@
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_floor_fall",
     "allow_toms": true,
-    "bucket_override_roundpools": [
-      {
-        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_lowest",
-        "roundpool": "levels_roundpool.roundpool_solo_show_ss2_low_bucket_8_2"
-      },
-      {
-        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_mid",
-        "roundpool": "levels_roundpool.roundpool_solo_show_ss2_mid_bucket_8_2"
-      },
-      {
-        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_high",
-        "roundpool": "levels_roundpool.roundpool_solo_show_ss2_high_bucket_8_2"
-      }
-    ],
+    "bucket_override_roundpools": [],
     "id": "episode_solo_show_ss2_launch"
   },
   {
@@ -4877,20 +4791,7 @@
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_fall_mountain_hub_complete_ss2_parrot",
     "allow_toms": true,
-    "bucket_override_roundpools": [
-      {
-        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_lowest",
-        "roundpool": "levels_roundpool.roundpool_solo_show_ss2_parrot_low_elo"
-      },
-      {
-        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_mid",
-        "roundpool": "levels_roundpool.roundpool_solo_show_ss2_parrot_mid_elo"
-      },
-      {
-        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_high",
-        "roundpool": "levels_roundpool.roundpool_solo_show_ss2_parrot_high_elo"
-      }
-    ],
+    "bucket_override_roundpools": [],
     "id": "episode_solo_show_ss2_parrot"
   },
   {
@@ -4903,20 +4804,7 @@
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_floor_fall",
     "allow_toms": true,
-    "bucket_override_roundpools": [
-      {
-        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_lowest",
-        "roundpool": "levels_roundpool.roundpool_solo_show_ss2_low_bucket_victoria"
-      },
-      {
-        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_mid",
-        "roundpool": "levels_roundpool.roundpool_solo_show_ss2_mid_bucket_victoria"
-      },
-      {
-        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_high",
-        "roundpool": "levels_roundpool.roundpool_solo_show_ss2_high_bucket_victoria"
-      }
-    ],
+    "bucket_override_roundpools": [],
     "id": "episode_solo_show_victoria"
   },
   {
@@ -5137,12 +5025,7 @@
     "ignore_team_sizes_in_selection": false,
     "fallback_round": "levels_round.round_floor_fall",
     "allow_toms": true,
-    "bucket_override_roundpools": [
-      {
-        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_mid",
-        "roundpool": "levels_roundpool.roundpool_toms_main_show_6_1"
-      }
-    ],
+    "bucket_override_roundpools": [],
     "id": "episode_toms_main_show_6_1"
   },
   {
