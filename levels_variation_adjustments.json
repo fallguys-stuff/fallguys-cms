@@ -2,8 +2,21 @@
   {
     "items": [
       {
-        "difficulty": "all_players",
-        "bucketmultipliers": []
+        "difficulty": "onboarding",
+        "bucketmultipliers": [
+          {
+            "bucket": "mm_bucket_elo_lowest",
+            "multiplier": 0
+          },
+          {
+            "bucket": "mm_bucket_elo_mid",
+            "multiplier": 0
+          },
+          {
+            "bucket": "mm_bucket_elo_high",
+            "multiplier": 0
+          }
+        ]
       }
     ],
     "id": "default_settings"
