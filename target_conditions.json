@@ -107,6 +107,17 @@
       "type": "date_time",
       "data": {
         "operator": "between",
+        "start": "2023-08-22T09:00:00",
+        "end": "2023-10-03T09:59:59"
+      }
+    },
+    "id": "custom_challenges_fp4_w07"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
         "start": "2023-06-26T10:00:00",
         "end": "2023-08-01T09:59:59"
       }
@@ -1351,6 +1362,171 @@
   },
   {
     "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-08-22T10:00:00",
+        "end": "2023-10-03T09:59:59"
+      }
+    },
+    "id": "fp4_active_dates"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-08-24T10:00:00",
+        "end": "2023-08-31T09:59:59"
+      }
+    },
+    "id": "fp4_store_bittern"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-09-21T10:00:00",
+        "end": "2023-09-28T09:59:59"
+      }
+    },
+    "id": "fp4_store_budgie"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-09-16T10:00:00",
+        "end": "2023-09-23T09:59:59"
+      }
+    },
+    "id": "fp4_store_condor"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-09-26T10:00:00",
+        "end": "2023-10-03T09:59:59"
+      }
+    },
+    "id": "fp4_store_condor_b"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-09-02T10:00:00",
+        "end": "2023-09-09T09:59:59"
+      }
+    },
+    "id": "fp4_store_corncrake"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-09-19T10:00:00",
+        "end": "2023-09-26T09:59:59"
+      }
+    },
+    "id": "fp4_store_godwitt"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-08-26T10:00:00",
+        "end": "2023-09-02T09:59:59"
+      }
+    },
+    "id": "fp4_store_grouse"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-08-29T10:00:00",
+        "end": "2023-09-05T09:59:59"
+      }
+    },
+    "id": "fp4_store_osprey"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-09-23T10:00:00",
+        "end": "2023-09-30T09:59:59"
+      }
+    },
+    "id": "fp4_store_parrot"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-09-05T10:00:00",
+        "end": "2023-09-12T09:59:59"
+      }
+    },
+    "id": "fp4_store_pelican"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-09-12T10:00:00",
+        "end": "2023-09-19T09:59:59"
+      }
+    },
+    "id": "fp4_store_potoo"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-09-30T10:00:00",
+        "end": "2023-10-07T09:59:59"
+      }
+    },
+    "id": "fp4_store_sparrow"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-09-28T10:00:00",
+        "end": "2023-10-05T09:59:59"
+      }
+    },
+    "id": "fp4_store_turkey_b"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-09-09T10:00:00",
+        "end": "2023-09-16T09:59:59"
+      }
+    },
+    "id": "fp4_store_wheatear"
+  },
+  {
+    "parameters": {
       "type": "purchase_history",
       "data": {
         "quantity": {
@@ -1383,12 +1559,12 @@
     "parameters": {
       "type": "purchase_history",
       "data": {
-        "bundle": {
-          "id": "bundle_costumeset_s10_mermaid_01"
-        },
         "quantity": {
           "operator": "less_than",
           "max": 1
+        },
+        "bundle": {
+          "id": "bundle_costumeset_s10_mermaid_01"
         }
       }
     },
@@ -1749,6 +1925,17 @@
       }
     },
     "id": "is_after_ugc_levels_enabled_launch"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-08-24T10:00:00",
+        "end": "2023-08-31T10:00:00"
+      }
+    },
+    "id": "is_event_kudos_2308_1"
   },
   {
     "parameters": {
@@ -3234,7 +3421,7 @@
       "data": {
         "operator": "between",
         "start": "2023-05-10T10:00:00",
-        "end": "2023-08-03T10:00:00"
+        "end": "2023-10-03T10:00:00"
       }
     },
     "id": "s10_dailies_season"
@@ -3271,6 +3458,83 @@
       }
     },
     "id": "s10_fp2_osprey"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-08-19T10:00:00",
+        "end": "2023-08-24T09:59:59"
+      }
+    },
+    "id": "s10_fp3_turkey"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-08-22T10:00:00",
+        "end": "2023-08-29T10:00:00"
+      }
+    },
+    "id": "s10_fp4_weeklies_wk01"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-08-29T10:00:00",
+        "end": "2023-09-05T10:00:00"
+      }
+    },
+    "id": "s10_fp4_weeklies_wk02"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-09-05T10:00:00",
+        "end": "2023-09-12T10:00:00"
+      }
+    },
+    "id": "s10_fp4_weeklies_wk03"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-09-12T10:00:00",
+        "end": "2023-09-19T10:00:00"
+      }
+    },
+    "id": "s10_fp4_weeklies_wk04"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-09-19T10:00:00",
+        "end": "2023-09-26T10:00:00"
+      }
+    },
+    "id": "s10_fp4_weeklies_wk05"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-09-26T10:00:00",
+        "end": "2023-10-03T10:00:00"
+      }
+    },
+    "id": "s10_fp4_weeklies_wk06"
   },
   {
     "parameters": {
@@ -9463,6 +9727,71 @@
       }
     },
     "id": "ss4_fp_3_store"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-08-22T10:00:00",
+        "end": "2024-08-22T09:59:59"
+      }
+    },
+    "id": "storefront_featured"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-08-22T10:00:00",
+        "end": "2024-08-22T09:59:59"
+      }
+    },
+    "id": "storefront_item_shop"
+  },
+  {
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-08-22T10:00:00",
+        "end": "2024-08-22T09:59:59"
+      }
+    },
+    "id": "storefront_offers"
+  },
+  {
+    "parameters": {
+      "type": "item_quantity",
+      "data": {
+        "item": {
+          "type": "season_passes",
+          "reference": "season_passes.famepass_04"
+        },
+        "quantity": {
+          "operator": "less_than",
+          "max": 1
+        }
+      }
+    },
+    "id": "target_famepass_fp4_notowned"
+  },
+  {
+    "parameters": {
+      "type": "item_quantity",
+      "data": {
+        "item": {
+          "type": "season_passes",
+          "reference": "season_passes.famepass_04"
+        },
+        "quantity": {
+          "operator": "more_than",
+          "min": 0
+        }
+      }
+    },
+    "id": "target_famepass_fp4_owned"
   },
   {
     "parameters": {
