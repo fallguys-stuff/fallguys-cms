@@ -11759,6 +11759,62 @@
   },
   {
     "name": "sym_storesection_title_daily",
+    "storefront": "ss004_storefront_item_shop",
+    "order_preference": 50,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "refresh_cycle_length_seconds": 86400,
+    "bundle_slots": [
+      {
+        "bundle_slot": "slot_pool_single_uppers",
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        }
+      },
+      {
+        "bundle_slot": "slot_pool_single_lowers",
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        }
+      },
+      {
+        "bundle_slot": "slot_pool_patterns_k",
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        }
+      },
+      {
+        "bundle_slot": "slot_pool_color_faceplate_k",
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        }
+      },
+      {
+        "bundle_slot": "slot_pool_nameplate_k",
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 1
+        }
+      },
+      {
+        "bundle_slot": "slot_pool_nickname_k",
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 1
+        }
+      }
+    ],
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "id": "ss004_dailies_k_fp3"
+  },
+  {
+    "name": "sym_storesection_title_daily",
     "storefront": "storefront_item_shop",
     "order_preference": 40,
     "section_height": 2,
@@ -11798,6 +11854,48 @@
       "after_prime_global_launch"
     ],
     "id": "ss004_dailies_sb"
+  },
+  {
+    "name": "sym_storesection_title_daily",
+    "storefront": "ss004_storefront_item_shop",
+    "order_preference": 40,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "refresh_cycle_length_seconds": 86400,
+    "bundle_slots": [
+      {
+        "bundle_slot": "slot_pool_mixed_01",
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        }
+      },
+      {
+        "bundle_slot": "slot_pool_mixed_02",
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        }
+      },
+      {
+        "bundle_slot": "slot_pool_mixed_03",
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        }
+      },
+      {
+        "bundle_slot": "slot_pool_mixed_04",
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        }
+      }
+    ],
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "id": "ss004_dailies_sb_fp3"
   },
   {
     "name": "ss004_1_storefront_famepass",
