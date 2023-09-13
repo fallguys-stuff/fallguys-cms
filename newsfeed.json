@@ -218,7 +218,7 @@
   },
   {
     "starts_at": "2023-09-19T13:00:00",
-    "ends_at": "2023-09-24T09:00:00",
+    "ends_at": "2023-09-23T09:00:00",
     "pages": [
       {
         "title": "localised_strings.newsfeed_s9_godwit_title",
@@ -556,6 +556,37 @@
     ],
     "priority": 60,
     "id": "fp4_tern_live"
+  },
+  {
+    "starts_at": "2023-09-18T13:00:00",
+    "ends_at": "2023-10-02T09:00:00",
+    "priority": 80,
+    "pages": [
+      {
+        "header": "localised_strings.newsfeed_title_available_now",
+        "title": "localised_strings.show_turbo_newsfeed_title",
+        "message": "localised_strings.show_turbo_newsfeed_body",
+        "image": "newsfeed_ui_generic_technical",
+        "deeplink": null,
+        "starts_at": null,
+        "ends_at": "localised_strings.newsfeed_date",
+        "ends_at_description": [
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.newsfeed_first"
+          },
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.month_october"
+          }
+        ],
+        "starts_at_description": []
+      }
+    ],
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "id": "fp4_turbo_newsfeed"
   },
   {
     "starts_at": "2023-09-28T13:00:00",
