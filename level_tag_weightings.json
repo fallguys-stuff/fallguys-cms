@@ -5439,6 +5439,18 @@
         "apply_bonus_when": {
           "type": "always"
         }
+      },
+      {
+        "tag": "level_tags.level_tag_ugc_final",
+        "bonus": 0,
+        "repeat_malus": 500000,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "after_stage",
+          "setting": {
+            "stage": 3
+          }
+        }
       }
     ],
     "id": "tag_weightings_solo_show_s10"
