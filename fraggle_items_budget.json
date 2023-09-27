@@ -527,6 +527,23 @@
     "id": "18b4d0a5-3676-4d1e-9da6-51715b7f73df"
   },
   {
+    "item_name": "Double Speed Arch",
+    "stock": -1,
+    "stock_key": "",
+    "is_cost_dynamic": false,
+    "first_free": false,
+    "costs": [
+      {
+        "cost_type": "base",
+        "cost_key": "",
+        "cost_disable": false,
+        "cost_amount": 30
+      }
+    ],
+    "metadata": [],
+    "id": "18e295f6-6acc-4a3c-85df-86cd81275881"
+  },
+  {
     "item_name": "Push Ramp (Step)",
     "stock": -1,
     "stock_key": "",
@@ -621,7 +638,7 @@
       {
         "cost_type": "base",
         "cost_disable": false,
-        "cost_amount": 5,
+        "cost_amount": 2,
         "cost_key": ""
       }
     ],
@@ -944,7 +961,7 @@
       {
         "cost_type": "base",
         "cost_disable": false,
-        "cost_amount": 5,
+        "cost_amount": 2,
         "cost_key": ""
       }
     ],
@@ -1103,6 +1120,23 @@
     ],
     "metadata": [],
     "id": "34280c67-7f2b-492c-a84d-135a57d0b24c"
+  },
+  {
+    "item_name": "Speed Arch",
+    "stock": -1,
+    "stock_key": "",
+    "is_cost_dynamic": false,
+    "first_free": false,
+    "costs": [
+      {
+        "cost_type": "base",
+        "cost_key": "",
+        "cost_disable": false,
+        "cost_amount": 20
+      }
+    ],
+    "metadata": [],
+    "id": "36992dab-666b-4aeb-86c9-9374e5940631"
   },
   {
     "item_name": "Turnstile",
@@ -1488,7 +1522,7 @@
       {
         "cost_type": "base",
         "cost_disable": false,
-        "cost_amount": 5,
+        "cost_amount": 2,
         "cost_key": ""
       }
     ],
@@ -2287,7 +2321,7 @@
       {
         "cost_type": "base",
         "cost_disable": false,
-        "cost_amount": 25,
+        "cost_amount": 40,
         "cost_key": ""
       }
     ],
@@ -3018,7 +3052,7 @@
       {
         "cost_type": "base",
         "cost_disable": false,
-        "cost_amount": 25,
+        "cost_amount": 15,
         "cost_key": ""
       }
     ],
@@ -3868,7 +3902,7 @@
       {
         "cost_type": "base",
         "cost_disable": false,
-        "cost_amount": 5,
+        "cost_amount": 2,
         "cost_key": ""
       }
     ],
@@ -4004,7 +4038,7 @@
       {
         "cost_type": "base",
         "cost_disable": false,
-        "cost_amount": 20,
+        "cost_amount": 10,
         "cost_key": ""
       }
     ],
@@ -4671,6 +4705,18 @@
         "cost_key": "carryables_fan_foward",
         "cost_disable": false,
         "cost_amount": 40
+      },
+      {
+        "cost_type": "additive",
+        "cost_key": "carryables_puncher_forward",
+        "cost_disable": false,
+        "cost_amount": 40
+      },
+      {
+        "cost_type": "additive",
+        "cost_key": "carryables_puncher_upward",
+        "cost_disable": false,
+        "cost_amount": 40
       }
     ],
     "metadata": [],
@@ -4686,7 +4732,7 @@
       {
         "cost_type": "base",
         "cost_disable": false,
-        "cost_amount": 25,
+        "cost_amount": 40,
         "cost_key": ""
       }
     ],
@@ -5944,7 +5990,7 @@
       {
         "cost_type": "base",
         "cost_disable": false,
-        "cost_amount": 25,
+        "cost_amount": 15,
         "cost_key": ""
       }
     ],

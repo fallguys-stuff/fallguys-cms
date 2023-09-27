@@ -1,6 +1,30 @@
 [
   {
     "requires_preview": false,
+    "is_required": false,
+    "config": {
+      "type": "content_reference",
+      "content_reference": {
+        "group_id": "levels_soundtracks",
+        "default": "ingame_fall_n_roll"
+      }
+    },
+    "id": "ingame_music_soundtrack"
+  },
+  {
+    "requires_preview": false,
+    "is_required": false,
+    "config": {
+      "type": "content_reference",
+      "content_reference": {
+        "group_id": "levels_themes",
+        "default": "theme_vanilla"
+      }
+    },
+    "id": "ingame_theme"
+  },
+  {
+    "requires_preview": false,
     "is_required": true,
     "config": {
       "type": "number",
