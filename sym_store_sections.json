@@ -21,6 +21,27 @@
     "id": "famepass_04"
   },
   {
+    "name": null,
+    "storefront": "storefront_famepass_05",
+    "order_preference": 10,
+    "section_height": 2,
+    "show_refresh_timer": false,
+    "refresh_cycle_length_seconds": null,
+    "bundle_slots": [
+      {
+        "bundle_slot": "bundleslot_famepass_05",
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        }
+      }
+    ],
+    "target_ids": [
+      "fp5_active_dates"
+    ],
+    "id": "famepass_05"
+  },
+  {
     "name": "sym_storesection_title_tierskip",
     "storefront": "storefront_famepass_04",
     "order_preference": 250,
@@ -40,6 +61,27 @@
       "target_fp4_pass_owned_dates"
     ],
     "id": "famepass_4_tier_skip_section"
+  },
+  {
+    "name": "sym_storesection_title_tierskip",
+    "storefront": "storefront_famepass_05",
+    "order_preference": 250,
+    "section_height": 1,
+    "show_refresh_timer": false,
+    "refresh_cycle_length_seconds": null,
+    "bundle_slots": [
+      {
+        "bundle_slot": "ss004_tier_skip_bundle",
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        }
+      }
+    ],
+    "target_ids": [
+      "target_fp5_pass_owned_dates"
+    ],
+    "id": "famepass_5_tier_skip_section"
   },
   {
     "name": "sym_storesection_title_primos",
@@ -987,55 +1029,6 @@
     "id": "s8_feat_wk6_sat"
   },
   {
-    "name": "storesection_title_stickyguy",
-    "storefront": "ss002_storefront_featured",
-    "order_preference": 334,
-    "section_height": 2,
-    "show_refresh_timer": true,
-    "refresh_cycle_length_seconds": null,
-    "bundle_slots": [
-      {
-        "bundle_slot": "costume_ss02_stickyguy_01",
-        "layout": {
-          "tile_width": 1,
-          "tile_height": 2
-        }
-      },
-      {
-        "bundle_slot": "bundleslot_2x2_costumeset_s8_venusguytrap_trio",
-        "layout": {
-          "tile_width": 2,
-          "tile_height": 2
-        }
-      },
-      {
-        "bundle_slot": "bundle_pattern_generic_036",
-        "layout": {
-          "tile_width": 1,
-          "tile_height": 2
-        }
-      },
-      {
-        "bundle_slot": "colour_s6_010",
-        "layout": {
-          "tile_width": 1,
-          "tile_height": 2
-        }
-      },
-      {
-        "bundle_slot": "colour_s6_002",
-        "layout": {
-          "tile_width": 1,
-          "tile_height": 2
-        }
-      }
-    ],
-    "target_ids": [
-      "s8_ft_wk7_mon"
-    ],
-    "id": "s8_feat_wk7_mon"
-  },
-  {
     "name": "sym_quicknav_title_offers",
     "storefront": "ss002_storefront_featured",
     "order_preference": 320,
@@ -1076,55 +1069,6 @@
       "s8_ft_wk7_sat"
     ],
     "id": "s8_feat_wk7_sat"
-  },
-  {
-    "name": "storesection_title_zombie",
-    "storefront": "ss002_storefront_featured",
-    "order_preference": 330,
-    "section_height": 2,
-    "show_refresh_timer": true,
-    "refresh_cycle_length_seconds": null,
-    "bundle_slots": [
-      {
-        "bundle_slot": "bundleslot_2x2_costumeset_s8_zombie_trio",
-        "layout": {
-          "tile_width": 2,
-          "tile_height": 2
-        }
-      },
-      {
-        "bundle_slot": "bundleslot_1x2_costumeset_s8_witch_02",
-        "layout": {
-          "tile_width": 1,
-          "tile_height": 2
-        }
-      },
-      {
-        "bundle_slot": "bundle_pattern_generic_072",
-        "layout": {
-          "tile_width": 1,
-          "tile_height": 2
-        }
-      },
-      {
-        "bundle_slot": "bundle_colour_s4_089",
-        "layout": {
-          "tile_width": 1,
-          "tile_height": 2
-        }
-      },
-      {
-        "bundle_slot": "bundle_face_generic_010",
-        "layout": {
-          "tile_width": 1,
-          "tile_height": 2
-        }
-      }
-    ],
-    "target_ids": [
-      "s8_ft_wk7_tue"
-    ],
-    "id": "s8_feat_wk7_tues"
   },
   {
     "name": "sym_storesection_title_magical",
@@ -3326,8 +3270,8 @@
   },
   {
     "name": "storesection_chiffchaff_name",
-    "storefront": "ss003_storefront_featured",
-    "order_preference": 483,
+    "storefront": "storefront_featured",
+    "order_preference": 444,
     "section_height": 2,
     "show_refresh_timer": true,
     "refresh_cycle_length_seconds": null,
@@ -3341,7 +3285,7 @@
       }
     ],
     "target_ids": [
-      "s9_ft_wk4_thu"
+      "fp5_store_bella"
     ],
     "id": "section_chiffchaff"
   },
@@ -3488,7 +3432,7 @@
   {
     "name": "storesection_condor_a_name",
     "storefront": "storefront_featured",
-    "order_preference": 483,
+    "order_preference": 385,
     "section_height": 2,
     "show_refresh_timer": true,
     "refresh_cycle_length_seconds": null,
@@ -3523,14 +3467,14 @@
       }
     ],
     "target_ids": [
-      "fp4_store_condor"
+      "fp5_store_condor"
     ],
     "id": "section_condor_a"
   },
   {
     "name": "storesection_condor_b_name",
     "storefront": "storefront_featured",
-    "order_preference": 484,
+    "order_preference": 384,
     "section_height": 2,
     "show_refresh_timer": true,
     "refresh_cycle_length_seconds": null,
@@ -3558,14 +3502,14 @@
       }
     ],
     "target_ids": [
-      "fp4_store_condor"
+      "fp5_store_condor"
     ],
     "id": "section_condor_b"
   },
   {
     "name": "sym_storesection_title_ip_condor",
     "storefront": "storefront_featured",
-    "order_preference": 458,
+    "order_preference": 383,
     "section_height": 2,
     "show_refresh_timer": true,
     "refresh_cycle_length_seconds": null,
@@ -3600,7 +3544,7 @@
       }
     ],
     "target_ids": [
-      "fp4_store_condor_b"
+      "fp5_store_condor"
     ],
     "id": "section_condor_c"
   },
@@ -4061,8 +4005,8 @@
   },
   {
     "name": "storesection_title_duck_01",
-    "storefront": "ss004_storefront_featured",
-    "order_preference": 1335,
+    "storefront": "storefront_featured",
+    "order_preference": 398,
     "section_height": 2,
     "show_refresh_timer": true,
     "refresh_cycle_length_seconds": null,
@@ -4097,14 +4041,14 @@
       }
     ],
     "target_ids": [
-      "s10_ft_wk10_sat"
+      "fp5_store_duck"
     ],
     "id": "section_duck"
   },
   {
     "name": "storesection_title_duck_02",
-    "storefront": "ss004_storefront_featured",
-    "order_preference": 1340,
+    "storefront": "storefront_featured",
+    "order_preference": 399,
     "section_height": 2,
     "show_refresh_timer": true,
     "refresh_cycle_length_seconds": null,
@@ -4146,7 +4090,7 @@
       }
     ],
     "target_ids": [
-      "s10_ft_wk10_sat"
+      "fp5_store_duck"
     ],
     "id": "section_duck_b"
   },
@@ -4271,8 +4215,8 @@
   },
   {
     "name": "storesection_title_falcon_01",
-    "storefront": "ss004_storefront_featured",
-    "order_preference": 1135,
+    "storefront": "storefront_featured",
+    "order_preference": 413,
     "section_height": 2,
     "show_refresh_timer": true,
     "refresh_cycle_length_seconds": null,
@@ -4307,14 +4251,14 @@
       }
     ],
     "target_ids": [
-      "s10_fp2_falcon"
+      "fp5_falcon"
     ],
     "id": "section_falcon"
   },
   {
     "name": "storesection_title_falcon_02",
-    "storefront": "ss004_storefront_featured",
-    "order_preference": 1140,
+    "storefront": "storefront_featured",
+    "order_preference": 414,
     "section_height": 2,
     "show_refresh_timer": true,
     "refresh_cycle_length_seconds": null,
@@ -4342,7 +4286,7 @@
       }
     ],
     "target_ids": [
-      "s10_fp2_falcon"
+      "fp5_falcon"
     ],
     "id": "section_falcon_b"
   },
@@ -4351,7 +4295,7 @@
     "storefront": "storefront_featured",
     "order_preference": 900,
     "section_height": 2,
-    "show_refresh_timer": false,
+    "show_refresh_timer": true,
     "refresh_cycle_length_seconds": null,
     "bundle_slots": [
       {
@@ -4400,7 +4344,7 @@
     "storefront": "storefront_featured",
     "order_preference": 925,
     "section_height": 2,
-    "show_refresh_timer": false,
+    "show_refresh_timer": true,
     "refresh_cycle_length_seconds": null,
     "bundle_slots": [
       {
@@ -4456,7 +4400,7 @@
     "storefront": "storefront_featured",
     "order_preference": 950,
     "section_height": 2,
-    "show_refresh_timer": false,
+    "show_refresh_timer": true,
     "refresh_cycle_length_seconds": null,
     "bundle_slots": [
       {
@@ -4498,7 +4442,7 @@
     "storefront": "storefront_featured",
     "order_preference": 975,
     "section_height": 2,
-    "show_refresh_timer": false,
+    "show_refresh_timer": true,
     "refresh_cycle_length_seconds": null,
     "bundle_slots": [
       {
@@ -4984,6 +4928,104 @@
     "id": "section_grouse_c"
   },
   {
+    "name": "storesection_title_zombie",
+    "storefront": "storefront_featured",
+    "order_preference": 418,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "refresh_cycle_length_seconds": null,
+    "bundle_slots": [
+      {
+        "bundle_slot": "bundleslot_2x2_costumeset_s8_zombie_trio",
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        }
+      },
+      {
+        "bundle_slot": "bundleslot_1x2_costumeset_s8_witch_02",
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        }
+      },
+      {
+        "bundle_slot": "bundle_pattern_generic_072",
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        }
+      },
+      {
+        "bundle_slot": "bundle_colour_s4_089",
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        }
+      },
+      {
+        "bundle_slot": "bundle_face_generic_010",
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        }
+      }
+    ],
+    "target_ids": [
+      "fp5_store_halloween"
+    ],
+    "id": "section_halloween"
+  },
+  {
+    "name": "storesection_title_stickyguy",
+    "storefront": "storefront_featured",
+    "order_preference": 419,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "refresh_cycle_length_seconds": null,
+    "bundle_slots": [
+      {
+        "bundle_slot": "costume_ss02_stickyguy_01",
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        }
+      },
+      {
+        "bundle_slot": "bundleslot_2x2_costumeset_s8_venusguytrap_trio",
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        }
+      },
+      {
+        "bundle_slot": "bundle_pattern_generic_036",
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        }
+      },
+      {
+        "bundle_slot": "colour_s6_010",
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        }
+      },
+      {
+        "bundle_slot": "colour_s6_002",
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        }
+      }
+    ],
+    "target_ids": [
+      "fp5_store_halloween"
+    ],
+    "id": "section_halloween_b"
+  },
+  {
     "name": "sym_storesection_title_more_offers",
     "storefront": "ss003_storefront_featured",
     "order_preference": 430,
@@ -5223,8 +5265,8 @@
   },
   {
     "name": "storesection_icterid_name",
-    "storefront": "ss004_storefront_featured",
-    "order_preference": 835,
+    "storefront": "storefront_featured",
+    "order_preference": 433,
     "section_height": 2,
     "show_refresh_timer": true,
     "refresh_cycle_length_seconds": null,
@@ -5252,14 +5294,14 @@
       }
     ],
     "target_ids": [
-      "s10_ft_wk14_thurs"
+      "fp5_store_icterid"
     ],
     "id": "section_icterid"
   },
   {
     "name": "storesection_icterid_b_name",
-    "storefront": "ss004_storefront_featured",
-    "order_preference": 840,
+    "storefront": "storefront_featured",
+    "order_preference": 434,
     "section_height": 2,
     "show_refresh_timer": true,
     "refresh_cycle_length_seconds": null,
@@ -5287,7 +5329,7 @@
       }
     ],
     "target_ids": [
-      "s10_ft_wk14_thurs"
+      "fp5_store_icterid_b"
     ],
     "id": "section_icterid_b"
   },
@@ -5917,7 +5959,7 @@
   {
     "name": "storesection_title_parrot",
     "storefront": "storefront_featured",
-    "order_preference": 463,
+    "order_preference": 373,
     "section_height": 2,
     "show_refresh_timer": true,
     "refresh_cycle_length_seconds": null,
@@ -5945,7 +5987,7 @@
       }
     ],
     "target_ids": [
-      "fp4_store_parrot"
+      "fp5_store_parrot"
     ],
     "id": "section_parrot"
   },
@@ -6050,7 +6092,7 @@
   {
     "name": "sym_storesection_title_ss1_pelican",
     "storefront": "storefront_featured",
-    "order_preference": 508,
+    "order_preference": 403,
     "section_height": 2,
     "show_refresh_timer": true,
     "refresh_cycle_length_seconds": null,
@@ -6092,14 +6134,14 @@
       }
     ],
     "target_ids": [
-      "fp4_store_pelican"
+      "fp5_store_pelican"
     ],
     "id": "section_pelican"
   },
   {
     "name": "storesection_penguin_a_name",
-    "storefront": "ss004_storefront_featured",
-    "order_preference": 570,
+    "storefront": "storefront_featured",
+    "order_preference": 428,
     "section_height": 2,
     "show_refresh_timer": true,
     "refresh_cycle_length_seconds": null,
@@ -6141,14 +6183,14 @@
       }
     ],
     "target_ids": [
-      "s10_ft_fp3_wk14_tues"
+      "fp5_penguin"
     ],
     "id": "section_penguin_a"
   },
   {
     "name": "storesection_title_penguin",
-    "storefront": "ss004_storefront_featured",
-    "order_preference": 575,
+    "storefront": "storefront_featured",
+    "order_preference": 429,
     "section_height": 2,
     "show_refresh_timer": true,
     "refresh_cycle_length_seconds": null,
@@ -6183,14 +6225,14 @@
       }
     ],
     "target_ids": [
-      "s10_ft_fp3_wk14_tues"
+      "fp5_penguin"
     ],
     "id": "section_penguin_b"
   },
   {
     "name": "storesection_title_penguin",
-    "storefront": "ss004_storefront_featured",
-    "order_preference": 580,
+    "storefront": "storefront_featured",
+    "order_preference": 430,
     "section_height": 2,
     "show_refresh_timer": true,
     "refresh_cycle_length_seconds": null,
@@ -6218,7 +6260,7 @@
       }
     ],
     "target_ids": [
-      "s10_ft_fp3_wk14_tues"
+      "fp5_penguin"
     ],
     "id": "section_penguin_c"
   },
@@ -6379,7 +6421,7 @@
   {
     "name": "storesection_title_potoo",
     "storefront": "storefront_featured",
-    "order_preference": 493,
+    "order_preference": 393,
     "section_height": 2,
     "show_refresh_timer": true,
     "refresh_cycle_length_seconds": null,
@@ -6407,14 +6449,14 @@
       }
     ],
     "target_ids": [
-      "fp4_store_potoo"
+      "fp5_store_potoo"
     ],
     "id": "section_potoo"
   },
   {
     "name": "storesection_title_potoo",
     "storefront": "storefront_featured",
-    "order_preference": 494,
+    "order_preference": 394,
     "section_height": 2,
     "show_refresh_timer": true,
     "refresh_cycle_length_seconds": null,
@@ -6449,14 +6491,14 @@
       }
     ],
     "target_ids": [
-      "fp4_store_potoo"
+      "fp5_store_potoo_b"
     ],
     "id": "section_potoo_b"
   },
   {
     "name": "storesection_title_potoo",
     "storefront": "storefront_featured",
-    "order_preference": 495,
+    "order_preference": 395,
     "section_height": 2,
     "show_refresh_timer": true,
     "refresh_cycle_length_seconds": null,
@@ -6484,7 +6526,7 @@
       }
     ],
     "target_ids": [
-      "fp4_store_potoo"
+      "fp5_store_potoo_c"
     ],
     "id": "section_potoo_c"
   },
@@ -6798,8 +6840,8 @@
   },
   {
     "name": "storesection_rosefinch_name",
-    "storefront": "ss004_storefront_featured",
-    "order_preference": 1235,
+    "storefront": "storefront_featured",
+    "order_preference": 443,
     "section_height": 2,
     "show_refresh_timer": true,
     "refresh_cycle_length_seconds": null,
@@ -6834,7 +6876,7 @@
       }
     ],
     "target_ids": [
-      "s10_ft_wk10_thurs"
+      "fp5_store_rosefinch"
     ],
     "id": "section_rosefinch"
   },
@@ -7310,7 +7352,7 @@
   {
     "name": "storesection_starling_a_name",
     "storefront": "storefront_featured",
-    "order_preference": 535,
+    "order_preference": 423,
     "section_height": 2,
     "show_refresh_timer": true,
     "refresh_cycle_length_seconds": null,
@@ -7338,14 +7380,14 @@
       }
     ],
     "target_ids": [
-      "s10_ft_fp3_wk15_thurs"
+      "fp5_starling"
     ],
     "id": "section_starling_a"
   },
   {
     "name": "storesection_starling_b_name",
     "storefront": "storefront_featured",
-    "order_preference": 540,
+    "order_preference": 424,
     "section_height": 2,
     "show_refresh_timer": true,
     "refresh_cycle_length_seconds": null,
@@ -7387,7 +7429,7 @@
       }
     ],
     "target_ids": [
-      "s10_ft_fp3_wk15_thurs"
+      "fp5_starling"
     ],
     "id": "section_starling_b"
   },
@@ -7730,7 +7772,7 @@
   {
     "name": "storesection_turkey02_name",
     "storefront": "storefront_featured",
-    "order_preference": 500,
+    "order_preference": 408,
     "section_height": 2,
     "show_refresh_timer": true,
     "refresh_cycle_length_seconds": null,
@@ -7765,14 +7807,14 @@
       }
     ],
     "target_ids": [
-      "fp4_store_turkey"
+      "fp5_store_turkey_alt"
     ],
     "id": "section_turkey_alt_1"
   },
   {
     "name": "storesection_turkey02_name",
     "storefront": "storefront_featured",
-    "order_preference": 501,
+    "order_preference": 409,
     "section_height": 2,
     "show_refresh_timer": true,
     "refresh_cycle_length_seconds": null,
@@ -7814,14 +7856,14 @@
       }
     ],
     "target_ids": [
-      "fp4_store_turkey"
+      "fp5_store_turkey_alt"
     ],
     "id": "section_turkey_alt_2"
   },
   {
     "name": "storesection_turkey02_name",
     "storefront": "storefront_featured",
-    "order_preference": 453,
+    "order_preference": 378,
     "section_height": 2,
     "show_refresh_timer": true,
     "refresh_cycle_length_seconds": null,
@@ -7856,14 +7898,14 @@
       }
     ],
     "target_ids": [
-      "fp4_store_turkey_b"
+      "fp5_store_turkey_standard"
     ],
     "id": "section_turkey_standard_1"
   },
   {
     "name": "storesection_turkey03_name",
     "storefront": "storefront_featured",
-    "order_preference": 454,
+    "order_preference": 379,
     "section_height": 2,
     "show_refresh_timer": true,
     "refresh_cycle_length_seconds": null,
@@ -7898,7 +7940,7 @@
       }
     ],
     "target_ids": [
-      "fp4_store_turkey_b"
+      "fp5_store_turkey_standard"
     ],
     "id": "section_turkey_standard_2"
   },
@@ -8163,8 +8205,8 @@
   },
   {
     "name": "sym_storesection_title_ip_warbler",
-    "storefront": "ss003_storefront_featured",
-    "order_preference": 358,
+    "storefront": "storefront_featured",
+    "order_preference": 388,
     "section_height": 2,
     "show_refresh_timer": true,
     "refresh_cycle_length_seconds": null,
@@ -8206,7 +8248,7 @@
       }
     ],
     "target_ids": [
-      "s9_ft_wk9_thu"
+      "fp5_warbler"
     ],
     "id": "section_warbler"
   },
