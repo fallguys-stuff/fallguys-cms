@@ -1,5 +1,6 @@
 [
   {
+    "id": "ingame_music_soundtrack",
     "requires_preview": false,
     "is_required": false,
     "config": {
@@ -8,10 +9,10 @@
         "group_id": "levels_soundtracks",
         "default": "ingame_fall_n_roll"
       }
-    },
-    "id": "ingame_music_soundtrack"
+    }
   },
   {
+    "id": "ingame_theme",
     "requires_preview": false,
     "is_required": false,
     "config": {
@@ -20,10 +21,10 @@
         "group_id": "levels_themes",
         "default": "theme_vanilla"
       }
-    },
-    "id": "ingame_theme"
+    }
   },
   {
+    "id": "qualification_percentage",
     "requires_preview": false,
     "is_required": true,
     "config": {
@@ -32,10 +33,10 @@
       "max": 100,
       "interval": 1,
       "default": 70
-    },
-    "id": "qualification_percentage"
+    }
   },
   {
+    "id": "time_limit_seconds",
     "config": {
       "type": "number",
       "min": 60,
@@ -44,7 +45,6 @@
       "default": 240
     },
     "requires_preview": true,
-    "is_required": true,
-    "id": "time_limit_seconds"
+    "is_required": true
   }
 ]

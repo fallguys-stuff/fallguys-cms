@@ -1,54 +1,54 @@
 [
   {
-    "parent_platform_group_id": "prime",
+    "id": "console",
     "child_platform_ids": [],
-    "id": "console"
+    "parent_platform_group_id": "prime"
   },
   {
-    "parent_platform_group_id": "console",
+    "id": "nintendo",
     "child_platform_ids": [
       "switch"
     ],
-    "id": "nintendo"
+    "parent_platform_group_id": "console"
   },
   {
-    "parent_platform_group_id": "prime",
+    "id": "pc",
     "child_platform_ids": [
       "linux",
       "mac",
       "win"
     ],
-    "id": "pc"
+    "parent_platform_group_id": "prime"
   },
   {
-    "parent_platform_group_id": "console",
+    "id": "playstation",
     "child_platform_ids": [
       "ps4",
       "ps5"
     ],
-    "id": "playstation"
+    "parent_platform_group_id": "console"
   },
   {
-    "parent_platform_group_id": null,
+    "id": "ports3",
     "child_platform_ids": [
       "ports3_1",
       "ports3_2"
     ],
-    "id": "ports3"
+    "parent_platform_group_id": null
   },
   {
-    "parent_platform_group_id": null,
+    "id": "prime",
     "child_platform_ids": [
       "admin_tool"
     ],
-    "id": "prime"
+    "parent_platform_group_id": null
   },
   {
-    "parent_platform_group_id": "console",
+    "id": "xbox",
     "child_platform_ids": [
       "xb1",
       "xsx"
     ],
-    "id": "xbox"
+    "parent_platform_group_id": "console"
   }
 ]

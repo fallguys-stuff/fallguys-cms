@@ -1,54 +1,54 @@
 [
   {
-    "platform_payment_group": {
-      "platforms": [],
-      "id": "legacy-payment-group"
-    },
+    "id": "legacy-pocket",
     "is_shared": false,
-    "id": "legacy-pocket"
+    "platform_payment_group": {
+      "id": "legacy-payment-group",
+      "platforms": []
+    }
   },
   {
+    "id": "live",
+    "is_shared": true,
     "platform_payment_group": {
+      "id": "live",
       "platforms": [
         "xb1",
         "xsx"
-      ],
-      "id": "live"
-    },
-    "is_shared": true,
-    "id": "live"
+      ]
+    }
   },
   {
+    "id": "nintendo",
+    "is_shared": false,
     "platform_payment_group": {
+      "id": "nintendo",
       "platforms": [
         "switch"
-      ],
-      "id": "nintendo"
-    },
-    "is_shared": false,
-    "id": "nintendo"
+      ]
+    }
   },
   {
+    "id": "pc",
+    "is_shared": true,
     "platform_payment_group": {
+      "id": "pc",
       "platforms": [
         "linux",
         "mac",
         "win"
-      ],
-      "id": "pc"
-    },
-    "is_shared": true,
-    "id": "pc"
+      ]
+    }
   },
   {
+    "id": "psn",
+    "is_shared": true,
     "platform_payment_group": {
+      "id": "psn",
       "platforms": [
         "ps4",
         "ps5"
-      ],
-      "id": "psn"
-    },
-    "is_shared": true,
-    "id": "psn"
+      ]
+    }
   }
 ]

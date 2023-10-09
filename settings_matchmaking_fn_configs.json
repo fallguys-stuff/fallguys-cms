@@ -1,5 +1,6 @@
 [
   {
+    "id": "clientdev",
     "name": "fallguys-clientdev",
     "environment": "clientdev",
     "fall_guys_matches_endpoint": "https://matchmaking-gateway-clientdev.fallguys-dev.oncatapult.com/matches",
@@ -9,10 +10,10 @@
     "requeue_after_failed_session_assignment": false,
     "server_join_throttling_per_sec": 16,
     "bucket_split": 1,
-    "options_allow_backfill": true,
-    "id": "clientdev"
+    "options_allow_backfill": true
   },
   {
+    "id": "closedbeta",
     "name": "fallguys-closedbeta",
     "environment": "closedbeta",
     "fall_guys_matches_endpoint": "https://matchmaking-gateway-closedbeta.fallguys-dev.oncatapult.com/matches",
@@ -22,10 +23,10 @@
     "requeue_after_failed_session_assignment": false,
     "server_join_throttling_per_sec": 16,
     "bucket_split": 1,
-    "options_allow_backfill": true,
-    "id": "closedbeta"
+    "options_allow_backfill": true
   },
   {
+    "id": "internalqa",
     "name": "fallguys-internalqa",
     "environment": "internalqa",
     "fall_guys_matches_endpoint": "https://matchmaking-gateway-internalqa.fallguys-dev.oncatapult.com/matches",
@@ -35,10 +36,10 @@
     "requeue_after_failed_session_assignment": false,
     "server_join_throttling_per_sec": 16,
     "bucket_split": 1,
-    "options_allow_backfill": true,
-    "id": "internalqa"
+    "options_allow_backfill": true
   },
   {
+    "id": "prod3",
     "name": "fallguys-prod",
     "environment": "prod3",
     "fall_guys_matches_endpoint": "https://matchmaking-gateway-prod3.fallguys.oncatapult.com/matches",
@@ -48,10 +49,10 @@
     "requeue_after_failed_session_assignment": false,
     "server_join_throttling_per_sec": 16,
     "bucket_split": 1,
-    "options_allow_backfill": true,
-    "id": "prod3"
+    "options_allow_backfill": true
   },
   {
+    "id": "staging",
     "name": "fallguys-staging",
     "environment": "staging",
     "fall_guys_matches_endpoint": "https://matchmaking-gateway-staging.fallguys.oncatapult.com/matches",
@@ -61,7 +62,6 @@
     "requeue_after_failed_session_assignment": false,
     "server_join_throttling_per_sec": 16,
     "bucket_split": 1,
-    "options_allow_backfill": true,
-    "id": "staging"
+    "options_allow_backfill": true
   }
 ]
