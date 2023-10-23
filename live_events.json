@@ -604,6 +604,405 @@
     "reward_icon_image": "ui-icon-generic-token"
   },
   {
+    "id": "le_s10_social_template",
+    "title": "localised_strings.placeholder",
+    "description": "localised_strings.placeholder",
+    "target_ids": [
+      "date_1510_1610_21"
+    ],
+    "milestones": [
+      {
+        "xp_required": 100,
+        "reward_id": "nickname_le_social_halloween_2310_1"
+      },
+      {
+        "xp_required": 300,
+        "reward_id": "nameplate_generic_001"
+      },
+      {
+        "xp_required": 500,
+        "reward_id": "kudos_bonus_1000"
+      },
+      {
+        "xp_required": 700,
+        "reward_id": "kudos_bonus_3000"
+      },
+      {
+        "xp_required": 800,
+        "reward_id": "top_astronaut_01"
+      },
+      {
+        "xp_required": 1000,
+        "reward_id": "emote_s10_3_zombiefrankenstein"
+      }
+    ],
+    "ui_detail_colour": "colour.challenges_green",
+    "challenges": [
+      {
+        "xp_awarded": 100,
+        "goal_description_locked": {
+          "template_parameters": [],
+          "template": null
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": [],
+        "goal_id": "event_willow_01",
+        "goal_title_locked": null
+      },
+      {
+        "xp_awarded": 100,
+        "goal_description_locked": {
+          "template_parameters": [],
+          "template": null
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": [],
+        "goal_id": "event_willow_06",
+        "goal_title_locked": null
+      },
+      {
+        "xp_awarded": 200,
+        "goal_description_locked": {
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "le_social_challenge_title_01_halloween"
+            }
+          ],
+          "template": "challenge_unlock_singular"
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_willow_01"
+          }
+        ],
+        "goal_id": "event_willow_02",
+        "goal_title_locked": "challenge_locked"
+      },
+      {
+        "xp_awarded": 200,
+        "goal_description_locked": {
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "le_social_challenge_title_02_halloween"
+            }
+          ],
+          "template": "challenge_unlock_singular"
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_willow_02"
+          }
+        ],
+        "goal_id": "event_willow_07",
+        "goal_title_locked": null
+      },
+      {
+        "xp_awarded": 100,
+        "goal_description_locked": {
+          "template_parameters": [],
+          "template": null
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": [],
+        "goal_id": "event_willow_03",
+        "goal_title_locked": null
+      },
+      {
+        "xp_awarded": 100,
+        "goal_description_locked": {
+          "template_parameters": [],
+          "template": null
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": [],
+        "goal_id": "event_willow_08",
+        "goal_title_locked": null
+      },
+      {
+        "xp_awarded": 200,
+        "goal_description_locked": {
+          "template_parameters": [],
+          "template": "challenge_unlock_on_date"
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": [],
+        "goal_id": "event_willow_04",
+        "goal_title_locked": "challenge_locked"
+      },
+      {
+        "xp_awarded": 200,
+        "goal_description_locked": {
+          "template_parameters": [],
+          "template": "challenge_unlock_on_date"
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": [],
+        "goal_id": "event_willow_09",
+        "goal_title_locked": null
+      },
+      {
+        "xp_awarded": 300,
+        "goal_description_locked": {
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": null
+            }
+          ],
+          "template": "challenge_unlock_on_date"
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": [],
+        "goal_id": "event_willow_05",
+        "goal_title_locked": "challenge_locked"
+      },
+      {
+        "xp_awarded": 300,
+        "goal_description_locked": {
+          "template_parameters": [],
+          "template": "challenge_unlock_on_date"
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": [],
+        "goal_id": "event_willow_10",
+        "goal_title_locked": null
+      }
+    ],
+    "tool_tip_image": "ui-liveevents-placeholder-tooltip",
+    "background_image": "ui-liveevents-placeholder-bg",
+    "promotional_image": "ui-liveevents-placeholder-costume",
+    "reward_icon_image": "ui-liveevents-placeholder-token"
+  },
+  {
+    "id": "le_s10_social_willow",
+    "title": "localised_strings.le_social_title_halloween",
+    "description": "localised_strings.le_social_desc_halloween",
+    "target_ids": [
+      "le_s10_willow"
+    ],
+    "milestones": [
+      {
+        "xp_required": 200,
+        "reward_id": "nickname_le_social_halloween_2310_1"
+      },
+      {
+        "xp_required": 400,
+        "reward_id": "kudos_bonus_3000"
+      },
+      {
+        "xp_required": 600,
+        "reward_id": "nameplateui_s10_3_nameplate25"
+      },
+      {
+        "xp_required": 800,
+        "reward_id": "kudos_bonus_5000"
+      },
+      {
+        "xp_required": 1200,
+        "reward_id": "emote_s10_3_peekaboo"
+      }
+    ],
+    "ui_detail_colour": "colour.challenges_green",
+    "challenges": [
+      {
+        "xp_awarded": 100,
+        "goal_description_locked": {
+          "template_parameters": [],
+          "template": null
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": [],
+        "goal_id": "event_willow_01",
+        "goal_title_locked": null
+      },
+      {
+        "xp_awarded": 100,
+        "goal_description_locked": {
+          "template_parameters": [],
+          "template": null
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": [],
+        "goal_id": "event_willow_06",
+        "goal_title_locked": null
+      },
+      {
+        "xp_awarded": 200,
+        "goal_description_locked": {
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "le_social_challenge_title_01_halloween"
+            }
+          ],
+          "template": "challenge_unlock_singular"
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_willow_01"
+          }
+        ],
+        "goal_id": "event_willow_02",
+        "goal_title_locked": "challenge_locked"
+      },
+      {
+        "xp_awarded": 200,
+        "goal_description_locked": {
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "le_social_challenge_title_02_halloween"
+            }
+          ],
+          "template": "challenge_unlock_singular"
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_willow_02"
+          }
+        ],
+        "goal_id": "event_willow_07",
+        "goal_title_locked": "challenge_locked"
+      },
+      {
+        "xp_awarded": 100,
+        "goal_description_locked": {
+          "template_parameters": [],
+          "template": null
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": [],
+        "goal_id": "event_willow_03",
+        "goal_title_locked": null
+      },
+      {
+        "xp_awarded": 100,
+        "goal_description_locked": {
+          "template_parameters": [],
+          "template": null
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": [],
+        "goal_id": "event_willow_08",
+        "goal_title_locked": null
+      },
+      {
+        "xp_awarded": 200,
+        "goal_description_locked": {
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "le_social_challenge_title_04_halloween"
+            }
+          ],
+          "template": "challenge_unlock_multiple_of_a_type"
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_willow_03"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_willow_08"
+          }
+        ],
+        "goal_id": "event_willow_04",
+        "goal_title_locked": "challenge_locked"
+      },
+      {
+        "xp_awarded": 200,
+        "goal_description_locked": {
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "le_social_challenge_title_04_halloween"
+            }
+          ],
+          "template": "challenge_unlock_multiple_of_a_type"
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_willow_03"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_willow_08"
+          }
+        ],
+        "goal_id": "event_willow_09",
+        "goal_title_locked": "challenge_locked"
+      },
+      {
+        "xp_awarded": 300,
+        "goal_description_locked": {
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "le_social_challenge_title_04_halloween"
+            }
+          ],
+          "template": "challenge_unlock_multiple_of_a_type"
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_willow_04"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_willow_09"
+          }
+        ],
+        "goal_id": "event_willow_05",
+        "goal_title_locked": "challenge_locked"
+      },
+      {
+        "xp_awarded": 300,
+        "goal_description_locked": {
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "le_social_challenge_title_04_halloween"
+            }
+          ],
+          "template": "challenge_unlock_multiple_of_a_type"
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_willow_04"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_willow_09"
+          }
+        ],
+        "goal_id": "event_willow_10",
+        "goal_title_locked": "challenge_locked"
+      }
+    ],
+    "tool_tip_image": "ui-liveevents-s10-willow-tooltip",
+    "background_image": "ui-liveevents-s10-willow-bg",
+    "promotional_image": "ui-liveevents-s10-willow-costume",
+    "reward_icon_image": "ui-icon-token-s10-willow"
+  },
+  {
     "id": "le_s10_soup",
     "title": "localised_strings.le_s10_soup_title",
     "description": "localised_strings.le_s10_soup_body",
