@@ -4586,6 +4586,38 @@
     }
   },
   {
+    "id": "parade_meta_challenge",
+    "config": {
+      "metric_id": "challenge_completed",
+      "dimensions": [
+        {
+          "dimension_id": "challenge_tags",
+          "operator": "contains_all",
+          "string_array_value": [
+            "parade_challenge_tag"
+          ],
+          "dimension_type": "array_dimension"
+        }
+      ],
+      "level_id": null,
+      "level_archetype": null,
+      "round_index": null,
+      "round_qualified": null,
+      "overtime": null,
+      "is_in_party": null,
+      "episode_id": null,
+      "show_id": null,
+      "is_final_round": null,
+      "is_private_lobby": null,
+      "team_score": null,
+      "position_placed": null,
+      "team_id": null,
+      "party_size": null,
+      "qualified_player_count": null,
+      "is_in_squad": null
+    }
+  },
+  {
     "id": "parrot_01",
     "config": {
       "metric_id": "player_collected",
