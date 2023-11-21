@@ -9627,6 +9627,35 @@
     ]
   },
   {
+    "id": "wle_mrs_shuffle_show_squads",
+    "tag_score": [
+      {
+        "tag": "level_tags.covenant_final",
+        "bonus": 2000,
+        "repeat_malus": 200,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "after_stage",
+          "setting": {
+            "stage": 20
+          }
+        }
+      },
+      {
+        "tag": "level_tags.covenant_final",
+        "bonus": 0,
+        "repeat_malus": 20000,
+        "repeat_decay": 0,
+        "apply_bonus_when": {
+          "type": "before_stage",
+          "setting": {
+            "stage": 20
+          }
+        }
+      }
+    ]
+  },
+  {
     "id": "wle_tag_weightings",
     "tag_score": [
       {
