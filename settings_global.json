@@ -69,15 +69,27 @@
   },
   {
     "id": "automated_discovery",
-    "value": false,
-    "platforms_whitelist": [],
-    "target_ids": []
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": []
+  },
+  {
+    "id": "backtrace_enabled",
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": []
   },
   {
     "id": "backtrace_limiter",
     "value": 4,
-    "platforms_whitelist": [],
-    "target_ids": []
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": []
   },
   {
     "id": "block_metrics_for_private_lobbies_enabled",
@@ -151,6 +163,24 @@
   },
   {
     "id": "character_enable_hold_to_walk",
+    "value": true,
+    "platforms_whitelist": [],
+    "target_ids": []
+  },
+  {
+    "id": "character_enable_powerups",
+    "value": true,
+    "platforms_whitelist": [],
+    "target_ids": []
+  },
+  {
+    "id": "character_enable_rolling_ball",
+    "value": true,
+    "platforms_whitelist": [],
+    "target_ids": []
+  },
+  {
+    "id": "character_enable_rolling_ball_carry",
     "value": true,
     "platforms_whitelist": [],
     "target_ids": []
@@ -459,9 +489,11 @@
   },
   {
     "id": "game_mode_private_lobby_minimal",
-    "value": false,
-    "platforms_whitelist": [],
-    "target_ids": []
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": []
   },
   {
     "id": "game_server_backfill_request_logging",
@@ -496,6 +528,14 @@
     "value": true,
     "platforms_whitelist": [],
     "target_ids": []
+  },
+  {
+    "id": "heartbeat_enabled",
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": []
   },
   {
     "id": "high_latency_warning_boundary",
@@ -572,12 +612,24 @@
     "platforms_whitelist": []
   },
   {
+    "id": "max_cached_texture_count",
+    "value": 16,
+    "platforms_whitelist": [],
+    "target_ids": []
+  },
+  {
     "id": "max_ugc_levels_amount",
     "value": 100,
     "target_ids": [
       "after_prime_global_launch"
     ],
     "platforms_whitelist": []
+  },
+  {
+    "id": "max_unused_texture_count",
+    "value": 8,
+    "platforms_whitelist": [],
+    "target_ids": []
   },
   {
     "id": "menu_3d_background_enabled",
@@ -611,6 +663,14 @@
   },
   {
     "id": "object_overlapping_enabled",
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": []
+  },
+  {
+    "id": "object_scaling_enabled",
     "value": true,
     "target_ids": [
       "after_prime_global_launch"
@@ -771,6 +831,14 @@
     "platforms_whitelist": []
   },
   {
+    "id": "report_v2_enabled",
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": []
+  },
+  {
     "id": "season_pass_enabled",
     "value": false,
     "target_ids": [
@@ -799,10 +867,38 @@
     "target_ids": []
   },
   {
-    "id": "show_selector_discovery_tab",
-    "value": false,
+    "id": "sentry_enabled",
+    "value": true,
     "platforms_whitelist": [],
     "target_ids": []
+  },
+  {
+    "id": "sentry_limiter",
+    "value": 4,
+    "target_ids": [
+      "disabled_year_1900"
+    ],
+    "platforms_whitelist": []
+  },
+  {
+    "id": "sentry_sampling",
+    "value": 1,
+    "platforms_whitelist": [],
+    "target_ids": []
+  },
+  {
+    "id": "sentry_server_sampling",
+    "value": 1,
+    "platforms_whitelist": [],
+    "target_ids": []
+  },
+  {
+    "id": "show_selector_discovery_tab",
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": []
   },
   {
     "id": "show_selector_enabled",
@@ -959,6 +1055,46 @@
   },
   {
     "id": "ugc_number_of_plays_enabled",
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": []
+  },
+  {
+    "id": "ugc_optional_preview_upload_popup_enabled",
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": []
+  },
+  {
+    "id": "ugc_preview_pictures_levelbrowser_enabled",
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": []
+  },
+  {
+    "id": "ugc_preview_pictures_reporting_enabled",
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": []
+  },
+  {
+    "id": "ugc_preview_pictures_showselector_enabled",
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": []
+  },
+  {
+    "id": "ugc_preview_pictures_upload_enabled",
     "value": true,
     "target_ids": [
       "after_prime_global_launch"

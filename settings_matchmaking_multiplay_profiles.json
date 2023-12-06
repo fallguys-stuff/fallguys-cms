@@ -1,27 +1,27 @@
 [
   {
-    "id": "beta_closed_0",
-    "profile_id": "1191878",
-    "profile_name": "Closed Beta 0",
-    "enable_bots": true,
+    "id": "audio_a",
+    "profile_id": "1229021",
+    "profile_name": "Audio A",
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "enable_bots": false,
     "solo": {
-      "default_show_min": 40,
+      "default_show_min": 1,
       "default_show_max": 60,
       "bots_show_min": 1,
       "bots_show_max": 20
     },
     "squads": {
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15,
-      "default_show_min": 40,
+      "default_show_min": 4,
       "default_show_max": 60,
-      "squad_size": 4
+      "squad_size": 4,
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15
     },
-    "platforms": {
-      "platform_min": 0,
-      "platform_max": 6
-    },
-    "seconds_before_allocation": 10,
+    "seconds_before_allocation": 20,
     "max_seconds_to_wait_for_proposal": 0,
     "seconds_to_wait_for_max_match_size": 0,
     "match_function_version": "1.13.4",
@@ -48,118 +48,6 @@
     "platforms": {
       "platform_min": 0,
       "platform_max": 6
-    },
-    "seconds_before_allocation": 10,
-    "max_seconds_to_wait_for_proposal": 0,
-    "seconds_to_wait_for_max_match_size": 0,
-    "match_function_version": "1.13.4",
-    "custom_cms_branch": null
-  },
-  {
-    "id": "beta_closed_2",
-    "profile_id": "1200463",
-    "profile_name": "Closed Beta 2",
-    "enable_bots": true,
-    "solo": {
-      "default_show_min": 1,
-      "default_show_max": 60,
-      "bots_show_min": 1,
-      "bots_show_max": 20
-    },
-    "squads": {
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15,
-      "default_show_min": 4,
-      "default_show_max": 60,
-      "squad_size": 4
-    },
-    "platforms": {
-      "platform_min": 0,
-      "platform_max": 6
-    },
-    "seconds_before_allocation": 10,
-    "max_seconds_to_wait_for_proposal": 0,
-    "seconds_to_wait_for_max_match_size": 0,
-    "match_function_version": "1.13.4",
-    "custom_cms_branch": null
-  },
-  {
-    "id": "beta_closed_3",
-    "profile_id": "1206338",
-    "profile_name": "Closed Beta 3",
-    "enable_bots": false,
-    "solo": {
-      "default_show_min": 1,
-      "default_show_max": 60,
-      "bots_show_min": 1,
-      "bots_show_max": 20
-    },
-    "squads": {
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15,
-      "default_show_min": 4,
-      "default_show_max": 60,
-      "squad_size": 4
-    },
-    "platforms": {
-      "platform_min": 0,
-      "platform_max": 6
-    },
-    "seconds_before_allocation": 10,
-    "max_seconds_to_wait_for_proposal": 0,
-    "seconds_to_wait_for_max_match_size": 0,
-    "match_function_version": "1.13.4",
-    "custom_cms_branch": null
-  },
-  {
-    "id": "beta_closed_4",
-    "profile_id": "1206845",
-    "profile_name": "Closed Beta 4",
-    "platforms": {
-      "platform_min": 0,
-      "platform_max": 6
-    },
-    "enable_bots": false,
-    "solo": {
-      "default_show_min": 40,
-      "default_show_max": 60,
-      "bots_show_min": 1,
-      "bots_show_max": 20
-    },
-    "squads": {
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15,
-      "default_show_min": 40,
-      "default_show_max": 60,
-      "squad_size": 4
-    },
-    "seconds_before_allocation": 10,
-    "max_seconds_to_wait_for_proposal": 0,
-    "seconds_to_wait_for_max_match_size": 0,
-    "match_function_version": "1.13.4",
-    "custom_cms_branch": null
-  },
-  {
-    "id": "beta_closed_5",
-    "profile_id": "1206848",
-    "profile_name": "Closed Beta 5",
-    "platforms": {
-      "platform_min": 0,
-      "platform_max": 6
-    },
-    "enable_bots": false,
-    "solo": {
-      "default_show_min": 40,
-      "default_show_max": 60,
-      "bots_show_min": 1,
-      "bots_show_max": 20
-    },
-    "squads": {
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15,
-      "default_show_min": 40,
-      "default_show_max": 60,
-      "squad_size": 4
     },
     "seconds_before_allocation": 10,
     "max_seconds_to_wait_for_proposal": 0,
@@ -246,6 +134,174 @@
       "default_max_squad_count": 15
     },
     "seconds_before_allocation": 10,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
+    "custom_cms_branch": null
+  },
+  {
+    "id": "capture_a",
+    "profile_id": "1206338",
+    "profile_name": "Capture A",
+    "enable_bots": false,
+    "solo": {
+      "default_show_min": 1,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15,
+      "default_show_min": 4,
+      "default_show_max": 60,
+      "squad_size": 4
+    },
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "seconds_before_allocation": 10,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
+    "custom_cms_branch": null
+  },
+  {
+    "id": "capture_b",
+    "profile_id": "1206848",
+    "profile_name": "Capture B",
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "enable_bots": false,
+    "solo": {
+      "default_show_min": 40,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15,
+      "default_show_min": 40,
+      "default_show_max": 60,
+      "squad_size": 4
+    },
+    "seconds_before_allocation": 10,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
+    "custom_cms_branch": null
+  },
+  {
+    "id": "compliance_a",
+    "profile_id": "1239008",
+    "profile_name": "Compliance A",
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "enable_bots": false,
+    "solo": {
+      "default_show_min": 1,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_show_min": 4,
+      "default_show_max": 60,
+      "squad_size": 4,
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15
+    },
+    "seconds_before_allocation": 20,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
+    "custom_cms_branch": null
+  },
+  {
+    "id": "compliance_b",
+    "profile_id": "1239011",
+    "profile_name": "Compliance B",
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "enable_bots": false,
+    "solo": {
+      "default_show_min": 1,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_show_min": 4,
+      "default_show_max": 60,
+      "squad_size": 4,
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15
+    },
+    "seconds_before_allocation": 20,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
+    "custom_cms_branch": null
+  },
+  {
+    "id": "content_a",
+    "profile_id": "1239020",
+    "profile_name": "Content A",
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "enable_bots": false,
+    "solo": {
+      "default_show_min": 1,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_show_min": 4,
+      "default_show_max": 60,
+      "squad_size": 4,
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15
+    },
+    "seconds_before_allocation": 20,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
+    "custom_cms_branch": null
+  },
+  {
+    "id": "content_b",
+    "profile_id": "1239023",
+    "profile_name": "Content B",
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "enable_bots": false,
+    "solo": {
+      "default_show_min": 1,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_show_min": 4,
+      "default_show_max": 60,
+      "squad_size": 4,
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15
+    },
+    "seconds_before_allocation": 20,
     "max_seconds_to_wait_for_proposal": 0,
     "seconds_to_wait_for_max_match_size": 0,
     "match_function_version": "1.13.4",
@@ -560,6 +616,342 @@
     "custom_cms_branch": null
   },
   {
+    "id": "engine_a",
+    "profile_id": "1239038",
+    "profile_name": "Engine A",
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "enable_bots": false,
+    "solo": {
+      "default_show_min": 1,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_show_min": 4,
+      "default_show_max": 60,
+      "squad_size": 4,
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15
+    },
+    "seconds_before_allocation": 20,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
+    "custom_cms_branch": null
+  },
+  {
+    "id": "engine_b",
+    "profile_id": "1239041",
+    "profile_name": "Engine B",
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "enable_bots": false,
+    "solo": {
+      "default_show_min": 1,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_show_min": 4,
+      "default_show_max": 60,
+      "squad_size": 4,
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15
+    },
+    "seconds_before_allocation": 20,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
+    "custom_cms_branch": null
+  },
+  {
+    "id": "gameplay_a",
+    "profile_id": "1239026",
+    "profile_name": "Gameplay A",
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "enable_bots": false,
+    "solo": {
+      "default_show_min": 1,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_show_min": 4,
+      "default_show_max": 60,
+      "squad_size": 4,
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15
+    },
+    "seconds_before_allocation": 20,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
+    "custom_cms_branch": null
+  },
+  {
+    "id": "gameplay_b",
+    "profile_id": "1239029",
+    "profile_name": "Gameplay B",
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "enable_bots": false,
+    "solo": {
+      "default_show_min": 1,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_show_min": 4,
+      "default_show_max": 60,
+      "squad_size": 4,
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15
+    },
+    "seconds_before_allocation": 20,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
+    "custom_cms_branch": null
+  },
+  {
+    "id": "internal_qa_current_a",
+    "profile_id": "1210418",
+    "profile_name": "Internal QA Current A",
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "enable_bots": false,
+    "solo": {
+      "default_show_min": 1,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_show_min": 4,
+      "default_show_max": 60,
+      "squad_size": 4,
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15
+    },
+    "seconds_before_allocation": 20,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
+    "custom_cms_branch": null
+  },
+  {
+    "id": "internal_qa_current_b",
+    "profile_id": "1191752",
+    "profile_name": "Internal QA Current B",
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "enable_bots": false,
+    "solo": {
+      "default_show_min": 1,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15,
+      "default_show_min": 2,
+      "default_show_max": 60,
+      "squad_size": 2
+    },
+    "seconds_before_allocation": 20,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
+    "custom_cms_branch": null
+  },
+  {
+    "id": "internal_qa_next_a",
+    "profile_id": "1229012",
+    "profile_name": "Internal QA Next A",
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "enable_bots": false,
+    "solo": {
+      "default_show_min": 1,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_show_min": 4,
+      "default_show_max": 60,
+      "squad_size": 4,
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15
+    },
+    "seconds_before_allocation": 20,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
+    "custom_cms_branch": null
+  },
+  {
+    "id": "internal_qa_next_b",
+    "profile_id": "1208108",
+    "profile_name": "Internal QA Next B",
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "enable_bots": false,
+    "seconds_before_allocation": 20,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
+    "solo": {
+      "default_show_min": 1,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_show_min": 2,
+      "default_show_max": 60,
+      "squad_size": 2,
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15
+    },
+    "custom_cms_branch": null
+  },
+  {
+    "id": "levels_editor_a",
+    "profile_id": "1239032",
+    "profile_name": "Levels Editor A",
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "enable_bots": false,
+    "solo": {
+      "default_show_min": 1,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_show_min": 4,
+      "default_show_max": 60,
+      "squad_size": 4,
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15
+    },
+    "seconds_before_allocation": 20,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
+    "custom_cms_branch": null
+  },
+  {
+    "id": "levels_editor_b",
+    "profile_id": "1239035",
+    "profile_name": "Levels Editor B",
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "enable_bots": false,
+    "solo": {
+      "default_show_min": 1,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_show_min": 4,
+      "default_show_max": 60,
+      "squad_size": 4,
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15
+    },
+    "seconds_before_allocation": 20,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
+    "custom_cms_branch": null
+  },
+  {
+    "id": "liveops_a",
+    "profile_id": "1239014",
+    "profile_name": "LiveOps A",
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "enable_bots": false,
+    "solo": {
+      "default_show_min": 1,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_show_min": 4,
+      "default_show_max": 60,
+      "squad_size": 4,
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15
+    },
+    "seconds_before_allocation": 20,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
+    "custom_cms_branch": null
+  },
+  {
+    "id": "liveops_b",
+    "profile_id": "1239017",
+    "profile_name": "LiveOps B",
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "enable_bots": false,
+    "solo": {
+      "default_show_min": 1,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_show_min": 4,
+      "default_show_max": 60,
+      "squad_size": 4,
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15
+    },
+    "seconds_before_allocation": 20,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
+    "custom_cms_branch": null
+  },
+  {
     "id": "loadtest2",
     "profile_id": "1195787",
     "profile_name": "loadtest2",
@@ -585,6 +977,62 @@
       "default_show_max": null,
       "squad_size": null
     },
+    "custom_cms_branch": null
+  },
+  {
+    "id": "mainline_a",
+    "profile_id": "1229015",
+    "profile_name": "Mainline A",
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "enable_bots": false,
+    "solo": {
+      "default_show_min": 1,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_show_min": 4,
+      "default_show_max": 60,
+      "squad_size": 4,
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15
+    },
+    "seconds_before_allocation": 20,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
+    "custom_cms_branch": null
+  },
+  {
+    "id": "mainline_b",
+    "profile_id": "1229018",
+    "profile_name": "Mainline B",
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "enable_bots": false,
+    "solo": {
+      "default_show_min": 1,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_show_min": 4,
+      "default_show_max": 60,
+      "squad_size": 4,
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15
+    },
+    "seconds_before_allocation": 20,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
     "custom_cms_branch": null
   },
   {
@@ -644,6 +1092,174 @@
     "custom_cms_branch": null
   },
   {
+    "id": "mobile_engine_a",
+    "profile_id": "1239044",
+    "profile_name": "Mobile Engine A",
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "enable_bots": false,
+    "solo": {
+      "default_show_min": 1,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_show_min": 4,
+      "default_show_max": 60,
+      "squad_size": 4,
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15
+    },
+    "seconds_before_allocation": 20,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
+    "custom_cms_branch": null
+  },
+  {
+    "id": "mobile_engine_b",
+    "profile_id": "1239047",
+    "profile_name": "Internal QA 26",
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "enable_bots": false,
+    "solo": {
+      "default_show_min": 1,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_show_min": 4,
+      "default_show_max": 60,
+      "squad_size": 4,
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15
+    },
+    "seconds_before_allocation": 20,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
+    "custom_cms_branch": null
+  },
+  {
+    "id": "mobile_gameplay_a",
+    "profile_id": "1239050",
+    "profile_name": "Internal QA 27",
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "enable_bots": false,
+    "solo": {
+      "default_show_min": 1,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_show_min": 4,
+      "default_show_max": 60,
+      "squad_size": 4,
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15
+    },
+    "seconds_before_allocation": 20,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
+    "custom_cms_branch": null
+  },
+  {
+    "id": "mobile_gameplay_b",
+    "profile_id": "1239053",
+    "profile_name": "Internal QA 28",
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "enable_bots": false,
+    "solo": {
+      "default_show_min": 1,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_show_min": 4,
+      "default_show_max": 60,
+      "squad_size": 4,
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15
+    },
+    "seconds_before_allocation": 20,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
+    "custom_cms_branch": null
+  },
+  {
+    "id": "mobile_screens_a",
+    "profile_id": "1239056",
+    "profile_name": "Internal QA 29",
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "enable_bots": false,
+    "solo": {
+      "default_show_min": 1,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_show_min": 4,
+      "default_show_max": 60,
+      "squad_size": 4,
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15
+    },
+    "seconds_before_allocation": 20,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
+    "custom_cms_branch": null
+  },
+  {
+    "id": "mobile_screens_b",
+    "profile_id": "1239059",
+    "profile_name": "Internal QA 30",
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "enable_bots": false,
+    "solo": {
+      "default_show_min": 1,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_show_min": 4,
+      "default_show_max": 60,
+      "squad_size": 4,
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15
+    },
+    "seconds_before_allocation": 20,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
+    "custom_cms_branch": null
+  },
+  {
     "id": "mobileqa",
     "profile_id": "1203936",
     "profile_name": "MobileQA",
@@ -669,6 +1285,146 @@
       "default_show_max": null,
       "squad_size": null
     },
+    "custom_cms_branch": null
+  },
+  {
+    "id": "moderation_a",
+    "profile_id": "1206845",
+    "profile_name": "Moderation A",
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "enable_bots": false,
+    "solo": {
+      "default_show_min": 40,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15,
+      "default_show_min": 40,
+      "default_show_max": 60,
+      "squad_size": 4
+    },
+    "seconds_before_allocation": 10,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
+    "custom_cms_branch": null
+  },
+  {
+    "id": "player_systems_a",
+    "profile_id": "1239002",
+    "profile_name": "Player Systems A",
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "enable_bots": false,
+    "solo": {
+      "default_show_min": 1,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_show_min": 4,
+      "default_show_max": 60,
+      "squad_size": 4,
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15
+    },
+    "seconds_before_allocation": 20,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
+    "custom_cms_branch": null
+  },
+  {
+    "id": "player_systems_b",
+    "profile_id": "1239005",
+    "profile_name": "Player Systems B",
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "enable_bots": false,
+    "solo": {
+      "default_show_min": 1,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_show_min": 4,
+      "default_show_max": 60,
+      "squad_size": 4,
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15
+    },
+    "seconds_before_allocation": 20,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
+    "custom_cms_branch": null
+  },
+  {
+    "id": "playtest_a",
+    "profile_id": "1191878",
+    "profile_name": "Playtest A",
+    "enable_bots": true,
+    "solo": {
+      "default_show_min": 40,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15,
+      "default_show_min": 40,
+      "default_show_max": 60,
+      "squad_size": 4
+    },
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "seconds_before_allocation": 10,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
+    "custom_cms_branch": null
+  },
+  {
+    "id": "playtest_b",
+    "profile_id": "1200463",
+    "profile_name": "Playtest B",
+    "enable_bots": true,
+    "solo": {
+      "default_show_min": 1,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15,
+      "default_show_min": 4,
+      "default_show_max": 60,
+      "squad_size": 4
+    },
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "seconds_before_allocation": 10,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
     "custom_cms_branch": null
   },
   {
@@ -896,62 +1652,6 @@
     }
   },
   {
-    "id": "qa_external",
-    "profile_id": "1191752",
-    "profile_name": "External QA",
-    "platforms": {
-      "platform_min": 0,
-      "platform_max": 6
-    },
-    "enable_bots": false,
-    "solo": {
-      "default_show_min": 1,
-      "default_show_max": 60,
-      "bots_show_min": 1,
-      "bots_show_max": 20
-    },
-    "squads": {
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15,
-      "default_show_min": 2,
-      "default_show_max": 60,
-      "squad_size": 2
-    },
-    "seconds_before_allocation": 20,
-    "max_seconds_to_wait_for_proposal": 0,
-    "seconds_to_wait_for_max_match_size": 0,
-    "match_function_version": "1.13.4",
-    "custom_cms_branch": null
-  },
-  {
-    "id": "qa_external_2",
-    "profile_id": "1208108",
-    "profile_name": "ExternalQA2",
-    "platforms": {
-      "platform_min": 0,
-      "platform_max": 6
-    },
-    "enable_bots": false,
-    "seconds_before_allocation": 20,
-    "max_seconds_to_wait_for_proposal": 0,
-    "seconds_to_wait_for_max_match_size": 0,
-    "match_function_version": "1.13.4",
-    "solo": {
-      "default_show_min": 1,
-      "default_show_max": 60,
-      "bots_show_min": 1,
-      "bots_show_max": 20
-    },
-    "squads": {
-      "default_show_min": 2,
-      "default_show_max": 60,
-      "squad_size": 2,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
-    },
-    "custom_cms_branch": null
-  },
-  {
     "id": "qa_internal_0",
     "profile_id": "1191473",
     "profile_name": "Internal QA 0",
@@ -1008,286 +1708,6 @@
     "custom_cms_branch": null
   },
   {
-    "id": "qa_internal_10",
-    "profile_id": "1229021",
-    "profile_name": "Internal QA 10",
-    "platforms": {
-      "platform_min": 0,
-      "platform_max": 6
-    },
-    "enable_bots": false,
-    "solo": {
-      "default_show_min": 1,
-      "default_show_max": 60,
-      "bots_show_min": 1,
-      "bots_show_max": 20
-    },
-    "squads": {
-      "default_show_min": 4,
-      "default_show_max": 60,
-      "squad_size": 4,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
-    },
-    "seconds_before_allocation": 20,
-    "max_seconds_to_wait_for_proposal": 0,
-    "seconds_to_wait_for_max_match_size": 0,
-    "match_function_version": "1.13.4",
-    "custom_cms_branch": null
-  },
-  {
-    "id": "qa_internal_11",
-    "profile_id": "1239002",
-    "profile_name": "Internal QA 11",
-    "platforms": {
-      "platform_min": 0,
-      "platform_max": 6
-    },
-    "enable_bots": false,
-    "solo": {
-      "default_show_min": 1,
-      "default_show_max": 60,
-      "bots_show_min": 1,
-      "bots_show_max": 20
-    },
-    "squads": {
-      "default_show_min": 4,
-      "default_show_max": 60,
-      "squad_size": 4,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
-    },
-    "seconds_before_allocation": 20,
-    "max_seconds_to_wait_for_proposal": 0,
-    "seconds_to_wait_for_max_match_size": 0,
-    "match_function_version": "1.13.4",
-    "custom_cms_branch": null
-  },
-  {
-    "id": "qa_internal_12",
-    "profile_id": "1239005",
-    "profile_name": "Internal QA 12",
-    "platforms": {
-      "platform_min": 0,
-      "platform_max": 6
-    },
-    "enable_bots": false,
-    "solo": {
-      "default_show_min": 1,
-      "default_show_max": 60,
-      "bots_show_min": 1,
-      "bots_show_max": 20
-    },
-    "squads": {
-      "default_show_min": 4,
-      "default_show_max": 60,
-      "squad_size": 4,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
-    },
-    "seconds_before_allocation": 20,
-    "max_seconds_to_wait_for_proposal": 0,
-    "seconds_to_wait_for_max_match_size": 0,
-    "match_function_version": "1.13.4",
-    "custom_cms_branch": null
-  },
-  {
-    "id": "qa_internal_13",
-    "profile_id": "1239008",
-    "profile_name": "Internal QA 13",
-    "platforms": {
-      "platform_min": 0,
-      "platform_max": 6
-    },
-    "enable_bots": false,
-    "solo": {
-      "default_show_min": 1,
-      "default_show_max": 60,
-      "bots_show_min": 1,
-      "bots_show_max": 20
-    },
-    "squads": {
-      "default_show_min": 4,
-      "default_show_max": 60,
-      "squad_size": 4,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
-    },
-    "seconds_before_allocation": 20,
-    "max_seconds_to_wait_for_proposal": 0,
-    "seconds_to_wait_for_max_match_size": 0,
-    "match_function_version": "1.13.4",
-    "custom_cms_branch": null
-  },
-  {
-    "id": "qa_internal_14",
-    "profile_id": "1239011",
-    "profile_name": "Internal QA 14",
-    "platforms": {
-      "platform_min": 0,
-      "platform_max": 6
-    },
-    "enable_bots": false,
-    "solo": {
-      "default_show_min": 1,
-      "default_show_max": 60,
-      "bots_show_min": 1,
-      "bots_show_max": 20
-    },
-    "squads": {
-      "default_show_min": 4,
-      "default_show_max": 60,
-      "squad_size": 4,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
-    },
-    "seconds_before_allocation": 20,
-    "max_seconds_to_wait_for_proposal": 0,
-    "seconds_to_wait_for_max_match_size": 0,
-    "match_function_version": "1.13.4",
-    "custom_cms_branch": null
-  },
-  {
-    "id": "qa_internal_15",
-    "profile_id": "1239014",
-    "profile_name": "Internal QA 15",
-    "platforms": {
-      "platform_min": 0,
-      "platform_max": 6
-    },
-    "enable_bots": false,
-    "solo": {
-      "default_show_min": 1,
-      "default_show_max": 60,
-      "bots_show_min": 1,
-      "bots_show_max": 20
-    },
-    "squads": {
-      "default_show_min": 4,
-      "default_show_max": 60,
-      "squad_size": 4,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
-    },
-    "seconds_before_allocation": 20,
-    "max_seconds_to_wait_for_proposal": 0,
-    "seconds_to_wait_for_max_match_size": 0,
-    "match_function_version": "1.13.4",
-    "custom_cms_branch": null
-  },
-  {
-    "id": "qa_internal_16",
-    "profile_id": "1239017",
-    "profile_name": "Internal QA 16",
-    "platforms": {
-      "platform_min": 0,
-      "platform_max": 6
-    },
-    "enable_bots": false,
-    "solo": {
-      "default_show_min": 1,
-      "default_show_max": 60,
-      "bots_show_min": 1,
-      "bots_show_max": 20
-    },
-    "squads": {
-      "default_show_min": 4,
-      "default_show_max": 60,
-      "squad_size": 4,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
-    },
-    "seconds_before_allocation": 20,
-    "max_seconds_to_wait_for_proposal": 0,
-    "seconds_to_wait_for_max_match_size": 0,
-    "match_function_version": "1.13.4",
-    "custom_cms_branch": null
-  },
-  {
-    "id": "qa_internal_17",
-    "profile_id": "1239020",
-    "profile_name": "Internal QA 17",
-    "platforms": {
-      "platform_min": 0,
-      "platform_max": 6
-    },
-    "enable_bots": false,
-    "solo": {
-      "default_show_min": 1,
-      "default_show_max": 60,
-      "bots_show_min": 1,
-      "bots_show_max": 20
-    },
-    "squads": {
-      "default_show_min": 4,
-      "default_show_max": 60,
-      "squad_size": 4,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
-    },
-    "seconds_before_allocation": 20,
-    "max_seconds_to_wait_for_proposal": 0,
-    "seconds_to_wait_for_max_match_size": 0,
-    "match_function_version": "1.13.4",
-    "custom_cms_branch": null
-  },
-  {
-    "id": "qa_internal_18",
-    "profile_id": "1239023",
-    "profile_name": "Internal QA 18",
-    "platforms": {
-      "platform_min": 0,
-      "platform_max": 6
-    },
-    "enable_bots": false,
-    "solo": {
-      "default_show_min": 1,
-      "default_show_max": 60,
-      "bots_show_min": 1,
-      "bots_show_max": 20
-    },
-    "squads": {
-      "default_show_min": 4,
-      "default_show_max": 60,
-      "squad_size": 4,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
-    },
-    "seconds_before_allocation": 20,
-    "max_seconds_to_wait_for_proposal": 0,
-    "seconds_to_wait_for_max_match_size": 0,
-    "match_function_version": "1.13.4",
-    "custom_cms_branch": null
-  },
-  {
-    "id": "qa_internal_19",
-    "profile_id": "1239026",
-    "profile_name": "Internal QA 19",
-    "platforms": {
-      "platform_min": 0,
-      "platform_max": 6
-    },
-    "enable_bots": false,
-    "solo": {
-      "default_show_min": 1,
-      "default_show_max": 60,
-      "bots_show_min": 1,
-      "bots_show_max": 20
-    },
-    "squads": {
-      "default_show_min": 4,
-      "default_show_max": 60,
-      "squad_size": 4,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
-    },
-    "seconds_before_allocation": 20,
-    "max_seconds_to_wait_for_proposal": 0,
-    "seconds_to_wait_for_max_match_size": 0,
-    "match_function_version": "1.13.4",
-    "custom_cms_branch": null
-  },
-  {
     "id": "qa_internal_2",
     "profile_id": "1204714",
     "profile_name": "Internal QA 2",
@@ -1316,286 +1736,6 @@
     "custom_cms_branch": null
   },
   {
-    "id": "qa_internal_20",
-    "profile_id": "1239029",
-    "profile_name": "Internal QA 20",
-    "platforms": {
-      "platform_min": 0,
-      "platform_max": 6
-    },
-    "enable_bots": false,
-    "solo": {
-      "default_show_min": 1,
-      "default_show_max": 60,
-      "bots_show_min": 1,
-      "bots_show_max": 20
-    },
-    "squads": {
-      "default_show_min": 4,
-      "default_show_max": 60,
-      "squad_size": 4,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
-    },
-    "seconds_before_allocation": 20,
-    "max_seconds_to_wait_for_proposal": 0,
-    "seconds_to_wait_for_max_match_size": 0,
-    "match_function_version": "1.13.4",
-    "custom_cms_branch": null
-  },
-  {
-    "id": "qa_internal_21",
-    "profile_id": "1239032",
-    "profile_name": "Internal QA 21",
-    "platforms": {
-      "platform_min": 0,
-      "platform_max": 6
-    },
-    "enable_bots": false,
-    "solo": {
-      "default_show_min": 1,
-      "default_show_max": 60,
-      "bots_show_min": 1,
-      "bots_show_max": 20
-    },
-    "squads": {
-      "default_show_min": 4,
-      "default_show_max": 60,
-      "squad_size": 4,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
-    },
-    "seconds_before_allocation": 20,
-    "max_seconds_to_wait_for_proposal": 0,
-    "seconds_to_wait_for_max_match_size": 0,
-    "match_function_version": "1.13.4",
-    "custom_cms_branch": null
-  },
-  {
-    "id": "qa_internal_22",
-    "profile_id": "1239035",
-    "profile_name": "Internal QA 22",
-    "platforms": {
-      "platform_min": 0,
-      "platform_max": 6
-    },
-    "enable_bots": false,
-    "solo": {
-      "default_show_min": 1,
-      "default_show_max": 60,
-      "bots_show_min": 1,
-      "bots_show_max": 20
-    },
-    "squads": {
-      "default_show_min": 4,
-      "default_show_max": 60,
-      "squad_size": 4,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
-    },
-    "seconds_before_allocation": 20,
-    "max_seconds_to_wait_for_proposal": 0,
-    "seconds_to_wait_for_max_match_size": 0,
-    "match_function_version": "1.13.4",
-    "custom_cms_branch": null
-  },
-  {
-    "id": "qa_internal_23",
-    "profile_id": "1239038",
-    "profile_name": "Internal QA 23",
-    "platforms": {
-      "platform_min": 0,
-      "platform_max": 6
-    },
-    "enable_bots": false,
-    "solo": {
-      "default_show_min": 1,
-      "default_show_max": 60,
-      "bots_show_min": 1,
-      "bots_show_max": 20
-    },
-    "squads": {
-      "default_show_min": 4,
-      "default_show_max": 60,
-      "squad_size": 4,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
-    },
-    "seconds_before_allocation": 20,
-    "max_seconds_to_wait_for_proposal": 0,
-    "seconds_to_wait_for_max_match_size": 0,
-    "match_function_version": "1.13.4",
-    "custom_cms_branch": null
-  },
-  {
-    "id": "qa_internal_24",
-    "profile_id": "1239041",
-    "profile_name": "Internal QA 24",
-    "platforms": {
-      "platform_min": 0,
-      "platform_max": 6
-    },
-    "enable_bots": false,
-    "solo": {
-      "default_show_min": 1,
-      "default_show_max": 60,
-      "bots_show_min": 1,
-      "bots_show_max": 20
-    },
-    "squads": {
-      "default_show_min": 4,
-      "default_show_max": 60,
-      "squad_size": 4,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
-    },
-    "seconds_before_allocation": 20,
-    "max_seconds_to_wait_for_proposal": 0,
-    "seconds_to_wait_for_max_match_size": 0,
-    "match_function_version": "1.13.4",
-    "custom_cms_branch": null
-  },
-  {
-    "id": "qa_internal_25",
-    "profile_id": "1239044",
-    "profile_name": "Internal QA 25",
-    "platforms": {
-      "platform_min": 0,
-      "platform_max": 6
-    },
-    "enable_bots": false,
-    "solo": {
-      "default_show_min": 1,
-      "default_show_max": 60,
-      "bots_show_min": 1,
-      "bots_show_max": 20
-    },
-    "squads": {
-      "default_show_min": 4,
-      "default_show_max": 60,
-      "squad_size": 4,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
-    },
-    "seconds_before_allocation": 20,
-    "max_seconds_to_wait_for_proposal": 0,
-    "seconds_to_wait_for_max_match_size": 0,
-    "match_function_version": "1.13.4",
-    "custom_cms_branch": null
-  },
-  {
-    "id": "qa_internal_26",
-    "profile_id": "1239047",
-    "profile_name": "Internal QA 26",
-    "platforms": {
-      "platform_min": 0,
-      "platform_max": 6
-    },
-    "enable_bots": false,
-    "solo": {
-      "default_show_min": 1,
-      "default_show_max": 60,
-      "bots_show_min": 1,
-      "bots_show_max": 20
-    },
-    "squads": {
-      "default_show_min": 4,
-      "default_show_max": 60,
-      "squad_size": 4,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
-    },
-    "seconds_before_allocation": 20,
-    "max_seconds_to_wait_for_proposal": 0,
-    "seconds_to_wait_for_max_match_size": 0,
-    "match_function_version": "1.13.4",
-    "custom_cms_branch": null
-  },
-  {
-    "id": "qa_internal_27",
-    "profile_id": "1239050",
-    "profile_name": "Internal QA 27",
-    "platforms": {
-      "platform_min": 0,
-      "platform_max": 6
-    },
-    "enable_bots": false,
-    "solo": {
-      "default_show_min": 1,
-      "default_show_max": 60,
-      "bots_show_min": 1,
-      "bots_show_max": 20
-    },
-    "squads": {
-      "default_show_min": 4,
-      "default_show_max": 60,
-      "squad_size": 4,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
-    },
-    "seconds_before_allocation": 20,
-    "max_seconds_to_wait_for_proposal": 0,
-    "seconds_to_wait_for_max_match_size": 0,
-    "match_function_version": "1.13.4",
-    "custom_cms_branch": null
-  },
-  {
-    "id": "qa_internal_28",
-    "profile_id": "1239053",
-    "profile_name": "Internal QA 28",
-    "platforms": {
-      "platform_min": 0,
-      "platform_max": 6
-    },
-    "enable_bots": false,
-    "solo": {
-      "default_show_min": 1,
-      "default_show_max": 60,
-      "bots_show_min": 1,
-      "bots_show_max": 20
-    },
-    "squads": {
-      "default_show_min": 4,
-      "default_show_max": 60,
-      "squad_size": 4,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
-    },
-    "seconds_before_allocation": 20,
-    "max_seconds_to_wait_for_proposal": 0,
-    "seconds_to_wait_for_max_match_size": 0,
-    "match_function_version": "1.13.4",
-    "custom_cms_branch": null
-  },
-  {
-    "id": "qa_internal_29",
-    "profile_id": "1239056",
-    "profile_name": "Internal QA 29",
-    "platforms": {
-      "platform_min": 0,
-      "platform_max": 6
-    },
-    "enable_bots": false,
-    "solo": {
-      "default_show_min": 1,
-      "default_show_max": 60,
-      "bots_show_min": 1,
-      "bots_show_max": 20
-    },
-    "squads": {
-      "default_show_min": 4,
-      "default_show_max": 60,
-      "squad_size": 4,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
-    },
-    "seconds_before_allocation": 20,
-    "max_seconds_to_wait_for_proposal": 0,
-    "seconds_to_wait_for_max_match_size": 0,
-    "match_function_version": "1.13.4",
-    "custom_cms_branch": null
-  },
-  {
     "id": "qa_internal_3",
     "profile_id": "1206545",
     "profile_name": "Internal QA 3",
@@ -1616,34 +1756,6 @@
     "platforms": {
       "platform_min": 0,
       "platform_max": 6
-    },
-    "seconds_before_allocation": 20,
-    "max_seconds_to_wait_for_proposal": 0,
-    "seconds_to_wait_for_max_match_size": 0,
-    "match_function_version": "1.13.4",
-    "custom_cms_branch": null
-  },
-  {
-    "id": "qa_internal_30",
-    "profile_id": "1239059",
-    "profile_name": "Internal QA 30",
-    "platforms": {
-      "platform_min": 0,
-      "platform_max": 6
-    },
-    "enable_bots": false,
-    "solo": {
-      "default_show_min": 1,
-      "default_show_max": 60,
-      "bots_show_min": 1,
-      "bots_show_max": 20
-    },
-    "squads": {
-      "default_show_min": 4,
-      "default_show_max": 60,
-      "squad_size": 4,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
     },
     "seconds_before_allocation": 20,
     "max_seconds_to_wait_for_proposal": 0,
@@ -1683,118 +1795,6 @@
     "id": "qa_internal_5",
     "profile_id": "1210415",
     "profile_name": "Internal QA 5",
-    "platforms": {
-      "platform_min": 0,
-      "platform_max": 6
-    },
-    "enable_bots": false,
-    "solo": {
-      "default_show_min": 1,
-      "default_show_max": 60,
-      "bots_show_min": 1,
-      "bots_show_max": 20
-    },
-    "squads": {
-      "default_show_min": 4,
-      "default_show_max": 60,
-      "squad_size": 4,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
-    },
-    "seconds_before_allocation": 20,
-    "max_seconds_to_wait_for_proposal": 0,
-    "seconds_to_wait_for_max_match_size": 0,
-    "match_function_version": "1.13.4",
-    "custom_cms_branch": null
-  },
-  {
-    "id": "qa_internal_6",
-    "profile_id": "1210418",
-    "profile_name": "Internal QA 6",
-    "platforms": {
-      "platform_min": 0,
-      "platform_max": 6
-    },
-    "enable_bots": false,
-    "solo": {
-      "default_show_min": 1,
-      "default_show_max": 60,
-      "bots_show_min": 1,
-      "bots_show_max": 20
-    },
-    "squads": {
-      "default_show_min": 4,
-      "default_show_max": 60,
-      "squad_size": 4,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
-    },
-    "seconds_before_allocation": 20,
-    "max_seconds_to_wait_for_proposal": 0,
-    "seconds_to_wait_for_max_match_size": 0,
-    "match_function_version": "1.13.4",
-    "custom_cms_branch": null
-  },
-  {
-    "id": "qa_internal_7",
-    "profile_id": "1229012",
-    "profile_name": "Internal QA 7",
-    "platforms": {
-      "platform_min": 0,
-      "platform_max": 6
-    },
-    "enable_bots": false,
-    "solo": {
-      "default_show_min": 1,
-      "default_show_max": 60,
-      "bots_show_min": 1,
-      "bots_show_max": 20
-    },
-    "squads": {
-      "default_show_min": 4,
-      "default_show_max": 60,
-      "squad_size": 4,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
-    },
-    "seconds_before_allocation": 20,
-    "max_seconds_to_wait_for_proposal": 0,
-    "seconds_to_wait_for_max_match_size": 0,
-    "match_function_version": "1.13.4",
-    "custom_cms_branch": null
-  },
-  {
-    "id": "qa_internal_8",
-    "profile_id": "1229015",
-    "profile_name": "Internal QA 8",
-    "platforms": {
-      "platform_min": 0,
-      "platform_max": 6
-    },
-    "enable_bots": false,
-    "solo": {
-      "default_show_min": 1,
-      "default_show_max": 60,
-      "bots_show_min": 1,
-      "bots_show_max": 20
-    },
-    "squads": {
-      "default_show_min": 4,
-      "default_show_max": 60,
-      "squad_size": 4,
-      "default_min_squad_count": 10,
-      "default_max_squad_count": 15
-    },
-    "seconds_before_allocation": 20,
-    "max_seconds_to_wait_for_proposal": 0,
-    "seconds_to_wait_for_max_match_size": 0,
-    "match_function_version": "1.13.4",
-    "custom_cms_branch": null
-  },
-  {
-    "id": "qa_internal_9",
-    "profile_id": "1229018",
-    "profile_name": "Internal QA 9",
     "platforms": {
       "platform_min": 0,
       "platform_max": 6
@@ -1876,9 +1876,37 @@
     "custom_cms_branch": null
   },
   {
-    "id": "staging",
+    "id": "staging_a",
     "profile_id": "1196231",
     "profile_name": "Staging",
+    "platforms": {
+      "platform_min": 0,
+      "platform_max": 6
+    },
+    "enable_bots": false,
+    "solo": {
+      "default_show_min": 40,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15,
+      "default_show_min": 40,
+      "default_show_max": 60,
+      "squad_size": 4
+    },
+    "seconds_before_allocation": 20,
+    "max_seconds_to_wait_for_proposal": 0,
+    "seconds_to_wait_for_max_match_size": 0,
+    "match_function_version": "1.13.4",
+    "custom_cms_branch": null
+  },
+  {
+    "id": "staging_b",
+    "profile_id": "1210448",
+    "profile_name": "Staging B",
     "platforms": {
       "platform_min": 0,
       "platform_max": 6
