@@ -63,6 +63,27 @@
     "refresh_cycle_length_seconds": null
   },
   {
+    "id": "famepass_07",
+    "order_preference": 10,
+    "section_height": 2,
+    "show_refresh_timer": false,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundleslot_famepass_07"
+      }
+    ],
+    "target_ids": [
+      "fp7_active_dates"
+    ],
+    "name": null,
+    "storefront": "storefront_famepass_07",
+    "refresh_cycle_length_seconds": null
+  },
+  {
     "id": "famepass_4_tier_skip_section",
     "order_preference": 250,
     "section_height": 1,
@@ -123,6 +144,27 @@
     ],
     "name": "sym_storesection_title_tierskip",
     "storefront": "storefront_famepass_06",
+    "refresh_cycle_length_seconds": null
+  },
+  {
+    "id": "famepass_7_tier_skip_section",
+    "order_preference": 250,
+    "section_height": 2,
+    "show_refresh_timer": false,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "ss004_tier_skip_bundle"
+      }
+    ],
+    "target_ids": [
+      "target_famepass_fp7_owned"
+    ],
+    "name": "sym_storesection_title_tierskip",
+    "storefront": "storefront_famepass_07",
     "refresh_cycle_length_seconds": null
   },
   {
@@ -486,76 +528,6 @@
       "s8_ft_wk1_wed"
     ],
     "name": "sym_storesection_title_more_offers",
-    "storefront": "ss002_storefront_featured",
-    "refresh_cycle_length_seconds": null
-  },
-  {
-    "id": "s8_feat_wk2_sat",
-    "order_preference": 450,
-    "section_height": 2,
-    "show_refresh_timer": true,
-    "bundle_slots": [
-      {
-        "layout": {
-          "tile_width": 2,
-          "tile_height": 2
-        },
-        "bundle_slot": "bundle_2x2_kingfisher_classic"
-      },
-      {
-        "layout": {
-          "tile_width": 1,
-          "tile_height": 2
-        },
-        "bundle_slot": "bundle_1x2_costumeset_event_kingfisher_01"
-      },
-      {
-        "layout": {
-          "tile_width": 1,
-          "tile_height": 2
-        },
-        "bundle_slot": "bundle_1x2_costumeset_event_kingfisher_02"
-      }
-    ],
-    "target_ids": [
-      "s8_ft_wk2_sat"
-    ],
-    "name": "sym_quicknav_title_offers",
-    "storefront": "ss002_storefront_featured",
-    "refresh_cycle_length_seconds": null
-  },
-  {
-    "id": "s8_feat_wk2_sat_b",
-    "order_preference": 452,
-    "section_height": 2,
-    "show_refresh_timer": true,
-    "bundle_slots": [
-      {
-        "layout": {
-          "tile_width": 2,
-          "tile_height": 2
-        },
-        "bundle_slot": "bundle_2x2_kingfisher_modern"
-      },
-      {
-        "layout": {
-          "tile_width": 1,
-          "tile_height": 2
-        },
-        "bundle_slot": "bundle_1x2_costumeset_event_kingfisher_03"
-      },
-      {
-        "layout": {
-          "tile_width": 1,
-          "tile_height": 2
-        },
-        "bundle_slot": "bundle_1x2_costumeset_event_kingfisher_04"
-      }
-    ],
-    "target_ids": [
-      "s8_ft_wk2_sat"
-    ],
-    "name": "sym_quicknav_title_offers",
     "storefront": "ss002_storefront_featured",
     "refresh_cycle_length_seconds": null
   },
@@ -2416,7 +2388,7 @@
   },
   {
     "id": "section_auklet",
-    "order_preference": 394,
+    "order_preference": 962,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -2450,15 +2422,15 @@
       }
     ],
     "target_ids": [
-      "s9_ft_wk8_tue"
+      "fp7_auklet"
     ],
     "name": "storesection_auklet01_name_with_name",
-    "storefront": "ss003_storefront_featured",
+    "storefront": "storefront_featured",
     "refresh_cycle_length_seconds": null
   },
   {
     "id": "section_auklet_b",
-    "order_preference": 396,
+    "order_preference": 963,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -2492,10 +2464,10 @@
       }
     ],
     "target_ids": [
-      "s9_ft_wk8_tue"
+      "fp7_auklet"
     ],
     "name": "storesection_auklet01_name_with_name",
-    "storefront": "ss003_storefront_featured",
+    "storefront": "storefront_featured",
     "refresh_cycle_length_seconds": null
   },
   {
@@ -3144,7 +3116,7 @@
   },
   {
     "id": "section_budgie",
-    "order_preference": 328,
+    "order_preference": 913,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -3171,7 +3143,7 @@
       }
     ],
     "target_ids": [
-      "fp6_budgie"
+      "fp7_store_budgie"
     ],
     "name": "sym_storesection_title_ip_budgie",
     "storefront": "storefront_featured",
@@ -3179,7 +3151,7 @@
   },
   {
     "id": "section_budgie_b",
-    "order_preference": 329,
+    "order_preference": 914,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -3206,7 +3178,7 @@
       }
     ],
     "target_ids": [
-      "fp6_budgie"
+      "fp7_store_budgie_b"
     ],
     "name": "sym_storesection_title_ip_budgie02",
     "storefront": "storefront_featured",
@@ -3375,7 +3347,7 @@
   },
   {
     "id": "section_chough",
-    "order_preference": 800,
+    "order_preference": 919,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -3402,10 +3374,10 @@
       }
     ],
     "target_ids": [
-      "s9_ft_wk20_sat"
+      "fp7_chough"
     ],
     "name": "storesection_chough_name",
-    "storefront": "ss003_storefront_featured",
+    "storefront": "storefront_featured",
     "refresh_cycle_length_seconds": null
   },
   {
@@ -3515,7 +3487,7 @@
   },
   {
     "id": "section_condor_a",
-    "order_preference": 325,
+    "order_preference": 937,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -3549,8 +3521,8 @@
       }
     ],
     "target_ids": [
-      "condor_fp6",
-      "fp5_store_condor"
+      "fp7_condor",
+      "condor_fp6"
     ],
     "name": "storesection_condor_a_name",
     "storefront": "storefront_featured",
@@ -3558,7 +3530,7 @@
   },
   {
     "id": "section_condor_b",
-    "order_preference": 324,
+    "order_preference": 938,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -3585,8 +3557,8 @@
       }
     ],
     "target_ids": [
-      "condor_fp6",
-      "fp5_store_condor"
+      "fp7_condor",
+      "condor_fp6"
     ],
     "name": "storesection_condor_b_name",
     "storefront": "storefront_featured",
@@ -3594,7 +3566,7 @@
   },
   {
     "id": "section_condor_c",
-    "order_preference": 323,
+    "order_preference": 922,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -3628,8 +3600,8 @@
       }
     ],
     "target_ids": [
-      "condor_fp6",
-      "fp5_store_condor"
+      "fp7_condor_c",
+      "condor_fp6"
     ],
     "name": "sym_storesection_title_ip_condor",
     "storefront": "storefront_featured",
@@ -4092,7 +4064,7 @@
   },
   {
     "id": "section_duck",
-    "order_preference": 398,
+    "order_preference": 897,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -4126,7 +4098,7 @@
       }
     ],
     "target_ids": [
-      "fp5_store_duck"
+      "fp7_duck"
     ],
     "name": "storesection_title_duck_01",
     "storefront": "storefront_featured",
@@ -4134,7 +4106,7 @@
   },
   {
     "id": "section_duck_b",
-    "order_preference": 399,
+    "order_preference": 898,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -4175,7 +4147,7 @@
       }
     ],
     "target_ids": [
-      "fp5_store_duck"
+      "fp7_duck"
     ],
     "name": "storesection_title_duck_02",
     "storefront": "storefront_featured",
@@ -5072,7 +5044,7 @@
   },
   {
     "id": "section_garganry",
-    "order_preference": 463,
+    "order_preference": 981,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -5100,28 +5072,28 @@
       {
         "layout": {
           "tile_width": 1,
-          "tile_height": 2
+          "tile_height": 1
         },
         "bundle_slot": "bundle_emote_s09_garganry"
       },
       {
         "layout": {
           "tile_width": 1,
-          "tile_height": 2
+          "tile_height": 1
         },
         "bundle_slot": "bundle_pattern_s09_garganry01"
       }
     ],
     "target_ids": [
-      "s9_ft_wk5_tue"
+      "fp7_store_garganry"
     ],
     "name": "storesection_garganry_name",
-    "storefront": "ss003_storefront_featured",
+    "storefront": "storefront_featured",
     "refresh_cycle_length_seconds": null
   },
   {
     "id": "section_godwit",
-    "order_preference": 368,
+    "order_preference": 931,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -5148,7 +5120,7 @@
       }
     ],
     "target_ids": [
-      "fp6_godwitt"
+      "fp7_godwit"
     ],
     "name": "storesection_godwit_name",
     "storefront": "storefront_featured",
@@ -5156,7 +5128,7 @@
   },
   {
     "id": "section_godwit_b_2",
-    "order_preference": 369,
+    "order_preference": 932,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -5190,7 +5162,7 @@
       }
     ],
     "target_ids": [
-      "fp6_godwitt"
+      "fp7_godwit"
     ],
     "name": "storesection_godwit_name",
     "storefront": "storefront_featured",
@@ -5555,7 +5527,7 @@
   },
   {
     "id": "section_heron03",
-    "order_preference": 515,
+    "order_preference": 958,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -5589,10 +5561,10 @@
       }
     ],
     "target_ids": [
-      "s9_ft_wk3_fri"
+      "fp7_store_heron"
     ],
     "name": "storesection_heron03_name",
-    "storefront": "ss003_storefront_featured",
+    "storefront": "storefront_featured",
     "refresh_cycle_length_seconds": null
   },
   {
@@ -5674,7 +5646,7 @@
   },
   {
     "id": "section_icterid",
-    "order_preference": 363,
+    "order_preference": 940,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -5701,8 +5673,7 @@
       }
     ],
     "target_ids": [
-      "icterid_fp6",
-      "fp5_store_icterid"
+      "fp7_store_icterid"
     ],
     "name": "storesection_icterid_name",
     "storefront": "storefront_featured",
@@ -5710,7 +5681,7 @@
   },
   {
     "id": "section_icterid_b",
-    "order_preference": 364,
+    "order_preference": 941,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -5737,10 +5708,79 @@
       }
     ],
     "target_ids": [
-      "icterid_fp6",
-      "fp5_store_icterid_b"
+      "fp7_store_icterid_b"
     ],
     "name": "storesection_icterid_b_name",
+    "storefront": "storefront_featured",
+    "refresh_cycle_length_seconds": null
+  },
+  {
+    "id": "section_kingfisher",
+    "order_preference": 928,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_2x2_kingfisher_classic"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_1x2_costumeset_event_kingfisher_01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_1x2_costumeset_event_kingfisher_02"
+      }
+    ],
+    "target_ids": [
+      "fp7_kingfisher"
+    ],
+    "name": "storesection_title_kingfisher_01",
+    "storefront": "storefront_featured",
+    "refresh_cycle_length_seconds": null
+  },
+  {
+    "id": "section_kingfisher_b",
+    "order_preference": 929,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_2x2_kingfisher_modern"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_1x2_costumeset_event_kingfisher_03"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_1x2_costumeset_event_kingfisher_04"
+      }
+    ],
+    "target_ids": [
+      "fp7_kingfisher"
+    ],
+    "name": "storesection_title_kingfisher_02",
     "storefront": "storefront_featured",
     "refresh_cycle_length_seconds": null
   },
@@ -6214,10 +6254,10 @@
       }
     ],
     "target_ids": [
-      "s10_ft_fp3_wk11_thurs"
+      "fp7_nighthawk"
     ],
     "name": "storesection_nighthawk_name",
-    "storefront": "ss004_storefront_featured",
+    "storefront": "storefront_featured",
     "refresh_cycle_length_seconds": null
   },
   {
@@ -6369,7 +6409,7 @@
   },
   {
     "id": "section_parrot",
-    "order_preference": 373,
+    "order_preference": 954,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -6396,8 +6436,7 @@
       }
     ],
     "target_ids": [
-      "fp5_store_parrot",
-      "fp4_store_parrot"
+      "fp7_parrot"
     ],
     "name": "storesection_title_parrot",
     "storefront": "storefront_featured",
@@ -6405,7 +6444,7 @@
   },
   {
     "id": "section_peacock",
-    "order_preference": 1230,
+    "order_preference": 926,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -6418,15 +6457,15 @@
       }
     ],
     "target_ids": [
-      "s10_ft_w8_peacock"
+      "fp7_peacock"
     ],
     "name": "storesection_peacock_name",
-    "storefront": "ss004_storefront_featured",
+    "storefront": "storefront_featured",
     "refresh_cycle_length_seconds": null
   },
   {
     "id": "section_pedro",
-    "order_preference": 1550,
+    "order_preference": 946,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -6460,15 +6499,15 @@
       }
     ],
     "target_ids": [
-      "s10_ft_wk7_thurs"
+      "fp7_store_pedro"
     ],
     "name": "storesection_hmjacket_01_name",
-    "storefront": "ss004_storefront_featured",
+    "storefront": "storefront_featured",
     "refresh_cycle_length_seconds": null
   },
   {
     "id": "section_pedro_b",
-    "order_preference": 1555,
+    "order_preference": 947,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -6495,10 +6534,10 @@
       }
     ],
     "target_ids": [
-      "s10_ft_wk7_thurs"
+      "fp7_store_pedro_b"
     ],
     "name": "storesection_gatoroboto_name",
-    "storefront": "ss004_storefront_featured",
+    "storefront": "storefront_featured",
     "refresh_cycle_length_seconds": null
   },
   {
@@ -6755,7 +6794,7 @@
   },
   {
     "id": "section_pochard",
-    "order_preference": 680,
+    "order_preference": 934,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -6796,10 +6835,10 @@
       }
     ],
     "target_ids": [
-      "s9_ft_wk24_thu"
+      "fp7_pochard"
     ],
     "name": "sym_storesection_title_ip_pochard",
-    "storefront": "ss003_storefront_featured",
+    "storefront": "storefront_featured",
     "refresh_cycle_length_seconds": null
   },
   {
@@ -6832,7 +6871,7 @@
   },
   {
     "id": "section_potoo",
-    "order_preference": 325,
+    "order_preference": 886,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -6859,6 +6898,7 @@
       }
     ],
     "target_ids": [
+      "fp7_potoo",
       "fp6_potoo"
     ],
     "name": "storesection_title_potoo",
@@ -6867,7 +6907,7 @@
   },
   {
     "id": "section_potoo_b",
-    "order_preference": 326,
+    "order_preference": 887,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -6901,6 +6941,7 @@
       }
     ],
     "target_ids": [
+      "fp7_potoo",
       "fp6_potoo"
     ],
     "name": "storesection_title_potoo",
@@ -6909,7 +6950,7 @@
   },
   {
     "id": "section_potoo_c",
-    "order_preference": 327,
+    "order_preference": 888,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -6936,6 +6977,7 @@
       }
     ],
     "target_ids": [
+      "fp7_potoo",
       "fp6_potoo"
     ],
     "name": "storesection_title_potoo",
@@ -7280,7 +7322,7 @@
   },
   {
     "id": "section_rosefinch_b",
-    "order_preference": 348,
+    "order_preference": 889,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -7307,7 +7349,7 @@
       }
     ],
     "target_ids": [
-      "fp6_store_rosefinch_2"
+      "fp7_store_rosefinch_b"
     ],
     "name": "storesection_rosefinch_b_name",
     "storefront": "storefront_featured",
@@ -7315,7 +7357,7 @@
   },
   {
     "id": "section_rosefinch_c",
-    "order_preference": 349,
+    "order_preference": 890,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -7342,7 +7384,7 @@
       }
     ],
     "target_ids": [
-      "fp6_store_rosefinch_2"
+      "fp7_store_rosefinch_c"
     ],
     "name": "storesection_rosefinch_b_name",
     "storefront": "storefront_featured",
@@ -7707,7 +7749,7 @@
   },
   {
     "id": "section_sparrow",
-    "order_preference": 343,
+    "order_preference": 892,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -7734,7 +7776,7 @@
       }
     ],
     "target_ids": [
-      "fp6_sparrow_a"
+      "fp7_sparrow"
     ],
     "name": "storesection_title_sparrow_01",
     "storefront": "storefront_featured",
@@ -7742,7 +7784,7 @@
   },
   {
     "id": "section_sparrow_b",
-    "order_preference": 344,
+    "order_preference": 893,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -7769,7 +7811,7 @@
       }
     ],
     "target_ids": [
-      "fp6_sparrow_b"
+      "fp7_sparrow"
     ],
     "name": "storesection_title_sparrow_02",
     "storefront": "storefront_featured",
@@ -7968,7 +8010,7 @@
   },
   {
     "id": "section_sunbird",
-    "order_preference": 438,
+    "order_preference": 943,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -7995,7 +8037,7 @@
       }
     ],
     "target_ids": [
-      "fp5_store_sunbird"
+      "fp7_sunbird"
     ],
     "name": "storesection_sunbird_name",
     "storefront": "storefront_featured",
@@ -8038,7 +8080,7 @@
   },
   {
     "id": "section_tern",
-    "order_preference": 353,
+    "order_preference": 964,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -8072,7 +8114,7 @@
       }
     ],
     "target_ids": [
-      "fp6_tern"
+      "fp7_store_turn"
     ],
     "name": "storesection_tern_name",
     "storefront": "storefront_featured",
@@ -8080,7 +8122,7 @@
   },
   {
     "id": "section_tern_b",
-    "order_preference": 354,
+    "order_preference": 965,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -8114,7 +8156,7 @@
       }
     ],
     "target_ids": [
-      "fp6_tern"
+      "fp7_store_tern_b"
     ],
     "name": "storesection_tern_name",
     "storefront": "storefront_featured",
@@ -8146,6 +8188,83 @@
     ],
     "name": "storesection_theking_name",
     "storefront": "ss004_storefront_featured",
+    "refresh_cycle_length_seconds": null
+  },
+  {
+    "id": "section_toucan",
+    "order_preference": 951,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "slot_bundle_ss1_toucan_01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "slot_cs_ss1_toucan_01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "slot_cs_ss1_toucan_05"
+      }
+    ],
+    "target_ids": [
+      "toucan_fp7"
+    ],
+    "name": "sym_storesection_title_ip_toucan",
+    "storefront": "storefront_featured",
+    "refresh_cycle_length_seconds": null
+  },
+  {
+    "id": "section_toucan_b",
+    "order_preference": 952,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "slot_bundle_ss1_toucan_02"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "slot_cs_ss1_toucan_02"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "slot_cs_ss1_toucan_03"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "slot_emote_s5_044_toucan"
+      }
+    ],
+    "target_ids": [
+      "toucan_fp7"
+    ],
+    "name": "sym_storesection_title_ip_toucan",
+    "storefront": "storefront_featured",
     "refresh_cycle_length_seconds": null
   },
   {
@@ -8278,7 +8397,7 @@
   },
   {
     "id": "section_turkey_alt_1",
-    "order_preference": 408,
+    "order_preference": 970,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -8312,7 +8431,7 @@
       }
     ],
     "target_ids": [
-      "fp5_store_turkey_alt"
+      "fp7_store_turkey_alt_1"
     ],
     "name": "storesection_turkey02_name",
     "storefront": "storefront_featured",
@@ -8320,7 +8439,7 @@
   },
   {
     "id": "section_turkey_alt_2",
-    "order_preference": 409,
+    "order_preference": 971,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -8361,7 +8480,98 @@
       }
     ],
     "target_ids": [
-      "fp5_store_turkey_alt"
+      "fp7_store_turkey_alt_2"
+    ],
+    "name": "storesection_turkey02_name",
+    "storefront": "storefront_featured",
+    "refresh_cycle_length_seconds": null
+  },
+  {
+    "id": "section_turkey_alt_3",
+    "order_preference": 916,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_grabbag_turkey08"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "costumeset_s10_3_ip_turkey08_01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "costumeset_s10_3_ip_turkey09_01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "costumeset_s10_3_ip_turkey10_01"
+      }
+    ],
+    "target_ids": [
+      "fp7_store_turkey_alt_3"
+    ],
+    "name": "storesection_turkey02_name",
+    "storefront": "storefront_featured",
+    "refresh_cycle_length_seconds": null
+  },
+  {
+    "id": "section_turkey_alt_4",
+    "order_preference": 917,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_emote_s10_3_turkey_02"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_emote_s10_3_turkey_01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_pattern_s10_3_turkey03"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 1
+        },
+        "bundle_slot": "bundle_nameplateui_s10_3_turkey01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 1
+        },
+        "bundle_slot": "bundle_nickname_s10_3_turkey_01"
+      }
+    ],
+    "target_ids": [
+      "fp7_store_turkey_alt_4"
     ],
     "name": "storesection_turkey02_name",
     "storefront": "storefront_featured",
@@ -8446,6 +8656,90 @@
     ],
     "target_ids": [
       "fp5_store_turkey_standard"
+    ],
+    "name": "storesection_turkey03_name",
+    "storefront": "storefront_featured",
+    "refresh_cycle_length_seconds": null
+  },
+  {
+    "id": "section_turkey_standard_3",
+    "order_preference": 907,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_grabbag_turkey02"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_costumeset_turkey02"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_costumeset_turkey05"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_pattern_s09_turkey01"
+      }
+    ],
+    "target_ids": [
+      "fp7_turkey_alt_5"
+    ],
+    "name": "storesection_turkey02_name",
+    "storefront": "storefront_featured",
+    "refresh_cycle_length_seconds": null
+  },
+  {
+    "id": "section_turkey_standard_4",
+    "order_preference": 908,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_grabbag_turkey03"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_costumeset_turkey03"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_costumeset_turkey04"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_emote_s09_turkey_brain"
+      }
+    ],
+    "target_ids": [
+      "fp7_turkey_alt_5"
     ],
     "name": "storesection_turkey03_name",
     "storefront": "storefront_featured",
@@ -8628,7 +8922,7 @@
   },
   {
     "id": "section_vulture",
-    "order_preference": 393,
+    "order_preference": 977,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -8662,7 +8956,7 @@
       }
     ],
     "target_ids": [
-      "fp5_store_potoo"
+      "fp7_store_vulture"
     ],
     "name": "storesection_title_vulture_01",
     "storefront": "storefront_featured",
@@ -8670,7 +8964,7 @@
   },
   {
     "id": "section_vulture_b",
-    "order_preference": 394,
+    "order_preference": 976,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -8704,7 +8998,7 @@
       }
     ],
     "target_ids": [
-      "fp5_store_potoo_b"
+      "fp7_store_vulture_b"
     ],
     "name": "storesection_title_vulture_02",
     "storefront": "storefront_featured",
@@ -8859,7 +9153,7 @@
   },
   {
     "id": "section_wheatear",
-    "order_preference": 498,
+    "order_preference": 961,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -10616,83 +10910,6 @@
       "ss1_ft_wk6_tues_fri"
     ],
     "name": "sym_storesection_title_more_offers",
-    "storefront": "ss001_storefront_featured",
-    "refresh_cycle_length_seconds": null
-  },
-  {
-    "id": "ss001_feat_wk7_sat_toucan01",
-    "order_preference": 50,
-    "section_height": 2,
-    "show_refresh_timer": true,
-    "bundle_slots": [
-      {
-        "layout": {
-          "tile_width": 2,
-          "tile_height": 2
-        },
-        "bundle_slot": "slot_bundle_ss1_toucan_01"
-      },
-      {
-        "layout": {
-          "tile_width": 1,
-          "tile_height": 2
-        },
-        "bundle_slot": "slot_cs_ss1_toucan_01"
-      },
-      {
-        "layout": {
-          "tile_width": 1,
-          "tile_height": 2
-        },
-        "bundle_slot": "slot_cs_ss1_toucan_05"
-      }
-    ],
-    "target_ids": [
-      "ss1_ft_wk7_sat_weds"
-    ],
-    "name": "sym_storesection_title_ip_toucan",
-    "storefront": "ss001_storefront_featured",
-    "refresh_cycle_length_seconds": null
-  },
-  {
-    "id": "ss001_feat_wk7_sat_toucan02",
-    "order_preference": 51,
-    "section_height": 2,
-    "show_refresh_timer": true,
-    "bundle_slots": [
-      {
-        "layout": {
-          "tile_width": 2,
-          "tile_height": 2
-        },
-        "bundle_slot": "slot_bundle_ss1_toucan_02"
-      },
-      {
-        "layout": {
-          "tile_width": 1,
-          "tile_height": 2
-        },
-        "bundle_slot": "slot_cs_ss1_toucan_02"
-      },
-      {
-        "layout": {
-          "tile_width": 1,
-          "tile_height": 2
-        },
-        "bundle_slot": "slot_cs_ss1_toucan_03"
-      },
-      {
-        "layout": {
-          "tile_width": 1,
-          "tile_height": 2
-        },
-        "bundle_slot": "slot_emote_s5_044_toucan"
-      }
-    ],
-    "target_ids": [
-      "ss1_ft_wk7_sat_weds"
-    ],
-    "name": "sym_storesection_title_ip_toucan",
     "storefront": "ss001_storefront_featured",
     "refresh_cycle_length_seconds": null
   },
