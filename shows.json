@@ -12808,7 +12808,9 @@
       "max_players": 26
     },
     "private_lobby_size": {
-      "type": "default"
+      "type": "override",
+      "min_players": 10,
+      "max_players": 26
     },
     "show_type": {
       "showtype_switch": "squad",
