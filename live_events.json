@@ -1,5 +1,228 @@
 [
   {
+    "id": "le_fp7_seasonsyeetings",
+    "title": "localised_strings.le_social_title_winter",
+    "description": "localised_strings.le_social_desc_winter",
+    "target_ids": [
+      "le_fp7_winter"
+    ],
+    "milestones": [
+      {
+        "xp_required": 200,
+        "reward_id": "nickname_le_social_winter_23_1"
+      },
+      {
+        "xp_required": 400,
+        "reward_id": "kudos_bonus_3000"
+      },
+      {
+        "xp_required": 600,
+        "reward_id": "pattern_s10_5_wintersweets"
+      },
+      {
+        "xp_required": 800,
+        "reward_id": "kudos_bonus_5000"
+      },
+      {
+        "xp_required": 1200,
+        "reward_id": "emote_s10_5_snowangel"
+      }
+    ],
+    "ui_detail_colour": "colour.challenges_green",
+    "challenges": [
+      {
+        "xp_awarded": 100,
+        "goal_description_locked": {
+          "template_parameters": [],
+          "template": null
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": [],
+        "goal_id": "event_winter_01",
+        "goal_title_locked": null
+      },
+      {
+        "xp_awarded": 100,
+        "goal_description_locked": {
+          "template_parameters": [],
+          "template": null
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": [],
+        "goal_id": "event_winter_06",
+        "goal_title_locked": null
+      },
+      {
+        "xp_awarded": 200,
+        "goal_description_locked": {
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "le_social_challenge_title_01_winter"
+            }
+          ],
+          "template": "challenge_unlock_singular"
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_winter_01"
+          }
+        ],
+        "goal_id": "event_winter_02",
+        "goal_title_locked": "challenge_locked"
+      },
+      {
+        "xp_awarded": 200,
+        "goal_description_locked": {
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "le_social_challenge_title_02_winter"
+            }
+          ],
+          "template": "challenge_unlock_singular"
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_winter_02"
+          }
+        ],
+        "goal_id": "event_winter_07",
+        "goal_title_locked": "challenge_locked"
+      },
+      {
+        "xp_awarded": 100,
+        "goal_description_locked": {
+          "template_parameters": [],
+          "template": null
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": [],
+        "goal_id": "event_winter_03",
+        "goal_title_locked": null
+      },
+      {
+        "xp_awarded": 100,
+        "goal_description_locked": {
+          "template_parameters": [],
+          "template": null
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": [],
+        "goal_id": "event_winter_08",
+        "goal_title_locked": null
+      },
+      {
+        "xp_awarded": 200,
+        "goal_description_locked": {
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "le_social_challenge_title_04_winter"
+            }
+          ],
+          "template": "challenge_unlock_multiple_of_a_type"
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_winter_03"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_winter_08"
+          }
+        ],
+        "goal_id": "event_winter_04",
+        "goal_title_locked": "challenge_locked"
+      },
+      {
+        "xp_awarded": 200,
+        "goal_description_locked": {
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "le_social_challenge_title_04_winter"
+            }
+          ],
+          "template": "challenge_unlock_multiple_of_a_type"
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_winter_03"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_winter_08"
+          }
+        ],
+        "goal_id": "event_winter_09",
+        "goal_title_locked": "challenge_locked"
+      },
+      {
+        "xp_awarded": 300,
+        "goal_description_locked": {
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "le_social_challenge_title_04_winter"
+            }
+          ],
+          "template": "challenge_unlock_multiple_of_a_type"
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_winter_04"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_winter_09"
+          }
+        ],
+        "goal_id": "event_winter_05",
+        "goal_title_locked": "challenge_locked"
+      },
+      {
+        "xp_awarded": 300,
+        "goal_description_locked": {
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "le_social_challenge_title_04_winter"
+            }
+          ],
+          "template": "challenge_unlock_multiple_of_a_type"
+        },
+        "has_per_show_progression": false,
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_winter_04"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_winter_09"
+          }
+        ],
+        "goal_id": "event_winter_10",
+        "goal_title_locked": "challenge_locked"
+      }
+    ],
+    "tool_tip_image": "ui-liveevents-fp7-winter-tooltip",
+    "background_image": "ui-liveevents-fp7-winter-bg",
+    "promotional_image": "ui-liveevents-fp7-winter-costume",
+    "reward_icon_image": "ui-icon-token-fp7_winter"
+  },
+  {
     "id": "le_glizzyshowdown",
     "title": "localised_strings.le_crownladder_title",
     "description": "localised_strings.le_crownladder_desc",
