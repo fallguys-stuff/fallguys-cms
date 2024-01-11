@@ -169,6 +169,16 @@
     }
   },
   {
+    "id": "dailies_kudos",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "more_than",
+        "start": "2024-01-16T10:00:00"
+      }
+    }
+  },
+  {
     "id": "date_0101_0101_22",
     "parameters": {
       "type": "date_time",
@@ -1405,6 +1415,17 @@
     }
   },
   {
+    "id": "event_kudos_0703",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-03-07T10:00:00",
+        "end": "2024-03-14T09:59:59"
+      }
+    }
+  },
+  {
     "id": "event_kudos_0711_1",
     "parameters": {
       "type": "date_time",
@@ -2461,6 +2482,26 @@
     }
   },
   {
+    "id": "fp7_dailies",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "less_than",
+        "end": "2024-01-16T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp7_dailies_kudos",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "less_than",
+        "end": "2024-01-16T09:59:59"
+      }
+    }
+  },
+  {
     "id": "fp7_duck",
     "parameters": {
       "type": "date_time",
@@ -2912,6 +2953,567 @@
     }
   },
   {
+    "id": "fp8_active_dates",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-01-16T10:00:00",
+        "end": "2024-03-05T11:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_broccoli",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-02-08T10:00:00",
+        "end": "2024-02-13T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_budgie",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-02-17T10:00:00",
+        "end": "2024-02-24T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_corncrake",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-02-01T10:00:00",
+        "end": "2024-02-08T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_cosmictiming",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-02-24T10:00:00",
+        "end": "2024-02-29T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_crossbill",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-02-08T10:00:00",
+        "end": "2024-02-15T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_dinohoodie",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-01-27T10:00:00",
+        "end": "2024-02-01T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_doge",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-02-13T10:00:00",
+        "end": "2024-02-18T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_emu",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-01-27T10:00:00",
+        "end": "2024-02-03T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_falcon",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-01-16T10:00:00",
+        "end": "2024-01-23T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_godwit",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-02-20T10:00:00",
+        "end": "2024-02-27T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_heron",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-02-10T10:00:00",
+        "end": "2024-02-17T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_kittystack",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-02-15T10:00:00",
+        "end": "2024-02-20T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_magpie",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-02-20T10:00:00",
+        "end": "2024-02-27T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_melonpanda",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-01-19T10:00:00",
+        "end": "2024-01-24T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_nighthawk",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-01-18T10:00:00",
+        "end": "2024-01-25T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_octodusa",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-02-01T10:00:00",
+        "end": "2024-02-06T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_parrot",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-02-01T10:00:00",
+        "end": "2024-02-08T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_peacock",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-02-06T10:00:00",
+        "end": "2024-02-13T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_pedro",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-01-16T10:00:00",
+        "end": "2024-01-23T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_pelican",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-01-25T10:00:00",
+        "end": "2024-02-01T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_pillowfighter",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-01-18T10:00:00",
+        "end": "2024-01-23T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_plover",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-02-08T10:00:00",
+        "end": "2024-02-15T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_puzzled",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-01-16T10:00:00",
+        "end": "2024-01-23T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_rainbowcats",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-01-16T10:00:00",
+        "end": "2024-01-21T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_raybilly",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-01-23T10:00:00",
+        "end": "2024-01-28T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_slimy",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-02-03T10:00:00",
+        "end": "2024-02-08T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_spacepigeon",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-02-06T10:00:00",
+        "end": "2024-02-11T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_spacerex",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-02-17T10:00:00",
+        "end": "2024-02-22T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_starling",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-02-15T10:00:00",
+        "end": "2024-02-22T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_store_icterid",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-01-23T10:00:00",
+        "end": "2024-01-30T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_store_rosefinch",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-02-03T10:00:00",
+        "end": "2024-02-10T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_store_sparrow",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-02-13T10:00:00",
+        "end": "2024-02-20T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_store_turkey",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-01-27T10:00:00",
+        "end": "2024-02-03T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_strawberry",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-01-20T10:00:00",
+        "end": "2024-01-25T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_sunbird",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-01-25T10:00:00",
+        "end": "2024-02-01T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_tern",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-01-30T10:00:00",
+        "end": "2024-02-06T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_toucan",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-02-24T10:00:00",
+        "end": "2024-03-02T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_turkey",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-01-27T10:00:00",
+        "end": "2024-02-03T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_twinklycorn",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-01-30T10:00:00",
+        "end": "2024-02-04T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_warbler",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-01-20T10:00:00",
+        "end": "2024-01-27T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_weeklies_1",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-01-16T10:00:00",
+        "end": "2024-01-23T10:00:00"
+      }
+    }
+  },
+  {
+    "id": "fp8_weeklies_2",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-01-23T10:00:00",
+        "end": "2024-01-30T10:00:00"
+      }
+    }
+  },
+  {
+    "id": "fp8_weeklies_3",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-01-30T10:00:00",
+        "end": "2024-02-06T10:00:00"
+      }
+    }
+  },
+  {
+    "id": "fp8_weeklies_4",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-02-06T10:00:00",
+        "end": "2024-02-13T10:00:00"
+      }
+    }
+  },
+  {
+    "id": "fp8_weeklies_5",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-02-13T10:00:00",
+        "end": "2024-02-20T10:00:00"
+      }
+    }
+  },
+  {
+    "id": "fp8_weeklies_6",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-02-20T10:00:00",
+        "end": "2024-02-27T10:00:00"
+      }
+    }
+  },
+  {
+    "id": "fp8_weeklies_7",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-02-27T10:00:00",
+        "end": "2024-03-05T10:00:00"
+      }
+    }
+  },
+  {
+    "id": "fp8_wheatear",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-01-20T10:00:00",
+        "end": "2024-01-27T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_wormhole",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-01-25T10:00:00",
+        "end": "2024-01-30T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8pochard",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-01-18T10:00:00",
+        "end": "2024-01-25T09:59:59"
+      }
+    }
+  },
+  {
     "id": "has_not_purchased_japan_discount_bundle",
     "parameters": {
       "type": "purchase_history",
@@ -3237,6 +3839,21 @@
         },
         "bundle": {
           "id": "ss002_starter_bundle"
+        }
+      }
+    }
+  },
+  {
+    "id": "has_purchased_rmt_arcadeclassics",
+    "parameters": {
+      "type": "purchase_history",
+      "data": {
+        "bundle": {
+          "id": "bundle_arcademachine_01"
+        },
+        "quantity": {
+          "operator": "more_than",
+          "min": 0
         }
       }
     }
@@ -11343,6 +11960,38 @@
         "item": {
           "type": "season_passes",
           "reference": "season_passes.famepass_07"
+        },
+        "quantity": {
+          "operator": "more_than",
+          "min": 0
+        }
+      }
+    }
+  },
+  {
+    "id": "target_famepass_fp8_notowned",
+    "parameters": {
+      "type": "item_quantity",
+      "data": {
+        "item": {
+          "type": "season_passes",
+          "reference": "season_passes.famepass_08"
+        },
+        "quantity": {
+          "operator": "less_than",
+          "max": 1
+        }
+      }
+    }
+  },
+  {
+    "id": "target_famepass_fp8_owned",
+    "parameters": {
+      "type": "item_quantity",
+      "data": {
+        "item": {
+          "type": "season_passes",
+          "reference": "season_passes.famepass_08"
         },
         "quantity": {
           "operator": "more_than",

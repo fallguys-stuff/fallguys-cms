@@ -13329,7 +13329,7 @@
         }
       ]
     },
-    "show_ribbon_label": true,
+    "show_ribbon_label": false,
     "show_corner_label": false,
     "display_name": "costume_witch_01",
     "bundle_description": "bundle_desc_costumeset_default",
@@ -13338,7 +13338,7 @@
     "category": "costume",
     "bundle_tile_image": "bundle_1x2_costumeset_witch_01",
     "bundle_background_custom_pattern_image": null,
-    "bundle_background_custom_gradient_image": null,
+    "bundle_background_custom_gradient_image": "bundle_bg_1x2_magic_purple",
     "bundle_background_custom_colour": null,
     "ribbon_label_text": "storelabel_discount_primos",
     "corner_label_text": null
@@ -15821,6 +15821,37 @@
     "corner_label_text": null
   },
   {
+    "id": "bundle_2x2_costumeset_event_magpie_01",
+    "has_stock": true,
+    "stock": 2,
+    "bundle_type": {
+      "bundle_type": "costume_set",
+      "purchase_options": {
+        "type": "currencies",
+        "item_id": "gems"
+      },
+      "cosmetics": [
+        {
+          "type": "costume_sets",
+          "item_id": "costumeset_event_magpie_01"
+        }
+      ]
+    },
+    "show_ribbon_label": true,
+    "show_corner_label": false,
+    "display_name": "costume_event_magpie",
+    "bundle_description": "bundle_costumeset_magpie_01_desc",
+    "bundle_type_subtitle": "bundle_costumeset_magpie_01_subtitle",
+    "rarity": "special_4",
+    "category": "costume",
+    "bundle_tile_image": "bundle_2x2_costumeset_magpie_01",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "background_2x2_magpie",
+    "bundle_background_custom_colour": null,
+    "ribbon_label_text": "storelabel_discount_primos",
+    "corner_label_text": null
+  },
+  {
     "id": "bundle_2x2_costumeset_s8_acetrick_trio",
     "has_stock": true,
     "stock": 1,
@@ -15871,7 +15902,7 @@
         "type": "currencies",
         "item_id": "gems"
       },
-      "discount": 1600,
+      "discount": 1800,
       "cosmetics": [
         {
           "type": "costume_sets",
@@ -16152,7 +16183,7 @@
         "type": "currencies",
         "item_id": "gems"
       },
-      "discount": 2800,
+      "discount": 3000,
       "cosmetics": [
         {
           "type": "costume_sets",
@@ -16193,7 +16224,7 @@
         "type": "currencies",
         "item_id": "gems"
       },
-      "discount": 1600,
+      "discount": 1800,
       "cosmetics": [
         {
           "type": "costume_sets",
@@ -16390,7 +16421,7 @@
         "type": "currencies",
         "item_id": "gems"
       },
-      "discount": 2800,
+      "discount": 3000,
       "cosmetics": [
         {
           "type": "costume_sets",
@@ -16618,7 +16649,7 @@
         "type": "currencies",
         "item_id": "gems"
       },
-      "discount": 2800,
+      "discount": 3000,
       "cosmetics": [
         {
           "type": "costume_sets",
@@ -17431,7 +17462,7 @@
     "display_name": "bundle_name_mars_rover_kit",
     "bundle_description": "bundle_desc_mars_rover_kit",
     "bundle_type_subtitle": "bundle_subtitle_mars_rover_kit",
-    "rarity": "uncommon",
+    "rarity": "rare",
     "category": "costume",
     "bundle_tile_image": "marsrover_grabbag_2x2_title",
     "bundle_background_custom_pattern_image": null,
@@ -17558,7 +17589,7 @@
         "type": "currencies",
         "item_id": "gems"
       },
-      "discount": 800,
+      "discount": 1000,
       "cosmetics": [
         {
           "type": "costume_sets",
@@ -17664,7 +17695,7 @@
         "type": "currencies",
         "item_id": "gems"
       },
-      "discount": 800,
+      "discount": 1000,
       "cosmetics": [
         {
           "type": "costume_sets",
@@ -18257,6 +18288,80 @@
     "bundle_tile_image": "title_2x2_spacedinos",
     "bundle_background_custom_pattern_image": null,
     "bundle_background_custom_gradient_image": "background_2x2_spacedinos",
+    "bundle_background_custom_colour": null,
+    "ribbon_label_text": "storelabel_discount_primos",
+    "corner_label_text": null
+  },
+  {
+    "id": "bundle_2x2_spacepterodactyl_duo",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "discount",
+      "purchase_options": {
+        "type": "currencies",
+        "item_id": "gems"
+      },
+      "discount": 1600,
+      "cosmetics": [
+        {
+          "type": "costume_sets",
+          "item_id": "bundle_1x2_costumeset_spacepterodactyl_03"
+        },
+        {
+          "type": "costume_sets",
+          "item_id": "bundle_1x2_costumeset_spacepterodactyl_02"
+        }
+      ],
+      "extra": []
+    },
+    "show_ribbon_label": true,
+    "show_corner_label": false,
+    "display_name": "bundle_name_spacepterodactyl",
+    "bundle_description": "bundle_desc_spacepterodactyl",
+    "bundle_type_subtitle": "bundle_subtitle_default",
+    "rarity": "epic",
+    "category": "costume",
+    "bundle_tile_image": "bundle_2x2_spacepterodactyl_duo",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "spacecrew_2x2_background",
+    "bundle_background_custom_colour": null,
+    "ribbon_label_text": "storelabel_discount_primos",
+    "corner_label_text": null
+  },
+  {
+    "id": "bundle_2x2_spacerex02",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "discount",
+      "purchase_options": {
+        "type": "currencies",
+        "item_id": "gems"
+      },
+      "discount": 2100,
+      "cosmetics": [
+        {
+          "type": "costume_sets",
+          "item_id": "bundle_1x2_costumeset_spacetrex_03"
+        },
+        {
+          "type": "costume_sets",
+          "item_id": "bundle_1x2_costumeset_spacetrex_02"
+        }
+      ],
+      "extra": []
+    },
+    "show_ribbon_label": true,
+    "show_corner_label": false,
+    "display_name": "bundle_name_spacetrex",
+    "bundle_description": "bundle_desc_spacetrex",
+    "bundle_type_subtitle": "bundle_subtitle_spacetrex",
+    "rarity": "epic",
+    "category": "costume",
+    "bundle_tile_image": "bundle_2x2_spacerex02",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "spacecrew_2x2_background",
     "bundle_background_custom_colour": null,
     "ribbon_label_text": "storelabel_discount_primos",
     "corner_label_text": null
@@ -30204,6 +30309,1113 @@
     "corner_label_text": null
   },
   {
+    "id": "bundle_cs_static_candle_01",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 500,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "costumes_upper",
+          "item_id": "top_candle_01"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_candle_01"
+        }
+      ],
+      "extra": []
+    },
+    "show_ribbon_label": false,
+    "show_corner_label": false,
+    "display_name": "costume_candle_01",
+    "bundle_description": "bundle_desc_costumeset_default02",
+    "bundle_type_subtitle": "bundle_subtitle_default",
+    "rarity": "rare",
+    "category": "currency",
+    "bundle_tile_image": "bundle_1x2_costumeset_candle_01",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "bundle_bg_1x2_capsule_yellow",
+    "bundle_background_custom_colour": null,
+    "ribbon_label_text": null,
+    "corner_label_text": null
+  },
+  {
+    "id": "bundle_cs_static_chefsquidy_01",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 500,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "costumes_upper",
+          "item_id": "top_ss02_chefsquidy_01"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_ss02_chefsquidy_01"
+        }
+      ],
+      "extra": []
+    },
+    "show_ribbon_label": false,
+    "show_corner_label": false,
+    "display_name": "costume_ss02_chefsquidy_01",
+    "bundle_description": "bundle_desc_costumeset_default02",
+    "bundle_type_subtitle": "bundle_subtitle_default",
+    "rarity": "rare",
+    "category": "currency",
+    "bundle_tile_image": "bundle_chefsquidy_01",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "chefsquidy_1x2_background",
+    "bundle_background_custom_colour": null,
+    "ribbon_label_text": null,
+    "corner_label_text": null
+  },
+  {
+    "id": "bundle_cs_static_s09_fishring_03",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 500,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "costumes_upper",
+          "item_id": "top_s09_fishring_03"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_s09_fishring_03"
+        }
+      ],
+      "extra": []
+    },
+    "show_ribbon_label": false,
+    "show_corner_label": false,
+    "display_name": "costume_s09_fishring_03",
+    "bundle_description": "bundle_desc_costumeset_default02",
+    "bundle_type_subtitle": "bundle_subtitle_default",
+    "rarity": "rare",
+    "category": "currency",
+    "bundle_tile_image": "bundle_fishring_03",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "bundle_bg_1x2_ocean_blue",
+    "bundle_background_custom_colour": null,
+    "ribbon_label_text": null,
+    "corner_label_text": null
+  },
+  {
+    "id": "bundle_cs_static_s10_3_cheesethief_02",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 500,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "costumes_upper",
+          "item_id": "top_s10_3_cheesethief_02"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_s10_3_cheesethief_02"
+        }
+      ],
+      "extra": []
+    },
+    "show_ribbon_label": false,
+    "show_corner_label": false,
+    "display_name": "costume_s10_3_cheesethief_02",
+    "bundle_description": "bundle_desc_costumeset_default02",
+    "bundle_type_subtitle": "bundle_subtitle_default",
+    "rarity": "rare",
+    "category": "currency",
+    "bundle_tile_image": "s10_3_cheesethief_02",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "bundle_bg_1x2_crown_pinkyellow",
+    "bundle_background_custom_colour": null,
+    "ribbon_label_text": null,
+    "corner_label_text": null
+  },
+  {
+    "id": "bundle_cs_static_s10_3_kittystack_03",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 500,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "costumes_upper",
+          "item_id": "top_s10_3_kittystack_03"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_s10_3_kittystack_03"
+        }
+      ],
+      "extra": []
+    },
+    "show_ribbon_label": false,
+    "show_corner_label": false,
+    "display_name": "costume_s10_3_kittystack_03",
+    "bundle_description": "bundle_desc_costumeset_default02",
+    "bundle_type_subtitle": "bundle_subtitle_default",
+    "rarity": "rare",
+    "category": "currency",
+    "bundle_tile_image": "s10_3_kittystack_03",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "bundle_bg_1x2_capsule_purple",
+    "bundle_background_custom_colour": null,
+    "ribbon_label_text": null,
+    "corner_label_text": null
+  },
+  {
+    "id": "bundle_cs_static_s10_3_panda_02",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 500,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "costumes_upper",
+          "item_id": "top_s10_3_panda_02"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_s10_3_panda_02"
+        }
+      ],
+      "extra": []
+    },
+    "show_ribbon_label": false,
+    "show_corner_label": false,
+    "display_name": "costume_s10_3_panda_02",
+    "bundle_description": "bundle_desc_costumeset_default02",
+    "bundle_type_subtitle": "bundle_subtitle_default",
+    "rarity": "rare",
+    "category": "currency",
+    "bundle_tile_image": "bundle_costumeset_s10_3_panda_02",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "bundle_bg_1x2_zigzag_cyan",
+    "bundle_background_custom_colour": null,
+    "ribbon_label_text": "storelabel_discount_primos",
+    "corner_label_text": null
+  },
+  {
+    "id": "bundle_cs_static_s10_4_bigbite_01",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 400,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "costumes_upper",
+          "item_id": "top_s10_4_bigbite_01"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_s10_4_bigbite_01"
+        }
+      ],
+      "extra": []
+    },
+    "show_ribbon_label": false,
+    "show_corner_label": false,
+    "display_name": "costume_s10_4_bigbite_01",
+    "bundle_description": "bundle_desc_costumeset_default02",
+    "bundle_type_subtitle": "bundle_subtitle_default",
+    "rarity": "uncommon",
+    "category": "currency",
+    "bundle_tile_image": "costumset_s10_4_bigbite_01",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "bundle_bg_1x2_jungle_green",
+    "bundle_background_custom_colour": null,
+    "ribbon_label_text": "storelabel_discount_primos",
+    "corner_label_text": null
+  },
+  {
+    "id": "bundle_cs_static_s10_5_elephantkawai_01",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 500,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "costumes_upper",
+          "item_id": "top_s10_5_elephantkawai_01"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_s10_5_elephantkawai_01"
+        }
+      ],
+      "extra": []
+    },
+    "show_ribbon_label": false,
+    "show_corner_label": false,
+    "display_name": "costume_s10_5_elephantkawai_01",
+    "bundle_description": "bundle_desc_costumeset_default02",
+    "bundle_type_subtitle": "bundle_subtitle_default",
+    "rarity": "rare",
+    "category": "currency",
+    "bundle_tile_image": "bundle_costumeset_s10_5_elephantkawai_01",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "bundle_bg_1x2_dreamy_pinkblue",
+    "bundle_background_custom_colour": null,
+    "ribbon_label_text": "storelabel_discount_primos",
+    "corner_label_text": null
+  },
+  {
+    "id": "bundle_cs_static_s10_fishingpelican_03",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 500,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "costumes_upper",
+          "item_id": "top_s10_fishingpelican_03"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_s10_fishingpelican_03"
+        }
+      ],
+      "extra": []
+    },
+    "show_ribbon_label": false,
+    "show_corner_label": false,
+    "display_name": "costume_s10_fishingpelican_03",
+    "bundle_description": "bundle_desc_costumeset_default02",
+    "bundle_type_subtitle": "bundle_subtitle_default",
+    "rarity": "rare",
+    "category": "currency",
+    "bundle_tile_image": "costumeset_s10_fishingpelican_03",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "fishring_gb_1x2_background",
+    "bundle_background_custom_colour": null,
+    "ribbon_label_text": "storelabel_discount_primos",
+    "corner_label_text": null
+  },
+  {
+    "id": "bundle_cs_static_s10_messengerpigeon_02",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 500,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "costumes_upper",
+          "item_id": "top_s10_messengerpigeon_02"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_s10_messengerpigeon_02"
+        }
+      ],
+      "extra": []
+    },
+    "show_ribbon_label": false,
+    "show_corner_label": false,
+    "display_name": "costume_s10_messengerpigeon_02",
+    "bundle_description": "bundle_desc_costumeset_default02",
+    "bundle_type_subtitle": "bundle_subtitle_default",
+    "rarity": "rare",
+    "category": "currency",
+    "bundle_tile_image": "bundle_s10_messengerpigeon_02",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "grabbag_horns_pink_1x2",
+    "bundle_background_custom_colour": null,
+    "ribbon_label_text": "storelabel_discount_primos",
+    "corner_label_text": null
+  },
+  {
+    "id": "bundle_cs_static_s10_milk_03",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 500,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "costumes_upper",
+          "item_id": "top_s10_milk_03"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_s10_milk_03"
+        }
+      ],
+      "extra": []
+    },
+    "show_ribbon_label": false,
+    "show_corner_label": false,
+    "display_name": "costume_s10_milk_03",
+    "bundle_description": "bundle_desc_costumeset_default02",
+    "bundle_type_subtitle": "bundle_subtitle_default",
+    "rarity": "rare",
+    "category": "currency",
+    "bundle_tile_image": "costumest_s10_milk_03",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "bundle_bg_1x2_crown_orange_red",
+    "bundle_background_custom_colour": null,
+    "ribbon_label_text": "storelabel_discount_primos",
+    "corner_label_text": null
+  },
+  {
+    "id": "bundle_cs_static_s4_hatch_head_01",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 500,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "costumes_upper",
+          "item_id": "top_s4_hatch_head_01"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_s4_hatch_head_01"
+        }
+      ],
+      "extra": []
+    },
+    "show_ribbon_label": false,
+    "show_corner_label": false,
+    "display_name": "costume_s4_hatch_head_01",
+    "bundle_description": "bundle_desc_costumeset_default02",
+    "bundle_type_subtitle": "bundle_subtitle_default",
+    "rarity": "rare",
+    "category": "currency",
+    "bundle_tile_image": "bundle_1x2_costumeset_hatchhead_01",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "bundle_bg_1x2_zigzag_pink",
+    "bundle_background_custom_colour": null,
+    "ribbon_label_text": null,
+    "corner_label_text": null
+  },
+  {
+    "id": "bundle_cs_static_s5_bowlcut_02",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 500,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "costumes_upper",
+          "item_id": "top_s5_bowlcut_02"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_s5_bowlcut_02"
+        }
+      ],
+      "extra": []
+    },
+    "show_ribbon_label": false,
+    "show_corner_label": false,
+    "display_name": "costume_s5_bowlcut_02",
+    "bundle_description": "bundle_desc_costumeset_default02",
+    "bundle_type_subtitle": "bundle_subtitle_default",
+    "rarity": "rare",
+    "category": "currency",
+    "bundle_tile_image": "bundle_1x2_costumeset_bowlcut_02",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "bundle_grabbag_bowlcut_1x2",
+    "bundle_background_custom_colour": null,
+    "ribbon_label_text": null,
+    "corner_label_text": null
+  },
+  {
+    "id": "bundle_cs_static_s5_tropical_tree_01",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 500,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "costumes_upper",
+          "item_id": "top_s5_tropical_tree_01"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_s5_tropical_tree_01"
+        }
+      ],
+      "extra": []
+    },
+    "show_ribbon_label": false,
+    "show_corner_label": false,
+    "display_name": "costume_s5_tropical_tree_01",
+    "bundle_description": "bundle_desc_costumeset_default02",
+    "bundle_type_subtitle": "bundle_subtitle_default",
+    "rarity": "rare",
+    "category": "currency",
+    "bundle_tile_image": "bundle_1x2_costumeset_tropicaltree_01",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "bundle_bg_1x2_jungle_green02",
+    "bundle_background_custom_colour": null,
+    "ribbon_label_text": null,
+    "corner_label_text": null
+  },
+  {
+    "id": "bundle_cs_static_s6_bluewhale_02",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 500,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "costumes_upper",
+          "item_id": "top_s6_bluewhale_02"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_s6_bluewhale_02"
+        }
+      ],
+      "extra": []
+    },
+    "show_ribbon_label": false,
+    "show_corner_label": false,
+    "display_name": "costume_s6_bluewhale_02",
+    "bundle_description": "bundle_desc_costumeset_default02",
+    "bundle_type_subtitle": "bundle_subtitle_default",
+    "rarity": "rare",
+    "category": "currency",
+    "bundle_tile_image": "bundle_1x2_costumeset_bluewhale_02",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "bundle_bg_1x2_ocean_blue",
+    "bundle_background_custom_colour": null,
+    "ribbon_label_text": null,
+    "corner_label_text": null
+  },
+  {
+    "id": "bundle_cs_static_s6_inflatablealien_01",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 500,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "costumes_upper",
+          "item_id": "top_s6_inflatablealien_01"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_s6_inflatablealien_01"
+        }
+      ],
+      "extra": []
+    },
+    "show_ribbon_label": false,
+    "show_corner_label": false,
+    "display_name": "costume_s6_inflatablealien_01",
+    "bundle_description": "bundle_desc_costumeset_default02",
+    "bundle_type_subtitle": "bundle_subtitle_default",
+    "rarity": "rare",
+    "category": "currency",
+    "bundle_tile_image": "s6_inflatablealien_01",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "bundle_bg_1x2_semicircle_black",
+    "bundle_background_custom_colour": null,
+    "ribbon_label_text": null,
+    "corner_label_text": null
+  },
+  {
+    "id": "bundle_cs_static_s6_valkyrie_02",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 500,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "costumes_upper",
+          "item_id": "top_s6_valkyrie_02"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_s6_valkyrie_02"
+        }
+      ],
+      "extra": []
+    },
+    "show_ribbon_label": false,
+    "show_corner_label": false,
+    "display_name": "costume_s6_valkyrie_02",
+    "bundle_description": "bundle_desc_costumeset_default02",
+    "bundle_type_subtitle": "bundle_subtitle_default",
+    "rarity": "rare",
+    "category": "currency",
+    "bundle_tile_image": "bundle_s6_valkyrie_02",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "bundle_cheerleaders_1x2_bg",
+    "bundle_background_custom_colour": null,
+    "ribbon_label_text": null,
+    "corner_label_text": null
+  },
+  {
+    "id": "bundle_cs_static_s6_zootsuit_03",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 500,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "costumes_upper",
+          "item_id": "top_s6_zootsuit_03"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_s6_zootsuit_03"
+        }
+      ],
+      "extra": []
+    },
+    "show_ribbon_label": false,
+    "show_corner_label": false,
+    "display_name": "costume_s6_zootsuit_03",
+    "bundle_description": "bundle_desc_costumeset_default02",
+    "bundle_type_subtitle": "bundle_subtitle_default",
+    "rarity": "rare",
+    "category": "currency",
+    "bundle_tile_image": "bundle_1x2_costumeset_zootsuit_03",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "spacecrew_1x2_background",
+    "bundle_background_custom_colour": null,
+    "ribbon_label_text": null,
+    "corner_label_text": null
+  },
+  {
+    "id": "bundle_cs_static_ss02_theking_01",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 500,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "costumes_upper",
+          "item_id": "top_ss02_theking_01"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_ss02_theking_01"
+        }
+      ],
+      "extra": []
+    },
+    "show_ribbon_label": false,
+    "show_corner_label": false,
+    "display_name": "costume_ss02_theking_01",
+    "bundle_description": "bundle_desc_costumeset_default02",
+    "bundle_type_subtitle": "bundle_subtitle_default",
+    "rarity": "rare",
+    "category": "currency",
+    "bundle_tile_image": "costumeset_ss02_theking_01",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "background_1x2_theking_trio",
+    "bundle_background_custom_colour": null,
+    "ribbon_label_text": "storelabel_discount_primos",
+    "corner_label_text": null
+  },
+  {
+    "id": "bundle_cs_static_ss02_vegatron_01",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 600,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "costumes_upper",
+          "item_id": "top_ss02_vegatron_01"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_ss02_vegatron_01"
+        }
+      ],
+      "extra": []
+    },
+    "show_ribbon_label": false,
+    "show_corner_label": false,
+    "display_name": "costume_ss02_vegatron_01",
+    "bundle_description": "bundle_desc_costumeset_default02",
+    "bundle_type_subtitle": "bundle_subtitle_default",
+    "rarity": "epic",
+    "category": "currency",
+    "bundle_tile_image": "bundle_ss02_vegatron_01",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "bundle_bg_1x2_capsule_yellow",
+    "bundle_background_custom_colour": null,
+    "ribbon_label_text": null,
+    "corner_label_text": null
+  },
+  {
+    "id": "bundle_cs_static_ss02_zogthehunter_03",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 600,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "costumes_upper",
+          "item_id": "top_ss02_zogthehunter_03"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_ss02_zogthehunter_03"
+        }
+      ],
+      "extra": []
+    },
+    "show_ribbon_label": false,
+    "show_corner_label": false,
+    "display_name": "costume_ss02_zogthehunter_03",
+    "bundle_description": "bundle_desc_costumeset_default02",
+    "bundle_type_subtitle": "bundle_subtitle_default",
+    "rarity": "epic",
+    "category": "currency",
+    "bundle_tile_image": "bundle_ss02_zogthehunter_03",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "spacecrew_1x2_background",
+    "bundle_background_custom_colour": null,
+    "ribbon_label_text": null,
+    "corner_label_text": null
+  },
+  {
+    "id": "bundle_cs_static_ss02_zombie_01",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 500,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "costumes_upper",
+          "item_id": "top_ss02_zombie_01"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_ss02_zombie_01"
+        }
+      ],
+      "extra": []
+    },
+    "show_ribbon_label": false,
+    "show_corner_label": false,
+    "display_name": "costume_ss02_zombie_01",
+    "bundle_description": "bundle_desc_costumeset_default02",
+    "bundle_type_subtitle": "bundle_subtitle_default",
+    "rarity": "rare",
+    "category": "currency",
+    "bundle_tile_image": "costumeset_ss02_zombie_01",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "zombie_1x2_background",
+    "bundle_background_custom_colour": null,
+    "ribbon_label_text": "storelabel_discount_primos",
+    "corner_label_text": null
+  },
+  {
+    "id": "bundle_cs_static_ss1_drumup_02",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 500,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "costumes_upper",
+          "item_id": "top_ss1_drumup_02"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_ss1_drumup_02"
+        }
+      ],
+      "extra": []
+    },
+    "show_ribbon_label": false,
+    "show_corner_label": false,
+    "display_name": "costume_ss1_drumup_02",
+    "bundle_description": "bundle_desc_costumeset_default02",
+    "bundle_type_subtitle": "bundle_subtitle_default",
+    "rarity": "rare",
+    "category": "currency",
+    "bundle_tile_image": "bundle_cs_static_ss1_drumup_02",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "bundle_bg_1x2_capsule_yellow",
+    "bundle_background_custom_colour": null,
+    "ribbon_label_text": "storelabel_discount_primos",
+    "corner_label_text": null
+  },
+  {
+    "id": "bundle_cs_static_ss1_reporter_03",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 500,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "costumes_upper",
+          "item_id": "top_ss1_reporter_03"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_ss1_reporter_03"
+        }
+      ],
+      "extra": []
+    },
+    "show_ribbon_label": false,
+    "show_corner_label": false,
+    "display_name": "costume_ss1_reporter_03",
+    "bundle_description": "bundle_desc_costumeset_default02",
+    "bundle_type_subtitle": "bundle_subtitle_default",
+    "rarity": "rare",
+    "category": "currency",
+    "bundle_tile_image": "bundle_costumeset_ss1_reporter_03",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "bundle_bg_1x2_crown_pinkyellow",
+    "bundle_background_custom_colour": null,
+    "ribbon_label_text": "storelabel_discount_primos",
+    "corner_label_text": null
+  },
+  {
+    "id": "bundle_cs_static_tucan_01",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 500,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "costumes_upper",
+          "item_id": "top_tucan_01"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_tucan_01"
+        }
+      ],
+      "extra": []
+    },
+    "show_ribbon_label": false,
+    "show_corner_label": false,
+    "display_name": "top_tucan_01",
+    "bundle_description": "bundle_desc_costumeset_default02",
+    "bundle_type_subtitle": "bundle_subtitle_default",
+    "rarity": "rare",
+    "category": "currency",
+    "bundle_tile_image": "bundle_1x2_costumeset_tucan_01",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "bundle_bg_1x2_jungle_green",
+    "bundle_background_custom_colour": null,
+    "ribbon_label_text": null,
+    "corner_label_text": null
+  },
+  {
+    "id": "bundle_cs_static_witch_01",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 500,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "costumes_upper",
+          "item_id": "top_witch_01"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_witch_01"
+        }
+      ],
+      "extra": []
+    },
+    "show_ribbon_label": false,
+    "show_corner_label": false,
+    "display_name": "costume_witch_01",
+    "bundle_description": "bundle_desc_costumeset_default02",
+    "bundle_type_subtitle": "bundle_subtitle_default",
+    "rarity": "rare",
+    "category": "costume",
+    "bundle_tile_image": "bundle_1x2_costumeset_witch_01",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "bundle_bg_1x2_magic_purple",
+    "bundle_background_custom_colour": null,
+    "ribbon_label_text": "storelabel_discount_primos",
+    "corner_label_text": null
+  },
+  {
+    "id": "bundle_cs_static_wizard_01",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 500,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "costumes_upper",
+          "item_id": "top_wizard_01"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_wizard_01"
+        }
+      ],
+      "extra": []
+    },
+    "show_ribbon_label": false,
+    "show_corner_label": false,
+    "display_name": "costume_wizard_01",
+    "bundle_description": "bundle_desc_costumeset_default02",
+    "bundle_type_subtitle": "bundle_subtitle_default",
+    "rarity": "rare",
+    "category": "currency",
+    "bundle_tile_image": "bundle_1x2_costumeset_wizard_01",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "bundle_bg_1x2_magic_purple",
+    "bundle_background_custom_colour": null,
+    "ribbon_label_text": null,
+    "corner_label_text": null
+  },
+  {
     "id": "bundle_disc_grabbag_big_bad",
     "has_stock": true,
     "stock": 1,
@@ -30270,7 +31482,7 @@
         "type": "currencies",
         "item_id": "gems"
       },
-      "discount": 500,
+      "discount": 700,
       "cosmetics": [
         {
           "type": "costume_sets",
@@ -30365,7 +31577,7 @@
         "type": "currencies",
         "item_id": "gems"
       },
-      "discount": 500,
+      "discount": 700,
       "cosmetics": [
         {
           "type": "costume_sets",
@@ -30469,7 +31681,7 @@
         "type": "currencies",
         "item_id": "gems"
       },
-      "discount": 1700,
+      "discount": 1900,
       "cosmetics": [
         {
           "type": "costume_sets",
@@ -30525,7 +31737,7 @@
         "type": "currencies",
         "item_id": "gems"
       },
-      "discount": 700,
+      "discount": 900,
       "cosmetics": [
         {
           "type": "costume_sets",
@@ -30582,7 +31794,7 @@
         "type": "currencies",
         "item_id": "gems"
       },
-      "discount": 700,
+      "discount": 900,
       "cosmetics": [
         {
           "type": "costume_sets",
@@ -30639,7 +31851,7 @@
         "type": "currencies",
         "item_id": "gems"
       },
-      "discount": 700,
+      "discount": 900,
       "cosmetics": [
         {
           "type": "costume_sets",
@@ -30682,6 +31894,43 @@
     "bundle_tile_image": "bundle_2x2_grabbag_twinklycorn",
     "bundle_background_custom_pattern_image": null,
     "bundle_background_custom_gradient_image": "bundle_bg_2x2_twinkles_purple",
+    "bundle_background_custom_colour": null,
+    "ribbon_label_text": "storelabel_discount_primos",
+    "corner_label_text": null
+  },
+  {
+    "id": "bundle_duo_broccoli_01",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "discount",
+      "purchase_options": {
+        "type": "currencies",
+        "item_id": "gems"
+      },
+      "discount": 2100,
+      "cosmetics": [
+        {
+          "type": "costume_sets",
+          "item_id": "costumeset_broccoli_01"
+        },
+        {
+          "type": "costume_sets",
+          "item_id": "costumeset_broccolikungfu_01"
+        }
+      ],
+      "extra": []
+    },
+    "show_ribbon_label": true,
+    "show_corner_label": false,
+    "display_name": "bundle_multi_broccoli_01_name",
+    "bundle_description": "bundle_multi_broccoli_01_desc",
+    "bundle_type_subtitle": "bundle_multi_broccoli_01_subtitle",
+    "rarity": "epic",
+    "category": "currency",
+    "bundle_tile_image": "bundle_duo_broccoli_01",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "broccoli_2x2_background",
     "bundle_background_custom_colour": null,
     "ribbon_label_text": "storelabel_discount_primos",
     "corner_label_text": null
@@ -31109,6 +32358,80 @@
     "bundle_tile_image": "nighthawk_2x2_title",
     "bundle_background_custom_pattern_image": null,
     "bundle_background_custom_gradient_image": "nighthawk_2x2_background",
+    "bundle_background_custom_colour": null,
+    "ribbon_label_text": "storelabel_discount_primos",
+    "corner_label_text": null
+  },
+  {
+    "id": "bundle_duo_pillowfighter",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "discount",
+      "purchase_options": {
+        "type": "currencies",
+        "item_id": "gems"
+      },
+      "discount": 1800,
+      "cosmetics": [
+        {
+          "type": "costume_sets",
+          "item_id": "costumeset_s10_pillowfighter_01"
+        },
+        {
+          "type": "costume_sets",
+          "item_id": "costumeset_s10_pillowfighter_02"
+        }
+      ],
+      "extra": []
+    },
+    "show_ribbon_label": true,
+    "show_corner_label": false,
+    "display_name": "costume_s10_pillowfighter_01",
+    "bundle_description": "bundle_desc_multi_default01",
+    "bundle_type_subtitle": "bundle_subtitle_default",
+    "rarity": "rare",
+    "category": "currency",
+    "bundle_tile_image": "bundle_duo_pillowfighter",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "bundle_duo_pillowfighter_2x2_bg",
+    "bundle_background_custom_colour": null,
+    "ribbon_label_text": "storelabel_discount_primos",
+    "corner_label_text": null
+  },
+  {
+    "id": "bundle_duo_s10_6_puzzled",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "discount",
+      "purchase_options": {
+        "type": "currencies",
+        "item_id": "gems"
+      },
+      "discount": 1800,
+      "cosmetics": [
+        {
+          "type": "costume_sets",
+          "item_id": "costumeset_s10_6_puzzled_01"
+        },
+        {
+          "type": "costume_sets",
+          "item_id": "costumeset_s10_6_puzzled_03"
+        }
+      ],
+      "extra": []
+    },
+    "show_ribbon_label": false,
+    "show_corner_label": false,
+    "display_name": "bundle_duo_puzzled_name",
+    "bundle_description": "bundle_duo_puzzled_desc",
+    "bundle_type_subtitle": "bundle_duo_puzzled_subtitle",
+    "rarity": "rare",
+    "category": "currency",
+    "bundle_tile_image": "bundle_duo_puzzled_title",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "bundle_duo_puzzled_2x2_bg",
     "bundle_background_custom_colour": null,
     "ribbon_label_text": "storelabel_discount_primos",
     "corner_label_text": null
@@ -37615,6 +38938,86 @@
     "corner_label_text": null
   },
   {
+    "id": "bundle_famepass_08",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "season_pass",
+      "purchase_options": {
+        "type": "currencies",
+        "item_id": "gems"
+      },
+      "bundle_options": [
+        {
+          "cost": 600,
+          "items": [
+            {
+              "type": "season_passes",
+              "quantity": 1,
+              "item_id": "famepass_08"
+            },
+            {
+              "type": "cosmetics_emotes",
+              "item_id": "emote_s10_6_pigeonpecking"
+            },
+            {
+              "type": "costumes_lower",
+              "item_id": "bottom_s10_6_gorrilla_01"
+            },
+            {
+              "type": "costumes_upper",
+              "item_id": "top_s10_6_gorrilla_01"
+            }
+          ],
+          "show_corner_label": false,
+          "corner_label_text": null
+        },
+        {
+          "cost": 1500,
+          "items": [
+            {
+              "type": "season_passes",
+              "quantity": 1,
+              "item_id": "famepass_08"
+            },
+            {
+              "type": "cosmetics_emotes",
+              "item_id": "emote_s10_6_pigeonpecking"
+            },
+            {
+              "type": "costumes_lower",
+              "item_id": "bottom_s10_6_gorrilla_01"
+            },
+            {
+              "type": "costumes_upper",
+              "item_id": "top_s10_6_gorrilla_01"
+            },
+            {
+              "type": "fame_tier_skip",
+              "quantity": 12,
+              "item_id": "fame_tier_skip"
+            }
+          ],
+          "show_corner_label": false,
+          "corner_label_text": null
+        }
+      ]
+    },
+    "show_ribbon_label": false,
+    "show_corner_label": false,
+    "display_name": "fp_title_08_long",
+    "bundle_description": "blank_sym_store_bundle_desc",
+    "bundle_type_subtitle": "blank_sym_store_bundle_subtitle",
+    "rarity": "legendary",
+    "category": "season_pass",
+    "bundle_tile_image": "bundle_famepass_08_title",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "bundle_famepass_08_bg",
+    "bundle_background_custom_colour": null,
+    "ribbon_label_text": null,
+    "corner_label_text": null
+  },
+  {
     "id": "bundle_fishingpelican_02",
     "has_stock": true,
     "stock": 1,
@@ -38295,7 +39698,7 @@
         "type": "currencies",
         "item_id": "gems"
       },
-      "discount": 800,
+      "discount": 900,
       "cosmetics": [
         {
           "type": "costume_sets",
@@ -38842,7 +40245,7 @@
         "type": "currencies",
         "item_id": "gems"
       },
-      "discount": 600,
+      "discount": 700,
       "cosmetics": [
         {
           "type": "costume_sets",
@@ -38871,7 +40274,7 @@
     "display_name": "bundle_name_many_knockout_kit",
     "bundle_description": "bundle_desc_many_knockout_kit",
     "bundle_type_subtitle": "bundle_subtitle_many_knockout_kit",
-    "rarity": "uncommon",
+    "rarity": "rare",
     "category": "costume",
     "bundle_tile_image": "bundle_grabbag_manyknockout",
     "bundle_background_custom_pattern_image": null,
@@ -39367,6 +40770,43 @@
     "bundle_tile_image": "sandcastle_01_multi_2x2_title",
     "bundle_background_custom_pattern_image": null,
     "bundle_background_custom_gradient_image": "sandcastle_2x2_background",
+    "bundle_background_custom_colour": null,
+    "ribbon_label_text": "storelabel_discount_primos",
+    "corner_label_text": null
+  },
+  {
+    "id": "bundle_grabbag_slimy_alien_01",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "discount",
+      "purchase_options": {
+        "type": "currencies",
+        "item_id": "gems"
+      },
+      "discount": 1800,
+      "cosmetics": [
+        {
+          "type": "costume_sets",
+          "item_id": "costumeset_s4_slimy_alien_01"
+        },
+        {
+          "type": "costume_sets",
+          "item_id": "costumeset_s4_slimy_alien_02"
+        }
+      ],
+      "extra": []
+    },
+    "show_ribbon_label": true,
+    "show_corner_label": false,
+    "display_name": "costume_s4_slimy_alien_01",
+    "bundle_description": "bundle_description_default",
+    "bundle_type_subtitle": "bundle_subtitle_default",
+    "rarity": "rare",
+    "category": "currency",
+    "bundle_tile_image": "bundle_2x2_slimy_alien",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "spacecrew_2x2_background",
     "bundle_background_custom_colour": null,
     "ribbon_label_text": "storelabel_discount_primos",
     "corner_label_text": null
@@ -40479,7 +41919,7 @@
         "type": "currencies",
         "item_id": "gems"
       },
-      "discount": 2800,
+      "discount": 3000,
       "cosmetics": [
         {
           "type": "costume_sets",
@@ -66584,6 +68024,81 @@
     "bundle_tile_image": null,
     "bundle_background_custom_pattern_image": null,
     "bundle_background_custom_gradient_image": "unicornhelmet_1x2_background",
+    "bundle_background_custom_colour": null,
+    "ribbon_label_text": null,
+    "corner_label_text": null
+  },
+  {
+    "id": "fp8_tier_skip_bundle",
+    "has_stock": false,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "season_pass",
+      "purchase_options": {
+        "type": "currencies",
+        "item_id": "gems"
+      },
+      "bundle_options": [
+        {
+          "cost": 100,
+          "items": [
+            {
+              "type": "fame_tier_skip",
+              "quantity": 1,
+              "item_id": "fame_tier_skip"
+            }
+          ],
+          "show_corner_label": false,
+          "corner_label_text": null
+        },
+        {
+          "cost": 500,
+          "items": [
+            {
+              "type": "fame_tier_skip",
+              "quantity": 6,
+              "item_id": "fame_tier_skip"
+            }
+          ],
+          "show_corner_label": true,
+          "corner_label_text": "bundle_ribbon_extra20"
+        },
+        {
+          "cost": 1000,
+          "items": [
+            {
+              "type": "fame_tier_skip",
+              "quantity": 12,
+              "item_id": "fame_tier_skip"
+            }
+          ],
+          "show_corner_label": true,
+          "corner_label_text": "bundle_ribbon_extra20"
+        },
+        {
+          "cost": 2000,
+          "items": [
+            {
+              "type": "fame_tier_skip",
+              "quantity": 30,
+              "item_id": "fame_tier_skip"
+            }
+          ],
+          "show_corner_label": true,
+          "corner_label_text": "bundle_ribbon_extra50"
+        }
+      ]
+    },
+    "show_ribbon_label": false,
+    "show_corner_label": false,
+    "display_name": "tier_skip",
+    "bundle_description": "blank_sym_store_bundle_desc",
+    "bundle_type_subtitle": "blank_sym_store_bundle_subtitle",
+    "rarity": "rarity_5",
+    "category": "fame_tier_skip",
+    "bundle_tile_image": "fp8_tier_skip_2x2_fg",
+    "bundle_background_custom_pattern_image": null,
+    "bundle_background_custom_gradient_image": "tier_skip_2x2_bg",
     "bundle_background_custom_colour": null,
     "ribbon_label_text": null,
     "corner_label_text": null
