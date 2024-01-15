@@ -1357,7 +1357,7 @@
           "profile_name": "Playtest A",
           "enable_bots": true,
           "solo": {
-            "default_show_min": 40,
+            "default_show_min": 1,
             "default_show_max": 60,
             "bots_show_min": 1,
             "bots_show_max": 20
@@ -1365,7 +1365,7 @@
           "squads": {
             "default_min_squad_count": 10,
             "default_max_squad_count": 15,
-            "default_show_min": 40,
+            "default_show_min": 4,
             "default_show_max": 60,
             "squad_size": 4
           },
@@ -1373,7 +1373,7 @@
             "platform_min": 0,
             "platform_max": 6
           },
-          "seconds_before_allocation": 10,
+          "seconds_before_allocation": 20,
           "max_seconds_to_wait_for_proposal": 0,
           "seconds_to_wait_for_max_match_size": 0,
           "match_function_version": "1.13.4",
@@ -1670,65 +1670,35 @@
     "environment_id": 4,
     "client_environment_name": "ClosedBeta",
     "config": {
-      "type": "ranged",
-      "profiles": [
-        {
-          "id": "beta_closed_1",
-          "profile_id": "1200460",
-          "profile_name": "Closed Beta 1",
-          "enable_bots": true,
-          "solo": {
-            "default_show_min": 1,
-            "default_show_max": 60,
-            "bots_show_min": 1,
-            "bots_show_max": 20
-          },
-          "squads": {
-            "default_min_squad_count": 10,
-            "default_max_squad_count": 15,
-            "default_show_min": 4,
-            "default_show_max": 60,
-            "squad_size": 4
-          },
-          "platforms": {
-            "platform_min": 0,
-            "platform_max": 6
-          },
-          "seconds_before_allocation": 10,
-          "max_seconds_to_wait_for_proposal": 0,
-          "seconds_to_wait_for_max_match_size": 0,
-          "match_function_version": "1.13.4",
-          "custom_cms_branch": null
+      "type": "locked",
+      "profile": {
+        "id": "playtest_a",
+        "profile_id": "1191878",
+        "profile_name": "Playtest A",
+        "enable_bots": true,
+        "solo": {
+          "default_show_min": 1,
+          "default_show_max": 60,
+          "bots_show_min": 1,
+          "bots_show_max": 20
         },
-        {
-          "id": "beta_closed_6",
-          "profile_id": "1206995",
-          "profile_name": "Closed Beta 6",
-          "platforms": {
-            "platform_min": 0,
-            "platform_max": 6
-          },
-          "enable_bots": false,
-          "seconds_before_allocation": 10,
-          "max_seconds_to_wait_for_proposal": 0,
-          "seconds_to_wait_for_max_match_size": 0,
-          "match_function_version": "1.13.4",
-          "solo": {
-            "default_show_min": 40,
-            "default_show_max": 60,
-            "bots_show_min": 1,
-            "bots_show_max": 20
-          },
-          "squads": {
-            "default_show_min": 40,
-            "default_show_max": 60,
-            "default_min_squad_count": 10,
-            "default_max_squad_count": 15,
-            "squad_size": 4
-          },
-          "custom_cms_branch": null
-        }
-      ]
+        "squads": {
+          "default_min_squad_count": 10,
+          "default_max_squad_count": 15,
+          "default_show_min": 4,
+          "default_show_max": 60,
+          "squad_size": 4
+        },
+        "platforms": {
+          "platform_min": 0,
+          "platform_max": 6
+        },
+        "seconds_before_allocation": 20,
+        "max_seconds_to_wait_for_proposal": 0,
+        "seconds_to_wait_for_max_match_size": 0,
+        "match_function_version": "1.13.4",
+        "custom_cms_branch": null
+      }
     },
     "profiles": [
       {

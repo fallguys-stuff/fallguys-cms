@@ -20747,6 +20747,41 @@
     "skill_score_factor_override": null
   },
   {
+    "id": "no_elimination_show",
+    "show_name": "localised_strings.show_title_wle_mrs_no_elimination",
+    "show_description": "localised_strings.show_desc_wle_mrs_no_elimination",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "display_while_upcoming": false,
+    "hide_countdown": true,
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 11,
+      "max_players": 20
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 11,
+      "max_players": 20
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.episode_no_elim_show",
+    "opens_at": "2020-01-01T09:00:00",
+    "closes_at": "2050-01-01T09:00:00",
+    "show_image": null,
+    "creator_tag": null,
+    "show_tag": "show_tag_special",
+    "show_image_cms": "show_selector_noelim",
+    "shows_team_composition": null,
+    "episode_reward_settings_id": "squads",
+    "themeable_override": null,
+    "skill_score_factor_override": null
+  },
+  {
     "id": "only_1v1_volleyfall",
     "show_name": "localised_strings.show_name_ss1_or_ss2_show2",
     "show_description": "localised_strings.show_desc_only_1v1_volleyfall",
