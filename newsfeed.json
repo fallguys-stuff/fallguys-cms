@@ -1462,6 +1462,37 @@
     ]
   },
   {
+    "id": "newsfeed_emu_evergreen",
+    "starts_at": "2024-01-27T13:00:00",
+    "ends_at": "2024-02-03T09:00:00",
+    "priority": 55,
+    "pages": [
+      {
+        "header": "localised_strings.newsfeed_title_available_now",
+        "title": "localised_strings.newsfeed_emu_title",
+        "message": "localised_strings.newsfeed_emu_body",
+        "deeplink": "deeplink.deeplink_symphony_store",
+        "ends_at": "localised_strings.newsfeed_date",
+        "ends_at_description": [
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.newsfeed_third"
+          },
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.month_february"
+          }
+        ],
+        "starts_at_description": [],
+        "image": "fp8_emu_newsfeed",
+        "starts_at": null
+      }
+    ],
+    "target_ids": [
+      "after_prime_global_launch"
+    ]
+  },
+  {
     "id": "newsfeed_falcon_evergreen",
     "starts_at": "2024-01-16T10:00:00",
     "ends_at": "2024-01-18T09:59:59",
@@ -2616,8 +2647,8 @@
   },
   {
     "id": "newsfeed_sparrow_evergreen",
-    "starts_at": "2024-01-11T10:00:00",
-    "ends_at": "2024-01-12T12:59:59",
+    "starts_at": "2024-02-13T10:00:00",
+    "ends_at": "2024-02-20T09:59:59",
     "pages": [
       {
         "title": "localised_strings.newsfeed_s8_sparrow_title",
@@ -2628,11 +2659,11 @@
         "ends_at_description": [
           {
             "type": "localised",
-            "localised_value": "localised_strings.newsfeed_seventeenth"
+            "localised_value": "localised_strings.newsfeed_nineteenth"
           },
           {
             "type": "localised",
-            "localised_value": "localised_strings.month_january"
+            "localised_value": "localised_strings.month_february"
           }
         ],
         "starts_at_description": [],
@@ -2643,7 +2674,7 @@
     "target_ids": [
       "after_prime_global_launch"
     ],
-    "priority": 60
+    "priority": 70
   },
   {
     "id": "newsfeed_ss2_hazlenut",
@@ -2926,8 +2957,8 @@
   },
   {
     "id": "newsfeed_toucan_evergreen",
-    "starts_at": "2023-02-24T10:00:00",
-    "ends_at": "2023-03-02T09:59:59",
+    "starts_at": "2024-02-24T13:00:00",
+    "ends_at": "2024-02-27T09:00:00",
     "pages": [
       {
         "title": "localised_strings.bundle_subtitle_ip_ss1_toucan",
@@ -2946,7 +2977,7 @@
           }
         ],
         "starts_at_description": [],
-        "image": "temp_placeholder_seasonpass",
+        "image": "fp8_toucan_newsfeed",
         "starts_at": null
       }
     ],
