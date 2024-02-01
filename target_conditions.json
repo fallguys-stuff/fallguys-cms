@@ -99,7 +99,7 @@
       "data": {
         "operator": "between",
         "start": "2023-12-12T10:00:00",
-        "end": "2050-11-24T10:00:00"
+        "end": "2024-02-27T10:00:00"
       }
     }
   },
@@ -175,6 +175,17 @@
       "data": {
         "operator": "more_than",
         "start": "2024-01-16T10:00:00"
+      }
+    }
+  },
+  {
+    "id": "daily_challenges_rer_end",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-02-07T10:00:00",
+        "end": "2050-12-24T09:59:59"
       }
     }
   },
@@ -5470,6 +5481,17 @@
         "operator": "between",
         "start": "2020-12-08T09:00:00",
         "end": "2120-01-01T09:00:00"
+      }
+    }
+  },
+  {
+    "id": "rer_live_event",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-02-07T10:00:00",
+        "end": "2024-02-27T09:59:59"
       }
     }
   },

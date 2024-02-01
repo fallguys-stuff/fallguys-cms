@@ -4443,20 +4443,23 @@
     "id": "event_haddock_07_daily",
     "target": {
       "type": "aggregate",
-      "value": 1
+      "value": 6
     },
-    "description": "localised_strings.challenge_desc_004_round_number_party",
+    "description": "localised_strings.challenge_desc_004_show_singular",
     "description_parameters": [
       {
-        "type": "numeric",
-        "numeric_value": 3
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
       }
     ],
     "challenge_tags": [
-      "haddock_challenge_tag",
       "daily_challenge"
     ],
-    "player_action_id": "reach_round_party_haddock",
+    "player_action_id": "qualify_from_rounds",
     "title": null
   },
   {
