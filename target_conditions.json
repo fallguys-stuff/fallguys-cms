@@ -184,7 +184,7 @@
       "type": "date_time",
       "data": {
         "operator": "between",
-        "start": "2024-02-07T10:00:00",
+        "start": "2024-02-27T10:00:00",
         "end": "2050-12-24T09:59:59"
       }
     }
@@ -1406,6 +1406,39 @@
       "data": {
         "operator": "less_than_or_equal_to",
         "end": "1900-12-31T00:00:00"
+      }
+    }
+  },
+  {
+    "id": "discovery_challenges",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-10-03T10:00:00",
+        "end": "2100-01-01T10:00:00"
+      }
+    }
+  },
+  {
+    "id": "discovery_challenges_end",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-10-03T10:00:00",
+        "end": "2024-02-07T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "discovery_challenges_old",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2023-10-03T10:00:00",
+        "end": "2024-02-02T09:59:59"
       }
     }
   },
@@ -3037,6 +3070,16 @@
         "operator": "between",
         "start": "2024-02-08T10:00:00",
         "end": "2024-02-15T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp8_dailies_upto_rer",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "less_than",
+        "end": "2024-02-07T09:59:59"
       }
     }
   },

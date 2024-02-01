@@ -1404,6 +1404,59 @@
     ]
   },
   {
+    "id": "discovery_challenges_refresh",
+    "challenge_pool_ids": [
+      "event_pool_customs"
+    ],
+    "challenge_list_ui_id": "challenge_list_ui.common_customs",
+    "refresh_interval_config": {
+      "type": "indefinite"
+    },
+    "should_renew": false,
+    "rarity_distribution": [
+      {
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "daily",
+          "multiplier": 1
+        },
+        "rarity": "common"
+      },
+      {
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "daily",
+          "multiplier": 1
+        },
+        "rarity": "uncommon"
+      },
+      {
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "daily",
+          "multiplier": 1
+        },
+        "rarity": "rare"
+      },
+      {
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "daily",
+          "multiplier": 1
+        },
+        "rarity": "epic"
+      },
+      {
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "daily",
+          "multiplier": 1
+        },
+        "rarity": "legendary"
+      }
+    ]
+  },
+  {
     "id": "event_challenges_list_haddock_s9",
     "challenge_list_ui_id": "challenge_list_ui.event_haddock",
     "refresh_interval_config": {
