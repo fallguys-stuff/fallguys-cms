@@ -8785,12 +8785,12 @@
         "weightings": [
           {
             "key": "Original",
-            "weighting": 70,
+            "weighting": 0,
             "difficulty": "intermediate"
           },
           {
             "key": "Easy",
-            "weighting": 0,
+            "weighting": 70,
             "difficulty": "easy"
           }
         ]
@@ -8800,12 +8800,12 @@
         "weightings": [
           {
             "key": "Original",
-            "weighting": 70,
+            "weighting": 0,
             "difficulty": "intermediate"
           },
           {
             "key": "Slower",
-            "weighting": 0,
+            "weighting": 70,
             "difficulty": "easy"
           }
         ]
@@ -12770,6 +12770,31 @@
           {
             "key": "Slower",
             "weighting": 0,
+            "difficulty": "onboarding"
+          },
+          {
+            "key": "Split",
+            "weighting": 0,
+            "difficulty": null
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "variation_tunnel_final_noelim",
+    "set_switchers": [
+      {
+        "key": "Rings",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 0,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Slower",
+            "weighting": 100,
             "difficulty": "onboarding"
           },
           {

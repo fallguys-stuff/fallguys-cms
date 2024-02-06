@@ -5743,6 +5743,41 @@
     "skill_score_factor_override": null
   },
   {
+    "id": "event_only_finals_v3_template",
+    "show_name": "localised_strings.show_name_only_finals",
+    "show_description": "localised_strings.show_desc_only_finals",
+    "hide_countdown": false,
+    "min_party_size": 1,
+    "max_party_size": 1,
+    "size": {
+      "type": "override",
+      "min_players": 12,
+      "max_players": 16
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 12,
+      "max_players": 16
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.episode_event_only_finals_v3",
+    "opens_at": "2021-09-28T09:00:00",
+    "closes_at": "2050-01-01T09:00:00",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "display_while_upcoming": false,
+    "show_image": null,
+    "creator_tag": null,
+    "show_tag": "show_tag_time_attack",
+    "show_image_cms": "show_selector_show_only_finals",
+    "shows_team_composition": null,
+    "episode_reward_settings_id": "solos",
+    "themeable_override": null,
+    "skill_score_factor_override": null
+  },
+  {
     "id": "event_only_floor_fall_0510_to_0610_2022",
     "show_name": "localised_strings.show_name_only_floor_fall",
     "show_description": "localised_strings.show_desc_only_floor_fall",
@@ -15224,6 +15259,41 @@
     "show_image_cms": "show_selector_show_mainshow",
     "shows_team_composition": null,
     "episode_reward_settings_id": "solo_rewards",
+    "themeable_override": null,
+    "skill_score_factor_override": null
+  },
+  {
+    "id": "turbo_2_show",
+    "show_name": "localised_strings.show_title_solo_show",
+    "show_description": "localised_strings.show_desc_main",
+    "show_image": "MainShow",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "display_while_upcoming": false,
+    "hide_countdown": true,
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 28,
+      "max_players": 32
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 5,
+      "max_players": 32
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.episode_s10_solo_show",
+    "opens_at": "2020-01-01T09:00:00",
+    "closes_at": "2050-01-01T09:00:00",
+    "creator_tag": null,
+    "show_tag": "show_tag_quick",
+    "show_image_cms": "show_selector_core_solo_show",
+    "shows_team_composition": null,
+    "episode_reward_settings_id": "solos",
     "themeable_override": null,
     "skill_score_factor_override": null
   },
