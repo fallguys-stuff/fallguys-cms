@@ -4920,6 +4920,36 @@
     "metadata": []
   },
   {
+    "id": "82a61be8-aab9-4dc7-907d-0c513ca5b0c8",
+    "item_name": "Survival Respawning Hex-a-tiles (Vanilla)",
+    "stock": -1,
+    "stock_key": "",
+    "is_cost_dynamic": false,
+    "first_free": false,
+    "costs": [
+      {
+        "cost_key": "",
+        "cost_disable": false,
+        "cost_amount": 10,
+        "cost_type": "base"
+      },
+      {
+        "cost_key": "compound_pattern_cost_per_item",
+        "cost_disable": false,
+        "cost_amount": 1,
+        "cost_type": "additive"
+      }
+    ],
+    "settings": {
+      "is_overlapping_enabled": true,
+      "is_scaling_enabled": true,
+      "is_scaling_uniform": false,
+      "minimum_scale": 0.25,
+      "maximum_scale": 10
+    },
+    "metadata": []
+  },
+  {
     "id": "82fc424f-64c8-41c9-af54-c9708d995ede",
     "item_name": "Rotating Beam (Short)",
     "stock": 15,
@@ -6136,10 +6166,10 @@
     ],
     "settings": {
       "is_overlapping_enabled": true,
-      "is_scaling_enabled": false,
-      "is_scaling_uniform": false,
+      "is_scaling_enabled": true,
+      "is_scaling_uniform": true,
       "minimum_scale": 0.25,
-      "maximum_scale": 10
+      "maximum_scale": 1
     },
     "metadata": []
   },
@@ -7248,6 +7278,30 @@
     "metadata": []
   },
   {
+    "id": "c06f8730-7986-4a4a-a145-d8d0b17e7a29",
+    "item_name": "Kill zone",
+    "stock": -1,
+    "stock_key": "",
+    "is_cost_dynamic": false,
+    "first_free": false,
+    "settings": {
+      "is_overlapping_enabled": true,
+      "is_scaling_enabled": false,
+      "is_scaling_uniform": false,
+      "minimum_scale": 0.25,
+      "maximum_scale": 10
+    },
+    "costs": [
+      {
+        "cost_key": "",
+        "cost_disable": false,
+        "cost_amount": 2,
+        "cost_type": "base"
+      }
+    ],
+    "metadata": []
+  },
+  {
     "id": "c0cf45dd-8eb1-4ea5-a706-e58121e3e4ea",
     "item_name": "Spinning Blade - Single (Vanilla)",
     "stock": 15,
@@ -7476,16 +7530,46 @@
         "cost_disable": false,
         "cost_amount": 40,
         "cost_type": "additive"
+      },
+      {
+        "cost_key": "carryables_blast_ball",
+        "cost_disable": false,
+        "cost_amount": 40,
+        "cost_type": "additive"
       }
     ],
-    "metadata": [],
     "settings": {
       "is_overlapping_enabled": false,
       "is_scaling_enabled": false,
       "is_scaling_uniform": false,
       "minimum_scale": 0.25,
       "maximum_scale": 10
-    }
+    },
+    "metadata": []
+  },
+  {
+    "id": "c774bd2d-9455-4d97-8f3d-7d52b1c2032d",
+    "item_name": "Individual Spawn Position",
+    "stock": 40,
+    "stock_key": "",
+    "is_cost_dynamic": false,
+    "first_free": true,
+    "costs": [
+      {
+        "cost_key": "",
+        "cost_disable": false,
+        "cost_amount": 4,
+        "cost_type": "base"
+      }
+    ],
+    "settings": {
+      "is_overlapping_enabled": false,
+      "is_scaling_enabled": false,
+      "is_scaling_uniform": false,
+      "minimum_scale": 0.25,
+      "maximum_scale": 10
+    },
+    "metadata": []
   },
   {
     "id": "c784ff58-d6d6-447b-86a0-9a2d3290ddb6",
@@ -8808,6 +8892,36 @@
     "metadata": []
   },
   {
+    "id": "ed2ac414-6353-42ee-9d0d-6a1bc5a53dfc",
+    "item_name": "Survival Respawning Hex-a-tiles (Retro)",
+    "stock": -1,
+    "stock_key": "",
+    "is_cost_dynamic": false,
+    "first_free": false,
+    "costs": [
+      {
+        "cost_key": "",
+        "cost_disable": false,
+        "cost_amount": 10,
+        "cost_type": "base"
+      },
+      {
+        "cost_key": "compound_pattern_cost_per_item",
+        "cost_disable": false,
+        "cost_amount": 1,
+        "cost_type": "additive"
+      }
+    ],
+    "settings": {
+      "is_overlapping_enabled": true,
+      "is_scaling_enabled": true,
+      "is_scaling_uniform": false,
+      "minimum_scale": 0.25,
+      "maximum_scale": 10
+    },
+    "metadata": []
+  },
+  {
     "id": "ed576e8e-d90b-4703-8ea5-e6f41021c2d1",
     "item_name": "Moving Fan (Vanilla, Unused)",
     "stock": 15,
@@ -9141,6 +9255,30 @@
       "minimum_scale": 0.25,
       "maximum_scale": 10
     },
+    "metadata": []
+  },
+  {
+    "id": "f3bb4545-52ee-4379-9113-272c9b72a1fd",
+    "item_name": "Respawn Zone",
+    "stock": -1,
+    "stock_key": "",
+    "is_cost_dynamic": false,
+    "first_free": false,
+    "settings": {
+      "is_overlapping_enabled": true,
+      "is_scaling_enabled": false,
+      "is_scaling_uniform": false,
+      "minimum_scale": 0.25,
+      "maximum_scale": 10
+    },
+    "costs": [
+      {
+        "cost_key": "",
+        "cost_disable": false,
+        "cost_amount": 2,
+        "cost_type": "base"
+      }
+    ],
     "metadata": []
   },
   {

@@ -186,6 +186,12 @@
     "target_ids": []
   },
   {
+    "id": "character_invisibility_powerup_enabled",
+    "value": true,
+    "platforms_whitelist": [],
+    "target_ids": []
+  },
+  {
     "id": "character_jump_coyote_time",
     "value": 0.15,
     "platforms_whitelist": [],
@@ -452,6 +458,12 @@
     "platforms_whitelist": []
   },
   {
+    "id": "fraggle_blastball_enabled",
+    "value": true,
+    "platforms_whitelist": [],
+    "target_ids": []
+  },
+  {
     "id": "fraggle_compatible_level_data_version_check",
     "value": true,
     "target_ids": [
@@ -474,6 +486,12 @@
     "target_ids": []
   },
   {
+    "id": "fraggle_exploding_rhino_enabled",
+    "value": true,
+    "platforms_whitelist": [],
+    "target_ids": []
+  },
+  {
     "id": "fraggle_plobbies_enabled",
     "value": true,
     "target_ids": [
@@ -483,9 +501,11 @@
   },
   {
     "id": "fraggle_survival_enabled",
-    "value": false,
-    "platforms_whitelist": [],
-    "target_ids": []
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": []
   },
   {
     "id": "game_mode_private_lobby_minimal",
@@ -773,6 +793,12 @@
     "platforms_whitelist": []
   },
   {
+    "id": "powerup_enable_exploding_rhino",
+    "value": true,
+    "platforms_whitelist": [],
+    "target_ids": []
+  },
+  {
     "id": "private_lobbies_active_show_selector",
     "value": true,
     "platforms_whitelist": [],
@@ -892,9 +918,9 @@
   },
   {
     "id": "send_extra_party_data_on_matchmaking_enabled",
-    "value": false,
+    "value": true,
     "target_ids": [
-      "disabled_year_1900"
+      "after_prime_global_launch"
     ],
     "platforms_whitelist": []
   },
@@ -1093,6 +1119,14 @@
   },
   {
     "id": "ugc_levels_enabled",
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": []
+  },
+  {
+    "id": "ugc_likes_enabled",
     "value": true,
     "target_ids": [
       "after_prime_global_launch"

@@ -1,88 +1,19 @@
 [
   {
-    "id": "creater_made_rounds_fp6_wk3",
-    "section_title": "localised_strings.show_selector_single_rounds",
-    "sorting_index": 982,
+    "id": "compete_section",
+    "section_title": "localised_strings.show_selector_compete",
+    "sorting_index": 2,
     "section": {
       "type": "cms_shows",
       "gates": [
         {
-          "gate": "schedule_items.current_wle_fp6_wk3_09"
+          "gate": "schedule_items.show_fp5_solos_show"
         },
-        {
-          "gate": "schedule_items.current_wle_fp6_wk3_01"
-        },
-        {
-          "gate": "schedule_items.current_wle_fp6_wk3_03"
-        },
-        {
-          "gate": "schedule_items.current_wle_fp6_wk3_2_04"
-        }
-      ]
-    }
-  },
-  {
-    "id": "creater_made_rounds_fp6_wk4",
-    "section_title": "localised_strings.show_selector_single_rounds",
-    "sorting_index": 981,
-    "section": {
-      "type": "cms_shows",
-      "gates": [
-        {
-          "gate": "schedule_items.current_wle_fp6_wk3_10"
-        },
-        {
-          "gate": "schedule_items.current_wle_fp6_wk3_07"
-        },
-        {
-          "gate": "schedule_items.current_wle_fp6_wk3_06"
-        },
-        {
-          "gate": "schedule_items.current_wle_fp6_wk3_2_02"
-        }
-      ]
-    }
-  },
-  {
-    "id": "featured",
-    "section_title": "localised_strings.show_selector_featured",
-    "sorting_index": 0,
-    "section": {
-      "type": "cms_shows",
-      "gates": [
-        {
-          "gate": "schedule_items.no_elimination_show"
-        },
-        {
-          "gate": "schedule_items.show_s10_squads_show"
-        },
-        {
-          "gate": "schedule_items.wle_mrs_winter"
-        },
-        {
-          "gate": "schedule_items.wle_mrs_bouncy_bean_time"
-        },
-        {
-          "gate": "schedule_items.wle_mrs_shuffle_show_squads"
-        },
-        {
-          "gate": "schedule_items.shuffle_chill"
-        }
-      ]
-    }
-  },
-  {
-    "id": "featured_2",
-    "section_title": "localised_strings.show_selector_fallfurther",
-    "sorting_index": 1,
-    "section": {
-      "type": "cms_shows",
-      "gates": [
         {
           "gate": "schedule_items.turbo_2_show"
         },
         {
-          "gate": "schedule_items.show_s10_solos_show"
+          "gate": "schedule_items.wle_mrs_survival_showdown"
         },
         {
           "gate": "schedule_items.show_s10_hex_a_thon_02"
@@ -149,15 +80,47 @@
         },
         {
           "gate": "schedule_items.show_s10_finals_marathon_01"
-        },
+        }
+      ]
+    }
+  },
+  {
+    "id": "recommended_section",
+    "section_title": "localised_strings.show_selector_recommended",
+    "sorting_index": 1,
+    "section": {
+      "type": "cms_shows",
+      "gates": [
         {
-          "gate": "schedule_items.show_s10_duos_show"
+          "gate": "schedule_items.no_elimination_show"
         },
         {
           "gate": "schedule_items.shuffle_discover"
         },
         {
+          "gate": "schedule_items.shuffle_chill"
+        },
+        {
           "gate": "schedule_items.wle_mrs_shuffle_show"
+        }
+      ]
+    }
+  },
+  {
+    "id": "team_games_section",
+    "section_title": "localised_strings.show_selector_team_games",
+    "sorting_index": 3,
+    "section": {
+      "type": "cms_shows",
+      "gates": [
+        {
+          "gate": "schedule_items.show_s10_squads_show"
+        },
+        {
+          "gate": "schedule_items.show_s10_duos_show"
+        },
+        {
+          "gate": "schedule_items.wle_mrs_shuffle_show_squads"
         }
       ]
     }

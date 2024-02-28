@@ -9,7 +9,8 @@
         "group_id": "levels_soundtracks",
         "default": "ingame_fall_n_roll"
       }
-    }
+    },
+    "fraggle_game_modes_ids": []
   },
   {
     "id": "ingame_theme",
@@ -21,7 +22,8 @@
         "group_id": "levels_themes",
         "default": "theme_vanilla"
       }
-    }
+    },
+    "fraggle_game_modes_ids": []
   },
   {
     "id": "qualification_percentage",
@@ -33,7 +35,25 @@
       "max": 100,
       "interval": 1,
       "default": 70
-    }
+    },
+    "fraggle_game_modes_ids": [
+      "gamemode_gauntlet"
+    ]
+  },
+  {
+    "id": "survival_percentage",
+    "requires_preview": false,
+    "is_required": true,
+    "config": {
+      "type": "number",
+      "min": 1,
+      "max": 99,
+      "interval": 1,
+      "default": 1
+    },
+    "fraggle_game_modes_ids": [
+      "gamemode_survival"
+    ]
   },
   {
     "id": "time_limit_seconds",
@@ -45,6 +65,7 @@
       "default": 240
     },
     "requires_preview": true,
-    "is_required": true
+    "is_required": true,
+    "fraggle_game_modes_ids": []
   }
 ]

@@ -10323,6 +10323,76 @@
     "skill_score_factor_override": null
   },
   {
+    "id": "fraggle_gamemode_gauntlet_template",
+    "show_name": "localised_strings.wle_template_show_name",
+    "show_description": "localised_strings.wle_template_show_description",
+    "show_image": "MainShow",
+    "hide_countdown": true,
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 1,
+      "max_players": 40
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 1,
+      "max_players": 40
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.fraggle_gamemode_gauntlet_template",
+    "opens_at": "2020-01-01T09:00:00",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "display_while_upcoming": false,
+    "creator_tag": null,
+    "show_tag": null,
+    "show_image_cms": "show_selector_show_mainshow",
+    "shows_team_composition": null,
+    "episode_reward_settings_id": "wle_lobby_template",
+    "themeable_override": null,
+    "closes_at": null,
+    "skill_score_factor_override": null
+  },
+  {
+    "id": "fraggle_gamemode_survival_template",
+    "show_name": "localised_strings.wle_template_show_name",
+    "show_description": "localised_strings.wle_template_show_description",
+    "show_image": "MainShow",
+    "hide_countdown": true,
+    "min_party_size": 2,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 1,
+      "max_players": 40
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 2,
+      "max_players": 40
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.fraggle_gamemode_survival_template",
+    "opens_at": "2020-01-01T09:00:00",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "display_while_upcoming": false,
+    "creator_tag": null,
+    "show_tag": null,
+    "show_image_cms": "show_selector_show_mainshow",
+    "shows_team_composition": null,
+    "episode_reward_settings_id": "wle_lobby_template",
+    "themeable_override": null,
+    "closes_at": null,
+    "skill_score_factor_override": null
+  },
+  {
     "id": "invisibeans_0508_to_0708_2022",
     "show_name": "localised_strings.level_name_invisibeans",
     "show_description": "localised_strings.show_desc_invisibeans",
@@ -11753,7 +11823,7 @@
   },
   {
     "id": "no_elimination_show",
-    "show_name": "localised_strings.show_title_wle_mrs_no_elimination",
+    "show_name": "localised_strings.show_title_solos_chill",
     "show_description": "localised_strings.show_desc_wle_mrs_no_elimination",
     "content_label": "localised_strings.show_content_label_show",
     "show_selector_tile_colour": "colour.show_selector_tile_blue",
@@ -11779,7 +11849,7 @@
     "closes_at": "2050-01-01T09:00:00",
     "show_image": null,
     "creator_tag": null,
-    "show_tag": "show_tag_special",
+    "show_tag": null,
     "show_image_cms": "show_selector_noelim",
     "shows_team_composition": null,
     "episode_reward_settings_id": "noelim",
@@ -15575,7 +15645,7 @@
   },
   {
     "id": "wle_mrs_shuffle_show_squads",
-    "show_name": "localised_strings.show_title_wle_srs_shuffle_squads",
+    "show_name": "localised_strings.show_title_squads_shuffle",
     "show_description": "localised_strings.show_desc_wle_srs_shuffle_squads",
     "show_image": "dlc_images.wle_mrs_shuffle_show_squads",
     "min_party_size": 1,
@@ -15599,13 +15669,46 @@
     "hide_countdown": false,
     "default_episode": "levels_episode.wle_mrs_shuffle_show_squads",
     "content_label": "localised_strings.show_content_label_show",
-    "show_selector_tile_colour": "colour.show_selector_tile_yellow",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
     "display_while_upcoming": false,
     "creator_tag": null,
     "show_tag": "show_tag_refresh",
     "show_image_cms": "wle_mrs_shuffle_show_squads",
     "shows_team_composition": null,
     "episode_reward_settings_id": "squads",
+    "themeable_override": null,
+    "skill_score_factor_override": null
+  },
+  {
+    "id": "wle_mrs_survival_showdown",
+    "show_name": "localised_strings.show_title_survival_showdown",
+    "show_description": "localised_strings.show_desc_survival_showdown",
+    "show_image": "dlc_images.show_selector_wle_mrs_bouncing_ball",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_yellow",
+    "display_while_upcoming": false,
+    "hide_countdown": false,
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 14,
+      "max_players": 20
+    },
+    "private_lobby_size": {
+      "type": "default"
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.wle_mrs_survival_showdown",
+    "opens_at": "2023-01-01T01:00:00",
+    "closes_at": "2050-01-01T09:00:01",
+    "creator_tag": null,
+    "show_tag": "show_tag_creative_mode",
+    "show_image_cms": "show_selector_mrs_survival_showdown",
+    "shows_team_composition": null,
+    "episode_reward_settings_id": "solos",
     "themeable_override": null,
     "skill_score_factor_override": null
   },
@@ -16099,11 +16202,11 @@
   },
   {
     "id": "wle_shuffle_discover",
-    "show_name": "localised_strings.show_title_wle_srs_discovery_shuffle",
+    "show_name": "localised_strings.show_title_solos_shuffle",
     "show_description": "localised_strings.show_desc_wle_srs_discovery_shuffle",
     "show_image": "dlc_images.current_wle_fp3_09_04",
     "content_label": "localised_strings.show_content_label_show",
-    "show_selector_tile_colour": "colour.show_selector_tile_yellow",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
     "display_while_upcoming": false,
     "hide_countdown": false,
     "min_party_size": 1,
