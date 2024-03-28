@@ -3592,6 +3592,41 @@
     "skill_score_factor_override": null
   },
   {
+    "id": "event_april_fools",
+    "show_name": "localised_strings.show_title_wle_srs_shuffle_foolandfall",
+    "show_description": "localised_strings.show_desc_wle_srs_shuffle_foolandfall",
+    "hide_countdown": false,
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 1,
+      "max_players": 10
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 1,
+      "max_players": 10
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.event_april_fools",
+    "opens_at": "2020-01-01T09:00:00",
+    "closes_at": "2030-01-01T09:00:00",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "display_while_upcoming": true,
+    "show_image": null,
+    "creator_tag": null,
+    "show_tag": null,
+    "show_image_cms": "ui_show_show_selector_april_fools",
+    "shows_team_composition": null,
+    "episode_reward_settings_id": "squads",
+    "themeable_override": null,
+    "skill_score_factor_override": null
+  },
+  {
     "id": "event_aprilstart_0404_1004",
     "show_name": "localised_strings.le_s6_aprilstart_title",
     "show_description": "localised_strings.le_s6_aprilstart_desc",
