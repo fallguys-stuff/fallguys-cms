@@ -6675,7 +6675,7 @@
       "metric_id": "round_reached",
       "level_id": null,
       "level_archetype": null,
-      "round_index": 0,
+      "round_index": null,
       "round_qualified": null,
       "overtime": null,
       "is_in_party": null,
@@ -12400,7 +12400,7 @@
       "level_id": null,
       "level_archetype": null,
       "round_index": null,
-      "round_qualified": "true",
+      "round_qualified": null,
       "overtime": null,
       "is_in_party": null,
       "episode_id": null,
@@ -12418,6 +12418,12 @@
           "dimension_id": "is_private_lobby",
           "operator": "equal",
           "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "round_qualified",
+          "operator": "equal",
+          "boolean_value": "true",
           "dimension_type": "boolean_dimension"
         }
       ]
