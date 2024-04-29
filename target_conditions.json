@@ -196,7 +196,7 @@
       "data": {
         "operator": "between",
         "start": "2024-04-08T10:00:00",
-        "end": "2050-12-24T09:59:59"
+        "end": "2024-05-07T11:59:59"
       }
     }
   },
@@ -3718,7 +3718,7 @@
       "data": {
         "operator": "between",
         "start": "2024-03-05T12:00:00",
-        "end": "2024-04-30T11:59:59"
+        "end": "2024-05-07T11:59:59"
       }
     }
   },
@@ -3772,8 +3772,8 @@
       "type": "date_time",
       "data": {
         "operator": "between",
-        "start": "2024-03-22T10:00:00",
-        "end": "2024-04-01T09:59:59"
+        "start": "2024-05-02T10:00:00",
+        "end": "2024-05-07T09:59:59"
       }
     }
   },
@@ -3920,6 +3920,17 @@
     }
   },
   {
+    "id": "fp9_emote",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-04-30T10:00:00",
+        "end": "2024-05-06T09:59:59"
+      }
+    }
+  },
+  {
     "id": "fp9_emote_ss02_01",
     "parameters": {
       "type": "date_time",
@@ -3960,6 +3971,28 @@
         "operator": "between",
         "start": "2024-03-22T10:00:00",
         "end": "2024-03-29T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp9_fp9",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-04-30T10:00:00",
+        "end": "2024-05-08T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp9_fp9extension",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-04-29T11:00:00",
+        "end": "2024-05-07T09:59:59"
       }
     }
   },
@@ -4195,6 +4228,17 @@
     }
   },
   {
+    "id": "fp9_rhinosrevenge",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-05-04T10:00:00",
+        "end": "2024-05-09T09:59:59"
+      }
+    }
+  },
+  {
     "id": "fp9_ringleader",
     "parameters": {
       "type": "date_time",
@@ -4211,8 +4255,8 @@
       "type": "date_time",
       "data": {
         "operator": "between",
-        "start": "2024-03-23T10:00:00",
-        "end": "2024-03-30T09:59:59"
+        "start": "2024-05-03T10:00:00",
+        "end": "2024-05-10T09:59:59"
       }
     }
   },
@@ -4481,6 +4525,17 @@
     }
   },
   {
+    "id": "fp9_weeklies_9",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-04-30T10:00:00",
+        "end": "2024-05-07T12:00:00"
+      }
+    }
+  },
+  {
     "id": "fp9_wheatear",
     "parameters": {
       "type": "date_time",
@@ -4535,6 +4590,21 @@
         },
         "bundle": {
           "id": "ss001_legacypack_psn_jp"
+        }
+      }
+    }
+  },
+  {
+    "id": "has_not_purchased_s10_4_sil_foxtail_02",
+    "parameters": {
+      "type": "purchase_history",
+      "data": {
+        "quantity": {
+          "operator": "less_than",
+          "max": 1
+        },
+        "bundle": {
+          "id": "bundle_s10_4_sil_foxtail_02"
         }
       }
     }
