@@ -140,6 +140,55 @@
     "refresh_cycle_length_seconds": null
   },
   {
+    "id": "famepass_10",
+    "order_preference": 10,
+    "section_height": 2,
+    "show_refresh_timer": false,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 3,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundleslot_famepass_10"
+      }
+    ],
+    "target_ids": [
+      "fp10_active_dates"
+    ],
+    "name": null,
+    "storefront": "storefront_famepass_10",
+    "refresh_cycle_length_seconds": null
+  },
+  {
+    "id": "famepass_10_tier_skip_section",
+    "order_preference": 250,
+    "section_height": 2,
+    "show_refresh_timer": false,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "fp10_tier_skip_bundle"
+      },
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_cs_static_s10_6_racoon_03"
+      }
+    ],
+    "target_ids": [
+      "target_fp10_pass_owned_dates"
+    ],
+    "name": "sym_storesection_title_tierskip",
+    "storefront": "storefront_famepass_10",
+    "refresh_cycle_length_seconds": null
+  },
+  {
     "id": "famepass_4_tier_skip_section",
     "order_preference": 250,
     "section_height": 1,
@@ -278,6 +327,48 @@
     "name": "sym_storesection_title_tierskip",
     "storefront": "storefront_famepass_09",
     "refresh_cycle_length_seconds": null
+  },
+  {
+    "id": "fp10_dailies_sb",
+    "order_preference": 38,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "refresh_cycle_length_seconds": 86400,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "slot_pool_sb_colors"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "slot_pool_sb_patterns"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "slot_pool_sb_faceplates"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "slot_pool_sb_emotes"
+      }
+    ],
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "name": "sym_storesection_title_daily",
+    "storefront": "storefront_item_shop"
   },
   {
     "id": "fp8_dailies_kudos",
@@ -2719,20 +2810,20 @@
           "tile_width": 2,
           "tile_height": 2
         },
-        "bundle_slot": "bundle_duo_cheesethief_02"
+        "bundle_slot": "bundle_ss1_squid_hats"
       },
       {
         "layout": {
           "tile_width": 1,
           "tile_height": 2
         },
-        "bundle_slot": "pattern_s10_3_greasers"
+        "bundle_slot": "bundle_pattern_pattern_generic_008"
       }
     ],
     "target_ids": [
-      "fp9_blt"
+      "fp10_9"
     ],
-    "name": "storesection_fg_default_3_name",
+    "name": "storesection_fg_default_5_name",
     "storefront": "storefront_featured",
     "refresh_cycle_length_seconds": null
   },
@@ -3053,7 +3144,7 @@
   },
   {
     "id": "section_budgie",
-    "order_preference": 795,
+    "order_preference": 583,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -3080,7 +3171,7 @@
       }
     ],
     "target_ids": [
-      "fp9_budgie"
+      "fp10_budgie"
     ],
     "name": "sym_storesection_title_ip_budgie",
     "storefront": "storefront_featured",
@@ -3088,7 +3179,7 @@
   },
   {
     "id": "section_budgie_b",
-    "order_preference": 796,
+    "order_preference": 584,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -3115,15 +3206,57 @@
       }
     ],
     "target_ids": [
-      "fp9_budgie"
+      "fp10_budgie"
     ],
     "name": "sym_storesection_title_ip_budgie02",
     "storefront": "storefront_featured",
     "refresh_cycle_length_seconds": null
   },
   {
+    "id": "section_budgie_c",
+    "order_preference": 582,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_grabbag_budgie06"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_costumeset_budgie06_01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_victory_s10_9_ip_budgie"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_emote_s10_9_ip_budgie"
+      }
+    ],
+    "target_ids": [
+      "fp10_budgie"
+    ],
+    "name": "storesection_budgie_c_name",
+    "storefront": "storefront_featured",
+    "refresh_cycle_length_seconds": null
+  },
+  {
     "id": "section_captainjawsome",
-    "order_preference": 496,
+    "order_preference": 555,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -3136,10 +3269,10 @@
       },
       {
         "layout": {
-          "tile_width": 2,
+          "tile_width": 1,
           "tile_height": 2
         },
-        "bundle_slot": "bundle_multi_captainjawsome_01"
+        "bundle_slot": "bundle_cs_static_s09_captainjawsome_01"
       },
       {
         "layout": {
@@ -3157,10 +3290,10 @@
       }
     ],
     "target_ids": [
-      "s9_ft_wk4_sat"
+      "fp10_captainjawsome"
     ],
     "name": "storesection_captainjawsome_name",
-    "storefront": "ss003_storefront_featured",
+    "storefront": "storefront_featured",
     "refresh_cycle_length_seconds": null
   },
   {
@@ -3207,7 +3340,7 @@
   },
   {
     "id": "section_cardinal",
-    "order_preference": 716,
+    "order_preference": 603,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -3220,7 +3353,7 @@
       }
     ],
     "target_ids": [
-      "fp9_cardinal"
+      "fp10_cardinal"
     ],
     "name": "storesection_cardinal_name",
     "storefront": "storefront_featured",
@@ -3368,6 +3501,83 @@
     ],
     "target_ids": [
       "fp9_emote"
+    ],
+    "name": "storesection_fg_default_name",
+    "storefront": "storefront_featured",
+    "refresh_cycle_length_seconds": null
+  },
+  {
+    "id": "section_celebration_ss1_07",
+    "order_preference": 542,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_victory_celebration_ss1_07"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_victory_celebration_s4_014"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_victory_celebration_s6_001"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_victory_celebration_generic_009"
+      }
+    ],
+    "target_ids": [
+      "fp10_celebration"
+    ],
+    "name": "storesection_fg_default_name",
+    "storefront": "storefront_featured",
+    "refresh_cycle_length_seconds": null
+  },
+  {
+    "id": "section_cheesethief",
+    "order_preference": 604,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_duo_cheesethief_02"
+      },
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_duo_newreality"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_pattern_s4_100"
+      }
+    ],
+    "target_ids": [
+      "fp10_cheesethief"
     ],
     "name": "storesection_fg_default_name",
     "storefront": "storefront_featured",
@@ -3697,7 +3907,7 @@
   },
   {
     "id": "section_corncrake",
-    "order_preference": 695,
+    "order_preference": 557,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -3710,7 +3920,7 @@
       }
     ],
     "target_ids": [
-      "fp9_corncrake"
+      "fp10_corncrake"
     ],
     "name": "storesection_corncrake_name",
     "storefront": "storefront_featured",
@@ -3795,7 +4005,7 @@
   },
   {
     "id": "section_crochat",
-    "order_preference": 1547,
+    "order_preference": 532,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -3805,18 +4015,74 @@
           "tile_height": 2
         },
         "bundle_slot": "bundle_multi_crochat"
+      },
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_ss1_grabbag_bowlcut_01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_cs_static_ss02_foxhoodie_02"
       }
     ],
     "target_ids": [
-      "s10_ft_wk7_sat"
+      "fp10hamstercrochat"
     ],
-    "name": "storesection_crochat_name",
-    "storefront": "ss004_storefront_featured",
+    "name": "storesection_fg_default_5_name",
+    "storefront": "storefront_featured",
+    "refresh_cycle_length_seconds": null
+  },
+  {
+    "id": "section_croissanthat_01",
+    "order_preference": 567,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_cs_static_croissanthat"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_cs_static_candle_01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_cs_static_s5_bowlcut_02"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_pattern_generic_018"
+      }
+    ],
+    "target_ids": [
+      "fp10_croissanthat"
+    ],
+    "name": "storesection_fg_default_name",
+    "storefront": "storefront_featured",
     "refresh_cycle_length_seconds": null
   },
   {
     "id": "section_crossbill",
-    "order_preference": 727,
+    "order_preference": 535,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -3829,7 +4095,7 @@
       }
     ],
     "target_ids": [
-      "fp9_crossbill"
+      "fp10_crossbill"
     ],
     "name": "costume_event_crossbill_01",
     "storefront": "storefront_featured",
@@ -4180,7 +4446,7 @@
   },
   {
     "id": "section_dinohoodie",
-    "order_preference": 774,
+    "order_preference": 588,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -4197,10 +4463,17 @@
           "tile_height": 2
         },
         "bundle_slot": "bundle_duo_koalahat"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_pattern_pattern_s6_16"
       }
     ],
     "target_ids": [
-      "fp9_dinohoodie"
+      "fp10_dinohoodie"
     ],
     "name": "storesection_dinohoodie_name",
     "storefront": "storefront_featured",
@@ -4208,7 +4481,7 @@
   },
   {
     "id": "section_doge_01",
-    "order_preference": 753,
+    "order_preference": 551,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -4235,15 +4508,50 @@
       }
     ],
     "target_ids": [
-      "fp9_doge_01"
+      "fp10_doge_01"
     ],
     "name": "storesection_fg_default_4_name",
     "storefront": "storefront_featured",
     "refresh_cycle_length_seconds": null
   },
   {
+    "id": "section_doge_02",
+    "order_preference": 509,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_grabbag_ss02_doge_02"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_cs_static_s10_3_kittystack_02"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_cs_static_s10_5_cutespider_03"
+      }
+    ],
+    "target_ids": [
+      "fp10_doge_02"
+    ],
+    "name": "storesection_fg_default_3_name",
+    "storefront": "storefront_featured",
+    "refresh_cycle_length_seconds": null
+  },
+  {
     "id": "section_dove_01",
-    "order_preference": 654,
+    "order_preference": 536,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -4284,7 +4592,7 @@
       }
     ],
     "target_ids": [
-      "fp9_dove_01"
+      "fp10_dove"
     ],
     "name": "storesection_fg_default_name",
     "storefront": "storefront_featured",
@@ -4292,7 +4600,7 @@
   },
   {
     "id": "section_duck",
-    "order_preference": 712,
+    "order_preference": 607,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -4326,15 +4634,64 @@
       }
     ],
     "target_ids": [
-      "fp9_duck"
+      "fp10_duck"
     ],
     "name": "storesection_title_duck_01",
     "storefront": "storefront_featured",
     "refresh_cycle_length_seconds": null
   },
   {
+    "id": "section_duck_01",
+    "order_preference": 619,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_cs_duck_01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_cs_static_s10_6_gorillaangel_01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_cs_static_s10_5_elephantkawai_02"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_cs_static_s10_5_truehotdogvariant_02"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_cs_static_s09_fishring_03"
+      }
+    ],
+    "target_ids": [
+      "fp10_duck_01"
+    ],
+    "name": "storesection_fg_default_name",
+    "storefront": "storefront_featured",
+    "refresh_cycle_length_seconds": null
+  },
+  {
     "id": "section_duck_b",
-    "order_preference": 713,
+    "order_preference": 608,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -4375,7 +4732,7 @@
       }
     ],
     "target_ids": [
-      "fp9_duck"
+      "fp10_duck"
     ],
     "name": "storesection_title_duck_02",
     "storefront": "storefront_featured",
@@ -4414,6 +4771,174 @@
     ],
     "name": "sym_storesection_title_ip_eagle",
     "storefront": "ss004_storefront_featured",
+    "refresh_cycle_length_seconds": null
+  },
+  {
+    "id": "section_eggplant_01",
+    "order_preference": 609,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_grabbag_eggplant_01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_cs_static_s6_fannypack_01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_cs_static_s10_4_cactusbear_02"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_pattern_s10_6_matryoshkadoll"
+      }
+    ],
+    "target_ids": [
+      "fp10_eggplant_01"
+    ],
+    "name": "storesection_fg_default_6_name",
+    "storefront": "storefront_featured",
+    "refresh_cycle_length_seconds": null
+  },
+  {
+    "id": "section_emote_fp10_02",
+    "order_preference": 515,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_emote_s09_10"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_emote_ss02_08"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_emote_s10_8_itstoohot"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_emote_s09_09"
+      }
+    ],
+    "target_ids": [
+      "fp10_emote_06_1"
+    ],
+    "name": "storesection_fg_default_name",
+    "storefront": "storefront_featured",
+    "refresh_cycle_length_seconds": null
+  },
+  {
+    "id": "section_emote_fp10_03",
+    "order_preference": 600,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_emote_ss02_02"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_emote_ss02_11"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_emote_s5_047"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_emote_s10_8_warmupsideshuffle"
+      }
+    ],
+    "target_ids": [
+      "fp10_section_emote_fp10_03"
+    ],
+    "name": "storesection_fg_default_name",
+    "storefront": "storefront_featured",
+    "refresh_cycle_length_seconds": null
+  },
+  {
+    "id": "section_emote_fp10_04",
+    "order_preference": 569,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_emote_generic_007"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_emote_generic_012"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_emote_s6_011"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_emote_s4_038"
+      }
+    ],
+    "target_ids": [
+      "fp10_emote"
+    ],
+    "name": "storesection_fg_default_name",
+    "storefront": "storefront_featured",
     "refresh_cycle_length_seconds": null
   },
   {
@@ -4502,7 +5027,7 @@
   },
   {
     "id": "section_emote_ss02_01",
-    "order_preference": 653,
+    "order_preference": 541,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -4536,7 +5061,7 @@
       }
     ],
     "target_ids": [
-      "fp9_emote_ss02_01"
+      "section_emote_fp10_05"
     ],
     "name": "storesection_fg_default_name",
     "storefront": "storefront_featured",
@@ -4768,7 +5293,7 @@
   },
   {
     "id": "section_falcon",
-    "order_preference": 766,
+    "order_preference": 527,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -4802,7 +5327,7 @@
       }
     ],
     "target_ids": [
-      "fp9_falcon"
+      "fp10_falcon"
     ],
     "name": "storesection_title_falcon_01",
     "storefront": "storefront_featured",
@@ -4810,7 +5335,7 @@
   },
   {
     "id": "section_falcon_b",
-    "order_preference": 767,
+    "order_preference": 528,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -4837,7 +5362,7 @@
       }
     ],
     "target_ids": [
-      "fp9_falcon"
+      "fp10_falcon"
     ],
     "name": "storesection_title_falcon_02",
     "storefront": "storefront_featured",
@@ -5691,6 +6216,55 @@
     "refresh_cycle_length_seconds": null
   },
   {
+    "id": "section_flowerpecker",
+    "order_preference": 553,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_grabbag_flowerpecker01_01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_costumeset_flowerpecker01_01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_costumeset_flowerpecker02_01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 1
+        },
+        "bundle_slot": "bundle_victory_s10_9_ip_flowerpecker"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 1
+        },
+        "bundle_slot": "bundle_emote_s10_9_ip_flowerpecker"
+      }
+    ],
+    "target_ids": [
+      "fp10_flowerpecker"
+    ],
+    "name": "bundle_costumeset_flowerpecker01_name",
+    "storefront": "storefront_featured",
+    "refresh_cycle_length_seconds": null
+  },
+  {
     "id": "section_flyingsaucer_02",
     "order_preference": 1085,
     "section_height": 2,
@@ -5737,6 +6311,62 @@
     ],
     "name": "sym_storesection_title_more_offers",
     "storefront": "ss004_storefront_featured",
+    "refresh_cycle_length_seconds": null
+  },
+  {
+    "id": "section_fp10_kudos",
+    "order_preference": 998,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_si_lower_ss02_sif_slippersdog_01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_si_lower_s10_6_sif_peashootshoes_02"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_si_upper_ss1_sit_necklacedaisy_03"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_si_upper_s09_sitb_backpackfroggy_02"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "slot_single_si_earscat_01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_si_upper_s09_sih_trafficcone_01"
+      }
+    ],
+    "target_ids": [
+      "fp10_kudos_ongoing"
+    ],
+    "name": "sym_storesection_title_more_offers",
+    "storefront": "storefront_featured",
     "refresh_cycle_length_seconds": null
   },
   {
@@ -5810,6 +6440,55 @@
     "refresh_cycle_length_seconds": null
   },
   {
+    "id": "section_frenchfries",
+    "order_preference": 595,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_cs_static_frenchfries_01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_cs_static_tastyburger"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_cs_static_hotdog"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_cs_static_bluefreeze"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_cs_static_bananawater"
+      }
+    ],
+    "target_ids": [
+      "disabled_year_1900"
+    ],
+    "name": "storesection_fg_default_4_name",
+    "storefront": "storefront_featured",
+    "refresh_cycle_length_seconds": null
+  },
+  {
     "id": "section_fromthedeep",
     "order_preference": 1040,
     "section_height": 2,
@@ -5849,6 +6528,48 @@
     ],
     "name": "bundle_name_fromthedeep",
     "storefront": "ss004_storefront_featured",
+    "refresh_cycle_length_seconds": null
+  },
+  {
+    "id": "section_gangstershark",
+    "order_preference": 529,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_gangstershark"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "pattern_generic_030"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "colour_s4_094"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "face_s6_008"
+      }
+    ],
+    "target_ids": [
+      "fp10_gangstershark"
+    ],
+    "name": "sym_storesection_title_more_offers",
+    "storefront": "storefront_featured",
     "refresh_cycle_length_seconds": null
   },
   {
@@ -6042,7 +6763,7 @@
   },
   {
     "id": "section_grouse",
-    "order_preference": 812,
+    "order_preference": 522,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -6069,7 +6790,7 @@
       }
     ],
     "target_ids": [
-      "fp9_grouse"
+      "fp10_grouse"
     ],
     "name": "storesection_grouse_name",
     "storefront": "storefront_featured",
@@ -6077,7 +6798,7 @@
   },
   {
     "id": "section_grouse_b",
-    "order_preference": 813,
+    "order_preference": 523,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -6111,7 +6832,7 @@
       }
     ],
     "target_ids": [
-      "fp9_grouse"
+      "fp10_grouse"
     ],
     "name": "storesection_grouse_name",
     "storefront": "storefront_featured",
@@ -6119,7 +6840,7 @@
   },
   {
     "id": "section_grouse_c",
-    "order_preference": 814,
+    "order_preference": 524,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -6153,7 +6874,7 @@
       }
     ],
     "target_ids": [
-      "fp9_grouse"
+      "fp10_grouse"
     ],
     "name": "storesection_grouse_name",
     "storefront": "storefront_featured",
@@ -6289,6 +7010,34 @@
       "fp5_store_halloween"
     ],
     "name": "storesection_title_stickyguy",
+    "storefront": "storefront_featured",
+    "refresh_cycle_length_seconds": null
+  },
+  {
+    "id": "section_hamster",
+    "order_preference": 596,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_grabbag_hamster"
+      },
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_grabbag_karrotbot"
+      }
+    ],
+    "target_ids": [
+      "fp10_hamster"
+    ],
+    "name": "storesection_fg_default_4_name",
     "storefront": "storefront_featured",
     "refresh_cycle_length_seconds": null
   },
@@ -6553,7 +7302,7 @@
   },
   {
     "id": "section_icterid",
-    "order_preference": 828,
+    "order_preference": 561,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -6580,7 +7329,7 @@
       }
     ],
     "target_ids": [
-      "fp9_icterid"
+      "fp10_icterid"
     ],
     "name": "storesection_icterid_name",
     "storefront": "storefront_featured",
@@ -6588,7 +7337,7 @@
   },
   {
     "id": "section_icterid_b",
-    "order_preference": 829,
+    "order_preference": 562,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -6615,7 +7364,7 @@
       }
     ],
     "target_ids": [
-      "fp9_icterid"
+      "fp10_icterid"
     ],
     "name": "storesection_icterid_b_name",
     "storefront": "storefront_featured",
@@ -6646,6 +7395,41 @@
       "disabled_year_1900"
     ],
     "name": "storesection_icterid_name",
+    "storefront": "storefront_featured",
+    "refresh_cycle_length_seconds": null
+  },
+  {
+    "id": "section_kawaiifrog_01",
+    "order_preference": 581,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_section_kawaiifrog"
+      },
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_ss1_grabbag_big_bad"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_pattern_pattern_s6_07"
+      }
+    ],
+    "target_ids": [
+      "fp10_kawaiifrog"
+    ],
+    "name": "storesection_fg_default_4_name",
     "storefront": "storefront_featured",
     "refresh_cycle_length_seconds": null
   },
@@ -7078,7 +7862,7 @@
   },
   {
     "id": "section_magpie",
-    "order_preference": 752,
+    "order_preference": 611,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -7105,7 +7889,7 @@
       }
     ],
     "target_ids": [
-      "fp9_magpie"
+      "fp10_magpie"
     ],
     "name": "storesection_magpie_name",
     "storefront": "storefront_featured",
@@ -7239,7 +8023,7 @@
   },
   {
     "id": "section_mermaid",
-    "order_preference": 546,
+    "order_preference": 612,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -7252,10 +8036,10 @@
       },
       {
         "layout": {
-          "tile_width": 2,
+          "tile_width": 1,
           "tile_height": 2
         },
-        "bundle_slot": "bundle_duo_mermaid_01"
+        "bundle_slot": "bundle_cs_static_mermaid_01"
       },
       {
         "layout": {
@@ -7280,15 +8064,15 @@
       }
     ],
     "target_ids": [
-      "s9_ft_wk3_mon"
+      "fp10_mermaid_01"
     ],
     "name": "storesection_mermaid_name",
-    "storefront": "ss003_storefront_featured",
+    "storefront": "storefront_featured",
     "refresh_cycle_length_seconds": null
   },
   {
     "id": "section_mockingbird",
-    "order_preference": 1355,
+    "order_preference": 554,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -7315,15 +8099,15 @@
       }
     ],
     "target_ids": [
-      "s10_ft_wk9_thurs"
+      "disabled_year_1900"
     ],
     "name": "storesection_title_mockingbird",
-    "storefront": "ss004_storefront_featured",
+    "storefront": "storefront_featured",
     "refresh_cycle_length_seconds": null
   },
   {
     "id": "section_mockingbird_b",
-    "order_preference": 1350,
+    "order_preference": 553,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -7357,10 +8141,10 @@
       }
     ],
     "target_ids": [
-      "s10_ft_wk9_thurs"
+      "disabled_year_1900"
     ],
     "name": "sym_storesection_title_ss1_mockingbird",
-    "storefront": "ss004_storefront_featured",
+    "storefront": "storefront_featured",
     "refresh_cycle_length_seconds": null
   },
   {
@@ -7491,7 +8275,7 @@
   },
   {
     "id": "section_nighthawk",
-    "order_preference": 802,
+    "order_preference": 595,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -7501,18 +8285,32 @@
           "tile_height": 2
         },
         "bundle_slot": "bundle_duo_nighthawk"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_cs_static_s10_2_ip_nighthawk01_01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_cs_static_s10_2_ip_nighthawk02_01"
       }
     ],
     "target_ids": [
-      "fp9_nighthawk"
+      "fp10_nighthawk"
     ],
-    "name": "storesection_nighthawk_name",
+    "name": "bundle_duo_nighthawk_name",
     "storefront": "storefront_featured",
     "refresh_cycle_length_seconds": null
   },
   {
     "id": "section_octodusa",
-    "order_preference": 918,
+    "order_preference": 539,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -7539,7 +8337,7 @@
       }
     ],
     "target_ids": [
-      "fp8_octodusa"
+      "fp10_octodusa"
     ],
     "name": "storesection_octodusa_name",
     "storefront": "storefront_featured",
@@ -7658,6 +8456,55 @@
     "refresh_cycle_length_seconds": null
   },
   {
+    "id": "section_paladin_01",
+    "order_preference": 563,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_cs_static_paladin_01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_cs_static_dragon_01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_cs_static_wizard_01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_cs_static_witch_02"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_cs_static_chicken_01"
+      }
+    ],
+    "target_ids": [
+      "fp10_paladin"
+    ],
+    "name": "storesection_fg_default_4_name",
+    "storefront": "storefront_featured",
+    "refresh_cycle_length_seconds": null
+  },
+  {
     "id": "section_parrot",
     "order_preference": 867,
     "section_height": 2,
@@ -7694,7 +8541,7 @@
   },
   {
     "id": "section_parrot_onlybundles",
-    "order_preference": 919,
+    "order_preference": 586,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -7707,7 +8554,7 @@
       }
     ],
     "target_ids": [
-      "fp8_parrot"
+      "fp10_parrot"
     ],
     "name": "storesection_title_parrot",
     "storefront": "storefront_featured",
@@ -7735,8 +8582,43 @@
     "refresh_cycle_length_seconds": null
   },
   {
+    "id": "section_peacock_b",
+    "order_preference": 576,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_grabbag_peacock_a"
+      },
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_grabbag_peacock_b"
+      },
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_grabbag_peacock_c"
+      }
+    ],
+    "target_ids": [
+      "fp10_peacock"
+    ],
+    "name": "storesection_peacock_name",
+    "storefront": "storefront_featured",
+    "refresh_cycle_length_seconds": null
+  },
+  {
     "id": "section_pedro",
-    "order_preference": 946,
+    "order_preference": 618,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -7770,7 +8652,7 @@
       }
     ],
     "target_ids": [
-      "fp7_store_pedro"
+      "fp10_pedro"
     ],
     "name": "storesection_hmjacket_01_name",
     "storefront": "storefront_featured",
@@ -7778,7 +8660,7 @@
   },
   {
     "id": "section_pedro_b",
-    "order_preference": 737,
+    "order_preference": 518,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -7788,6 +8670,13 @@
           "tile_height": 2
         },
         "bundle_slot": "bundle_gato_duo"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_costumeset_gatoroboto_02"
       },
       {
         "layout": {
@@ -7805,7 +8694,7 @@
       }
     ],
     "target_ids": [
-      "fp9_gato"
+      "fp10_gato"
     ],
     "name": "storesection_gatoroboto_name",
     "storefront": "storefront_featured",
@@ -7841,7 +8730,7 @@
   },
   {
     "id": "section_pelican",
-    "order_preference": 745,
+    "order_preference": 544,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -7882,7 +8771,7 @@
       }
     ],
     "target_ids": [
-      "fp9_pelican"
+      "fp10_pelican"
     ],
     "name": "sym_storesection_title_ss1_pelican",
     "storefront": "storefront_featured",
@@ -8176,6 +9065,83 @@
     "refresh_cycle_length_seconds": null
   },
   {
+    "id": "section_piratemonkey_01",
+    "order_preference": 545,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_grabbag_piratemonkey"
+      },
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_duo_dogbuckethat"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "pattern_generic_012"
+      }
+    ],
+    "target_ids": [
+      "fp10_piratemonkey"
+    ],
+    "name": "storesection_fg_default_5_name",
+    "storefront": "storefront_featured",
+    "refresh_cycle_length_seconds": null
+  },
+  {
+    "id": "section_pixelpuncher_01",
+    "order_preference": 559,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_duo_s10_pixelpuncher_01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_cs_static_boxer_02"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_cs_static_ss02_powerarms_03"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_si_ss1_sitb_backpackdonut_02"
+      }
+    ],
+    "target_ids": [
+      "fp10_pixelpuncher"
+    ],
+    "name": "storesection_fg_default_name",
+    "storefront": "storefront_featured",
+    "refresh_cycle_length_seconds": null
+  },
+  {
     "id": "section_plover",
     "order_preference": 652,
     "section_height": 2,
@@ -8212,7 +9178,7 @@
   },
   {
     "id": "section_pochard",
-    "order_preference": 791,
+    "order_preference": 538,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -8253,7 +9219,7 @@
       }
     ],
     "target_ids": [
-      "fp9_pochard"
+      "fp10_pochard"
     ],
     "name": "sym_storesection_title_ip_pochard",
     "storefront": "storefront_featured",
@@ -8317,7 +9283,7 @@
   },
   {
     "id": "section_popsicle",
-    "order_preference": 827,
+    "order_preference": 597,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -8333,7 +9299,7 @@
           "tile_width": 1,
           "tile_height": 2
         },
-        "bundle_slot": "bundle_cs_static_s10_6_gorillaangel_01"
+        "bundle_slot": "bundle_cs_static_s10_3_kittystack_01"
       },
       {
         "layout": {
@@ -8351,7 +9317,7 @@
       }
     ],
     "target_ids": [
-      "fp9_popsicle"
+      "fp10_popsicle"
     ],
     "name": "storesection_fg_default_5_name",
     "storefront": "storefront_featured",
@@ -8359,7 +9325,7 @@
   },
   {
     "id": "section_potoo",
-    "order_preference": 993,
+    "order_preference": 548,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -8386,8 +9352,7 @@
       }
     ],
     "target_ids": [
-      "fp7_potoo",
-      "fp6_potoo"
+      "fp10_potoo"
     ],
     "name": "storesection_title_potoo",
     "storefront": "storefront_featured",
@@ -8395,7 +9360,7 @@
   },
   {
     "id": "section_potoo_b",
-    "order_preference": 994,
+    "order_preference": 549,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -8429,8 +9394,7 @@
       }
     ],
     "target_ids": [
-      "fp7_potoo",
-      "fp6_potoo"
+      "fp10_potoo"
     ],
     "name": "storesection_title_potoo",
     "storefront": "storefront_featured",
@@ -8438,7 +9402,7 @@
   },
   {
     "id": "section_potoo_c",
-    "order_preference": 995,
+    "order_preference": 550,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -8465,8 +9429,7 @@
       }
     ],
     "target_ids": [
-      "fp7_potoo",
-      "fp6_potoo"
+      "fp10_potoo"
     ],
     "name": "storesection_title_potoo",
     "storefront": "storefront_featured",
@@ -8504,6 +9467,90 @@
       "disabled_year_1900"
     ],
     "name": "storesection_title_potoo",
+    "storefront": "storefront_featured",
+    "refresh_cycle_length_seconds": null
+  },
+  {
+    "id": "section_puffin",
+    "order_preference": 598,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_grabbag_puffin"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_costumeset_puffin06_01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_costumeset_puffin02_01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_victory_s10_9_ip_puffin_02"
+      }
+    ],
+    "target_ids": [
+      "fp10_puffin"
+    ],
+    "name": "storesection_puffin_name",
+    "storefront": "storefront_featured",
+    "refresh_cycle_length_seconds": null
+  },
+  {
+    "id": "section_puffin_b",
+    "order_preference": 599,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_grabbag_puffin05_01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_costumeset_puffin05_01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_costumeset_puffin04_01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_victory_s10_9_ip_puffin_01"
+      }
+    ],
+    "target_ids": [
+      "fp10_puffin"
+    ],
+    "name": "storesection_puffin_name",
     "storefront": "storefront_featured",
     "refresh_cycle_length_seconds": null
   },
@@ -8593,7 +9640,7 @@
   },
   {
     "id": "section_rainbowcats",
-    "order_preference": 749,
+    "order_preference": 578,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -8627,7 +9674,7 @@
       }
     ],
     "target_ids": [
-      "fp9_rainbowcats"
+      "fp10_rainbowcats"
     ],
     "name": "storesection_fg_default_2_name",
     "storefront": "storefront_featured",
@@ -8635,7 +9682,7 @@
   },
   {
     "id": "section_raybilly",
-    "order_preference": 946,
+    "order_preference": 531,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -8662,7 +9709,7 @@
       }
     ],
     "target_ids": [
-      "fp8_raybilly"
+      "fp10_raybilly"
     ],
     "name": "storesection_raybilly_name",
     "storefront": "storefront_featured",
@@ -8758,15 +9805,15 @@
     "section_height": 2,
     "show_refresh_timer": false,
     "target_ids": [
-      "disabled_year_1900"
+      "fp10_rmt_banana_fizz_pack"
     ],
     "bundle_slots": [
       {
         "layout": {
-          "tile_width": 1,
+          "tile_width": 2,
           "tile_height": 2
         },
-        "bundle_slot": "bundle_s10_rmt_fishingpelican_01"
+        "bundle_slot": "bundle_rmt_banana_fizz_pack"
       }
     ],
     "name": null,
@@ -8921,7 +9968,7 @@
       }
     ],
     "target_ids": [
-      "fp9_rosefinch"
+      "fp10_rosefinch"
     ],
     "name": "storesection_rosefinch_name",
     "storefront": "storefront_featured",
@@ -8956,7 +10003,7 @@
       }
     ],
     "target_ids": [
-      "fp9_rosefinch"
+      "fp10_rosefinch"
     ],
     "name": "storesection_rosefinch_b_name",
     "storefront": "storefront_featured",
@@ -8991,7 +10038,7 @@
       }
     ],
     "target_ids": [
-      "fp9_rosefinch"
+      "fp10_rosefinch"
     ],
     "name": "storesection_rosefinch_b_name",
     "storefront": "storefront_featured",
@@ -9636,7 +10683,7 @@
   },
   {
     "id": "section_sparrow",
-    "order_preference": 816,
+    "order_preference": 565,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -9663,7 +10710,7 @@
       }
     ],
     "target_ids": [
-      "fp9_bundlessparrow"
+      "fp10_bundlessparrow"
     ],
     "name": "storesection_title_sparrow_01",
     "storefront": "storefront_featured",
@@ -9671,7 +10718,7 @@
   },
   {
     "id": "section_sparrow_b",
-    "order_preference": 817,
+    "order_preference": 566,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -9698,7 +10745,7 @@
       }
     ],
     "target_ids": [
-      "fp9_bundlessparrow"
+      "fp10_bundlessparrow"
     ],
     "name": "storesection_title_sparrow_02",
     "storefront": "storefront_featured",
@@ -9729,6 +10776,90 @@
       "disabled_year_1900"
     ],
     "name": "storesection_title_sparrow_01",
+    "storefront": "storefront_featured",
+    "refresh_cycle_length_seconds": null
+  },
+  {
+    "id": "section_spiderloot",
+    "order_preference": 519,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_duo_cutespider"
+      },
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_duo_s10_sitb_lootbackpack_01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "pattern_s5_017"
+      }
+    ],
+    "target_ids": [
+      "fp10_spiderloot"
+    ],
+    "name": "storesection_fg_default_4_name",
+    "storefront": "storefront_featured",
+    "refresh_cycle_length_seconds": null
+  },
+  {
+    "id": "section_springarms_02",
+    "order_preference": 510,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_si_upper_s10_sia_springarms_02"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_cs_static_pigeon_01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_cs_static_s4_hatch_head_01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_cs_static_s6_doorguy_01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_cs_static_ss02_zogthehunter_03"
+      }
+    ],
+    "target_ids": [
+      "fp10_springarms_02"
+    ],
+    "name": "storesection_fg_default_4_name",
     "storefront": "storefront_featured",
     "refresh_cycle_length_seconds": null
   },
@@ -10153,8 +11284,50 @@
     "refresh_cycle_length_seconds": null
   },
   {
+    "id": "section_sumochicken",
+    "order_preference": 616,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_cs_static_sumochicken_01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_si_upper_top_s10_sih_poweruphair_02"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_si_uppers_10_7_sih_centurion_01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_1x2_si_upper_hatmushroom_01"
+      }
+    ],
+    "target_ids": [
+      "fp10_sumochicken"
+    ],
+    "name": "storesection_fg_default_name",
+    "storefront": "storefront_featured",
+    "refresh_cycle_length_seconds": null
+  },
+  {
     "id": "section_sunbird",
-    "order_preference": 820,
+    "order_preference": 615,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -10181,7 +11354,7 @@
       }
     ],
     "target_ids": [
-      "fp9_sunbird"
+      "fp10_sunbird"
     ],
     "name": "storesection_sunbird_name",
     "storefront": "storefront_featured",
@@ -10210,7 +11383,7 @@
   },
   {
     "id": "section_tern",
-    "order_preference": 702,
+    "order_preference": 596,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -10244,7 +11417,7 @@
       }
     ],
     "target_ids": [
-      "fp9_tern"
+      "disabled_year_1900"
     ],
     "name": "storesection_tern_name",
     "storefront": "storefront_featured",
@@ -10252,7 +11425,7 @@
   },
   {
     "id": "section_tern_b",
-    "order_preference": 703,
+    "order_preference": 597,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -10286,7 +11459,7 @@
       }
     ],
     "target_ids": [
-      "fp9_tern_b"
+      "disabled_year_1900"
     ],
     "name": "storesection_tern_name",
     "storefront": "storefront_featured",
@@ -10681,7 +11854,7 @@
   },
   {
     "id": "section_turkey_alt_3",
-    "order_preference": 916,
+    "order_preference": 582,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -10715,7 +11888,7 @@
       }
     ],
     "target_ids": [
-      "fp7_store_turkey_alt_3"
+      "disabled_year_1900"
     ],
     "name": "storesection_turkey02_name",
     "storefront": "storefront_featured",
@@ -10723,7 +11896,7 @@
   },
   {
     "id": "section_turkey_alt_4",
-    "order_preference": 917,
+    "order_preference": 584,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -10764,7 +11937,7 @@
       }
     ],
     "target_ids": [
-      "fp7_store_turkey_alt_4"
+      "disabled_year_1900"
     ],
     "name": "storesection_turkey02_name",
     "storefront": "storefront_featured",
@@ -10842,7 +12015,7 @@
   },
   {
     "id": "section_turkey_standard_1",
-    "order_preference": 378,
+    "order_preference": 581,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -10876,7 +12049,7 @@
       }
     ],
     "target_ids": [
-      "fp5_store_turkey_standard"
+      "disabled_year_1900"
     ],
     "name": "storesection_turkey02_name",
     "storefront": "storefront_featured",
@@ -10884,7 +12057,7 @@
   },
   {
     "id": "section_turkey_standard_2",
-    "order_preference": 379,
+    "order_preference": 583,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -10918,7 +12091,7 @@
       }
     ],
     "target_ids": [
-      "fp5_store_turkey_standard"
+      "disabled_year_1900"
     ],
     "name": "storesection_turkey03_name",
     "storefront": "storefront_featured",
@@ -11010,7 +12183,7 @@
   },
   {
     "id": "section_twinklycorn",
-    "order_preference": 925,
+    "order_preference": 558,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -11037,7 +12210,7 @@
       }
     ],
     "target_ids": [
-      "fp8_twinklycorn"
+      "fp10_twinklycorn"
     ],
     "name": "storesection_fg_default_5_name",
     "storefront": "storefront_featured",
@@ -11177,6 +12350,41 @@
     "refresh_cycle_length_seconds": null
   },
   {
+    "id": "section_valentinesfries_02",
+    "order_preference": 577,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_duo_valentinesfries_02"
+      },
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_duo_s10_6_puzzled"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_cs_static_s10_4_bigbite_01"
+      }
+    ],
+    "target_ids": [
+      "fp10valentines02"
+    ],
+    "name": "storesection_fg_default_4_name",
+    "storefront": "storefront_featured",
+    "refresh_cycle_length_seconds": null
+  },
+  {
     "id": "section_vegatron",
     "order_preference": 1540,
     "section_height": 2,
@@ -11289,6 +12497,132 @@
     "refresh_cycle_length_seconds": null
   },
   {
+    "id": "section_victory_fp10_01",
+    "order_preference": 516,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_victory_celebration_s6_005"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_victory_celebration_ss1_09"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_victory_celebration_ss1_08"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_celebration_ss02_02"
+      }
+    ],
+    "target_ids": [
+      "fp10_emote_06_1"
+    ],
+    "name": "storesection_fg_default_5_name",
+    "storefront": "storefront_featured",
+    "refresh_cycle_length_seconds": null
+  },
+  {
+    "id": "section_victory_fp10_02",
+    "order_preference": 601,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_celebration_generic_007"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_celebration_s6_003"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_celebration_s6_004"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_celebration_ss02_04"
+      }
+    ],
+    "target_ids": [
+      "fp10_section_victory_fp10_02"
+    ],
+    "name": "storesection_fg_default_name",
+    "storefront": "storefront_featured",
+    "refresh_cycle_length_seconds": null
+  },
+  {
+    "id": "section_victory_fp10_03",
+    "order_preference": 570,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_victory_celebration_ss02_06"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_victory_celebration_ss02_07"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_victory_celebration_ss1_06"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_victory_celebration_ss1_01"
+      }
+    ],
+    "target_ids": [
+      "fp10_victory"
+    ],
+    "name": "storesection_fg_default_2_name",
+    "storefront": "storefront_featured",
+    "refresh_cycle_length_seconds": null
+  },
+  {
     "id": "section_vulture",
     "order_preference": 977,
     "section_height": 2,
@@ -11374,7 +12708,7 @@
   },
   {
     "id": "section_warbler",
-    "order_preference": 770,
+    "order_preference": 623,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -11401,7 +12735,7 @@
       }
     ],
     "target_ids": [
-      "fp9_warbler"
+      "fp10_warbler"
     ],
     "name": "sym_storesection_title_ip_warbler",
     "storefront": "storefront_featured",
@@ -11675,7 +13009,7 @@
   },
   {
     "id": "section_wormholewanderer",
-    "order_preference": 658,
+    "order_preference": 572,
     "section_height": 2,
     "show_refresh_timer": true,
     "bundle_slots": [
@@ -11691,7 +13025,7 @@
           "tile_width": 1,
           "tile_height": 2
         },
-        "bundle_slot": "bundleslot_2x2_costumeset_s8_wormhole_01"
+        "bundle_slot": "bundle_cs_static_s8_wormhole_01"
       },
       {
         "layout": {
@@ -11709,7 +13043,7 @@
       }
     ],
     "target_ids": [
-      "fp9_wormhole"
+      "fp10_wormholewanderer"
     ],
     "name": "storesection_title_wormhole",
     "storefront": "storefront_featured",
@@ -13815,7 +15149,7 @@
       }
     ],
     "target_ids": [
-      "after_prime_global_launch"
+      "disabled_year_1900"
     ],
     "name": null,
     "storefront": "storefront_item_shop"

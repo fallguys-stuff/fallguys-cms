@@ -46,7 +46,8 @@
         },
         "rarity": "legendary"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "daily_challenges_list_parade",
@@ -103,7 +104,8 @@
         },
         "rarity": "rare"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "daily_challenges_list_s10_default",
@@ -145,7 +147,8 @@
         },
         "rarity": "rare"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "daily_challenges_list_s10_pie",
@@ -202,7 +205,8 @@
         },
         "rarity": "rare"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "daily_challenges_list_s9_compensation",
@@ -222,7 +226,8 @@
         },
         "rarity": "event_compensation_rarity"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "daily_challenges_list_s9_day1",
@@ -277,7 +282,8 @@
         },
         "rarity": "epic_kudos"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "daily_challenges_list_s9_default",
@@ -333,7 +339,8 @@
         },
         "rarity": "epic_kudos"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "daily_challenges_list_s9_haddock",
@@ -390,7 +397,8 @@
         },
         "rarity": "rare"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "daily_challenges_list_s9_haddock_01",
@@ -454,7 +462,8 @@
         },
         "rarity": "epic_kudos"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "daily_challenges_list_s9_stingray",
@@ -518,7 +527,8 @@
         },
         "rarity": "epic_kudos"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "daily_challenges_list_ss1_default",
@@ -567,7 +577,8 @@
         },
         "rarity": "epic_kudos"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "daily_challenges_list_ss1_default_2x",
@@ -616,7 +627,8 @@
         },
         "rarity": "epic_kudos"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "daily_challenges_list_ss1_week_1",
@@ -666,7 +678,8 @@
         },
         "rarity": "epic_kudos"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "daily_challenges_list_ss1_week_10",
@@ -716,7 +729,8 @@
         },
         "rarity": "epic_kudos"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "daily_challenges_list_ss1_week_12",
@@ -766,7 +780,8 @@
         },
         "rarity": "epic_kudos"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "daily_challenges_list_ss1_week_2",
@@ -816,7 +831,8 @@
         },
         "rarity": "epic_kudos"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "daily_challenges_list_ss1_week_3",
@@ -866,7 +882,8 @@
         },
         "rarity": "epic_kudos"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "daily_challenges_list_ss1_week_4",
@@ -916,7 +933,8 @@
         },
         "rarity": "epic_kudos"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "daily_challenges_list_ss1_week_5",
@@ -966,7 +984,8 @@
         },
         "rarity": "epic_kudos"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "daily_challenges_list_ss1_week_6",
@@ -1016,7 +1035,8 @@
         },
         "rarity": "epic_kudos"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "daily_challenges_list_ss1_week_8",
@@ -1066,7 +1086,8 @@
         },
         "rarity": "epic_kudos"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "daily_challenges_list_ss1_week_9",
@@ -1116,7 +1137,8 @@
         },
         "rarity": "epic_kudos"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "daily_challenges_list_ss2_day_1",
@@ -1165,7 +1187,8 @@
         },
         "rarity": "epic_kudos"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "daily_challenges_list_ss2_default",
@@ -1214,7 +1237,8 @@
         },
         "rarity": "epic_kudos"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "daily_challenges_list_ss2_week_1",
@@ -1264,7 +1288,44 @@
         },
         "rarity": "epic_kudos"
       }
-    ]
+    ],
+    "is_internal": false
+  },
+  {
+    "id": "daily_mastery_pool_fp10",
+    "challenge_pool_ids": [
+      "daily_mastery_pool_fp10"
+    ],
+    "challenge_list_ui_id": "challenge_list_ui.mastery_daily",
+    "refresh_interval_config": {
+      "type": "daily",
+      "multiplier": 1
+    },
+    "should_renew": false,
+    "rarity_distribution": [
+      {
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        },
+        "rarity": "rare"
+      },
+      {
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        },
+        "rarity": "epic"
+      },
+      {
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        },
+        "rarity": "legendary"
+      }
+    ],
+    "is_internal": false
   },
   {
     "id": "daily_pool",
@@ -1306,7 +1367,44 @@
         },
         "rarity": "rare"
       }
-    ]
+    ],
+    "is_internal": false
+  },
+  {
+    "id": "daily_pool_fp10",
+    "challenge_pool_ids": [
+      "daily_pool_fp10"
+    ],
+    "challenge_list_ui_id": "challenge_list_ui.common_daily",
+    "refresh_interval_config": {
+      "type": "daily",
+      "multiplier": 1
+    },
+    "should_renew": false,
+    "rarity_distribution": [
+      {
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        },
+        "rarity": "common"
+      },
+      {
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        },
+        "rarity": "uncommon"
+      },
+      {
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        },
+        "rarity": "rare"
+      }
+    ],
+    "is_internal": false
   },
   {
     "id": "daily_pool_fp9",
@@ -1348,7 +1446,8 @@
         },
         "rarity": "rare"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "daily_pool_fp9_b",
@@ -1390,7 +1489,8 @@
         },
         "rarity": "rare"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "daily_prime_1",
@@ -1436,7 +1536,8 @@
         },
         "rarity": "epic"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "discovery_challenges_refresh",
@@ -1489,7 +1590,8 @@
         },
         "rarity": "legendary"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "event_challenges_list_haddock_s9",
@@ -1517,7 +1619,8 @@
         },
         "rarity": "event_haddock_meta_rarity"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "event_challenges_list_hazlenut",
@@ -1565,7 +1668,8 @@
         },
         "rarity": "legendary"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "event_challenges_list_hazlenut_02",
@@ -1613,7 +1717,8 @@
         },
         "rarity": "legendary"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "event_challenges_list_kudos",
@@ -1661,7 +1766,8 @@
     ],
     "challenge_pool_ids": [
       "event_kudos"
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "event_challenges_list_parade",
@@ -1681,7 +1787,8 @@
         },
         "rarity": "event_pie_meta_rarity"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "event_challenges_list_pretzel",
@@ -1729,7 +1836,8 @@
         },
         "rarity": "event_pretzel_rarity_04"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "event_challenges_list_s10_pie",
@@ -1749,7 +1857,8 @@
         },
         "rarity": "event_pie_meta_rarity"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "event_challenges_list_stingray",
@@ -1777,7 +1886,8 @@
         },
         "rarity": "event_haddock_meta_rarity"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "event_challenges_list_wobble_ss1",
@@ -1825,7 +1935,8 @@
         },
         "rarity": "event_wobble_05"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "hourly_challenges",
@@ -1847,7 +1958,8 @@
         },
         "rarity": "common"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "marathon_challenges_list_s10_1",
@@ -1902,7 +2014,8 @@
         },
         "rarity": "legendary"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "marathon_challenges_list_s10_2",
@@ -1957,7 +2070,8 @@
         },
         "rarity": "common"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "monthly_prime_1",
@@ -2003,7 +2117,8 @@
         },
         "rarity": "epic"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "renewed_challenges",
@@ -2062,7 +2177,8 @@
         },
         "rarity": "legendary"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "s10_event_bread",
@@ -2110,7 +2226,8 @@
         },
         "rarity": "legendary"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "s9_daily_default_v2",
@@ -2166,7 +2283,8 @@
         },
         "rarity": "epic_kudos"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "s9_event_cod",
@@ -2214,7 +2332,8 @@
         },
         "rarity": "legendary"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "s9_event_salmon",
@@ -2262,7 +2381,8 @@
         },
         "rarity": "legendary"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "s9_weekly_default_v2",
@@ -2325,7 +2445,8 @@
         },
         "rarity": "bonus_fame"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "s9_weekly_default_v2_last_week",
@@ -2387,7 +2508,8 @@
         },
         "rarity": "bonus_fame"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "season_challenges_timeattack_shuffle",
@@ -2442,7 +2564,8 @@
         },
         "rarity": "bonus_fame"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "seasonal_challenges_list_s9",
@@ -2498,7 +2621,8 @@
         },
         "rarity": "legendary"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "seasonal_challenges_list_ss1",
@@ -2546,7 +2670,8 @@
         },
         "rarity": "legendary"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "seasonal_challenges_list_ss2",
@@ -2594,7 +2719,8 @@
         },
         "rarity": "legendary"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "seasonal_prime_1",
@@ -2640,7 +2766,8 @@
         },
         "rarity": "epic"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "weekend_challenges_timeattack_dizzyheights",
@@ -2681,7 +2808,8 @@
         },
         "rarity": "legendary"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "weekend_challenges_timeattack_lilyleapers_01",
@@ -2722,7 +2850,8 @@
         },
         "rarity": "legendary"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "weekend_challenges_timeattack_partyprom_01",
@@ -2763,7 +2892,8 @@
         },
         "rarity": "legendary"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "weekend_challenges_timeattack_trackattack_01",
@@ -2804,7 +2934,8 @@
         },
         "rarity": "legendary"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "weekend_challenges_timeattack_treetoptumble_01",
@@ -2845,7 +2976,8 @@
         },
         "rarity": "legendary"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "weekend_challenges_timeattack_tundrarun_01",
@@ -2886,7 +3018,8 @@
         },
         "rarity": "legendary"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "weekly_challenges_list_s10_default",
@@ -2942,7 +3075,8 @@
         },
         "rarity": "legendary"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "weekly_challenges_list_s9_default",
@@ -3005,7 +3139,8 @@
         },
         "rarity": "bonus_fame"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "weekly_challenges_list_s9_wk1",
@@ -3067,7 +3202,8 @@
         },
         "rarity": "bonus_fame"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "weekly_challenges_list_ss1_week_1",
@@ -3123,7 +3259,8 @@
         },
         "rarity": "bonus_fame"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "weekly_challenges_list_ss1_week_10",
@@ -3179,7 +3316,8 @@
         },
         "rarity": "bonus_fame"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "weekly_challenges_list_ss1_week_12",
@@ -3235,7 +3373,8 @@
         },
         "rarity": "bonus_fame"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "weekly_challenges_list_ss1_week_2",
@@ -3291,7 +3430,8 @@
         },
         "rarity": "bonus_fame"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "weekly_challenges_list_ss1_week_3",
@@ -3347,7 +3487,8 @@
         },
         "rarity": "bonus_fame"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "weekly_challenges_list_ss1_week_4",
@@ -3403,7 +3544,8 @@
         },
         "rarity": "bonus_fame"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "weekly_challenges_list_ss1_week_5",
@@ -3459,7 +3601,8 @@
         },
         "rarity": "bonus_fame"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "weekly_challenges_list_ss1_week_6",
@@ -3515,7 +3658,8 @@
         },
         "rarity": "bonus_fame"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "weekly_challenges_list_ss1_week_8",
@@ -3571,7 +3715,8 @@
         },
         "rarity": "bonus_fame"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "weekly_challenges_list_ss1_week_9",
@@ -3627,7 +3772,8 @@
         },
         "rarity": "bonus_fame"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "weekly_challenges_list_ss1_week_fill",
@@ -3684,7 +3830,8 @@
         },
         "rarity": "bonus_fame"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "weekly_challenges_list_ss1_week_fill_2x",
@@ -3741,7 +3888,8 @@
         },
         "rarity": "bonus_fame"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "weekly_challenges_list_ss2_default",
@@ -3796,7 +3944,8 @@
         },
         "rarity": "bonus_fame"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "weekly_challenges_list_ss2_week_1",
@@ -3851,7 +4000,8 @@
         },
         "rarity": "bonus_fame"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "weekly_challenges_list_ss2_week_10",
@@ -3906,7 +4056,8 @@
         },
         "rarity": "bonus_fame"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "weekly_challenges_list_ss2_week_2",
@@ -3961,7 +4112,8 @@
         },
         "rarity": "bonus_fame"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "weekly_challenges_list_ss2_week_3",
@@ -4016,7 +4168,8 @@
         },
         "rarity": "bonus_fame"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "weekly_challenges_list_ss2_week_4",
@@ -4071,7 +4224,8 @@
         },
         "rarity": "bonus_fame"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "weekly_challenges_list_ss2_week_5",
@@ -4126,7 +4280,8 @@
         },
         "rarity": "bonus_fame"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "weekly_challenges_list_ss2_week_6",
@@ -4181,7 +4336,8 @@
         },
         "rarity": "bonus_fame"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "weekly_challenges_list_ss2_week_7",
@@ -4236,7 +4392,8 @@
         },
         "rarity": "bonus_fame"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "weekly_challenges_list_ss2_week_8",
@@ -4291,7 +4448,8 @@
         },
         "rarity": "bonus_fame"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "weekly_challenges_list_ss2_week_9",
@@ -4346,7 +4504,8 @@
         },
         "rarity": "bonus_fame"
       }
-    ]
+    ],
+    "is_internal": false
   },
   {
     "id": "weekly_pool",
@@ -4402,7 +4561,37 @@
         },
         "rarity": "legendary"
       }
-    ]
+    ],
+    "is_internal": false
+  },
+  {
+    "id": "weekly_pool_fp10",
+    "challenge_pool_ids": [
+      "weekly_pool_fp10"
+    ],
+    "challenge_list_ui_id": "challenge_list_ui.common_weekly",
+    "refresh_interval_config": {
+      "type": "daily",
+      "multiplier": 7
+    },
+    "should_renew": false,
+    "rarity_distribution": [
+      {
+        "required_number": 3,
+        "cooldown_interval_config": {
+          "type": "none"
+        },
+        "rarity": "special"
+      },
+      {
+        "required_number": 2,
+        "cooldown_interval_config": {
+          "type": "none"
+        },
+        "rarity": "bonus_fame"
+      }
+    ],
+    "is_internal": false
   },
   {
     "id": "weekly_prime_1",
@@ -4448,6 +4637,7 @@
         },
         "rarity": "epic"
       }
-    ]
+    ],
+    "is_internal": false
   }
 ]

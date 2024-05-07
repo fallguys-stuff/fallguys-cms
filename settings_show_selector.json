@@ -9,22 +9,37 @@
     "background_image_discovery": "dlc_images.show_selector_default_background",
     "pills_tiles": [
       {
-        "show_selector_tab": "classic",
-        "pills_config": "show_selector_pills.classic_tiles"
+        "pills_config": "show_selector_pills.classic_tiles",
+        "show_type": "knockout"
       },
       {
-        "show_selector_tab": "discovery",
-        "pills_config": "show_selector_pills.discovery_tiles"
+        "pills_config": "show_selector_pills.discovery_tiles",
+        "show_type": "discovery"
+      },
+      {
+        "pills_config": "show_selector_pills.ultimate_party_tiles",
+        "show_type": "ultimate_party"
       }
     ],
     "pills_header": [
       {
-        "show_selector_tab": "classic",
-        "pills_config": "show_selector_pills.classic_header"
+        "pills_config": "show_selector_pills.classic_header",
+        "show_type": "knockout"
       },
       {
-        "show_selector_tab": "discovery",
-        "pills_config": "show_selector_pills.discovery_header"
+        "pills_config": "show_selector_pills.discovery_header",
+        "show_type": "discovery"
+      },
+      {
+        "pills_config": "show_selector_pills.ultimate_party_header",
+        "show_type": "ultimate_party"
+      }
+    ],
+    "show_type_tags": [
+      {
+        "tag_string": "localised_strings.ultimate_party_title",
+        "tag_image": "dlc_images.ui_showselector_explore_icon",
+        "show_type": "ultimate_party"
       }
     ],
     "default_show": "main_show"
@@ -34,8 +49,41 @@
     "display_show_expiry_timer_limit": 30,
     "upcoming_show_preview_time": 7,
     "plobbies_sharecode_tooltip_max_count": 3,
-    "pills_tiles": [],
-    "pills_header": [],
+    "pills_tiles": [
+      {
+        "pills_config": "show_selector_pills.classic_tiles",
+        "show_type": "knockout"
+      },
+      {
+        "pills_config": "show_selector_pills.discovery_tiles",
+        "show_type": "discovery"
+      },
+      {
+        "pills_config": "show_selector_pills.ultimate_party_tiles",
+        "show_type": "ultimate_party"
+      }
+    ],
+    "pills_header": [
+      {
+        "pills_config": "show_selector_pills.classic_header",
+        "show_type": "knockout"
+      },
+      {
+        "pills_config": "show_selector_pills.discovery_header",
+        "show_type": "discovery"
+      },
+      {
+        "pills_config": "show_selector_pills.ultimate_party_header",
+        "show_type": "ultimate_party"
+      }
+    ],
+    "show_type_tags": [
+      {
+        "tag_string": "localised_strings.ultimate_party_title",
+        "tag_image": "dlc_images.show_selector_crayfish",
+        "show_type": "knockout"
+      }
+    ],
     "default_show": "toms_main_show_5_2",
     "background_image": null,
     "background_image_discovery": null,

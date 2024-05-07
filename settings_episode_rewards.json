@@ -1,5 +1,39 @@
 [
   {
+    "id": "casual_show",
+    "rewards": {
+      "type": "round_based",
+      "round_based": {
+        "qualification_rewards": [
+          {
+            "group_id": "fame",
+            "item_id": "fame",
+            "quantity": 400
+          },
+          {
+            "group_id": "currencies",
+            "quantity": 20,
+            "item_id": "crown_shards"
+          }
+        ],
+        "play_rewards": []
+      }
+    },
+    "extra": {
+      "fame": 0,
+      "kudos": 0,
+      "ability_points": 0
+    },
+    "winner": {
+      "fame": 400,
+      "kudos": 0,
+      "crowns": 0,
+      "shards": 0,
+      "ability_points": 0
+    },
+    "rounds": []
+  },
+  {
     "id": "clan_of_yeetus",
     "rounds": [
       {
@@ -34,6 +68,9 @@
       "crowns": 0,
       "shards": 10,
       "ability_points": 0
+    },
+    "rewards": {
+      "type": "legacy_episode_based"
     }
   },
   {
@@ -76,6 +113,9 @@
       "crowns": 0,
       "shards": 35,
       "ability_points": 0
+    },
+    "rewards": {
+      "type": "legacy_episode_based"
     }
   },
   {
@@ -118,7 +158,155 @@
       "crowns": 0,
       "shards": 10,
       "ability_points": 0
+    },
+    "rewards": {
+      "type": "legacy_episode_based"
     }
+  },
+  {
+    "id": "example_round_based_item",
+    "rewards": {
+      "type": "round_based",
+      "round_based": {
+        "play_rewards": [
+          {
+            "group_id": "fame",
+            "item_id": "fame",
+            "quantity": 250
+          },
+          {
+            "group_id": "currencies",
+            "quantity": 2,
+            "item_id": "crown_shards"
+          }
+        ],
+        "qualification_rewards": [
+          {
+            "group_id": "currencies",
+            "quantity": 1,
+            "item_id": "crowns"
+          }
+        ]
+      }
+    },
+    "extra": {
+      "fame": 0,
+      "kudos": 0,
+      "ability_points": 0
+    },
+    "winner": {
+      "fame": 0,
+      "kudos": 0,
+      "crowns": 0,
+      "shards": 0,
+      "ability_points": 0
+    },
+    "rounds": []
+  },
+  {
+    "id": "explore_mode_rewards",
+    "rewards": {
+      "type": "round_based",
+      "round_based": {
+        "play_rewards": [
+          {
+            "group_id": "fame",
+            "item_id": "fame",
+            "quantity": 1
+          }
+        ],
+        "qualification_rewards": [
+          {
+            "group_id": "fame",
+            "item_id": "fame",
+            "quantity": 799
+          }
+        ]
+      }
+    },
+    "extra": {
+      "fame": 0,
+      "kudos": 0,
+      "ability_points": 0
+    },
+    "winner": {
+      "fame": 0,
+      "kudos": 0,
+      "crowns": 0,
+      "shards": 0,
+      "ability_points": 0
+    },
+    "rounds": []
+  },
+  {
+    "id": "explore_mode_rewards_all",
+    "rewards": {
+      "type": "round_based",
+      "round_based": {
+        "play_rewards": [
+          {
+            "group_id": "fame",
+            "item_id": "fame",
+            "quantity": 200
+          }
+        ],
+        "qualification_rewards": [
+          {
+            "group_id": "fame",
+            "item_id": "fame",
+            "quantity": 300
+          }
+        ]
+      }
+    },
+    "extra": {
+      "fame": 0,
+      "kudos": 0,
+      "ability_points": 0
+    },
+    "winner": {
+      "fame": 0,
+      "kudos": 0,
+      "crowns": 0,
+      "shards": 0,
+      "ability_points": 0
+    },
+    "rounds": []
+  },
+  {
+    "id": "explore_mode_rewards_survival",
+    "rewards": {
+      "type": "round_based",
+      "round_based": {
+        "play_rewards": [
+          {
+            "group_id": "fame",
+            "item_id": "fame",
+            "quantity": 300
+          }
+        ],
+        "qualification_rewards": [
+          {
+            "group_id": "fame",
+            "item_id": "fame",
+            "quantity": 700
+          }
+        ]
+      }
+    },
+    "extra": {
+      "fame": 0,
+      "kudos": 0,
+      "ability_points": 0
+    },
+    "winner": {
+      "fame": 0,
+      "kudos": 0,
+      "crowns": 0,
+      "shards": 0,
+      "ability_points": 0
+    },
+    "rounds": []
   },
   {
     "id": "hardmode_rewards",
@@ -160,6 +348,9 @@
       "crowns": 2,
       "shards": 0,
       "ability_points": 0
+    },
+    "rewards": {
+      "type": "legacy_episode_based"
     }
   },
   {
@@ -202,6 +393,114 @@
       "crowns": 0,
       "shards": 10,
       "ability_points": 0
+    },
+    "rewards": {
+      "type": "legacy_episode_based"
+    }
+  },
+  {
+    "id": "knockout_duos",
+    "rounds": [
+      {
+        "fame": 700,
+        "kudos": 0,
+        "ability_points": 0
+      },
+      {
+        "fame": 800,
+        "kudos": 0,
+        "ability_points": 0
+      },
+      {
+        "fame": 900,
+        "kudos": 0,
+        "ability_points": 0
+      }
+    ],
+    "extra": {
+      "fame": 900,
+      "kudos": 0,
+      "ability_points": 0
+    },
+    "winner": {
+      "fame": 1000,
+      "kudos": 0,
+      "crowns": 0,
+      "shards": 35,
+      "ability_points": 0
+    },
+    "rewards": {
+      "type": "legacy_episode_based"
+    }
+  },
+  {
+    "id": "knockout_mode_rewards",
+    "rewards": {
+      "type": "legacy_episode_based"
+    },
+    "rounds": [
+      {
+        "fame": 700,
+        "kudos": 0,
+        "ability_points": 0
+      },
+      {
+        "fame": 800,
+        "kudos": 0,
+        "ability_points": 0
+      },
+      {
+        "fame": 900,
+        "kudos": 0,
+        "ability_points": 0
+      }
+    ],
+    "extra": {
+      "fame": 900,
+      "kudos": 0,
+      "ability_points": 0
+    },
+    "winner": {
+      "fame": 1000,
+      "kudos": 0,
+      "crowns": 1,
+      "shards": 0,
+      "ability_points": 0
+    }
+  },
+  {
+    "id": "knockout_squads",
+    "rounds": [
+      {
+        "fame": 700,
+        "kudos": 0,
+        "ability_points": 0
+      },
+      {
+        "fame": 800,
+        "kudos": 0,
+        "ability_points": 0
+      },
+      {
+        "fame": 900,
+        "kudos": 0,
+        "ability_points": 0
+      }
+    ],
+    "extra": {
+      "fame": 900,
+      "kudos": 0,
+      "ability_points": 0
+    },
+    "winner": {
+      "fame": 1000,
+      "kudos": 0,
+      "crowns": 0,
+      "shards": 20,
+      "ability_points": 0
+    },
+    "rewards": {
+      "type": "legacy_episode_based"
     }
   },
   {
@@ -244,6 +543,9 @@
       "crowns": 0,
       "shards": 10,
       "ability_points": 0
+    },
+    "rewards": {
+      "type": "legacy_episode_based"
     }
   },
   {
@@ -286,6 +588,9 @@
       "crowns": 0,
       "shards": 10,
       "ability_points": 0
+    },
+    "rewards": {
+      "type": "legacy_episode_based"
     }
   },
   {
@@ -308,6 +613,9 @@
       "crowns": 0,
       "shards": 20,
       "ability_points": 0
+    },
+    "rewards": {
+      "type": "legacy_episode_based"
     }
   },
   {
@@ -350,6 +658,9 @@
       "crowns": 0,
       "shards": 1,
       "ability_points": 0
+    },
+    "rewards": {
+      "type": "legacy_episode_based"
     }
   },
   {
@@ -372,6 +683,9 @@
       "crowns": 0,
       "shards": 20,
       "ability_points": 0
+    },
+    "rewards": {
+      "type": "legacy_episode_based"
     }
   },
   {
@@ -394,6 +708,9 @@
       "crowns": 0,
       "shards": 5,
       "ability_points": 0
+    },
+    "rewards": {
+      "type": "legacy_episode_based"
     }
   },
   {
@@ -426,6 +743,9 @@
       "crowns": 0,
       "shards": 24,
       "ability_points": 0
+    },
+    "rewards": {
+      "type": "legacy_episode_based"
     }
   },
   {
@@ -468,6 +788,9 @@
       "crowns": 2,
       "shards": 0,
       "ability_points": 0
+    },
+    "rewards": {
+      "type": "legacy_episode_based"
     }
   },
   {
@@ -510,6 +833,9 @@
       "crowns": 1,
       "shards": 0,
       "ability_points": 0
+    },
+    "rewards": {
+      "type": "legacy_episode_based"
     }
   },
   {
@@ -552,6 +878,9 @@
       "crowns": 2,
       "shards": 0,
       "ability_points": 0
+    },
+    "rewards": {
+      "type": "legacy_episode_based"
     }
   },
   {
@@ -594,6 +923,9 @@
       "crowns": 0,
       "shards": 10,
       "ability_points": 0
+    },
+    "rewards": {
+      "type": "legacy_episode_based"
     }
   },
   {
@@ -636,6 +968,9 @@
       "crowns": 1,
       "shards": 0,
       "ability_points": 0
+    },
+    "rewards": {
+      "type": "legacy_episode_based"
     }
   },
   {
@@ -678,6 +1013,9 @@
       "crowns": 0,
       "shards": 20,
       "ability_points": 0
+    },
+    "rewards": {
+      "type": "legacy_episode_based"
     }
   },
   {
@@ -720,6 +1058,9 @@
       "crowns": 1,
       "shards": 0,
       "ability_points": 0
+    },
+    "rewards": {
+      "type": "legacy_episode_based"
     }
   },
   {
@@ -762,6 +1103,9 @@
       "crowns": 0,
       "shards": 15,
       "ability_points": 0
+    },
+    "rewards": {
+      "type": "legacy_episode_based"
     }
   },
   {
@@ -804,6 +1148,9 @@
       "crowns": 0,
       "shards": 35,
       "ability_points": 0
+    },
+    "rewards": {
+      "type": "legacy_episode_based"
     }
   },
   {
@@ -846,6 +1193,9 @@
       "crowns": 0,
       "shards": 25,
       "ability_points": 0
+    },
+    "rewards": {
+      "type": "legacy_episode_based"
     }
   },
   {
@@ -888,6 +1238,9 @@
       "crowns": 0,
       "shards": 20,
       "ability_points": 0
+    },
+    "rewards": {
+      "type": "legacy_episode_based"
     }
   },
   {
@@ -910,6 +1263,9 @@
       "crowns": 0,
       "shards": 12,
       "ability_points": 0
+    },
+    "rewards": {
+      "type": "legacy_episode_based"
     }
   },
   {
@@ -937,6 +1293,9 @@
       "crowns": 0,
       "shards": 15,
       "ability_points": 0
+    },
+    "rewards": {
+      "type": "legacy_episode_based"
     }
   },
   {
@@ -979,6 +1338,9 @@
       "crowns": 0,
       "shards": 40,
       "ability_points": 0
+    },
+    "rewards": {
+      "type": "legacy_episode_based"
     }
   },
   {
@@ -1001,6 +1363,9 @@
       "crowns": 0,
       "shards": 5,
       "ability_points": 0
+    },
+    "rewards": {
+      "type": "legacy_episode_based"
     }
   },
   {
@@ -1043,6 +1408,9 @@
       "crowns": 0,
       "shards": 25,
       "ability_points": 0
+    },
+    "rewards": {
+      "type": "legacy_episode_based"
     }
   },
   {
@@ -1065,6 +1433,9 @@
       "crowns": 0,
       "shards": 0,
       "ability_points": 0
+    },
+    "rewards": {
+      "type": "legacy_episode_based"
     }
   },
   {
@@ -1107,6 +1478,9 @@
       "crowns": 1,
       "shards": 0,
       "ability_points": 0
+    },
+    "rewards": {
+      "type": "legacy_episode_based"
     }
   }
 ]

@@ -969,6 +969,25 @@
     "title": null
   },
   {
+    "id": "complete_daily_2",
+    "target": {
+      "type": "aggregate",
+      "value": 2
+    },
+    "description": "localised_strings.challenge_desc_complete_milestone",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_list_daily"
+      }
+    ],
+    "challenge_tags": [
+      "daily_mastery_challenge"
+    ],
+    "player_action_id": "complete_daily_challenges",
+    "title": null
+  },
+  {
     "id": "complete_daily_20",
     "target": {
       "type": "aggregate",
@@ -992,6 +1011,44 @@
     "target": {
       "type": "aggregate",
       "value": 3
+    },
+    "description": "localised_strings.challenge_desc_complete_milestone",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_list_daily"
+      }
+    ],
+    "challenge_tags": [
+      "weekly_challenge"
+    ],
+    "player_action_id": "complete_daily_challenges",
+    "title": null
+  },
+  {
+    "id": "complete_daily_5",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_complete_milestone",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_list_daily"
+      }
+    ],
+    "challenge_tags": [
+      "weekly_challenge"
+    ],
+    "player_action_id": "complete_daily_challenges",
+    "title": null
+  },
+  {
+    "id": "complete_daily_7",
+    "target": {
+      "type": "aggregate",
+      "value": 7
     },
     "description": "localised_strings.challenge_desc_complete_milestone",
     "description_parameters": [
@@ -1679,6 +1736,29 @@
     "title": null
   },
   {
+    "id": "daily_play_rounds_3",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "play_round_any",
+    "title": null
+  },
+  {
     "id": "daily_play_show_almond_ss2_w1",
     "target": {
       "type": "aggregate",
@@ -2158,6 +2238,52 @@
     ],
     "challenge_tags": [
       "daily_challenge"
+    ],
+    "player_action_id": "qualify_from_rounds",
+    "title": null
+  },
+  {
+    "id": "daily_qualify_10",
+    "target": {
+      "type": "aggregate",
+      "value": 10
+    },
+    "description": "localised_strings.challenge_desc_004_show_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_from_rounds",
+    "title": null
+  },
+  {
+    "id": "daily_qualify_30",
+    "target": {
+      "type": "aggregate",
+      "value": 30
+    },
+    "description": "localised_strings.challenge_desc_004_show_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_mastery_challenge"
     ],
     "player_action_id": "qualify_from_rounds",
     "title": null
@@ -3456,6 +3582,44 @@
       {
         "type": "numeric",
         "numeric_value": 3000
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_ran",
+    "title": null
+  },
+  {
+    "id": "daily_run_distance_30000",
+    "target": {
+      "type": "aggregate",
+      "value": 5000
+    },
+    "description": "localised_strings.challenge_desc_024",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 5000
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_ran",
+    "title": null
+  },
+  {
+    "id": "daily_run_distance_5000",
+    "target": {
+      "type": "aggregate",
+      "value": 5000
+    },
+    "description": "localised_strings.challenge_desc_024",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 5000
       }
     ],
     "challenge_tags": [
@@ -6836,6 +7000,75 @@
       "seasonal_challenge"
     ],
     "player_action_id": "qualify_from_rounds",
+    "title": null
+  },
+  {
+    "id": "mastery_epic_survive_survival_60s_15",
+    "target": {
+      "type": "aggregate",
+      "value": 15
+    },
+    "description": "localised_strings.challenge_desc_survive_time_in_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 60
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_round_type_survival"
+      }
+    ],
+    "challenge_tags": [
+      "daily_mastery_challenge"
+    ],
+    "player_action_id": "survive_time_survival_rounds_60",
+    "title": null
+  },
+  {
+    "id": "mastery_play_rounds_45",
+    "target": {
+      "type": "aggregate",
+      "value": 30
+    },
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_mastery_challenge"
+    ],
+    "player_action_id": "play_round_any",
+    "title": null
+  },
+  {
+    "id": "mastery_qualify_in_45_sec",
+    "target": {
+      "type": "aggregate",
+      "value": 15
+    },
+    "description": "localised_strings.challenge_desc_004_time",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "numeric",
+        "numeric_value": 45
+      }
+    ],
+    "challenge_tags": [
+      "daily_mastery_challenge"
+    ],
+    "player_action_id": "qualify_from_a_round_in_45s",
     "title": null
   },
   {
@@ -16433,6 +16666,29 @@
     ],
     "challenge_tags": [],
     "player_action_id": "player_round_solo_score",
+    "title": null
+  },
+  {
+    "id": "weekly_qualify_40",
+    "target": {
+      "type": "aggregate",
+      "value": 40
+    },
+    "description": "localised_strings.challenge_desc_004_general",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [
+      "weekly_challenge"
+    ],
+    "player_action_id": "qualify_from_rounds",
     "title": null
   },
   {

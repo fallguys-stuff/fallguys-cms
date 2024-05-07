@@ -2,11 +2,31 @@
   {
     "id": "gamemode_gauntlet",
     "game_mode_client_id": "GAMEMODE_GAUNTLET",
+    "show_templates": [
+      {
+        "type": "fraggle",
+        "template": "fraggle_gamemode_gauntlet_template"
+      },
+      {
+        "type": "ultimate_party",
+        "template": "ultimate_party_template_race"
+      }
+    ],
     "levels_archetype_id": "archetype_race"
   },
   {
     "id": "gamemode_survival",
     "game_mode_client_id": "GAMEMODE_SURVIVAL",
+    "show_templates": [
+      {
+        "type": "fraggle",
+        "template": "fraggle_gamemode_survival_template"
+      },
+      {
+        "type": "ultimate_party",
+        "template": "ultimate_party_template_survival"
+      }
+    ],
     "levels_archetype_id": "archetype_survival"
   }
 ]

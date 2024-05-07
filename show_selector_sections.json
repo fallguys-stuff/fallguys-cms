@@ -1,122 +1,17 @@
 [
   {
-    "id": "compete_section",
-    "section_title": "localised_strings.show_selector_compete",
-    "sorting_index": 2,
-    "section": {
-      "type": "cms_shows",
-      "gates": [
-        {
-          "gate": "schedule_items.show_fp5_solos_show"
-        },
-        {
-          "gate": "schedule_items.turbo_2_show"
-        },
-        {
-          "gate": "schedule_items.wle_mrs_survival_showdown"
-        },
-        {
-          "gate": "schedule_items.show_s10_hex_a_thon_02"
-        },
-        {
-          "gate": "schedule_items.show_s10_squad_celebration_01"
-        },
-        {
-          "gate": "schedule_items.show_s10_blast_ball_trials_01"
-        },
-        {
-          "gate": "schedule_items.fall_ball_cup"
-        },
-        {
-          "gate": "schedule_items.show_s10_stompin_ground_stand_off_01"
-        },
-        {
-          "gate": "schedule_items.show_s10_thin_ice_trials_01"
-        },
-        {
-          "gate": "schedule_items.show_classic_knockout"
-        },
-        {
-          "gate": "schedule_items.show_only_floor_fall_low_grav1"
-        },
-        {
-          "gate": "schedule_items.hoverboarding_time"
-        },
-        {
-          "gate": "schedule_items.day_at_the_races_squads"
-        },
-        {
-          "gate": "schedule_items.slime_climb_time"
-        },
-        {
-          "gate": "schedule_items.invisibeans_pistachio_template"
-        },
-        {
-          "gate": "schedule_items.xtreme_solos1"
-        },
-        {
-          "gate": "schedule_items.lily_leapers_limbo"
-        },
-        {
-          "gate": "schedule_items.blast_ball_bangers"
-        },
-        {
-          "gate": "schedule_items.show_wle_s10_wk08_mrs_bagel"
-        },
-        {
-          "gate": "schedule_items.ring_hexathlon"
-        },
-        {
-          "gate": "schedule_items.xtreme_squads"
-        },
-        {
-          "gate": "schedule_items.pixel_palooza"
-        },
-        {
-          "gate": "schedule_items.survival_of_the_fittest2"
-        },
-        {
-          "gate": "schedule_items.jump_around"
-        },
-        {
-          "gate": "schedule_items.show_s10_finals_marathon_01"
-        },
-        {
-          "gate": "schedule_items.button_basher_royale"
-        }
-      ]
-    }
-  },
-  {
     "id": "recommended_section",
     "section_title": "localised_strings.show_selector_recommended",
     "sorting_index": 1,
     "section": {
       "type": "cms_shows",
+      "use_big_tiles": true,
       "gates": [
         {
-          "gate": "schedule_items.no_elimination_show"
+          "gate": "schedule_items.knockout_mode"
         },
         {
-          "gate": "schedule_items.event_april_fools"
-        },
-        {
-          "gate": "schedule_items.wle_shuffle_survival"
-        },
-        {
-          "gate": "schedule_items.shuffle_discover"
-        },
-        {
-          "gate": "schedule_items.shuffle_chill"
-        },
-        {
-          "gate": "schedule_items.wle_mrs_ugc_playful_pioneers"
-        },
-        {
-          "gate": "schedule_items.wle_mrs_shuffle_show"
-        },
-        {
-          "gate": "schedule_items.shuffle_playful"
+          "gate": "schedule_items.casual_show"
         }
       ]
     }
@@ -127,158 +22,68 @@
     "sorting_index": 3,
     "section": {
       "type": "cms_shows",
+      "use_big_tiles": false,
       "gates": [
         {
-          "gate": "schedule_items.show_s10_squads_show"
+          "gate": "schedule_items.knockout_squads"
         },
         {
-          "gate": "schedule_items.show_s10_duos_show"
-        },
-        {
-          "gate": "schedule_items.wle_mrs_shuffle_show_squads"
+          "gate": "schedule_items.knockout_duos"
         }
       ]
     }
   },
   {
-    "id": "wle_discovery_daily_trending",
-    "section_title": "localised_strings.wle_discovery_section_daily_trending_add",
-    "sorting_index": 3,
-    "section": {
-      "type": "discovery",
-      "discovery_query": "discovery_queries.daily_trending",
-      "discovery_section_priority": 0,
-      "discovery_duplicated_allowed": false
-    }
-  },
-  {
-    "id": "wle_discovery_monthly_trending",
-    "section_title": "localised_strings.wle_discovery_section_monthly_trending_add",
-    "sorting_index": 12,
-    "section": {
-      "type": "discovery",
-      "discovery_query": "discovery_queries.monthly_trending",
-      "discovery_section_priority": 4,
-      "discovery_duplicated_allowed": true
-    }
-  },
-  {
-    "id": "wle_discovery_new_rounds",
-    "section_title": "localised_strings.wle_discovery_section_new_rounds_add",
+    "id": "wle_discovery_recent_hangout",
+    "section_title": "localised_strings.wle_discovery_section_hangout_trending",
     "sorting_index": 4,
     "section": {
       "type": "discovery",
-      "discovery_query": "discovery_queries.newer_rounds",
-      "discovery_section_priority": 2,
-      "discovery_duplicated_allowed": false
+      "discovery_query": "discovery_queries.recent_hits_hangout",
+      "discovery_section_priority": 3,
+      "discovery_duplicated_allowed": true
     }
   },
   {
-    "id": "wle_discovery_weekly_art",
-    "section_title": "localised_strings.wle_discovery_section_art_trending",
+    "id": "wle_discovery_recent_hard",
+    "section_title": "localised_strings.wle_discovery_section_hard_trending",
     "sorting_index": 5,
     "section": {
       "type": "discovery",
-      "discovery_query": "discovery_queries.weekly_art",
+      "discovery_query": "discovery_queries.recent_hits_hard",
       "discovery_section_priority": 3,
       "discovery_duplicated_allowed": true
     }
   },
   {
-    "id": "wle_discovery_weekly_chill",
-    "section_title": "localised_strings.wle_discovery_section_chill_trending",
+    "id": "wle_discovery_recent_hits_art",
+    "section_title": "localised_strings.wle_discovery_section_art_trending",
+    "sorting_index": 3,
+    "section": {
+      "type": "discovery",
+      "discovery_query": "discovery_queries.recent_hits_art",
+      "discovery_section_priority": 3,
+      "discovery_duplicated_allowed": true
+    }
+  },
+  {
+    "id": "wle_discovery_recent_hits_race",
+    "section_title": "localised_strings.wle_discovery_section_weekly_trending",
     "sorting_index": 1,
     "section": {
       "type": "discovery",
-      "discovery_query": "discovery_queries.weekly_chill",
-      "discovery_section_priority": 3,
-      "discovery_duplicated_allowed": true
-    }
-  },
-  {
-    "id": "wle_discovery_weekly_coop",
-    "section_title": "localised_strings.wle_discovery_section_coop_trending",
-    "sorting_index": 8,
-    "section": {
-      "type": "discovery",
-      "discovery_query": "discovery_queries.weekly_coop",
-      "discovery_section_priority": 3,
-      "discovery_duplicated_allowed": true
-    }
-  },
-  {
-    "id": "wle_discovery_weekly_hangout",
-    "section_title": "localised_strings.wle_discovery_section_hangout_trending",
-    "sorting_index": 10,
-    "section": {
-      "type": "discovery",
-      "discovery_query": "discovery_queries.weekly_hangout",
-      "discovery_section_priority": 3,
-      "discovery_duplicated_allowed": true
-    }
-  },
-  {
-    "id": "wle_discovery_weekly_parkour",
-    "section_title": "localised_strings.wle_discovery_section_parkour_trending",
-    "sorting_index": 7,
-    "section": {
-      "type": "discovery",
-      "discovery_query": "discovery_queries.weekly_parkour",
-      "discovery_section_priority": 3,
-      "discovery_duplicated_allowed": true
-    }
-  },
-  {
-    "id": "wle_discovery_weekly_prank",
-    "section_title": "localised_strings.wle_discovery_section_prank_trending",
-    "sorting_index": 9,
-    "section": {
-      "type": "discovery",
-      "discovery_query": "discovery_queries.weekly_prank",
-      "discovery_section_priority": 3,
-      "discovery_duplicated_allowed": true
-    }
-  },
-  {
-    "id": "wle_discovery_weekly_puzzle",
-    "section_title": "localised_strings.wle_discovery_section_puzzle_trending",
-    "sorting_index": 6,
-    "section": {
-      "type": "discovery",
-      "discovery_query": "discovery_queries.weekly_puzzle",
-      "discovery_section_priority": 3,
-      "discovery_duplicated_allowed": true
-    }
-  },
-  {
-    "id": "wle_discovery_weekly_quick",
-    "section_title": "localised_strings.wle_discovery_section_quick_trending",
-    "sorting_index": 11,
-    "section": {
-      "type": "discovery",
-      "discovery_query": "discovery_queries.weekly_quick",
-      "discovery_section_priority": 3,
-      "discovery_duplicated_allowed": true
-    }
-  },
-  {
-    "id": "wle_discovery_weekly_survival",
-    "section_title": "localised_strings.wle_discovery_section_weekly_survival",
-    "sorting_index": 0,
-    "section": {
-      "type": "discovery",
-      "discovery_query": "discovery_queries.weekly_survival",
-      "discovery_section_priority": 0,
+      "discovery_query": "discovery_queries.recent_hits_race",
+      "discovery_section_priority": 1,
       "discovery_duplicated_allowed": false
     }
   },
   {
-    "id": "wle_discovery_weekly_trending",
-    "section_title": "localised_strings.wle_discovery_section_weekly_trending_add",
+    "id": "wle_discovery_recent_survival",
+    "section_title": "localised_strings.wle_discovery_section_weekly_survival",
     "sorting_index": 2,
     "section": {
       "type": "discovery",
-      "discovery_query": "discovery_queries.weekly_trending",
+      "discovery_query": "discovery_queries.recent_hits_survival",
       "discovery_section_priority": 1,
       "discovery_duplicated_allowed": false
     }

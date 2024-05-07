@@ -1,0 +1,30 @@
+[
+  {
+    "id": "direct",
+    "description": "Single round; UGC level; share-code chosen directly.",
+    "is_v2_round_processing_enabled": false,
+    "is_v2_reward_processing_enabled": false,
+    "is_v2_metric_processing_enabled": false
+  },
+  {
+    "id": "discovery",
+    "description": "Single round; UGC level; picked from discover tab.",
+    "is_v2_round_processing_enabled": false,
+    "is_v2_reward_processing_enabled": false,
+    "is_v2_metric_processing_enabled": false
+  },
+  {
+    "id": "knockout",
+    "description": "Finite rounds; each gated by qualification from last. Qualifying from last round means winning the show.",
+    "is_v2_round_processing_enabled": false,
+    "is_v2_reward_processing_enabled": false,
+    "is_v2_metric_processing_enabled": false
+  },
+  {
+    "id": "ultimate_party",
+    "description": "Infinite rounds with no qualification requirements; round skipping allowed.",
+    "is_v2_round_processing_enabled": true,
+    "is_v2_reward_processing_enabled": true,
+    "is_v2_metric_processing_enabled": true
+  }
+]
