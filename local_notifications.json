@@ -1,7 +1,6 @@
 [
   {
     "id": "debug_notification",
-    "is_enabled": false,
     "notification_type": "basic",
     "notification_title": "localised_strings.show_name_debug_lobbies",
     "notification_body": "localised_strings.show_desc_debug_lobbies",
@@ -9,14 +8,10 @@
       "schedule_type": "dynamic",
       "elapsed_time": [
         {
-          "days": 0,
-          "hours": 0,
           "minutes": 1
         }
       ]
-    },
-    "priority": 0,
-    "priority_override": false
+    }
   },
   {
     "id": "new_show_started",
@@ -26,9 +21,7 @@
     "notification_body": "localised_strings.notification_body_show_started",
     "schedule": {
       "schedule_type": "custom"
-    },
-    "priority": 0,
-    "priority_override": false
+    }
   },
   {
     "id": "new_store_items",
@@ -44,24 +37,16 @@
       },
       "elapsed_time": [
         {
-          "days": 2,
-          "hours": 0,
-          "minutes": 0
+          "days": 2
         },
         {
-          "days": 4,
-          "hours": 0,
-          "minutes": 0
+          "days": 4
         },
         {
-          "days": 6,
-          "hours": 0,
-          "minutes": 0
+          "days": 6
         }
       ]
-    },
-    "priority": 0,
-    "priority_override": false
+    }
   },
   {
     "id": "next_season_reward",
@@ -72,29 +57,18 @@
     "schedule": {
       "schedule_type": "scheduled",
       "target_time": {
-        "hour": 18,
-        "minute": 0
+        "hour": 18
       },
       "elapsed_time": [
+        {},
         {
-          "days": 0,
-          "hours": 0,
-          "minutes": 0
+          "days": 2
         },
         {
-          "days": 2,
-          "hours": 0,
-          "minutes": 0
-        },
-        {
-          "days": 6,
-          "hours": 0,
-          "minutes": 0
+          "days": 6
         }
       ]
-    },
-    "priority": 0,
-    "priority_override": false
+    }
   },
   {
     "id": "season_ending",
@@ -104,9 +78,7 @@
     "notification_body": "localised_strings.notification_body_season_ending",
     "schedule": {
       "schedule_type": "custom"
-    },
-    "priority": 0,
-    "priority_override": false
+    }
   },
   {
     "id": "season_started",
@@ -116,9 +88,7 @@
     "notification_body": "localised_strings.notification_body_season_started",
     "schedule": {
       "schedule_type": "custom"
-    },
-    "priority": 0,
-    "priority_override": false
+    }
   },
   {
     "id": "show_ending",
@@ -128,8 +98,6 @@
     "notification_body": "localised_strings.notification_body_show_ending",
     "schedule": {
       "schedule_type": "custom"
-    },
-    "priority": 0,
-    "priority_override": false
+    }
   }
 ]

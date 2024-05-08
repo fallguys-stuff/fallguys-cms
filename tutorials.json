@@ -6,7 +6,6 @@
     "message_auto_close_delay": 3,
     "drop_egg_msg_delay": 2,
     "nice_drop_msg_delay": 1,
-    "tutorial_setup_index": 0,
     "tutorial_setup_list": [
       {
         "tutorial_scene_name": "FallGuy_GreenRoom_01",
@@ -30,8 +29,7 @@
             "control_instructions": [
               "tutorial_jump_inst_1"
             ],
-            "on_enter_message": "tutorial_jump_obj_enter",
-            "on_exit_message": null
+            "on_enter_message": "tutorial_jump_obj_enter"
           },
           {
             "id": "camera_prompt",
@@ -41,9 +39,7 @@
             "control_instructions": [
               "tutorial_cam_inst_1",
               "tutorial_cam_inst_3"
-            ],
-            "on_enter_message": null,
-            "on_exit_message": null
+            ]
           },
           {
             "id": "grab_prompt",
@@ -53,8 +49,7 @@
             "control_instructions": [
               "tutorial_grab_inst_2"
             ],
-            "on_enter_message": "tutorial_grab_obj_enter",
-            "on_exit_message": null
+            "on_enter_message": "tutorial_grab_obj_enter"
           },
           {
             "id": "dive_prompt",
@@ -64,8 +59,7 @@
             "control_instructions": [
               "tutorial_dive_inst_1"
             ],
-            "on_enter_message": "tutorial_dive_obj_enter",
-            "on_exit_message": null
+            "on_enter_message": "tutorial_dive_obj_enter"
           }
         ],
         "message_prompts": [
