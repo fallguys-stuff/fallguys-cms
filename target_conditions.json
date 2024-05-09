@@ -1557,6 +1557,17 @@
     }
   },
   {
+    "id": "fp10_beanmachine",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-05-15T10:00:00",
+        "end": "2024-06-18T09:59:59"
+      }
+    }
+  },
+  {
     "id": "fp10_blt",
     "parameters": {
       "type": "date_time",
@@ -2113,6 +2124,17 @@
         "operator": "between",
         "start": "2024-05-15T12:00:00",
         "end": "2025-07-16T11:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp10_rmt_hugalotl_pack",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-05-15T12:00:00",
+        "end": "2025-06-10T11:59:59"
       }
     }
   },
@@ -5471,6 +5493,36 @@
         },
         "bundle": {
           "id": "bundle_rmt_banana_fizz_pack"
+        }
+      }
+    }
+  },
+  {
+    "id": "has_not_purchased_rmt_beanmachine_pack",
+    "parameters": {
+      "type": "purchase_history",
+      "data": {
+        "bundle": {
+          "id": "bundle_rmt_beanmachine_pack"
+        },
+        "quantity": {
+          "operator": "less_than",
+          "max": 1
+        }
+      }
+    }
+  },
+  {
+    "id": "has_not_purchased_rmt_hugalotl_pack",
+    "parameters": {
+      "type": "purchase_history",
+      "data": {
+        "quantity": {
+          "operator": "less_than",
+          "max": 1
+        },
+        "bundle": {
+          "id": "bundle_rmt_hugalotl_pack"
         }
       }
     }
