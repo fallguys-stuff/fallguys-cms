@@ -14349,6 +14349,20 @@
     }
   },
   {
+    "id": "target_region_availability_emb",
+    "parameters": {
+      "type": "country_from_ip",
+      "data": {
+        "operator": "not_one_of",
+        "2_digit_country_codes": [
+          "BY",
+          "CN",
+          "RU"
+        ]
+      }
+    }
+  },
+  {
     "id": "target_s10_6_racoon_03_not_owned",
     "parameters": {
       "type": "item_quantity",

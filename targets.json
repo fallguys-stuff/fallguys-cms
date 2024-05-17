@@ -113,6 +113,14 @@
     "conditions": []
   },
   {
+    "id": "after_prime_global_launch_flowerpecker",
+    "condition_ids": [
+      "is_after_prime_global_launch",
+      "target_region_availability_emb"
+    ],
+    "conditions": []
+  },
+  {
     "id": "after_prime_global_launch_switch_excluded",
     "condition_ids": [
       "is_after_prime_global_launch",
@@ -4580,6 +4588,14 @@
     "conditions": []
   },
   {
+    "id": "fp10_active_dates_emb",
+    "condition_ids": [
+      "fp10_active_dates",
+      "target_region_availability_emb"
+    ],
+    "conditions": []
+  },
+  {
     "id": "fp10_beanmachine",
     "condition_ids": [
       "fp10_beanmachine"
@@ -4736,7 +4752,8 @@
   {
     "id": "fp10_flowerpecker",
     "condition_ids": [
-      "fp10_flowerpecker"
+      "fp10_flowerpecker",
+      "target_region_availability_emb"
     ],
     "conditions": []
   },
@@ -11947,6 +11964,14 @@
     "condition_ids": [
       "target_event_peacock_01_is_not_owned",
       "target_event_peacock_01_is_owned_lower"
+    ],
+    "conditions": []
+  },
+  {
+    "id": "target_region_availability_emb",
+    "condition_ids": [
+      "target_region_availability_emb",
+      "is_after_prime_global_launch"
     ],
     "conditions": []
   },

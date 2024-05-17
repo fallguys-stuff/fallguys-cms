@@ -1,7 +1,7 @@
 [
   {
-    "id": "recommended_section",
-    "section_title": "localised_strings.show_selector_recommended",
+    "id": "maingame_section",
+    "section_title": "localised_strings.show_selector_main_games",
     "sorting_index": 1,
     "section": {
       "type": "cms_shows",
@@ -12,6 +12,19 @@
         },
         {
           "gate": "schedule_items.casual_show"
+        }
+      ]
+    }
+  },
+  {
+    "id": "recommended_section",
+    "section_title": "localised_strings.show_selector_recommended",
+    "sorting_index": 2,
+    "section": {
+      "type": "cms_shows",
+      "gates": [
+        {
+          "gate": "schedule_items.xtreme_squads"
         }
       ]
     }
