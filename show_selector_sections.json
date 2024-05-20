@@ -17,19 +17,6 @@
     }
   },
   {
-    "id": "recommended_section",
-    "section_title": "localised_strings.show_selector_recommended",
-    "sorting_index": 2,
-    "section": {
-      "type": "cms_shows",
-      "gates": [
-        {
-          "gate": "schedule_items.xtreme_squads"
-        }
-      ]
-    }
-  },
-  {
     "id": "team_games_section",
     "section_title": "localised_strings.show_selector_team_games",
     "sorting_index": 3,
@@ -41,6 +28,9 @@
         },
         {
           "gate": "schedule_items.knockout_duos"
+        },
+        {
+          "gate": "schedule_items.xtreme_squads"
         }
       ]
     }
