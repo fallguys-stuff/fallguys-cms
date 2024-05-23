@@ -1,5 +1,75 @@
 [
   {
+    "id": "1x2_costumeset_eldritch_fiend_static",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 600,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_s09_cthulu_02"
+        },
+        {
+          "type": "costumes_upper",
+          "item_id": "top_s09_cthulu_02"
+        }
+      ],
+      "extra": []
+    },
+    "display_name": "costume_s09_cthulu_02",
+    "bundle_description": "bundle_desc_costumeset_default",
+    "bundle_type_subtitle": "bundle_subtitle_default",
+    "rarity": "epic",
+    "category": "currency",
+    "bundle_tile_image": "ui_costumeset_cthulu_variant_01",
+    "bundle_background_custom_gradient_image": "bundle_bg_1x2_dreamy_pinkblue"
+  },
+  {
+    "id": "1x2_costumeset_propellahat_01_static",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 500,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_s4_propella_hat_01"
+        },
+        {
+          "type": "costumes_upper",
+          "item_id": "top_s4_propella_hat_01"
+        }
+      ],
+      "extra": []
+    },
+    "display_name": "costume_s4_propella_hat_01",
+    "bundle_description": "bundle_description_default",
+    "bundle_type_subtitle": "bundle_subtitle_default",
+    "rarity": "rare",
+    "category": "currency",
+    "bundle_tile_image": "bundle_1x2_costumeset_propellahat_01",
+    "bundle_background_custom_gradient_image": "background_1x2_octodusa"
+  },
+  {
     "id": "bundle_1x1_color_gen06",
     "has_stock": true,
     "stock": 1,
@@ -2231,6 +2301,30 @@
     "bundle_tile_image": "bundle_1x2_costumeset_eggshell_02",
     "bundle_background_custom_gradient_image": "bundle_bg_1x2_birds_skyblue",
     "ribbon_label_text": "storelabel_discount_primos"
+  },
+  {
+    "id": "bundle_1x2_costumeset_eldritch_fiend",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "costume_set",
+      "purchase_options": {
+        "type": "currencies",
+        "item_id": "gems"
+      },
+      "cosmetics": [
+        {
+          "type": "costume_sets",
+          "item_id": "costumeset_s09_cthulu"
+        }
+      ]
+    },
+    "display_name": "costume_s09_cthulu_02",
+    "bundle_description": "bundle_desc_costumeset_default",
+    "bundle_type_subtitle": "bundle_subtitle_default",
+    "rarity": "epic",
+    "category": "currency",
+    "bundle_tile_image": "ui_costumeset_cthulu_variant_01"
   },
   {
     "id": "bundle_1x2_costumeset_elf_01",
@@ -31620,6 +31714,7 @@
       ],
       "extra": []
     },
+    "show_ribbon_label": true,
     "display_name": "bundle_duo_puzzled_name",
     "bundle_description": "bundle_duo_puzzled_desc",
     "bundle_type_subtitle": "bundle_duo_puzzled_subtitle",
@@ -54579,8 +54674,8 @@
       "extra": []
     },
     "display_name": "pattern_s10_3_comicnook",
-    "bundle_description": "bundle_desc_color-pattern_default",
-    "bundle_type_subtitle": "bundle_subtitle_color-pattern_default",
+    "bundle_description": "blank_sym_store_bundle_desc",
+    "bundle_type_subtitle": "bundle_subtitle_pattern_default01",
     "rarity": "uncommon",
     "category": "currency",
     "bundle_background_custom_gradient_image": "bundle_bg_1x2_dreamy_pinkblue"
