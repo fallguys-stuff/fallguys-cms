@@ -1,5 +1,27 @@
 [
   {
+    "id": "classsic_games",
+    "section_title": "localised_strings.shows_selector_classic_games",
+    "sorting_index": 2,
+    "section": {
+      "type": "cms_shows",
+      "gates": [
+        {
+          "gate": "schedule_items.show_s10_solos_show"
+        },
+        {
+          "gate": "schedule_items.show_s10_duos_show"
+        },
+        {
+          "gate": "schedule_items.show_s10_squads_show"
+        },
+        {
+          "gate": "schedule_items.xtreme_squads"
+        }
+      ]
+    }
+  },
+  {
     "id": "maingame_section",
     "section_title": "localised_strings.show_selector_main_games",
     "sorting_index": 1,
@@ -12,25 +34,6 @@
         },
         {
           "gate": "schedule_items.casual_show"
-        }
-      ]
-    }
-  },
-  {
-    "id": "team_games_section",
-    "section_title": "localised_strings.show_selector_team_games",
-    "sorting_index": 3,
-    "section": {
-      "type": "cms_shows",
-      "gates": [
-        {
-          "gate": "schedule_items.knockout_squads"
-        },
-        {
-          "gate": "schedule_items.knockout_duos"
-        },
-        {
-          "gate": "schedule_items.xtreme_squads"
         }
       ]
     }

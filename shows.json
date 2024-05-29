@@ -8424,6 +8424,7 @@
     "closes_at": "2030-01-01T09:00:00",
     "content_label": "localised_strings.show_content_label_show",
     "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "display_while_upcoming": true,
     "top_tags": [],
     "show_tag": "show_tag_time_attack",
     "show_image_cms": "show_selector_show_xtreme_squads",
@@ -8827,7 +8828,7 @@
     "max_party_size": 2,
     "size": {
       "type": "override",
-      "min_players": 24,
+      "min_players": 30,
       "max_players": 32
     },
     "private_lobby_size": {
@@ -8844,7 +8845,6 @@
     "content_label": "localised_strings.show_content_label_show",
     "show_selector_tile_colour": "colour.show_selector_tile_blue",
     "top_tags": [],
-    "show_tag": "show_tag_compete",
     "show_image_cms": "show_selector_show_duos",
     "episode_reward_settings_id": "knockout_duos"
   },
@@ -10010,7 +10010,7 @@
   {
     "id": "knockout_mode",
     "show_name": "localised_strings.mode_knockout_title",
-    "show_description": "localised_strings.knockout_mode_desc",
+    "show_description": "localised_strings.show_desc_main",
     "show_image": "MainShow",
     "content_label": "localised_strings.show_content_label_show",
     "show_selector_tile_colour": "colour.show_selector_tile_blue",
@@ -10019,7 +10019,7 @@
     "max_party_size": 4,
     "size": {
       "type": "override",
-      "min_players": 21,
+      "min_players": 30,
       "max_players": 32
     },
     "private_lobby_size": {
@@ -10049,7 +10049,7 @@
     "max_party_size": 4,
     "size": {
       "type": "override",
-      "min_players": 24,
+      "min_players": 30,
       "max_players": 32
     },
     "private_lobby_size": {
@@ -10066,7 +10066,6 @@
     "content_label": "localised_strings.show_content_label_show",
     "show_selector_tile_colour": "colour.show_selector_tile_blue",
     "top_tags": [],
-    "show_tag": "show_tag_compete",
     "show_image_cms": "show_selector_core_squads_show",
     "episode_reward_settings_id": "knockout_squads"
   },
@@ -10800,8 +10799,8 @@
   },
   {
     "id": "main_show",
-    "show_name": "localised_strings.show_title_knockout",
-    "show_description": "localised_strings.show_desc_main",
+    "show_name": "localised_strings.show_title_solo_show",
+    "show_description": "localised_strings.show_desc_solos",
     "show_image": "MainShow",
     "content_label": "localised_strings.show_content_label_show",
     "show_selector_tile_colour": "colour.show_selector_tile_blue",
@@ -10810,8 +10809,8 @@
     "max_party_size": 4,
     "size": {
       "type": "override",
-      "min_players": 36,
-      "max_players": 40
+      "min_players": 30,
+      "max_players": 32
     },
     "private_lobby_size": {
       "type": "override",
@@ -10826,7 +10825,7 @@
     "closes_at": "2050-01-01T09:00:00",
     "top_tags": [],
     "show_image_cms": "show_selector_core_solo_show",
-    "episode_reward_settings_id": "solos"
+    "episode_reward_settings_id": "knockout_mode_rewards"
   },
   {
     "id": "main_show_2player",
@@ -13487,8 +13486,8 @@
     "max_party_size": 2,
     "size": {
       "type": "override",
-      "min_players": 36,
-      "max_players": 40
+      "min_players": 30,
+      "max_players": 32
     },
     "private_lobby_size": {
       "type": "override",
@@ -13655,8 +13654,8 @@
     "max_party_size": 4,
     "size": {
       "type": "override",
-      "min_players": 36,
-      "max_players": 40
+      "min_players": 30,
+      "max_players": 32
     },
     "private_lobby_size": {
       "type": "override",
@@ -14508,32 +14507,32 @@
   {
     "id": "wle_mrs_ugc_curated",
     "show_name": "localised_strings.show_title_wle_mrs_discovery_shuffle",
-    "show_description": "localised_strings.show_desc_wle_mrs_discovery_shuffle",
+    "show_description": "localised_strings.knockout_mode_desc",
     "show_image": "dlc_images.wle_show_selector_03",
     "content_label": "localised_strings.show_content_label_show",
-    "show_selector_tile_colour": "colour.show_selector_tile_yellow",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
     "min_party_size": 1,
     "max_party_size": 4,
     "size": {
       "type": "override",
-      "min_players": 16,
-      "max_players": 20
+      "min_players": 21,
+      "max_players": 32
     },
     "private_lobby_size": {
       "type": "override",
-      "min_players": 5,
-      "max_players": 20
+      "min_players": 21,
+      "max_players": 32
     },
     "show_type": {
       "showtype_switch": "individual"
     },
-    "default_episode": "levels_episode.wle_mrs_ugc_curated",
+    "default_episode": "levels_episode.episode_knockout_mode",
     "opens_at": "2023-01-01T01:00:00",
     "closes_at": "2050-01-01T09:00:01",
     "top_tags": [],
     "show_tag": "show_tag_creative_mode",
     "show_image_cms": "wle_show_selector_03",
-    "episode_reward_settings_id": "solos"
+    "episode_reward_settings_id": "knockout_mode_rewards"
   },
   {
     "id": "wle_mrs_ugc_playful_pioneers",
