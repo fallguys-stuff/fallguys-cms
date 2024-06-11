@@ -7262,6 +7262,16 @@
     }
   },
   {
+    "id": "is_mobile_group",
+    "parameters": {
+      "type": "platform_group",
+      "data": {
+        "operator": "equal_to",
+        "platform_group": "mobile"
+      }
+    }
+  },
+  {
     "id": "is_not_switch_user",
     "parameters": {
       "type": "platform",
@@ -7282,12 +7292,12 @@
     }
   },
   {
-    "id": "is_ports3_group",
+    "id": "is_pc_user",
     "parameters": {
       "type": "platform_group",
       "data": {
         "operator": "equal_to",
-        "platform_group": "ports3"
+        "platform_group": "pc"
       }
     }
   },
@@ -7489,16 +7499,6 @@
       "data": {
         "operator": "equal_to",
         "platform": "switch"
-      }
-    }
-  },
-  {
-    "id": "is_windows_user",
-    "parameters": {
-      "type": "platform",
-      "data": {
-        "operator": "equal_to",
-        "platform": "win"
       }
     }
   },

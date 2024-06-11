@@ -6,6 +6,46 @@
     "bucket_override_max_tom_rounds": []
   },
   {
+    "id": "director_classic_duos_show",
+    "select_rounds_once_only": true,
+    "ideal_player_count_weighting": 1,
+    "disqualification_score_mul": 1,
+    "tag_weighting": "level_tag_weightings.classic_duo_show",
+    "max_number_of_rounds_for_toms": 8,
+    "bucket_override_max_tom_rounds": []
+  },
+  {
+    "id": "director_classic_solo_show_s10",
+    "select_rounds_once_only": true,
+    "ideal_player_count_weighting": 1,
+    "disqualification_score_mul": 1,
+    "tag_weighting": "level_tag_weightings.tag_weightings_classic_solo_show_s10",
+    "bucket_override_max_tom_rounds": [
+      {
+        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_ftue",
+        "max_tom_rounds": 10
+      },
+      {
+        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_lowest"
+      },
+      {
+        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_mid"
+      },
+      {
+        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_high"
+      }
+    ]
+  },
+  {
+    "id": "director_classic_squads_show",
+    "select_rounds_once_only": true,
+    "ideal_player_count_weighting": 1,
+    "disqualification_score_mul": 1,
+    "tag_weighting": "level_tag_weightings.classic_squads_show",
+    "max_number_of_rounds_for_toms": 8,
+    "bucket_override_max_tom_rounds": []
+  },
+  {
     "id": "director_duos_s10",
     "select_rounds_once_only": true,
     "ideal_player_count_weighting": 1,

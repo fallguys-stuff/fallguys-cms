@@ -124,7 +124,7 @@
     "value": true,
     "target_ids": [
       "prime_users",
-      "ports3_users"
+      "mobile_users"
     ],
     "platforms_whitelist": []
   },
@@ -139,7 +139,7 @@
     "value": true,
     "target_ids": [
       "prime_users",
-      "ports3_users"
+      "mobile_users"
     ],
     "platforms_whitelist": []
   },
@@ -308,7 +308,7 @@
     "value": true,
     "target_ids": [
       "prime_users",
-      "ports3_users"
+      "mobile_users"
     ],
     "platforms_whitelist": []
   },
@@ -347,6 +347,14 @@
   {
     "id": "disable_sensors",
     "value": false,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": []
+  },
+  {
+    "id": "discovery_update_levels_cache_enabled",
+    "value": true,
     "target_ids": [
       "after_prime_global_launch"
     ],
@@ -430,8 +438,8 @@
     "id": "epic_display_names_enabled",
     "value": true,
     "target_ids": [
-      "windows_users",
-      "switch_users"
+      "switch_users",
+      "pc_users"
     ],
     "platforms_whitelist": []
   },
@@ -832,6 +840,14 @@
     "platforms_whitelist": []
   },
   {
+    "id": "newsfeed_enabled",
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": []
+  },
+  {
     "id": "notification_manager_max_active_notifications",
     "value": 3,
     "platforms_whitelist": [],
@@ -904,7 +920,7 @@
     "value": true,
     "target_ids": [
       "prime_users",
-      "ports3_users"
+      "mobile_users"
     ],
     "platforms_whitelist": []
   },
@@ -1173,7 +1189,23 @@
     "platforms_whitelist": []
   },
   {
+    "id": "shows_fallback_enabled",
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": []
+  },
+  {
     "id": "skill_score_enabled",
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": []
+  },
+  {
+    "id": "small_space_cam_enabled",
     "value": true,
     "target_ids": [
       "after_prime_global_launch"
@@ -1183,6 +1215,12 @@
   {
     "id": "snapshot_interpolation_enabled",
     "value": false,
+    "platforms_whitelist": [],
+    "target_ids": []
+  },
+  {
+    "id": "social_wheel_x_timer",
+    "value": 0.2,
     "platforms_whitelist": [],
     "target_ids": []
   },
@@ -1219,7 +1257,7 @@
     "value": true,
     "target_ids": [
       "prime_users",
-      "ports3_users"
+      "mobile_users"
     ],
     "platforms_whitelist": []
   },
@@ -1398,6 +1436,14 @@
     "platforms_whitelist": []
   },
   {
+    "id": "ultimate_party_grab_range_enabled",
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": []
+  },
+  {
     "id": "ultimate_party_jump_and_acceleration_enabled",
     "value": true,
     "target_ids": [
@@ -1414,6 +1460,12 @@
   {
     "id": "upf_auto_join",
     "value": 10,
+    "platforms_whitelist": [],
+    "target_ids": []
+  },
+  {
+    "id": "upf_automatic_matchmaking_time_seconds",
+    "value": 5,
     "platforms_whitelist": [],
     "target_ids": []
   },

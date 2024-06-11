@@ -1,15 +1,31 @@
 [
   {
+    "id": "android",
+    "child_platform_ids": [
+      "android_ega",
+      "android_samsung",
+      "android_standalone",
+      "android_google",
+      "ports3_1"
+    ],
+    "parent_platform_group_id": "mobile"
+  },
+  {
     "id": "console",
     "child_platform_ids": [],
     "parent_platform_group_id": "prime"
   },
   {
-    "id": "mobile",
+    "id": "ios",
     "child_platform_ids": [
-      "android",
-      "ios"
-    ]
+      "ios_ega",
+      "ports3_2"
+    ],
+    "parent_platform_group_id": "mobile"
+  },
+  {
+    "id": "mobile",
+    "child_platform_ids": []
   },
   {
     "id": "nintendo",
@@ -21,8 +37,9 @@
   {
     "id": "pc",
     "child_platform_ids": [
-      "linux",
-      "mac",
+      "pc_standalone",
+      "pc_steam",
+      "pc_egs",
       "win"
     ],
     "parent_platform_group_id": "prime"
@@ -34,13 +51,6 @@
       "ps5"
     ],
     "parent_platform_group_id": "console"
-  },
-  {
-    "id": "ports3",
-    "child_platform_ids": [
-      "ports3_1",
-      "ports3_2"
-    ]
   },
   {
     "id": "prime",

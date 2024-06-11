@@ -29,6 +29,98 @@
     "episode_reward_settings_id": "explore_mode_rewards_all"
   },
   {
+    "id": "classic_duos_show",
+    "show_name": "localised_strings.show_title_duos_show",
+    "show_description": "localised_strings.show_desc_squads_duos",
+    "show_image": "Duos",
+    "hide_countdown": true,
+    "default_episode": "levels_episode.episode_classic_duos_show_s10",
+    "min_party_size": 1,
+    "max_party_size": 2,
+    "size": {
+      "type": "override",
+      "min_players": 30,
+      "max_players": 32
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 8,
+      "max_players": 40
+    },
+    "show_type": {
+      "showtype_switch": "squad",
+      "squad_size": 2
+    },
+    "opens_at": "2020-01-01T09:00:00",
+    "closes_at": "2050-01-01T09:00:00",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "top_tags": [],
+    "show_image_cms": "show_selector_show_duos",
+    "episode_reward_settings_id": "duos"
+  },
+  {
+    "id": "classic_solo_main_show",
+    "show_name": "localised_strings.show_title_solo_show",
+    "show_description": "localised_strings.show_desc_solos",
+    "show_image": "MainShow",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "hide_countdown": true,
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 30,
+      "max_players": 32
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 5,
+      "max_players": 40
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.episode_s10_solo_show",
+    "opens_at": "2020-01-01T09:00:00",
+    "closes_at": "2050-01-01T09:00:00",
+    "top_tags": [],
+    "show_image_cms": "show_selector_core_solo_show",
+    "episode_reward_settings_id": "knockout_mode_rewards"
+  },
+  {
+    "id": "classic_squads_show",
+    "show_name": "localised_strings.show_title_squad_show",
+    "show_description": "localised_strings.show_desc_squad_show",
+    "show_image": "SquadShow",
+    "hide_countdown": true,
+    "default_episode": "levels_episode.episode_classic_squads_show_s10",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 30,
+      "max_players": 32
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 8,
+      "max_players": 40
+    },
+    "show_type": {
+      "showtype_switch": "squad",
+      "squad_size": 4
+    },
+    "opens_at": "2020-01-01T09:00:00",
+    "closes_at": "2050-01-01T09:00:00",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "top_tags": [],
+    "show_image_cms": "show_selector_core_squads_show",
+    "episode_reward_settings_id": "squads"
+  },
+  {
     "id": "collectables_ss2_batch_01",
     "show_name": "localised_strings.show_name_collectables_test_01",
     "show_description": "localised_strings.coming_soon",
@@ -8591,6 +8683,33 @@
     "top_tags": [],
     "show_image_cms": "show_selector_show_mainshow",
     "episode_reward_settings_id": "wle_lobby_template"
+  },
+  {
+    "id": "ftue_up_show",
+    "show_name": "localised_strings.ftue_up_show_title",
+    "show_description": "localised_strings.ftue_up_show_desc",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_orange",
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 1,
+      "max_players": 10
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 1,
+      "max_players": 10
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.ftue_up_show",
+    "opens_at": "2024-02-13T00:00:00",
+    "top_tags": [],
+    "show_image_cms": "show_selector_core_solo_show",
+    "episode_reward_settings_id": "solos"
   },
   {
     "id": "invisibeans_0508_to_0708_2022",
