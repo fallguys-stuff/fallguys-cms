@@ -23687,6 +23687,60 @@
     "ribbon_label_text": "storelabel_discount_primos"
   },
   {
+    "id": "bundle_costumeset_blackbird01_01",
+    "has_stock": true,
+    "stock": 2,
+    "bundle_type": {
+      "bundle_type": "costume_set",
+      "purchase_options": {
+        "type": "currencies",
+        "item_id": "gems"
+      },
+      "cosmetics": [
+        {
+          "type": "costume_sets",
+          "item_id": "costume_s11_ip_blackbird01_01"
+        }
+      ]
+    },
+    "show_ribbon_label": true,
+    "display_name": "costume_s11_ip_blackbird01_01",
+    "bundle_description": "bundle_costumeset_blackbird01_01_desc",
+    "bundle_type_subtitle": "bundle_costumeset_blackbird01_01_subtitle",
+    "rarity": "special_4",
+    "category": "currency",
+    "bundle_tile_image": "ui_costumeset_ch_blackbird01_ch_uiposes_belts",
+    "bundle_background_custom_gradient_image": "bg_costumeset_bundle_s11_blackbird_1x2",
+    "ribbon_label_text": "storelabel_discount_primos"
+  },
+  {
+    "id": "bundle_costumeset_blackbird06_01",
+    "has_stock": true,
+    "stock": 2,
+    "bundle_type": {
+      "bundle_type": "costume_set",
+      "purchase_options": {
+        "type": "currencies",
+        "item_id": "gems"
+      },
+      "cosmetics": [
+        {
+          "type": "costume_sets",
+          "item_id": "costume_s11_ip_blackbird06_01"
+        }
+      ]
+    },
+    "show_ribbon_label": true,
+    "display_name": "costume_s11_ip_blackbird06_01",
+    "bundle_description": "bundle_costumeset_blackbird06_01_desc",
+    "bundle_type_subtitle": "bundle_costumeset_blackbird06_01_subtitle",
+    "rarity": "special_4",
+    "category": "currency",
+    "bundle_tile_image": "ui_costumeset_ch_blackbird06_ch_uiposes_fullbody",
+    "bundle_background_custom_gradient_image": "bg_costumeset_bundle_s11_blackbird_1x2",
+    "ribbon_label_text": "storelabel_discount_primos"
+  },
+  {
     "id": "bundle_costumeset_budgie06_01",
     "has_stock": true,
     "stock": 2,
@@ -33265,6 +33319,36 @@
     "ribbon_label_text": "storelabel_discount_primos"
   },
   {
+    "id": "bundle_emote_blackbird",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 400,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "cosmetics_emotes",
+          "item_id": "emote_s11_ip_blackbird"
+        }
+      ],
+      "extra": []
+    },
+    "display_name": "emote_s11_ip_blackbird",
+    "bundle_description": "bundle_desc_emote_default",
+    "bundle_type_subtitle": "bundle_subtitle_emote_default01",
+    "rarity": "special_4",
+    "category": "currency",
+    "bundle_background_custom_gradient_image": "bg_costumeset_bundle_s11_blackbird_1x2"
+  },
+  {
     "id": "bundle_emote_cuphead_001",
     "has_stock": true,
     "stock": 1,
@@ -39766,6 +39850,62 @@
     "category": "costume",
     "bundle_tile_image": "bundle_grabbag_bittern_04_title",
     "bundle_background_custom_gradient_image": "bundle_2x2_bittern_04_bg",
+    "ribbon_label_text": "storelabel_discount_primos"
+  },
+  {
+    "id": "bundle_grabbag_blackbird",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "discount",
+      "purchase_options": {
+        "type": "currencies",
+        "item_id": "gems"
+      },
+      "discount": 1900,
+      "cosmetics": [
+        {
+          "type": "costume_sets",
+          "item_id": "costume_s11_ip_blackbird01_01"
+        },
+        {
+          "type": "costume_sets",
+          "item_id": "costume_s11_ip_blackbird06_01"
+        },
+        {
+          "type": "cosmetics_punchlines",
+          "cost": 700,
+          "item_id": "victory_s11_blackbird"
+        },
+        {
+          "type": "cosmetics_emotes",
+          "cost": 400,
+          "item_id": "emote_s11_ip_blackbird"
+        }
+      ],
+      "extra": [
+        {
+          "type": "cosmetics_nameplates",
+          "item_id": "nameplateui_s11_blackbird01"
+        },
+        {
+          "type": "cosmetics_nicknames",
+          "item_id": "nickname_11_0_0_blackbird_01"
+        },
+        {
+          "type": "cosmetics_nicknames",
+          "item_id": "nickname_11_0_0_blackbird_02"
+        }
+      ]
+    },
+    "show_ribbon_label": true,
+    "display_name": "bundle_grabbag_blackbird_name",
+    "bundle_description": "bundle_grabbag_blackbird_desc",
+    "bundle_type_subtitle": "bundle_grabbag_blackbird_subtitle",
+    "rarity": "special_4",
+    "category": "currency",
+    "bundle_tile_image": "ui_bundle_bundle_s11_blackbird_2x2_2",
+    "bundle_background_custom_gradient_image": "bg_bundle_bundle_s11_blackbird_2x2",
     "ribbon_label_text": "storelabel_discount_primos"
   },
   {
@@ -64429,6 +64569,36 @@
     "bundle_tile_image": "ui_bundle_bundle_s11_1_sweettoothdragontrio_2x2",
     "bundle_background_custom_gradient_image": "bg_bundle_bundle_s11_1_sweettoothdragontrio_2x2",
     "ribbon_label_text": "storelabel_discount_primos"
+  },
+  {
+    "id": "bundle_victory_blackbird",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 700,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "cosmetics_punchlines",
+          "item_id": "victory_s11_blackbird"
+        }
+      ],
+      "extra": []
+    },
+    "display_name": "victory_s11_blackbird",
+    "bundle_description": "bundle_desc_celeb_default",
+    "bundle_type_subtitle": "bundle_subtitle_celebration_default01",
+    "rarity": "special_4",
+    "category": "currency",
+    "bundle_background_custom_gradient_image": "bg_costumeset_bundle_s11_blackbird_1x2"
   },
   {
     "id": "bundle_victory_celebration_generic_004",

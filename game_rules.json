@@ -7995,10 +7995,10 @@
   },
   {
     "id": "round_1v1_volleyfall_duos",
-    "min_participants": 8,
-    "max_participants": 20,
-    "min_participants_private_lobby": 8,
-    "max_participants_private_lobby": 20,
+    "min_participants": 12,
+    "max_participants": 24,
+    "min_participants_private_lobby": 12,
+    "max_participants_private_lobby": 24,
     "qualification_percentage": 50,
     "squads_qualification_percentage": 50,
     "has_timer": true,
@@ -8026,9 +8026,9 @@
   {
     "id": "round_1v1_volleyfall_final_duos",
     "is_final_round": true,
-    "min_participants": 2,
+    "min_participants": 4,
     "max_participants": 4,
-    "min_participants_private_lobby": 2,
+    "min_participants_private_lobby": 4,
     "max_participants_private_lobby": 4,
     "has_timer": true,
     "duration": 100,
@@ -8039,6 +8039,8 @@
     "overtime_mode": "overtime_with_sudden_death",
     "overtime_amount": 15,
     "team_mode": "vs",
+    "team_count": 2,
+    "require_same_team_sizes": true,
     "is_scoring_game": true,
     "score_display_mode": "number",
     "start_game_message": {},
@@ -8813,10 +8815,10 @@
   },
   {
     "id": "round_ballhogs_duos",
-    "min_participants": 6,
-    "max_participants": 6,
-    "min_participants_private_lobby": 6,
-    "max_participants_private_lobby": 6,
+    "min_participants": 12,
+    "max_participants": 30,
+    "min_participants_private_lobby": 12,
+    "max_participants_private_lobby": 30,
     "qualification_percentage": 100,
     "squads_qualification_percentage": 67,
     "has_timer": true,
@@ -8843,9 +8845,9 @@
     "objective_hint_text": "localised_strings.level_hint_hoarders",
     "score_context_text": "localised_strings.level_score_context_hoarders",
     "overtime_text": "localised_strings.overtime",
-    "should_hide_opposing_team_name_tags": [],
     "tom_round_rules": "tom_round_rules.default",
-    "is_piggyback_enabled": true
+    "is_piggyback_enabled": true,
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "round_ballhogs_duos_week_of_romance_s6_duo_teams",
@@ -8885,10 +8887,10 @@
   },
   {
     "id": "round_ballhogs_squads",
-    "min_participants": 9,
-    "max_participants": 12,
-    "min_participants_private_lobby": 9,
-    "max_participants_private_lobby": 12,
+    "min_participants": 12,
+    "max_participants": 24,
+    "min_participants_private_lobby": 8,
+    "max_participants_private_lobby": 24,
     "qualification_percentage": 100,
     "squads_qualification_percentage": 67,
     "has_timer": true,
@@ -8915,9 +8917,9 @@
     "objective_hint_text": "localised_strings.level_hint_hoarders",
     "score_context_text": "localised_strings.level_score_context_hoarders",
     "overtime_text": "localised_strings.overtime",
-    "should_hide_opposing_team_name_tags": [],
     "tom_round_rules": "tom_round_rules.default",
-    "is_piggyback_enabled": true
+    "is_piggyback_enabled": true,
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "round_ballhogs_squads_autumn",
@@ -9164,9 +9166,45 @@
     "objective_hint_text": "localised_strings.level_hint_basketfall",
     "score_context_text": "localised_strings.level_score_context_basketfall",
     "overtime_text": "localised_strings.overtime",
-    "should_hide_opposing_team_name_tags": [],
     "tom_round_rules": "tom_round_rules.default",
-    "is_piggyback_enabled": true
+    "is_piggyback_enabled": true,
+    "should_hide_opposing_team_name_tags": []
+  },
+  {
+    "id": "round_basketfall_duos_non_final",
+    "min_participants": 12,
+    "max_participants": 24,
+    "min_participants_private_lobby": 12,
+    "max_participants_private_lobby": 24,
+    "qualification_percentage": 100,
+    "squads_qualification_percentage": 50,
+    "has_timer": true,
+    "duration": 90,
+    "timer_visibility_threshold": 9999999999,
+    "time_left_red_alert_threshold": 10,
+    "game_manager_spawn_type": "none",
+    "round_end_condition": "success_quota",
+    "overtime_mode": "overtime_with_sudden_death",
+    "overtime_amount": 30,
+    "team_mode": "teams",
+    "team_count": 2,
+    "require_same_team_sizes": true,
+    "required_team_eliminations": 1,
+    "is_scoring_game": true,
+    "score_display_mode": "number",
+    "start_game_message_wait_time": 1,
+    "start_game_message": {},
+    "start_game_message_trigger": "start",
+    "start_game_message_format": "info",
+    "round_description": "localised_strings.level_loading_basketfall",
+    "round_info": "localised_strings.level_info_basketfall",
+    "objective_text": "localised_strings.level_objective_basketfall",
+    "objective_hint_text": "localised_strings.level_hint_basketfall",
+    "score_context_text": "localised_strings.level_score_context_basketfall",
+    "overtime_text": "localised_strings.overtime",
+    "tom_round_rules": "tom_round_rules.default",
+    "is_piggyback_enabled": true,
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "round_basketfall_duos_ss2_launch",
@@ -9310,9 +9348,9 @@
   {
     "id": "round_basketfall_squads",
     "is_final_round": true,
-    "min_participants": 2,
+    "min_participants": 8,
     "max_participants": 8,
-    "min_participants_private_lobby": 2,
+    "min_participants_private_lobby": 8,
     "max_participants_private_lobby": 8,
     "has_timer": true,
     "duration": 90,
@@ -9338,9 +9376,9 @@
     "objective_hint_text": "localised_strings.level_hint_basketfall",
     "score_context_text": "localised_strings.level_score_context_basketfall",
     "overtime_text": "localised_strings.overtime",
-    "should_hide_opposing_team_name_tags": [],
     "tom_round_rules": "tom_round_rules.default",
-    "is_piggyback_enabled": true
+    "is_piggyback_enabled": true,
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "round_basketfall_squads_autumn",
@@ -9378,9 +9416,9 @@
   },
   {
     "id": "round_basketfall_squads_non_final",
-    "min_participants": 10,
+    "min_participants": 12,
     "max_participants": 16,
-    "min_participants_private_lobby": 10,
+    "min_participants_private_lobby": 12,
     "max_participants_private_lobby": 16,
     "qualification_percentage": 100,
     "squads_qualification_percentage": 50,
@@ -9408,9 +9446,9 @@
     "objective_hint_text": "localised_strings.level_hint_basketfall",
     "score_context_text": "localised_strings.level_score_context_basketfall",
     "overtime_text": "localised_strings.overtime",
-    "should_hide_opposing_team_name_tags": [],
     "tom_round_rules": "tom_round_rules.default",
-    "is_piggyback_enabled": true
+    "is_piggyback_enabled": true,
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "round_basketfall_squads_ss2_launch",
@@ -10235,9 +10273,9 @@
     "objective_text": "localised_strings.level_objective_blastball_arenasurvival",
     "objective_hint_text": "localised_strings.level_hint_blastball_arenasurvival",
     "show_qualification_progress_ui": true,
-    "should_hide_opposing_team_name_tags": [],
     "tom_round_rules": "tom_round_rules.default",
-    "is_piggyback_enabled": true
+    "is_piggyback_enabled": true,
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "round_blastball_arenasurvival_final_squads",
@@ -10675,9 +10713,9 @@
   {
     "id": "round_blastballruins_duos",
     "min_participants": 9,
-    "max_participants": 32,
+    "max_participants": 30,
     "min_participants_private_lobby": 9,
-    "max_participants_private_lobby": 32,
+    "max_participants_private_lobby": 30,
     "squads_qualification_percentage": 60,
     "has_timer": true,
     "duration": 150,
@@ -10696,9 +10734,9 @@
     "objective_text": "localised_strings.level_objective_blastballruins",
     "objective_hint_text": "localised_strings.level_hint_blastballruins",
     "show_qualification_progress_ui": true,
-    "should_hide_opposing_team_name_tags": [],
     "tom_round_rules": "tom_round_rules.default",
-    "is_piggyback_enabled": true
+    "is_piggyback_enabled": true,
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "round_blastballruins_event_only_survival_s61",
@@ -11519,9 +11557,9 @@
   {
     "id": "round_chicken_chase_duos",
     "min_participants": 6,
-    "max_participants": 30,
+    "max_participants": 24,
     "min_participants_private_lobby": 6,
-    "max_participants_private_lobby": 30,
+    "max_participants_private_lobby": 24,
     "qualification_percentage": 100,
     "squads_qualification_percentage": 60,
     "has_timer": true,
@@ -11548,9 +11586,9 @@
     "objective_hint_text": "localised_strings.level_hint_penguin_pursuit",
     "score_context_text": "localised_strings.level_score_context_pegwin_pursuit",
     "overtime_text": "localised_strings.overtime",
-    "should_hide_opposing_team_name_tags": [],
     "tom_round_rules": "tom_round_rules.default",
-    "is_piggyback_enabled": true
+    "is_piggyback_enabled": true,
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "round_chicken_chase_duos_week_of_romance_s6",
@@ -12204,10 +12242,10 @@
   },
   {
     "id": "round_conveyor_arena_duos",
-    "min_participants": 8,
-    "max_participants": 16,
-    "min_participants_private_lobby": 8,
-    "max_participants_private_lobby": 16,
+    "min_participants": 16,
+    "max_participants": 40,
+    "min_participants_private_lobby": 16,
+    "max_participants_private_lobby": 40,
     "qualification_percentage": 100,
     "squads_qualification_percentage": 75,
     "has_timer": true,
@@ -12308,9 +12346,9 @@
   },
   {
     "id": "round_conveyor_arena_squads",
-    "min_participants": 9,
+    "min_participants": 16,
     "max_participants": 40,
-    "min_participants_private_lobby": 9,
+    "min_participants_private_lobby": 16,
     "max_participants_private_lobby": 40,
     "qualification_percentage": 100,
     "squads_qualification_percentage": 75,
@@ -14528,10 +14566,10 @@
   },
   {
     "id": "round_egg_grab_duos",
-    "min_participants": 6,
-    "max_participants": 6,
-    "min_participants_private_lobby": 6,
-    "max_participants_private_lobby": 6,
+    "min_participants": 12,
+    "max_participants": 26,
+    "min_participants_private_lobby": 12,
+    "max_participants_private_lobby": 26,
     "qualification_percentage": 100,
     "squads_qualification_percentage": 67,
     "has_timer": true,
@@ -14558,9 +14596,9 @@
     "objective_hint_text": "localised_strings.level_hint_egg_grab",
     "score_context_text": "localised_strings.level_score_context_egg_grab",
     "overtime_text": "localised_strings.overtime",
-    "should_hide_opposing_team_name_tags": [],
     "tom_round_rules": "tom_round_rules.default",
-    "is_piggyback_enabled": true
+    "is_piggyback_enabled": true,
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "round_egg_grab_duos_week_of_romance_s6_duo_teams",
@@ -15061,16 +15099,16 @@
     "objective_hint_text": "localised_strings.level_hint_fall_ball",
     "score_context_text": "localised_strings.level_score_context_fall_ball",
     "overtime_text": "localised_strings.level_overtime_fall_ball",
-    "should_hide_opposing_team_name_tags": [],
     "tom_round_rules": "tom_round_rules.default",
-    "is_piggyback_enabled": true
+    "is_piggyback_enabled": true,
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "round_fall_ball_duos_non_final",
-    "min_participants": 8,
-    "max_participants": 12,
-    "min_participants_private_lobby": 8,
-    "max_participants_private_lobby": 12,
+    "min_participants": 12,
+    "max_participants": 24,
+    "min_participants_private_lobby": 12,
+    "max_participants_private_lobby": 24,
     "qualification_percentage": 100,
     "squads_qualification_percentage": 50,
     "has_timer": true,
@@ -15097,9 +15135,9 @@
     "objective_hint_text": "localised_strings.level_hint_fall_ball",
     "score_context_text": "localised_strings.level_score_context_fall_ball",
     "overtime_text": "localised_strings.level_overtime_fall_ball",
-    "should_hide_opposing_team_name_tags": [],
     "tom_round_rules": "tom_round_rules.default",
-    "is_piggyback_enabled": true
+    "is_piggyback_enabled": true,
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "round_fall_ball_duos_ss2_launch",
@@ -15418,9 +15456,9 @@
   {
     "id": "round_fall_ball_squads",
     "is_final_round": true,
-    "min_participants": 2,
+    "min_participants": 8,
     "max_participants": 8,
-    "min_participants_private_lobby": 2,
+    "min_participants_private_lobby": 8,
     "max_participants_private_lobby": 8,
     "has_timer": true,
     "duration": 90,
@@ -15446,9 +15484,9 @@
     "objective_hint_text": "localised_strings.level_hint_fall_ball",
     "score_context_text": "localised_strings.level_score_context_fall_ball",
     "overtime_text": "localised_strings.level_overtime_fall_ball",
-    "should_hide_opposing_team_name_tags": [],
     "tom_round_rules": "tom_round_rules.default",
-    "is_piggyback_enabled": true
+    "is_piggyback_enabled": true,
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "round_fall_ball_squads_autumn",
@@ -15519,9 +15557,9 @@
   },
   {
     "id": "round_fall_ball_squads_non_final",
-    "min_participants": 10,
+    "min_participants": 12,
     "max_participants": 16,
-    "min_participants_private_lobby": 10,
+    "min_participants_private_lobby": 12,
     "max_participants_private_lobby": 16,
     "qualification_percentage": 100,
     "squads_qualification_percentage": 50,
@@ -15549,9 +15587,9 @@
     "objective_hint_text": "localised_strings.level_hint_fall_ball",
     "score_context_text": "localised_strings.level_score_context_fall_ball",
     "overtime_text": "localised_strings.level_overtime_fall_ball",
-    "should_hide_opposing_team_name_tags": [],
     "tom_round_rules": "tom_round_rules.default",
-    "is_piggyback_enabled": true
+    "is_piggyback_enabled": true,
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "round_fall_ball_squads_non_final_potoo",
@@ -16172,9 +16210,9 @@
   },
   {
     "id": "round_ffa_button_bashers_duos",
-    "min_participants": 11,
+    "min_participants": 9,
     "max_participants": 30,
-    "min_participants_private_lobby": 11,
+    "min_participants_private_lobby": 9,
     "max_participants_private_lobby": 30,
     "qualification_percentage": 60,
     "squads_qualification_percentage": 60,
@@ -16468,9 +16506,9 @@
     "objective_text": "localised_strings.level_objective_floor_fall",
     "objective_hint_text": "localised_strings.level_hint_floor_fall",
     "show_qualification_progress_ui": true,
-    "should_hide_opposing_team_name_tags": [],
     "tom_round_rules": "tom_round_rules.default",
-    "is_piggyback_enabled": true
+    "is_piggyback_enabled": true,
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "round_floor_fall_event_elimination",
@@ -17873,9 +17911,9 @@
   },
   {
     "id": "round_fruit_bowl_duos",
-    "min_participants": 9,
+    "min_participants": 10,
     "max_participants": 40,
-    "min_participants_private_lobby": 9,
+    "min_participants_private_lobby": 10,
     "max_participants_private_lobby": 40,
     "squads_qualification_percentage": 60,
     "has_timer": true,
@@ -17894,9 +17932,9 @@
     "round_info": "localised_strings.level_info_fruit_bowl",
     "objective_text": "localised_strings.level_objective_squads_survival",
     "show_qualification_progress_ui": true,
-    "should_hide_opposing_team_name_tags": [],
     "tom_round_rules": "tom_round_rules.default",
-    "is_piggyback_enabled": true
+    "is_piggyback_enabled": true,
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "round_fruit_bowl_event_hw_trios",
@@ -23043,9 +23081,9 @@
     "round_info": "localised_strings.level_info_hexsnake",
     "objective_text": "localised_strings.level_objective_hexsnake",
     "show_qualification_progress_ui": true,
-    "should_hide_opposing_team_name_tags": [],
     "tom_round_rules": "tom_round_rules.default",
-    "is_piggyback_enabled": true
+    "is_piggyback_enabled": true,
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "round_hexsnake_event_walnut",
@@ -23680,9 +23718,9 @@
   {
     "id": "round_hoops_blockade_solo_duos",
     "min_participants": 9,
-    "max_participants": 30,
+    "max_participants": 24,
     "min_participants_private_lobby": 9,
-    "max_participants_private_lobby": 30,
+    "max_participants_private_lobby": 24,
     "qualification_percentage": 60,
     "squads_qualification_percentage": 60,
     "has_timer": true,
@@ -23708,9 +23746,9 @@
     "objective_text": "localised_strings.level_objective_hoopsie_legends",
     "score_context_text": "localised_strings.level_score_context_hoopsie_legends",
     "show_qualification_progress_ui": true,
-    "should_hide_opposing_team_name_tags": [],
     "tom_round_rules": "tom_round_rules.default",
-    "is_piggyback_enabled": true
+    "is_piggyback_enabled": true,
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "round_hoops_blockade_solo_event_peanut_ss2",
@@ -23947,10 +23985,10 @@
   },
   {
     "id": "round_hoops_duos",
-    "min_participants": 6,
-    "max_participants": 30,
-    "min_participants_private_lobby": 6,
-    "max_participants_private_lobby": 30,
+    "min_participants": 12,
+    "max_participants": 24,
+    "min_participants_private_lobby": 12,
+    "max_participants_private_lobby": 24,
     "qualification_percentage": 100,
     "squads_qualification_percentage": 60,
     "has_timer": true,
@@ -23977,9 +24015,9 @@
     "objective_hint_text": "localised_strings.level_hint_hoopsie_daisy",
     "score_context_text": "localised_strings.level_score_context_hoopsie_daisy",
     "overtime_text": "localised_strings.overtime",
-    "should_hide_opposing_team_name_tags": [],
     "is_piggyback_enabled": true,
-    "tom_round_rules": "tom_round_rules.default"
+    "tom_round_rules": "tom_round_rules.default",
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "round_hoops_duos_ss2_launch",
@@ -24314,14 +24352,14 @@
   },
   {
     "id": "round_hoops_squads",
-    "min_participants": 9,
+    "min_participants": 12,
     "max_participants": 24,
-    "min_participants_private_lobby": 9,
+    "min_participants_private_lobby": 12,
     "max_participants_private_lobby": 24,
     "qualification_percentage": 100,
     "squads_qualification_percentage": 60,
     "has_timer": true,
-    "duration": 120,
+    "duration": 300,
     "timer_visibility_threshold": 1200,
     "time_left_red_alert_threshold": 10,
     "game_manager_spawn_type": "none",
@@ -24344,9 +24382,10 @@
     "objective_hint_text": "localised_strings.level_hint_hoopsie_daisy",
     "score_context_text": "localised_strings.level_score_context_hoopsie_daisy",
     "overtime_text": "localised_strings.overtime",
-    "should_hide_opposing_team_name_tags": [],
+    "show_qualification_progress_ui": true,
     "is_piggyback_enabled": true,
-    "tom_round_rules": "tom_round_rules.default"
+    "tom_round_rules": "tom_round_rules.default",
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "round_hoops_squads_autumn",
@@ -25946,13 +25985,14 @@
   },
   {
     "id": "round_jinxed_duos_non_final",
-    "min_participants": 8,
-    "max_participants": 12,
-    "min_participants_private_lobby": 8,
-    "max_participants_private_lobby": 12,
+    "min_participants": 12,
+    "max_participants": 24,
+    "min_participants_private_lobby": 12,
+    "max_participants_private_lobby": 24,
     "qualification_percentage": 100,
     "squads_qualification_percentage": 50,
     "duration": 120,
+    "timer_visibility_threshold": 12,
     "time_left_red_alert_threshold": 10,
     "game_manager_spawn_type": "infected",
     "round_end_condition": "success_quota",
@@ -25973,6 +26013,7 @@
     "objective_text": "localised_strings.level_objective_jinxed",
     "objective_hint_text": "localised_strings.level_hint_jinxed",
     "score_context_text": "localised_strings.level_score_context_jinxed",
+    "show_qualification_progress_ui": true,
     "should_hide_opposing_team_name_tags": [
       null
     ],
@@ -26074,12 +26115,12 @@
   },
   {
     "id": "round_jinxed_squads",
-    "min_participants": 18,
-    "max_participants": 26,
-    "min_participants_private_lobby": 18,
-    "max_participants_private_lobby": 26,
+    "min_participants": 8,
+    "max_participants": 8,
+    "min_participants_private_lobby": 8,
+    "max_participants_private_lobby": 8,
     "qualification_percentage": 100,
-    "squads_qualification_percentage": 70,
+    "squads_qualification_percentage": 50,
     "duration": 120,
     "time_left_red_alert_threshold": 10,
     "game_manager_spawn_type": "infected",
@@ -26165,13 +26206,14 @@
   },
   {
     "id": "round_jinxed_squads_non_final",
-    "min_participants": 10,
+    "min_participants": 12,
     "max_participants": 16,
-    "min_participants_private_lobby": 10,
+    "min_participants_private_lobby": 9,
     "max_participants_private_lobby": 16,
     "qualification_percentage": 100,
     "squads_qualification_percentage": 50,
     "duration": 120,
+    "timer_visibility_threshold": 12,
     "time_left_red_alert_threshold": 10,
     "game_manager_spawn_type": "infected",
     "round_end_condition": "success_quota",
@@ -26192,6 +26234,7 @@
     "objective_text": "localised_strings.level_objective_jinxed",
     "objective_hint_text": "localised_strings.level_hint_jinxed",
     "score_context_text": "localised_strings.level_score_context_jinxed",
+    "show_qualification_progress_ui": true,
     "should_hide_opposing_team_name_tags": [
       null
     ],
@@ -26512,9 +26555,9 @@
   {
     "id": "round_jump_club_duos",
     "min_participants": 9,
-    "max_participants": 24,
+    "max_participants": 30,
     "min_participants_private_lobby": 9,
-    "max_participants_private_lobby": 24,
+    "max_participants_private_lobby": 30,
     "squads_qualification_percentage": 60,
     "has_timer": true,
     "duration": 90,
@@ -26534,9 +26577,9 @@
     "objective_text": "localised_strings.level_objective_squads_survival",
     "objective_hint_text": "localised_strings.level_hint_jump_club",
     "show_qualification_progress_ui": true,
-    "should_hide_opposing_team_name_tags": [],
     "tom_round_rules": "tom_round_rules.default",
-    "is_piggyback_enabled": true
+    "is_piggyback_enabled": true,
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "round_jump_club_event_kudos_jumping_for_joy",
@@ -27154,9 +27197,9 @@
     "objective_text": "localised_strings.level_objective_jump_showdown",
     "objective_hint_text": "localised_strings.level_hint_jump_showdown",
     "show_qualification_progress_ui": true,
-    "should_hide_opposing_team_name_tags": [],
     "tom_round_rules": "tom_round_rules.default",
-    "is_piggyback_enabled": true
+    "is_piggyback_enabled": true,
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "round_jump_showdown_duos_week_of_romance_s6",
@@ -28622,9 +28665,9 @@
   },
   {
     "id": "round_match_fall_duos",
-    "min_participants": 11,
+    "min_participants": 25,
     "max_participants": 40,
-    "min_participants_private_lobby": 11,
+    "min_participants_private_lobby": 25,
     "max_participants_private_lobby": 40,
     "squads_qualification_percentage": 60,
     "has_timer": true,
@@ -28645,9 +28688,9 @@
     "objective_text": "localised_strings.level_objective_squads_survival",
     "objective_hint_text": "localised_strings.level_hint_match_fall",
     "show_qualification_progress_ui": true,
-    "should_hide_opposing_team_name_tags": [],
     "tom_round_rules": "tom_round_rules.default",
-    "is_piggyback_enabled": true
+    "is_piggyback_enabled": true,
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "round_match_fall_event_hw_trios",
@@ -29619,10 +29662,10 @@
   },
   {
     "id": "round_pixelperfect_duos",
-    "min_participants": 10,
-    "max_participants": 16,
-    "min_participants_private_lobby": 10,
-    "max_participants_private_lobby": 16,
+    "min_participants": 9,
+    "max_participants": 24,
+    "min_participants_private_lobby": 9,
+    "max_participants_private_lobby": 24,
     "qualification_percentage": 100,
     "squads_qualification_percentage": 60,
     "has_timer": true,
@@ -29928,9 +29971,9 @@
   },
   {
     "id": "round_robotrampage_arena_2_duos",
-    "min_participants": 9,
+    "min_participants": 10,
     "max_participants": 40,
-    "min_participants_private_lobby": 9,
+    "min_participants_private_lobby": 10,
     "max_participants_private_lobby": 40,
     "squads_qualification_percentage": 60,
     "has_timer": true,
@@ -29949,9 +29992,9 @@
     "round_info": "localised_strings.level_info_robot_rampage",
     "objective_text": "localised_strings.level_objective_robot_rampage",
     "show_qualification_progress_ui": true,
-    "should_hide_opposing_team_name_tags": [],
     "tom_round_rules": "tom_round_rules.default",
-    "is_piggyback_enabled": true
+    "is_piggyback_enabled": true,
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "round_robotrampage_arena_2_event_peanut_ss2",
@@ -30439,10 +30482,10 @@
   },
   {
     "id": "round_rocknroll_duos",
-    "min_participants": 6,
-    "max_participants": 6,
-    "min_participants_private_lobby": 6,
-    "max_participants_private_lobby": 6,
+    "min_participants": 12,
+    "max_participants": 30,
+    "min_participants_private_lobby": 12,
+    "max_participants_private_lobby": 30,
     "qualification_percentage": 100,
     "squads_qualification_percentage": 67,
     "has_timer": true,
@@ -30473,9 +30516,9 @@
     "score_context_text": "localised_strings.level_score_context_rock_n_roll",
     "overtime_text": "localised_strings.overtime",
     "show_qualification_progress_ui": true,
-    "should_hide_opposing_team_name_tags": [],
     "tom_round_rules": "tom_round_rules.default",
-    "is_piggyback_enabled": true
+    "is_piggyback_enabled": true,
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "round_rocknroll_duos_ss2_launch",
@@ -30597,10 +30640,10 @@
   },
   {
     "id": "round_rocknroll_squads",
-    "min_participants": 9,
-    "max_participants": 12,
+    "min_participants": 12,
+    "max_participants": 24,
     "min_participants_private_lobby": 9,
-    "max_participants_private_lobby": 12,
+    "max_participants_private_lobby": 24,
     "qualification_percentage": 100,
     "squads_qualification_percentage": 67,
     "has_timer": true,
@@ -30631,9 +30674,9 @@
     "score_context_text": "localised_strings.level_score_context_rock_n_roll",
     "overtime_text": "localised_strings.overtime",
     "show_qualification_progress_ui": true,
-    "should_hide_opposing_team_name_tags": [],
     "tom_round_rules": "tom_round_rules.default",
-    "is_piggyback_enabled": true
+    "is_piggyback_enabled": true,
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "round_rocknroll_squads_autumn",
@@ -33625,9 +33668,9 @@
     "objective_text": "localised_strings.level_objective_slide_chute",
     "objective_hint_text": "localised_strings.level_hint_slippy_slide",
     "show_qualification_progress_ui": true,
-    "should_hide_opposing_team_name_tags": [],
     "tom_round_rules": "tom_round_rules.default",
-    "is_piggyback_enabled": true
+    "is_piggyback_enabled": true,
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "round_slide_chute_xtreme_party_final",
@@ -33745,9 +33788,9 @@
   },
   {
     "id": "round_slimeclimb_2_duos",
-    "min_participants": 9,
+    "min_participants": 10,
     "max_participants": 40,
-    "min_participants_private_lobby": 9,
+    "min_participants_private_lobby": 10,
     "max_participants_private_lobby": 40,
     "qualification_percentage": 100,
     "squads_qualification_percentage": 60,
@@ -34359,9 +34402,9 @@
   {
     "id": "round_snowballsurvival_duos",
     "min_participants": 9,
-    "max_participants": 24,
+    "max_participants": 30,
     "min_participants_private_lobby": 9,
-    "max_participants_private_lobby": 24,
+    "max_participants_private_lobby": 30,
     "squads_qualification_percentage": 60,
     "has_timer": true,
     "duration": 60,
@@ -34380,9 +34423,9 @@
     "round_info": "localised_strings.level_info_snowballsurvival",
     "objective_text": "localised_strings.level_objective_squads_survival",
     "show_qualification_progress_ui": true,
-    "should_hide_opposing_team_name_tags": [],
     "tom_round_rules": "tom_round_rules.default",
-    "is_piggyback_enabled": true
+    "is_piggyback_enabled": true,
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "round_snowballsurvival_event_only_survival",
@@ -34758,10 +34801,10 @@
   },
   {
     "id": "round_snowy_scrap_duos",
-    "min_participants": 6,
-    "max_participants": 6,
-    "min_participants_private_lobby": 6,
-    "max_participants_private_lobby": 6,
+    "min_participants": 12,
+    "max_participants": 30,
+    "min_participants_private_lobby": 12,
+    "max_participants_private_lobby": 30,
     "qualification_percentage": 100,
     "squads_qualification_percentage": 67,
     "has_timer": true,
@@ -34790,9 +34833,9 @@
     "objective_text": "localised_strings.level_objective_snowy_scrap",
     "score_context_text": "localised_strings.level_score_context_snowy_scrap",
     "overtime_text": "localised_strings.overtime",
-    "should_hide_opposing_team_name_tags": [],
     "tom_round_rules": "tom_round_rules.default",
-    "is_piggyback_enabled": true
+    "is_piggyback_enabled": true,
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "round_snowy_scrap_duos_week_of_romance_s6",
@@ -34833,10 +34876,10 @@
   },
   {
     "id": "round_snowy_scrap_squads",
-    "min_participants": 9,
-    "max_participants": 30,
+    "min_participants": 12,
+    "max_participants": 28,
     "min_participants_private_lobby": 9,
-    "max_participants_private_lobby": 30,
+    "max_participants_private_lobby": 28,
     "qualification_percentage": 100,
     "squads_qualification_percentage": 67,
     "has_timer": true,
@@ -34865,9 +34908,9 @@
     "objective_text": "localised_strings.level_objective_snowy_scrap",
     "score_context_text": "localised_strings.level_score_context_snowy_scrap",
     "overtime_text": "localised_strings.overtime",
-    "should_hide_opposing_team_name_tags": [],
     "tom_round_rules": "tom_round_rules.default",
-    "is_piggyback_enabled": true
+    "is_piggyback_enabled": true,
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "round_snowy_scrap_squads_autumn",
@@ -35977,6 +36020,42 @@
     "is_piggyback_enabled": true
   },
   {
+    "id": "round_territory_control_duos_non_final",
+    "min_participants": 10,
+    "max_participants": 24,
+    "min_participants_private_lobby": 10,
+    "max_participants_private_lobby": 24,
+    "qualification_percentage": 100,
+    "squads_qualification_percentage": 50,
+    "has_timer": true,
+    "duration": 90,
+    "timer_visibility_threshold": 999999,
+    "time_left_red_alert_threshold": 10,
+    "game_manager_spawn_type": "none",
+    "round_end_condition": "success_quota",
+    "overtime_mode": "overtime_only",
+    "overtime_amount": 10,
+    "team_mode": "teams",
+    "team_count": 2,
+    "require_same_team_sizes": true,
+    "required_team_eliminations": 1,
+    "is_scoring_game": true,
+    "score_display_mode": "number",
+    "start_game_message_wait_time": 1,
+    "start_game_message": {},
+    "start_game_message_trigger": "start",
+    "start_game_message_format": "info",
+    "round_description": "localised_strings.level_loading_territorycontrol",
+    "round_info": "localised_strings.level_info_territorycontrol",
+    "objective_text": "localised_strings.level_objective_territorycontrol",
+    "objective_hint_text": "localised_strings.level_hint_territorycontrol",
+    "score_context_text": "localised_strings.level_score_context_territorycontrol",
+    "overtime_text": "localised_strings.overtime",
+    "tom_round_rules": "tom_round_rules.default",
+    "is_piggyback_enabled": true,
+    "should_hide_opposing_team_name_tags": []
+  },
+  {
     "id": "round_territory_control_kudos_gravity_wield",
     "min_participants": 10,
     "max_participants": 30,
@@ -36048,9 +36127,9 @@
   {
     "id": "round_territory_control_squads",
     "is_final_round": true,
-    "min_participants": 5,
+    "min_participants": 8,
     "max_participants": 8,
-    "min_participants_private_lobby": 5,
+    "min_participants_private_lobby": 8,
     "max_participants_private_lobby": 8,
     "has_timer": true,
     "duration": 90,
@@ -36076,9 +36155,9 @@
     "objective_hint_text": "localised_strings.level_hint_territorycontrol",
     "score_context_text": "localised_strings.level_score_context_territorycontrol",
     "overtime_text": "localised_strings.overtime",
-    "should_hide_opposing_team_name_tags": [],
     "tom_round_rules": "tom_round_rules.default",
-    "is_piggyback_enabled": true
+    "is_piggyback_enabled": true,
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "round_territory_control_squads_autumn",
@@ -36116,10 +36195,10 @@
   },
   {
     "id": "round_territory_control_squads_non_final",
-    "min_participants": 22,
-    "max_participants": 34,
-    "min_participants_private_lobby": 22,
-    "max_participants_private_lobby": 34,
+    "min_participants": 12,
+    "max_participants": 16,
+    "min_participants_private_lobby": 12,
+    "max_participants_private_lobby": 16,
     "qualification_percentage": 100,
     "squads_qualification_percentage": 50,
     "has_timer": true,
@@ -36146,9 +36225,9 @@
     "objective_hint_text": "localised_strings.level_hint_territorycontrol",
     "score_context_text": "localised_strings.level_score_context_territorycontrol",
     "overtime_text": "localised_strings.overtime",
-    "should_hide_opposing_team_name_tags": [],
     "tom_round_rules": "tom_round_rules.default",
-    "is_piggyback_enabled": true
+    "is_piggyback_enabled": true,
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "round_territory_control_trios",
@@ -36318,9 +36397,9 @@
     "round_info": "localised_strings.level_info_thin_ice",
     "objective_text": "localised_strings.level_objective_thin_ice",
     "show_qualification_progress_ui": true,
-    "should_hide_opposing_team_name_tags": [],
     "tom_round_rules": "tom_round_rules.default",
-    "is_piggyback_enabled": true
+    "is_piggyback_enabled": true,
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "round_thin_ice_event_elimination",
@@ -37134,9 +37213,9 @@
   {
     "id": "round_tip_toe_duos",
     "min_participants": 9,
-    "max_participants": 24,
+    "max_participants": 30,
     "min_participants_private_lobby": 9,
-    "max_participants_private_lobby": 24,
+    "max_participants_private_lobby": 30,
     "qualification_percentage": 100,
     "squads_qualification_percentage": 60,
     "has_timer": true,
@@ -37157,9 +37236,9 @@
     "objective_text": "localised_strings.level_objective_squads_race",
     "objective_hint_text": "localised_strings.level_hint_tip_toe",
     "show_qualification_progress_ui": true,
-    "should_hide_opposing_team_name_tags": [],
     "tom_round_rules": "tom_round_rules.default",
-    "is_piggyback_enabled": true
+    "is_piggyback_enabled": true,
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "round_tip_toe_event_only_01",
@@ -37575,9 +37654,9 @@
   {
     "id": "round_tiptoefinale_duos",
     "is_final_round": true,
-    "min_participants": 2,
+    "min_participants": 8,
     "max_participants": 8,
-    "min_participants_private_lobby": 2,
+    "min_participants_private_lobby": 8,
     "max_participants_private_lobby": 8,
     "duration": 100,
     "time_left_red_alert_threshold": 10,
@@ -37585,6 +37664,8 @@
     "round_end_condition": "success_quota",
     "overtime_mode": "none",
     "team_mode": "solo",
+    "team_count": 4,
+    "require_same_team_sizes": true,
     "score_display_mode": "none",
     "start_game_message": {},
     "start_game_message_trigger": "start",
@@ -37592,9 +37673,9 @@
     "round_description": "localised_strings.level_loading_tiptoefinal",
     "round_info": "localised_strings.level_info_tiptoefinal",
     "objective_text": "localised_strings.level_objective_tiptoefinal",
-    "should_hide_opposing_team_name_tags": [],
     "tom_round_rules": "tom_round_rules.default",
-    "is_piggyback_enabled": true
+    "is_piggyback_enabled": true,
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "round_tom_gym",
@@ -38363,9 +38444,7 @@
     "max_participants": 8,
     "min_participants_private_lobby": 2,
     "max_participants_private_lobby": 8,
-    "has_timer": true,
     "duration": 300,
-    "timer_visibility_threshold": 999,
     "time_left_red_alert_threshold": 10,
     "game_manager_spawn_type": "none",
     "round_end_condition": "eliminated_quota",
@@ -38380,9 +38459,9 @@
     "round_info": "localised_strings.level_info_roll_off",
     "objective_text": "localised_strings.level_objective_roll_off",
     "show_qualification_progress_ui": true,
-    "should_hide_opposing_team_name_tags": [],
     "tom_round_rules": "tom_round_rules.default",
-    "is_piggyback_enabled": true
+    "is_piggyback_enabled": true,
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "round_tunnel_final_squads_potoo",
@@ -56597,7 +56676,7 @@
     "max_participants": 40,
     "min_participants_private_lobby": 2,
     "max_participants_private_lobby": 40,
-    "qualification_percentage": 1,
+    "qualification_percentage": 25,
     "squads_qualification_percentage": 1,
     "has_timer": true,
     "duration": 180,
