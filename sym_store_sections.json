@@ -6189,6 +6189,54 @@
     "storefront": "storefront_featured"
   },
   {
+    "id": "section_fallguys_fp11_s11_ip_bluebird",
+    "order_preference": 362,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_grabbag_s11_ip_bluebird"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_costumeset_s11_ip_bluebird01_01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_costumeset_s11_ip_bluebird02_01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 1
+        },
+        "bundle_slot": "bundle_emote_s11_ip_bluebird"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 1
+        },
+        "bundle_slot": "bundle_victory_s11_bluebird"
+      }
+    ],
+    "target_ids": [
+      "fp11_bluebird_fallguys"
+    ],
+    "name": "bundle_grabbag_bluebird_name",
+    "storefront": "storefront_featured"
+  },
+  {
     "id": "section_fallguys_fp11_s5_beetlerider_02",
     "order_preference": 347,
     "section_height": 2,
@@ -7733,6 +7781,54 @@
       "fp11_goose"
     ],
     "name": "storesection_goose_b_name",
+    "storefront": "storefront_featured"
+  },
+  {
+    "id": "section_greenbird",
+    "order_preference": 365,
+    "section_height": 2,
+    "show_refresh_timer": true,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "grabbag_greenbird"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "s11_ip_greenbird01_01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "s11_ip_greenbird02_01"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 1
+        },
+        "bundle_slot": "emote_s11_ip_greenbird"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 1
+        },
+        "bundle_slot": "victory_s11_ip_greenbird"
+      }
+    ],
+    "target_ids": [
+      "fp11_greenbird"
+    ],
+    "name": "storesection_greenbird_name",
     "storefront": "storefront_featured"
   },
   {
@@ -11318,9 +11414,74 @@
     "order_preference": 10,
     "section_height": 2,
     "target_ids": [
-      "fp10_rmt_banana_fizz_pack"
+      "fp10_rmt_dates"
     ],
     "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_rmt_banana_fizz_pack"
+      },
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_rmt_beanmachine_pack"
+      }
+    ],
+    "storefront": "storefront_offers"
+  },
+  {
+    "id": "section_rmt_02",
+    "order_preference": 11,
+    "section_height": 2,
+    "target_ids": [
+      "fp11_rmt_dates"
+    ],
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_rmt_hotdogrevisitone"
+      },
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_rmt_banana_fizz_pack"
+      },
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_rmt_beanmachine_pack"
+      }
+    ],
+    "name": "sym_storesection_title_more_offers",
+    "storefront": "storefront_offers"
+  },
+  {
+    "id": "section_rmt_03",
+    "order_preference": 12,
+    "section_height": 2,
+    "target_ids": [
+      "fp11_rmt_dates"
+    ],
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_rmt_knightyrevisitone_pack"
+      },
       {
         "layout": {
           "tile_width": 2,
@@ -11333,68 +11494,24 @@
           "tile_width": 2,
           "tile_height": 2
         },
-        "bundle_slot": "bundle_rmt_banana_fizz_pack"
+        "bundle_slot": "bundle_s9_rmt_icecreamtriple_02"
       }
-    ],
-    "storefront": "storefront_offers"
-  },
-  {
-    "id": "section_rmt_02",
-    "order_preference": 11,
-    "section_height": 2,
-    "bundle_slots": [
-      {
-        "layout": {
-          "tile_width": 2,
-          "tile_height": 2
-        },
-        "bundle_slot": "slot_bundle_rmt_pegwin_party_001"
-      },
-      {
-        "layout": {
-          "tile_width": 2,
-          "tile_height": 2
-        },
-        "bundle_slot": "bundle_s9_rmt_otterwaiter_01"
-      }
-    ],
-    "target_ids": [
-      "disabled_year_1900"
     ],
     "name": "sym_storesection_title_more_offers",
     "storefront": "storefront_offers"
-  },
-  {
-    "id": "section_rmt_03",
-    "order_preference": 12,
-    "section_height": 2,
-    "bundle_slots": [
-      {
-        "layout": {
-          "tile_width": 2,
-          "tile_height": 2
-        },
-        "bundle_slot": "bundle_s9_rmt_inapinch_01"
-      },
-      {
-        "layout": {
-          "tile_width": 2,
-          "tile_height": 2
-        },
-        "bundle_slot": "ss001_season_wildfire_001"
-      }
-    ],
-    "target_ids": [
-      "s10_rmt_wk1_c"
-    ],
-    "name": "sym_storesection_title_more_offers",
-    "storefront": "ss004_storefront_offers"
   },
   {
     "id": "section_rmt_04",
     "order_preference": 12,
     "section_height": 2,
     "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_rmt_hugalotl_pack"
+      },
       {
         "layout": {
           "tile_width": 2,
@@ -11411,7 +11528,7 @@
       }
     ],
     "target_ids": [
-      "storefront_offers"
+      "fp10_rmt_dates"
     ],
     "storefront": "storefront_offers"
   },

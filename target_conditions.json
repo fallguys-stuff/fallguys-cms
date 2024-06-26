@@ -1595,7 +1595,7 @@
       "data": {
         "operator": "between",
         "start": "2024-05-15T10:00:00",
-        "end": "2024-06-18T09:59:59"
+        "end": "2025-06-18T09:59:59"
       }
     }
   },
@@ -2325,6 +2325,17 @@
     }
   },
   {
+    "id": "fp10_rmt_dates",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-05-15T12:00:00",
+        "end": "2024-07-17T09:59:59"
+      }
+    }
+  },
+  {
     "id": "fp10_rmt_hugalotl_pack",
     "parameters": {
       "type": "date_time",
@@ -2776,6 +2787,17 @@
     }
   },
   {
+    "id": "fp11_bluebird_fallguys",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-07-04T10:00:00",
+        "end": "2024-07-11T09:59:59"
+      }
+    }
+  },
+  {
     "id": "fp11_boombox_duo",
     "parameters": {
       "type": "date_time",
@@ -3018,6 +3040,17 @@
     }
   },
   {
+    "id": "fp11_greenbird",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-06-27T10:00:00",
+        "end": "2024-07-11T09:59:59"
+      }
+    }
+  },
+  {
     "id": "fp11_hamster_hamster",
     "parameters": {
       "type": "date_time",
@@ -3080,6 +3113,17 @@
         "operator": "between",
         "start": "2024-06-19T10:00:00",
         "end": "2024-06-24T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp11_hotdogrevisitone",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-05-17T10:00:00",
+        "end": "2025-06-18T09:59:59"
       }
     }
   },
@@ -3256,6 +3300,27 @@
         "operator": "between",
         "start": "2024-06-21T10:00:00",
         "end": "2024-06-26T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp11_rmt_dates",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "more_than_or_equal_to",
+        "start": "2024-07-17T10:00:00"
+      }
+    }
+  },
+  {
+    "id": "fp11_rmt_knightyrevisiton",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-05-17T10:00:00",
+        "end": "2025-06-18T09:59:59"
       }
     }
   },
@@ -6700,6 +6765,21 @@
     }
   },
   {
+    "id": "has_not_purchased_rmt_fp11_hotdogrevisitone",
+    "parameters": {
+      "type": "purchase_history",
+      "data": {
+        "bundle": {
+          "id": "bundle_rmt_hotdogrevisitone"
+        },
+        "quantity": {
+          "operator": "less_than",
+          "max": 1
+        }
+      }
+    }
+  },
+  {
     "id": "has_not_purchased_rmt_hugalotl_pack",
     "parameters": {
       "type": "purchase_history",
@@ -6710,6 +6790,21 @@
         },
         "bundle": {
           "id": "bundle_rmt_hugalotl_pack"
+        }
+      }
+    }
+  },
+  {
+    "id": "has_not_purchased_rmt_knightyrevisiton",
+    "parameters": {
+      "type": "purchase_history",
+      "data": {
+        "quantity": {
+          "operator": "less_than",
+          "max": 1
+        },
+        "bundle": {
+          "id": "bundle_rmt_knightyrevisitone_pack"
         }
       }
     }
@@ -8765,7 +8860,7 @@
       "data": {
         "operator": "between",
         "start": "2020-11-11T09:00:00",
-        "end": "2024-11-14T23:59:59"
+        "end": "2025-11-14T23:59:59"
       }
     }
   },
