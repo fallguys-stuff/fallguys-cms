@@ -6188,6 +6188,31 @@
     ]
   },
   {
+    "id": "var_over_biggestfan_noelim_explore",
+    "set_switchers_overrides": [
+      {
+        "key": "WholeLevel",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Easier",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "FloatingFans",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "var_over_biggestfan_ss2_launch",
     "set_switchers_overrides": [
       {
@@ -6667,6 +6692,61 @@
         "weightings": [
           {
             "key": "SpinningBollards",
+            "weighting": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "var_over_chompchomp_noelim_explore",
+    "set_switchers_overrides": [
+      {
+        "key": "FirstSection",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "SecondSection",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "SplitPaths",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "MergePaths",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "SlimeSlide",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
             "weighting": 100
           }
         ]
@@ -9724,6 +9804,55 @@
     ]
   },
   {
+    "id": "var_over_dodge_fall_noelim_explore",
+    "set_switchers_overrides": [
+      {
+        "key": "LogSpawner",
+        "undefined_weightings_behaviour": "use_defaults",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Yeetus",
+        "undefined_weightings_behaviour": "use_defaults",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 50
+          },
+          {
+            "key": "Yeetus",
+            "weighting": 50
+          }
+        ]
+      },
+      {
+        "key": "FruitSpawners",
+        "undefined_weightings_behaviour": "use_defaults",
+        "weightings": [
+          {
+            "key": "Easy",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Conveyor",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Slower",
+            "weighting": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "var_over_dodge_fall_ss2_launch",
     "set_switchers_overrides": [
       {
@@ -10084,6 +10213,58 @@
         "weightings": [
           {
             "key": "Fan",
+            "weighting": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "var_over_door_dash_noelim_explore",
+    "set_switchers_overrides": [
+      {
+        "key": "MovingPillars",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Hammer",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Fan",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 50
+          },
+          {
+            "key": "Fan",
+            "weighting": 50
+          },
+          {
+            "key": "Water"
+          }
+        ]
+      },
+      {
+        "key": "BetweenGates",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
             "weighting": 100
           }
         ]
@@ -10594,6 +10775,101 @@
           {
             "key": "Sideways",
             "weighting": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "var_over_drumtop_noelim_explore",
+    "set_switchers_overrides": [
+      {
+        "key": "Section01_Hammers",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section01_Pegwin",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section02_BouncyRiver",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section02_LastSegment",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section03_DrumsMovement",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section04_Bottom",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section04_Top",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section05_Top",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section05_Bottom",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 100
           }
         ]
       }
@@ -12574,6 +12850,21 @@
     ]
   },
   {
+    "id": "var_over_fruit_bowl_noelim_explore",
+    "set_switchers_overrides": [
+      {
+        "key": "Fruits",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Easier",
+            "weighting": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "var_over_fruitpunch_difficult",
     "set_switchers_overrides": [
       {
@@ -12601,6 +12892,31 @@
           {
             "key": "MoreCannons",
             "weighting": 60
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "var_over_fruitpunch_noelim_explore",
+    "set_switchers_overrides": [
+      {
+        "key": "SeeSaw",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Cannons",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 100
           }
         ]
       }
@@ -12982,6 +13298,79 @@
     ]
   },
   {
+    "id": "var_over_gauntlet_01_noelim_explore",
+    "set_switchers_overrides": [
+      {
+        "key": "Section_1",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section_2",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Turnstiles",
+            "weighting": 50
+          },
+          {
+            "key": "Spinners",
+            "weighting": 50
+          }
+        ]
+      },
+      {
+        "key": "Section_3",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Pendulums_2",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section_4",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "MovingPillars",
+            "weighting": 50
+          },
+          {
+            "key": "SpinningHammers",
+            "weighting": 50
+          }
+        ]
+      },
+      {
+        "key": "LilYeety",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "SlimeSurvival",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "var_over_gauntlet_02_difficult",
     "set_switchers_overrides": [
       {
@@ -13215,6 +13604,51 @@
           {
             "key": "Flippers_02",
             "weighting": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "var_over_gauntlet_02_noelim_explore",
+    "set_switchers_overrides": [
+      {
+        "key": "Section_2",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section_3",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Turntables",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section 4",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Spawner",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section_Boulders",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
           }
         ]
       }
@@ -13613,6 +14047,45 @@
           {
             "key": "Formation_2",
             "weighting": 50
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "var_over_gauntlet_03_noelim_explore",
+    "set_switchers_overrides": [
+      {
+        "key": "Section_1",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section_3",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 10
+          },
+          {
+            "key": "Hammers",
+            "weighting": 90
+          }
+        ]
+      },
+      {
+        "key": "LilYeety",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
           }
         ]
       }
@@ -14798,6 +15271,83 @@
     ]
   },
   {
+    "id": "var_over_gauntlet_05_noelim_explore",
+    "set_switchers_overrides": [
+      {
+        "key": "1_Spawners",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original_Easier",
+            "weighting": 90
+          },
+          {
+            "key": "Original",
+            "weighting": 10
+          }
+        ]
+      },
+      {
+        "key": "2_Punchers",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original_FewerPunchers",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "3_Punchers",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "4_Flippers",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Easier",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "5_Flippers",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Fan",
+            "weighting": 90
+          },
+          {
+            "key": "Original",
+            "weighting": 10
+          }
+        ]
+      },
+      {
+        "key": "5_Pendulum",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 10
+          },
+          {
+            "key": "Off",
+            "weighting": 90
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "var_over_gauntlet_05_season_3_variation_01",
     "set_switchers_overrides": [
       {
@@ -15407,6 +15957,115 @@
         "weightings": [
           {
             "key": "HighGrav",
+            "weighting": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "var_over_gauntlet_06_noelim_explore",
+    "set_switchers_overrides": [
+      {
+        "key": "Spawners",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 10
+          },
+          {
+            "key": "Off",
+            "weighting": 90
+          }
+        ]
+      },
+      {
+        "key": "Steps",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "ShootingGallery",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Cannons",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Bridges",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Formation_03",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Yeetus_01",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Maze",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Slide",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Swings",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "SpinningArm",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Floor",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Yeetus_02",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
             "weighting": 100
           }
         ]
@@ -16451,6 +17110,144 @@
         "weightings": [
           {
             "key": "Flippers",
+            "weighting": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "var_over_gauntlet_07_noelim_explore",
+    "set_switchers_overrides": [
+      {
+        "key": "Section1_BottomRoute",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Hammers",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section1_TopRoute",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Turntable_Easy",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section2_TopRoute",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section2_BottomRoute",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section2_BottomTurntables",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Turntables",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section3_TopRoute",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section3_BottomRoute",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original"
+          },
+          {
+            "key": "LessBollards",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section4_TopRoute_Bollards",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Bollards",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section4_BottomRoute_River",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section4_BottomRoute_Cannon",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Boulders",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section5_TopRoute",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "LogSwing",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section5_BottomRoute",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "1Rhino",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Section5_EndCliff",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
             "weighting": 100
           }
         ]
@@ -17583,6 +18380,51 @@
     ]
   },
   {
+    "id": "var_over_hoops_blockade_solo_noelim_explore",
+    "set_switchers_overrides": [
+      {
+        "key": "Blocks",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "MoreBlocks",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "OuterRing",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "InnerRing",
+        "undefined_weightings_behaviour": "use_defaults",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Centre",
+        "undefined_weightings_behaviour": "use_defaults",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "var_over_hoops_blockade_solo_variation_01",
     "set_switchers_overrides": [
       {
@@ -18125,6 +18967,85 @@
         "weightings": [
           {
             "key": "FanEnding",
+            "weighting": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "var_over_hoverboardsurvival_noelim_explore",
+    "set_switchers_overrides": [
+      {
+        "key": "LaserHurdles",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "EasyMode",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Cannons",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "FewerProjectiles",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "PinballFlippers_Side",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 50
+          },
+          {
+            "key": "Punchers",
+            "weighting": 50
+          }
+        ]
+      },
+      {
+        "key": "GravityHurdles",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "GravityHurdles_MovingPillar",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "ForcefieldDoor",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "FinalFlipper",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "PinballAndLightBridges",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "FinalFlipper_LaserSwings",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original",
             "weighting": 100
           }
         ]
@@ -19242,6 +20163,31 @@
     ]
   },
   {
+    "id": "var_over_jump_club_noelim_explore",
+    "set_switchers_overrides": [
+      {
+        "key": "Spinner",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original_Slower",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Spawners",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "var_over_jump_club_onboarding",
     "set_switchers_overrides": [
       {
@@ -20290,6 +21236,101 @@
     ]
   },
   {
+    "id": "var_over_lava_noelim_explore",
+    "set_switchers_overrides": [
+      {
+        "key": "EndSection",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Button",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Spawners",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "BouldersEasy",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Hammers",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Formation_3",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Yeetus",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Pushers_1",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "SlowerPushers",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Pushers_2",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "SlowerPushers",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Pushers_3",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "SlowerPushers",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Pegwin",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "BalanceBeams",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "GravityZone",
+            "weighting": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "var_over_lava_v45",
     "set_switchers_overrides": [
       {
@@ -20702,6 +21743,31 @@
           },
           {
             "key": "Penguin"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "var_over_match_fall_noelim_explore",
+    "set_switchers_overrides": [
+      {
+        "key": "Centre",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Tiles",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 100
           }
         ]
       }
@@ -21237,6 +22303,31 @@
         "weightings": [
           {
             "key": "One",
+            "weighting": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "var_over_robotrampage_noelim_explore",
+    "set_switchers_overrides": [
+      {
+        "key": "RhinoAmount",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "One",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Outside_Arena",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "FansAndDrums",
             "weighting": 100
           }
         ]
@@ -21875,6 +22966,101 @@
         "weightings": [
           {
             "key": "FanBlocks",
+            "weighting": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "var_over_shortcircuit_noelim_explore",
+    "set_switchers_overrides": [
+      {
+        "key": "StartCorner_Variation",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "OtherCorners_Variation02",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Hurdles",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "DoorBlocks_Variation",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "FanBlocks",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "LaserMaze_Variation",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Whisk",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "SwingFling_Variation",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "LessFlippers",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "OtherCorners_Variation03",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Hurdles",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "OtherCorners_Variation04",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Hurdles",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "GravGates_Variation",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Forcefields",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
             "weighting": 100
           }
         ]
@@ -23128,6 +24314,111 @@
     ]
   },
   {
+    "id": "var_over_slimeclimb_2_noelim_explore",
+    "set_switchers_overrides": [
+      {
+        "key": "Start",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Floor1_Ramp2",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "SeeSaws",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Floor1_RightCorner",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Floor2_LeftCorner",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Floor2_RightCorner",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Forcefields",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Floor3_Ramp1",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "LaserHurdlesOff",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Floor4_Ramp1",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Bollards",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Floor5_Ramp1",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Ending",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Floor2_Ramp2",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "PunchersOff",
+            "weighting": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "var_over_slimeclimb_2_s5_1",
     "set_switchers_overrides": [
       {
@@ -23536,6 +24827,21 @@
         "weightings": [
           {
             "key": "MoreTiles",
+            "weighting": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "var_over_snowballsurvival_noelim_explore",
+    "set_switchers_overrides": [
+      {
+        "key": "Floor",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "SafeCentre",
             "weighting": 100
           }
         ]
@@ -24521,6 +25827,21 @@
     ]
   },
   {
+    "id": "var_over_thin_ice_noelim_explore",
+    "set_switchers_overrides": [
+      {
+        "key": "Ice_Tiles",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "EasyMode",
+            "weighting": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "var_over_thin_ice_pelican",
     "set_switchers_overrides": [
       {
@@ -24846,6 +26167,31 @@
           {
             "key": "Formation_3",
             "weighting": 30
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "var_over_tip_toe_noelim_explore",
+    "set_switchers_overrides": [
+      {
+        "key": "LogSwings",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "TipToeTiles",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Easier",
+            "weighting": 100
           }
         ]
       }
@@ -25343,6 +26689,31 @@
           },
           {
             "key": "ThreeRings",
+            "weighting": 100
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "var_over_tunnel_noelim_explore",
+    "set_switchers_overrides": [
+      {
+        "key": "Spawners",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Rings",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Original",
             "weighting": 100
           }
         ]
