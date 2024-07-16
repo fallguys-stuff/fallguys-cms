@@ -1,12 +1,24 @@
 [
   {
-    "id": "no_elimination_show",
+    "id": "ftue_uk",
     "content_item": {
       "group": "matchmaking_gates",
-      "id": "show_wle_s10_wk08_srs_04"
+      "id": "ftue_uk_show"
     },
     "target_ids": [
-      "min_rounds_played"
-    ]
+      "ko_ftue_not_completed"
+    ],
+    "hide_when_targets_not_met": true
+  },
+  {
+    "id": "knockout_mode",
+    "content_item": {
+      "group": "matchmaking_gates",
+      "id": "knockout_mode"
+    },
+    "target_ids": [
+      "ko_ftue_completed"
+    ],
+    "hide_when_targets_not_met": true
   }
 ]

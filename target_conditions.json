@@ -51,6 +51,18 @@
     }
   },
   {
+    "id": "cero_round_played_ko",
+    "parameters": {
+      "type": "player_stat",
+      "data": {
+        "comparison": {
+          "operator": "equal_to"
+        },
+        "player_stat_id": "rounds_played_knockout"
+      }
+    }
+  },
+  {
     "id": "challenges_bg_test_after",
     "parameters": {
       "type": "date_time",
@@ -6721,6 +6733,18 @@
     }
   },
   {
+    "id": "ftue_uk_show_test",
+    "parameters": {
+      "type": "player_stat",
+      "data": {
+        "comparison": {
+          "operator": "less_than"
+        },
+        "player_stat_id": "rounds_played"
+      }
+    }
+  },
+  {
     "id": "has_not_purchased_japan_discount_bundle",
     "parameters": {
       "type": "purchase_history",
@@ -8808,6 +8832,32 @@
           "content_item_id": "japan"
         },
         "post_comparison_modifier": "exclusively_not_all_true"
+      }
+    }
+  },
+  {
+    "id": "one_round_played_ko",
+    "parameters": {
+      "type": "player_stat",
+      "data": {
+        "comparison": {
+          "operator": "more_than_or_equal_to",
+          "min": 1
+        },
+        "player_stat_id": "rounds_played_knockout"
+      }
+    }
+  },
+  {
+    "id": "one_round_played_ko_ftue",
+    "parameters": {
+      "type": "player_stat",
+      "data": {
+        "comparison": {
+          "operator": "more_than_or_equal_to",
+          "min": 1
+        },
+        "player_stat_id": "rounds_played"
       }
     }
   },
@@ -15916,6 +15966,43 @@
         "operator": "between",
         "start": "2023-12-23T10:00:00",
         "end": "2023-12-30T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "zero_rounds_played",
+    "parameters": {
+      "type": "player_stat",
+      "data": {
+        "comparison": {
+          "operator": "equal_to"
+        },
+        "player_stat_id": "rounds_played"
+      }
+    }
+  },
+  {
+    "id": "zero_rounds_played_ko",
+    "parameters": {
+      "type": "player_stat",
+      "data": {
+        "comparison": {
+          "operator": "less_than",
+          "max": 1
+        },
+        "player_stat_id": "rounds_played_knockout"
+      }
+    }
+  },
+  {
+    "id": "zero_rounds_played_ko_ftue",
+    "parameters": {
+      "type": "player_stat",
+      "data": {
+        "comparison": {
+          "operator": "equal_to"
+        },
+        "player_stat_id": "rounds_played"
       }
     }
   }

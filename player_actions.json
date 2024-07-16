@@ -2211,6 +2211,84 @@
     }
   },
   {
+    "id": "play_round_knockout",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "knockout_mode"
+        }
+      ]
+    }
+  },
+  {
+    "id": "play_round_knockout_copy",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "end_of_round_player_state",
+          "operator": "contains_any",
+          "string_array_value": [
+            "disqualified",
+            "qualified"
+          ],
+          "dimension_type": "array_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "knockout_mode"
+        }
+      ]
+    }
+  },
+  {
+    "id": "play_round_knockout_ftue",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "end_of_round_player_state",
+          "operator": "contains_any",
+          "string_array_value": [
+            "disqualified",
+            "qualified"
+          ],
+          "dimension_type": "array_dimension"
+        },
+        {
+          "dimension_id": "level_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "welcome_noelim_ftue_s1"
+        }
+      ]
+    }
+  },
+  {
     "id": "play_round_wobble_01",
     "config": {
       "metric_id": "round_reached",
