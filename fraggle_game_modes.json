@@ -12,6 +12,79 @@
         "template": "ultimate_party_template_race"
       }
     ],
+    "enabled_setting": "settings_global.fraggle_gauntlet_enabled",
+    "rules": [
+      {
+        "type": "header",
+        "localisation": "wle_rulebook"
+      },
+      {
+        "type": "name",
+        "invalid_characters": "/\\?%*:|\"<>.;=",
+        "localisation": "wle_rulebook_name"
+      },
+      {
+        "type": "description",
+        "localisation": "wle_rulebook_description"
+      },
+      {
+        "type": "reference",
+        "cm_editor_value": "cm_editor_values.ingame_theme",
+        "localisation": "wle_skybox_setting"
+      },
+      {
+        "type": "maxcapacity",
+        "localised_values": [],
+        "lower_min_capacity": 1,
+        "upper_min_capacity": 1,
+        "min_capacity_step": 1,
+        "default_min_capacity": 1,
+        "lower_max_capacity": 1,
+        "upper_max_capacity": 40,
+        "max_capacity_step": 1,
+        "default_max_capacity": 40,
+        "localisation": "wle_rulebook_maxplayers"
+      },
+      {
+        "type": "slider",
+        "cm_editor_value": "cm_editor_values.time_limit_seconds",
+        "localised_values": [],
+        "localisation": "wle_rulebook_timelimit"
+      },
+      {
+        "type": "slider",
+        "cm_editor_value": "cm_editor_values.qualification_percentage",
+        "format": "{0} %",
+        "localised_values": [
+          {
+            "value": 1,
+            "label": "wle_qual_percent_one"
+          },
+          {
+            "value": 100,
+            "label": "wle_qual_percent_all"
+          }
+        ],
+        "localisation": "wle_rulebook_qualifiers"
+      },
+      {
+        "type": "tags",
+        "localisation": "wle_rulebook_tags_title"
+      },
+      {
+        "type": "reference",
+        "cm_editor_value": "cm_editor_values.ingame_music_soundtrack",
+        "localisation": "wle_rulebook_music"
+      }
+    ],
+    "completion_criteria": [
+      {
+        "type": "startline"
+      },
+      {
+        "type": "finishline"
+      }
+    ],
     "levels_archetype_id": "archetype_race"
   },
   {
@@ -25,6 +98,79 @@
       {
         "type": "ultimate_party",
         "template": "ultimate_party_template_survival"
+      }
+    ],
+    "enabled_setting": "settings_global.fraggle_survival_enabled",
+    "rules": [
+      {
+        "type": "header",
+        "localisation": "wle_rulebook"
+      },
+      {
+        "type": "name",
+        "invalid_characters": "/\\?%*:|\"<>.;=",
+        "localisation": "wle_rulebook_name"
+      },
+      {
+        "type": "description",
+        "localisation": "wle_rulebook_description"
+      },
+      {
+        "type": "reference",
+        "cm_editor_value": "cm_editor_values.ingame_theme",
+        "localisation": "wle_skybox_setting"
+      },
+      {
+        "type": "maxcapacity",
+        "localised_values": [],
+        "lower_min_capacity": 1,
+        "upper_min_capacity": 1,
+        "min_capacity_step": 1,
+        "default_min_capacity": 1,
+        "lower_max_capacity": 1,
+        "upper_max_capacity": 40,
+        "max_capacity_step": 1,
+        "default_max_capacity": 1,
+        "localisation": "wle_rulebook_maxplayers"
+      },
+      {
+        "type": "slider",
+        "cm_editor_value": "cm_editor_values.survival_percentage",
+        "format": "{0} %",
+        "localised_values": [
+          {
+            "value": 1,
+            "label": "wle_qual_percent_one"
+          },
+          {
+            "value": 100,
+            "label": "wle_qual_percent_all"
+          }
+        ],
+        "localisation": "wle_rulebook_survival_percentage"
+      },
+      {
+        "type": "slider",
+        "cm_editor_value": "cm_editor_values.time_limit_seconds",
+        "localised_values": [],
+        "localisation": "wle_rulebook_timelimit"
+      },
+      {
+        "type": "tags",
+        "localisation": "wle_rulebook_tags_title"
+      },
+      {
+        "type": "reference",
+        "cm_editor_value": "cm_editor_values.ingame_music_soundtrack",
+        "localisation": "wle_rulebook_music"
+      }
+    ],
+    "completion_criteria": [
+      {
+        "type": "hexspawnpoints"
+      },
+      {
+        "type": "placedobstacle"
       }
     ],
     "levels_archetype_id": "archetype_survival"

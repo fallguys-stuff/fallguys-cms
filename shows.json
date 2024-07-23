@@ -23,8 +23,8 @@
     "default_episode": "levels_episode.casual_show_episode",
     "opens_at": "2020-01-01T09:00:00",
     "closes_at": "2050-01-01T09:00:00",
+    "can_play_again": true,
     "top_tags": [],
-    "show_tag": "show_tag_casual",
     "show_image_cms": "ui_show_big_explorationtile",
     "episode_reward_settings_id": "explore_mode_rewards_all"
   },
@@ -55,6 +55,7 @@
     "closes_at": "2050-01-01T09:00:00",
     "content_label": "localised_strings.show_content_label_show",
     "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "can_play_again": true,
     "top_tags": [],
     "show_image_cms": "show_selector_show_duos",
     "episode_reward_settings_id": "knockout_duos"
@@ -85,6 +86,7 @@
     "default_episode": "levels_episode.episode_s10_solo_show",
     "opens_at": "2020-01-01T09:00:00",
     "closes_at": "2050-01-01T09:00:00",
+    "can_play_again": true,
     "top_tags": [],
     "show_image_cms": "show_selector_core_solo_show",
     "episode_reward_settings_id": "knockout_mode_rewards"
@@ -116,6 +118,7 @@
     "closes_at": "2050-01-01T09:00:00",
     "content_label": "localised_strings.show_content_label_show",
     "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "can_play_again": true,
     "top_tags": [],
     "show_image_cms": "show_selector_core_squads_show",
     "episode_reward_settings_id": "knockout_squads"
@@ -3174,9 +3177,9 @@
     "content_label": "localised_strings.show_content_label_show",
     "show_selector_tile_colour": "colour.show_selector_tile_blue",
     "display_while_upcoming": true,
+    "top_tags": [],
     "show_image_cms": "ui_show_show_selector_april_fools",
-    "episode_reward_settings_id": "squads",
-    "top_tags": null
+    "episode_reward_settings_id": "squads"
   },
   {
     "id": "event_aprilstart_0404_1004",
@@ -8548,9 +8551,8 @@
     "content_label": "localised_strings.show_content_label_show",
     "show_selector_tile_colour": "colour.show_selector_tile_blue",
     "top_tags": [],
-    "show_tag": "show_tag_time_attack",
     "show_image_cms": "show_selector_show_s4503",
-    "episode_reward_settings_id": "solo_hard_mode"
+    "episode_reward_settings_id": "xtreme_mode_rewards"
   },
   {
     "id": "event_yeetus_111022_121022",
@@ -10183,9 +10185,11 @@
     "default_episode": "levels_episode.episode_knockout_mode",
     "opens_at": "2020-01-01T09:00:00",
     "closes_at": "2050-01-01T09:00:00",
+    "can_play_again": true,
     "top_tags": [],
-    "show_tag": "show_tag_compete",
-    "show_image_cms": "ui_show_big_cmp_knockout_showselector_02",
+    "show_tag": "show_tag_newlevels",
+    "show_image_cms": "ui_show_big_knockout_fp12_big",
+    "big_tile_show_image_cms": "ui_show_big_knockout_fp12_big",
     "episode_reward_settings_id": "knockout_mode_rewards"
   },
   {
@@ -11173,7 +11177,6 @@
     "opens_at": "2024-07-16T10:00:00",
     "closes_at": "2024-07-23T09:59:59",
     "top_tags": [],
-    "show_tag": "show_tag_casual",
     "show_image_cms": "ui_show_selector_noelim_explore",
     "episode_reward_settings_id": "explore_mode_rewards_all"
   },

@@ -98,12 +98,6 @@
     "platforms_whitelist": []
   },
   {
-    "id": "block_metrics_for_private_lobbies_enabled",
-    "value": false,
-    "platforms_whitelist": [],
-    "target_ids": []
-  },
-  {
     "id": "cabin_mode_enabled",
     "value": true,
     "target_ids": [
@@ -212,6 +206,12 @@
   {
     "id": "character_jump_coyote_time",
     "value": 0.15,
+    "platforms_whitelist": [],
+    "target_ids": []
+  },
+  {
+    "id": "character_piggyback_show_fall_feed",
+    "value": true,
     "platforms_whitelist": [],
     "target_ids": []
   },
@@ -375,6 +375,12 @@
   {
     "id": "elimination_auto_leave_timer",
     "value": 20,
+    "platforms_whitelist": [],
+    "target_ids": []
+  },
+  {
+    "id": "emote_menu_time_limit",
+    "value": 2,
     "platforms_whitelist": [],
     "target_ids": []
   },
@@ -566,6 +572,14 @@
     "target_ids": []
   },
   {
+    "id": "fraggle_gauntlet_enabled",
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": []
+  },
+  {
     "id": "fraggle_plobbies_enabled",
     "value": true,
     "target_ids": [
@@ -662,8 +676,16 @@
     "target_ids": []
   },
   {
+    "id": "hold_time_to_skip_round",
+    "value": 1,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": []
+  },
+  {
     "id": "ingame_notification_challenge_progress_all",
-    "value": false,
+    "value": true,
     "target_ids": [
       "after_prime_global_launch"
     ],
@@ -679,7 +701,15 @@
   },
   {
     "id": "ingame_notification_challenge_progress_page_size",
-    "value": 5,
+    "value": 3,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": []
+  },
+  {
+    "id": "ingame_notification_crown_shards_progress",
+    "value": true,
     "target_ids": [
       "after_prime_global_launch"
     ],
@@ -695,7 +725,7 @@
   },
   {
     "id": "ingame_notification_round_rewards",
-    "value": false,
+    "value": true,
     "target_ids": [
       "after_prime_global_launch"
     ],
@@ -786,6 +816,18 @@
     "target_ids": []
   },
   {
+    "id": "max_distance_scale_speech_bubble",
+    "value": 10,
+    "platforms_whitelist": [],
+    "target_ids": []
+  },
+  {
+    "id": "max_distance_scale_speech_bubble_action",
+    "value": 10,
+    "platforms_whitelist": [],
+    "target_ids": []
+  },
+  {
     "id": "max_parallel_texture_requests",
     "value": 5,
     "platforms_whitelist": [],
@@ -807,13 +849,21 @@
   },
   {
     "id": "menu_3d_background_enabled",
-    "value": false,
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": []
+  },
+  {
+    "id": "min_distance_scale_speech_bubble",
+    "value": 7.5,
     "platforms_whitelist": [],
     "target_ids": []
   },
   {
-    "id": "menu_3d_background_name",
-    "value": "",
+    "id": "min_distance_scale_speech_bubble_action",
+    "value": 7.5,
     "platforms_whitelist": [],
     "target_ids": []
   },
@@ -849,7 +899,7 @@
   },
   {
     "id": "notification_manager_max_active_notifications",
-    "value": 3,
+    "value": 2,
     "platforms_whitelist": [],
     "target_ids": []
   },
@@ -896,6 +946,14 @@
     "value": 0.2,
     "platforms_whitelist": [],
     "target_ids": []
+  },
+  {
+    "id": "physics_object_enabled",
+    "value": false,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": []
   },
   {
     "id": "physics_percent_override",
@@ -961,6 +1019,28 @@
     "value": true,
     "platforms_whitelist": [],
     "target_ids": []
+  },
+  {
+    "id": "powerup_enable_rubber_chicken",
+    "value": false,
+    "platforms_whitelist": [],
+    "target_ids": []
+  },
+  {
+    "id": "precision_movement_enabled",
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": []
+  },
+  {
+    "id": "precision_movement_value",
+    "value": 0.1,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": []
   },
   {
     "id": "private_lobbies_active_show_selector",
@@ -1062,7 +1142,7 @@
     "id": "round_levels_preload_enabled",
     "value": true,
     "target_ids": [
-      "disabled_year_1900"
+      "after_prime_global_launch"
     ],
     "platforms_whitelist": []
   },
@@ -1101,6 +1181,14 @@
     "value": 1.5,
     "platforms_whitelist": [],
     "target_ids": []
+  },
+  {
+    "id": "select_payment_method_enabled",
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": []
   },
   {
     "id": "send_extra_party_data_on_matchmaking_enabled",
@@ -1260,6 +1348,12 @@
       "mobile_users"
     ],
     "platforms_whitelist": []
+  },
+  {
+    "id": "support_repeated_targeted_items_enabled",
+    "value": false,
+    "platforms_whitelist": [],
+    "target_ids": []
   },
   {
     "id": "support_url",
@@ -1450,6 +1544,20 @@
       "after_prime_global_launch"
     ],
     "platforms_whitelist": []
+  },
+  {
+    "id": "up_reward_flow_show_victory_screen",
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": []
+  },
+  {
+    "id": "up_reward_flow_victory_screen_show_party",
+    "value": false,
+    "platforms_whitelist": [],
+    "target_ids": []
   },
   {
     "id": "upf_auto_flush",
