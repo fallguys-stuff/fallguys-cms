@@ -3320,8 +3320,9 @@
     "parameters": {
       "type": "date_time",
       "data": {
-        "operator": "more_than_or_equal_to",
-        "start": "2024-07-17T10:00:00"
+        "operator": "between",
+        "start": "2024-07-17T12:00:00",
+        "end": "2024-07-23T09:59:59"
       }
     }
   },
@@ -4191,6 +4192,38 @@
         "operator": "between",
         "start": "2024-08-06T10:00:00",
         "end": "2024-08-15T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp12_rmt_05",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-07-23T10:00:00",
+        "end": "2024-08-14T11:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp12_rmt_dates",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "more_than_or_equal_to",
+        "start": "2024-07-23T10:00:00"
+      }
+    }
+  },
+  {
+    "id": "fp12_rmt_dates_start",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-07-17T12:00:00",
+        "end": "2024-08-14T11:59:59"
       }
     }
   },
