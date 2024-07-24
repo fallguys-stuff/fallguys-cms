@@ -2311,28 +2311,37 @@
   {
     "id": "bundle_1x2_costumeset_eggshell_02",
     "has_stock": true,
-    "stock": 2,
+    "stock": 1,
     "bundle_type": {
-      "bundle_type": "costume_set",
+      "bundle_type": "default",
       "purchase_options": {
-        "type": "currencies",
-        "item_id": "gems"
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 500,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
       },
       "cosmetics": [
         {
-          "type": "costume_sets",
-          "item_id": "costumeset_eggshell_02"
+          "type": "costumes_upper",
+          "item_id": "top_eggshell_02"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_eggshell_02"
         }
-      ]
+      ],
+      "extra": []
     },
     "display_name": "costume_eggshell_02",
     "bundle_description": "bundle_desc_costumeset_default",
     "bundle_type_subtitle": "bundle_subtitle_costumeset_default",
     "rarity": "rare",
-    "category": "costume",
+    "category": "currency",
     "bundle_tile_image": "bundle_1x2_costumeset_eggshell_02",
-    "bundle_background_custom_gradient_image": "bundle_bg_1x2_birds_skyblue",
-    "ribbon_label_text": "storelabel_discount_primos"
+    "bundle_background_custom_gradient_image": "bundle_bg_1x2_birds_skyblue"
   },
   {
     "id": "bundle_1x2_costumeset_eldritch_fiend",
