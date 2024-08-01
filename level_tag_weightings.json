@@ -1506,6 +1506,46 @@
     ]
   },
   {
+    "id": "tag_weightings_anniversary_fp12_ltm",
+    "tag_score": [
+      {
+        "tag": "level_tags.exclusive_wild_elimination",
+        "bonus": -10,
+        "repeat_malus": 350,
+        "repeat_decay": 50,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.exclusive_hoverboard",
+        "bonus": -10,
+        "repeat_malus": 350,
+        "repeat_decay": 50,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.covenant_final",
+        "bonus": -35,
+        "apply_bonus_when": {
+          "type": "before_stage",
+          "setting": {
+            "stage": 9
+          }
+        }
+      },
+      {
+        "tag": "level_tags.variety_big_boost",
+        "bonus": 150,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      }
+    ]
+  },
+  {
     "id": "tag_weightings_classic_solo_show_s10",
     "tag_score": [
       {

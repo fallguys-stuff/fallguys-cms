@@ -1711,6 +1711,26 @@
     }
   },
   {
+    "id": "play_anniversary",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "anniversary_fp12_ltm"
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        }
+      ]
+    }
+  },
+  {
     "id": "play_any_round_any_show_ss1_idol_games",
     "config": {
       "metric_id": "round_reached",
@@ -5225,6 +5245,32 @@
     }
   },
   {
+    "id": "reach_final_anniversary",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "is_final_round",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "anniversary_fp12_ltm"
+        }
+      ]
+    }
+  },
+  {
     "id": "reach_final_round",
     "config": {
       "metric_id": "round_reached",
@@ -5507,6 +5553,32 @@
       "dimensions": [],
       "round_index": 1,
       "show_id": "event_only_ss2_squads_template"
+    }
+  },
+  {
+    "id": "reach_round_2_anniversary",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "round_index",
+          "operator": "equal",
+          "integer_value": 1,
+          "dimension_type": "integer_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "anniversary_fp12_ltm"
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        }
+      ]
     }
   },
   {
@@ -6019,6 +6091,32 @@
     }
   },
   {
+    "id": "reach_round_4_anniversary",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "round_index",
+          "operator": "equal",
+          "integer_value": 3,
+          "dimension_type": "integer_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "anniversary_fp12_ltm"
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        }
+      ]
+    }
+  },
+  {
     "id": "reach_round_4_as_a_party",
     "config": {
       "metric_id": "round_reached",
@@ -6133,6 +6231,84 @@
       "dimensions": [],
       "round_index": 3,
       "show_id": "squads_3player_04012022_to_13012022"
+    }
+  },
+  {
+    "id": "reach_round_7_anniversary",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "round_index",
+          "operator": "equal",
+          "integer_value": 6,
+          "dimension_type": "integer_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "anniversary_fp12_ltm"
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        }
+      ]
+    }
+  },
+  {
+    "id": "reach_round_8_anniversary",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "round_index",
+          "operator": "equal",
+          "integer_value": 7,
+          "dimension_type": "integer_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "anniversary_fp12_ltm"
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        }
+      ]
+    }
+  },
+  {
+    "id": "reach_round_9_anniversary",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "round_index",
+          "operator": "equal",
+          "integer_value": 8,
+          "dimension_type": "integer_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "anniversary_fp12_ltm"
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        }
+      ]
     }
   },
   {
@@ -6903,6 +7079,38 @@
           "operator": "equal",
           "boolean_value": "true",
           "dimension_type": "boolean_dimension"
+        }
+      ]
+    }
+  },
+  {
+    "id": "win_anniversary",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "round_qualified",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "is_final_round",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "anniversary_fp12_ltm"
         }
       ]
     }

@@ -1,5 +1,33 @@
 [
   {
+    "id": "anniversary_fp12_ltm",
+    "show_name": "localised_strings.show_title_anniversary_fp12",
+    "show_description": "localised_strings.show_desc_anniversary_fp12",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "hide_countdown": true,
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 28,
+      "max_players": 30
+    },
+    "private_lobby_size": {
+      "type": "default"
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.episode_anniversary_fp12_ltm",
+    "opens_at": "2024-08-02T10:00:00",
+    "closes_at": "2024-08-09T09:59:59",
+    "can_play_again": true,
+    "top_tags": [],
+    "show_image_cms": "ui_show_anniversary_fp12_ltm",
+    "episode_reward_settings_id": "anniversary_fp12"
+  },
+  {
     "id": "casual_show",
     "show_name": "localised_strings.casual_show_title",
     "show_description": "localised_strings.casual_mode_desc",
@@ -4960,7 +4988,6 @@
     "content_label": "localised_strings.show_content_label_show",
     "show_selector_tile_colour": "colour.show_selector_tile_blue",
     "display_while_upcoming": true,
-    "can_play_again": true,
     "min_party_size": 1,
     "max_party_size": 4,
     "size": {
