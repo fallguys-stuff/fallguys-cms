@@ -22083,6 +22083,23 @@
     "discovery_queries": []
   },
   {
+    "id": "roundpool_no_elimination_explore_level_collection",
+    "config": {
+      "type": "collection_driven",
+      "level_collections": [
+        {
+          "weight": 1,
+          "level_collection_id": "explore_no_elimination"
+        }
+      ],
+      "fallback_level_collection": {
+        "level_collection_id": "explore_no_elimination"
+      }
+    },
+    "discovery_queries": [],
+    "stages": []
+  },
+  {
     "id": "roundpool_noelim",
     "stages": [
       {
