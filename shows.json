@@ -14,7 +14,9 @@
       "max_players": 30
     },
     "private_lobby_size": {
-      "type": "default"
+      "type": "override",
+      "min_players": 10,
+      "max_players": 30
     },
     "show_type": {
       "showtype_switch": "individual"
