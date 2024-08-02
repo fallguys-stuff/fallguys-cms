@@ -3333,7 +3333,7 @@
       "data": {
         "operator": "between",
         "start": "2024-07-17T12:00:00",
-        "end": "2024-07-23T09:59:59"
+        "end": "2024-07-23T11:59:59"
       }
     }
   },
@@ -4223,8 +4223,19 @@
       "type": "date_time",
       "data": {
         "operator": "between",
-        "start": "2024-07-23T10:00:00",
+        "start": "2024-07-23T12:00:00",
         "end": "2024-08-14T11:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp12_rmt_aug",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-08-14T12:00:00",
+        "end": "2024-09-04T11:59:59"
       }
     }
   },
@@ -4234,7 +4245,7 @@
       "type": "date_time",
       "data": {
         "operator": "more_than_or_equal_to",
-        "start": "2024-07-23T10:00:00"
+        "start": "2024-07-23T12:00:00"
       }
     }
   },
@@ -7614,6 +7625,21 @@
     }
   },
   {
+    "id": "has_not_purchased_rmt_cyborgbutch",
+    "parameters": {
+      "type": "purchase_history",
+      "data": {
+        "quantity": {
+          "operator": "less_than",
+          "max": 1
+        },
+        "bundle": {
+          "id": "bundle_rmt_cyborgbutch_pack"
+        }
+      }
+    }
+  },
+  {
     "id": "has_not_purchased_rmt_fp11_hotdogrevisitone",
     "parameters": {
       "type": "purchase_history",
@@ -7654,6 +7680,21 @@
         },
         "bundle": {
           "id": "bundle_rmt_knightyrevisitone_pack"
+        }
+      }
+    }
+  },
+  {
+    "id": "has_not_purchased_rmt_magma_bean_pack",
+    "parameters": {
+      "type": "purchase_history",
+      "data": {
+        "quantity": {
+          "operator": "less_than",
+          "max": 1
+        },
+        "bundle": {
+          "id": "bundle_rmt_magma_bean_pack"
         }
       }
     }
