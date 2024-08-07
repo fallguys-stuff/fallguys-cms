@@ -753,9 +753,9 @@
     "objective_text": "localised_strings.level_objective_ugc_gauntlet",
     "show_qualification_progress_ui": true,
     "should_hide_opposing_team_name_tags": [],
+    "is_piggyback_enabled": true,
     "tom_round_rules": "tom_round_rules.up_to_40_toms",
-    "tom_bt_parameters": "bt_parameters.bt_gauntlet_04",
-    "is_piggyback_enabled": true
+    "tom_bt_parameters": "bt_parameters.bt_gauntlet_04"
   },
   {
     "id": "fraggle_gamemode_survival_template",
@@ -17463,9 +17463,9 @@
     "objective_hint_text": "localised_strings.level_hint_floor_fall",
     "show_qualification_progress_ui": true,
     "should_hide_opposing_team_name_tags": [],
+    "is_piggyback_enabled": true,
     "tom_round_rules": "tom_round_rules.up_to_40_toms",
-    "tom_bt_parameters": "bt_parameters.bt_floorfall",
-    "is_piggyback_enabled": true
+    "tom_bt_parameters": "bt_parameters.bt_floorfall"
   },
   {
     "id": "round_floor_fall_3_point_5_fan_favourite",
@@ -19642,9 +19642,9 @@
     "objective_text": "localised_strings.level_objective_gauntlet_01",
     "show_qualification_progress_ui": true,
     "should_hide_opposing_team_name_tags": [],
+    "is_piggyback_enabled": true,
     "tom_round_rules": "tom_round_rules.up_to_40_toms",
-    "tom_bt_parameters": "bt_parameters.bt_gauntlet_01",
-    "is_piggyback_enabled": true
+    "tom_bt_parameters": "bt_parameters.bt_gauntlet_01"
   },
   {
     "id": "round_gauntlet_01_anniversary",
@@ -35882,8 +35882,8 @@
     "objective_hint_text": "localised_strings.level_hint_slide_chute",
     "show_qualification_progress_ui": true,
     "should_hide_opposing_team_name_tags": [],
-    "tom_round_rules": "tom_round_rules.default",
-    "is_piggyback_enabled": true
+    "is_piggyback_enabled": true,
+    "tom_round_rules": "tom_round_rules.default"
   },
   {
     "id": "round_slide_chute_40",
@@ -59603,8 +59603,10 @@
   {
     "id": "ultimate_party_race",
     "is_final_round": true,
-    "max_participants": 100,
-    "max_participants_private_lobby": 100,
+    "min_participants": 1,
+    "max_participants": 20,
+    "min_participants_private_lobby": 1,
+    "max_participants_private_lobby": 20,
     "qualification_percentage": 100,
     "squads_qualification_percentage": 100,
     "has_timer": true,
@@ -59623,9 +59625,9 @@
     "should_hide_opposing_team_name_tags": [
       null
     ],
+    "is_piggyback_enabled": true,
     "tom_round_rules": "tom_round_rules.up_to_40_toms",
-    "tom_bt_parameters": "bt_parameters.bt_gauntlet_01",
-    "is_piggyback_enabled": true
+    "tom_bt_parameters": "bt_parameters.bt_gauntlet_01"
   },
   {
     "id": "ultimate_party_template_survival",

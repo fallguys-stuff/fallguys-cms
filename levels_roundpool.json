@@ -1,5 +1,22 @@
 [
   {
+    "id": "casual_show_ftue_collection",
+    "config": {
+      "type": "collection_driven",
+      "level_collections": [
+        {
+          "weight": 1,
+          "level_collection_id": "casual_show_ftue"
+        }
+      ],
+      "fallback_level_collection": {
+        "level_collection_id": "casual_show_ftue"
+      }
+    },
+    "discovery_queries": [],
+    "stages": []
+  },
+  {
     "id": "casual_show_roundpool",
     "config": {
       "type": "collection_driven",
@@ -77,6 +94,69 @@
     "config": {
       "type": "legacy"
     }
+  },
+  {
+    "id": "casual_show_roundpool_low_bucket",
+    "config": {
+      "type": "collection_driven",
+      "level_collections": [
+        {
+          "weight": 40,
+          "level_collection_id": "explore_monthly_races_easy"
+        },
+        {
+          "weight": 60,
+          "level_collection_id": "explore_quarter_races_easy"
+        }
+      ],
+      "fallback_level_collection": {
+        "level_collection_id": "explore_quarter_races_easy"
+      }
+    },
+    "discovery_queries": [
+      "discovery_queries.casual_monthly_races_easy",
+      "discovery_queries.casual_quarter_races_easy"
+    ],
+    "stages": []
+  },
+  {
+    "id": "casual_show_roundpool_mid_bucket",
+    "config": {
+      "type": "collection_driven",
+      "level_collections": [
+        {
+          "weight": 15,
+          "level_collection_id": "explore_weekly_races"
+        },
+        {
+          "weight": 25,
+          "level_collection_id": "explore_monthly_races"
+        },
+        {
+          "weight": 10,
+          "level_collection_id": "explore_monthly_survival"
+        },
+        {
+          "weight": 40,
+          "level_collection_id": "explore_quarter_races"
+        },
+        {
+          "weight": 10,
+          "level_collection_id": "explore_quarter_survival"
+        }
+      ],
+      "fallback_level_collection": {
+        "level_collection_id": "explore_quarter_races"
+      }
+    },
+    "discovery_queries": [
+      "discovery_queries.casual_quarter_races",
+      "discovery_queries.casual_quarter_survival",
+      "discovery_queries.casual_monthly_races",
+      "discovery_queries.casual_monthly_survival",
+      "discovery_queries.casual_weekly_races"
+    ],
+    "stages": []
   },
   {
     "id": "current_wle_fp3_08_01",
@@ -1510,17 +1590,17 @@
   },
   {
     "id": "fraggle_gamemode_gauntlet_template",
+    "config": {
+      "type": "legacy"
+    },
+    "discovery_queries": [],
     "stages": [
       {
         "round": "levels_round.fraggle_gamemode_gauntlet_template",
         "can_only_be_on_these_stages": [],
         "cannot_be_on_these_stages": []
       }
-    ],
-    "discovery_queries": [],
-    "config": {
-      "type": "legacy"
-    }
+    ]
   },
   {
     "id": "fraggle_gamemode_survival_template",
@@ -36862,17 +36942,17 @@
   },
   {
     "id": "ultimate_party_template_race",
+    "config": {
+      "type": "legacy"
+    },
+    "discovery_queries": [],
     "stages": [
       {
         "round": "levels_round.ultimate_party_template_race",
         "can_only_be_on_these_stages": [],
         "cannot_be_on_these_stages": []
       }
-    ],
-    "discovery_queries": [],
-    "config": {
-      "type": "legacy"
-    }
+    ]
   },
   {
     "id": "ultimate_party_template_survival",

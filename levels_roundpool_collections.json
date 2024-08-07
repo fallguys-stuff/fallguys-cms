@@ -1,5 +1,60 @@
 [
   {
+    "id": "casual_show_ftue",
+    "config": {
+      "type": "cms",
+      "cms": {
+        "levels": [
+          {
+            "level": "ftue_01"
+          },
+          {
+            "level": "ftue_03"
+          },
+          {
+            "level": "ftue_04"
+          },
+          {
+            "level": "ftue_18"
+          },
+          {
+            "level": "ftue_24"
+          },
+          {
+            "level": "ftue_30"
+          },
+          {
+            "level": "ftue_31"
+          },
+          {
+            "level": "ftue_32"
+          },
+          {
+            "level": "ftue_33"
+          },
+          {
+            "level": "ftue_34"
+          },
+          {
+            "level": "ftue_35"
+          },
+          {
+            "level": "ftue_36"
+          },
+          {
+            "level": "ftue_37"
+          },
+          {
+            "level": "ftue_38"
+          },
+          {
+            "level": "ftue_39"
+          }
+        ]
+      }
+    }
+  },
+  {
     "id": "explore_daily_races",
     "config": {
       "type": "disco",
@@ -31,6 +86,16 @@
       "disco": {
         "overrides": [],
         "discovery_query_id": "casual_monthly_races"
+      }
+    }
+  },
+  {
+    "id": "explore_monthly_races_easy",
+    "config": {
+      "type": "disco",
+      "disco": {
+        "overrides": [],
+        "discovery_query_id": "casual_monthly_races_easy"
       }
     }
   },
@@ -202,6 +267,16 @@
       "disco": {
         "overrides": [],
         "discovery_query_id": "casual_quarter_races"
+      }
+    }
+  },
+  {
+    "id": "explore_quarter_races_easy",
+    "config": {
+      "type": "disco",
+      "disco": {
+        "overrides": [],
+        "discovery_query_id": "casual_quarter_races_easy"
       }
     }
   },
