@@ -186,6 +186,29 @@
     "conditions": []
   },
   {
+    "id": "chickpea_reward_earned",
+    "condition_ids": [
+      "chickpea_reward_earned"
+    ],
+    "conditions": []
+  },
+  {
+    "id": "chickpea_reward_not_earned_mobile",
+    "condition_ids": [
+      "chickpea_reward_not_earned",
+      "is_mobile_user"
+    ],
+    "conditions": []
+  },
+  {
+    "id": "chickpea_reward_not_earned_prime",
+    "condition_ids": [
+      "chickpea_reward_not_earned",
+      "is_not_mobile_user"
+    ],
+    "conditions": []
+  },
+  {
     "id": "condor_fp6",
     "condition_ids": [
       "condor_fp6"
@@ -8532,6 +8555,20 @@
     "conditions": []
   },
   {
+    "id": "is_le_f12_aug",
+    "condition_ids": [
+      "is_le_f12_aug"
+    ],
+    "conditions": []
+  },
+  {
+    "id": "is_mobile_user",
+    "condition_ids": [
+      "is_mobile_user"
+    ],
+    "conditions": []
+  },
+  {
     "id": "ko_expert",
     "condition_ids": [
       "one_round_played_ko"
@@ -8556,6 +8593,13 @@
     "id": "ko_not_played",
     "condition_ids": [
       "zero_rounds_played_ko"
+    ],
+    "conditions": []
+  },
+  {
+    "id": "le_chickpea",
+    "condition_ids": [
+      "is_mobile_user"
     ],
     "conditions": []
   },
@@ -9435,6 +9479,13 @@
     "id": "mobile_users",
     "condition_ids": [
       "is_mobile_group"
+    ],
+    "conditions": []
+  },
+  {
+    "id": "not_mobile_group",
+    "condition_ids": [
+      "is_not_mobile_group"
     ],
     "conditions": []
   },

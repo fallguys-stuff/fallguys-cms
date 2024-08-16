@@ -48,6 +48,18 @@
     }
   },
   {
+    "id": "challenge_chickpea",
+    "item": {
+      "group_id": "challenge_list_schedules",
+      "item_id": "event_chickpea"
+    },
+    "config": {
+      "type": "absolute",
+      "starts_at": "2024-08-16T11:00:00",
+      "ends_at": "2024-11-03T00:00:00"
+    }
+  },
+  {
     "id": "classic_duo_show",
     "item": {
       "group_id": "matchmaking_gates",
@@ -960,6 +972,18 @@
     }
   },
   {
+    "id": "daily_pool_fp13",
+    "item": {
+      "group_id": "challenge_list_schedules",
+      "item_id": "daily_pool_fp10"
+    },
+    "config": {
+      "type": "absolute",
+      "starts_at": "2024-09-03T12:00:00",
+      "ends_at": "2024-10-08T11:59:59"
+    }
+  },
+  {
     "id": "day_at_the_races_squads",
     "item": {
       "group_id": "matchmaking_gates",
@@ -1123,8 +1147,8 @@
     },
     "config": {
       "type": "absolute",
-      "starts_at": "2024-06-25T09:00:00",
-      "ends_at": "2024-07-02T08:59:59"
+      "starts_at": "2024-08-28T11:00:00",
+      "ends_at": "2024-09-03T10:59:59"
     }
   },
   {
@@ -1136,7 +1160,7 @@
     "config": {
       "type": "absolute",
       "starts_at": "2024-07-16T00:00:00",
-      "ends_at": "2024-08-16T00:00:00"
+      "ends_at": "2024-10-01T10:00:00"
     }
   },
   {
@@ -1257,6 +1281,18 @@
       "type": "absolute",
       "starts_at": "2024-07-23T12:00:00",
       "ends_at": "2024-09-03T11:59:59"
+    }
+  },
+  {
+    "id": "mastery_pool_fp13",
+    "item": {
+      "group_id": "challenge_list_schedules",
+      "item_id": "daily_mastery_pool_fp10"
+    },
+    "config": {
+      "type": "absolute",
+      "starts_at": "2024-09-03T12:00:00",
+      "ends_at": "2024-10-08T11:59:59"
     }
   },
   {
@@ -1442,8 +1478,8 @@
     },
     "config": {
       "type": "absolute",
-      "starts_at": "2024-02-29T10:00:00",
-      "ends_at": "2024-03-07T09:59:59"
+      "starts_at": "2024-08-16T11:00:00",
+      "ends_at": "2024-08-22T10:59:59"
     }
   },
   {
@@ -1551,16 +1587,9 @@
       "item_id": "squadcelebration"
     },
     "config": {
-      "type": "relative",
-      "schedule_anchor_point": "start",
-      "parent_schedule_anchor_point": "start",
-      "schedule_length_unit": "day",
-      "schedule_length_unit_multiplier": 7,
-      "offset": {
-        "unit": "day",
-        "unit_multiplier": 58
-      },
-      "parent_schedule_id": "show_s10_duos_show"
+      "type": "absolute",
+      "starts_at": "2024-08-22T11:00:00",
+      "ends_at": "2024-08-28T10:59:59"
     }
   },
   {
@@ -2727,6 +2756,90 @@
         "unit": "none"
       },
       "parent_schedule_id": "weekly_pool_fp12_5"
+    }
+  },
+  {
+    "id": "weekly_pool_fp13_1",
+    "item": {
+      "group_id": "challenge_list_schedules",
+      "item_id": "weekly_pool_fp10"
+    },
+    "config": {
+      "type": "absolute",
+      "starts_at": "2024-09-03T12:00:00",
+      "ends_at": "2024-09-10T11:59:59"
+    }
+  },
+  {
+    "id": "weekly_pool_fp13_2",
+    "item": {
+      "group_id": "challenge_list_schedules",
+      "item_id": "weekly_pool_fp10"
+    },
+    "config": {
+      "type": "relative",
+      "schedule_anchor_point": "start",
+      "parent_schedule_anchor_point": "end",
+      "schedule_length_unit": "day",
+      "schedule_length_unit_multiplier": 7,
+      "offset": {
+        "unit": "none"
+      },
+      "parent_schedule_id": "weekly_pool_fp13_1"
+    }
+  },
+  {
+    "id": "weekly_pool_fp13_3",
+    "item": {
+      "group_id": "challenge_list_schedules",
+      "item_id": "weekly_pool_fp10"
+    },
+    "config": {
+      "type": "relative",
+      "schedule_anchor_point": "start",
+      "parent_schedule_anchor_point": "end",
+      "schedule_length_unit": "day",
+      "schedule_length_unit_multiplier": 7,
+      "offset": {
+        "unit": "none"
+      },
+      "parent_schedule_id": "weekly_pool_fp13_2"
+    }
+  },
+  {
+    "id": "weekly_pool_fp13_4",
+    "item": {
+      "group_id": "challenge_list_schedules",
+      "item_id": "weekly_pool_fp10"
+    },
+    "config": {
+      "type": "relative",
+      "schedule_anchor_point": "start",
+      "parent_schedule_anchor_point": "end",
+      "schedule_length_unit": "day",
+      "schedule_length_unit_multiplier": 7,
+      "offset": {
+        "unit": "none"
+      },
+      "parent_schedule_id": "weekly_pool_fp13_3"
+    }
+  },
+  {
+    "id": "weekly_pool_fp13_5",
+    "item": {
+      "group_id": "challenge_list_schedules",
+      "item_id": "weekly_pool_fp10"
+    },
+    "config": {
+      "type": "relative",
+      "schedule_anchor_point": "start",
+      "parent_schedule_anchor_point": "end",
+      "schedule_length_unit": "day",
+      "schedule_length_unit_multiplier": 7,
+      "offset": {
+        "unit": "none"
+      },
+      "parent_schedule_id": "weekly_pool_fp13_4"
     }
   },
   {

@@ -138,6 +138,37 @@
     }
   },
   {
+    "id": "chickpea_reward_earned",
+    "parameters": {
+      "type": "item_quantity",
+      "data": {
+        "item": {
+          "type": "costumes_upper",
+          "reference": "costumes_upper.top_s10_hologram_02"
+        },
+        "quantity": {
+          "operator": "more_than"
+        }
+      }
+    }
+  },
+  {
+    "id": "chickpea_reward_not_earned",
+    "parameters": {
+      "type": "item_quantity",
+      "data": {
+        "item": {
+          "type": "costumes_upper",
+          "reference": "costumes_upper.top_s10_hologram_02"
+        },
+        "quantity": {
+          "operator": "less_than",
+          "max": 1
+        }
+      }
+    }
+  },
+  {
     "id": "condor_fp6",
     "parameters": {
       "type": "date_time",
@@ -8264,6 +8295,17 @@
     }
   },
   {
+    "id": "is_le_f12_aug",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2024-08-16T11:00:00",
+        "end": "2024-09-03T10:59:59"
+      }
+    }
+  },
+  {
     "id": "is_le_s10_bread",
     "parameters": {
       "type": "date_time",
@@ -9234,6 +9276,36 @@
       "type": "platform_group",
       "data": {
         "operator": "equal_to",
+        "platform_group": "mobile"
+      }
+    }
+  },
+  {
+    "id": "is_mobile_user",
+    "parameters": {
+      "type": "platform_group",
+      "data": {
+        "operator": "equal_to",
+        "platform_group": "mobile"
+      }
+    }
+  },
+  {
+    "id": "is_not_mobile_group",
+    "parameters": {
+      "type": "platform_group",
+      "data": {
+        "operator": "not_equal_to",
+        "platform_group": "mobile"
+      }
+    }
+  },
+  {
+    "id": "is_not_mobile_user",
+    "parameters": {
+      "type": "platform_group",
+      "data": {
+        "operator": "not_equal_to",
         "platform_group": "mobile"
       }
     }
