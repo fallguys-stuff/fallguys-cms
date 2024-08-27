@@ -22,66 +22,59 @@
       "type": "collection_driven",
       "level_collections": [
         {
-          "weight": 8,
-          "level_collection_id": "explore_newer"
+          "weight": 4,
+          "level_collection_id": "explore_new"
+        },
+        {
+          "weight": 6,
+          "level_collection_id": "explore_100_500"
+        },
+        {
+          "weight": 10,
+          "level_collection_id": "explore_500_2000"
+        },
+        {
+          "weight": 15,
+          "level_collection_id": "explore_2k_6k"
+        },
+        {
+          "weight": 15,
+          "level_collection_id": "explore_6k_10k"
+        },
+        {
+          "weight": 20,
+          "level_collection_id": "explore_10k"
+        },
+        {
+          "weight": 1,
+          "level_collection_id": "explore_new_survival"
         },
         {
           "weight": 2,
-          "level_collection_id": "explore_newer_survival"
-        },
-        {
-          "weight": 12,
-          "level_collection_id": "explore_daily_races"
+          "level_collection_id": "explore_100_500_survival"
         },
         {
           "weight": 3,
-          "level_collection_id": "explore_daily_survival"
+          "level_collection_id": "explore_500_2000_survival"
         },
         {
-          "weight": 15,
-          "level_collection_id": "explore_weekly_races"
-        },
-        {
-          "weight": 5,
-          "level_collection_id": "explore_weekly_survival"
-        },
-        {
-          "weight": 15,
-          "level_collection_id": "explore_monthly_races"
+          "weight": 4,
+          "level_collection_id": "explore_2k_6k_survival"
         },
         {
           "weight": 5,
-          "level_collection_id": "explore_monthly_survival"
+          "level_collection_id": "explore_6k_10k_survival"
         },
         {
-          "weight": 10,
-          "level_collection_id": "explore_monthly_spice"
-        },
-        {
-          "weight": 15,
-          "level_collection_id": "explore_quarter_races"
-        },
-        {
-          "weight": 10,
-          "level_collection_id": "explore_quarter_survival"
+          "weight": 5,
+          "level_collection_id": "explore_6k_10k_survival"
         }
       ],
       "fallback_level_collection": {
         "level_collection_id": "explore_quarter_races"
       }
     },
-    "discovery_queries": [
-      "discovery_queries.casual_quarter_races",
-      "discovery_queries.casual_quarter_survival",
-      "discovery_queries.casual_monthly_races",
-      "discovery_queries.casual_monthly_survival",
-      "discovery_queries.casual_weekly_races",
-      "discovery_queries.casual_weekly_survival",
-      "discovery_queries.casual_daily_races",
-      "discovery_queries.casual_daily_survival",
-      "discovery_queries.casual_newer",
-      "discovery_queries.casual_newer_survival"
-    ],
+    "discovery_queries": [],
     "stages": []
   },
   {
@@ -102,11 +95,11 @@
       "level_collections": [
         {
           "weight": 40,
-          "level_collection_id": "explore_monthly_races_easy"
+          "level_collection_id": "explore_6k_10k_easy"
         },
         {
           "weight": 60,
-          "level_collection_id": "explore_quarter_races_easy"
+          "level_collection_id": "explore_10k_easy"
         }
       ],
       "fallback_level_collection": {
@@ -126,23 +119,23 @@
       "level_collections": [
         {
           "weight": 15,
-          "level_collection_id": "explore_weekly_races"
+          "level_collection_id": "explore_2k_6k"
         },
         {
           "weight": 25,
-          "level_collection_id": "explore_monthly_races"
-        },
-        {
-          "weight": 10,
-          "level_collection_id": "explore_monthly_survival"
+          "level_collection_id": "explore_6k_10k"
         },
         {
           "weight": 40,
-          "level_collection_id": "explore_quarter_races"
+          "level_collection_id": "explore_10k"
         },
         {
           "weight": 10,
-          "level_collection_id": "explore_quarter_survival"
+          "level_collection_id": "explore_6k_10k_survival"
+        },
+        {
+          "weight": 10,
+          "level_collection_id": "explore_10k_survival"
         }
       ],
       "fallback_level_collection": {
