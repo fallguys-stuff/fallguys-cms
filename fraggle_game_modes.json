@@ -13,6 +13,14 @@
       }
     ],
     "enabled_setting": "settings_global.fraggle_gauntlet_enabled",
+    "completion_criteria": [
+      {
+        "type": "MinimumStartPoints"
+      },
+      {
+        "type": "finishline"
+      }
+    ],
     "rules": [
       {
         "type": "header",
@@ -35,11 +43,11 @@
       {
         "type": "maxcapacity",
         "localised_values": [],
-        "lower_min_capacity": 1,
-        "upper_min_capacity": 1,
+        "lower_min_capacity": 20,
+        "upper_min_capacity": 20,
         "min_capacity_step": 1,
-        "default_min_capacity": 1,
-        "lower_max_capacity": 1,
+        "default_min_capacity": 20,
+        "lower_max_capacity": 20,
         "upper_max_capacity": 40,
         "max_capacity_step": 1,
         "default_max_capacity": 40,
@@ -77,15 +85,105 @@
         "localisation": "wle_rulebook_music"
       }
     ],
-    "completion_criteria": [
+    "levels_archetype_id": "archetype_race"
+  },
+  {
+    "id": "gamemode_points",
+    "game_mode_client_id": "GAMEMODE_POINTS",
+    "show_templates": [
       {
-        "type": "startline"
+        "type": "fraggle",
+        "template": "fraggle_gamemode_points_template"
       },
       {
-        "type": "finishline"
+        "type": "ultimate_party",
+        "template": "ultimate_party_template_points"
       }
     ],
-    "levels_archetype_id": "archetype_race"
+    "enabled_setting": "settings_global.fraggle_points_enabled",
+    "completion_criteria": [
+      {
+        "type": "MinimumStartPoints"
+      },
+      {
+        "type": "ScoringObject"
+      }
+    ],
+    "rules": [
+      {
+        "type": "header",
+        "localisation": "wle_rulebook"
+      },
+      {
+        "type": "name",
+        "invalid_characters": "/\\?%*:|\"<>.;=",
+        "localisation": "wle_rulebook_name"
+      },
+      {
+        "type": "description",
+        "localisation": "wle_rulebook_description"
+      },
+      {
+        "type": "reference",
+        "cm_editor_value": "cm_editor_values.ingame_theme",
+        "localisation": "wle_skybox_setting"
+      },
+      {
+        "type": "maxcapacity",
+        "localised_values": [
+          {
+            "label": "wle_rulebook_minplayers"
+          }
+        ],
+        "lower_min_capacity": 20,
+        "upper_min_capacity": 20,
+        "min_capacity_step": 1,
+        "default_min_capacity": 20,
+        "lower_max_capacity": 20,
+        "upper_max_capacity": 40,
+        "max_capacity_step": 1,
+        "default_max_capacity": 40,
+        "localisation": "wle_rulebook_maxplayers"
+      },
+      {
+        "type": "slider",
+        "cm_editor_value": "cm_editor_values.time_limit_seconds",
+        "localised_values": [],
+        "localisation": "wle_rulebook_timelimit"
+      },
+      {
+        "type": "slider",
+        "cm_editor_value": "cm_editor_values.qualification_percentage",
+        "format": "{0} %",
+        "localised_values": [
+          {
+            "value": 1,
+            "label": "wle_qual_percent_one"
+          },
+          {
+            "value": 100,
+            "label": "wle_qual_percent_all"
+          }
+        ],
+        "localisation": "wle_rulebook_qualifiers"
+      },
+      {
+        "type": "tags",
+        "localisation": "wle_rulebook_tags_title"
+      },
+      {
+        "type": "slider",
+        "cm_editor_value": "cm_editor_values.score_target",
+        "localised_values": [],
+        "localisation": "wle_rulebook_score_target"
+      },
+      {
+        "type": "reference",
+        "cm_editor_value": "cm_editor_values.ingame_music_soundtrack",
+        "localisation": "wle_rulebook_music"
+      }
+    ],
+    "levels_archetype_id": "archetype_hunt"
   },
   {
     "id": "gamemode_survival",
@@ -101,6 +199,14 @@
       }
     ],
     "enabled_setting": "settings_global.fraggle_survival_enabled",
+    "completion_criteria": [
+      {
+        "type": "MinimumStartPoints"
+      },
+      {
+        "type": "placedobstacle"
+      }
+    ],
     "rules": [
       {
         "type": "header",
@@ -123,14 +229,14 @@
       {
         "type": "maxcapacity",
         "localised_values": [],
-        "lower_min_capacity": 1,
-        "upper_min_capacity": 1,
+        "lower_min_capacity": 4,
+        "upper_min_capacity": 4,
         "min_capacity_step": 1,
-        "default_min_capacity": 1,
-        "lower_max_capacity": 1,
+        "default_min_capacity": 4,
+        "lower_max_capacity": 4,
         "upper_max_capacity": 40,
         "max_capacity_step": 1,
-        "default_max_capacity": 1,
+        "default_max_capacity": 4,
         "localisation": "wle_rulebook_maxplayers"
       },
       {
@@ -163,14 +269,6 @@
         "type": "reference",
         "cm_editor_value": "cm_editor_values.ingame_music_soundtrack",
         "localisation": "wle_rulebook_music"
-      }
-    ],
-    "completion_criteria": [
-      {
-        "type": "hexspawnpoints"
-      },
-      {
-        "type": "placedobstacle"
       }
     ],
     "levels_archetype_id": "archetype_survival"

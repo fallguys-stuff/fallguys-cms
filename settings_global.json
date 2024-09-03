@@ -210,6 +210,12 @@
     "target_ids": []
   },
   {
+    "id": "character_non_mobile_double_jump_to_dive",
+    "value": true,
+    "platforms_whitelist": [],
+    "target_ids": []
+  },
+  {
     "id": "character_piggyback_show_fall_feed",
     "value": true,
     "platforms_whitelist": [],
@@ -343,6 +349,18 @@
       "disabled_year_1900"
     ],
     "platforms_whitelist": []
+  },
+  {
+    "id": "destructible_object_enabled",
+    "value": true,
+    "platforms_whitelist": [],
+    "target_ids": []
+  },
+  {
+    "id": "destructible_ownership_timeout",
+    "value": 3,
+    "platforms_whitelist": [],
+    "target_ids": []
   },
   {
     "id": "disable_sensors",
@@ -588,6 +606,14 @@
     "platforms_whitelist": []
   },
   {
+    "id": "fraggle_points_enabled",
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": []
+  },
+  {
     "id": "fraggle_survival_enabled",
     "value": true,
     "target_ids": [
@@ -708,10 +734,18 @@
     "platforms_whitelist": []
   },
   {
-    "id": "ingame_notification_crown_shards_progress",
+    "id": "ingame_notification_combined_progress",
     "value": true,
     "target_ids": [
       "after_prime_global_launch"
+    ],
+    "platforms_whitelist": []
+  },
+  {
+    "id": "ingame_notification_crown_shards_progress",
+    "value": false,
+    "target_ids": [
+      "disabled_year_1900"
     ],
     "platforms_whitelist": []
   },
@@ -733,9 +767,9 @@
   },
   {
     "id": "ingame_notification_season_progress",
-    "value": true,
+    "value": false,
     "target_ids": [
-      "after_prime_global_launch"
+      "disabled_year_1900"
     ],
     "platforms_whitelist": []
   },
@@ -890,6 +924,12 @@
     "target_ids": []
   },
   {
+    "id": "nested_shows",
+    "value": false,
+    "platforms_whitelist": [],
+    "target_ids": []
+  },
+  {
     "id": "new_analytics_time_tracker_enabled",
     "value": true,
     "target_ids": [
@@ -957,7 +997,7 @@
   },
   {
     "id": "physics_object_enabled",
-    "value": false,
+    "value": true,
     "target_ids": [
       "after_prime_global_launch"
     ],
@@ -1030,7 +1070,7 @@
   },
   {
     "id": "powerup_enable_rubber_chicken",
-    "value": false,
+    "value": true,
     "platforms_whitelist": [],
     "target_ids": []
   },
@@ -1232,11 +1272,9 @@
   },
   {
     "id": "show_selector_discovery_tab",
-    "value": true,
-    "target_ids": [
-      "after_prime_global_launch"
-    ],
-    "platforms_whitelist": []
+    "value": false,
+    "platforms_whitelist": [],
+    "target_ids": []
   },
   {
     "id": "show_selector_enabled",
@@ -1293,6 +1331,24 @@
     "platforms_whitelist": []
   },
   {
+    "id": "skip_reminder_display_lifetime",
+    "value": 10,
+    "platforms_whitelist": [],
+    "target_ids": []
+  },
+  {
+    "id": "skip_reminder_respawn_threshold",
+    "value": 3,
+    "platforms_whitelist": [],
+    "target_ids": []
+  },
+  {
+    "id": "skip_reminder_respawn_time_threshold",
+    "value": 60,
+    "platforms_whitelist": [],
+    "target_ids": []
+  },
+  {
     "id": "small_space_cam_enabled",
     "value": true,
     "target_ids": [
@@ -1303,6 +1359,12 @@
   {
     "id": "snapshot_interpolation_enabled",
     "value": false,
+    "platforms_whitelist": [],
+    "target_ids": []
+  },
+  {
+    "id": "social_wheel_controller_look_delay",
+    "value": 0.15,
     "platforms_whitelist": [],
     "target_ids": []
   },
@@ -1432,6 +1494,14 @@
     "platforms_whitelist": []
   },
   {
+    "id": "trigger_zone_enabled",
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": []
+  },
+  {
     "id": "tweentool_enabled",
     "value": false,
     "platforms_whitelist": [],
@@ -1524,6 +1594,14 @@
     "platforms_whitelist": []
   },
   {
+    "id": "ugc_surface_definitions_enabled",
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": []
+  },
+  {
     "id": "ultimate_party_flow_enabled",
     "value": true,
     "target_ids": [
@@ -1575,7 +1653,7 @@
   },
   {
     "id": "upf_automatic_matchmaking_time_seconds",
-    "value": 5,
+    "value": 2,
     "platforms_whitelist": [],
     "target_ids": []
   },

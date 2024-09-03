@@ -4362,6 +4362,200 @@
     "player_action_id": "play_round_wobble_01"
   },
   {
+    "id": "event_destruction_fp13_01",
+    "target": {
+      "type": "aggregate",
+      "value": 50
+    },
+    "title": "localised_strings.event_destruction_fp13_01",
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "play_knockout"
+  },
+  {
+    "id": "event_destruction_fp13_02",
+    "target": {
+      "type": "aggregate",
+      "value": 30
+    },
+    "title": "localised_strings.event_destruction_fp13_02",
+    "description": "localised_strings.challenge_desc_004_general",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "qualify_rounds_knockout"
+  },
+  {
+    "id": "event_destruction_fp13_03",
+    "target": {
+      "type": "aggregate",
+      "value": 50
+    },
+    "title": "localised_strings.event_destruction_fp13_03",
+    "description": "localised_strings.challenge_desc_destroy_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_knockout"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "destroy_objects_knockout"
+  },
+  {
+    "id": "event_destruction_fp13_04",
+    "target": {
+      "type": "aggregate",
+      "value": 150
+    },
+    "title": "localised_strings.event_destruction_fp13_04",
+    "description": "localised_strings.challenge_desc_032_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "earn_points_knockout"
+  },
+  {
+    "id": "event_destruction_fp13_05",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "title": "localised_strings.event_destruction_fp13_05",
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_knockout"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "win_knockout"
+  },
+  {
+    "id": "event_destruction_fp13_06",
+    "target": {
+      "type": "aggregate",
+      "value": 50
+    },
+    "title": "localised_strings.event_destruction_fp13_06",
+    "description": "localised_strings.challenge_desc_004_general",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_round_type_survival"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "qualify_from_a_survival_round"
+  },
+  {
+    "id": "event_destruction_fp13_07",
+    "target": {
+      "type": "aggregate",
+      "value": 40
+    },
+    "title": "localised_strings.event_destruction_fp13_07",
+    "description": "localised_strings.challenge_desc_004_general",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_round_type_hunt"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "qualify_from_hunt_rounds"
+  },
+  {
+    "id": "event_destruction_fp13_08",
+    "target": {
+      "type": "aggregate",
+      "value": 40
+    },
+    "title": "localised_strings.event_destruction_fp13_08",
+    "description": "localised_strings.challenge_desc_004_general",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_round_type_race"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "qualify_race_rounds"
+  },
+  {
+    "id": "event_destruction_fp13_09",
+    "target": {
+      "type": "aggregate",
+      "value": 15
+    },
+    "title": "localised_strings.event_destruction_fp13_09",
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_round_type_final"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_knockout"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "play_final_knockout"
+  },
+  {
+    "id": "event_destruction_fp13_10",
+    "target": {
+      "type": "aggregate",
+      "value": 8
+    },
+    "title": "localised_strings.event_destruction_fp13_10",
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_knockout"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "win_knockout"
+  },
+  {
     "id": "event_fp12_aug_01",
     "target": {
       "type": "aggregate",
@@ -4880,6 +5074,34 @@
     ],
     "challenge_tags": [],
     "player_action_id": "haddock_meta_challenge"
+  },
+  {
+    "id": "event_heroes_fp13_03",
+    "target": {
+      "type": "aggregate",
+      "value": 100
+    },
+    "description": "localised_strings.challenge_desc_004_in_less_than",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 80
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.abbreviated_seconds"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_round_type_hunt"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "qualify_hunt_round_less_80s"
   },
   {
     "id": "event_pie_meta_01",
@@ -7830,6 +8052,54 @@
     ],
     "challenge_tags": [],
     "player_action_id": "play_jinxed_week_of_romance_s6"
+  },
+  {
+    "id": "play_levels_in_explore_1",
+    "target": {
+      "type": "aggregate",
+      "value": 10
+    },
+    "description": "localised_strings.challenge_desc_027_anyround",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.casual_show_title"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "play_levels_in_explore"
+  },
+  {
+    "id": "play_levels_in_explore_2",
+    "target": {
+      "type": "aggregate",
+      "value": 20
+    },
+    "description": "localised_strings.challenge_desc_027_anyround",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.casual_show_title"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "play_levels_in_explore"
+  },
+  {
+    "id": "play_levels_in_explore_3",
+    "target": {
+      "type": "aggregate",
+      "value": 30
+    },
+    "description": "localised_strings.challenge_desc_027_anyround",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.casual_show_title"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "play_levels_in_explore"
   },
   {
     "id": "play_logic_round_3_le_stars02",

@@ -221,7 +221,7 @@
         {
           "id": "mobile_engine_b",
           "profile_id": "1239047",
-          "profile_name": "Internal QA 26",
+          "profile_name": "Mobile Engine B",
           "platforms": {
             "platform_max": 6
           },
@@ -1511,6 +1511,54 @@
           },
           "seconds_before_allocation": 20,
           "match_function_version": "1.13.4"
+        },
+        {
+          "id": "staging_playtest_a",
+          "profile_id": "1267278",
+          "profile_name": "Staging Playtest A",
+          "enable_bots": true,
+          "solo": {
+            "default_show_min": 1,
+            "default_show_max": 60,
+            "bots_show_min": 1,
+            "bots_show_max": 20
+          },
+          "squads": {
+            "default_min_squad_count": 10,
+            "default_max_squad_count": 15,
+            "default_show_min": 4,
+            "default_show_max": 60,
+            "squad_size": 4
+          },
+          "platforms": {
+            "platform_max": 6
+          },
+          "seconds_before_allocation": 20,
+          "match_function_version": "1.13.4"
+        },
+        {
+          "id": "staging_playtest_b",
+          "profile_id": "1267281",
+          "profile_name": "Staging Playtest B",
+          "enable_bots": true,
+          "solo": {
+            "default_show_min": 1,
+            "default_show_max": 60,
+            "bots_show_min": 1,
+            "bots_show_max": 20
+          },
+          "squads": {
+            "default_min_squad_count": 10,
+            "default_max_squad_count": 15,
+            "default_show_min": 4,
+            "default_show_max": 60,
+            "squad_size": 4
+          },
+          "platforms": {
+            "platform_max": 6
+          },
+          "seconds_before_allocation": 20,
+          "match_function_version": "1.13.4"
         }
       ]
     },
@@ -1770,9 +1818,9 @@
     "config": {
       "type": "locked",
       "profile": {
-        "id": "prod_b",
-        "profile_id": "1196228",
-        "profile_name": "Production - B",
+        "id": "prod_a",
+        "profile_id": "1196225",
+        "profile_name": "Production - A",
         "platforms": {},
         "seconds_before_allocation": 2,
         "match_function_version": "1.13.4",

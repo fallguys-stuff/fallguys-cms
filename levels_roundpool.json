@@ -22,19 +22,19 @@
       "type": "collection_driven",
       "level_collections": [
         {
-          "weight": 4,
+          "weight": 2,
           "level_collection_id": "explore_new"
         },
         {
-          "weight": 6,
+          "weight": 5,
           "level_collection_id": "explore_100_500"
         },
         {
-          "weight": 10,
+          "weight": 8,
           "level_collection_id": "explore_500_2000"
         },
         {
-          "weight": 15,
+          "weight": 12,
           "level_collection_id": "explore_2k_6k"
         },
         {
@@ -42,7 +42,7 @@
           "level_collection_id": "explore_6k_10k"
         },
         {
-          "weight": 20,
+          "weight": 18,
           "level_collection_id": "explore_10k"
         },
         {
@@ -50,43 +50,78 @@
           "level_collection_id": "explore_new_survival"
         },
         {
-          "weight": 2,
+          "weight": 1,
           "level_collection_id": "explore_100_500_survival"
         },
         {
-          "weight": 3,
+          "weight": 2,
           "level_collection_id": "explore_500_2000_survival"
         },
         {
-          "weight": 4,
+          "weight": 3,
           "level_collection_id": "explore_2k_6k_survival"
         },
         {
-          "weight": 5,
+          "weight": 4,
           "level_collection_id": "explore_6k_10k_survival"
         },
         {
-          "weight": 5,
+          "weight": 4,
           "level_collection_id": "explore_6k_10k_survival"
+        },
+        {
+          "weight": 2,
+          "level_collection_id": "explore_new_points"
+        },
+        {
+          "weight": 2,
+          "level_collection_id": "explore_100_500_points"
+        },
+        {
+          "weight": 3,
+          "level_collection_id": "explore_500_2000_points"
+        },
+        {
+          "weight": 4,
+          "level_collection_id": "explore_2k_6k_points"
+        },
+        {
+          "weight": 6,
+          "level_collection_id": "explore_6k_10k_points"
+        },
+        {
+          "weight": 8,
+          "level_collection_id": "explore_10k_points"
         }
       ],
       "fallback_level_collection": {
         "level_collection_id": "explore_quarter_races"
       }
     },
-    "discovery_queries": [],
+    "discovery_queries": [
+      "discovery_queries.casual_quarter_races",
+      "discovery_queries.casual_quarter_survival",
+      "discovery_queries.casual_monthly_races",
+      "discovery_queries.casual_monthly_survival",
+      "discovery_queries.casual_weekly_races",
+      "discovery_queries.casual_weekly_survival",
+      "discovery_queries.casual_daily_races",
+      "discovery_queries.casual_daily_survival",
+      "discovery_queries.casual_newer",
+      "discovery_queries.casual_newer_survival"
+    ],
     "stages": []
   },
   {
     "id": "casual_show_roundpool_ftue",
+    "config": {
+      "type": "legacy"
+    },
     "discovery_queries": [
       "discovery_queries.casual_quarter_races",
       "discovery_queries.casual_quarter_survival"
     ],
-    "stages": [],
-    "config": {
-      "type": "legacy"
-    }
+    "stages": []
   },
   {
     "id": "casual_show_roundpool_low_bucket",
@@ -118,7 +153,7 @@
       "type": "collection_driven",
       "level_collections": [
         {
-          "weight": 15,
+          "weight": 10,
           "level_collection_id": "explore_2k_6k"
         },
         {
@@ -126,16 +161,28 @@
           "level_collection_id": "explore_6k_10k"
         },
         {
-          "weight": 40,
+          "weight": 30,
           "level_collection_id": "explore_10k"
         },
         {
-          "weight": 10,
+          "weight": 5,
           "level_collection_id": "explore_6k_10k_survival"
         },
         {
-          "weight": 10,
+          "weight": 5,
           "level_collection_id": "explore_10k_survival"
+        },
+        {
+          "weight": 5,
+          "level_collection_id": "explore_2k_6k_points"
+        },
+        {
+          "weight": 10,
+          "level_collection_id": "explore_6k_10k_points"
+        },
+        {
+          "weight": 10,
+          "level_collection_id": "explore_10k_points"
         }
       ],
       "fallback_level_collection": {
@@ -1596,18 +1643,32 @@
     ]
   },
   {
+    "id": "fraggle_gamemode_points_template",
+    "config": {
+      "type": "legacy"
+    },
+    "stages": [
+      {
+        "round": "levels_round.fraggle_gamemode_points_template",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      }
+    ],
+    "discovery_queries": []
+  },
+  {
     "id": "fraggle_gamemode_survival_template",
+    "config": {
+      "type": "legacy"
+    },
+    "discovery_queries": [],
     "stages": [
       {
         "round": "levels_round.fraggle_gamemode_survival_template",
         "can_only_be_on_these_stages": [],
         "cannot_be_on_these_stages": []
       }
-    ],
-    "discovery_queries": [],
-    "config": {
-      "type": "legacy"
-    }
+    ]
   },
   {
     "id": "ftue_uk_show1",
@@ -1710,606 +1771,6 @@
       }
     ],
     "round_override": "levels_round.ftue_01",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_filler_10_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_filler_10_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_filler_10_srs",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_filler_11_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_filler_11_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_filler_11_srs",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_filler_12_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_filler_12_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_filler_12_srs",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_filler_13_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_filler_13_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_filler_13_srs",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_filler_14_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_filler_14_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_filler_14_srs",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_filler_15_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_filler_15_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_filler_15_srs",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_filler_1_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_filler_1_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_filler_1_srs",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_filler_2_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_filler_2_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_filler_2_srs",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_filler_3_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_filler_3_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_filler_3_srs",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_filler_4_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_filler_4_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_filler_4_srs",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_filler_5_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_filler_5_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_filler_5_srs",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_filler_6_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_filler_6_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_filler_6_srs",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_filler_7_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_filler_7_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_filler_7_srs",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_filler_8_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_filler_8_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_filler_8_srs",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_filler_9_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_filler_9_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_filler_9_srs",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_final_1_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_final_1_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_final_1_srs",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_final_2_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_final_2_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_final_2_srs",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_final_3_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_final_3_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_final_3_srs",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_final_4_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_final_4_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_final_4_srs",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_final_5_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_final_5_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_final_5_srs",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_final_6_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_final_6_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_final_6_srs",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_final_7_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_final_7_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_final_7_srs",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_final_8_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_final_8_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_final_8_srs",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_opener_10_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_opener_10_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_opener_10_srs",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_opener_11_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_opener_11_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_opener_11_srs",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_opener_12_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_opener_12_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_opener_12_srs",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_opener_13_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_opener_13_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_opener_13_srs",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_opener_14_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_opener_14_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_opener_14_srs",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_opener_15_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_opener_15_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_opener_15_srs",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_opener_16_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_opener_16_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_opener_16_srs",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_opener_17_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_opener_17_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_opener_17_srs",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_opener_1_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_opener_1_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_opener_1_srs",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_opener_2_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_opener_2_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_opener_2_srs",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_opener_3_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_opener_3_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_opener_3_srs",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_opener_4_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_opener_4_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_opener_4_srs",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_opener_5_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_opener_5_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_opener_5_srs",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_opener_6_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_opener_6_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_opener_6_srs",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_opener_7_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_opener_7_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_opener_7_srs",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_opener_8_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_opener_8_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_opener_8_srs",
-    "discovery_queries": []
-  },
-  {
-    "id": "knockout_fp10_opener_9_srs",
-    "config": {
-      "type": "legacy"
-    },
-    "stages": [
-      {
-        "round": "levels_round.knockout_fp10_opener_9_srs",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      }
-    ],
-    "round_override": "levels_round.knockout_fp10_opener_9_srs",
     "discovery_queries": []
   },
   {
@@ -2726,6 +2187,215 @@
       },
       {
         "round": "levels_round.knockout_rollon_opener",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      }
+    ],
+    "config": {
+      "type": "legacy"
+    },
+    "discovery_queries": []
+  },
+  {
+    "id": "knockout_fp13_roundpool",
+    "stages": [
+      {
+        "round": "levels_round.knockout_bigfans_opener",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_doordash_opener",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_hitparade_opener",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_hoverboardheroes_filler",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_hyperdriveheroes_filler",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_jumpshowdown_final",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_knightfever_opener",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_lilyleapers_opener",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_losttemple_final",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_rolloff_final",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_shortcircuit_filler",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_skylinestumble_opener",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_fp10_thinice_final",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_treetoptumble_filler",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_slimecycle_filler",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_wipeoutwaves_filler",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_blunderboat_filler",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_rotateandeliminate_final",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_spacebounders_opener",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_teatime_opener",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_knightsrun_opener",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_couronnessurplatformes_filler",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_invasionofthebeansnatchers_final_survival",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_jungleandstream_filler",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_floatingislandfumble_opener",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_junglecruise_filler",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_treadmilltumble_filler",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_pixelpath_filler",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_woonderfultowers_opener",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_wilddunes_filler",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_mindthegap_opener",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_topofthetrash_filler",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_chickengulch_filler",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_sortitout_filler",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_cycleoslime_final",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_boxparty_filler",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_magnetmayhem_filler",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_slidensmash_filler",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_shapeup_filler",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_royalfumble_final",
         "can_only_be_on_these_stages": [],
         "cannot_be_on_these_stages": []
       }
@@ -4949,6 +4619,11 @@
         "round": "levels_round.round_tunnel_race_duos",
         "can_only_be_on_these_stages": [],
         "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_king_of_the_hill_squads",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
       }
     ],
     "discovery_queries": []
@@ -6105,6 +5780,11 @@
       },
       {
         "round": "levels_round.round_tunnel_race_squads",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_king_of_the_hill_squads",
         "can_only_be_on_these_stages": [],
         "cannot_be_on_these_stages": []
       }
@@ -26267,6 +25947,11 @@
         "round": "levels_round.round_tunnel_race_40",
         "can_only_be_on_these_stages": [],
         "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_king_of_the_hill_40",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
       }
     ],
     "config": {
@@ -36741,6 +36426,78 @@
     }
   },
   {
+    "id": "showcase_fp13",
+    "config": {
+      "type": "legacy"
+    },
+    "stages": [
+      {
+        "round": "levels_round.showcase_boxparty_opener",
+        "can_only_be_on_these_stages": [
+          1
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_sortitout_opener",
+        "can_only_be_on_these_stages": [
+          1
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_mindthegap_opener",
+        "can_only_be_on_these_stages": [
+          1
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_slidensmash_opener",
+        "can_only_be_on_these_stages": [
+          1
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_chickengulch_filler",
+        "can_only_be_on_these_stages": [
+          2
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_topofthetrash_filler",
+        "can_only_be_on_these_stages": [
+          2
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_magnetmayhem_filler",
+        "can_only_be_on_these_stages": [
+          2
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_shapeup_filler",
+        "can_only_be_on_these_stages": [
+          2
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_cycleoslime_final",
+        "can_only_be_on_these_stages": [
+          3
+        ],
+        "cannot_be_on_these_stages": []
+      }
+    ],
+    "discovery_queries": []
+  },
+  {
     "id": "squadcelebration_squads",
     "stages": [
       {
@@ -36963,6 +36720,20 @@
     }
   },
   {
+    "id": "ultimate_party_template_points",
+    "config": {
+      "type": "legacy"
+    },
+    "stages": [
+      {
+        "round": "levels_round.ultimate_party_template_points",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      }
+    ],
+    "discovery_queries": []
+  },
+  {
     "id": "ultimate_party_template_race",
     "config": {
       "type": "legacy"
@@ -36978,17 +36749,17 @@
   },
   {
     "id": "ultimate_party_template_survival",
+    "config": {
+      "type": "legacy"
+    },
+    "discovery_queries": [],
     "stages": [
       {
         "round": "levels_round.ultimate_party_template_survival",
         "can_only_be_on_these_stages": [],
         "cannot_be_on_these_stages": []
       }
-    ],
-    "discovery_queries": [],
-    "config": {
-      "type": "legacy"
-    }
+    ]
   },
   {
     "id": "ultimmate_party_show_roundpool",

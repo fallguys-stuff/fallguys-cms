@@ -4145,7 +4145,7 @@
   {
     "id": "episode_knockout_mode",
     "director": "levels_director.director_knockout",
-    "roundpool": "levels_roundpool.knockout_fp12_roundpool",
+    "roundpool": "levels_roundpool.knockout_fp13_roundpool",
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.knockout_fp10_final_1",
     "bucket_override_roundpools": [],
@@ -4878,12 +4878,21 @@
     "mode": "discovery"
   },
   {
-    "id": "fraggle_gamemode_survival_template",
+    "id": "fraggle_gamemode_points_template",
     "director": "levels_director.fraggle_director_template",
-    "roundpool": "levels_roundpool.fraggle_gamemode_survival_template",
+    "roundpool": "levels_roundpool.fraggle_gamemode_points_template",
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.round_floor_fall",
     "bucket_override_roundpools": [],
+    "mode": "discovery"
+  },
+  {
+    "id": "fraggle_gamemode_survival_template",
+    "director": "levels_director.fraggle_director_template",
+    "roundpool": "levels_roundpool.fraggle_gamemode_survival_template",
+    "bucket_override_roundpools": [],
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_floor_fall",
     "mode": "discovery"
   },
   {
@@ -4904,366 +4913,6 @@
     "allow_toms": true,
     "bucket_override_roundpools": [],
     "mode": "ultimate_party"
-  },
-  {
-    "id": "knockout_fp10_filler_10_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_filler_10_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_filler_10_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
-  },
-  {
-    "id": "knockout_fp10_filler_11_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_filler_11_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_filler_11_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
-  },
-  {
-    "id": "knockout_fp10_filler_12_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_filler_12_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_filler_12_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
-  },
-  {
-    "id": "knockout_fp10_filler_13_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_filler_13_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_filler_13_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
-  },
-  {
-    "id": "knockout_fp10_filler_14_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_filler_14_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_filler_14_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
-  },
-  {
-    "id": "knockout_fp10_filler_15_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_filler_15_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_filler_15_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
-  },
-  {
-    "id": "knockout_fp10_filler_1_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_filler_1_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_filler_1_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
-  },
-  {
-    "id": "knockout_fp10_filler_2_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_filler_2_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_filler_2_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
-  },
-  {
-    "id": "knockout_fp10_filler_3_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_filler_3_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_filler_3_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
-  },
-  {
-    "id": "knockout_fp10_filler_4_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_filler_4_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_filler_4_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
-  },
-  {
-    "id": "knockout_fp10_filler_5_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_filler_5_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_filler_5_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
-  },
-  {
-    "id": "knockout_fp10_filler_6_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_filler_6_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_filler_6_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
-  },
-  {
-    "id": "knockout_fp10_filler_7_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_filler_7_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_filler_7_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
-  },
-  {
-    "id": "knockout_fp10_filler_8_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_filler_8_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_filler_8_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
-  },
-  {
-    "id": "knockout_fp10_filler_9_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_filler_9_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_filler_9_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
-  },
-  {
-    "id": "knockout_fp10_final_1_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_final_1_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_final_1_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
-  },
-  {
-    "id": "knockout_fp10_final_2_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_final_2_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_final_2_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
-  },
-  {
-    "id": "knockout_fp10_final_3_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_final_3_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_final_3_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
-  },
-  {
-    "id": "knockout_fp10_final_4_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_final_4_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_final_4_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
-  },
-  {
-    "id": "knockout_fp10_final_5_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_final_5_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_final_5_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
-  },
-  {
-    "id": "knockout_fp10_final_6_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_final_6_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_final_6_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
-  },
-  {
-    "id": "knockout_fp10_final_7_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_final_7_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_final_7_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
-  },
-  {
-    "id": "knockout_fp10_final_8_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_final_8_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_final_8_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
-  },
-  {
-    "id": "knockout_fp10_opener_10_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_opener_10_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_opener_10_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
-  },
-  {
-    "id": "knockout_fp10_opener_11_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_opener_11_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_opener_11_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
-  },
-  {
-    "id": "knockout_fp10_opener_12_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_opener_12_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_opener_12_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
-  },
-  {
-    "id": "knockout_fp10_opener_13_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_opener_13_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_opener_13_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
-  },
-  {
-    "id": "knockout_fp10_opener_14_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_opener_14_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_opener_14_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
-  },
-  {
-    "id": "knockout_fp10_opener_15_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_opener_15_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_opener_15_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
-  },
-  {
-    "id": "knockout_fp10_opener_16_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_opener_16_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_opener_16_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
-  },
-  {
-    "id": "knockout_fp10_opener_17_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_opener_17_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_opener_17_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
-  },
-  {
-    "id": "knockout_fp10_opener_1_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_opener_1_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_opener_1_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
-  },
-  {
-    "id": "knockout_fp10_opener_2_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_opener_2_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_opener_2_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
-  },
-  {
-    "id": "knockout_fp10_opener_3_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_opener_3_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_opener_3_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
-  },
-  {
-    "id": "knockout_fp10_opener_4_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_opener_4_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_opener_4_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
-  },
-  {
-    "id": "knockout_fp10_opener_5_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_opener_5_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_opener_5_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
-  },
-  {
-    "id": "knockout_fp10_opener_6_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_opener_6_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_opener_6_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
-  },
-  {
-    "id": "knockout_fp10_opener_7_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_opener_7_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_opener_7_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
-  },
-  {
-    "id": "knockout_fp10_opener_8_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_opener_8_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_opener_8_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
-  },
-  {
-    "id": "knockout_fp10_opener_9_srs",
-    "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.knockout_fp10_opener_9_srs",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.knockout_fp10_opener_9_srs",
-    "bucket_override_roundpools": [],
-    "mode": "knockout"
   },
   {
     "id": "laura_collectable_test",
@@ -5347,6 +4996,15 @@
     "fallback_round": "levels_round.wle_s10_bt_round_001",
     "roundpool": "levels_roundpool.wle_s10_bt_round_001",
     "debug_player_count_multiplier": 3,
+    "bucket_override_roundpools": [],
+    "mode": "knockout"
+  },
+  {
+    "id": "showcase_fp13",
+    "director": "levels_director.director_no_weightings",
+    "roundpool": "levels_roundpool.showcase_fp13",
+    "debug_player_count_multiplier": 7,
+    "fallback_round": "levels_round.round_floor_fall_squads",
     "bucket_override_roundpools": [],
     "mode": "knockout"
   },
@@ -5455,11 +5113,19 @@
     "mode": "ultimate_party"
   },
   {
+    "id": "ultimate_party_template_points",
+    "director": "levels_director.director_no_weightings",
+    "roundpool": "levels_roundpool.ultimate_party_template_points",
+    "debug_player_count_multiplier": 1,
+    "bucket_override_roundpools": [],
+    "mode": "ultimate_party"
+  },
+  {
     "id": "ultimate_party_template_survival",
     "director": "levels_director.director_no_weightings",
     "roundpool": "levels_roundpool.ultimate_party_template_survival",
-    "debug_player_count_multiplier": 1,
     "bucket_override_roundpools": [],
+    "debug_player_count_multiplier": 1,
     "mode": "ultimate_party"
   },
   {

@@ -920,7 +920,7 @@
   {
     "id": "mobile_engine_b",
     "profile_id": "1239047",
-    "profile_name": "Internal QA 26",
+    "profile_name": "Mobile Engine B",
     "platforms": {
       "platform_max": 6
     },
@@ -1072,6 +1072,52 @@
     },
     "seconds_before_allocation": 10,
     "match_function_version": "1.13.4"
+  },
+  {
+    "id": "pinto_a",
+    "profile_id": "1265265",
+    "profile_name": "Pinto A",
+    "platforms": {
+      "platform_max": 6
+    },
+    "seconds_before_allocation": 20,
+    "match_function_version": "1.13.4",
+    "solo": {
+      "default_show_min": 1,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_show_min": 4,
+      "default_show_max": 60,
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15,
+      "squad_size": 4
+    }
+  },
+  {
+    "id": "pinto_b",
+    "profile_id": "1265268",
+    "profile_name": "Pinto B",
+    "platforms": {
+      "platform_max": 6
+    },
+    "seconds_before_allocation": 20,
+    "match_function_version": "1.13.4",
+    "solo": {
+      "default_show_min": 1,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_show_min": 4,
+      "default_show_max": 60,
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15,
+      "squad_size": 4
+    }
   },
   {
     "id": "player_systems_a",
@@ -1653,6 +1699,54 @@
       "default_show_min": 40,
       "default_show_max": 60,
       "squad_size": 4
+    },
+    "seconds_before_allocation": 20,
+    "match_function_version": "1.13.4"
+  },
+  {
+    "id": "staging_playtest_a",
+    "profile_id": "1267278",
+    "profile_name": "Staging Playtest A",
+    "enable_bots": true,
+    "solo": {
+      "default_show_min": 1,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15,
+      "default_show_min": 4,
+      "default_show_max": 60,
+      "squad_size": 4
+    },
+    "platforms": {
+      "platform_max": 6
+    },
+    "seconds_before_allocation": 20,
+    "match_function_version": "1.13.4"
+  },
+  {
+    "id": "staging_playtest_b",
+    "profile_id": "1267281",
+    "profile_name": "Staging Playtest B",
+    "enable_bots": true,
+    "solo": {
+      "default_show_min": 1,
+      "default_show_max": 60,
+      "bots_show_min": 1,
+      "bots_show_max": 20
+    },
+    "squads": {
+      "default_min_squad_count": 10,
+      "default_max_squad_count": 15,
+      "default_show_min": 4,
+      "default_show_max": 60,
+      "squad_size": 4
+    },
+    "platforms": {
+      "platform_max": 6
     },
     "seconds_before_allocation": 20,
     "match_function_version": "1.13.4"

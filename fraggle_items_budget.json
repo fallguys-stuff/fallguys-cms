@@ -1,5 +1,38 @@
 [
   {
+    "id": "0000_global_item_settings_0000",
+    "item_name": "\tGlobal Item Settings Costs",
+    "stock": -1,
+    "stock_key": "",
+    "costs": [
+      {
+        "cost_key": "physics_enabled_cost",
+        "cost_amount": 30,
+        "cost_type": "additive"
+      },
+      {
+        "cost_key": "draggable_enabled_cost",
+        "cost_amount": 10,
+        "cost_type": "additive"
+      },
+      {
+        "cost_key": "destructible_enabled_cost",
+        "cost_amount": 20,
+        "cost_type": "additive"
+      },
+      {
+        "cost_key": "destructible_physics_enabled_cost",
+        "cost_amount": 40,
+        "cost_type": "additive"
+      }
+    ],
+    "settings": {
+      "minimum_scale": 0.25,
+      "maximum_scale": 10
+    },
+    "metadata": []
+  },
+  {
     "id": "00325afc-810d-40b4-a6dc-cc3758865672",
     "item_name": "Basic Ramp",
     "stock": -1,
@@ -522,6 +555,29 @@
       "is_physics_enabled": true,
       "is_rotation_enabled": true
     },
+    "metadata": []
+  },
+  {
+    "id": "1132ad46-cc76-4491-82e9-d4a30673919c",
+    "item_name": "Score Bubble",
+    "stock": 50,
+    "stock_key": "",
+    "settings": {
+      "is_overlapping_enabled": true,
+      "is_scaling_enabled": true,
+      "is_rotation_enabled": true,
+      "is_scaling_uniform": true,
+      "minimum_scale": 0.25,
+      "maximum_scale": 10,
+      "is_physics_enabled": true
+    },
+    "costs": [
+      {
+        "cost_key": "",
+        "cost_amount": 5,
+        "cost_type": "base"
+      }
+    ],
     "metadata": []
   },
   {
@@ -1153,6 +1209,27 @@
     "metadata": []
   },
   {
+    "id": "2756c908-75cb-46b8-94ff-237feaa55d6c",
+    "item_name": "PlungeBot Junkyard (Vanilla)",
+    "stock": -1,
+    "stock_key": "",
+    "costs": [
+      {
+        "cost_amount": 15,
+        "cost_key": "",
+        "cost_type": "base"
+      }
+    ],
+    "settings": {
+      "is_overlapping_enabled": true,
+      "is_scaling_enabled": true,
+      "minimum_scale": 0.25,
+      "maximum_scale": 10,
+      "is_rotation_enabled": true
+    },
+    "metadata": []
+  },
+  {
     "id": "2817a653-ebee-45de-824e-87d6de82d49b",
     "item_name": "Padded Pillar",
     "stock": -1,
@@ -1689,6 +1766,25 @@
       "minimum_scale": 0.25,
       "maximum_scale": 1
     },
+    "metadata": []
+  },
+  {
+    "id": "3bc6386b-06af-4dc8-a1d3-cfa62e1c767e",
+    "item_name": "Trigger Zone Race Survival",
+    "stock": -1,
+    "stock_key": "",
+    "settings": {
+      "is_overlapping_enabled": true,
+      "minimum_scale": 0.25,
+      "maximum_scale": 10
+    },
+    "costs": [
+      {
+        "cost_key": "",
+        "cost_amount": 4,
+        "cost_type": "base"
+      }
+    ],
     "metadata": []
   },
   {
@@ -4080,6 +4176,27 @@
     "metadata": []
   },
   {
+    "id": "82f56f59-3793-44ee-b617-85206a14a409",
+    "item_name": "Barrel Junkyard (Vanilla)",
+    "stock": -1,
+    "stock_key": "",
+    "costs": [
+      {
+        "cost_amount": 12,
+        "cost_key": "",
+        "cost_type": "base"
+      }
+    ],
+    "settings": {
+      "is_overlapping_enabled": true,
+      "is_scaling_enabled": true,
+      "minimum_scale": 0.25,
+      "maximum_scale": 10,
+      "is_rotation_enabled": true
+    },
+    "metadata": []
+  },
+  {
     "id": "82fc424f-64c8-41c9-af54-c9708d995ede",
     "item_name": "Rotating Beam (Short)",
     "stock": 50,
@@ -4137,6 +4254,46 @@
       "is_overlapping_enabled": true,
       "minimum_scale": 0.25,
       "maximum_scale": 10
+    },
+    "metadata": []
+  },
+  {
+    "id": "84e6a063-f165-4560-931d-ae4d9fc1fac2",
+    "item_name": "Trigger Zone Point Scoring",
+    "stock": -1,
+    "stock_key": "",
+    "settings": {
+      "is_overlapping_enabled": true,
+      "minimum_scale": 0.25,
+      "maximum_scale": 10
+    },
+    "costs": [
+      {
+        "cost_key": "",
+        "cost_amount": 4,
+        "cost_type": "base"
+      }
+    ],
+    "metadata": []
+  },
+  {
+    "id": "856f9832-1c9a-4c8b-8488-afe2dd0aeef5",
+    "item_name": "Trolley Junkyard (Vanilla)",
+    "stock": -1,
+    "stock_key": "",
+    "costs": [
+      {
+        "cost_amount": 12,
+        "cost_key": "",
+        "cost_type": "base"
+      }
+    ],
+    "settings": {
+      "is_overlapping_enabled": true,
+      "is_scaling_enabled": true,
+      "minimum_scale": 0.25,
+      "maximum_scale": 10,
+      "is_rotation_enabled": true
     },
     "metadata": []
   },
@@ -6126,6 +6283,27 @@
     }
   },
   {
+    "id": "c2c1d3b4-dd7f-4efc-a53d-c3e37b60fbbc",
+    "item_name": "Crane Junkyard (Vanilla)",
+    "stock": -1,
+    "stock_key": "",
+    "costs": [
+      {
+        "cost_amount": 12,
+        "cost_key": "",
+        "cost_type": "base"
+      }
+    ],
+    "settings": {
+      "is_overlapping_enabled": true,
+      "is_scaling_enabled": true,
+      "minimum_scale": 0.25,
+      "maximum_scale": 10,
+      "is_rotation_enabled": true
+    },
+    "metadata": []
+  },
+  {
     "id": "c3e813cb-39ba-48a0-a47b-1902b480f07a",
     "item_name": "Basic Floor",
     "stock": -1,
@@ -6141,6 +6319,27 @@
       "is_overlapping_enabled": true,
       "minimum_scale": 0.25,
       "maximum_scale": 10
+    },
+    "metadata": []
+  },
+  {
+    "id": "c40055c6-3e5d-4fd9-a59a-1c8421a3873f",
+    "item_name": "Tyre Junkyard (Vanilla)",
+    "stock": -1,
+    "stock_key": "",
+    "costs": [
+      {
+        "cost_amount": 12,
+        "cost_key": "",
+        "cost_type": "base"
+      }
+    ],
+    "settings": {
+      "is_overlapping_enabled": true,
+      "is_scaling_enabled": true,
+      "minimum_scale": 0.25,
+      "maximum_scale": 10,
+      "is_rotation_enabled": true
     },
     "metadata": []
   },
@@ -7558,6 +7757,27 @@
       {
         "cost_key": "",
         "cost_amount": 3,
+        "cost_type": "base"
+      }
+    ],
+    "settings": {
+      "is_overlapping_enabled": true,
+      "is_scaling_enabled": true,
+      "minimum_scale": 0.25,
+      "maximum_scale": 10,
+      "is_rotation_enabled": true
+    },
+    "metadata": []
+  },
+  {
+    "id": "f1c575b3-1c15-4c1a-b479-d38f2cf58816",
+    "item_name": "Vehicle Junkyard (Vanilla)",
+    "stock": -1,
+    "stock_key": "",
+    "costs": [
+      {
+        "cost_amount": 12,
+        "cost_key": "",
         "cost_type": "base"
       }
     ],

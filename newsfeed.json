@@ -337,6 +337,86 @@
     "priority": 95
   },
   {
+    "id": "fp13_last_chance_newsfeed",
+    "starts_at": "2024-10-01T12:00:00",
+    "ends_at": "2024-10-08T11:59:59",
+    "pages": [
+      {
+        "title": "localised_strings.newsfeed_famepass_13_available_title",
+        "message": "localised_strings.newsfeed_famepass_13_lastchance_desc",
+        "deeplink": "deeplink.deeplink_season_pass_upsell",
+        "ends_at": "localised_strings.newsfeed_date",
+        "header": "localised_strings.newsfeed_title_last_chance",
+        "ends_at_description": [
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.newsfeed_seventh"
+          },
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.month_october"
+          }
+        ],
+        "starts_at_description": [],
+        "image": "bg_newsfeed_cmp_s10_seasonpass13_16x9_newsfeed"
+      }
+    ],
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "priority": 90
+  },
+  {
+    "id": "fp13_live_newsfeed",
+    "starts_at": "2024-09-03T12:00:00",
+    "ends_at": "2024-09-10T11:59:59",
+    "pages": [
+      {
+        "title": "localised_strings.newsfeed_famepass_13_available_title",
+        "message": "localised_strings.newsfeed_famepass_13_available_desc",
+        "deeplink": "deeplink.deeplink_season_pass_upsell",
+        "ends_at": "localised_strings.newsfeed_date",
+        "header": "localised_strings.newsfeed_header_new_famepass",
+        "ends_at_description": [
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.newsfeed_seventh"
+          },
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.month_october"
+          }
+        ],
+        "starts_at_description": [],
+        "image": "bg_newsfeed_cmp_s10_seasonpass13_16x9_newsfeed"
+      }
+    ],
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "priority": 90
+  },
+  {
+    "id": "fp13_scrapyard_update_live",
+    "starts_at": "2024-09-03T13:00:00",
+    "ends_at": "2024-09-10T09:00:00",
+    "pages": [
+      {
+        "title": "localised_strings.newsfeed_11_2_title",
+        "message": "localised_strings.newsfeed_11_2_desc",
+        "deeplink": "deeplink.deeplink_main_lobby",
+        "header": "localised_strings.newsfeed_title_available_now",
+        "starts_at_description": [],
+        "ends_at_description": [],
+        "image": "bg_newsfeed_fp13_scrapyard_newsfeed"
+      }
+    ],
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "priority": 98
+  },
+  {
     "id": "fp13_teaser_newsfeed",
     "starts_at": "2024-08-28T13:00:00",
     "ends_at": "2024-09-03T09:59:59",
@@ -1721,8 +1801,8 @@
   },
   {
     "id": "newsfeed_cardinal_evergreen",
-    "starts_at": "2024-08-20T13:00:00",
-    "ends_at": "2024-08-24T09:00:00",
+    "starts_at": "2024-10-01T13:00:00",
+    "ends_at": "2024-10-03T09:59:59",
     "pages": [
       {
         "title": "localised_strings.newsfeed_fp4_cardinal_title",
@@ -1733,11 +1813,11 @@
         "ends_at_description": [
           {
             "type": "localised",
-            "localised_value": "localised_strings.newsfeed_twentysixth"
+            "localised_value": "localised_strings.newsfeed_seventh"
           },
           {
             "type": "localised",
-            "localised_value": "localised_strings.month_august"
+            "localised_value": "localised_strings.month_october"
           }
         ],
         "starts_at_description": [],
@@ -1747,7 +1827,7 @@
     "target_ids": [
       "after_prime_global_launch"
     ],
-    "priority": 75
+    "priority": 88
   },
   {
     "id": "newsfeed_chickpea_event_active",
@@ -2251,6 +2331,64 @@
     "priority": 85
   },
   {
+    "id": "newsfeed_fp13_event_01",
+    "starts_at": "2024-09-03T13:00:00",
+    "ends_at": "2024-09-10T09:59:59",
+    "priority": 96,
+    "pages": [
+      {
+        "header": "localised_strings.newsfeed_title_available_now",
+        "title": "localised_strings.le_fp13_title_01",
+        "message": "localised_strings.newsfeed_fp13_01_event_desc",
+        "ends_at": "localised_strings.newsfeed_date",
+        "ends_at_description": [
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.newsfeed_ninth"
+          },
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.month_september"
+          }
+        ],
+        "starts_at_description": [],
+        "image": "bg_newsfeed_destruction_fp13_01"
+      }
+    ],
+    "target_ids": [
+      "after_prime_global_launch"
+    ]
+  },
+  {
+    "id": "newsfeed_fp13_redstart",
+    "starts_at": "2024-09-03T13:00:00",
+    "ends_at": "2024-09-13T10:00:00",
+    "pages": [
+      {
+        "title": "localised_strings.bundle_grabbag_redstart_name",
+        "message": "localised_strings.newsfeed_redstart_desc",
+        "deeplink": "deeplink.deeplink_symphony_store",
+        "header": "localised_strings.newsfeed_title_available_now",
+        "ends_at_description": [
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.newsfeed_sixteenth"
+          },
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.month_september"
+          }
+        ],
+        "starts_at_description": [],
+        "image": "bg_newsfeed_cmp_s11_redstart_16x9_newsfeed1366x768"
+      }
+    ],
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "priority": 91
+  },
+  {
     "id": "newsfeed_garganry_evergreen",
     "starts_at": "2023-12-12T13:00:00",
     "ends_at": "2023-12-16T09:00:00",
@@ -2282,8 +2420,8 @@
   },
   {
     "id": "newsfeed_godwit_evergreen",
-    "starts_at": "2024-08-03T13:00:00",
-    "ends_at": "2024-08-06T09:00:01",
+    "starts_at": "2024-09-29T13:00:00",
+    "ends_at": "2024-10-02T09:59:59",
     "pages": [
       {
         "title": "localised_strings.newsfeed_s9_godwit_title",
@@ -2294,11 +2432,11 @@
         "ends_at_description": [
           {
             "type": "localised",
-            "localised_value": "localised_strings.newsfeed_ninth"
+            "localised_value": "localised_strings.newsfeed_fifth"
           },
           {
             "type": "localised",
-            "localised_value": "localised_strings.month_august"
+            "localised_value": "localised_strings.month_october"
           }
         ],
         "starts_at_description": [
@@ -2312,12 +2450,12 @@
     "target_ids": [
       "after_prime_global_launch"
     ],
-    "priority": 81
+    "priority": 87
   },
   {
     "id": "newsfeed_goose",
-    "starts_at": "2024-07-11T13:00:00",
-    "ends_at": "2024-07-14T09:00:00",
+    "starts_at": "2024-09-24T13:00:00",
+    "ends_at": "2024-09-29T09:59:59",
     "pages": [
       {
         "title": "localised_strings.newsfeed_goose01_title",
@@ -2328,11 +2466,11 @@
         "ends_at_description": [
           {
             "type": "localised",
-            "localised_value": "localised_strings.newsfeed_seventeenth"
+            "localised_value": "localised_strings.newsfeed_thirtieth"
           },
           {
             "type": "localised",
-            "localised_value": "localised_strings.month_july"
+            "localised_value": "localised_strings.month_september"
           }
         ],
         "starts_at_description": [],
@@ -2342,12 +2480,12 @@
     "target_ids": [
       "after_prime_global_launch"
     ],
-    "priority": 91
+    "priority": 82
   },
   {
     "id": "newsfeed_grouse_evergreen",
-    "starts_at": "2024-06-01T10:00:00",
-    "ends_at": "2024-06-08T09:59:59",
+    "starts_at": "2024-09-14T13:00:00",
+    "ends_at": "2024-09-19T09:59:00",
     "pages": [
       {
         "title": "localised_strings.newsfeed_s9_grouse_title",
@@ -2358,11 +2496,11 @@
         "ends_at_description": [
           {
             "type": "localised",
-            "localised_value": "localised_strings.newsfeed_seventh"
+            "localised_value": "localised_strings.newsfeed_twentieth"
           },
           {
             "type": "localised",
-            "localised_value": "localised_strings.month_june"
+            "localised_value": "localised_strings.month_september"
           }
         ],
         "starts_at_description": [],
@@ -2372,7 +2510,7 @@
     "target_ids": [
       "after_prime_global_launch"
     ],
-    "priority": 72
+    "priority": 55
   },
   {
     "id": "newsfeed_heron_evergreen",
@@ -2440,8 +2578,8 @@
   },
   {
     "id": "newsfeed_kingfisher_evergreen",
-    "starts_at": "2024-06-16T13:00:00",
-    "ends_at": "2024-06-20T09:00:00",
+    "starts_at": "2024-09-22T13:00:00",
+    "ends_at": "2024-09-27T09:00:00",
     "pages": [
       {
         "title": "localised_strings.newsfeed_s8_kingfisher_title",
@@ -2452,11 +2590,11 @@
         "ends_at_description": [
           {
             "type": "localised",
-            "localised_value": "localised_strings.newsfeed_twentysecond"
+            "localised_value": "localised_strings.newsfeed_twentyeighth"
           },
           {
             "type": "localised",
-            "localised_value": "localised_strings.month_june"
+            "localised_value": "localised_strings.month_september"
           }
         ],
         "starts_at_description": [],
@@ -2466,12 +2604,12 @@
     "target_ids": [
       "after_prime_global_launch"
     ],
-    "priority": 70
+    "priority": 80
   },
   {
     "id": "newsfeed_lark_evergreen",
-    "starts_at": "2024-08-16T13:00:00",
-    "ends_at": "2024-08-19T09:00:00",
+    "starts_at": "2024-10-06T13:00:00",
+    "ends_at": "2024-10-08T09:59:59",
     "pages": [
       {
         "title": "localised_strings.newsfeed_ss1_lark_title",
@@ -2482,11 +2620,11 @@
         "ends_at_description": [
           {
             "type": "localised",
-            "localised_value": "localised_strings.newsfeed_twentysecond"
+            "localised_value": "localised_strings.newsfeed_twelfth"
           },
           {
             "type": "localised",
-            "localised_value": "localised_strings.month_august"
+            "localised_value": "localised_strings.month_october"
           }
         ],
         "starts_at_description": [],
@@ -2496,7 +2634,7 @@
     "target_ids": [
       "after_prime_global_launch"
     ],
-    "priority": 60
+    "priority": 89
   },
   {
     "id": "newsfeed_luckydragon",
@@ -2580,8 +2718,8 @@
   },
   {
     "id": "newsfeed_mockingbird_evergreen",
-    "starts_at": "2024-07-18T13:00:00",
-    "ends_at": "2024-07-22T09:00:00",
+    "starts_at": "2024-09-26T13:00:00",
+    "ends_at": "2024-10-01T09:59:59",
     "pages": [
       {
         "title": "localised_strings.newsfeed_s8_mockingbird_title",
@@ -2592,11 +2730,11 @@
         "ends_at_description": [
           {
             "type": "localised",
-            "localised_value": "localised_strings.newsfeed_twentyfourth"
+            "localised_value": "localised_strings.newsfeed_second"
           },
           {
             "type": "localised",
-            "localised_value": "localised_strings.month_july"
+            "localised_value": "localised_strings.month_october"
           }
         ],
         "starts_at_description": [],
@@ -2606,12 +2744,12 @@
     "target_ids": [
       "after_prime_global_launch"
     ],
-    "priority": 65
+    "priority": 84
   },
   {
     "id": "newsfeed_murrelet_evergreen",
-    "starts_at": "2024-08-08T13:00:00",
-    "ends_at": "2024-08-15T09:59:00",
+    "starts_at": "2024-10-03T13:00:00",
+    "ends_at": "2024-10-06T09:59:00",
     "pages": [
       {
         "title": "localised_strings.newsfeed_murrelet_title",
@@ -2622,11 +2760,11 @@
         "ends_at_description": [
           {
             "type": "localised",
-            "localised_value": "localised_strings.newsfeed_twentyfirst"
+            "localised_value": "localised_strings.newsfeed_ninth"
           },
           {
             "type": "localised",
-            "localised_value": "localised_strings.month_august"
+            "localised_value": "localised_strings.month_october"
           }
         ],
         "starts_at_description": [],
@@ -2636,12 +2774,12 @@
     "target_ids": [
       "after_prime_global_launch"
     ],
-    "priority": 90
+    "priority": 88
   },
   {
     "id": "newsfeed_nighthawk_evergreen",
-    "starts_at": "2024-07-20T13:00:00",
-    "ends_at": "2024-07-22T09:00:00",
+    "starts_at": "2024-09-21T13:00:00",
+    "ends_at": "2024-09-24T09:00:00",
     "pages": [
       {
         "title": "localised_strings.newsfeed_s10_nighthawk_title",
@@ -2652,11 +2790,11 @@
         "ends_at_description": [
           {
             "type": "localised",
-            "localised_value": "localised_strings.newsfeed_twentysixth"
+            "localised_value": "localised_strings.newsfeed_twentyseventh"
           },
           {
             "type": "localised",
-            "localised_value": "localised_strings.month_july"
+            "localised_value": "localised_strings.month_september"
           }
         ],
         "starts_at_description": [],
@@ -2666,7 +2804,7 @@
     "target_ids": [
       "after_prime_global_launch"
     ],
-    "priority": 68
+    "priority": 75
   },
   {
     "id": "newsfeed_osprey_evergreen",
@@ -2700,8 +2838,8 @@
   },
   {
     "id": "newsfeed_parrot_evergreen",
-    "starts_at": "2024-08-10T13:00:00",
-    "ends_at": "2024-08-15T09:00:00",
+    "starts_at": "2024-09-10T13:00:00",
+    "ends_at": "2024-09-13T09:00:00",
     "pages": [
       {
         "title": "localised_strings.newsfeed_ss2_parrot_now_02_title",
@@ -2716,7 +2854,7 @@
           },
           {
             "type": "localised",
-            "localised_value": "localised_strings.month_august"
+            "localised_value": "localised_strings.month_september"
           }
         ],
         "starts_at_description": [],
@@ -2726,7 +2864,7 @@
     "target_ids": [
       "after_prime_global_launch"
     ],
-    "priority": 89
+    "priority": 55
   },
   {
     "id": "newsfeed_parrot_evergreen_2",
@@ -2820,8 +2958,8 @@
   },
   {
     "id": "newsfeed_pedro_evergreen",
-    "starts_at": "2024-08-01T13:00:00",
-    "ends_at": "2024-08-08T09:00:00",
+    "starts_at": "1999-10-05T13:00:00",
+    "ends_at": "1999-10-08T09:59:59",
     "pages": [
       {
         "title": "localised_strings.newsfeed_pedro_title",
@@ -2832,11 +2970,11 @@
         "ends_at_description": [
           {
             "type": "localised",
-            "localised_value": "localised_strings.newsfeed_seventh"
+            "localised_value": "localised_strings.newsfeed_eleventh"
           },
           {
             "type": "localised",
-            "localised_value": "localised_strings.month_august"
+            "localised_value": "localised_strings.month_october"
           }
         ],
         "starts_at_description": [],
@@ -2844,9 +2982,9 @@
       }
     ],
     "target_ids": [
-      "after_prime_global_launch"
+      "disabled_year_1900"
     ],
-    "priority": 80
+    "priority": 89
   },
   {
     "id": "newsfeed_pelican_evergreen",
@@ -3030,8 +3168,8 @@
   },
   {
     "id": "newsfeed_potoo_evergreen",
-    "starts_at": "2024-05-25T10:00:00",
-    "ends_at": "2024-06-01T09:59:59",
+    "starts_at": "2024-09-09T13:00:00",
+    "ends_at": "2024-09-12T09:59:59",
     "pages": [
       {
         "title": "localised_strings.newsfeed_s10_potoo_title_1",
@@ -3042,11 +3180,11 @@
         "ends_at_description": [
           {
             "type": "localised",
-            "localised_value": "localised_strings.newsfeed_thirtyfirst"
+            "localised_value": "localised_strings.newsfeed_thirteenth"
           },
           {
             "type": "localised",
-            "localised_value": "localised_strings.month_may"
+            "localised_value": "localised_strings.month_september"
           }
         ],
         "starts_at_description": [],
@@ -3056,7 +3194,7 @@
     "target_ids": [
       "after_prime_global_launch"
     ],
-    "priority": 70
+    "priority": 50
   },
   {
     "id": "newsfeed_puffin_evergreen",
@@ -3129,6 +3267,46 @@
     ]
   },
   {
+    "id": "newsfeed_rmt_grumpycat",
+    "starts_at": "2024-09-04T13:00:00",
+    "ends_at": "2024-09-09T09:00:00",
+    "pages": [
+      {
+        "title": "localised_strings.newsfeed_rmt_grumpycat_title",
+        "message": "localised_strings.newsfeed_rmt_grumpycat_desc",
+        "deeplink": "deeplink.deeplink_symphony_store",
+        "header": "localised_strings.newsfeed_title_available_now",
+        "starts_at_description": [],
+        "ends_at_description": [],
+        "image": "bg_newsfeed_fallguys_newsfeed_grumpycat"
+      }
+    ],
+    "target_ids": [
+      "fp13_single_purchase_bundle_grumpycat_pack"
+    ],
+    "priority": 90
+  },
+  {
+    "id": "newsfeed_rmt_homemadepigeon",
+    "starts_at": "2024-09-12T13:00:00",
+    "ends_at": "2024-09-17T09:00:00",
+    "pages": [
+      {
+        "title": "localised_strings.newsfeed_rmt_homemadepigeon_title",
+        "message": "localised_strings.newsfeed_rmt_homemadepigeon_desc",
+        "deeplink": "deeplink.deeplink_symphony_store",
+        "header": "localised_strings.newsfeed_title_available_now",
+        "starts_at_description": [],
+        "ends_at_description": [],
+        "image": "bg_newsfeed_fallguys_newsfeed_pigeon"
+      }
+    ],
+    "target_ids": [
+      "fp13_single_purchase_bundle_homemadepigeon_pack"
+    ],
+    "priority": 90
+  },
+  {
     "id": "newsfeed_rmt_hotdogrevisitone",
     "starts_at": "2024-07-17T13:00:00",
     "ends_at": "2024-07-23T09:00:00",
@@ -3169,7 +3347,42 @@
     "priority": 95
   },
   {
-    "id": "newsfeed_rosefinch_drp1_evergreen",
+    "id": "newsfeed_rosefinch_evergreen",
+    "starts_at": "2024-09-13T13:00:00",
+    "ends_at": "2024-09-15T09:59:00",
+    "pages": [
+      {
+        "title": "localised_strings.newsfeed_fp6_rosefinch_title",
+        "message": "localised_strings.newsfeed_fp6_rosefinch_body",
+        "deeplink": "deeplink.deeplink_symphony_store",
+        "ends_at": "localised_strings.newsfeed_date",
+        "header": "localised_strings.newsfeed_title_available_now",
+        "ends_at_description": [
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.newsfeed_eighteenth"
+          },
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.month_september"
+          }
+        ],
+        "starts_at_description": [
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.newsfeed_thirteenth"
+          }
+        ],
+        "image": "fp6_rosefinch_newfeed_b"
+      }
+    ],
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "priority": 50
+  },
+  {
+    "id": "newsfeed_rosefinch_evergreen_heroes",
     "starts_at": "2023-07-06T13:00:00",
     "ends_at": "2023-07-09T09:00:00",
     "pages": [
@@ -3201,40 +3414,6 @@
       "after_prime_global_launch"
     ],
     "priority": 88
-  },
-  {
-    "id": "newsfeed_rosefinch_drp2_evergreen",
-    "starts_at": "1900-08-24T13:00:00",
-    "ends_at": "1900-08-28T09:00:00",
-    "pages": [
-      {
-        "title": "localised_strings.newsfeed_fp6_rosefinch_title",
-        "message": "localised_strings.newsfeed_fp6_rosefinch_body",
-        "deeplink": "deeplink.deeplink_symphony_store",
-        "ends_at": "localised_strings.newsfeed_date",
-        "header": "localised_strings.newsfeed_title_available_now",
-        "ends_at_description": [
-          {
-            "type": "localised",
-            "localised_value": "localised_strings.newsfeed_thirtieth"
-          },
-          {
-            "type": "localised",
-            "localised_value": "localised_strings.month_august"
-          }
-        ],
-        "starts_at_description": [
-          {
-            "type": "localised"
-          }
-        ],
-        "image": "fp6_rosefinch_newfeed_b"
-      }
-    ],
-    "target_ids": [
-      "after_prime_global_launch"
-    ],
-    "priority": 80
   },
   {
     "id": "newsfeed_s10_bread",
@@ -3850,8 +4029,8 @@
   },
   {
     "id": "newsfeed_sunbird_evergreen",
-    "starts_at": "2024-07-25T13:00:00",
-    "ends_at": "2024-07-30T09:00:00",
+    "starts_at": "2024-09-28T13:00:00",
+    "ends_at": "2024-10-02T09:59:59",
     "pages": [
       {
         "title": "localised_strings.newsfeed_fp5_sunbird_title",
@@ -3862,11 +4041,11 @@
         "ends_at_description": [
           {
             "type": "localised",
-            "localised_value": "localised_strings.newsfeed_thirtyfirst"
+            "localised_value": "localised_strings.newsfeed_fourth"
           },
           {
             "type": "localised",
-            "localised_value": "localised_strings.month_july"
+            "localised_value": "localised_strings.month_october"
           }
         ],
         "starts_at_description": [],
@@ -3876,12 +4055,12 @@
     "target_ids": [
       "after_prime_global_launch"
     ],
-    "priority": 77
+    "priority": 85
   },
   {
     "id": "newsfeed_swan_evergreen",
-    "starts_at": "2024-08-13T13:00:00",
-    "ends_at": "2024-08-16T09:00:00",
+    "starts_at": "2024-09-17T13:00:00",
+    "ends_at": "2024-09-21T09:00:00",
     "pages": [
       {
         "title": "localised_strings.newsfeed_s8_swan_title",
@@ -3892,11 +4071,11 @@
         "ends_at_description": [
           {
             "type": "localised",
-            "localised_value": "localised_strings.newsfeed_nineteenth"
+            "localised_value": "localised_strings.newsfeed_twentythird"
           },
           {
             "type": "localised",
-            "localised_value": "localised_strings.month_august"
+            "localised_value": "localised_strings.month_september"
           }
         ],
         "starts_at_description": [],
@@ -3906,7 +4085,7 @@
     "target_ids": [
       "after_prime_global_launch"
     ],
-    "priority": 55
+    "priority": 65
   },
   {
     "id": "newsfeed_tern_evergreen",
@@ -3940,8 +4119,8 @@
   },
   {
     "id": "newsfeed_toucan_evergreen",
-    "starts_at": "2024-04-13T13:00:00",
-    "ends_at": "2024-04-19T09:59:00",
+    "starts_at": "2024-09-15T13:00:00",
+    "ends_at": "2024-09-20T09:59:00",
     "pages": [
       {
         "title": "localised_strings.bundle_subtitle_ip_ss1_toucan",
@@ -3952,21 +4131,21 @@
         "ends_at_description": [
           {
             "type": "localised",
-            "localised_value": "localised_strings.newsfeed_nineteenth"
+            "localised_value": "localised_strings.newsfeed_twentyfirst"
           },
           {
             "type": "localised",
-            "localised_value": "localised_strings.month_april"
+            "localised_value": "localised_strings.month_september"
           }
         ],
         "starts_at_description": [],
         "image": "fp8_toucan_newsfeed"
       }
     ],
-    "priority": 80,
     "target_ids": [
       "after_prime_global_launch"
-    ]
+    ],
+    "priority": 60
   },
   {
     "id": "newsfeed_turkey_evergreen",
