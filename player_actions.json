@@ -943,6 +943,26 @@
     }
   },
   {
+    "id": "earn_gold_medal_knockout",
+    "config": {
+      "metric_id": "badge_awarded_gold",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "knockout_mode"
+        }
+      ]
+    }
+  },
+  {
     "id": "earn_gold_medal_main_show",
     "config": {
       "metric_id": "badge_awarded_gold",
@@ -1164,6 +1184,26 @@
       "metric_id": "badge_awarded_silver",
       "dimensions": [],
       "level_archetype": "archetype_team"
+    }
+  },
+  {
+    "id": "earn_silver_medal_knockout",
+    "config": {
+      "metric_id": "badge_awarded_silver",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "knockout_mode"
+        }
+      ]
     }
   },
   {

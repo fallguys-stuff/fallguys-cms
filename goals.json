@@ -5726,6 +5726,46 @@
     "player_action_id": "win_show"
   },
   {
+    "id": "event_win_knockout_01",
+    "target": {
+      "type": "aggregate",
+      "value": 10
+    },
+    "description": "localised_strings.challenge_desc_013_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_medal_02"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "earn_silver_medal_knockout"
+  },
+  {
+    "id": "event_win_knockout_02",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_013_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_medal_01"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "earn_gold_medal_knockout"
+  },
+  {
     "id": "event_winter_01",
     "target": {
       "type": "aggregate",
@@ -18161,6 +18201,22 @@
     ],
     "challenge_tags": [],
     "player_action_id": "win_invisibeans_eagle"
+  },
+  {
+    "id": "win_knockout",
+    "target": {
+      "type": "aggregate",
+      "value": 2
+    },
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_knockout"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "win_knockout"
   },
   {
     "id": "win_le_stars_01",
