@@ -7622,6 +7622,22 @@
     "player_action_id": "play_race_rounds_vulture"
   },
   {
+    "id": "play_a_game_in_a_party",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_027_generic_party",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "play_any_game_in_party"
+  },
+  {
     "id": "play_any_round_finals_marathon",
     "target": {
       "type": "aggregate",
@@ -7946,6 +7962,22 @@
     ],
     "challenge_tags": [],
     "player_action_id": "play_egg_siege_week_of_romance_s6"
+  },
+  {
+    "id": "play_explore_in_a_party",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_027_generic_party",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.explore"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "play_explore_in_party"
   },
   {
     "id": "play_fall_ball_week_of_romance_s6",
@@ -8925,6 +8957,38 @@
     ],
     "challenge_tags": [],
     "player_action_id": "play_team_rounds_wok5"
+  },
+  {
+    "id": "play_teamgames",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_027_anyround",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_teamltm"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "play_teamgames_show"
+  },
+  {
+    "id": "play_teamgames_5",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_027_anyround",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_teamltm"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "play_teamgames_show"
   },
   {
     "id": "play_time_attack_5_anchovy",
@@ -17653,6 +17717,22 @@
     "player_action_id": "win_week_of_romance_s6"
   },
   {
+    "id": "win_a_game_in_a_party",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_026",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "win_show_party"
+  },
+  {
     "id": "win_any",
     "target": {
       "type": "aggregate",
@@ -18735,6 +18815,22 @@
     "description_parameters": [],
     "challenge_tags": [],
     "player_action_id": "win_sweet_thieves_ss2_peanut"
+  },
+  {
+    "id": "win_teamgames",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_teamltm"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "win_teamgames_show"
   },
   {
     "id": "win_trios",

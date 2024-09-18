@@ -1344,6 +1344,40 @@
     ]
   },
   {
+    "id": "daily_partyup_pool_fp13",
+    "challenge_pool_ids": [
+      "daily_partyup_pool_fp13"
+    ],
+    "challenge_list_ui_id": "challenge_list_ui.event_partyup",
+    "refresh_interval_config": {
+      "type": "daily",
+      "multiplier": 1
+    },
+    "rarity_distribution": [
+      {
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        },
+        "rarity": "common"
+      },
+      {
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        },
+        "rarity": "uncommon"
+      },
+      {
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        },
+        "rarity": "rare"
+      }
+    ]
+  },
+  {
     "id": "daily_pool",
     "challenge_pool_ids": [
       "daily_pool"
@@ -1962,6 +1996,40 @@
         },
         "rarity": "event_wobble_05"
       }
+    ]
+  },
+  {
+    "id": "fp13_team_challenges",
+    "challenge_list_ui_id": "challenge_list_ui.event_teamgames_fame",
+    "refresh_interval_config": {
+      "type": "daily",
+      "multiplier": 1
+    },
+    "rarity_distribution": [
+      {
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        },
+        "rarity": "common"
+      },
+      {
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        },
+        "rarity": "uncommon"
+      },
+      {
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        },
+        "rarity": "rare"
+      }
+    ],
+    "challenge_pool_ids": [
+      "event_teamgames"
     ]
   },
   {

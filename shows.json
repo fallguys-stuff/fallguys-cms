@@ -13411,6 +13411,39 @@
     "episode_reward_settings_id": "solo_rewards"
   },
   {
+    "id": "teams_show_ltm",
+    "show_name": "localised_strings.show_name_teamltm",
+    "show_description": "localised_strings.show_desc_teamltm",
+    "show_locked_message": "localised_strings.show_inactive_rounds_played",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "display_while_upcoming": true,
+    "can_play_again": true,
+    "min_party_size": 1,
+    "max_party_size": 2,
+    "size": {
+      "type": "override",
+      "min_players": 12,
+      "max_players": 12
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 12,
+      "max_players": 12
+    },
+    "show_type": {
+      "showtype_switch": "squad",
+      "squad_size": 2
+    },
+    "default_episode": "levels_episode.teams_show_ltm_episode",
+    "opens_at": "2020-01-01T09:00:00",
+    "closes_at": "2030-01-01T09:00:00",
+    "top_tags": [],
+    "show_tag": "show_tag_time_attack",
+    "show_image_cms": "ui_show_cmp_teameggevgshowselector_02_pp",
+    "episode_reward_settings_id": "knockout_squads"
+  },
+  {
     "id": "toms_main_show_5_2",
     "show_name": "localised_strings.show_name_main",
     "show_description": "localised_strings.show_desc_main",
