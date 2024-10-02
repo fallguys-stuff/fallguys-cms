@@ -5198,8 +5198,13 @@
       "value": 50
     },
     "title": "localised_strings.event_kaiju_fp13_05",
-    "description": "localised_strings.challenge_desc_destroy",
-    "description_parameters": [],
+    "description": "localised_strings.challenge_desc_destroy_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_knockout"
+      }
+    ],
     "challenge_tags": [],
     "player_action_id": "destroy_objects_knockout"
   },
