@@ -246,6 +246,14 @@
     "target_ids": []
   },
   {
+    "id": "cheat_ignore_ftue_enabled_default",
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": []
+  },
+  {
     "id": "client_max_reconnects",
     "value": 30,
     "platforms_whitelist": [],
@@ -925,7 +933,7 @@
   },
   {
     "id": "nested_shows",
-    "value": false,
+    "value": true,
     "platforms_whitelist": [],
     "target_ids": []
   },
@@ -1195,6 +1203,14 @@
     "platforms_whitelist": []
   },
   {
+    "id": "rrc_screen_enabled",
+    "value": true,
+    "target_ids": [
+      "disabled_year_1900"
+    ],
+    "platforms_whitelist": []
+  },
+  {
     "id": "rulebook_tag_selection_enabled",
     "value": true,
     "target_ids": [
@@ -1272,9 +1288,11 @@
   },
   {
     "id": "show_selector_discovery_tab",
-    "value": false,
-    "platforms_whitelist": [],
-    "target_ids": []
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": []
   },
   {
     "id": "show_selector_enabled",
@@ -1292,6 +1310,12 @@
   },
   {
     "id": "show_selector_tailoring_enabled",
+    "value": false,
+    "platforms_whitelist": [],
+    "target_ids": []
+  },
+  {
+    "id": "show_selector_tailoring_v2_enabled",
     "value": true,
     "target_ids": [
       "after_prime_global_launch"
@@ -1337,6 +1361,14 @@
     "target_ids": []
   },
   {
+    "id": "skip_reminder_displays_per_session",
+    "value": 1,
+    "target_ids": [
+      "skipped_less_than_5"
+    ],
+    "platforms_whitelist": []
+  },
+  {
     "id": "skip_reminder_respawn_threshold",
     "value": 3,
     "platforms_whitelist": [],
@@ -1344,7 +1376,7 @@
   },
   {
     "id": "skip_reminder_respawn_time_threshold",
-    "value": 20,
+    "value": 30,
     "platforms_whitelist": [],
     "target_ids": []
   },

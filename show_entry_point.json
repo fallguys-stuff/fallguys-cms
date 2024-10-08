@@ -1,1 +1,35 @@
-[]
+[
+  {
+    "id": "classics",
+    "entry_point": {
+      "type": "nested",
+      "nested_gates_entry": {
+        "title": "localised_strings.shows_selector_classic_games",
+        "description": "localised_strings.nest_classics_desc",
+        "colour": "colour.show_selector_tile_blue",
+        "gates": [
+          {
+            "gate": "schedule_items.show_s10_classic_solos_show"
+          },
+          {
+            "gate": "schedule_items.classic_duo_show"
+          },
+          {
+            "gate": "schedule_items.classic_squads_show"
+          }
+        ],
+        "image_cms": "show_selector_core_solo_show",
+        "big_image_cms": "show_selector_core_solo_show"
+      }
+    }
+  },
+  {
+    "id": "invisibeans_pistachio",
+    "entry_point": {
+      "type": "individual",
+      "individual_gate_entry": {
+        "gate": "schedule_items.invisibeans_pistachio_template"
+      }
+    }
+  }
+]

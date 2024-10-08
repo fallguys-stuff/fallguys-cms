@@ -435,11 +435,12 @@
   {
     "id": "daily_common_fame_play_show_pistachio_w7",
     "active": true,
-    "rarity_id": "challenge_rarity.common_fame",
+    "rarity_id": "challenge_rarity.event_pistachio",
     "crown_ranks": {
       "minimum_level": 1,
       "maximum_level": 1000
     },
+    "priority": 100,
     "goal_id": "daily_play_show_pistachio_w7",
     "reward_id": "fame_daily_common"
   },
@@ -4720,7 +4721,7 @@
       "minimum_level": 1,
       "maximum_level": 1000
     },
-    "priority": 60,
+    "priority": 40,
     "goal_id": "weekly_qualify_40",
     "reward_id": "fame_12000"
   },
@@ -4743,7 +4744,7 @@
       "minimum_level": 1,
       "maximum_level": 1000
     },
-    "priority": 70,
+    "priority": 50,
     "goal_id": "weekly_run_distance_30000",
     "reward_id": "fame_12000"
   },
@@ -5680,6 +5681,30 @@
     "reward_id": "crown_weekly_legendary_milestone"
   },
   {
+    "id": "weekly_pistachio_play",
+    "active": true,
+    "rarity_id": "challenge_rarity.event_pistachio",
+    "crown_ranks": {
+      "minimum_level": 1,
+      "maximum_level": 1000
+    },
+    "priority": 100,
+    "goal_id": "weekly_play_pistachio",
+    "reward_id": "fame_4000"
+  },
+  {
+    "id": "weekly_pistachio_win",
+    "active": true,
+    "rarity_id": "challenge_rarity.event_pistachio",
+    "crown_ranks": {
+      "minimum_level": 1,
+      "maximum_level": 1000
+    },
+    "priority": 90,
+    "goal_id": "weekly_win_pistachio",
+    "reward_id": "fame_8000"
+  },
+  {
     "id": "weekly_rare_complete_challenges",
     "active": true,
     "rarity_id": "challenge_rarity.rare",
@@ -6299,7 +6324,7 @@
       "minimum_level": 1,
       "maximum_level": 1000
     },
-    "priority": 100,
+    "priority": 80,
     "goal_id": "complete_daily_3",
     "reward_id": "fame_12000"
   },
@@ -6311,7 +6336,7 @@
       "minimum_level": 1,
       "maximum_level": 1000
     },
-    "priority": 90,
+    "priority": 70,
     "goal_id": "complete_daily_5",
     "reward_id": "fame_12000"
   },
@@ -6323,7 +6348,7 @@
       "minimum_level": 1,
       "maximum_level": 1000
     },
-    "priority": 80,
+    "priority": 60,
     "goal_id": "complete_daily_7",
     "reward_id": "fame_12000"
   },
