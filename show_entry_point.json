@@ -1,5 +1,14 @@
 [
   {
+    "id": "anniversary_show_ltm",
+    "entry_point": {
+      "type": "individual",
+      "individual_gate_entry": {
+        "gate": "schedule_items.anniversary_fp12_ltm"
+      }
+    }
+  },
+  {
     "id": "classics",
     "entry_point": {
       "type": "nested",
@@ -20,6 +29,15 @@
         ],
         "image_cms": "show_selector_core_solo_show",
         "big_image_cms": "show_selector_core_solo_show"
+      }
+    }
+  },
+  {
+    "id": "hoverboarding_time",
+    "entry_point": {
+      "type": "individual",
+      "individual_gate_entry": {
+        "gate": "schedule_items.hoverboarding_time"
       }
     }
   },
