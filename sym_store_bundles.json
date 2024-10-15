@@ -26330,6 +26330,87 @@
     "ribbon_label_text": "storelabel_discount_primos"
   },
   {
+    "id": "bundle_costumeset_shoveler01",
+    "has_stock": true,
+    "stock": 2,
+    "bundle_type": {
+      "bundle_type": "costume_set",
+      "purchase_options": {
+        "type": "currencies",
+        "item_id": "gems"
+      },
+      "cosmetics": [
+        {
+          "type": "costume_sets",
+          "item_id": "bundle_costumeset_shoveler01"
+        }
+      ]
+    },
+    "show_ribbon_label": true,
+    "display_name": "costume_s11_3_ip_shoveler01_01",
+    "bundle_description": "bundle_costumeset_shoveler01_desc",
+    "bundle_type_subtitle": "bundle_costumeset_shoveler01_subtitle",
+    "rarity": "special_4",
+    "category": "currency",
+    "bundle_tile_image": "ui_costumeset_ch_shoveler01_ch_uiposes_fullbody_fr",
+    "bundle_background_custom_gradient_image": "bg_costumeset_bundle_s11_4_shoveler_background_1x2",
+    "ribbon_label_text": "storelabel_discount_primos"
+  },
+  {
+    "id": "bundle_costumeset_shoveler02",
+    "has_stock": true,
+    "stock": 2,
+    "bundle_type": {
+      "bundle_type": "costume_set",
+      "purchase_options": {
+        "type": "currencies",
+        "item_id": "gems"
+      },
+      "cosmetics": [
+        {
+          "type": "costume_sets",
+          "item_id": "bundle_costumeset_shoveler02"
+        }
+      ]
+    },
+    "show_ribbon_label": true,
+    "display_name": "costume_s11_3_ip_shoveler02_01",
+    "bundle_description": "bundle_costumeset_shoveler02_desc",
+    "bundle_type_subtitle": "bundle_costumeset_shoveler02_subtitle",
+    "rarity": "special_4",
+    "category": "currency",
+    "bundle_tile_image": "ui_costumeset_ch_shoveler02_ch_uiposes_fullbody",
+    "bundle_background_custom_gradient_image": "bg_costumeset_bundle_s11_4_shoveler_background_1x2",
+    "ribbon_label_text": "storelabel_discount_primos"
+  },
+  {
+    "id": "bundle_costumeset_shoveler03",
+    "has_stock": true,
+    "stock": 2,
+    "bundle_type": {
+      "bundle_type": "costume_set",
+      "purchase_options": {
+        "type": "currencies",
+        "item_id": "gems"
+      },
+      "cosmetics": [
+        {
+          "type": "costume_sets",
+          "item_id": "bundle_costumeset_shoveler03"
+        }
+      ]
+    },
+    "show_ribbon_label": true,
+    "display_name": "costume_s11_3_ip_shoveler03_01",
+    "bundle_description": "bundle_costumeset_shoveler03_desc",
+    "bundle_type_subtitle": "bundle_costumeset_shoveler03_subtitle",
+    "rarity": "special_4",
+    "category": "currency",
+    "bundle_tile_image": "ui_costumeset_ch_shoveler03_ch_uiposes_gloves",
+    "bundle_background_custom_gradient_image": "bg_costumeset_bundle_s11_4_shoveler_background_1x2",
+    "ribbon_label_text": "storelabel_discount_primos"
+  },
+  {
     "id": "bundle_costumeset_snugstrawberry_01",
     "has_stock": true,
     "stock": 2,
@@ -45432,6 +45513,66 @@
     "category": "costume",
     "bundle_tile_image": "sandcastle_01_multi_2x2_title",
     "bundle_background_custom_gradient_image": "sandcastle_2x2_background",
+    "ribbon_label_text": "storelabel_discount_primos"
+  },
+  {
+    "id": "bundle_grabbag_shoveler_name",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "discount",
+      "purchase_options": {
+        "type": "currencies",
+        "item_id": "gems"
+      },
+      "discount": 2900,
+      "cosmetics": [
+        {
+          "type": "costume_sets",
+          "item_id": "bundle_costumeset_shoveler01"
+        },
+        {
+          "type": "costume_sets",
+          "item_id": "bundle_costumeset_shoveler02"
+        },
+        {
+          "type": "costume_sets",
+          "item_id": "bundle_costumeset_shoveler03"
+        },
+        {
+          "type": "cosmetics_punchlines",
+          "cost": 700,
+          "item_id": "victory_s11_3_ip_shoveler"
+        },
+        {
+          "type": "cosmetics_emotes",
+          "cost": 400,
+          "item_id": "emote_s11_3_ip_shoveler"
+        }
+      ],
+      "extra": [
+        {
+          "type": "cosmetics_nicknames",
+          "item_id": "nickname_11_2_0_shoveler_01"
+        },
+        {
+          "type": "cosmetics_nicknames",
+          "item_id": "nickname_11_2_0_shoveler_02"
+        },
+        {
+          "type": "cosmetics_nameplates",
+          "item_id": "nameplateui_s11_3_shoveler"
+        }
+      ]
+    },
+    "show_ribbon_label": true,
+    "display_name": "bundle_grabbag_shoveler_name",
+    "bundle_description": "bundle_grabbag_shoveler_desc",
+    "bundle_type_subtitle": "bundle_grabbag_shoveler_subtitle",
+    "rarity": "special_4",
+    "category": "currency",
+    "bundle_tile_image": "ui_bundle_bundle_s11_4_shoveler_foreground_4x2",
+    "bundle_background_custom_gradient_image": "bg_bundle_bundle_s11_4_shoveler_background_4x2",
     "ribbon_label_text": "storelabel_discount_primos"
   },
   {
@@ -70980,6 +71121,36 @@
     "bundle_background_custom_gradient_image": "bundle_bg_1x2_capsule_pink"
   },
   {
+    "id": "emote_s11_3_ip_shoveler",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 400,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "cosmetics_emotes",
+          "item_id": "emote_s11_3_ip_shoveler"
+        }
+      ],
+      "extra": []
+    },
+    "display_name": "emote_s11_3_ip_shoveler",
+    "bundle_description": "emote_s11_3_ip_shoveler_desc",
+    "bundle_type_subtitle": "emote_s11_3_ip_shoveler_subtitle",
+    "rarity": "special_4",
+    "category": "currency",
+    "bundle_background_custom_gradient_image": "bg_costumeset_bundle_s11_4_shoveler_background_1x2"
+  },
+  {
     "id": "emote_s11_ip_greenbird",
     "has_stock": true,
     "stock": 1,
@@ -74699,6 +74870,70 @@
           "item_id": "nameplateui_s11_2_redstart01"
         }
       ]
+    },
+    "bundle_description": "blank_sym_store_bundle_desc",
+    "bundle_type_subtitle": "blank_sym_store_bundle_subtitle",
+    "rarity": "rare",
+    "category": "costume"
+  },
+  {
+    "id": "promo_bundle_shoveler",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "iap",
+        "purchase_quantity": 1,
+        "iap": "promo_egs_shoveler"
+      },
+      "cosmetics": [
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_s11_3_ip_shoveler01_01"
+        },
+        {
+          "type": "costumes_upper",
+          "item_id": "top_s11_3_ip_shoveler01_01"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_s11_3_ip_shoveler02_01"
+        },
+        {
+          "type": "costumes_upper",
+          "item_id": "top_s11_3_ip_shoveler02_01"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_s11_3_ip_shoveler03_01"
+        },
+        {
+          "type": "costumes_upper",
+          "item_id": "top_s11_3_ip_shoveler03_01"
+        },
+        {
+          "type": "cosmetics_punchlines",
+          "item_id": "victory_s11_3_ip_shoveler"
+        },
+        {
+          "type": "cosmetics_nameplates",
+          "item_id": "nameplateui_s11_3_shoveler"
+        },
+        {
+          "type": "cosmetics_nicknames",
+          "item_id": "nickname_11_2_0_shoveler_01"
+        },
+        {
+          "type": "cosmetics_nicknames",
+          "item_id": "nickname_11_2_0_shoveler_02"
+        },
+        {
+          "type": "cosmetics_emotes",
+          "item_id": "emote_s11_3_ip_shoveler"
+        }
+      ],
+      "extra": []
     },
     "bundle_description": "blank_sym_store_bundle_desc",
     "bundle_type_subtitle": "blank_sym_store_bundle_subtitle",
@@ -80703,6 +80938,36 @@
     "rarity": "uncommon",
     "category": "currency",
     "bundle_background_custom_gradient_image": "bundle_bg_1x2_crown_pinkyellow"
+  },
+  {
+    "id": "victory_s11_3_ip_shoveler",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 700,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "cosmetics_punchlines",
+          "item_id": "victory_s11_3_ip_shoveler"
+        }
+      ],
+      "extra": []
+    },
+    "display_name": "victory_s11_3_ip_shoveler",
+    "bundle_description": "victory_s11_3_ip_shoveler_desc",
+    "bundle_type_subtitle": "victory_s11_3_ip_shoveler_subtitle",
+    "rarity": "special_4",
+    "category": "currency",
+    "bundle_background_custom_gradient_image": "bg_costumeset_bundle_s11_4_shoveler_background_1x2"
   },
   {
     "id": "victory_s11_bowling",
