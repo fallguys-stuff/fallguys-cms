@@ -1580,6 +1580,40 @@
     ]
   },
   {
+    "id": "daily_win_button_bashers_pool",
+    "challenge_pool_ids": [
+      "daily_win_button_bashers_pool"
+    ],
+    "challenge_list_ui_id": "challenge_list_ui.event_button_bashers",
+    "refresh_interval_config": {
+      "type": "daily",
+      "multiplier": 1
+    },
+    "rarity_distribution": [
+      {
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        },
+        "rarity": "common"
+      },
+      {
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        },
+        "rarity": "uncommon"
+      },
+      {
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        },
+        "rarity": "rare"
+      }
+    ]
+  },
+  {
     "id": "daily_win_xtreme_explore_pool",
     "challenge_pool_ids": [
       "daily_win_xtreme_explore_pool"
@@ -2098,6 +2132,25 @@
     ],
     "challenge_pool_ids": [
       "event_teamgames"
+    ]
+  },
+  {
+    "id": "fp14_pistachio_challenges",
+    "challenge_pool_ids": [
+      "fp14_pistachio_challenges"
+    ],
+    "challenge_list_ui_id": "challenge_list_ui.event_pistachio_02",
+    "refresh_interval_config": {
+      "type": "indefinite"
+    },
+    "rarity_distribution": [
+      {
+        "required_number": 5,
+        "cooldown_interval_config": {
+          "type": "none"
+        },
+        "rarity": "special"
+      }
     ]
   },
   {

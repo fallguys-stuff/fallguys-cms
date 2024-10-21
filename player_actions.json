@@ -219,10 +219,32 @@
     "id": "carry_sweets_hider_pistachio",
     "config": {
       "metric_id": "player_carried",
-      "dimensions": [],
-      "carry_type": "sweet",
-      "team_id": "hider",
-      "show_id": "invisibeans_pistachio_template"
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "team_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "hider"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "invisibeans_pistachio_template"
+        },
+        {
+          "dimension_id": "carry_type",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "sweet"
+        }
+      ]
     }
   },
   {
@@ -623,6 +645,38 @@
       "round_qualified": "true",
       "is_final_round": "true",
       "is_private_lobby": "true"
+    }
+  },
+  {
+    "id": "daily_win_button_bashers",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "event_only_button_bashers_template"
+        },
+        {
+          "dimension_id": "is_final_round",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "round_qualified",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        }
+      ]
     }
   },
   {
@@ -1626,9 +1680,26 @@
     "id": "grab_thief_as_seeker_pistachio",
     "config": {
       "metric_id": "player_grabbed_other_team",
-      "dimensions": [],
-      "team_id": "seeker",
-      "show_id": "invisibeans_pistachio_template"
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "team_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "seeker"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "invisibeans_pistachio_template"
+        }
+      ]
     }
   },
   {
@@ -2115,9 +2186,35 @@
     "id": "play_as_hider_pistachio",
     "config": {
       "metric_id": "round_reached",
-      "dimensions": [],
-      "show_id": "invisibeans_pistachio_template",
-      "team_id": "hider"
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "team_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "hider"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "invisibeans_pistachio_template"
+        },
+        {
+          "dimension_id": "end_of_round_player_state",
+          "operator": "contains_any",
+          "string_array_value": [
+            "qualified",
+            "disqualified"
+          ],
+          "dimension_type": "array_dimension"
+        }
+      ]
     }
   },
   {
@@ -2142,9 +2239,35 @@
     "id": "play_as_seeker_pistachio",
     "config": {
       "metric_id": "round_reached",
-      "dimensions": [],
-      "show_id": "invisibeans_pistachio_template",
-      "team_id": "seeker"
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "team_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "seeker"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "invisibeans_pistachio_template"
+        },
+        {
+          "dimension_id": "end_of_round_player_state",
+          "operator": "contains_any",
+          "string_array_value": [
+            "qualified",
+            "disqualified"
+          ],
+          "dimension_type": "array_dimension"
+        }
+      ]
     }
   },
   {
@@ -6281,6 +6404,37 @@
     }
   },
   {
+    "id": "qualify_without_respawn_knockout",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "player_respawn_count",
+          "operator": "less_or_equal",
+          "dimension_type": "integer_dimension"
+        },
+        {
+          "dimension_id": "round_qualified",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "knockout_mode"
+        }
+      ]
+    }
+  },
+  {
     "id": "race_rounds_party_haddock",
     "config": {
       "metric_id": "round_reached",
@@ -7002,6 +7156,32 @@
     }
   },
   {
+    "id": "reach_round_3_knockout",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "round_index",
+          "operator": "equal",
+          "integer_value": 2,
+          "dimension_type": "integer_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "knockout_mode"
+        }
+      ]
+    }
+  },
+  {
     "id": "reach_round_3_solo",
     "config": {
       "metric_id": "round_reached",
@@ -7541,6 +7721,33 @@
     "config": {
       "metric_id": "hoops_scored",
       "dimensions": []
+    }
+  },
+  {
+    "id": "score_candies_pistachio",
+    "config": {
+      "metric_id": "player_round_team_score",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "team_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "hider"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "invisibeans_pistachio_template"
+        }
+      ],
+      "carry_type": "sweet"
     }
   },
   {
@@ -8281,6 +8488,36 @@
     }
   },
   {
+    "id": "win_duos_or_squads",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "level_tags",
+          "operator": "contains_any",
+          "string_array_value": [
+            "level_tags.win_duos_or_squads"
+          ],
+          "dimension_type": "array_dimension"
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "end_of_round_player_state",
+          "operator": "contains_any",
+          "string_array_value": [
+            "qualified"
+          ],
+          "dimension_type": "array_dimension"
+        }
+      ]
+    }
+  },
+  {
     "id": "win_duos_s6_glizzy01",
     "config": {
       "metric_id": "round_reached",
@@ -8498,6 +8735,36 @@
           "operator": "equal",
           "boolean_value": "true",
           "dimension_type": "boolean_dimension"
+        }
+      ]
+    }
+  },
+  {
+    "id": "win_knockout_or_solos",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "level_tags",
+          "operator": "contains_any",
+          "string_array_value": [
+            "level_tags.win_knockout_or_solos"
+          ],
+          "dimension_type": "array_dimension"
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "end_of_round_player_state",
+          "operator": "contains_any",
+          "string_array_value": [
+            "qualified"
+          ],
+          "dimension_type": "array_dimension"
         }
       ]
     }
