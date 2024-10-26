@@ -10844,6 +10844,16 @@
     }
   },
   {
+    "id": "is_not_xbox_user",
+    "parameters": {
+      "type": "platform_group",
+      "data": {
+        "operator": "not_equal_to",
+        "platform_group": "xbox"
+      }
+    }
+  },
+  {
     "id": "is_pc_group",
     "parameters": {
       "type": "platform_group",
@@ -11070,7 +11080,7 @@
       "type": "platform_group",
       "data": {
         "operator": "equal_to",
-        "platform_group": "prime"
+        "platform_group": "xbox"
       }
     }
   },
