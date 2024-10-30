@@ -10858,6 +10858,16 @@
     }
   },
   {
+    "id": "is_not_android_user",
+    "parameters": {
+      "type": "platform_group",
+      "data": {
+        "operator": "not_equal_to",
+        "platform_group": "android"
+      }
+    }
+  },
+  {
     "id": "is_not_mobile_group",
     "parameters": {
       "type": "platform_group",
