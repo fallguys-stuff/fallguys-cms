@@ -3267,20 +3267,22 @@
     "id": "event_anniversary_season_1_alternate_name",
     "show_name": "localised_strings.show_title_anniversary_alt",
     "show_description": "localised_strings.show_desc_anniversary",
+    "show_locked_message": "localised_strings.inactive_show_knockout",
     "content_label": "localised_strings.show_content_label_show",
     "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "display_while_upcoming": true,
     "can_play_again": true,
     "min_party_size": 1,
     "max_party_size": 4,
     "size": {
       "type": "override",
-      "min_players": 36,
-      "max_players": 40
+      "min_players": 30,
+      "max_players": 32
     },
     "private_lobby_size": {
       "type": "override",
       "min_players": 10,
-      "max_players": 40
+      "max_players": 32
     },
     "show_type": {
       "showtype_switch": "individual"
@@ -3291,7 +3293,7 @@
     "top_tags": [],
     "show_tag": "show_tag_time_attack",
     "show_image_cms": "show_selector_show_party",
-    "episode_reward_settings_id": "solos"
+    "episode_reward_settings_id": "knockout_mode_rewards"
   },
   {
     "id": "event_april_fools",
@@ -9079,7 +9081,7 @@
     "show_selector_tile_colour": "colour.show_selector_tile_blue",
     "can_play_again": true,
     "hide_countdown": true,
-    "min_party_size": 2,
+    "min_party_size": 1,
     "max_party_size": 4,
     "size": {
       "type": "override",
@@ -9088,7 +9090,7 @@
     },
     "private_lobby_size": {
       "type": "override",
-      "min_players": 2,
+      "min_players": 1,
       "max_players": 40
     },
     "show_type": {
@@ -9452,8 +9454,8 @@
     "opens_at": "2020-01-01T09:00:00",
     "closes_at": "2050-01-01T09:00:00",
     "top_tags": [],
-    "show_image_cms": "ui_show_big_knockout_fp14_halloween",
-    "big_tile_show_image_cms": "ui_show_big_knockout_fp14_halloween",
+    "show_image_cms": "ui_show_big_knockout_fp12_big",
+    "big_tile_show_image_cms": "ui_show_big_knockout_fp12_big",
     "episode_reward_settings_id": "knockout_mode_rewards"
   },
   {
@@ -10153,6 +10155,7 @@
     "closes_at": "2050-01-01T09:00:00",
     "top_tags": [],
     "show_image_cms": "show_selector_timeattack_shuffle",
+    "big_tile_show_image_cms": "show_selector_timeattack_shuffle",
     "episode_reward_settings_id": "solo_rewards_timetrial"
   },
   {
@@ -12808,6 +12811,38 @@
     "top_tags": [],
     "show_image_cms": "show_selector_show_mainshow",
     "episode_reward_settings_id": "solo_rewards"
+  },
+  {
+    "id": "spotlight_mode",
+    "show_name": "localised_strings.spotlight_mode_title",
+    "show_description": "localised_strings.spotlight_mode_desc",
+    "show_locked_message": "localised_strings.show_inactive_rounds_played",
+    "show_image": "MainShow",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "can_play_again": true,
+    "hide_countdown": true,
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 1,
+      "max_players": 10
+    },
+    "private_lobby_size": {
+      "type": "default"
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.spotlight_mode_episode",
+    "opens_at": "2020-01-01T09:00:00",
+    "closes_at": "2050-01-01T09:00:00",
+    "top_tags": [],
+    "show_tag": "show_tag_ugc",
+    "show_image_cms": "ui_show_big_cmp_fg_spotlightshowcase_02_pp",
+    "big_tile_show_image_cms": "ui_show_big_cmp_fg_spotlightshowcase_02_pp",
+    "episode_reward_settings_id": "explore_mode_rewards_all"
   },
   {
     "id": "squad_duo_slimeclimbs",

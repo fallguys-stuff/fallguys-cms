@@ -900,6 +900,28 @@
     "mode": "knockout"
   },
   {
+    "id": "episode_buildabean_mixed",
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_buildabean_mixed",
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": true,
+    "fallback_round": "levels_round.round_floor_fall",
+    "bucket_override_roundpools": [],
+    "mode": "knockout"
+  },
+  {
+    "id": "episode_buildabean_tests",
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_buildabean_tests",
+    "debug_ignore_min_players_on_round_selection": true,
+    "debug_player_count_multiplier": 3,
+    "ignore_team_sizes_in_selection": true,
+    "fallback_round": "levels_round.round_floor_fall",
+    "bucket_override_roundpools": [],
+    "mode": "knockout"
+  },
+  {
     "id": "episode_classic_duos_show_s10",
     "director": "levels_director.director_classic_duos_show",
     "roundpool": "levels_roundpool.roundpool_classic_duos_show_s10",
@@ -4144,7 +4166,7 @@
   {
     "id": "episode_knockout_mode",
     "director": "levels_director.director_knockout",
-    "roundpool": "levels_roundpool.knockout_fp14_roundpool",
+    "roundpool": "levels_roundpool.knockout_fp15_roundpool",
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.knockout_fp10_final_1",
     "bucket_override_roundpools": [],
@@ -5025,6 +5047,16 @@
     "fallback_round": "levels_round.round_floor_fall_squads",
     "bucket_override_roundpools": [],
     "mode": "knockout"
+  },
+  {
+    "id": "spotlight_mode_episode",
+    "director": "levels_director.director_no_weightings",
+    "roundpool": "levels_roundpool.spotlight_071124",
+    "bucket_override_roundpools": [],
+    "debug_player_count_multiplier": 1,
+    "fallback_round": "levels_round.round_gauntlet_01_40",
+    "allow_toms": true,
+    "mode": "ultimate_party"
   },
   {
     "id": "squads_2player",

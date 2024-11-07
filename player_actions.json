@@ -8452,6 +8452,38 @@
     }
   },
   {
+    "id": "win_classic_knockout",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "event_anniversary_season_1_alternate_name"
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "is_final_round",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "round_qualified",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        }
+      ]
+    }
+  },
+  {
     "id": "win_dizzyheights_timeattack",
     "config": {
       "metric_id": "round_reached",

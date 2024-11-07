@@ -72,6 +72,18 @@
     }
   },
   {
+    "id": "classic_knockout_challenges",
+    "item": {
+      "group_id": "challenge_list_schedules",
+      "item_id": "classic_knockout_challenges"
+    },
+    "config": {
+      "type": "absolute",
+      "starts_at": "2024-11-08T10:00:00",
+      "ends_at": "2024-11-12T09:59:59"
+    }
+  },
+  {
     "id": "classic_squads_show",
     "item": {
       "group_id": "matchmaking_gates",
@@ -1044,6 +1056,18 @@
     }
   },
   {
+    "id": "daily_pool_fp15",
+    "item": {
+      "group_id": "challenge_list_schedules",
+      "item_id": "daily_pool_fp10"
+    },
+    "config": {
+      "type": "absolute",
+      "starts_at": "2024-11-07T12:00:00",
+      "ends_at": "2024-12-10T11:59:59"
+    }
+  },
+  {
     "id": "daily_win_button_bashers_challenges",
     "item": {
       "group_id": "challenge_list_schedules",
@@ -1111,8 +1135,8 @@
     },
     "config": {
       "type": "absolute",
-      "starts_at": "2024-10-08T12:00:00",
-      "ends_at": "2024-10-15T11:59:59"
+      "starts_at": "2024-11-07T12:00:00",
+      "ends_at": "2024-11-14T11:59:59"
     }
   },
   {
@@ -1680,6 +1704,18 @@
     }
   },
   {
+    "id": "fp15_classic_background",
+    "item": {
+      "group_id": "main_menu_background",
+      "item_id": "vanilla"
+    },
+    "config": {
+      "type": "absolute",
+      "starts_at": "2024-11-07T10:00:00",
+      "ends_at": "2024-12-10T10:00:00"
+    }
+  },
+  {
     "id": "ftue_uk_show",
     "item": {
       "group_id": "matchmaking_gates",
@@ -1836,6 +1872,18 @@
     }
   },
   {
+    "id": "mastery_pool_fp15",
+    "item": {
+      "group_id": "challenge_list_schedules",
+      "item_id": "daily_mastery_pool_fp10"
+    },
+    "config": {
+      "type": "absolute",
+      "starts_at": "2024-11-07T12:00:00",
+      "ends_at": "2024-12-10T11:59:59"
+    }
+  },
+  {
     "id": "no_elimination_explore",
     "item": {
       "group_id": "matchmaking_gates",
@@ -1939,8 +1987,8 @@
     },
     "config": {
       "type": "absolute",
-      "starts_at": "2024-05-02T10:00:00",
-      "ends_at": "2024-05-07T11:59:59"
+      "starts_at": "2024-11-08T10:00:00",
+      "ends_at": "2024-11-12T09:59:59"
     }
   },
   {
@@ -3113,6 +3161,30 @@
     }
   },
   {
+    "id": "spotlight_071124",
+    "item": {
+      "group_id": "levels_roundpool_collections",
+      "item_id": "spotlight_071124"
+    },
+    "config": {
+      "type": "absolute",
+      "starts_at": "2020-01-01T00:00:00",
+      "ends_at": "9999-12-31T23:59:59"
+    }
+  },
+  {
+    "id": "spotlight_mode",
+    "item": {
+      "group_id": "matchmaking_gates",
+      "item_id": "spotlight_mode"
+    },
+    "config": {
+      "type": "absolute",
+      "starts_at": "2024-11-04T12:00:00",
+      "ends_at": "9999-12-31T23:59:59"
+    }
+  },
+  {
     "id": "survival_of_the_fittest",
     "item": {
       "group_id": "matchmaking_gates",
@@ -3146,6 +3218,18 @@
       "type": "absolute",
       "starts_at": "2024-04-04T10:00:00",
       "ends_at": "2024-04-11T09:59:59"
+    }
+  },
+  {
+    "id": "timeattack_shuffle",
+    "item": {
+      "group_id": "matchmaking_gates",
+      "item_id": "timeattack_shuffle"
+    },
+    "config": {
+      "type": "absolute",
+      "starts_at": "2024-09-18T00:00:00",
+      "ends_at": "2024-12-19T00:00:00"
     }
   },
   {
@@ -3242,6 +3326,90 @@
       "type": "absolute",
       "starts_at": "2024-02-26T00:00:00",
       "ends_at": "2024-04-30T09:00:00"
+    }
+  },
+  {
+    "id": "weekly_challenges_fp15_wk1",
+    "item": {
+      "group_id": "challenge_list_schedules",
+      "item_id": "weekly_pool_fp15_wk1"
+    },
+    "config": {
+      "type": "absolute",
+      "starts_at": "2024-11-07T12:00:00",
+      "ends_at": "2024-11-12T11:59:59"
+    }
+  },
+  {
+    "id": "weekly_challenges_fp15_wk2",
+    "item": {
+      "group_id": "challenge_list_schedules",
+      "item_id": "weekly_pool_fp15_wk2"
+    },
+    "config": {
+      "type": "relative",
+      "schedule_anchor_point": "start",
+      "parent_schedule_anchor_point": "end",
+      "schedule_length_unit": "day",
+      "schedule_length_unit_multiplier": 7,
+      "offset": {
+        "unit": "none"
+      },
+      "parent_schedule_id": "weekly_challenges_fp15_wk1"
+    }
+  },
+  {
+    "id": "weekly_challenges_fp15_wk3",
+    "item": {
+      "group_id": "challenge_list_schedules",
+      "item_id": "weekly_pool_fp15_wk3"
+    },
+    "config": {
+      "type": "relative",
+      "schedule_anchor_point": "start",
+      "parent_schedule_anchor_point": "end",
+      "schedule_length_unit": "day",
+      "schedule_length_unit_multiplier": 7,
+      "offset": {
+        "unit": "none"
+      },
+      "parent_schedule_id": "weekly_challenges_fp15_wk2"
+    }
+  },
+  {
+    "id": "weekly_challenges_fp15_wk4",
+    "item": {
+      "group_id": "challenge_list_schedules",
+      "item_id": "weekly_pool_fp15_wk4"
+    },
+    "config": {
+      "type": "relative",
+      "schedule_anchor_point": "start",
+      "parent_schedule_anchor_point": "end",
+      "schedule_length_unit": "day",
+      "schedule_length_unit_multiplier": 7,
+      "offset": {
+        "unit": "none"
+      },
+      "parent_schedule_id": "weekly_challenges_fp15_wk3"
+    }
+  },
+  {
+    "id": "weekly_challenges_fp15_wk5",
+    "item": {
+      "group_id": "challenge_list_schedules",
+      "item_id": "weekly_pool_fp15_wk5"
+    },
+    "config": {
+      "type": "relative",
+      "schedule_anchor_point": "start",
+      "parent_schedule_anchor_point": "end",
+      "schedule_length_unit": "day",
+      "schedule_length_unit_multiplier": 7,
+      "offset": {
+        "unit": "none"
+      },
+      "parent_schedule_id": "weekly_challenges_fp15_wk4"
     }
   },
   {

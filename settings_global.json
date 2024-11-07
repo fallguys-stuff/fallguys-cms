@@ -318,6 +318,22 @@
     "target_ids": []
   },
   {
+    "id": "crown_rank_display_in_game_enabled",
+    "value": true,
+    "target_ids": [
+      "disabled_year_1900"
+    ],
+    "platforms_whitelist": []
+  },
+  {
+    "id": "crown_rank_display_name_tag_enabled",
+    "value": true,
+    "target_ids": [
+      "disabled_year_1900"
+    ],
+    "platforms_whitelist": []
+  },
+  {
     "id": "crown_shards_enabled",
     "value": true,
     "target_ids": [
@@ -954,6 +970,12 @@
     "platforms_whitelist": []
   },
   {
+    "id": "nmc_enabled",
+    "value": false,
+    "platforms_whitelist": [],
+    "target_ids": []
+  },
+  {
     "id": "notification_manager_max_active_notifications",
     "value": 2,
     "platforms_whitelist": [],
@@ -1000,6 +1022,12 @@
   {
     "id": "party_codes_are_enabled",
     "value": false,
+    "platforms_whitelist": [],
+    "target_ids": []
+  },
+  {
+    "id": "per_platform_texture_settings_json",
+    "value": "{\"switch\":{\"TextureCompressionQuality\":\"Low\"}}",
     "platforms_whitelist": [],
     "target_ids": []
   },
@@ -1632,8 +1660,14 @@
     "platforms_whitelist": []
   },
   {
-    "id": "ugc_surface_definitions_enabled",
+    "id": "ugc_surface_definition_slime_enabled",
     "value": true,
+    "platforms_whitelist": [],
+    "target_ids": []
+  },
+  {
+    "id": "ugc_surface_definitions_enabled",
+    "value": false,
     "target_ids": [
       "after_prime_global_launch"
     ],
