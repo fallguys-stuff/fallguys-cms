@@ -3163,16 +3163,22 @@
     "id": "event_animals_template",
     "show_name": "localised_strings.show_title_beasty_guys",
     "show_description": "localised_strings.show_desc_beasty_guys",
+    "show_locked_message": "localised_strings.inactive_show_knockout",
     "content_label": "localised_strings.show_content_label_show",
     "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "display_while_upcoming": true,
     "can_play_again": true,
     "min_party_size": 1,
     "max_party_size": 4,
     "size": {
-      "type": "default"
+      "type": "override",
+      "min_players": 30,
+      "max_players": 32
     },
     "private_lobby_size": {
-      "type": "default"
+      "type": "override",
+      "min_players": 10,
+      "max_players": 32
     },
     "show_type": {
       "showtype_switch": "individual"
@@ -3181,8 +3187,9 @@
     "opens_at": "2020-01-01T09:00:00",
     "closes_at": "2030-01-01T09:00:00",
     "top_tags": [],
+    "show_tag": "show_tag_time_attack",
     "show_image_cms": "show_selector_show_animals",
-    "episode_reward_settings_id": "solo_rewards"
+    "episode_reward_settings_id": "knockout_mode_rewards"
   },
   {
     "id": "event_anniversary_season_1",
