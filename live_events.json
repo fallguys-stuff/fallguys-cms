@@ -472,6 +472,243 @@
     "reward_icon_image": "icon_liveevent_destruction_flame_currency_icon"
   },
   {
+    "id": "le_fp15_myths",
+    "title": "localised_strings.le_fp15_title_myths",
+    "description": "localised_strings.le_fp15_desc_myths",
+    "target_ids": [
+      "is_le_f15_myths"
+    ],
+    "milestones": [
+      {
+        "xp_required": 100,
+        "reward_id": "nickname_11_4_0_event_01"
+      },
+      {
+        "xp_required": 300,
+        "reward_id": "kudos_bonus_1000"
+      },
+      {
+        "xp_required": 500,
+        "reward_id": "pattern_s10_7_ukivoe"
+      },
+      {
+        "xp_required": 700,
+        "reward_id": "bottom_s11_3_griffin_02"
+      },
+      {
+        "xp_required": 1000,
+        "reward_id": "top_s11_3_griffin_02"
+      }
+    ],
+    "ui_detail_colour": "colour.challenges_green",
+    "challenges": [
+      {
+        "xp_awarded": 100,
+        "goal_description_locked": {
+          "template_parameters": []
+        },
+        "unlock_conditions": [],
+        "goal_id": "event_fp15_myths_01"
+      },
+      {
+        "xp_awarded": 100,
+        "goal_description_locked": {
+          "template_parameters": []
+        },
+        "unlock_conditions": [],
+        "goal_id": "event_fp15_myths_02"
+      },
+      {
+        "xp_awarded": 100,
+        "goal_description_locked": {
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "event_fp15_myths_01"
+            }
+          ],
+          "template": "challenge_unlock_singular"
+        },
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_fp15_myths_01"
+          }
+        ],
+        "goal_id": "event_fp15_myths_03",
+        "goal_title_locked": "challenge_locked_myths_01"
+      },
+      {
+        "xp_awarded": 100,
+        "goal_description_locked": {
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "event_fp15_myths_01"
+            }
+          ],
+          "template": "challenge_unlock_singular"
+        },
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_fp15_myths_01"
+          }
+        ],
+        "goal_id": "event_fp15_myths_04",
+        "goal_title_locked": "challenge_locked_myths_01"
+      },
+      {
+        "xp_awarded": 100,
+        "goal_description_locked": {
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "event_fp15_myths_03"
+            }
+          ],
+          "template": "challenge_unlock_multiple_of_a_type"
+        },
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_fp15_myths_03"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_fp15_myths_04"
+          }
+        ],
+        "goal_id": "event_fp15_myths_05",
+        "goal_title_locked": "challenge_locked_myths_02"
+      },
+      {
+        "xp_awarded": 100,
+        "goal_description_locked": {
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "event_fp15_myths_03"
+            }
+          ],
+          "template": "challenge_unlock_multiple_of_a_type"
+        },
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_fp15_myths_03"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_fp15_myths_04"
+          }
+        ],
+        "goal_id": "event_fp15_myths_06",
+        "goal_title_locked": "challenge_locked_myths_02"
+      },
+      {
+        "xp_awarded": 100,
+        "goal_description_locked": {
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "event_fp15_myths_04"
+            }
+          ],
+          "template": "challenge_unlock_multiple_of_a_type"
+        },
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_fp15_myths_05"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_fp15_myths_06"
+          }
+        ],
+        "goal_id": "event_fp15_myths_07",
+        "goal_title_locked": "challenge_locked_myths_03"
+      },
+      {
+        "xp_awarded": 100,
+        "goal_description_locked": {
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "event_fp15_myths_04"
+            }
+          ],
+          "template": "challenge_unlock_multiple_of_a_type"
+        },
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_fp15_myths_05"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_fp15_myths_06"
+          }
+        ],
+        "goal_id": "event_fp15_myths_08",
+        "goal_title_locked": "challenge_locked_myths_03"
+      },
+      {
+        "xp_awarded": 100,
+        "goal_description_locked": {
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "event_fp15_myths_05"
+            }
+          ],
+          "template": "challenge_unlock_multiple_of_a_type"
+        },
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_fp15_myths_07"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_fp15_myths_08"
+          }
+        ],
+        "goal_id": "event_fp15_myths_09",
+        "goal_title_locked": "challenge_locked_myths_04"
+      },
+      {
+        "xp_awarded": 100,
+        "goal_description_locked": {
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "event_fp15_myths_05"
+            }
+          ],
+          "template": "challenge_unlock_multiple_of_a_type"
+        },
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_fp15_myths_07"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_fp15_myths_08"
+          }
+        ],
+        "goal_id": "event_fp15_myths_10",
+        "goal_title_locked": "challenge_locked_myths_04"
+      }
+    ],
+    "tool_tip_image": "ui_liveevent_myths_tooltip",
+    "background_image": "gb_liveevent_myths_background",
+    "promotional_image": "promo_liveevent_liveevents_myths",
+    "reward_icon_image": "icon_liveevent_myths_currency_icon"
+  },
+  {
     "id": "le_fp7_seasonsyeetings",
     "title": "localised_strings.le_social_title_winter",
     "description": "localised_strings.le_social_desc_winter",

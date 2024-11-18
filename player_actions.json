@@ -3890,6 +3890,7 @@
     "id": "player_emotes",
     "config": {
       "metric_id": "player_emoted",
+      "is_private_lobby": "false",
       "dimensions": []
     }
   },
@@ -5704,6 +5705,14 @@
           "operator": "less_or_equal",
           "integer_value": 60,
           "dimension_type": "integer_dimension"
+        },
+        {
+          "dimension_id": "end_of_round_player_state",
+          "operator": "contains_any",
+          "string_array_value": [
+            "qualified"
+          ],
+          "dimension_type": "array_dimension"
         }
       ]
     }
@@ -6294,6 +6303,74 @@
     }
   },
   {
+    "id": "qualify_round_in_explore",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "casual_show"
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "end_of_round_player_state",
+          "operator": "contains_any",
+          "string_array_value": [
+            "qualified"
+          ],
+          "dimension_type": "array_dimension"
+        },
+        {
+          "dimension_id": "round_qualified",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        }
+      ]
+    }
+  },
+  {
+    "id": "qualify_round_in_knockout",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "knockout_mode"
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "end_of_round_player_state",
+          "operator": "contains_any",
+          "string_array_value": [
+            "qualified"
+          ],
+          "dimension_type": "array_dimension"
+        },
+        {
+          "dimension_id": "round_qualified",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        }
+      ]
+    }
+  },
+  {
     "id": "qualify_rounds_any",
     "config": {
       "metric_id": "round_reached",
@@ -6314,6 +6391,40 @@
     }
   },
   {
+    "id": "qualify_rounds_duos",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "round_qualified",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "end_of_round_player_state",
+          "operator": "contains_any",
+          "string_array_value": [
+            "qualified"
+          ],
+          "dimension_type": "array_dimension"
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "classic_duos_show"
+        }
+      ]
+    }
+  },
+  {
     "id": "qualify_rounds_explore",
     "config": {
       "metric_id": "round_reached",
@@ -6323,6 +6434,14 @@
           "operator": "equal",
           "boolean_value": "true",
           "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "end_of_round_player_state",
+          "operator": "equal",
+          "string_array_value": [
+            "qualified"
+          ],
+          "dimension_type": "array_dimension"
         },
         {
           "dimension_id": "is_private_lobby",
@@ -6361,6 +6480,40 @@
           "operator": "equal",
           "dimension_type": "string_dimension",
           "string_value": "knockout_mode"
+        }
+      ]
+    }
+  },
+  {
+    "id": "qualify_rounds_squads",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "round_qualified",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "end_of_round_player_state",
+          "operator": "contains_any",
+          "string_array_value": [
+            "qualified"
+          ],
+          "dimension_type": "array_dimension"
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "classic_squads_show"
         }
       ]
     }
@@ -8199,6 +8352,46 @@
     }
   },
   {
+    "id": "use_emoticons",
+    "config": {
+      "metric_id": "player_used_emoticons",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "emoticons_used_count",
+          "operator": "more_or_equal",
+          "integer_value": 1,
+          "dimension_type": "integer_dimension"
+        }
+      ]
+    }
+  },
+  {
+    "id": "use_phrases",
+    "config": {
+      "metric_id": "player_used_phrases",
+      "dimensions": [
+        {
+          "dimension_id": "phrases_used_count",
+          "operator": "more_or_equal",
+          "integer_value": 1,
+          "dimension_type": "integer_dimension"
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        }
+      ]
+    }
+  },
+  {
     "id": "victoria_final",
     "config": {
       "metric_id": "round_reached",
@@ -9711,6 +9904,38 @@
       "round_qualified": "true",
       "is_final_round": "true",
       "show_id": "event_xtreme_fall_guys_template"
+    }
+  },
+  {
+    "id": "win_xtreme_squads",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "is_final_round",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "round_qualified",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "event_xtreme_fall_guys_squads_template"
+        }
+      ]
     }
   },
   {

@@ -2287,6 +2287,25 @@
     ]
   },
   {
+    "id": "fp15_myths_challenges",
+    "challenge_list_ui_id": "challenge_list_ui.event_myths_01",
+    "refresh_interval_config": {
+      "type": "indefinite"
+    },
+    "challenge_pool_ids": [
+      "fp15_myths_challenges"
+    ],
+    "rarity_distribution": [
+      {
+        "required_number": 5,
+        "cooldown_interval_config": {
+          "type": "none"
+        },
+        "rarity": "special"
+      }
+    ]
+  },
+  {
     "id": "hourly_challenges",
     "challenge_pool_ids": [
       "easy_pool"
@@ -2490,6 +2509,40 @@
           "multiplier": 1
         },
         "rarity": "epic"
+      }
+    ]
+  },
+  {
+    "id": "partyup_challenges_pool_myths",
+    "challenge_pool_ids": [
+      "partyup_challenges_pool_myths"
+    ],
+    "challenge_list_ui_id": "challenge_list_ui.event_partyup",
+    "refresh_interval_config": {
+      "type": "daily",
+      "multiplier": 1
+    },
+    "rarity_distribution": [
+      {
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        },
+        "rarity": "common"
+      },
+      {
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        },
+        "rarity": "uncommon"
+      },
+      {
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        },
+        "rarity": "rare"
       }
     ]
   },
