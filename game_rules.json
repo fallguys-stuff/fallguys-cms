@@ -45471,10 +45471,12 @@
   },
   {
     "id": "showcase_royaumevibrant",
+    "min_participants": 2,
     "max_participants": 24,
+    "min_participants_private_lobby": 2,
     "max_participants_private_lobby": 24,
-    "qualification_percentage": 100,
-    "squads_qualification_percentage": 70,
+    "qualification_percentage": 1,
+    "squads_qualification_percentage": 1,
     "has_timer": true,
     "duration": 180,
     "timer_visibility_threshold": 180,
@@ -45488,11 +45490,10 @@
     "start_game_message_trigger": "start",
     "start_game_message_format": "info",
     "show_qualification_progress_ui": true,
-    "should_hide_opposing_team_name_tags": [],
     "tom_round_rules": "tom_round_rules.default",
-    "use_creator_qualification_percentage": true,
     "use_creator_time_limit": true,
-    "is_piggyback_enabled": true
+    "is_piggyback_enabled": true,
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "showcase_sawmill",
