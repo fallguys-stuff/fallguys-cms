@@ -1031,7 +1031,7 @@
     "overtime_mode": "overtime_only",
     "team_mode": "solo",
     "is_scoring_game": true,
-    "score_display_mode": "number",
+    "score_display_mode": "fraction",
     "use_creator_score_target": true,
     "score_target": 10,
     "start_game_message_wait_time": 1,
@@ -2500,7 +2500,7 @@
     "timer_visibility_threshold": 30,
     "time_left_red_alert_threshold": 10,
     "game_manager_spawn_type": "none",
-    "round_end_condition": "success_quota",
+    "round_end_condition": "eliminated_quota",
     "overtime_mode": "none",
     "team_mode": "solo",
     "score_display_mode": "none",
@@ -2510,10 +2510,10 @@
     "start_game_message_format": "info",
     "objective_text": "localised_strings.level_objective_gauntlet_01",
     "show_qualification_progress_ui": true,
-    "should_hide_opposing_team_name_tags": [],
     "tom_round_rules": "tom_round_rules.default",
     "use_creator_score_target": true,
-    "is_piggyback_enabled": true
+    "is_piggyback_enabled": true,
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "knockout_mode__cloudyteacupsgoldrush_final",
