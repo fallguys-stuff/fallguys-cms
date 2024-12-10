@@ -594,6 +594,61 @@
     ]
   },
   {
+    "id": "variation_chicken_chase_pegwin",
+    "set_switchers": [
+      {
+        "key": "Punchers",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 60
+          },
+          {
+            "key": "Punchers",
+            "weighting": 40
+          }
+        ]
+      },
+      {
+        "key": "Turnstiles",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 70
+          },
+          {
+            "key": "Hammers",
+            "weighting": 30
+          }
+        ]
+      },
+      {
+        "key": "Fans",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          },
+          {
+            "key": "Fans"
+          }
+        ]
+      },
+      {
+        "key": "Penguins",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 100
+          },
+          {
+            "key": "GoldPenguin"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "variation_chompchomp",
     "set_switchers": [
       {
@@ -2659,6 +2714,198 @@
     ]
   },
   {
+    "id": "variation_drum_top_pegwin",
+    "set_switchers": [
+      {
+        "key": "Section01_Hammers",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 75,
+            "difficulty": "easy"
+          },
+          {
+            "key": "Hammer",
+            "weighting": 25,
+            "difficulty": "intermediate"
+          }
+        ]
+      },
+      {
+        "key": "Section01_Pegwin",
+        "weightings": [
+          {
+            "key": "Off",
+            "difficulty": "all_players"
+          },
+          {
+            "key": "On",
+            "weighting": 100,
+            "difficulty": "all_players"
+          }
+        ]
+      },
+      {
+        "key": "Section02_BouncyRiver",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 60,
+            "difficulty": "easy"
+          },
+          {
+            "key": "Spinner_Arms",
+            "weighting": 10,
+            "difficulty": "difficult"
+          },
+          {
+            "key": "Frogs",
+            "weighting": 10,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "LayoutB",
+            "weighting": 20,
+            "difficulty": "intermediate"
+          }
+        ]
+      },
+      {
+        "key": "Section02_LastSegment",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 70,
+            "difficulty": "easy"
+          },
+          {
+            "key": "Flippers",
+            "weighting": 30,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Fans",
+            "difficulty": "never_use"
+          },
+          {
+            "key": "Flippers_And_Fans",
+            "difficulty": "never_use"
+          }
+        ]
+      },
+      {
+        "key": "Section03_DrumsMovement",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 75,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "UpAndDown",
+            "weighting": 25,
+            "difficulty": "easy"
+          }
+        ]
+      },
+      {
+        "key": "Section04_Bottom",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 100,
+            "difficulty": "easy"
+          },
+          {
+            "key": "Lateral",
+            "difficulty": "intermediate"
+          }
+        ]
+      },
+      {
+        "key": "Section04_Top",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 50,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Diagonal",
+            "weighting": 30,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Static",
+            "weighting": 20,
+            "difficulty": "easy"
+          }
+        ]
+      },
+      {
+        "key": "Section05_Top",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 60,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Sideways",
+            "weighting": 10,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Circular",
+            "weighting": 10,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Fans",
+            "weighting": 10,
+            "difficulty": "difficult"
+          },
+          {
+            "key": "StaticFlat",
+            "weighting": 10,
+            "difficulty": "easy"
+          }
+        ]
+      },
+      {
+        "key": "Section05_Bottom",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 100,
+            "difficulty": "easy"
+          },
+          {
+            "key": "Sideways",
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Logswing",
+            "difficulty": "intermediate"
+          }
+        ]
+      },
+      {
+        "key": "SlimeSurvival",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100,
+            "difficulty": "all_players"
+          },
+          {
+            "key": "Slime"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "variation_egg_grab",
     "set_switchers": [
       {
@@ -3317,6 +3564,51 @@
           },
           {
             "key": "MoreCannons",
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Projectiles2",
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Pelican"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "variation_fruitpunch_pegwin",
+    "set_switchers": [
+      {
+        "key": "SeeSaw",
+        "weightings": [
+          {
+            "key": "Original",
+            "difficulty": "easy"
+          },
+          {
+            "key": "Scythe",
+            "difficulty": "difficult"
+          },
+          {
+            "key": "Pegwin",
+            "weighting": 100,
+            "difficulty": "all_players"
+          }
+        ]
+      },
+      {
+        "key": "Cannons",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 70,
+            "difficulty": "easy"
+          },
+          {
+            "key": "MoreCannons",
+            "weighting": 30,
             "difficulty": "intermediate"
           },
           {
@@ -5247,6 +5539,162 @@
     ]
   },
   {
+    "id": "variation_gauntlet_05_pegwin",
+    "set_switchers": [
+      {
+        "key": "1_Spawners",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 50,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "BerryBlaster",
+            "weighting": 30,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Original_Easier",
+            "weighting": 20,
+            "difficulty": "onboarding"
+          }
+        ]
+      },
+      {
+        "key": "2_Punchers",
+        "weightings": [
+          {
+            "key": "Original",
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "LogSwings",
+            "weighting": 100,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Original_FewerPunchers",
+            "difficulty": "onboarding"
+          },
+          {
+            "key": "IonThrusters"
+          }
+        ]
+      },
+      {
+        "key": "3_Punchers",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 70,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "MorePunchers",
+            "weighting": 30,
+            "difficulty": "difficult"
+          },
+          {
+            "key": "GravAndPlatforms"
+          }
+        ]
+      },
+      {
+        "key": "5_Flippers",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 70,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Fan",
+            "weighting": 30,
+            "difficulty": "onboarding"
+          },
+          {
+            "key": "RespawnHexes"
+          }
+        ]
+      },
+      {
+        "key": "5_Pendulum",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 40,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "LogSwing",
+            "weighting": 40,
+            "difficulty": "difficult"
+          },
+          {
+            "key": "Off",
+            "weighting": 20,
+            "difficulty": "onboarding"
+          }
+        ]
+      },
+      {
+        "key": "SlimeSurvival",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100,
+            "difficulty": "all_players"
+          },
+          {
+            "key": "Slime"
+          }
+        ]
+      },
+      {
+        "key": "4_Flippers",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 100,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Easier",
+            "difficulty": "onboarding"
+          },
+          {
+            "key": "ConveyorAndPendulum"
+          }
+        ]
+      },
+      {
+        "key": "1_OptionalPath",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          },
+          {
+            "key": "RespawnTiles"
+          }
+        ]
+      },
+      {
+        "key": "1_Ramps",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 100
+          },
+          {
+            "key": "IonThrusters"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "variation_gauntlet_05_timeattack_final",
     "set_switchers": [
       {
@@ -5726,6 +6174,215 @@
           {
             "key": "Pegwin",
             "weighting": 10,
+            "difficulty": "all_players"
+          }
+        ]
+      },
+      {
+        "key": "Slide",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 80,
+            "difficulty": "easy"
+          },
+          {
+            "key": "MovingPillars",
+            "weighting": 20,
+            "difficulty": "intermediate"
+          }
+        ]
+      },
+      {
+        "key": "Swings",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 80,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "SpinningArm",
+            "weighting": 20,
+            "difficulty": "easy"
+          }
+        ]
+      },
+      {
+        "key": "Floor",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 80,
+            "difficulty": "easy"
+          },
+          {
+            "key": "Turntable",
+            "weighting": 20,
+            "difficulty": "intermediate"
+          }
+        ]
+      },
+      {
+        "key": "Yeetus_02",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 80,
+            "difficulty": "easy"
+          },
+          {
+            "key": "Yeetus",
+            "weighting": 20,
+            "difficulty": "intermediate"
+          }
+        ]
+      },
+      {
+        "key": "Flippers",
+        "weightings": [
+          {
+            "key": "Formation_01",
+            "weighting": 100,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Formation_02",
+            "difficulty": "intermediate"
+          }
+        ]
+      },
+      {
+        "key": "SlimeSurvival",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100,
+            "difficulty": "all_players"
+          },
+          {
+            "key": "Slime"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "variation_gauntlet_06_pegwin",
+    "set_switchers": [
+      {
+        "key": "GravityZone",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 100,
+            "difficulty": "all_players"
+          },
+          {
+            "key": "HighGrav"
+          }
+        ]
+      },
+      {
+        "key": "Spawners",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 50,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Fruit",
+            "weighting": 15,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Fans",
+            "weighting": 20,
+            "difficulty": "difficult"
+          },
+          {
+            "key": "Off",
+            "weighting": 15,
+            "difficulty": "easy"
+          }
+        ]
+      },
+      {
+        "key": "Steps",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 80,
+            "difficulty": "easy"
+          },
+          {
+            "key": "MovingPillars",
+            "weighting": 20,
+            "difficulty": "intermediate"
+          }
+        ]
+      },
+      {
+        "key": "ShootingGallery",
+        "weightings": [
+          {
+            "key": "Cannons",
+            "weighting": 80,
+            "difficulty": "easy"
+          },
+          {
+            "key": "Fan",
+            "weighting": 20,
+            "difficulty": "intermediate"
+          }
+        ]
+      },
+      {
+        "key": "Bridges",
+        "weightings": [
+          {
+            "key": "Formation_01",
+            "weighting": 40,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Formation_02",
+            "weighting": 30,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Formation_03",
+            "weighting": 30,
+            "difficulty": "easy"
+          }
+        ]
+      },
+      {
+        "key": "Yeetus_01",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 80,
+            "difficulty": "easy"
+          },
+          {
+            "key": "Yeetus",
+            "weighting": 20,
+            "difficulty": "intermediate"
+          }
+        ]
+      },
+      {
+        "key": "Maze",
+        "weightings": [
+          {
+            "key": "Off",
+            "difficulty": "all_players"
+          },
+          {
+            "key": "Pegwin",
+            "weighting": 100,
             "difficulty": "all_players"
           }
         ]
@@ -6562,6 +7219,259 @@
           },
           {
             "key": "Flippers",
+            "difficulty": "difficult"
+          }
+        ]
+      },
+      {
+        "key": "SlimeSurvival",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100,
+            "difficulty": "all_players"
+          },
+          {
+            "key": "Slime"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "variation_gauntlet_07_pegwin",
+    "set_switchers": [
+      {
+        "key": "Section1_BottomRoute",
+        "weightings": [
+          {
+            "key": "Hammers",
+            "weighting": 75,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Bollards",
+            "weighting": 25,
+            "difficulty": "intermediate"
+          }
+        ]
+      },
+      {
+        "key": "Section1_TopRoute",
+        "weightings": [
+          {
+            "key": "Frog_Turntable",
+            "weighting": 40,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "SpinArm_Turntable",
+            "weighting": 20,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Drums",
+            "weighting": 20,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Turntable_Easy",
+            "weighting": 20,
+            "difficulty": "onboarding"
+          }
+        ]
+      },
+      {
+        "key": "Section2_TopRoute",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 70,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "AltDrums",
+            "weighting": 30,
+            "difficulty": "intermediate"
+          }
+        ]
+      },
+      {
+        "key": "Section2_BottomRoute",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 50,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Floor_Fan",
+            "weighting": 25,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "GravityZone",
+            "difficulty": "intermediate"
+          }
+        ]
+      },
+      {
+        "key": "Section2_BottomTurntables",
+        "weightings": [
+          {
+            "key": "Turntables",
+            "weighting": 80,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Yeetus",
+            "weighting": 20,
+            "difficulty": "intermediate"
+          }
+        ]
+      },
+      {
+        "key": "Section3_TopRoute",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 90,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Yeetus",
+            "weighting": 10,
+            "difficulty": "intermediate"
+          }
+        ]
+      },
+      {
+        "key": "Section3_BottomRoute",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 50,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Reverse",
+            "weighting": 50,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "LessBollards",
+            "difficulty": "onboarding"
+          }
+        ]
+      },
+      {
+        "key": "Section4_TopRoute_Frogs",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 70,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "DrumJumps",
+            "weighting": 30,
+            "difficulty": "intermediate"
+          }
+        ]
+      },
+      {
+        "key": "Section4_TopRoute_Bollards",
+        "weightings": [
+          {
+            "key": "Bollards",
+            "weighting": 75,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Fans",
+            "weighting": 25,
+            "difficulty": "intermediate"
+          }
+        ]
+      },
+      {
+        "key": "Section4_BottomRoute_River",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 65,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "AltDrum",
+            "weighting": 35,
+            "difficulty": "intermediate"
+          }
+        ]
+      },
+      {
+        "key": "Section4_BottomRoute_Cannon",
+        "weightings": [
+          {
+            "key": "Boulders",
+            "weighting": 75,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Fruit",
+            "weighting": 25,
+            "difficulty": "intermediate"
+          }
+        ]
+      },
+      {
+        "key": "Section5_TopRoute",
+        "weightings": [
+          {
+            "key": "LogSwing",
+            "weighting": 75,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "AltLogSwing",
+            "weighting": 25,
+            "difficulty": "intermediate"
+          }
+        ]
+      },
+      {
+        "key": "Section5_BottomRoute",
+        "weightings": [
+          {
+            "key": "Original",
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Pegwin",
+            "weighting": 100,
+            "difficulty": "all_players"
+          },
+          {
+            "key": "Fans",
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "1Rhino",
+            "difficulty": "onboarding"
+          }
+        ]
+      },
+      {
+        "key": "Section5_EndCliff",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 70,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Flippers",
+            "weighting": 30,
             "difficulty": "difficult"
           }
         ]
@@ -8415,6 +9325,212 @@
     ]
   },
   {
+    "id": "variation_lava_pegwin",
+    "set_switchers": [
+      {
+        "key": "EndSection",
+        "weightings": [
+          {
+            "key": "Pendulums",
+            "weighting": 20,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "MovingPillars",
+            "weighting": 20,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Hammers",
+            "weighting": 20,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "LogSwing",
+            "weighting": 20,
+            "difficulty": "difficult"
+          },
+          {
+            "key": "Fans",
+            "weighting": 20,
+            "difficulty": "difficult"
+          },
+          {
+            "key": "Button",
+            "weighting": 20,
+            "difficulty": "easy"
+          },
+          {
+            "key": "ExpandingDome",
+            "weighting": 20,
+            "difficulty": "difficult"
+          }
+        ]
+      },
+      {
+        "key": "Spawners",
+        "weightings": [
+          {
+            "key": "Boulders",
+            "weighting": 70,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Logs",
+            "weighting": 30,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "BouldersEasy",
+            "difficulty": "easy"
+          }
+        ]
+      },
+      {
+        "key": "Hammers",
+        "weightings": [
+          {
+            "key": "Formation_1",
+            "weighting": 50,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Formation_2",
+            "weighting": 50,
+            "difficulty": "difficult"
+          },
+          {
+            "key": "Formation_3",
+            "weighting": 10,
+            "difficulty": "easy"
+          }
+        ]
+      },
+      {
+        "key": "Yeetus",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 70,
+            "difficulty": "easy"
+          },
+          {
+            "key": "Yeetus",
+            "weighting": 15,
+            "difficulty": "difficult"
+          },
+          {
+            "key": "GravityZone",
+            "difficulty": "intermediate"
+          }
+        ]
+      },
+      {
+        "key": "Pushers_1",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 80,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Flippers",
+            "weighting": 20,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "SlowerPushers",
+            "weighting": 10,
+            "difficulty": "easy"
+          }
+        ]
+      },
+      {
+        "key": "Pushers_2",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 70,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Flippers",
+            "weighting": 15,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Fans",
+            "weighting": 15,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "SlowerPushers",
+            "weighting": 10,
+            "difficulty": "easy"
+          }
+        ]
+      },
+      {
+        "key": "Pushers_3",
+        "weightings": [
+          {
+            "key": "Original",
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Flippers",
+            "weighting": 100,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "SlowerPushers",
+            "difficulty": "easy"
+          }
+        ]
+      },
+      {
+        "key": "Pegwin",
+        "weightings": [
+          {
+            "key": "Off",
+            "difficulty": "all_players"
+          },
+          {
+            "key": "Pegwin",
+            "weighting": 100,
+            "difficulty": "all_players"
+          }
+        ]
+      },
+      {
+        "key": "BalanceBeams",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 85,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "GravityZone",
+            "difficulty": "easy"
+          }
+        ]
+      },
+      {
+        "key": "Oriole",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          },
+          {
+            "key": "On"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "variation_match_fall",
     "set_switchers": [
       {
@@ -8509,6 +9625,53 @@
           {
             "key": "Penguin",
             "weighting": 10,
+            "difficulty": "all_players"
+          },
+          {
+            "key": "TrolleyBots"
+          }
+        ]
+      },
+      {
+        "key": "Tiles",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 100,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Easier",
+            "difficulty": "onboarding"
+          },
+          {
+            "key": "SciFiObjects"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "variation_match_fall_pegwin",
+    "set_switchers": [
+      {
+        "key": "Centre",
+        "weightings": [
+          {
+            "key": "Off",
+            "difficulty": "all_players"
+          },
+          {
+            "key": "SpinningBeam",
+            "difficulty": "difficult"
+          },
+          {
+            "key": "BerryBlaster",
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Penguin",
+            "weighting": 100,
             "difficulty": "all_players"
           },
           {
@@ -9250,6 +10413,80 @@
         "weightings": [
           {
             "key": "Original",
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "One",
+            "weighting": 20,
+            "difficulty": "easy"
+          },
+          {
+            "key": "Two"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "variation_robotrampage_pegwin",
+    "set_switchers": [
+      {
+        "key": "Centre",
+        "weightings": [
+          {
+            "key": "Off",
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Pegwin",
+            "weighting": 100,
+            "difficulty": "all_players"
+          },
+          {
+            "key": "Turntable",
+            "difficulty": "difficult"
+          },
+          {
+            "key": "Ion"
+          }
+        ]
+      },
+      {
+        "key": "Outside_Arena",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 50,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Static_Drums",
+            "weighting": 15,
+            "difficulty": "difficult"
+          },
+          {
+            "key": "Fans",
+            "weighting": 15,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "FansAndDrums",
+            "difficulty": "easy"
+          },
+          {
+            "key": "HexDrums"
+          },
+          {
+            "key": "Victoria"
+          }
+        ]
+      },
+      {
+        "key": "RhinoAmount",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 80,
             "difficulty": "intermediate"
           },
           {
@@ -10822,6 +12059,191 @@
           {
             "key": "Pegwin",
             "weighting": 5,
+            "difficulty": "all_players"
+          }
+        ]
+      },
+      {
+        "key": "Floor1_Ramp2",
+        "weightings": [
+          {
+            "key": "Forcefields",
+            "weighting": 50,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Punchers",
+            "weighting": 30,
+            "difficulty": "difficult"
+          },
+          {
+            "key": "SeeSaws",
+            "weighting": 20,
+            "difficulty": "easy"
+          }
+        ]
+      },
+      {
+        "key": "Floor1_RightCorner",
+        "weightings": [
+          {
+            "key": "LaserSwing",
+            "weighting": 60,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Fans",
+            "weighting": 20,
+            "difficulty": "difficult"
+          },
+          {
+            "key": "Off",
+            "weighting": 20,
+            "difficulty": "easy"
+          }
+        ]
+      },
+      {
+        "key": "Floor2_LeftCorner",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 85,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Yeetus",
+            "weighting": 15,
+            "difficulty": "intermediate"
+          }
+        ]
+      },
+      {
+        "key": "Floor2_RightCorner",
+        "weightings": [
+          {
+            "key": "Forcefields",
+            "weighting": 80,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "MovableBlock",
+            "weighting": 20,
+            "difficulty": "intermediate"
+          }
+        ]
+      },
+      {
+        "key": "Floor3_Ramp1",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 80,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "HighGrav"
+          },
+          {
+            "key": "LaserHurdlesOff",
+            "weighting": 20,
+            "difficulty": "easy"
+          }
+        ]
+      },
+      {
+        "key": "Floor4_Ramp1",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 75,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Bollards",
+            "weighting": 25,
+            "difficulty": "easy"
+          }
+        ]
+      },
+      {
+        "key": "Floor4_RightCorner",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 50,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "AltHurdle",
+            "weighting": 50,
+            "difficulty": "intermediate"
+          }
+        ]
+      },
+      {
+        "key": "Floor5_Ramp1",
+        "weightings": [
+          {
+            "key": "LaserSwing",
+            "weighting": 60,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "Fan",
+            "weighting": 30,
+            "difficulty": "difficult"
+          },
+          {
+            "key": "Off",
+            "weighting": 20,
+            "difficulty": "easy"
+          }
+        ]
+      },
+      {
+        "key": "Ending",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 100,
+            "difficulty": "all_players"
+          },
+          {
+            "key": "AltEnd"
+          }
+        ]
+      },
+      {
+        "key": "Floor2_Ramp2",
+        "weightings": [
+          {
+            "key": "Original",
+            "weighting": 80,
+            "difficulty": "intermediate"
+          },
+          {
+            "key": "PunchersOff",
+            "weighting": 20,
+            "difficulty": "easy"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "variation_slimeclimb_2_pegwin",
+    "set_switchers": [
+      {
+        "key": "Start",
+        "weightings": [
+          {
+            "key": "Off",
+            "difficulty": "all_players"
+          },
+          {
+            "key": "Pegwin",
+            "weighting": 100,
             "difficulty": "all_players"
           }
         ]

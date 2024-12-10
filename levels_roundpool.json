@@ -1622,6 +1622,64 @@
     "stages": []
   },
   {
+    "id": "fp16_showcase",
+    "config": {
+      "type": "legacy"
+    },
+    "stages": [
+      {
+        "round": "levels_round.round_fp16_standardfireworks",
+        "cannot_be_on_these_stages": [
+          3
+        ],
+        "can_only_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_fp16_crumblecave",
+        "cannot_be_on_these_stages": [
+          3
+        ],
+        "can_only_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_fp16_cloudyteacups",
+        "can_only_be_on_these_stages": [
+          2
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.fp16_hohoholeymoley_3teams",
+        "can_only_be_on_these_stages": [
+          2
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.fp16_hohoholeymoley_4teams",
+        "can_only_be_on_these_stages": [
+          2
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_fp16_goopropegrandslam",
+        "can_only_be_on_these_stages": [
+          3
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_fp16_cloudyteacups_final",
+        "can_only_be_on_these_stages": [
+          3
+        ],
+        "cannot_be_on_these_stages": []
+      }
+    ],
+    "discovery_queries": []
+  },
+  {
     "id": "fraggle_gamemode_gauntlet_template",
     "config": {
       "type": "legacy"
@@ -2832,6 +2890,215 @@
     "discovery_queries": []
   },
   {
+    "id": "knockout_fp16_roundpool",
+    "stages": [
+      {
+        "round": "levels_round.knockout_rolloff_final",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_blastball_final",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_dizzyheights_opener",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_fp10_thinice_final",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_fallmountain_final",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_franticfactory_filler",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_fulltilt_opener",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_hexaterrestrial_final",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_hyperdriveheroes_filler",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_krakenslam_final",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_knightfever_opener",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_hexagone_final",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_seesaw_opener",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_skifall_filler",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_snowballsurvival_filler",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_losttemple_final",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_bigfans_opener",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_tundrarun_opener",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_whirlygig_opener",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_magnetmayhem_filler",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_slimecycle_filler",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_sortitout_filler",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_teatime_opener",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_circleoslime_final_survival",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_topofthetrash_filler",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_slidensmash_filler",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_spacebounders_opener",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_wipeoutwaves_filler",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_mindthegap_opener",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_chickengulch_filler",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_clumsycarnival_opener",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_spookyslingers_opener",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_bubblegumbrew_filler",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_trickortrapeze_final_points",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_crumblecavegoldrush_opener",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_standardfireworksgoldrush_opener",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_hohoholeymoleygoldrush_filler",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_goopropegrandslamgoldrush_final_survival",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_pegwinpoolparty_filler",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_mode_cloudyteacupsgoldrush_final",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      }
+    ],
+    "config": {
+      "type": "legacy"
+    },
+    "discovery_queries": []
+  },
+  {
     "id": "knockout_squads_fp10_roundpool",
     "config": {
       "type": "legacy"
@@ -3740,6 +4007,96 @@
     "config": {
       "type": "legacy"
     }
+  },
+  {
+    "id": "mrs_pegwin_winter_ltm_2teamsfinal",
+    "stages": [
+      {
+        "round": "levels_round.round_match_fall_pegwin_winter",
+        "can_only_be_on_these_stages": [
+          2
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_gauntlet_05_pegwin_winter",
+        "can_only_be_on_these_stages": [
+          1,
+          2
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_fruitpunch_pegwin_winter",
+        "can_only_be_on_these_stages": [
+          2
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_lava_pegwin_winter",
+        "can_only_be_on_these_stages": [
+          2
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_gauntlet_06_pegwin_winter",
+        "can_only_be_on_these_stages": [
+          1,
+          2
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_slimeclimb_2_pegwin_winter",
+        "can_only_be_on_these_stages": [
+          2
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_drumtop_40_pegwin_winter",
+        "can_only_be_on_these_stages": [
+          1,
+          2
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_robotrampage_arena_2_pegwin_winter",
+        "can_only_be_on_these_stages": [
+          2
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_gauntlet_07_pegwin_winter",
+        "can_only_be_on_these_stages": [
+          1,
+          2
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_chicken_chase_pegwin_winter_2teamsfinal",
+        "can_only_be_on_these_stages": [
+          3
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_penguin_solos_pegwin_2teamsfinal",
+        "can_only_be_on_these_stages": [
+          3
+        ],
+        "cannot_be_on_these_stages": []
+      }
+    ],
+    "config": {
+      "type": "legacy"
+    },
+    "discovery_queries": []
   },
   {
     "id": "roundpool_1v1_volleyfall_solos",
@@ -5906,8 +6263,10 @@
       },
       {
         "round": "levels_round.round_conveyor_arena_squads",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
+        "cannot_be_on_these_stages": [
+          1
+        ],
+        "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_robotrampage_arena_2_squads",
@@ -6094,8 +6453,10 @@
       },
       {
         "round": "levels_round.round_match_fall_squads",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
+        "cannot_be_on_these_stages": [
+          1
+        ],
+        "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_royal_rumble_squads",
@@ -6107,8 +6468,10 @@
       },
       {
         "round": "levels_round.round_fruit_bowl_squads",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
+        "cannot_be_on_these_stages": [
+          1
+        ],
+        "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_penguin_solos_squads",
@@ -6262,8 +6625,10 @@
       },
       {
         "round": "levels_round.round_king_of_the_hill_squads",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
+        "cannot_be_on_these_stages": [
+          1
+        ],
+        "can_only_be_on_these_stages": []
       }
     ],
     "discovery_queries": []
@@ -8098,7 +8463,6 @@
     "config": {
       "type": "legacy"
     },
-    "discovery_queries": [],
     "stages": [
       {
         "round": "levels_round.round_gauntlet_01_duos",
@@ -8333,8 +8697,14 @@
         "round": "levels_round.round_hoops_duos",
         "can_only_be_on_these_stages": [],
         "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_see_saw_duos",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
       }
-    ]
+    ],
+    "discovery_queries": []
   },
   {
     "id": "roundpool_duos_show_s11",
@@ -26498,6 +26868,11 @@
         "round": "levels_round.round_king_of_the_hill_40",
         "can_only_be_on_these_stages": [],
         "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_see_saw_40",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
       }
     ],
     "config": {
@@ -26875,6 +27250,13 @@
       {
         "round": "levels_round.round_tunnel_race_40",
         "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_see_saw_40",
+        "can_only_be_on_these_stages": [
+          1
+        ],
         "cannot_be_on_these_stages": []
       }
     ],
@@ -33931,6 +34313,13 @@
         "round": "levels_round.round_hoops_squads",
         "can_only_be_on_these_stages": [],
         "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_see_saw_squads",
+        "cannot_be_on_these_stages": [
+          1
+        ],
+        "can_only_be_on_these_stages": []
       }
     ],
     "discovery_queries": []

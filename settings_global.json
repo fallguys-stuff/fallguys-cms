@@ -282,6 +282,12 @@
     "platforms_whitelist": []
   },
   {
+    "id": "contact_modify_event_enabled",
+    "value": true,
+    "platforms_whitelist": [],
+    "target_ids": []
+  },
+  {
     "id": "continual_rotation_enabled",
     "value": true,
     "target_ids": [
@@ -948,6 +954,14 @@
     "target_ids": []
   },
   {
+    "id": "native_store_portrait_mode_enabled",
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": []
+  },
+  {
     "id": "nested_shows",
     "value": true,
     "platforms_whitelist": [],
@@ -1583,7 +1597,7 @@
   },
   {
     "id": "ugc_budget_limit",
-    "value": 2000,
+    "value": 2500,
     "platforms_whitelist": [],
     "target_ids": []
   },
@@ -1667,7 +1681,7 @@
   },
   {
     "id": "ugc_surface_definitions_enabled",
-    "value": false,
+    "value": true,
     "target_ids": [
       "after_prime_global_launch"
     ],
@@ -1741,7 +1755,7 @@
     "id": "voice_chat_enabled",
     "value": true,
     "target_ids": [
-      "exclude_xbox_and_android"
+      "after_prime_global_launch"
     ],
     "platforms_whitelist": []
   },

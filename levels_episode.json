@@ -4143,8 +4143,8 @@
   },
   {
     "id": "episode_knockout_mode",
-    "director": "levels_director.director_knockout",
-    "roundpool": "levels_roundpool.knockout_fp15_roundpool",
+    "director": "levels_director.director_knockout_fp16",
+    "roundpool": "levels_roundpool.knockout_fp16_roundpool",
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.knockout_fp10_final_1",
     "bucket_override_roundpools": [],
@@ -4955,6 +4955,15 @@
     "mode": "knockout"
   },
   {
+    "id": "mrs_pegwin_winter_ltm_2teamsfinal",
+    "director": "levels_director.director_no_weightings",
+    "roundpool": "levels_roundpool.mrs_pegwin_winter_ltm_2teamsfinal",
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_penguin_solos_pegwin_2teamsfinal",
+    "bucket_override_roundpools": [],
+    "mode": "knockout"
+  },
+  {
     "id": "only_solo_ss2_rounds",
     "director": "levels_director.director_no_weightings",
     "roundpool": "levels_roundpool.roundpool_only_ss2_solo_rounds",
@@ -5023,6 +5032,15 @@
     "roundpool": "levels_roundpool.showcase_fp13",
     "debug_player_count_multiplier": 7,
     "fallback_round": "levels_round.round_floor_fall_squads",
+    "bucket_override_roundpools": [],
+    "mode": "knockout"
+  },
+  {
+    "id": "showcase_fp16",
+    "director": "levels_director.director_fp16_showcase",
+    "roundpool": "levels_roundpool.fp16_showcase",
+    "debug_player_count_multiplier": 7,
+    "fallback_round": "levels_round.round_fp16_goopropegrandslam",
     "bucket_override_roundpools": [],
     "mode": "knockout"
   },

@@ -10465,6 +10465,34 @@
     "episode_reward_settings_id": "solos"
   },
   {
+    "id": "mrs_pegwin_winter_2teamsfinal",
+    "show_name": "localised_strings.show_title_mrs_pegwin_winter_ltm",
+    "show_description": "localised_strings.show_desc_mrs_pegwin_winter_ltm",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_yellow",
+    "can_play_again": true,
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 17,
+      "max_players": 20
+    },
+    "private_lobby_size": {
+      "type": "default"
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.mrs_pegwin_winter_ltm_2teamsfinal",
+    "opens_at": "2023-01-01T01:00:00",
+    "closes_at": "2050-01-01T09:00:01",
+    "top_tags": [],
+    "show_tag": "show_tag_time_attack",
+    "show_image_cms": "ui_show_big_pegwin",
+    "episode_reward_settings_id": "pegwin_winter"
+  },
+  {
     "id": "no_elimination_explore",
     "show_name": "localised_strings.show_title_classic_explore",
     "show_description": "localised_strings.show_desc_classic_explore",
@@ -12676,6 +12704,39 @@
     "show_tag": "show_tag_time_attack",
     "show_image_cms": "ui_show_big_cmp_s11_junkyard_showselector",
     "big_tile_show_image_cms": "ui_show_big_cmp_s11_junkyard_showselector",
+    "episode_reward_settings_id": "knockout_squads"
+  },
+  {
+    "id": "showcase_fp16",
+    "show_name": "localised_strings.fp16_showcase_title",
+    "show_description": "localised_strings.fp16_showcase_desc",
+    "show_image": "SquadShow",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "can_play_again": true,
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 16,
+      "max_players": 20
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 16,
+      "max_players": 20
+    },
+    "show_type": {
+      "showtype_switch": "squad",
+      "squad_size": 4
+    },
+    "default_episode": "levels_episode.showcase_fp16",
+    "opens_at": "2020-01-01T09:00:00",
+    "closes_at": "2050-01-01T09:00:00",
+    "top_tags": [],
+    "show_tag": "show_tag_time_attack",
+    "show_image_cms": "ui_show_big_fp16_showcase",
+    "big_tile_show_image_cms": "ui_show_big_fp16_showcase",
     "episode_reward_settings_id": "knockout_squads"
   },
   {

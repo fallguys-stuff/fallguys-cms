@@ -421,6 +421,26 @@
     "player_action_id": "carry_pegwin_oriole"
   },
   {
+    "id": "carry_pegwin_any_show",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_pegwin_hold",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.obstacle_name_pegwin"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_any_show"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "carry_pegwin_any_show"
+  },
+  {
     "id": "carry_pegwin_ss2_peanut",
     "target": {
       "type": "aggregate",
@@ -4276,6 +4296,48 @@
     "title": "localised_strings.callenge_title_eel_03",
     "challenge_tags": [],
     "player_action_id": "eel_10"
+  },
+  {
+    "id": "emore_showcase_fp16",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "title": "localised_strings.le_fp16_winter_challenge_title_3",
+    "description": "localised_strings.challenge_desc_010_simple",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 5
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.fp16_showcase_title"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "emore_showcase_fp16"
+  },
+  {
+    "id": "emote_explore_5",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "title": "localised_strings.le_fp16_winter_challenge_title_3",
+    "description": "localised_strings.challenge_desc_010_simple",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 5
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.casual_show_title"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "emote_explore"
   },
   {
     "id": "event_anniversary_fp12_01",
@@ -8232,6 +8294,48 @@
     "player_action_id": "parrot_010"
   },
   {
+    "id": "piggyback_explore_3",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "title": "localised_strings.le_fp16_winter_challenge_title_5",
+    "description": "localised_strings.challenge_desc_045_simple",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.casual_show_title"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "piggyback_explore"
+  },
+  {
+    "id": "piggybacl_showcase_fp16_3",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "title": "localised_strings.le_fp16_winter_challenge_title_5",
+    "description": "localised_strings.challenge_desc_045_simple",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.fp16_showcase_title"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "piggyback_showcase_fp16"
+  },
+  {
     "id": "play_5_race_rounds_le_stars_01",
     "target": {
       "type": "aggregate",
@@ -8646,6 +8750,23 @@
     "player_action_id": "play_egg_siege_week_of_romance_s6"
   },
   {
+    "id": "play_explore_5",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "title": "localised_strings.le_fp16_winter_challenge_title_1",
+    "description": "localised_strings.challenge_desc_027_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.casual_show_title"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "play_explore"
+  },
+  {
     "id": "play_explore_in_a_party",
     "target": {
       "type": "aggregate",
@@ -8986,6 +9107,23 @@
     "description_parameters": [],
     "challenge_tags": [],
     "player_action_id": "play_mountain_ss2_peanut"
+  },
+  {
+    "id": "play_party_showcase_fp16_3",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "title": "localised_strings.le_fp16_winter_challenge_title_7",
+    "description": "localised_strings.challenge_desc_027_generic_party",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.fp16_showcase_title"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "play_party_showcase_fp16"
   },
   {
     "id": "play_race_round_hw_slime_climb_2",
@@ -9557,6 +9695,23 @@
     ],
     "challenge_tags": [],
     "player_action_id": "play_show_wok5"
+  },
+  {
+    "id": "play_showcase_fp16",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "title": "localised_strings.le_fp16_winter_challenge_title_1",
+    "description": "localised_strings.challenge_desc_027_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.fp16_showcase_title"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "play_showcase_fp16"
   },
   {
     "id": "play_solos_anchovy",
@@ -19055,6 +19210,23 @@
     ],
     "challenge_tags": [],
     "player_action_id": "win_finals_marathon"
+  },
+  {
+    "id": "win_fp16_showcase_1",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "title": "localised_strings.le_fp16_winter_challenge_title_8",
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.fp16_showcase_title"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "win_fp16_showcase"
   },
   {
     "id": "win_hexathon",
