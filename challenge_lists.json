@@ -2347,6 +2347,25 @@
     ]
   },
   {
+    "id": "fp16_winter_master_challenges",
+    "challenge_pool_ids": [
+      "fp16_winter_master_challenges"
+    ],
+    "challenge_list_ui_id": "challenge_list_ui.fp16_winter_master_challenges",
+    "refresh_interval_config": {
+      "type": "indefinite"
+    },
+    "rarity_distribution": [
+      {
+        "required_number": 5,
+        "cooldown_interval_config": {
+          "type": "none"
+        },
+        "rarity": "special"
+      }
+    ]
+  },
+  {
     "id": "hourly_challenges",
     "challenge_pool_ids": [
       "easy_pool"
@@ -2650,6 +2669,39 @@
     "id": "roll_call_ltm_challenges",
     "challenge_pool_ids": [
       "roll_call_challenges_pool"
+    ],
+    "challenge_list_ui_id": "challenge_list_ui.event_roll_call",
+    "refresh_interval_config": {
+      "type": "indefinite"
+    },
+    "rarity_distribution": [
+      {
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        },
+        "rarity": "common"
+      },
+      {
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        },
+        "rarity": "uncommon"
+      },
+      {
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        },
+        "rarity": "rare"
+      }
+    ]
+  },
+  {
+    "id": "roll_call_ltm_challenges_win",
+    "challenge_pool_ids": [
+      "win_roll_call_challenges_pool"
     ],
     "challenge_list_ui_id": "challenge_list_ui.event_roll_call",
     "refresh_interval_config": {

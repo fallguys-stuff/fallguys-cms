@@ -743,18 +743,28 @@
   {
     "id": "fp16_winter_event",
     "starts_at": "2024-12-17T11:00:00",
-    "ends_at": "2525-01-07T09:00:00",
+    "ends_at": "2025-01-07T09:00:00",
     "priority": 96,
     "pages": [
       {
         "header": "localised_strings.newsfeed_title_available_now",
         "title": "localised_strings.newsfeed_le_fp16_winter_title",
         "message": "localised_strings.newsfeed_le_fp16_winter_desc",
+        "ends_at": "localised_strings.newsfeed_date",
         "deeplink_data": {
           "deeplink_type": "live_event"
         },
+        "ends_at_description": [
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.newsfeed_sixth"
+          },
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.month_january"
+          }
+        ],
         "starts_at_description": [],
-        "ends_at_description": [],
         "image": "bg_newsfeed_newsfeed_fg_winter"
       }
     ],

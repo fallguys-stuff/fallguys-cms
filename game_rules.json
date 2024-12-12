@@ -16516,7 +16516,7 @@
     "max_participants": 20,
     "min_participants_private_lobby": 2,
     "max_participants_private_lobby": 20,
-    "qualification_percentage": 25,
+    "qualification_percentage": 1,
     "squads_qualification_percentage": 70,
     "has_timer": true,
     "duration": 300,
@@ -16527,6 +16527,7 @@
     "overtime_mode": "none",
     "team_mode": "solo",
     "score_display_mode": "none",
+    "use_creator_score_target": true,
     "start_game_message_wait_time": 1,
     "start_game_message": {
       "title": "localised_strings.timeattack_popup_help_title",
@@ -16535,10 +16536,9 @@
     "start_game_message_trigger": "intro",
     "start_game_message_format": "popup",
     "objective_text": "localised_strings.level_objective_timeattack_final_round_mw",
+    "body_blocking_disabled": true,
     "tom_round_rules": "tom_round_rules.default",
     "tom_bt_parameters": "bt_parameters.bt_drumtop",
-    "is_piggyback_enabled": true,
-    "use_creator_score_target": true,
     "should_hide_opposing_team_name_tags": []
   },
   {
@@ -22186,10 +22186,10 @@
     "max_participants": 20,
     "min_participants_private_lobby": 2,
     "max_participants_private_lobby": 20,
-    "qualification_percentage": 25,
+    "qualification_percentage": 1,
     "squads_qualification_percentage": 70,
     "has_timer": true,
-    "duration": 300,
+    "duration": 180,
     "timer_visibility_threshold": 20000,
     "time_left_red_alert_threshold": 10,
     "game_manager_spawn_type": "time_attack",
@@ -22197,6 +22197,8 @@
     "overtime_mode": "none",
     "team_mode": "solo",
     "score_display_mode": "none",
+    "use_creator_score_target": true,
+    "start_game_message_wait_time": 1,
     "start_game_message": {
       "title": "localised_strings.timeattack_popup_help_title",
       "body": "localised_strings.timeattack_popup_help_message"
@@ -22208,10 +22210,9 @@
     "should_hide_opposing_team_name_tags": [
       null
     ],
-    "tom_round_rules": "tom_round_rules.up_to_40_toms",
-    "tom_bt_parameters": "bt_parameters.bt_gauntlet_02",
-    "is_piggyback_enabled": true,
-    "use_creator_score_target": true
+    "body_blocking_disabled": true,
+    "tom_round_rules": "tom_round_rules.default",
+    "tom_bt_parameters": "bt_parameters.bt_gauntlet_02"
   },
   {
     "id": "round_gauntlet_02_toms",
@@ -23834,10 +23835,10 @@
     "max_participants": 20,
     "min_participants_private_lobby": 1,
     "max_participants_private_lobby": 40,
-    "qualification_percentage": 25,
+    "qualification_percentage": 1,
     "squads_qualification_percentage": 70,
     "has_timer": true,
-    "duration": 300,
+    "duration": 180,
     "timer_visibility_threshold": 20000,
     "time_left_red_alert_threshold": 10,
     "game_manager_spawn_type": "time_attack",
@@ -23845,6 +23846,7 @@
     "overtime_mode": "none",
     "team_mode": "solo",
     "score_display_mode": "none",
+    "use_creator_score_target": true,
     "start_game_message_wait_time": 1,
     "start_game_message": {
       "title": "localised_strings.timeattack_popup_help_title",
@@ -23853,11 +23855,10 @@
     "start_game_message_trigger": "intro",
     "start_game_message_format": "popup",
     "objective_text": "localised_strings.level_objective_timeattack_final_round_mw",
-    "should_hide_opposing_team_name_tags": [],
-    "tom_round_rules": "tom_round_rules.up_to_40_toms",
+    "body_blocking_disabled": true,
+    "tom_round_rules": "tom_round_rules.default",
     "tom_bt_parameters": "bt_parameters.bt_gauntlet_05",
-    "is_piggyback_enabled": true,
-    "use_creator_score_target": true
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "round_gauntlet_05_xtreme_explore",
@@ -24397,6 +24398,38 @@
     "use_creator_score_target": true
   },
   {
+    "id": "round_gauntlet_06_timeattack_final",
+    "is_final_round": true,
+    "min_participants": 10,
+    "max_participants": 20,
+    "min_participants_private_lobby": 2,
+    "max_participants_private_lobby": 20,
+    "qualification_percentage": 1,
+    "squads_qualification_percentage": 70,
+    "has_timer": true,
+    "duration": 300,
+    "timer_visibility_threshold": 20000,
+    "time_left_red_alert_threshold": 10,
+    "game_manager_spawn_type": "time_attack",
+    "round_end_condition": "success_quota",
+    "overtime_mode": "none",
+    "team_mode": "solo",
+    "score_display_mode": "none",
+    "use_creator_score_target": true,
+    "start_game_message_wait_time": 1,
+    "start_game_message": {
+      "title": "localised_strings.timeattack_popup_help_title",
+      "body": "localised_strings.timeattack_popup_help_message"
+    },
+    "start_game_message_trigger": "intro",
+    "start_game_message_format": "popup",
+    "objective_text": "localised_strings.level_objective_timeattack_final_round_mw",
+    "body_blocking_disabled": true,
+    "tom_round_rules": "tom_round_rules.default",
+    "tom_bt_parameters": "bt_parameters.bt_gauntlet_10",
+    "should_hide_opposing_team_name_tags": []
+  },
+  {
     "id": "round_gauntlet_06_xtreme_explore",
     "is_final_round": true,
     "min_participants": 2,
@@ -24896,7 +24929,7 @@
     "max_participants": 20,
     "min_participants_private_lobby": 2,
     "max_participants_private_lobby": 20,
-    "qualification_percentage": 25,
+    "qualification_percentage": 1,
     "squads_qualification_percentage": 70,
     "has_timer": true,
     "duration": 300,
@@ -24907,6 +24940,8 @@
     "overtime_mode": "none",
     "team_mode": "solo",
     "score_display_mode": "none",
+    "use_creator_score_target": true,
+    "start_game_message_wait_time": 1,
     "start_game_message": {
       "title": "localised_strings.timeattack_popup_help_title",
       "body": "localised_strings.timeattack_popup_help_message"
@@ -24914,11 +24949,10 @@
     "start_game_message_trigger": "intro",
     "start_game_message_format": "popup",
     "objective_text": "localised_strings.level_objective_timeattack_final_round_mw",
-    "should_hide_opposing_team_name_tags": [],
-    "tom_round_rules": "tom_round_rules.up_to_40_toms",
+    "body_blocking_disabled": true,
+    "tom_round_rules": "tom_round_rules.default",
     "tom_bt_parameters": "bt_parameters.bt_gauntlet_07",
-    "is_piggyback_enabled": true,
-    "use_creator_score_target": true
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "round_gauntlet_07_toms",
@@ -25668,7 +25702,7 @@
     "max_participants": 20,
     "min_participants_private_lobby": 2,
     "max_participants_private_lobby": 20,
-    "qualification_percentage": 25,
+    "qualification_percentage": 1,
     "squads_qualification_percentage": 70,
     "has_timer": true,
     "duration": 300,
@@ -25679,6 +25713,8 @@
     "overtime_mode": "none",
     "team_mode": "solo",
     "score_display_mode": "none",
+    "use_creator_score_target": true,
+    "start_game_message_wait_time": 1,
     "start_game_message": {
       "title": "localised_strings.timeattack_popup_help_title",
       "body": "localised_strings.timeattack_popup_help_message"
@@ -25686,11 +25722,10 @@
     "start_game_message_trigger": "intro",
     "start_game_message_format": "popup",
     "objective_text": "localised_strings.level_objective_timeattack_final_round_mw",
-    "should_hide_opposing_team_name_tags": [],
-    "tom_round_rules": "tom_round_rules.up_to_40_toms",
+    "body_blocking_disabled": true,
+    "tom_round_rules": "tom_round_rules.default",
     "tom_bt_parameters": "bt_parameters.bt_gauntlet_09",
-    "is_piggyback_enabled": true,
-    "use_creator_score_target": true
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "round_gauntlet_10",
@@ -26018,6 +26053,38 @@
     "tom_round_rules": "tom_round_rules.default",
     "is_piggyback_enabled": true,
     "use_creator_score_target": true
+  },
+  {
+    "id": "round_gauntlet_10_timeattack_final",
+    "is_final_round": true,
+    "min_participants": 10,
+    "max_participants": 20,
+    "min_participants_private_lobby": 2,
+    "max_participants_private_lobby": 20,
+    "qualification_percentage": 1,
+    "squads_qualification_percentage": 70,
+    "has_timer": true,
+    "duration": 300,
+    "timer_visibility_threshold": 20000,
+    "time_left_red_alert_threshold": 10,
+    "game_manager_spawn_type": "time_attack",
+    "round_end_condition": "success_quota",
+    "overtime_mode": "none",
+    "team_mode": "solo",
+    "score_display_mode": "none",
+    "use_creator_score_target": true,
+    "start_game_message_wait_time": 1,
+    "start_game_message": {
+      "title": "localised_strings.timeattack_popup_help_title",
+      "body": "localised_strings.timeattack_popup_help_message"
+    },
+    "start_game_message_trigger": "intro",
+    "start_game_message_format": "popup",
+    "objective_text": "localised_strings.level_objective_timeattack_final_round_mw",
+    "body_blocking_disabled": true,
+    "tom_round_rules": "tom_round_rules.default",
+    "tom_bt_parameters": "bt_parameters.bt_gauntlet_10",
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "round_gauntlet_s9_crayfish",
