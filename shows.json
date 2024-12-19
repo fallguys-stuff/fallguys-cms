@@ -3656,6 +3656,38 @@
     "episode_reward_settings_id": "knockout_squads"
   },
   {
+    "id": "event_day_at_the_races_ltm",
+    "show_name": "localised_strings.show_name_only_races",
+    "show_description": "localised_strings.show_desc_only_races",
+    "show_locked_message": "localised_strings.show_inactive_rounds_played",
+    "show_image": "RaceLevels",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "can_play_again": true,
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 28,
+      "max_players": 32
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 28,
+      "max_players": 32
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.episode_day_at_the_races_ltm",
+    "opens_at": "2020-01-01T09:00:00",
+    "closes_at": "2050-01-01T09:00:00",
+    "top_tags": [],
+    "show_tag": "show_tag_time_attack",
+    "show_image_cms": "show_selector_show_racelevels",
+    "episode_reward_settings_id": "knockout_mode_rewards"
+  },
+  {
     "id": "event_end_of_season_s1",
     "show_name": "localised_strings.show_title_s5_end_of_season_1",
     "show_description": "localised_strings.show_desc_s5_end_of_season_1",
@@ -9021,6 +9053,38 @@
     "show_tag": "show_tag_ugc",
     "show_image_cms": "ui_show_big_explorepoints_highres",
     "episode_reward_settings_id": "explore_mode_rewards_all"
+  },
+  {
+    "id": "fp16_ski_fall_high_scorers",
+    "show_name": "localised_strings.show_title_ski_fall_high_scorers",
+    "show_description": "localised_strings.show_desc_ski_fall_high_scorers",
+    "show_locked_message": "localised_strings.show_inactive_rounds_played",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "display_while_upcoming": true,
+    "can_play_again": true,
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 20,
+      "max_players": 32
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 10,
+      "max_players": 32
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.episode_fp16_ski_fall_high_scorers",
+    "opens_at": "2020-01-01T09:00:00",
+    "closes_at": "2030-01-01T09:00:00",
+    "top_tags": [],
+    "show_tag": "show_tag_time_attack",
+    "show_image_cms": "show_selector_show_onlyskeefall_timetrial",
+    "episode_reward_settings_id": "skifall_high_scorers_rewards"
   },
   {
     "id": "fraggle_gamemode_gauntlet_template",
