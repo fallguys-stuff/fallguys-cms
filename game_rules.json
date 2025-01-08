@@ -702,16 +702,16 @@
     "overtime_mode": "none",
     "team_mode": "solo",
     "score_display_mode": "none",
+    "use_creator_score_target": true,
     "start_game_message_wait_time": 1,
     "start_game_message": {},
     "start_game_message_trigger": "start",
     "start_game_message_format": "info",
-    "objective_text": "localised_strings.level_objective_gauntlet_01",
+    "objective_text": "localised_strings.level_objective_survival_slime",
     "show_qualification_progress_ui": true,
-    "tom_round_rules": "tom_round_rules.default",
-    "use_creator_score_target": true,
+    "should_hide_opposing_team_name_tags": [],
     "is_piggyback_enabled": true,
-    "should_hide_opposing_team_name_tags": []
+    "tom_round_rules": "tom_round_rules.default"
   },
   {
     "id": "knockout_mode__cloudyteacupsgoldrush_final",
@@ -14221,13 +14221,14 @@
     "overtime_mode": "none",
     "team_mode": "solo",
     "score_display_mode": "none",
+    "use_creator_score_target": true,
     "start_game_message": {},
     "start_game_message_trigger": "start",
     "start_game_message_format": "info",
+    "objective_text": "localised_strings.level_objective_squads_race",
     "should_hide_opposing_team_name_tags": [],
-    "tom_round_rules": "tom_round_rules.default",
     "is_piggyback_enabled": true,
-    "use_creator_score_target": true
+    "tom_round_rules": "tom_round_rules.default"
   },
   {
     "id": "round_gauntlet_07_event_elimination",
@@ -14442,6 +14443,7 @@
     "start_game_message": {},
     "start_game_message_trigger": "start",
     "start_game_message_format": "info",
+    "objective_text": "localised_strings.level_objective_squads_race",
     "should_hide_opposing_team_name_tags": [],
     "is_piggyback_enabled": true,
     "tom_round_rules": "tom_round_rules.default"
@@ -19987,6 +19989,7 @@
     "start_game_message_trigger": "start",
     "start_game_message_format": "info",
     "objective_text": "localised_strings.level_objective_king_of_the_hill",
+    "score_context_text": "localised_strings.level_score_context_king_of_the_hill",
     "overtime_text": "localised_strings.overtime",
     "show_qualification_progress_ui": true,
     "should_hide_opposing_team_name_tags": [],
@@ -29269,6 +29272,7 @@
     "start_game_message_trigger": "start",
     "start_game_message_format": "info",
     "objective_text": "localised_strings.level_objective_tiptoefinal",
+    "objective_hint_text": "localised_strings.level_hint_crown_maze",
     "should_hide_opposing_team_name_tags": [],
     "is_piggyback_enabled": true,
     "tom_round_rules": "tom_round_rules.default"
@@ -29312,14 +29316,15 @@
     "team_count": 4,
     "require_same_team_sizes": true,
     "score_display_mode": "none",
+    "use_creator_score_target": true,
     "start_game_message": {},
     "start_game_message_trigger": "start",
     "start_game_message_format": "info",
     "objective_text": "localised_strings.level_objective_tiptoefinal",
-    "tom_round_rules": "tom_round_rules.default",
+    "objective_hint_text": "localised_strings.level_hint_crown_maze",
+    "should_hide_opposing_team_name_tags": [],
     "is_piggyback_enabled": true,
-    "use_creator_score_target": true,
-    "should_hide_opposing_team_name_tags": []
+    "tom_round_rules": "tom_round_rules.default"
   },
   {
     "id": "round_tiptoefinale_duos_teamgames",
