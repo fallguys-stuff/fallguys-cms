@@ -5165,6 +5165,10 @@
   },
   {
     "id": "roundpool_event_elimination_gauntlets_squad_s10",
+    "config": {
+      "type": "legacy"
+    },
+    "discovery_queries": [],
     "stages": [
       {
         "round": "levels_round.round_gauntlet_03_event_elimination_squads",
@@ -5281,12 +5285,13 @@
           2
         ],
         "can_only_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_see_saw_event_elimination_squads",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
       }
-    ],
-    "config": {
-      "type": "legacy"
-    },
-    "discovery_queries": []
+    ]
   },
   {
     "id": "roundpool_event_end_of_season_s2",
@@ -17662,6 +17667,23 @@
         "cannot_be_on_these_stages": []
       }
     ],
+    "discovery_queries": []
+  },
+  {
+    "id": "spotlight_090125",
+    "stages": [],
+    "config": {
+      "type": "collection_driven",
+      "level_collections": [
+        {
+          "weight": 100,
+          "level_collection_id": "spotlight_090125"
+        }
+      ],
+      "fallback_level_collection": {
+        "level_collection_id": "spotlight_090125"
+      }
+    },
     "discovery_queries": []
   },
   {
