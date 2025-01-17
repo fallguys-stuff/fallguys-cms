@@ -3607,7 +3607,7 @@
       "type": "prime",
       "prime_level": "fallguy_1v1_buttonbasher"
     },
-    "game_rules": "game_rules.round_1v1_button_basher_event_only",
+    "game_rules": "game_rules.round_1v1_button_basher_event_only_01",
     "round_description": "localised_strings.level_loading_1v1_buttonbasher",
     "round_info": "localised_strings.level_info_1v1_buttonbasher",
     "preparation_music_soundbank": "BNK_Music_GP",
@@ -3648,7 +3648,7 @@
       "type": "prime",
       "prime_level": "fallguy_1v1_buttonbasher"
     },
-    "game_rules": "game_rules.round_1v1_button_basher_event_only",
+    "game_rules": "game_rules.round_1v1_button_basher_event_only_02",
     "round_description": "localised_strings.level_loading_1v1_buttonbasher",
     "round_info": "localised_strings.level_info_1v1_buttonbasher",
     "preparation_music_soundbank": "BNK_Music_GP",
@@ -3689,7 +3689,48 @@
       "type": "prime",
       "prime_level": "fallguy_1v1_buttonbasher"
     },
-    "game_rules": "game_rules.round_1v1_button_basher_event_only",
+    "game_rules": "game_rules.round_1v1_button_basher_event_only_03",
+    "round_description": "localised_strings.level_loading_1v1_buttonbasher",
+    "round_info": "localised_strings.level_info_1v1_buttonbasher",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase",
+    "ingame_music_soundbank": "BNK_Music_Falling_Stars",
+    "ingame_music_event": "MUS_InGame_Falling_Stars",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_Buttonbashers",
+    "level_badge_name": "ButtonBashers",
+    "level_variation": "levels_variation.variation_1v1_button_basher",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_arena",
+      "level_tags.season_04",
+      "level_tags.saftey_nonstarter",
+      "level_tags.featured_round"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 12,
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "badge": "gold"
+      }
+    },
+    "visualiser_estimate_percentage_qualification": 50,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_hunt",
+    "fall_feed": "fall_feed_score"
+  },
+  {
+    "id": "round_1v1_button_basher_event_only_fallback",
+    "display_name": "localised_strings.level_name_1v1_buttonbasher",
+    "scene_type": {
+      "type": "prime",
+      "prime_level": "fallguy_1v1_buttonbasher"
+    },
+    "game_rules": "game_rules.round_1v1_button_basher_event_only_fallback",
     "round_description": "localised_strings.level_loading_1v1_buttonbasher",
     "round_info": "localised_strings.level_info_1v1_buttonbasher",
     "preparation_music_soundbank": "BNK_Music_GP",
