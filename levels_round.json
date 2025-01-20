@@ -36250,6 +36250,62 @@
     "fall_feed": "fall_feed_race"
   },
   {
+    "id": "round_gauntlet_06__timeattack_final",
+    "display_name": "localised_strings.level_name_skyline_stumble",
+    "scene_type": {
+      "type": "prime",
+      "prime_level": "fallguy_gauntlet_06"
+    },
+    "game_rules": "game_rules.round_gauntlet_06_timeattack_final",
+    "round_description": "localised_strings.level_loading_timeattack_how_to_play_finalround_mw",
+    "round_info": "localised_strings.level_start_game_timeattack_final_round_message_mw",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase",
+    "ingame_music_soundbank": "BNK_Music_Falling_Stars",
+    "ingame_music_event": "MUS_InGame_Falling_Stars",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_SkylineStumble",
+    "level_badge_name": "TimeAttack",
+    "level_variation": "levels_variation.variation_gauntlet_06",
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.badge_text_timeattack_gold",
+          "medal_description_value": 1,
+          "badge": "gold"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20,
+          "badge": "silver"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50,
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "tags": [],
+    "level_archetype": "archetype_timeattack",
+    "fall_feed": "fall_feed_race"
+  },
+  {
     "id": "round_gauntlet_06_anniversary",
     "display_name": "localised_strings.level_name_skyline_stumble",
     "scene_type": {
@@ -66518,6 +66574,62 @@
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
     "level_archetype": "archetype_race",
+    "fall_feed": "fall_feed_race"
+  },
+  {
+    "id": "round_slide_chute_timeattack_final",
+    "display_name": "localised_strings.level_name_slide_chute",
+    "scene_type": {
+      "type": "prime",
+      "prime_level": "fallguy_slidechute"
+    },
+    "game_rules": "game_rules.round_slide_chute_timeattack_final",
+    "round_description": "localised_strings.level_loading_slide_chute",
+    "round_info": "localised_strings.level_info_slide_chute",
+    "preparation_music_soundbank": "BNK_Music_PreparationPhase_Season_09",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Season_09",
+    "ingame_music_soundbank": "BNK_Music_Market_Deal",
+    "ingame_music_event": "MUS_InGame_Market_Deal",
+    "main_ambience_state": "silent",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_SpeedSlider",
+    "level_badge_name": "TimeAttack",
+    "level_variation": "levels_variation.variation_slide_chute",
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.badge_text_timeattack_gold",
+          "medal_description_value": 1,
+          "badge": "gold"
+        },
+        {
+          "position_percentage": 10,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 10,
+          "badge": "silver"
+        },
+        {
+          "position_percentage": 15,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_position_03",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 15,
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "tags": [],
+    "level_archetype": "archetype_timeattack",
     "fall_feed": "fall_feed_race"
   },
   {
