@@ -6546,9 +6546,32 @@
     "id": "qualify_round_in_a_party",
     "config": {
       "metric_id": "round_reached",
-      "dimensions": [],
-      "round_qualified": "true",
-      "is_in_party": "true"
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "round_qualified",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "is_in_party",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "party_size",
+          "operator": "more_or_equal",
+          "integer_value": 2,
+          "dimension_type": "integer_dimension"
+        }
+      ]
     }
   },
   {
