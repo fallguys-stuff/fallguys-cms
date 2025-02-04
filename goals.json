@@ -7608,6 +7608,82 @@
     "player_action_id": "piggyback_showcase_fp16"
   },
   {
+    "id": "play_1_round_duos",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "title": "localised_strings.event_fp17_valentines_01",
+    "description": "localised_strings.challenge_desc_027_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "play_round_duos"
+  },
+  {
+    "id": "play_1_round_fp17_showcase",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "title": "localised_strings.event_fp17_valentines_01",
+    "description": "localised_strings.challenge_desc_027_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.fp17_showcase_title"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "play_round_fp17_showcase"
+  },
+  {
+    "id": "play_3_round_fp17_showcase",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "title": "localised_strings.event_fp17_valentines_02",
+    "description": "localised_strings.challenge_desc_027_rounds_number",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.fp17_showcase_title"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "play_round_fp17_showcase"
+  },
+  {
+    "id": "play_4_round_duos",
+    "target": {
+      "type": "aggregate",
+      "value": 4
+    },
+    "title": "localised_strings.event_fp17_valentines_02",
+    "description": "localised_strings.challenge_desc_027_rounds_number",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 4
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "play_round_duos"
+  },
+  {
     "id": "play_5_race_rounds_le_stars_01",
     "target": {
       "type": "aggregate",
@@ -9640,6 +9716,27 @@
     "player_action_id": "player_emotes_hilaria"
   },
   {
+    "id": "player_emotes_duos",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "title": "localised_strings.event_fp17_valentines_01",
+    "description": "localised_strings.challenge_desc_010_simple",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "player_emotes_duos"
+  },
+  {
     "id": "player_enters_wormhole_hider_pistachio_30",
     "target": {
       "type": "aggregate",
@@ -10004,6 +10101,35 @@
     "player_action_id": "player_hugged"
   },
   {
+    "id": "player_hugged_fp17_showcase",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "title": "localised_strings.event_fp17_valentines_01",
+    "description": "localised_strings.challenge_desc_le_valentines_001_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.fp17_showcase_title"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "player_hugged_fp17_showcase"
+  },
+  {
+    "id": "player_hugged_party",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "title": "localised_strings.event_fp17_valentines_03",
+    "description": "localised_strings.challenge_desc_hug_party",
+    "description_parameters": [],
+    "challenge_tags": [],
+    "player_action_id": "player_hugged_party"
+  },
+  {
     "id": "player_jinxed_10",
     "target": {
       "type": "aggregate",
@@ -10162,6 +10288,27 @@
     ],
     "challenge_tags": [],
     "player_action_id": "player_jumped"
+  },
+  {
+    "id": "player_jumped_fp17_showcase",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "title": "localised_strings.event_fp17_valentines_01",
+    "description": "localised_strings.challenge_desc_016_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 5
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.fp17_showcase_title"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "player_jumped_fp17_showcase"
   },
   {
     "id": "player_jumped_hilaria",
@@ -10815,6 +10962,27 @@
     ],
     "challenge_tags": [],
     "player_action_id": "qualify_from_a_survival_round_stars02"
+  },
+  {
+    "id": "qualify_5_rounds_in_a_party",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_004_rounds_party",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "numeric",
+        "numeric_value": 5
+      }
+    ],
+    "title": "localised_strings.event_fp17_valentines_03",
+    "challenge_tags": [],
+    "player_action_id": "qualify_round_in_a_party"
   },
   {
     "id": "qualify_60s_victoria",
@@ -15334,6 +15502,48 @@
     "player_action_id": "top_speed_clan_of_yeetus"
   },
   {
+    "id": "use_emoticons_fp17_showcase",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "title": "localised_strings.event_fp17_valentines_02",
+    "description": "localised_strings.challenge_desc_emoticon_any",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 5
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.fp17_showcase_title"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "use_emoticons_fp17_showcase"
+  },
+  {
+    "id": "use_phrases_duos",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "title": "localised_strings.event_fp17_valentines_02",
+    "description": "localised_strings.challenge_desc_phrase_any",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 5
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "use_phrases_duos"
+  },
+  {
     "id": "use_solo_victoria",
     "target": {
       "type": "aggregate",
@@ -18693,6 +18903,27 @@
     "player_action_id": "win_fp16_showcase"
   },
   {
+    "id": "win_fp17_showcase_or_duos",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "title": "localised_strings.event_fp17_valentines_03",
+    "description": "localised_strings.challenge_desc_44_win",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.fp17_showcase_title"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "win_fp17_showcase_or_duos"
+  },
+  {
     "id": "win_hexathon",
     "target": {
       "type": "aggregate",
@@ -18917,6 +19148,38 @@
     "target": {
       "type": "aggregate",
       "value": 2
+    },
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_knockout"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "win_knockout"
+  },
+  {
+    "id": "win_knockout_3",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_knockout"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "win_knockout"
+  },
+  {
+    "id": "win_knockout_5",
+    "target": {
+      "type": "aggregate",
+      "value": 5
     },
     "description": "localised_strings.challenge_desc_015_singular",
     "description_parameters": [

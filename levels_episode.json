@@ -1184,6 +1184,15 @@
     "mode": "knockout"
   },
   {
+    "id": "episode_just_gauntlet_4_timeattack_final",
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_gauntlet_4_timeattack_final",
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_gauntlet_4_timeattack_final",
+    "bucket_override_roundpools": [],
+    "mode": "knockout"
+  },
+  {
     "id": "episode_just_invisibeans",
     "director": "levels_director.director_simple",
     "roundpool": "levels_roundpool.roundpool_just_invisibeans",
@@ -1243,8 +1252,8 @@
   },
   {
     "id": "episode_knockout_mode",
-    "director": "levels_director.director_knockout_fp16",
-    "roundpool": "levels_roundpool.knockout_fp16_roundpool",
+    "director": "levels_director.director_knockout_fp17",
+    "roundpool": "levels_roundpool.knockout_fp17_roundpool",
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.knockout_fp10_final_1",
     "bucket_override_roundpools": [],
@@ -1801,9 +1810,18 @@
     "mode": "knockout"
   },
   {
+    "id": "showcase_fp17",
+    "director": "levels_director.director_no_weightings",
+    "roundpool": "levels_roundpool.showcase_fp17",
+    "debug_player_count_multiplier": 7,
+    "fallback_round": "levels_round.round_fp17_castlesiege",
+    "bucket_override_roundpools": [],
+    "mode": "knockout"
+  },
+  {
     "id": "spotlight_mode_episode",
     "director": "levels_director.director_no_weightings",
-    "roundpool": "levels_roundpool.spotlight_210125",
+    "roundpool": "levels_roundpool.spotlight_040225",
     "debug_player_count_multiplier": 1,
     "fallback_round": "levels_round.round_gauntlet_01_40",
     "allow_toms": true,

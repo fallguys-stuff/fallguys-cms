@@ -246,6 +246,18 @@
     "target_ids": []
   },
   {
+    "id": "character_ragdoll_rolling_recover_after_seconds",
+    "value": 1,
+    "platforms_whitelist": [],
+    "target_ids": []
+  },
+  {
+    "id": "character_ragdoll_rolling_recover_enabled",
+    "value": true,
+    "platforms_whitelist": [],
+    "target_ids": []
+  },
+  {
     "id": "cheat_ignore_ftue_enabled_default",
     "value": true,
     "target_ids": [
@@ -327,7 +339,7 @@
     "id": "crown_rank_display_in_game_enabled",
     "value": true,
     "target_ids": [
-      "disabled_year_1900"
+      "after_prime_global_launch"
     ],
     "platforms_whitelist": []
   },
@@ -335,7 +347,7 @@
     "id": "crown_rank_display_name_tag_enabled",
     "value": true,
     "target_ids": [
-      "disabled_year_1900"
+      "after_prime_global_launch"
     ],
     "platforms_whitelist": []
   },
@@ -690,6 +702,14 @@
     "platforms_whitelist": []
   },
   {
+    "id": "golden_font_after_fame_pass_end_enabled",
+    "value": true,
+    "target_ids": [
+      "disabled_year_1900"
+    ],
+    "platforms_whitelist": []
+  },
+  {
     "id": "grab_prompt_enabled",
     "value": true,
     "target_ids": [
@@ -1036,12 +1056,6 @@
   {
     "id": "party_codes_are_enabled",
     "value": false,
-    "platforms_whitelist": [],
-    "target_ids": []
-  },
-  {
-    "id": "per_platform_texture_settings_json",
-    "value": "{\"switch\":{\"TextureCompressionQuality\":\"Low\"}}",
     "platforms_whitelist": [],
     "target_ids": []
   },
