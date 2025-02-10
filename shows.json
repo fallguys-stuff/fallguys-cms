@@ -5411,6 +5411,39 @@
     "episode_reward_settings_id": "solos"
   },
   {
+    "id": "event_snowday_stumble",
+    "show_name": "localised_strings.show_name_season_3",
+    "show_description": "localised_strings.show_desc_season_3",
+    "show_locked_message": "localised_strings.inactive_show_knockout",
+    "show_image": "Season3Highlight",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "display_while_upcoming": true,
+    "can_play_again": true,
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 30,
+      "max_players": 32
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 10,
+      "max_players": 32
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.episode_season_03",
+    "opens_at": "2020-01-01T09:00:00",
+    "closes_at": "2030-01-01T09:00:00",
+    "top_tags": [],
+    "show_tag": "show_tag_time_attack",
+    "show_image_cms": "show_selector_show_season3",
+    "episode_reward_settings_id": "knockout_mode_rewards"
+  },
+  {
     "id": "event_sports_suddendeath_squads",
     "show_name": "localised_strings.show_name_sports_suddendeath_squads",
     "show_description": "localised_strings.show_desc_sports_suddendeath_squads",

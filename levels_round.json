@@ -12383,6 +12383,60 @@
     "fall_feed": "fall_feed_disconnect"
   },
   {
+    "id": "round_chicken_chase_sds",
+    "display_name": "localised_strings.level_name_penguin_pursuit",
+    "scene_type": {
+      "type": "prime",
+      "prime_level": "fallguy_chickenchase_01"
+    },
+    "game_rules": "game_rules.round_chicken_chase_sds",
+    "round_description": "localised_strings.level_loading_penguin_pursuit",
+    "round_info": "localised_strings.level_info_penguin_pursuit",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase",
+    "ingame_music_soundbank": "BNK_Music_Chimney_Bean_Bebop",
+    "ingame_music_event": "MUS_InGame_Chimney_Bean_Bebop",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
+    "extra_ambience_event": "AMB_Season_03_Snow",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_PenguinPursuit",
+    "level_badge_name": "PenguinPersuit",
+    "level_variation": "levels_variation.variation_chicken_chase",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_late_stage_team_round",
+      "level_tags.saftey_nonstarter",
+      "level_tags.season_03",
+      "level_tags.level_chickenchase_boost",
+      "level_tags.3_teams"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "badge": "gold"
+        },
+        {
+          "team_position": 2,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_position_02",
+          "badge": "silver"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_team",
+    "fall_feed": "fall_feed_disconnect"
+  },
+  {
     "id": "round_chicken_chase_season_3_variation_01",
     "display_name": "localised_strings.level_name_penguin_pursuit",
     "scene_type": {
@@ -14142,6 +14196,45 @@
     "fall_feed": "fall_feed_survival_race"
   },
   {
+    "id": "round_cloudyteacups_final_sds",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "fp16_cloudyteacups"
+    },
+    "game_rules": "game_rules.round_cloudyteacups_final_sds",
+    "round_description": "localised_strings.level_objective_survival_slime",
+    "round_info": "localised_strings.wle_mode_info_4",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Critic_Carrot",
+    "ingame_music_event": "MUS_InGame_Critic_Carrot",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 12,
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": "localised_strings.medal_context_victory",
+        "badge": "gold"
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "tags": [
+      "level_tags.fp16_cloudyteacup",
+      "level_tags.survival_round"
+    ],
+    "level_archetype": "archetype_final",
+    "fall_feed": "fall_feed_survival"
+  },
+  {
     "id": "round_conveyor_arena",
     "display_name": "localised_strings.level_name_team_tail_tag",
     "scene_type": {
@@ -15621,6 +15714,65 @@
     "visualiser_estimate_weighting": 1,
     "level_archetype": "archetype_final",
     "fall_feed": "fall_feed_disconnect"
+  },
+  {
+    "id": "round_crumblecave_sds",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "fp16_crumblecave"
+    },
+    "game_rules": "game_rules.round_crumblecave_sds",
+    "round_description": "localised_strings.wle_race_objective",
+    "round_info": "localised_strings.wle_race_info",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Grand_Festifall",
+    "ingame_music_event": "MUS_InGame_Grand_Festifall",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.race_round",
+      "level_tags.fp16_crumblecave"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1,
+          "badge": "gold"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20,
+          "badge": "silver"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50,
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_race",
+    "fall_feed": "fall_feed_race"
   },
   {
     "id": "round_dodge_fall",
@@ -36943,6 +37095,73 @@
     "fall_feed": "fall_feed_race"
   },
   {
+    "id": "round_gauntlet_05_sds",
+    "display_name": "localised_strings.level_name_tundra_run",
+    "scene_type": {
+      "type": "prime",
+      "prime_level": "fallguy_gauntlet_05"
+    },
+    "game_rules": "game_rules.round_gauntlet_05_sds",
+    "round_description": "localised_strings.level_loading_tundra_run",
+    "round_info": "localised_strings.level_info_tundra_run",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_5s",
+    "ingame_music_soundbank": "BNK_Music_Skis_On_Beans",
+    "ingame_music_event": "MUS_InGame_Skis_On_Beans",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
+    "extra_ambience_event": "AMB_Season_03_Snow",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_TundraRun",
+    "level_badge_name": "TundraRun",
+    "level_variation": "levels_variation.variation_gauntlet_05",
+    "tom_level_variation_supported": true,
+    "tom_level_variation_overrides": "levels_variation_overrides.toms_variation_over_gauntlet_05",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_gauntlet",
+      "level_tags.season_03",
+      "level_tags.race_round",
+      "level_tags.unique_gauntlet_05",
+      "level_tags.aug_event_play_round_in_solo_ltm"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1,
+          "badge": "gold"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20,
+          "badge": "silver"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50,
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_race",
+    "fall_feed": "fall_feed_race"
+  },
+  {
     "id": "round_gauntlet_05_season_3_variation_01",
     "display_name": "localised_strings.level_name_tundra_run",
     "scene_type": {
@@ -43232,6 +43451,44 @@
     "visualiser_estimate_weighting": 1,
     "level_archetype": "archetype_timeattack",
     "fall_feed": "fall_feed_race"
+  },
+  {
+    "id": "round_goopropegrandslam_final_sds",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "fp16_goopropegrandslam"
+    },
+    "game_rules": "game_rules.round_goopropegrandslam_final_sds",
+    "round_description": "localised_strings.level_objective_survival_generic",
+    "round_info": "localised_strings.wle_mode_info_4",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Critic_Carrot",
+    "ingame_music_event": "MUS_InGame_Critic_Carrot",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 12,
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": "localised_strings.medal_context_victory",
+        "badge": "gold"
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "tags": [
+      "level_tags.survival_round"
+    ],
+    "level_archetype": "archetype_final",
+    "fall_feed": "fall_feed_survival"
   },
   {
     "id": "round_hexaring",
@@ -50198,6 +50455,70 @@
     "fall_feed": "fall_feed_race"
   },
   {
+    "id": "round_iceclimb_sds",
+    "display_name": "localised_strings.level_name_ice_climb",
+    "scene_type": {
+      "type": "prime",
+      "prime_level": "fallguy_iceclimb_01"
+    },
+    "game_rules": "game_rules.round_iceclimb_sds",
+    "round_description": "localised_strings.level_loading_ice_climb",
+    "round_info": "localised_strings.level_info_ice_climb",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase",
+    "ingame_music_soundbank": "BNK_Music_Skis_On_Beans",
+    "ingame_music_event": "MUS_InGame_Skis_On_Beans",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
+    "extra_ambience_event": "AMB_Season_03_Snow",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_FreezyPeak",
+    "level_badge_name": "FreezyPeak",
+    "level_variation": "levels_variation.variation_iceclimb",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_gauntlet",
+      "level_tags.season_03",
+      "level_tags.race_round",
+      "level_tags.level_iceclimb"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1,
+          "badge": "gold"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20,
+          "badge": "silver"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50,
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_race",
+    "fall_feed": "fall_feed_race"
+  },
+  {
     "id": "round_iceclimb_squads",
     "display_name": "localised_strings.level_name_ice_climb",
     "scene_type": {
@@ -53635,6 +53956,50 @@
       "level_tags.lowered_final",
       "level_tags.slight_lowering",
       "level_tags.mid_show_final_enabler"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 12,
+        "description": "localised_strings.badge_text_survived",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "badge": "gold"
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_final",
+    "fall_feed": "fall_feed_survival"
+  },
+  {
+    "id": "round_jump_showdown_sds",
+    "display_name": "localised_strings.level_name_jump_showdown",
+    "scene_type": {
+      "type": "prime",
+      "prime_level": "fallguy_jumpshowdown_01"
+    },
+    "game_rules": "game_rules.round_jump_showdown_sds",
+    "round_description": "localised_strings.level_loading_jump_showdown",
+    "round_info": "localised_strings.level_info_jump_showdown",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_5s",
+    "ingame_music_soundbank": "BNK_Music_Final_Fall",
+    "ingame_music_event": "MUS_InGame_Final_Fall",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_JumpShowdown",
+    "level_badge_name": "JumpClubShowdown",
+    "level_variation": "levels_variation.variation_jump_showdown",
+    "tags": [
+      "level_tags.covenant_final",
+      "level_tags.playspace_platform",
+      "level_tags.season_01",
+      "level_tags.exclusive_spoke_jump",
+      "level_tags.unique_jump_showdown",
+      "level_tags.aug_event_play_round_in_solo_ltm",
+      "level_tags.win_knockout_or_solos"
     ],
     "bonus": {
       "type": "qualification",
@@ -66862,6 +67227,74 @@
     "fall_feed": "fall_feed_race"
   },
   {
+    "id": "round_skeefall_sds",
+    "display_name": "localised_strings.level_name_ski_fall",
+    "scene_type": {
+      "type": "prime",
+      "prime_level": "fallguy_skeefall"
+    },
+    "game_rules": "game_rules.round_skeefall_sds",
+    "round_description": "localised_strings.level_loading_ski_fall",
+    "round_info": "localised_strings.level_info_ski_fall",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_5s",
+    "ingame_music_soundbank": "BNK_Music_Skis_On_Beans",
+    "ingame_music_event": "MUS_InGame_Skis_On_Beans",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
+    "extra_ambience_event": "AMB_Season_03_Snow",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_Skifall",
+    "level_badge_name": "Skifall",
+    "level_variation": "levels_variation.variation_skeefall",
+    "tom_level_variation_supported": true,
+    "tom_level_variation_overrides": "levels_variation_overrides.toms_variation_over_skeefall",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_track",
+      "level_tags.season_03",
+      "level_tags.race_round",
+      "level_tags.exclusive_hoops_jumping",
+      "level_tags.unique_skeefall",
+      "level_tags.aug_event_play_round_in_solo_ltm"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1,
+          "badge": "gold"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20,
+          "badge": "silver"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50,
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_hunt",
+    "fall_feed": "fall_feed_race"
+  },
+  {
     "id": "round_skeefall_season_3_variation_01",
     "display_name": "localised_strings.level_name_ski_fall",
     "scene_type": {
@@ -70816,6 +71249,54 @@
     "fall_feed": "fall_feed_survival_race"
   },
   {
+    "id": "round_snowballsurvival_sds",
+    "display_name": "localised_strings.level_name_snowball_survival",
+    "scene_type": {
+      "type": "prime",
+      "prime_level": "fallguy_snowballsurvival"
+    },
+    "game_rules": "game_rules.round_snowballsurvival_sds",
+    "round_description": "localised_strings.level_loading_snowball_survival",
+    "round_info": "localised_strings.level_info_snowballsurvival",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase",
+    "ingame_music_soundbank": "BNK_Music_Chimney_Bean_Bebop",
+    "ingame_music_event": "MUS_InGame_Chimney_Bean_Bebop",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
+    "extra_ambience_event": "AMB_Season_03_Snow",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_SnowballSurvival",
+    "level_badge_name": "SnowballSurvival",
+    "level_variation": "levels_variation.variation_snowballsurvival",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_platform",
+      "level_tags.saftey_nonstarter",
+      "level_tags.saftey_wild_elimination",
+      "level_tags.featured_round",
+      "level_tags.teams_2vs1_penalisation",
+      "level_tags.survival_round",
+      "level_tags.exclusive_wild_elimination",
+      "level_tags.aug_event_play_round_in_solo_ltm"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 12,
+        "description": "localised_strings.badge_text_survived",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "badge": "gold"
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_survival",
+    "fall_feed": "fall_feed_survival"
+  },
+  {
     "id": "round_snowballsurvival_squads",
     "display_name": "localised_strings.level_name_snowball_survival",
     "scene_type": {
@@ -71370,6 +71851,61 @@
       "level_tags.playspace_arena",
       "level_tags.saftey_nonstarter",
       "level_tags.saftey_late_stage_team_round"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_team_position_01",
+          "badge": "gold"
+        },
+        {
+          "team_position": 2,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": "localised_strings.medal_context_team_position_02",
+          "badge": "silver"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_team",
+    "fall_feed": "fall_feed_race_first_only"
+  },
+  {
+    "id": "round_snowy_scrap_sds",
+    "display_name": "localised_strings.level_name_snowy_scrap",
+    "scene_type": {
+      "type": "prime",
+      "prime_level": "fallguy_snowy_scrap"
+    },
+    "game_rules": "game_rules.round_snowy_scrap_sds",
+    "round_description": "localised_strings.level_loading_snowy_scrap",
+    "round_info": "localised_strings.level_info_snowy_scrap",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase",
+    "ingame_music_soundbank": "BNK_Music_Chimney_Bean_Bebop",
+    "ingame_music_event": "MUS_InGame_Chimney_Bean_Bebop",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
+    "extra_ambience_event": "AMB_Season_03_Snow",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_SnowyScrap",
+    "level_badge_name": "SnowyScrap",
+    "level_variation": "levels_variation.variation_snowy_scrap",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.playspace_arena",
+      "level_tags.saftey_nonstarter",
+      "level_tags.season_03",
+      "level_tags.3_teams",
+      "level_tags.teams_2vs1_penalisation"
     ],
     "bonus": {
       "type": "team_position",
@@ -72341,6 +72877,65 @@
     "visualiser_estimate_weighting": 1,
     "level_archetype": "archetype_team",
     "fall_feed": "fall_feed_score_fallball"
+  },
+  {
+    "id": "round_standard_fireworks_sds",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "fp16_standardfireworks"
+    },
+    "game_rules": "game_rules.round_standard_fireworks_sds",
+    "round_description": "localised_strings.wle_race_objective",
+    "round_info": "localised_strings.wle_race_info",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Grand_Festifall",
+    "ingame_music_event": "MUS_InGame_Grand_Festifall",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.race_round",
+      "level_tags.fp16_standardfireworks"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1,
+          "badge": "gold"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20,
+          "badge": "silver"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50,
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_race",
+    "fall_feed": "fall_feed_race"
   },
   {
     "id": "round_starlink",
@@ -75915,6 +76510,49 @@
     "fall_feed": "fall_feed_survival"
   },
   {
+    "id": "round_thin_ice_sds_final",
+    "display_name": "localised_strings.level_name_thin_ice",
+    "scene_type": {
+      "type": "prime",
+      "prime_level": "fallguy_thinice"
+    },
+    "game_rules": "game_rules.round_thin_ice_sds",
+    "round_description": "localised_strings.level_loading_thin_ice",
+    "round_info": "localised_strings.level_info_thin_ice",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_5s",
+    "ingame_music_soundbank": "BNK_Music_Winter_Fallympics",
+    "ingame_music_event": "MUS_InGame_Winter_Fallympics",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_03",
+    "extra_ambience_event": "AMB_Season_03_Snow",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_Thinice",
+    "level_badge_name": "ThinIce",
+    "level_variation": "levels_variation.variation_thin_ice",
+    "tags": [
+      "level_tags.covenant_final",
+      "level_tags.playspace_platform",
+      "level_tags.season_03",
+      "level_tags.exclusive_thin_ice"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 12,
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "badge": "gold"
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_final",
+    "fall_feed": "fall_feed_survival"
+  },
+  {
     "id": "round_thin_ice_season_3_variation_01",
     "display_name": "localised_strings.level_name_thin_ice",
     "scene_type": {
@@ -79040,6 +79678,50 @@
     "fall_feed": "fall_feed_survival"
   },
   {
+    "id": "round_tunnel_final_sds",
+    "display_name": "localised_strings.level_name_roll_off",
+    "scene_type": {
+      "type": "prime",
+      "prime_level": "fallguy_tunnel_final"
+    },
+    "game_rules": "game_rules.round_tunnel_final_sds",
+    "round_description": "localised_strings.level_loading_roll_off",
+    "round_info": "localised_strings.level_info_roll_off",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_5s",
+    "ingame_music_soundbank": "BNK_Music_Final_Fall",
+    "ingame_music_event": "MUS_InGame_Final_Fall",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_RollOff",
+    "level_badge_name": "RolloutFinal",
+    "level_variation": "levels_variation.variation_tunnel_final",
+    "tags": [
+      "level_tags.covenant_final",
+      "level_tags.playspace_platform",
+      "level_tags.season_03",
+      "level_tags.exclusive_roll_out",
+      "level_tags.unique_tunnel_final",
+      "level_tags.aug_event_play_round_in_solo_ltm",
+      "level_tags.win_knockout_or_solos"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 12,
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "badge": "gold"
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_final",
+    "fall_feed": "fall_feed_survival"
+  },
+  {
     "id": "round_tunnel_final_season_3_variation_01",
     "display_name": "localised_strings.level_name_roll_off",
     "scene_type": {
@@ -81700,6 +82382,64 @@
     "visualiser_estimate_weighting": 1,
     "level_archetype": "archetype_race",
     "fall_feed": "fall_feed_race"
+  },
+  {
+    "id": "round_winter_hohoholeymoley_sds",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "fp16_hohoholeymoley"
+    },
+    "game_rules": "game_rules.round_winter_hohoholeymoley_sds",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Winter_Fallympics",
+    "ingame_music_event": "MUS_InGame_Winter_Fallympics",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1,
+          "badge": "gold"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20,
+          "badge": "silver"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50,
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "round_description": "localised_strings.level_info_points_destruction",
+    "round_info": "localised_strings.level_hint_points_destruction",
+    "tags": [
+      "level_tags.hunt_round"
+    ],
+    "level_archetype": "archetype_hunt",
+    "fall_feed": "fall_feed_score"
   },
   {
     "id": "s10_basketfall_squads_squadcelebration_final",
