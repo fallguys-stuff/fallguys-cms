@@ -285,11 +285,6 @@
           "high_prio_send_percent": 100
         },
         {
-          "event_type": "login:complete",
-          "low_prio_send_percent": 100,
-          "high_prio_send_percent": 100
-        },
-        {
           "event_type": "publisherMigration:complete",
           "low_prio_send_percent": 100,
           "high_prio_send_percent": 100
@@ -310,7 +305,7 @@
           "high_prio_send_percent": 100
         },
         {
-          "event_type": "friends:list",
+          "event_type": "friend:list",
           "low_prio_send_percent": 100,
           "high_prio_send_percent": 100
         },
@@ -401,6 +396,16 @@
         },
         {
           "event_type": "app:installAttributed",
+          "low_prio_send_percent": 100,
+          "high_prio_send_percent": 100
+        },
+        {
+          "event_type": "login:complete",
+          "low_prio_send_percent": 100,
+          "high_prio_send_percent": 100
+        },
+        {
+          "event_type": "deviceProperties",
           "low_prio_send_percent": 100,
           "high_prio_send_percent": 100
         }
