@@ -17930,6 +17930,20 @@
     "stages": []
   },
   {
+    "id": "scrapped_circuit",
+    "stages": [
+      {
+        "round": "levels_round.showcase_scrappedcircuit",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      }
+    ],
+    "config": {
+      "type": "legacy"
+    },
+    "discovery_queries": []
+  },
+  {
     "id": "showcase_fp13",
     "config": {
       "type": "legacy"
@@ -18293,6 +18307,23 @@
       }
     },
     "discovery_queries": []
+  },
+  {
+    "id": "spotlight_180225",
+    "config": {
+      "type": "collection_driven",
+      "level_collections": [
+        {
+          "weight": 100,
+          "level_collection_id": "spotlight_180225"
+        }
+      ],
+      "fallback_level_collection": {
+        "level_collection_id": "spotlight_180225"
+      }
+    },
+    "discovery_queries": [],
+    "stages": []
   },
   {
     "id": "spotlight_210125",
@@ -18800,9 +18831,7 @@
       },
       {
         "round": "levels_round.wle_mrs_bouncy_bean_time_final",
-        "can_only_be_on_these_stages": [
-          3
-        ],
+        "can_only_be_on_these_stages": [],
         "cannot_be_on_these_stages": []
       },
       {
@@ -18821,11 +18850,6 @@
         "cannot_be_on_these_stages": []
       },
       {
-        "round": "levels_round.wle_mrs_bouncy_bean_time_filler_03",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      },
-      {
         "round": "levels_round.wle_mrs_bouncy_bean_time_final_02",
         "can_only_be_on_these_stages": [],
         "cannot_be_on_these_stages": []
@@ -18834,12 +18858,22 @@
         "round": "levels_round.wle_mrs_bouncy_bean_time_final_03",
         "can_only_be_on_these_stages": [],
         "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.wle_mrs_bouncy_bean_time_filler_04",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.wle_mrs_bouncy_bean_time_final_04",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
       }
     ],
-    "discovery_queries": [],
     "config": {
       "type": "legacy"
-    }
+    },
+    "discovery_queries": []
   },
   {
     "id": "wle_mrs_survival_showdown",
