@@ -83838,36 +83838,35 @@
     },
     "game_rules": "game_rules.showcase_boxparty_opener",
     "round_description": "localised_strings.wle_boxparty_desc",
+    "round_info": "localised_strings.wle_boxparty_desc",
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
     "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_UGC",
     "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [],
     "bonus": {
-      "type": "position",
-      "position_tiers": [
+      "type": "team_position",
+      "team_position_tiers": [
         {
-          "position_percentage": 1,
+          "team_position": 1,
           "multiplier": 40,
           "description": "localised_strings.badge_text_position_01",
-          "medal_description": "localised_strings.medal_context_place_1st",
-          "medal_description_value": 1,
+          "medal_description": "localised_strings.medal_context_team_position_01",
           "badge": "gold"
         },
         {
-          "position_percentage": 20,
+          "team_position": 2,
           "multiplier": 25,
-          "description": "localised_strings.badge_text_percentage_020",
-          "medal_description": "localised_strings.medal_context_position",
-          "medal_description_value": 20,
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": "localised_strings.medal_context_team_position_02",
           "badge": "silver"
         },
         {
-          "position_percentage": 50,
+          "team_position": 3,
           "multiplier": 12,
-          "description": "localised_strings.badge_text_percentage_050",
-          "medal_description": "localised_strings.medal_context_position",
-          "medal_description_value": 50,
+          "description": "localised_strings.badge_text_position_03",
+          "medal_description": "localised_strings.medal_context_team_position_03",
           "badge": "bronze"
         }
       ]
@@ -83875,7 +83874,6 @@
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
-    "tags": [],
     "level_archetype": "archetype_team",
     "fall_feed": "fall_feed_score"
   },
@@ -84178,44 +84176,35 @@
     },
     "game_rules": "game_rules.showcase_chickengulch_filler",
     "round_description": "localised_strings.wle_chickengulch_desc",
+    "round_info": "localised_strings.wle_chickengulch_desc",
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
     "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_UGC",
     "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [],
     "bonus": {
-      "type": "position",
-      "position_tiers": [
+      "type": "team_position",
+      "team_position_tiers": [
         {
-          "position_percentage": 1,
+          "team_position": 1,
           "multiplier": 40,
           "description": "localised_strings.badge_text_position_01",
-          "medal_description": "localised_strings.medal_context_place_1st",
-          "medal_description_value": 1,
+          "medal_description": "localised_strings.medal_context_team_position_01",
           "badge": "gold"
         },
         {
-          "position_percentage": 20,
+          "team_position": 2,
           "multiplier": 25,
-          "description": "localised_strings.badge_text_percentage_020",
-          "medal_description": "localised_strings.medal_context_position",
-          "medal_description_value": 20,
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": "localised_strings.medal_context_team_position_02",
           "badge": "silver"
-        },
-        {
-          "position_percentage": 50,
-          "multiplier": 12,
-          "description": "localised_strings.badge_text_percentage_050",
-          "medal_description": "localised_strings.medal_context_position",
-          "medal_description_value": 50,
-          "badge": "bronze"
         }
       ]
     },
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
-    "tags": [],
     "level_archetype": "archetype_team",
     "fall_feed": "fall_feed_score"
   },
@@ -84864,6 +84853,7 @@
     },
     "game_rules": "game_rules.showcase_cycleoslime_final",
     "round_description": "localised_strings.wle_cicleoslime_desc",
+    "round_info": "localised_strings.wle_cicleoslime_desc",
     "preparation_music_soundbank": "BNK_Music_GP",
     "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
     "ingame_music_soundbank": "BNK_Music_Rung_Equip",
@@ -84875,6 +84865,7 @@
     "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_UGC",
     "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [],
     "bonus": {
       "type": "qualification",
       "qualification_tier": {
@@ -84887,7 +84878,6 @@
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
-    "tags": [],
     "level_archetype": "archetype_final",
     "fall_feed": "fall_feed_survival"
   },
@@ -86914,6 +86904,7 @@
     },
     "game_rules": "game_rules.showcase_magnetmayhem_filler",
     "round_description": "localised_strings.wle_magnetmayhem_desc",
+    "round_info": "localised_strings.wle_magnetmayhem_desc",
     "preparation_music_soundbank": "BNK_Music_GP",
     "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
     "ingame_music_soundbank": "BNK_Music_Rung_Equip",
@@ -86925,11 +86916,12 @@
     "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_UGC",
     "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [],
     "bonus": {
       "type": "qualification",
       "qualification_tier": {
         "multiplier": 12,
-        "description": "localised_strings.badge_text_victory",
+        "description": "localised_strings.badge_text_survived",
         "medal_description": "localised_strings.medal_context_qualification",
         "badge": "gold"
       }
@@ -86937,7 +86929,6 @@
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
-    "tags": [],
     "level_archetype": "archetype_survival",
     "fall_feed": "fall_feed_survival"
   },
@@ -87004,11 +86995,13 @@
     },
     "game_rules": "game_rules.showcase_mindthegap_opener",
     "round_description": "localised_strings.wle_mindthegap_desc",
+    "round_info": "localised_strings.wle_mindthegap_desc",
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
     "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_UGC",
     "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [],
     "bonus": {
       "type": "position",
       "position_tiers": [
@@ -87041,7 +87034,6 @@
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
-    "tags": [],
     "level_archetype": "archetype_race",
     "fall_feed": "fall_feed_race"
   },
@@ -89019,6 +89011,7 @@
     },
     "game_rules": "game_rules.showcase_shapeup_filler",
     "round_description": "localised_strings.wle_shapeup_desc",
+    "round_info": "localised_strings.wle_shapeup_desc",
     "preparation_music_soundbank": "BNK_Music_GP",
     "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
     "ingame_music_soundbank": "BNK_Music_Rung_Equip",
@@ -89030,11 +89023,12 @@
     "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_UGC",
     "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [],
     "bonus": {
       "type": "qualification",
       "qualification_tier": {
         "multiplier": 12,
-        "description": "localised_strings.badge_text_victory",
+        "description": "localised_strings.badge_text_survived",
         "medal_description": "localised_strings.medal_context_qualification",
         "badge": "gold"
       }
@@ -89042,7 +89036,6 @@
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
-    "tags": [],
     "level_archetype": "archetype_survival",
     "fall_feed": "fall_feed_survival"
   },
@@ -89273,36 +89266,35 @@
     },
     "game_rules": "game_rules.showcase_slidensmash_opener",
     "round_description": "localised_strings.wle_slidensmash_desc",
+    "round_info": "localised_strings.wle_slidensmash_desc",
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
     "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_UGC",
     "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [],
     "bonus": {
-      "type": "position",
-      "position_tiers": [
+      "type": "team_position",
+      "team_position_tiers": [
         {
-          "position_percentage": 1,
+          "team_position": 1,
           "multiplier": 40,
           "description": "localised_strings.badge_text_position_01",
-          "medal_description": "localised_strings.medal_context_place_1st",
-          "medal_description_value": 1,
+          "medal_description": "localised_strings.medal_context_team_position_01",
           "badge": "gold"
         },
         {
-          "position_percentage": 20,
+          "team_position": 2,
           "multiplier": 25,
-          "description": "localised_strings.badge_text_percentage_020",
-          "medal_description": "localised_strings.medal_context_position",
-          "medal_description_value": 20,
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": "localised_strings.medal_context_team_position_02",
           "badge": "silver"
         },
         {
-          "position_percentage": 50,
+          "team_position": 3,
           "multiplier": 12,
-          "description": "localised_strings.badge_text_percentage_050",
-          "medal_description": "localised_strings.medal_context_position",
-          "medal_description_value": 50,
+          "description": "localised_strings.badge_text_position_03",
+          "medal_description": "localised_strings.medal_context_team_position_03",
           "badge": "bronze"
         }
       ]
@@ -89310,7 +89302,6 @@
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
-    "tags": [],
     "level_archetype": "archetype_team",
     "fall_feed": "fall_feed_score"
   },
@@ -89595,36 +89586,35 @@
     },
     "game_rules": "game_rules.showcase_sortitout_opener",
     "round_description": "localised_strings.wle_sortitout_desc",
+    "round_info": "localised_strings.wle_sortitout_desc",
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
     "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_UGC",
     "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [],
     "bonus": {
-      "type": "position",
-      "position_tiers": [
+      "type": "team_position",
+      "team_position_tiers": [
         {
-          "position_percentage": 1,
+          "team_position": 1,
           "multiplier": 40,
           "description": "localised_strings.badge_text_position_01",
-          "medal_description": "localised_strings.medal_context_place_1st",
-          "medal_description_value": 1,
+          "medal_description": "localised_strings.medal_context_team_position_01",
           "badge": "gold"
         },
         {
-          "position_percentage": 20,
+          "team_position": 2,
           "multiplier": 25,
-          "description": "localised_strings.badge_text_percentage_020",
-          "medal_description": "localised_strings.medal_context_position",
-          "medal_description_value": 20,
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": "localised_strings.medal_context_team_position_02",
           "badge": "silver"
         },
         {
-          "position_percentage": 50,
+          "team_position": 3,
           "multiplier": 12,
-          "description": "localised_strings.badge_text_percentage_050",
-          "medal_description": "localised_strings.medal_context_position",
-          "medal_description_value": 50,
+          "description": "localised_strings.badge_text_position_03",
+          "medal_description": "localised_strings.medal_context_team_position_03",
           "badge": "bronze"
         }
       ]
@@ -89632,7 +89622,6 @@
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
-    "tags": [],
     "level_archetype": "archetype_team",
     "fall_feed": "fall_feed_score"
   },
@@ -90246,44 +90235,35 @@
     },
     "game_rules": "game_rules.showcase_topofthetrash_filler",
     "round_description": "localised_strings.wle_topofthetrash_desc",
+    "round_info": "localised_strings.level_info_points_score_area",
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
     "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_UGC",
     "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [],
     "bonus": {
-      "type": "position",
-      "position_tiers": [
+      "type": "team_position",
+      "team_position_tiers": [
         {
-          "position_percentage": 1,
+          "team_position": 1,
           "multiplier": 40,
           "description": "localised_strings.badge_text_position_01",
-          "medal_description": "localised_strings.medal_context_place_1st",
-          "medal_description_value": 1,
+          "medal_description": "localised_strings.medal_context_team_position_01",
           "badge": "gold"
         },
         {
-          "position_percentage": 20,
+          "team_position": 2,
           "multiplier": 25,
-          "description": "localised_strings.badge_text_percentage_020",
-          "medal_description": "localised_strings.medal_context_position",
-          "medal_description_value": 20,
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": "localised_strings.medal_context_team_position_02",
           "badge": "silver"
-        },
-        {
-          "position_percentage": 50,
-          "multiplier": 12,
-          "description": "localised_strings.badge_text_percentage_050",
-          "medal_description": "localised_strings.medal_context_position",
-          "medal_description_value": 50,
-          "badge": "bronze"
         }
       ]
     },
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
-    "tags": [],
     "level_archetype": "archetype_team",
     "fall_feed": "fall_feed_score"
   },
