@@ -1225,6 +1225,55 @@
     "discovery_queries": []
   },
   {
+    "id": "nature_ltm_roundpool",
+    "stages": [
+      {
+        "round": "levels_round.fantasyforest_nature_ltm",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.junglerun_nature_ltm",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.bramblerun_nature_ltm",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.samama_nature_ltm",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.tarpitturmoil_nature_ltm",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.logroll_nature_ltm",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.lilypadlimbo_nature_ltm",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.junglewall_nature_ltm",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      }
+    ],
+    "config": {
+      "type": "legacy"
+    },
+    "discovery_queries": []
+  },
+  {
     "id": "roundpool_1v1_volleyfall_solos",
     "stages": [
       {
@@ -18172,6 +18221,23 @@
       }
     },
     "discovery_queries": []
+  },
+  {
+    "id": "spotlight_040325",
+    "config": {
+      "type": "collection_driven",
+      "level_collections": [
+        {
+          "weight": 100,
+          "level_collection_id": "spotlight_040325"
+        }
+      ],
+      "fallback_level_collection": {
+        "level_collection_id": "spotlight_040325"
+      }
+    },
+    "discovery_queries": [],
+    "stages": []
   },
   {
     "id": "spotlight_090125",

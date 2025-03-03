@@ -769,6 +769,39 @@
     ]
   },
   {
+    "id": "nature_ltm_challenges",
+    "challenge_pool_ids": [
+      "nature_ltm_challenges_pool"
+    ],
+    "challenge_list_ui_id": "challenge_list_ui.event_nature",
+    "refresh_interval_config": {
+      "type": "indefinite"
+    },
+    "rarity_distribution": [
+      {
+        "required_number": 2,
+        "cooldown_interval_config": {
+          "type": "none"
+        },
+        "rarity": "common"
+      },
+      {
+        "required_number": 2,
+        "cooldown_interval_config": {
+          "type": "none"
+        },
+        "rarity": "uncommon"
+      },
+      {
+        "required_number": 1,
+        "cooldown_interval_config": {
+          "type": "none"
+        },
+        "rarity": "rare"
+      }
+    ]
+  },
+  {
     "id": "noelim_explore_challenges",
     "challenge_list_ui_id": "challenge_list_ui.event_noelim_explore",
     "refresh_interval_config": {

@@ -1289,6 +1289,26 @@
     }
   },
   {
+    "id": "earn_silver_medal_nature",
+    "config": {
+      "metric_id": "badge_awarded_silver",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "wle_nature_ltm"
+        }
+      ]
+    }
+  },
+  {
     "id": "earn_silver_medal_race",
     "config": {
       "metric_id": "badge_awarded_silver",
@@ -2779,6 +2799,31 @@
       "metric_id": "round_reached",
       "dimensions": [],
       "level_id": "round_fall_mountain_variants_event_peanut_ss2"
+    }
+  },
+  {
+    "id": "play_nature_ltm",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "wle_nature_ltm"
+        },
+        {
+          "dimension_id": "round_index",
+          "operator": "equal",
+          "dimension_type": "integer_dimension"
+        }
+      ]
     }
   },
   {
@@ -4640,6 +4685,26 @@
           "operator": "equal",
           "boolean_value": "false",
           "dimension_type": "boolean_dimension"
+        }
+      ]
+    }
+  },
+  {
+    "id": "player_ran_in_nature_ltm",
+    "config": {
+      "metric_id": "distance_run",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "wle_nature_ltm"
         }
       ]
     }
@@ -6960,6 +7025,37 @@
     }
   },
   {
+    "id": "qualify_without_respawning_nature",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "player_respawn_count",
+          "operator": "equal",
+          "dimension_type": "integer_dimension"
+        },
+        {
+          "dimension_id": "round_qualified",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "wle_nature_ltm"
+        }
+      ]
+    }
+  },
+  {
     "id": "race_rounds_party_haddock",
     "config": {
       "metric_id": "round_reached",
@@ -7126,6 +7222,32 @@
       "dimensions": [],
       "is_final_round": "true",
       "show_id": "main_show"
+    }
+  },
+  {
+    "id": "reach_final_round_nature_ltm",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "wle_nature_ltm"
+        },
+        {
+          "dimension_id": "is_final_round",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        }
+      ]
     }
   },
   {
@@ -9764,6 +9886,38 @@
       "round_qualified": "true",
       "is_final_round": "true",
       "show_id": "event_autumn_festival_squads_2109_2709_21"
+    }
+  },
+  {
+    "id": "win_nature_ltm",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "wle_nature_ltm"
+        },
+        {
+          "dimension_id": "is_final_round",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "round_qualified",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        }
+      ]
     }
   },
   {
