@@ -1341,33 +1341,13 @@
     "loading_screen_name": "Splash_UGC",
     "level_badge_name": "Creative_Mode_Gauntlet",
     "bonus": {
-      "type": "position",
-      "position_tiers": [
-        {
-          "position_percentage": 1,
-          "multiplier": 40,
-          "description": "localised_strings.badge_text_position_01",
-          "medal_description": "localised_strings.medal_context_place_1st",
-          "medal_description_value": 1,
-          "badge": "gold"
-        },
-        {
-          "position_percentage": 20,
-          "multiplier": 25,
-          "description": "localised_strings.badge_text_percentage_020",
-          "medal_description": "localised_strings.medal_context_position",
-          "medal_description_value": 20,
-          "badge": "silver"
-        },
-        {
-          "position_percentage": 50,
-          "multiplier": 12,
-          "description": "localised_strings.badge_text_percentage_050",
-          "medal_description": "localised_strings.medal_context_position",
-          "medal_description_value": 50,
-          "badge": "bronze"
-        }
-      ]
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 12,
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "badge": "gold"
+      }
     },
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
