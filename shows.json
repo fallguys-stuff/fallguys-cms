@@ -8052,7 +8052,6 @@
     "opens_at": "2020-01-01T10:00:00",
     "closes_at": "2030-01-01T09:59:59",
     "top_tags": [],
-    "show_tag": "show_tag_time_attack",
     "show_image_cms": "ui_show_selector_noelim_explore",
     "episode_reward_settings_id": "explore_mode_rewards_all"
   },
@@ -10129,7 +10128,9 @@
       "max_players": 20
     },
     "private_lobby_size": {
-      "type": "default"
+      "type": "override",
+      "min_players": 5,
+      "max_players": 20
     },
     "show_type": {
       "showtype_switch": "individual"
