@@ -18105,6 +18105,27 @@
     "discovery_queries": []
   },
   {
+    "id": "spotlight",
+    "config": {
+      "type": "collection_driven",
+      "level_collections": [
+        {
+          "weight": 100,
+          "level_collection_id": "spotlight_040325"
+        },
+        {
+          "weight": 100,
+          "level_collection_id": "spotlight_180325"
+        }
+      ],
+      "fallback_level_collection": {
+        "level_collection_id": "spotlight_040325"
+      }
+    },
+    "discovery_queries": [],
+    "stages": []
+  },
+  {
     "id": "spotlight_040225",
     "stages": [
       {
