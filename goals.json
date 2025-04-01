@@ -4085,6 +4085,158 @@
     "player_action_id": "win_anniversary"
   },
   {
+    "id": "event_april_fools_01",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "title": "localised_strings.event_fp18_april_fools_01",
+    "description": "localised_strings.challenge_desc_027_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.fp18_showcase_title"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "play_showcase_fp18"
+  },
+  {
+    "id": "event_april_fools_02",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "title": "localised_strings.event_fp18_april_fools_01",
+    "description": "localised_strings.challenge_desc_027_anyround",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.casual_show_title"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "play_explore"
+  },
+  {
+    "id": "event_april_fools_03",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "title": "localised_strings.event_fp18_april_fools_02",
+    "description": "localised_strings.challenge_desc_powerup_01",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.pow_exploding_rhino_01"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.fp18_showcase_title"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "use_party_crasher_fp18_showcase"
+  },
+  {
+    "id": "event_april_fools_04",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "title": "localised_strings.event_fp18_april_fools_02",
+    "description": "localised_strings.challenge_desc_010_simple",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.casual_show_title"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "emote_explore"
+  },
+  {
+    "id": "event_april_fools_05",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "title": "localised_strings.event_fp18_april_fools_03",
+    "description": "localised_strings.challenge_desc_powerup_01",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.pow_rubber_chicken"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.fp18_showcase_title"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "use_rubber_chicken_fp18_showcase"
+  },
+  {
+    "id": "event_april_fools_06",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "title": "localised_strings.event_fp18_april_fools_03",
+    "description": "localised_strings.challenge_desc_045_simple",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.casual_show_title"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "piggyback_explore"
+  },
+  {
+    "id": "event_april_fools_07",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "title": "localised_strings.event_fp18_april_fools_04",
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.fp18_showcase_title"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "win_fp18_showcase"
+  },
+  {
+    "id": "event_april_fools_08",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "title": "localised_strings.event_fp18_april_fools_04",
+    "description": "localised_strings.challenge_desc_004_party",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.casual_show_title"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "qualify_from_explore_in_party"
+  },
+  {
     "id": "event_destruction_fp13_01",
     "target": {
       "type": "aggregate",
@@ -7586,6 +7738,50 @@
     "player_action_id": "parrot_010"
   },
   {
+    "id": "piggyback_any_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_045_simple",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "piggyback_any"
+  },
+  {
+    "id": "piggyback_duos_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_045_simple",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "piggyback_duos"
+  },
+  {
     "id": "piggyback_explore_3",
     "target": {
       "type": "aggregate",
@@ -7605,6 +7801,116 @@
     ],
     "challenge_tags": [],
     "player_action_id": "piggyback_explore"
+  },
+  {
+    "id": "piggyback_explore_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_045_simple",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.casual_show_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "piggyback_explore"
+  },
+  {
+    "id": "piggyback_knockout_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_045_simple",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "piggyback_knockout"
+  },
+  {
+    "id": "piggyback_solos_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_045_simple",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "piggyback_solos"
+  },
+  {
+    "id": "piggyback_spotlight_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_045_simple",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.spotlight_mode_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "piggyback_spotlight"
+  },
+  {
+    "id": "piggyback_squads_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_045_simple",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "piggyback_squads"
   },
   {
     "id": "piggybacl_showcase_fp16_3",
@@ -8235,6 +8541,38 @@
     "player_action_id": "play_fall_ball_week_of_romance_s6"
   },
   {
+    "id": "play_fp18_showcase_01",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_027_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.fp18_showcase_title"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "play_showcase_fp18"
+  },
+  {
+    "id": "play_fp18_showcase_03",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_027_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.fp18_showcase_title"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "play_showcase_fp18"
+  },
+  {
     "id": "play_gauntletx_in_show_ss2_almond",
     "target": {
       "type": "aggregate",
@@ -8393,6 +8731,72 @@
     "player_action_id": "play_jinxed_week_of_romance_s6"
   },
   {
+    "id": "play_levels_any_common",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "play_levels_any"
+  },
+  {
+    "id": "play_levels_any_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "play_levels_any"
+  },
+  {
+    "id": "play_levels_any_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "play_levels_any"
+  },
+  {
     "id": "play_levels_classic_explore_10",
     "target": {
       "type": "aggregate",
@@ -8439,6 +8843,138 @@
     ],
     "challenge_tags": [],
     "player_action_id": "play_levels_noelim_explore"
+  },
+  {
+    "id": "play_levels_duos_common",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "play_levels_duos"
+  },
+  {
+    "id": "play_levels_duos_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "play_levels_duos"
+  },
+  {
+    "id": "play_levels_duos_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "play_levels_duos"
+  },
+  {
+    "id": "play_levels_explore_common",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.casual_show_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "play_levels_explore"
+  },
+  {
+    "id": "play_levels_explore_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.casual_show_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "play_levels_explore"
+  },
+  {
+    "id": "play_levels_explore_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.casual_show_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "play_levels_explore"
   },
   {
     "id": "play_levels_in_explore_1",
@@ -8535,6 +9071,336 @@
     ],
     "challenge_tags": [],
     "player_action_id": "play_levels_in_xtreme_explore"
+  },
+  {
+    "id": "play_levels_knockout_common",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "play_levels_knockout"
+  },
+  {
+    "id": "play_levels_knockout_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "play_levels_knockout"
+  },
+  {
+    "id": "play_levels_knockout_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "play_levels_knockout"
+  },
+  {
+    "id": "play_levels_ranked_common",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.ranked_show_knockout"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "play_levels_ranked"
+  },
+  {
+    "id": "play_levels_ranked_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.ranked_show_knockout"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "play_levels_ranked"
+  },
+  {
+    "id": "play_levels_ranked_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.ranked_show_knockout"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "play_levels_ranked"
+  },
+  {
+    "id": "play_levels_solos_common",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "play_levels_solos"
+  },
+  {
+    "id": "play_levels_solos_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "play_levels_solos"
+  },
+  {
+    "id": "play_levels_solos_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "play_levels_solos"
+  },
+  {
+    "id": "play_levels_spotlight_common",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.spotlight_mode_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "play_levels_spotlight"
+  },
+  {
+    "id": "play_levels_spotlight_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.spotlight_mode_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "play_levels_spotlight"
+  },
+  {
+    "id": "play_levels_spotlight_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.spotlight_mode_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "play_levels_spotlight"
+  },
+  {
+    "id": "play_levels_squads_common",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "play_levels_squads"
+  },
+  {
+    "id": "play_levels_squads_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "play_levels_squads"
+  },
+  {
+    "id": "play_levels_squads_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "play_levels_squads"
   },
   {
     "id": "play_logic_round_3_le_stars02",
@@ -9538,6 +10404,534 @@
     "player_action_id": "player_air_time"
   },
   {
+    "id": "player_air_time_any_common",
+    "target": {
+      "type": "aggregate",
+      "value": 25
+    },
+    "description": "localised_strings.challenge_desc_005_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 25
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_air_time_any"
+  },
+  {
+    "id": "player_air_time_any_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 75
+    },
+    "description": "localised_strings.challenge_desc_005_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 75
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_air_time_any"
+  },
+  {
+    "id": "player_air_time_any_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 50
+    },
+    "description": "localised_strings.challenge_desc_005_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 50
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_air_time_any"
+  },
+  {
+    "id": "player_air_time_duos_common",
+    "target": {
+      "type": "aggregate",
+      "value": 25
+    },
+    "description": "localised_strings.challenge_desc_005_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 25
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_air_time_duos"
+  },
+  {
+    "id": "player_air_time_duos_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 75
+    },
+    "description": "localised_strings.challenge_desc_005_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 75
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_air_time_duos"
+  },
+  {
+    "id": "player_air_time_duos_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 50
+    },
+    "description": "localised_strings.challenge_desc_005_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 50
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_air_time_duos"
+  },
+  {
+    "id": "player_air_time_explore_common",
+    "target": {
+      "type": "aggregate",
+      "value": 25
+    },
+    "description": "localised_strings.challenge_desc_005_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 25
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.casual_show_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_air_time_explore"
+  },
+  {
+    "id": "player_air_time_explore_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 75
+    },
+    "description": "localised_strings.challenge_desc_005_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 75
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.casual_show_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_air_time_explore"
+  },
+  {
+    "id": "player_air_time_explore_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 50
+    },
+    "description": "localised_strings.challenge_desc_005_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 50
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.casual_show_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_air_time_explore"
+  },
+  {
+    "id": "player_air_time_knockout_common",
+    "target": {
+      "type": "aggregate",
+      "value": 25
+    },
+    "description": "localised_strings.challenge_desc_005_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 25
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_air_time_knockout"
+  },
+  {
+    "id": "player_air_time_knockout_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 75
+    },
+    "description": "localised_strings.challenge_desc_005_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 75
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_air_time_knockout"
+  },
+  {
+    "id": "player_air_time_knockout_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 50
+    },
+    "description": "localised_strings.challenge_desc_005_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 50
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_air_time_knockout"
+  },
+  {
+    "id": "player_air_time_ranked_common",
+    "target": {
+      "type": "aggregate",
+      "value": 25
+    },
+    "description": "localised_strings.challenge_desc_005_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 25
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.ranked_show_knockout"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_air_time_ranked"
+  },
+  {
+    "id": "player_air_time_ranked_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 75
+    },
+    "description": "localised_strings.challenge_desc_005_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 75
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.ranked_show_knockout"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_air_time_ranked"
+  },
+  {
+    "id": "player_air_time_ranked_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 50
+    },
+    "description": "localised_strings.challenge_desc_005_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 50
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.ranked_show_knockout"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_air_time_ranked"
+  },
+  {
+    "id": "player_air_time_solos_common",
+    "target": {
+      "type": "aggregate",
+      "value": 25
+    },
+    "description": "localised_strings.challenge_desc_005_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 25
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_air_time_solos"
+  },
+  {
+    "id": "player_air_time_solos_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 75
+    },
+    "description": "localised_strings.challenge_desc_005_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 75
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_air_time_solos"
+  },
+  {
+    "id": "player_air_time_solos_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 50
+    },
+    "description": "localised_strings.challenge_desc_005_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 50
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_air_time_solos"
+  },
+  {
+    "id": "player_air_time_spotlight_common",
+    "target": {
+      "type": "aggregate",
+      "value": 25
+    },
+    "description": "localised_strings.challenge_desc_005_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 25
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.spotlight_mode_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_air_time_spotlight"
+  },
+  {
+    "id": "player_air_time_spotlight_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 75
+    },
+    "description": "localised_strings.challenge_desc_005_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 75
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.spotlight_mode_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_air_time_spotlight"
+  },
+  {
+    "id": "player_air_time_spotlight_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 50
+    },
+    "description": "localised_strings.challenge_desc_005_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 50
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.spotlight_mode_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_air_time_spotlight"
+  },
+  {
+    "id": "player_air_time_squads_common",
+    "target": {
+      "type": "aggregate",
+      "value": 25
+    },
+    "description": "localised_strings.challenge_desc_005_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 25
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_air_time_squads"
+  },
+  {
+    "id": "player_air_time_squads_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 75
+    },
+    "description": "localised_strings.challenge_desc_005_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 75
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_air_time_squads"
+  },
+  {
+    "id": "player_air_time_squads_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 50
+    },
+    "description": "localised_strings.challenge_desc_005_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 50
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_air_time_squads"
+  },
+  {
     "id": "player_dived_10",
     "target": {
       "type": "aggregate",
@@ -9682,6 +11076,204 @@
     "player_action_id": "player_dived"
   },
   {
+    "id": "player_dived_any_common",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_017_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 5
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_dived_any"
+  },
+  {
+    "id": "player_dived_any_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 30
+    },
+    "description": "localised_strings.challenge_desc_017_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 30
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_dived_any"
+  },
+  {
+    "id": "player_dived_any_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 15
+    },
+    "description": "localised_strings.challenge_desc_017_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 15
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_dived_any"
+  },
+  {
+    "id": "player_dived_duos_common",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_017_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 5
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_dived_duos"
+  },
+  {
+    "id": "player_dived_duos_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 30
+    },
+    "description": "localised_strings.challenge_desc_017_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 30
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_dived_duos"
+  },
+  {
+    "id": "player_dived_duos_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 15
+    },
+    "description": "localised_strings.challenge_desc_017_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 15
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_dived_duos"
+  },
+  {
+    "id": "player_dived_explore_common",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_017_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 5
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.casual_show_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_dived_explore"
+  },
+  {
+    "id": "player_dived_explore_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 30
+    },
+    "description": "localised_strings.challenge_desc_017_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 30
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.casual_show_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_dived_explore"
+  },
+  {
+    "id": "player_dived_explore_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 15
+    },
+    "description": "localised_strings.challenge_desc_017_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 15
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.casual_show_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_dived_explore"
+  },
+  {
     "id": "player_dived_hilaria",
     "target": {
       "type": "aggregate",
@@ -9691,6 +11283,336 @@
     "description_parameters": [],
     "challenge_tags": [],
     "player_action_id": "player_dived_hilaria"
+  },
+  {
+    "id": "player_dived_knockout_common",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_017_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 5
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_dived_knockout"
+  },
+  {
+    "id": "player_dived_knockout_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 30
+    },
+    "description": "localised_strings.challenge_desc_017_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 30
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_dived_knockout"
+  },
+  {
+    "id": "player_dived_knockout_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 15
+    },
+    "description": "localised_strings.challenge_desc_017_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 15
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_dived_knockout"
+  },
+  {
+    "id": "player_dived_ranked_common",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_017_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 5
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.ranked_show_knockout"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_dived_ranked"
+  },
+  {
+    "id": "player_dived_ranked_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 30
+    },
+    "description": "localised_strings.challenge_desc_017_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 30
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.ranked_show_knockout"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_dived_ranked"
+  },
+  {
+    "id": "player_dived_ranked_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 15
+    },
+    "description": "localised_strings.challenge_desc_017_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 15
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.ranked_show_knockout"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_dived_ranked"
+  },
+  {
+    "id": "player_dived_solos_common",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_017_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 5
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_dived_solos"
+  },
+  {
+    "id": "player_dived_solos_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 30
+    },
+    "description": "localised_strings.challenge_desc_017_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 30
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_dived_solos"
+  },
+  {
+    "id": "player_dived_solos_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 15
+    },
+    "description": "localised_strings.challenge_desc_017_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 15
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_dived_solos"
+  },
+  {
+    "id": "player_dived_spotlight_common",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_017_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 5
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.spotlight_mode_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_dived_spotlight"
+  },
+  {
+    "id": "player_dived_spotlight_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 30
+    },
+    "description": "localised_strings.challenge_desc_017_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 30
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.spotlight_mode_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_dived_spotlight"
+  },
+  {
+    "id": "player_dived_spotlight_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 15
+    },
+    "description": "localised_strings.challenge_desc_017_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 15
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.spotlight_mode_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_dived_spotlight"
+  },
+  {
+    "id": "player_dived_squads_common",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_017_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 5
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_dived_squads"
+  },
+  {
+    "id": "player_dived_squads_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 30
+    },
+    "description": "localised_strings.challenge_desc_017_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 30
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_dived_squads"
+  },
+  {
+    "id": "player_dived_squads_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 15
+    },
+    "description": "localised_strings.challenge_desc_017_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 15
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_dived_squads"
   },
   {
     "id": "player_emoted_10",
@@ -9816,6 +11738,28 @@
     "player_action_id": "player_emotes_hilaria"
   },
   {
+    "id": "player_emotes_any_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_010_simple",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_emotes_any"
+  },
+  {
     "id": "player_emotes_duos",
     "target": {
       "type": "aggregate",
@@ -9835,6 +11779,138 @@
     ],
     "challenge_tags": [],
     "player_action_id": "player_emotes_duos"
+  },
+  {
+    "id": "player_emotes_duos_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_010_simple",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_emotes_duos"
+  },
+  {
+    "id": "player_emotes_explore_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_010_simple",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.casual_show_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_emotes_explore"
+  },
+  {
+    "id": "player_emotes_knockout_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_010_simple",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_emotes_knockout"
+  },
+  {
+    "id": "player_emotes_solos_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_010_simple",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_emotes_solos"
+  },
+  {
+    "id": "player_emotes_spotlight_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_010_simple",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.spotlight_mode_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_emotes_spotlight"
+  },
+  {
+    "id": "player_emotes_squads_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_010_simple",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_emotes_squads"
   },
   {
     "id": "player_enters_wormhole_hider_pistachio_30",
@@ -9967,6 +12043,182 @@
     ],
     "challenge_tags": [],
     "player_action_id": "player_grabbed"
+  },
+  {
+    "id": "player_grabbed_any_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_011_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_grabbed_any"
+  },
+  {
+    "id": "player_grabbed_duos_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_011_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_grabbed_duos"
+  },
+  {
+    "id": "player_grabbed_explore_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_011_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.casual_show_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_grabbed_explore"
+  },
+  {
+    "id": "player_grabbed_knockout_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_011_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_grabbed_knockout"
+  },
+  {
+    "id": "player_grabbed_ranked_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_011_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.ranked_show_knockout"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_grabbed_ranked"
+  },
+  {
+    "id": "player_grabbed_solos_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_011_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_grabbed_solos"
+  },
+  {
+    "id": "player_grabbed_spotlight_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_011_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.spotlight_mode_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_grabbed_spotlight"
+  },
+  {
+    "id": "player_grabbed_squads_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_011_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_grabbed_squads"
   },
   {
     "id": "player_hit_by_puncher_vulture_10",
@@ -10390,6 +12642,204 @@
     "player_action_id": "player_jumped"
   },
   {
+    "id": "player_jumped_any_common",
+    "target": {
+      "type": "aggregate",
+      "value": 15
+    },
+    "description": "localised_strings.challenge_desc_016_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 15
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_jumped_any"
+  },
+  {
+    "id": "player_jumped_any_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 45
+    },
+    "description": "localised_strings.challenge_desc_016_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 45
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_jumped_any"
+  },
+  {
+    "id": "player_jumped_any_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 30
+    },
+    "description": "localised_strings.challenge_desc_016_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 30
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_jumped_any"
+  },
+  {
+    "id": "player_jumped_duos_common",
+    "target": {
+      "type": "aggregate",
+      "value": 15
+    },
+    "description": "localised_strings.challenge_desc_016_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 15
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_jumped_duos"
+  },
+  {
+    "id": "player_jumped_duos_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 45
+    },
+    "description": "localised_strings.challenge_desc_016_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 45
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_jumped_duos"
+  },
+  {
+    "id": "player_jumped_duos_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 30
+    },
+    "description": "localised_strings.challenge_desc_016_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 30
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_jumped_duos"
+  },
+  {
+    "id": "player_jumped_explore_common",
+    "target": {
+      "type": "aggregate",
+      "value": 15
+    },
+    "description": "localised_strings.challenge_desc_016_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 15
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.casual_show_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_jumped_explore"
+  },
+  {
+    "id": "player_jumped_explore_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 45
+    },
+    "description": "localised_strings.challenge_desc_016_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 45
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.casual_show_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_jumped_explore"
+  },
+  {
+    "id": "player_jumped_explore_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 30
+    },
+    "description": "localised_strings.challenge_desc_016_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 30
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.casual_show_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_jumped_explore"
+  },
+  {
     "id": "player_jumped_fp17_showcase",
     "target": {
       "type": "aggregate",
@@ -10420,6 +12870,72 @@
     "description_parameters": [],
     "challenge_tags": [],
     "player_action_id": "player_jumped_hilaria"
+  },
+  {
+    "id": "player_jumped_knockout_common",
+    "target": {
+      "type": "aggregate",
+      "value": 15
+    },
+    "description": "localised_strings.challenge_desc_016_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 15
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_jumped_knockout"
+  },
+  {
+    "id": "player_jumped_knockout_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 45
+    },
+    "description": "localised_strings.challenge_desc_016_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 45
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_jumped_knockout"
+  },
+  {
+    "id": "player_jumped_knockout_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 30
+    },
+    "description": "localised_strings.challenge_desc_016_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 30
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_jumped_knockout"
   },
   {
     "id": "player_jumped_le_stars_01_30",
@@ -10472,6 +12988,798 @@
     ],
     "challenge_tags": [],
     "player_action_id": "player_jumped_newyears6"
+  },
+  {
+    "id": "player_jumped_ranked_common",
+    "target": {
+      "type": "aggregate",
+      "value": 15
+    },
+    "description": "localised_strings.challenge_desc_016_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 15
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.ranked_show_knockout"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_jumped_ranked"
+  },
+  {
+    "id": "player_jumped_ranked_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 45
+    },
+    "description": "localised_strings.challenge_desc_016_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 45
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.ranked_show_knockout"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_jumped_ranked"
+  },
+  {
+    "id": "player_jumped_ranked_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 30
+    },
+    "description": "localised_strings.challenge_desc_016_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 30
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.ranked_show_knockout"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_jumped_ranked"
+  },
+  {
+    "id": "player_jumped_solos_common",
+    "target": {
+      "type": "aggregate",
+      "value": 15
+    },
+    "description": "localised_strings.challenge_desc_016_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 15
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_jumped_solos"
+  },
+  {
+    "id": "player_jumped_solos_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 45
+    },
+    "description": "localised_strings.challenge_desc_016_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 45
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_jumped_solos"
+  },
+  {
+    "id": "player_jumped_solos_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 30
+    },
+    "description": "localised_strings.challenge_desc_016_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 30
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_jumped_solos"
+  },
+  {
+    "id": "player_jumped_spotlight_common",
+    "target": {
+      "type": "aggregate",
+      "value": 15
+    },
+    "description": "localised_strings.challenge_desc_016_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 15
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.spotlight_mode_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_jumped_spotlight"
+  },
+  {
+    "id": "player_jumped_spotlight_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 45
+    },
+    "description": "localised_strings.challenge_desc_016_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 45
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.spotlight_mode_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_jumped_spotlight"
+  },
+  {
+    "id": "player_jumped_spotlight_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 30
+    },
+    "description": "localised_strings.challenge_desc_016_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 30
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.spotlight_mode_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_jumped_spotlight"
+  },
+  {
+    "id": "player_jumped_squads_common",
+    "target": {
+      "type": "aggregate",
+      "value": 15
+    },
+    "description": "localised_strings.challenge_desc_016_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 15
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_jumped_squads"
+  },
+  {
+    "id": "player_jumped_squads_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 45
+    },
+    "description": "localised_strings.challenge_desc_016_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 45
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_jumped_squads"
+  },
+  {
+    "id": "player_jumped_squads_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 30
+    },
+    "description": "localised_strings.challenge_desc_016_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 30
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_jumped_squads"
+  },
+  {
+    "id": "player_ran_any_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3500
+    },
+    "description": "localised_strings.challenge_desc_024_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3500
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_ran_any"
+  },
+  {
+    "id": "player_ran_any_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 7500
+    },
+    "description": "localised_strings.challenge_desc_024_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 7500
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_ran_any"
+  },
+  {
+    "id": "player_ran_any_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 5000
+    },
+    "description": "localised_strings.challenge_desc_024_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 5000
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_ran_any"
+  },
+  {
+    "id": "player_ran_duos_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3500
+    },
+    "description": "localised_strings.challenge_desc_024_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3500
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_ran_duos"
+  },
+  {
+    "id": "player_ran_duos_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 7500
+    },
+    "description": "localised_strings.challenge_desc_024_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 7500
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_ran_duos"
+  },
+  {
+    "id": "player_ran_duos_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 5000
+    },
+    "description": "localised_strings.challenge_desc_024_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 5000
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_ran_duos"
+  },
+  {
+    "id": "player_ran_explore_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3500
+    },
+    "description": "localised_strings.challenge_desc_024_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3500
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.casual_show_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_ran_explore"
+  },
+  {
+    "id": "player_ran_explore_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 7500
+    },
+    "description": "localised_strings.challenge_desc_024_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 7500
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.casual_show_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_ran_explore"
+  },
+  {
+    "id": "player_ran_explore_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 5000
+    },
+    "description": "localised_strings.challenge_desc_024_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 5000
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.casual_show_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_ran_explore"
+  },
+  {
+    "id": "player_ran_knockout_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3500
+    },
+    "description": "localised_strings.challenge_desc_024_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3500
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_ran_knockout"
+  },
+  {
+    "id": "player_ran_knockout_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 7500
+    },
+    "description": "localised_strings.challenge_desc_024_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 7500
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_ran_knockout"
+  },
+  {
+    "id": "player_ran_knockout_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 5000
+    },
+    "description": "localised_strings.challenge_desc_024_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 5000
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_ran_knockout"
+  },
+  {
+    "id": "player_ran_ranked_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3500
+    },
+    "description": "localised_strings.challenge_desc_024_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3500
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.ranked_show_knockout"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_ran_ranked"
+  },
+  {
+    "id": "player_ran_ranked_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 7500
+    },
+    "description": "localised_strings.challenge_desc_024_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 7500
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.ranked_show_knockout"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_ran_ranked"
+  },
+  {
+    "id": "player_ran_ranked_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 5000
+    },
+    "description": "localised_strings.challenge_desc_024_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 5000
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.ranked_show_knockout"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_ran_ranked"
+  },
+  {
+    "id": "player_ran_solos_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3500
+    },
+    "description": "localised_strings.challenge_desc_024_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3500
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_ran_solos"
+  },
+  {
+    "id": "player_ran_solos_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 7500
+    },
+    "description": "localised_strings.challenge_desc_024_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 7500
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_ran_solos"
+  },
+  {
+    "id": "player_ran_solos_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 5000
+    },
+    "description": "localised_strings.challenge_desc_024_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 5000
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_ran_solos"
+  },
+  {
+    "id": "player_ran_spotlight_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3500
+    },
+    "description": "localised_strings.challenge_desc_024_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3500
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.spotlight_mode_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_ran_spotlight"
+  },
+  {
+    "id": "player_ran_spotlight_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 7500
+    },
+    "description": "localised_strings.challenge_desc_024_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 7500
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.spotlight_mode_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_ran_spotlight"
+  },
+  {
+    "id": "player_ran_spotlight_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 5000
+    },
+    "description": "localised_strings.challenge_desc_024_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 5000
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.spotlight_mode_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_ran_spotlight"
+  },
+  {
+    "id": "player_ran_squads_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3500
+    },
+    "description": "localised_strings.challenge_desc_024_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3500
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_ran_squads"
+  },
+  {
+    "id": "player_ran_squads_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 7500
+    },
+    "description": "localised_strings.challenge_desc_024_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 7500
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_ran_squads"
+  },
+  {
+    "id": "player_ran_squads_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 5000
+    },
+    "description": "localised_strings.challenge_desc_024_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 5000
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "player_ran_squads"
   },
   {
     "id": "player_reach_round_2_le_stars_01_5",
@@ -11263,6 +14571,774 @@
     "player_action_id": "qualify_from_first_round_summer"
   },
   {
+    "id": "qualify_from_a_round_in_45s_any_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_qualify_time_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "numeric",
+        "numeric_value": 45
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_from_a_round_in_45s_any"
+  },
+  {
+    "id": "qualify_from_a_round_in_45s_any_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_qualify_time_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "numeric",
+        "numeric_value": 45
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_from_a_round_in_45s_any"
+  },
+  {
+    "id": "qualify_from_a_round_in_45s_duos_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_qualify_time_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "numeric",
+        "numeric_value": 45
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_from_a_round_in_45s_duos"
+  },
+  {
+    "id": "qualify_from_a_round_in_45s_duos_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_qualify_time_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "numeric",
+        "numeric_value": 45
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_from_a_round_in_45s_duos"
+  },
+  {
+    "id": "qualify_from_a_round_in_45s_explore_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_qualify_time_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "numeric",
+        "numeric_value": 45
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.casual_show_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_from_a_round_in_45s_explore"
+  },
+  {
+    "id": "qualify_from_a_round_in_45s_explore_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_qualify_time_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "numeric",
+        "numeric_value": 45
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.casual_show_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_from_a_round_in_45s_explore"
+  },
+  {
+    "id": "qualify_from_a_round_in_45s_knockout_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_qualify_time_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "numeric",
+        "numeric_value": 45
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_from_a_round_in_45s_knockout"
+  },
+  {
+    "id": "qualify_from_a_round_in_45s_knockout_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_qualify_time_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "numeric",
+        "numeric_value": 45
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_from_a_round_in_45s_knockout"
+  },
+  {
+    "id": "qualify_from_a_round_in_45s_ranked_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_qualify_time_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "numeric",
+        "numeric_value": 45
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.ranked_show_knockout"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_from_a_round_in_45s_ranked"
+  },
+  {
+    "id": "qualify_from_a_round_in_45s_ranked_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_qualify_time_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "numeric",
+        "numeric_value": 45
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.ranked_show_knockout"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_from_a_round_in_45s_ranked"
+  },
+  {
+    "id": "qualify_from_a_round_in_45s_solos_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_qualify_time_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "numeric",
+        "numeric_value": 45
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_from_a_round_in_45s_solos"
+  },
+  {
+    "id": "qualify_from_a_round_in_45s_solos_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_qualify_time_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "numeric",
+        "numeric_value": 45
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_from_a_round_in_45s_solos"
+  },
+  {
+    "id": "qualify_from_a_round_in_45s_spotlight_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_qualify_time_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "numeric",
+        "numeric_value": 45
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.spotlight_mode_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_from_a_round_in_45s_spotlight"
+  },
+  {
+    "id": "qualify_from_a_round_in_45s_spotlight_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_qualify_time_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "numeric",
+        "numeric_value": 45
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.spotlight_mode_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_from_a_round_in_45s_spotlight"
+  },
+  {
+    "id": "qualify_from_a_round_in_45s_squads_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_qualify_time_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "numeric",
+        "numeric_value": 45
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_from_a_round_in_45s_squads"
+  },
+  {
+    "id": "qualify_from_a_round_in_45s_squads_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_qualify_time_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "numeric",
+        "numeric_value": 45
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_from_a_round_in_45s_squads"
+  },
+  {
+    "id": "qualify_from_a_round_no_respawn_any_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_qualify_without_respawning_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_from_a_round_no_respawn_any"
+  },
+  {
+    "id": "qualify_from_a_round_no_respawn_any_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_qualify_without_respawning_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_from_a_round_no_respawn_any"
+  },
+  {
+    "id": "qualify_from_a_round_no_respawn_duos_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_qualify_without_respawning_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_from_a_round_no_respawn_duos"
+  },
+  {
+    "id": "qualify_from_a_round_no_respawn_duos_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_qualify_without_respawning_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_from_a_round_no_respawn_duos"
+  },
+  {
+    "id": "qualify_from_a_round_no_respawn_explore_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_qualify_without_respawning_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.casual_show_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_from_a_round_no_respawn_explore"
+  },
+  {
+    "id": "qualify_from_a_round_no_respawn_explore_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_qualify_without_respawning_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.casual_show_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_from_a_round_no_respawn_explore"
+  },
+  {
+    "id": "qualify_from_a_round_no_respawn_knockout_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_qualify_without_respawning_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_from_a_round_no_respawn_knockout"
+  },
+  {
+    "id": "qualify_from_a_round_no_respawn_knockout_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_qualify_without_respawning_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_from_a_round_no_respawn_knockout"
+  },
+  {
+    "id": "qualify_from_a_round_no_respawn_ranked_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_qualify_without_respawning_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.ranked_show_knockout"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_from_a_round_no_respawn_ranked"
+  },
+  {
+    "id": "qualify_from_a_round_no_respawn_ranked_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_qualify_without_respawning_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.ranked_show_knockout"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_from_a_round_no_respawn_ranked"
+  },
+  {
+    "id": "qualify_from_a_round_no_respawn_solos_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_qualify_without_respawning_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_from_a_round_no_respawn_solos"
+  },
+  {
+    "id": "qualify_from_a_round_no_respawn_solos_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_qualify_without_respawning_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_from_a_round_no_respawn_solos"
+  },
+  {
+    "id": "qualify_from_a_round_no_respawn_spotlight_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_qualify_without_respawning_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.spotlight_mode_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_from_a_round_no_respawn_spotlight"
+  },
+  {
+    "id": "qualify_from_a_round_no_respawn_spotlight_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_qualify_without_respawning_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.spotlight_mode_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_from_a_round_no_respawn_spotlight"
+  },
+  {
+    "id": "qualify_from_a_round_no_respawn_squads_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_qualify_without_respawning_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_from_a_round_no_respawn_squads"
+  },
+  {
+    "id": "qualify_from_a_round_no_respawn_squads_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_qualify_without_respawning_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_from_a_round_no_respawn_squads"
+  },
+  {
     "id": "qualify_from_rounds_anchovy",
     "target": {
       "type": "aggregate",
@@ -11397,6 +15473,666 @@
     ],
     "challenge_tags": [],
     "player_action_id": "qualify_in_45_seconds_walnut"
+  },
+  {
+    "id": "qualify_r1_duos_common",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_004_round_index",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 1
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_r1_duos"
+  },
+  {
+    "id": "qualify_r1_duos_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_004_round_index",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 1
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_r1_duos"
+  },
+  {
+    "id": "qualify_r1_duos_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_004_round_index",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 1
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_r1_duos"
+  },
+  {
+    "id": "qualify_r1_knockout_common",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_004_round_index",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 1
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_r1_knockout"
+  },
+  {
+    "id": "qualify_r1_knockout_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_004_round_index",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 1
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_r1_knockout"
+  },
+  {
+    "id": "qualify_r1_knockout_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_004_round_index",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 1
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_r1_knockout"
+  },
+  {
+    "id": "qualify_r1_ranked_common",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_004_round_index",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 1
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.ranked_show_knockout"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_r1_ranked"
+  },
+  {
+    "id": "qualify_r1_ranked_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_004_round_index",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 1
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.ranked_show_knockout"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_r1_ranked"
+  },
+  {
+    "id": "qualify_r1_ranked_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_004_round_index",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 1
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.ranked_show_knockout"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_r1_ranked"
+  },
+  {
+    "id": "qualify_r1_solos_common",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_004_round_index",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 1
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_r1_solos"
+  },
+  {
+    "id": "qualify_r1_solos_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_004_round_index",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 1
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_r1_solos"
+  },
+  {
+    "id": "qualify_r1_solos_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_004_round_index",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 1
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_r1_solos"
+  },
+  {
+    "id": "qualify_r1_squads_common",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_004_round_index",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 1
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_r1_squads"
+  },
+  {
+    "id": "qualify_r1_squads_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_004_round_index",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 1
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_r1_squads"
+  },
+  {
+    "id": "qualify_r1_squads_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_004_round_index",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 1
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_r1_squads"
+  },
+  {
+    "id": "qualify_r2_duos_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_004_round_index",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 2
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_r2_duos"
+  },
+  {
+    "id": "qualify_r2_duos_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_004_round_index",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 2
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_r2_duos"
+  },
+  {
+    "id": "qualify_r2_knockout_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_004_round_index",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 2
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_r2_knockout"
+  },
+  {
+    "id": "qualify_r2_knockout_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_004_round_index",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 2
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_r2_knockout"
+  },
+  {
+    "id": "qualify_r2_ranked_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_004_round_index",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 2
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.ranked_show_knockout"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_r2_ranked"
+  },
+  {
+    "id": "qualify_r2_ranked_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_004_round_index",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 2
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.ranked_show_knockout"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_r2_ranked"
+  },
+  {
+    "id": "qualify_r2_solos_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_004_round_index",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 2
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_r2_solos"
+  },
+  {
+    "id": "qualify_r2_solos_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_004_round_index",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 2
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_r2_solos"
+  },
+  {
+    "id": "qualify_r2_squads_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_004_round_index",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 2
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_r2_squads"
+  },
+  {
+    "id": "qualify_r2_squads_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_004_round_index",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 2
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_r2_squads"
+  },
+  {
+    "id": "qualify_r3_duos_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_004_round_index",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_r3_duos"
+  },
+  {
+    "id": "qualify_r3_knockout_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_004_round_index",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_r3_knockout"
+  },
+  {
+    "id": "qualify_r3_ranked_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_004_round_index",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.ranked_show_knockout"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_r3_ranked"
+  },
+  {
+    "id": "qualify_r3_solos_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_004_round_index",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_r3_solos"
+  },
+  {
+    "id": "qualify_r3_squads_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_004_round_index",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "qualify_r3_squads"
   },
   {
     "id": "qualify_race_10_rounds",
@@ -11978,6 +16714,24 @@
     "player_action_id": "reach_final_round_duos"
   },
   {
+    "id": "reach_final_round_duos_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_031",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "reach_final_round_classic_duos"
+  },
+  {
     "id": "reach_final_round_duos_s6_glizzy01",
     "target": {
       "type": "last_value",
@@ -12059,6 +16813,24 @@
     ],
     "challenge_tags": [],
     "player_action_id": "reach_final_round_jungle"
+  },
+  {
+    "id": "reach_final_round_knockout_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_031",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "reach_final_round_knockout"
   },
   {
     "id": "reach_final_round_le_stars_01_2",
@@ -12143,6 +16915,24 @@
     "player_action_id": "reach_final_round_nature_ltm"
   },
   {
+    "id": "reach_final_round_ranked_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_031",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.ranked_show_knockout"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "reach_final_round_ranked"
+  },
+  {
     "id": "reach_final_round_solos",
     "target": {
       "type": "aggregate",
@@ -12158,6 +16948,24 @@
     ],
     "challenge_tags": [],
     "player_action_id": "reach_final_round_solos"
+  },
+  {
+    "id": "reach_final_round_solos_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_031",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "reach_final_round_classic_solos"
   },
   {
     "id": "reach_final_round_solos_ss1_idol_games",
@@ -12242,6 +17050,24 @@
     ],
     "challenge_tags": [],
     "player_action_id": "reach_final_round_squads4"
+  },
+  {
+    "id": "reach_final_round_squads_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_031",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "reach_final_round_classic_squads"
   },
   {
     "id": "reach_final_round_squads_ss1_idol_games",
@@ -12459,6 +17285,72 @@
     "player_action_id": "reach_round_2_clan_of_yeetus"
   },
   {
+    "id": "reach_round_2_duos_common",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 2
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "reach_round_2_classic_duos"
+  },
+  {
+    "id": "reach_round_2_duos_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 2
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "reach_round_2_classic_duos"
+  },
+  {
+    "id": "reach_round_2_duos_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 2
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "reach_round_2_classic_duos"
+  },
+  {
     "id": "reach_round_2_hw_slime_climb_3",
     "target": {
       "type": "aggregate",
@@ -12519,6 +17411,72 @@
     "player_action_id": "reach_round_2_jungle"
   },
   {
+    "id": "reach_round_2_knockout_common",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 2
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "reach_round_2_knockout"
+  },
+  {
+    "id": "reach_round_2_knockout_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 2
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "reach_round_2_knockout"
+  },
+  {
+    "id": "reach_round_2_knockout_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 2
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "reach_round_2_knockout"
+  },
+  {
     "id": "reach_round_2_newyears6",
     "target": {
       "type": "aggregate",
@@ -12539,6 +17497,138 @@
     "player_action_id": "reach_round_2_newyears6"
   },
   {
+    "id": "reach_round_2_ranked_common",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 2
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.ranked_show_knockout"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "reach_round_2_ranked"
+  },
+  {
+    "id": "reach_round_2_ranked_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 2
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.ranked_show_knockout"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "reach_round_2_ranked"
+  },
+  {
+    "id": "reach_round_2_ranked_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 2
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.ranked_show_knockout"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "reach_round_2_ranked"
+  },
+  {
+    "id": "reach_round_2_solos_common",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 2
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "reach_round_2_solos"
+  },
+  {
+    "id": "reach_round_2_solos_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 2
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "reach_round_2_solos"
+  },
+  {
+    "id": "reach_round_2_solos_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 2
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "reach_round_2_solos"
+  },
+  {
     "id": "reach_round_2_squads4",
     "target": {
       "type": "aggregate",
@@ -12557,6 +17647,72 @@
     ],
     "challenge_tags": [],
     "player_action_id": "reach_round_2_squads4"
+  },
+  {
+    "id": "reach_round_2_squads_common",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 2
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "reach_round_2_classic_squads"
+  },
+  {
+    "id": "reach_round_2_squads_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 2
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "reach_round_2_classic_squads"
+  },
+  {
+    "id": "reach_round_2_squads_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 2
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "reach_round_2_classic_squads"
   },
   {
     "id": "reach_round_2_trios",
@@ -12756,6 +17912,50 @@
     "player_action_id": "reach_round_3_duos"
   },
   {
+    "id": "reach_round_3_duos_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "reach_round_3_classic_duos"
+  },
+  {
+    "id": "reach_round_3_duos_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "reach_round_3_classic_duos"
+  },
+  {
     "id": "reach_round_3_in_fall_guys_fiesta_4_times",
     "target": {
       "type": "aggregate",
@@ -12814,6 +18014,182 @@
     ],
     "challenge_tags": [],
     "player_action_id": "reach_round_3_jungle"
+  },
+  {
+    "id": "reach_round_3_knockout_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "reach_round_3_knockout_mode"
+  },
+  {
+    "id": "reach_round_3_knockout_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "reach_round_3_knockout_mode"
+  },
+  {
+    "id": "reach_round_3_ranked_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.ranked_show_knockout"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "reach_round_3_ranked"
+  },
+  {
+    "id": "reach_round_3_ranked_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.ranked_show_knockout"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "reach_round_3_ranked"
+  },
+  {
+    "id": "reach_round_3_solos_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "reach_round_3_solos"
+  },
+  {
+    "id": "reach_round_3_solos_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "reach_round_3_solos"
+  },
+  {
+    "id": "reach_round_3_squads_rare",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "reach_round_3_squads"
+  },
+  {
+    "id": "reach_round_3_squads_uncommon",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_023_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "reach_round_3_squads"
   },
   {
     "id": "reach_round_3_ss1_launch_any_show",
@@ -15658,6 +21034,72 @@
     "player_action_id": "top_speed_clan_of_yeetus"
   },
   {
+    "id": "use_emoticons_any_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_emoticon_any",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "use_emoticons_any"
+  },
+  {
+    "id": "use_emoticons_duos_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_emoticon_any",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "use_emoticons_duos"
+  },
+  {
+    "id": "use_emoticons_explore_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_emoticon_any",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.casual_show_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "use_emoticons_explore"
+  },
+  {
     "id": "use_emoticons_fp17_showcase",
     "target": {
       "type": "aggregate",
@@ -15679,6 +21121,138 @@
     "player_action_id": "use_emoticons_fp17_showcase"
   },
   {
+    "id": "use_emoticons_knockout_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_emoticon_any",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "use_emoticons_knockout"
+  },
+  {
+    "id": "use_emoticons_ranked_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_emoticon_any",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.ranked_show_knockout"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "use_emoticons_ranked"
+  },
+  {
+    "id": "use_emoticons_solos_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_emoticon_any",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "use_emoticons_solos"
+  },
+  {
+    "id": "use_emoticons_spotlight_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_emoticon_any",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.spotlight_mode_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "use_emoticons_spotlight"
+  },
+  {
+    "id": "use_emoticons_squads_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_emoticon_any",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "use_emoticons_squads"
+  },
+  {
+    "id": "use_phrases_any_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_phrase_any",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "use_phrases_any"
+  },
+  {
     "id": "use_phrases_duos",
     "target": {
       "type": "aggregate",
@@ -15698,6 +21272,160 @@
     ],
     "challenge_tags": [],
     "player_action_id": "use_phrases_duos"
+  },
+  {
+    "id": "use_phrases_duos_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_phrase_any",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_duos_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "use_phrases_duos"
+  },
+  {
+    "id": "use_phrases_explore_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_phrase_any",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.casual_show_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "use_phrases_explore"
+  },
+  {
+    "id": "use_phrases_knockout_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_phrase_any",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.mode_knockout_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "use_phrases_knockout"
+  },
+  {
+    "id": "use_phrases_ranked_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_phrase_any",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.ranked_show_knockout"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "use_phrases_ranked"
+  },
+  {
+    "id": "use_phrases_solos_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_phrase_any",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "use_phrases_solos"
+  },
+  {
+    "id": "use_phrases_spotlight_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_phrase_any",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.spotlight_mode_title"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "use_phrases_spotlight"
+  },
+  {
+    "id": "use_phrases_squads_common",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_phrase_any",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_squad_show"
+      }
+    ],
+    "challenge_tags": [
+      "daily_challenge"
+    ],
+    "player_action_id": "use_phrases_squads"
   },
   {
     "id": "use_solo_victoria",
@@ -19144,6 +24872,22 @@
     "player_action_id": "win_fp17_showcase_or_duos"
   },
   {
+    "id": "win_fp18_showcase_01",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.fp18_showcase_title"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "win_fp18_showcase"
+  },
+  {
     "id": "win_hexathon",
     "target": {
       "type": "aggregate",
@@ -19700,6 +25444,38 @@
     "player_action_id": "win_invisibeans_pistachio"
   },
   {
+    "id": "win_ranked_knockout_april_fools_03",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.ranked_show_knockout"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "win_ranked_knockout"
+  },
+  {
+    "id": "win_ranked_knockout_april_fools_05",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.ranked_show_knockout"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "win_ranked_knockout"
+  },
+  {
     "id": "win_roll_call_ltm_01",
     "target": {
       "type": "aggregate",
@@ -19960,6 +25736,38 @@
     ],
     "challenge_tags": [],
     "player_action_id": "win_snowday_stumble"
+  },
+  {
+    "id": "win_solos_april_fools_03",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "win_solos"
+  },
+  {
+    "id": "win_solos_april_fools_05",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_show_title_solo_show"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "win_solos"
   },
   {
     "id": "win_solos_ss1_idol_games",

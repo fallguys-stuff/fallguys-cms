@@ -479,6 +479,203 @@
     "reward_icon_image": "icon_liveevent_token_valentines_2025_heart"
   },
   {
+    "id": "fp18_le_april_fools",
+    "title": "localised_strings.le_fp18_april_fools_title",
+    "description": "localised_strings.le_fp18_april_fools_desc",
+    "target_ids": [
+      "target_fp18_le_april_fools"
+    ],
+    "challenges": [
+      {
+        "xp_awarded": 100,
+        "goal_description_locked": {
+          "template_parameters": []
+        },
+        "unlock_conditions": [],
+        "goal_id": "event_april_fools_01"
+      },
+      {
+        "xp_awarded": 100,
+        "goal_description_locked": {
+          "template_parameters": []
+        },
+        "unlock_conditions": [],
+        "goal_id": "event_april_fools_02"
+      },
+      {
+        "xp_awarded": 100,
+        "goal_description_locked": {
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "event_fp18_april_fools_01"
+            }
+          ],
+          "template": "challenge_unlock_multiple_of_a_type"
+        },
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_april_fools_01"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_april_fools_02"
+          }
+        ],
+        "goal_id": "event_april_fools_03",
+        "goal_title_locked": "challenge_locked"
+      },
+      {
+        "xp_awarded": 100,
+        "goal_description_locked": {
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "event_fp18_april_fools_01"
+            }
+          ],
+          "template": "challenge_unlock_multiple_of_a_type"
+        },
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_april_fools_01"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_april_fools_02"
+          }
+        ],
+        "goal_id": "event_april_fools_04",
+        "goal_title_locked": "challenge_locked"
+      },
+      {
+        "xp_awarded": 100,
+        "goal_description_locked": {
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "event_fp18_april_fools_02"
+            }
+          ],
+          "template": "challenge_unlock_multiple_of_a_type"
+        },
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_april_fools_03"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_april_fools_04"
+          }
+        ],
+        "goal_id": "event_april_fools_05",
+        "goal_title_locked": "challenge_locked"
+      },
+      {
+        "xp_awarded": 100,
+        "goal_description_locked": {
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "event_fp18_april_fools_02"
+            }
+          ],
+          "template": "challenge_unlock_multiple_of_a_type"
+        },
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_april_fools_03"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_april_fools_04"
+          }
+        ],
+        "goal_id": "event_april_fools_06",
+        "goal_title_locked": "challenge_locked"
+      },
+      {
+        "xp_awarded": 200,
+        "goal_description_locked": {
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "event_fp18_april_fools_03"
+            }
+          ],
+          "template": "challenge_unlock_multiple_of_a_type"
+        },
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_april_fools_05"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_april_fools_06"
+          }
+        ],
+        "goal_id": "event_april_fools_07",
+        "goal_title_locked": "challenge_locked"
+      },
+      {
+        "xp_awarded": 200,
+        "goal_description_locked": {
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "event_fp18_april_fools_03"
+            }
+          ],
+          "template": "challenge_unlock_multiple_of_a_type"
+        },
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_april_fools_05"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_april_fools_06"
+          }
+        ],
+        "goal_id": "event_april_fools_08",
+        "goal_title_locked": "challenge_locked"
+      }
+    ],
+    "milestones": [
+      {
+        "xp_required": 100,
+        "reward_id": "nickname_18_0_event_01"
+      },
+      {
+        "xp_required": 200,
+        "reward_id": "kudos_bonus_1000"
+      },
+      {
+        "xp_required": 400,
+        "reward_id": "nameplateui_s10_3_nameplate14"
+      },
+      {
+        "xp_required": 600,
+        "reward_id": "bottom_s11_6_smolfacerevisitone_01"
+      },
+      {
+        "xp_required": 800,
+        "reward_id": "top_s11_6_smolfacerevisitone_01"
+      }
+    ],
+    "ui_detail_colour": "colour.challenges_blue",
+    "tool_tip_image": "ui_liveevent_aprilfools2025tooltip_art",
+    "background_image": "gb_liveevent_aprilfools2025_bg",
+    "promotional_image": "promo_liveevent_aprilfools2025_character",
+    "reward_icon_image": "icon_liveevent_aprilfools2025_currency_icon"
+  },
+  {
     "id": "le_fp12_august",
     "title": "localised_strings.le_fp12_title_august",
     "description": "localised_strings.le_fp12_desc_august",

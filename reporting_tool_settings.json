@@ -16,8 +16,16 @@
   {
     "id": "dev_sentry_default",
     "is_enabled": true,
-    "error_sampling": 0.25,
-    "session_sampling": 1
+    "error_sampling": 0.5,
+    "session_sampling": 1,
+    "transaction_sampling": 0.25
+  },
+  {
+    "id": "dev_sentry_server",
+    "is_enabled": true,
+    "error_sampling": 0.5,
+    "session_sampling": 1,
+    "transaction_sampling": 0.25
   },
   {
     "id": "mterrormonitor_default",

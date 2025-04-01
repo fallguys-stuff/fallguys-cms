@@ -3,27 +3,10 @@
     "id": "casual_show_episode",
     "director": "levels_director.director_no_weightings",
     "roundpool": "levels_roundpool.casual_show_roundpool",
-    "bucket_override_roundpools": [
-      {
-        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_ftue",
-        "roundpool": "levels_roundpool.casual_show_ftue_collection"
-      },
-      {
-        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_lowest",
-        "roundpool": "levels_roundpool.casual_show_roundpool_low_bucket"
-      },
-      {
-        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_mid",
-        "roundpool": "levels_roundpool.casual_show_roundpool_mid_bucket"
-      },
-      {
-        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_high",
-        "roundpool": "levels_roundpool.casual_show_roundpool"
-      }
-    ],
     "debug_player_count_multiplier": 1,
     "fallback_round": "levels_round.round_gauntlet_01_40",
     "allow_toms": true,
+    "bucket_override_roundpools": [],
     "mode": "ultimate_party"
   },
   {
@@ -1137,6 +1120,16 @@
     "mode": "knockout"
   },
   {
+    "id": "episode_just_fraggle",
+    "director": "levels_director.director_simple",
+    "roundpool": "levels_roundpool.roundpool_just_fraggle",
+    "bucket_override_roundpools": [],
+    "debug_force_playing_single_round_only": true,
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_fraggle",
+    "mode": "discovery"
+  },
+  {
     "id": "episode_just_gauntlet_02_timeattack_final",
     "director": "levels_director.director_simple",
     "roundpool": "levels_roundpool.roundpool_just_gauntlet_02_timeattack_final",
@@ -1253,7 +1246,7 @@
   {
     "id": "episode_knockout_mode",
     "director": "levels_director.director_knockout_fp17",
-    "roundpool": "levels_roundpool.knockout_fp17_roundpool",
+    "roundpool": "levels_roundpool.ranked_show_cycle_1_roundpool",
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.knockout_fp10_final_1",
     "bucket_override_roundpools": [],
@@ -1376,6 +1369,15 @@
     "roundpool": "levels_roundpool.roundpool_pl_vaulted_show",
     "debug_player_count_multiplier": 7,
     "fallback_round": "levels_round.round_tunnel_final",
+    "bucket_override_roundpools": [],
+    "mode": "knockout"
+  },
+  {
+    "id": "episode_ranked_mode",
+    "director": "levels_director.director_ranked",
+    "roundpool": "levels_roundpool.ranked_show_cycle_1_roundpool",
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.ranked_hexagone_final",
     "bucket_override_roundpools": [],
     "mode": "knockout"
   },
@@ -1517,6 +1519,15 @@
     "roundpool": "levels_roundpool.roundpool_squads_collect_ss2_potoo",
     "debug_player_count_multiplier": 7,
     "fallback_round": "levels_round.round_fall_mountain_collectables_ss2_squads_potoo",
+    "bucket_override_roundpools": [],
+    "mode": "knockout"
+  },
+  {
+    "id": "episode_squads_knockout",
+    "director": "levels_director.director_classic_squads_show",
+    "roundpool": "levels_roundpool.roundpool_classic_squads_show_s11",
+    "debug_player_count_multiplier": 7,
+    "fallback_round": "levels_round.round_floor_fall_squads",
     "bucket_override_roundpools": [],
     "mode": "knockout"
   },
@@ -1681,6 +1692,15 @@
     "allow_toms": true,
     "bucket_override_roundpools": [],
     "mode": "ultimate_party"
+  },
+  {
+    "id": "fp18_showcase",
+    "director": "levels_director.director_fp18_showcase",
+    "roundpool": "levels_roundpool.fp18_showcase_roundpool",
+    "debug_player_count_multiplier": 7,
+    "fallback_round": "levels_round.showcase_bulletfallwoods",
+    "bucket_override_roundpools": [],
+    "mode": "knockout"
   },
   {
     "id": "fraggle_gamemode_gauntlet_template",

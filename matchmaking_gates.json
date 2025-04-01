@@ -32,7 +32,6 @@
   {
     "id": "casual_show",
     "min_match_size": 2,
-    "is_sbmm_enabled": true,
     "show_id": "casual_show",
     "crossplay_config": "default"
   },
@@ -45,21 +44,18 @@
   {
     "id": "classic_duo_show",
     "min_match_size": 28,
-    "is_sbmm_enabled": true,
     "show_id": "classic_duos_show",
     "crossplay_config": "default"
   },
   {
     "id": "classic_solos_show",
     "min_match_size": 28,
-    "is_sbmm_enabled": true,
     "show_id": "classic_solo_main_show",
     "crossplay_config": "default"
   },
   {
     "id": "classic_squads_show",
     "min_match_size": 28,
-    "is_sbmm_enabled": true,
     "show_id": "classic_squads_show",
     "crossplay_config": "default"
   },
@@ -101,7 +97,6 @@
   {
     "id": "duos_show",
     "min_match_size": 28,
-    "is_sbmm_enabled": true,
     "show_id": "squads_2player_template",
     "crossplay_config": "default"
   },
@@ -138,6 +133,12 @@
     "id": "finals_marathon",
     "min_match_size": 15,
     "show_id": "event_only_finals_v3_template",
+    "crossplay_config": "default"
+  },
+  {
+    "id": "fp18_showcase_ltm",
+    "min_match_size": 24,
+    "show_id": "showcase_fp18",
     "crossplay_config": "default"
   },
   {
@@ -185,7 +186,6 @@
   {
     "id": "knockout_mode",
     "min_match_size": 28,
-    "is_sbmm_enabled": true,
     "show_id": "knockout_mode",
     "crossplay_config": "default"
   },
@@ -286,6 +286,14 @@
     "crossplay_config": "default"
   },
   {
+    "id": "ranked_show_knockout",
+    "min_match_size": 28,
+    "is_sbmm_enabled": true,
+    "ranking_cycle_chainkey": "ranking_cycle_chainkeys.prototype_ranking_cycle_chainkey_knockout",
+    "show_id": "ranked_show_knockout",
+    "crossplay_config": "default"
+  },
+  {
     "id": "ring_hexathlon",
     "min_match_size": 12,
     "show_id": "event_only_hexaring_template",
@@ -359,7 +367,6 @@
   {
     "id": "solos_show",
     "min_match_size": 28,
-    "is_sbmm_enabled": true,
     "show_id": "main_show",
     "crossplay_config": "default"
   },
@@ -378,7 +385,6 @@
   {
     "id": "squads_show",
     "min_match_size": 28,
-    "is_sbmm_enabled": true,
     "show_id": "squads_4player",
     "crossplay_config": "default"
   },
@@ -445,7 +451,6 @@
   {
     "id": "timeattack_shuffle",
     "min_match_size": 1,
-    "is_sbmm_enabled": true,
     "show_id": "live_event_timeattack_shuffle",
     "crossplay_config": "default"
   },
@@ -488,42 +493,36 @@
   {
     "id": "turbo_2_show",
     "min_match_size": 31,
-    "is_sbmm_enabled": true,
     "show_id": "turbo_2_show",
     "crossplay_config": "default"
   },
   {
     "id": "turbo_show",
     "min_match_size": 31,
-    "is_sbmm_enabled": true,
     "show_id": "turbo_show",
     "crossplay_config": "default"
   },
   {
     "id": "ultimate_party_adventure",
     "min_match_size": 1,
-    "is_sbmm_enabled": true,
     "show_id": "ultimate_party_adventure",
     "crossplay_config": "default"
   },
   {
     "id": "ultimate_party_hangout",
     "min_match_size": 1,
-    "is_sbmm_enabled": true,
     "show_id": "ultimate_party_hangout",
     "crossplay_config": "default"
   },
   {
     "id": "ultimate_party_kaizo",
     "min_match_size": 1,
-    "is_sbmm_enabled": true,
     "show_id": "ultimate_party_kaizo",
     "crossplay_config": "default"
   },
   {
     "id": "ultimate_party_puzzle",
     "min_match_size": 1,
-    "is_sbmm_enabled": true,
     "show_id": "ultimate_party_puzzle",
     "crossplay_config": "default"
   },
@@ -560,7 +559,6 @@
   {
     "id": "wle_mrs_ugc_curated",
     "min_match_size": 28,
-    "is_sbmm_enabled": true,
     "show_id": "wle_mrs_ugc_curated",
     "crossplay_config": "default"
   },

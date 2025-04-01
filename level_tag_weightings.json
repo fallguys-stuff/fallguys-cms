@@ -430,6 +430,31 @@
     ]
   },
   {
+    "id": "fp18_showcase",
+    "tag_score": [
+      {
+        "tag": "level_tags.fp18_toughencounters_no_repeat",
+        "repeat_malus": 500,
+        "apply_bonus_when": {
+          "type": "after_stage",
+          "setting": {
+            "stage": 1
+          }
+        }
+      },
+      {
+        "tag": "level_tags.fp18_massiveonce_no_repeat",
+        "repeat_malus": 500,
+        "apply_bonus_when": {
+          "type": "after_stage",
+          "setting": {
+            "stage": 1
+          }
+        }
+      }
+    ]
+  },
+  {
     "id": "knockout_classic_duos",
     "tag_score": [
       {
@@ -1015,7 +1040,6 @@
       },
       {
         "tag": "level_tags.survival_round",
-        "bonus": 75,
         "repeat_malus": 150,
         "repeat_decay": 100,
         "apply_bonus_when": {
@@ -1033,7 +1057,6 @@
       },
       {
         "tag": "level_tags.hunt_round",
-        "bonus": 40,
         "repeat_malus": 75,
         "repeat_decay": 75,
         "apply_bonus_when": {
@@ -1050,15 +1073,6 @@
       {
         "tag": "level_tags.variety_increasing",
         "bonus": 50,
-        "apply_bonus_when": {
-          "type": "always"
-        }
-      },
-      {
-        "tag": "level_tags.fp14_halloween",
-        "bonus": 50,
-        "repeat_malus": 30,
-        "repeat_decay": 30,
         "apply_bonus_when": {
           "type": "always"
         }
@@ -1491,6 +1505,50 @@
       {
         "tag": "level_tags.unique_volleyfall",
         "repeat_malus": 5000,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      }
+    ]
+  },
+  {
+    "id": "ranked_weightings",
+    "tag_score": [
+      {
+        "tag": "level_tags.exclusive_spoke_jump",
+        "repeat_malus": 5000,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.exclusive_blastball",
+        "repeat_malus": 200,
+        "repeat_decay": 100,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.covenant_final",
+        "bonus": 1500,
+        "apply_bonus_when": {
+          "type": "after_stage",
+          "setting": {
+            "stage": 4
+          }
+        }
+      },
+      {
+        "tag": "level_tags.variety_decreasing",
+        "bonus": -50,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.variety_increasing",
+        "bonus": 50,
         "apply_bonus_when": {
           "type": "always"
         }

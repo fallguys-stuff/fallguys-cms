@@ -430,6 +430,15 @@
     "bucket_override_max_tom_rounds": []
   },
   {
+    "id": "director_fp18_showcase",
+    "select_rounds_once_only": true,
+    "ideal_player_count_weighting": 1,
+    "disqualification_score_mul": 1,
+    "tag_weighting": "level_tag_weightings.fp18_showcase",
+    "max_number_of_rounds_for_toms": 8,
+    "bucket_override_max_tom_rounds": []
+  },
+  {
     "id": "director_fraggle",
     "ideal_player_count_weighting": 1,
     "disqualification_score_mul": 1,
@@ -551,11 +560,20 @@
     "bucket_override_max_tom_rounds": []
   },
   {
+    "id": "director_ranked",
+    "select_rounds_once_only": true,
+    "ideal_player_count_weighting": 1,
+    "disqualification_score_mul": 1,
+    "tag_weighting": "level_tag_weightings.ranked_weightings",
+    "max_number_of_rounds_for_toms": 8,
+    "bucket_override_max_tom_rounds": []
+  },
+  {
     "id": "director_simple",
     "select_rounds_once_only": true,
     "ideal_player_count_weighting": 1,
-    "tag_weighting": "level_tag_weightings.tag_weightings_main_show",
     "disqualification_score_mul": 1,
+    "tag_weighting": "level_tag_weightings.tag_weightings_main_show",
     "max_number_of_rounds_for_toms": 2,
     "bucket_override_max_tom_rounds": []
   },

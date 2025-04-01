@@ -137,25 +137,26 @@
   },
   {
     "id": "fp11_newsfeed_bird",
-    "starts_at": "2024-11-21T13:00:00",
-    "ends_at": "2024-12-01T09:59:59",
+    "starts_at": "2025-04-12T10:00:00",
+    "ends_at": "2025-04-19T10:00:00",
     "pages": [
       {
         "header": "localised_strings.newsfeed_title_available_now",
         "title": "localised_strings.newsfeed_bird_title",
         "message": "localised_strings.newsfeed_bird_desc",
         "deeplink_data": {
-          "deeplink_type": null
+          "deeplink_type": "store",
+          "store_group": "bundle_grabbag_s11_ip_bluebird"
         },
         "ends_at": "localised_strings.newsfeed_date",
         "ends_at_description": [
           {
             "type": "localised",
-            "localised_value": "localised_strings.newsfeed_fourth"
+            "localised_value": "localised_strings.newsfeed_eighteenth"
           },
           {
             "type": "localised",
-            "localised_value": "localised_strings.month_december"
+            "localised_value": "localised_strings.month_april"
           }
         ],
         "starts_at_description": [],
@@ -165,7 +166,7 @@
     "target_ids": [
       "after_prime_global_launch"
     ],
-    "priority": 50
+    "priority": 25
   },
   {
     "id": "fp12_anniversary_newsfeed",
@@ -807,8 +808,8 @@
   },
   {
     "id": "fp16_woodlark",
-    "starts_at": "2025-02-08T13:00:00",
-    "ends_at": "2025-02-15T09:59:00",
+    "starts_at": "2025-04-29T10:00:00",
+    "ends_at": "2025-05-06T10:00:00",
     "pages": [
       {
         "title": "localised_strings.newsfeed_woodlark_title",
@@ -822,11 +823,11 @@
         "ends_at_description": [
           {
             "type": "localised",
-            "localised_value": "localised_strings.newsfeed_fourteenth"
+            "localised_value": "localised_strings.newsfeed_fifth"
           },
           {
             "type": "localised",
-            "localised_value": "localised_strings.month_february"
+            "localised_value": "localised_strings.month_may"
           }
         ],
         "starts_at_description": [],
@@ -836,7 +837,7 @@
     "target_ids": [
       "after_prime_global_launch"
     ],
-    "priority": 45
+    "priority": 60
   },
   {
     "id": "fp17_badge_teaser",
@@ -1032,6 +1033,150 @@
         ],
         "starts_at_description": [],
         "image": "bg_newsfeed_cupidvalentinesdayevent"
+      }
+    ],
+    "target_ids": [
+      "after_prime_global_launch"
+    ]
+  },
+  {
+    "id": "fp18_april_fools_event",
+    "starts_at": "2025-04-01T11:00:00",
+    "ends_at": "2025-04-22T09:00:00",
+    "priority": 95,
+    "pages": [
+      {
+        "header": "localised_strings.newsfeed_title_available_now",
+        "title": "localised_strings.newsfeed_fp18_april_fools_event_title",
+        "message": "localised_strings.newsfeed_fp18_april_fools_event_desc",
+        "ends_at": "localised_strings.newsfeed_date",
+        "deeplink_data": {
+          "deeplink_type": "live_event"
+        },
+        "ends_at_description": [
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.newsfeed_twentyfirst"
+          },
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.month_april"
+          }
+        ],
+        "starts_at_description": [],
+        "image": "bg_newsfeed_fg_aprilfools_event"
+      }
+    ],
+    "target_ids": [
+      "after_prime_global_launch"
+    ]
+  },
+  {
+    "id": "fp18_last_chance_newsfeed",
+    "starts_at": "2025-05-20T12:00:00",
+    "ends_at": "2025-05-27T11:59:59",
+    "pages": [
+      {
+        "title": "localised_strings.fp_title_18",
+        "message": "localised_strings.newsfeed_famepass_18_lastchance_desc",
+        "deeplink_data": {
+          "deeplink_type": "season_pass",
+          "season_pass_page": "upsell"
+        },
+        "ends_at": "localised_strings.newsfeed_date",
+        "header": "localised_strings.newsfeed_title_last_chance",
+        "ends_at_description": [
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.newsfeed_twentysixth"
+          },
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.month_may"
+          }
+        ],
+        "starts_at_description": [],
+        "image": "bg_newsfeed_s11_fp18_seasonpass_16x9"
+      }
+    ],
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "priority": 90
+  },
+  {
+    "id": "fp18_live_newsfeed",
+    "starts_at": "2025-04-01T12:00:00",
+    "ends_at": "2025-04-08T11:59:59",
+    "pages": [
+      {
+        "title": "localised_strings.fp_title_18",
+        "message": "localised_strings.newsfeed_famepass_18_available_desc",
+        "deeplink_data": {
+          "deeplink_type": "season_pass",
+          "season_pass_page": "upsell"
+        },
+        "ends_at": "localised_strings.newsfeed_date",
+        "header": "localised_strings.newsfeed_header_new_famepass",
+        "ends_at_description": [
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.newsfeed_twentysixth"
+          },
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.month_may"
+          }
+        ],
+        "starts_at_description": [],
+        "image": "bg_newsfeed_s11_fp18_seasonpass_16x9"
+      }
+    ],
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "priority": 90
+  },
+  {
+    "id": "fp18_ranked_live",
+    "starts_at": "2025-04-01T12:00:00",
+    "ends_at": "2025-05-27T11:59:59",
+    "priority": 98,
+    "pages": [
+      {
+        "header": "localised_strings.newsfeed_title_available_now",
+        "title": "localised_strings.newsfeed_badge_launch_title",
+        "message": "localised_strings.newsfeed_badge_launch_desc",
+        "deeplink_data": {
+          "deeplink_type": "show_selector_main",
+          "show_selector_id": "ranked_show_knockout"
+        },
+        "starts_at_description": [],
+        "ends_at_description": [],
+        "image": "bg_newsfeed_rankedko_newsfeed"
+      }
+    ],
+    "target_ids": [
+      "after_prime_global_launch"
+    ]
+  },
+  {
+    "id": "fp18_update_live",
+    "starts_at": "2025-04-01T10:00:00",
+    "ends_at": "2025-04-15T09:00:00",
+    "priority": 85,
+    "pages": [
+      {
+        "header": "localised_strings.newsfeed_title_available_now",
+        "title": "localised_strings.newsfeed_18_0_title",
+        "message": "localised_strings.newsfeed_18_0_desc",
+        "deeplink_data": {
+          "deeplink_type": "show_selector_main",
+          "show_selector_id": "ranked_show_knockout"
+        },
+        "starts_at_description": [],
+        "ends_at_description": [],
+        "image": "bg_newsfeed_woodlandwonders"
       }
     ],
     "target_ids": [
@@ -2135,11 +2280,10 @@
   },
   {
     "id": "newsfeed_budgie_evergreen",
-    "starts_at": "2025-02-20T13:00:00",
-    "ends_at": "2025-02-27T09:59:59",
+    "starts_at": "2025-04-01T10:00:00",
+    "ends_at": "2025-04-08T10:00:00",
     "pages": [
       {
-        "header": "localised_strings.newsfeed_title_available_now",
         "title": "localised_strings.newsfeed_budgie06_title",
         "message": "localised_strings.newsfeed_budgie06_desc",
         "deeplink_data": {
@@ -2147,14 +2291,15 @@
           "store_group": "bundle_ss1_budgie_02"
         },
         "ends_at": "localised_strings.newsfeed_date",
+        "header": "localised_strings.newsfeed_title_available_now",
         "ends_at_description": [
           {
             "type": "localised",
-            "localised_value": "localised_strings.newsfeed_twentysixth"
+            "localised_value": "localised_strings.newsfeed_fourteenth"
           },
           {
             "type": "localised",
-            "localised_value": "localised_strings.month_february"
+            "localised_value": "localised_strings.month_april"
           }
         ],
         "starts_at_description": [],
@@ -2164,7 +2309,7 @@
     "target_ids": [
       "after_prime_global_launch"
     ],
-    "priority": 55
+    "priority": 10
   },
   {
     "id": "newsfeed_buzzard",
@@ -2201,11 +2346,10 @@
   },
   {
     "id": "newsfeed_cardinal_evergreen",
-    "starts_at": "2025-02-25T13:00:00",
-    "ends_at": "2025-03-04T09:59:59",
+    "starts_at": "2025-04-05T10:00:00",
+    "ends_at": "2025-04-12T10:00:00",
     "pages": [
       {
-        "header": "localised_strings.newsfeed_title_available_now",
         "title": "localised_strings.newsfeed_fp4_cardinal_title",
         "message": "localised_strings.newsfeed_fp4_cardinal_body",
         "deeplink_data": {
@@ -2213,14 +2357,15 @@
           "store_group": "bundle_2x2_costumeset_event_cardinal_01"
         },
         "ends_at": "localised_strings.newsfeed_date",
+        "header": "localised_strings.newsfeed_title_available_now",
         "ends_at_description": [
           {
             "type": "localised",
-            "localised_value": "localised_strings.newsfeed_third"
+            "localised_value": "localised_strings.newsfeed_eleventh"
           },
           {
             "type": "localised",
-            "localised_value": "localised_strings.month_march"
+            "localised_value": "localised_strings.month_april"
           }
         ],
         "starts_at_description": [],
@@ -2230,7 +2375,7 @@
     "target_ids": [
       "after_prime_global_launch"
     ],
-    "priority": 65
+    "priority": 15
   },
   {
     "id": "newsfeed_chaffinch",
@@ -2859,42 +3004,42 @@
   },
   {
     "id": "newsfeed_grouse_evergreen",
-    "starts_at": "2025-01-28T13:00:00",
-    "ends_at": "2025-02-04T09:59:00",
-    "priority": 65,
+    "starts_at": "2025-04-15T10:00:00",
+    "ends_at": "2025-04-22T10:00:00",
     "pages": [
       {
-        "header": "localised_strings.newsfeed_title_available_now",
         "title": "localised_strings.newsfeed_s9_grouse_title",
         "message": "localised_strings.newsfeed_s9_grouse_body",
-        "ends_at": "localised_strings.newsfeed_date",
-        "ends_at_description": [
-          {
-            "type": "localised",
-            "localised_value": "localised_strings.newsfeed_third"
-          },
-          {
-            "type": "localised",
-            "localised_value": "localised_strings.month_february"
-          }
-        ],
         "deeplink_data": {
           "deeplink_type": "store",
           "store_group": "bundle_grabbag_grouse_01"
         },
+        "ends_at": "localised_strings.newsfeed_date",
+        "header": "localised_strings.newsfeed_title_available_now",
+        "ends_at_description": [
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.newsfeed_twentyfirst"
+          },
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.month_april"
+          }
+        ],
         "starts_at_description": [],
         "image": "newsfeed_ui_grouse"
       }
     ],
     "target_ids": [
       "after_prime_global_launch"
-    ]
+    ],
+    "priority": 30
   },
   {
     "id": "newsfeed_gul",
-    "starts_at": "2025-02-27T13:00:00",
-    "ends_at": "2025-03-06T09:59:59",
-    "priority": 70,
+    "starts_at": "2025-04-26T10:00:00",
+    "ends_at": "2025-05-03T10:00:00",
+    "priority": 55,
     "pages": [
       {
         "header": "localised_strings.newsfeed_title_available_now",
@@ -2908,11 +3053,11 @@
         "ends_at_description": [
           {
             "type": "localised",
-            "localised_value": "localised_strings.newsfeed_fifth"
+            "localised_value": "localised_strings.newsfeed_second"
           },
           {
             "type": "localised",
-            "localised_value": "localised_strings.month_march"
+            "localised_value": "localised_strings.month_may"
           }
         ],
         "starts_at_description": [],
@@ -3012,26 +3157,36 @@
   },
   {
     "id": "newsfeed_lark_evergreen",
-    "starts_at": "2024-10-06T13:00:00",
-    "ends_at": "2024-10-08T09:59:59",
-    "priority": 89,
+    "starts_at": "2025-04-08T10:00:00",
+    "ends_at": "2025-04-15T10:00:00",
     "pages": [
       {
-        "header": "localised_strings.newsfeed_title_available_now",
         "title": "localised_strings.newsfeed_ss1_lark_title",
         "message": "localised_strings.newsfeed_ss1_lark_live",
-        "starts_at_description": [],
-        "ends_at_description": [],
         "deeplink_data": {
           "deeplink_type": "store",
           "store_group": "bundle_ss1_lark_01"
         },
+        "ends_at": "localised_strings.newsfeed_date",
+        "header": "localised_strings.newsfeed_title_available_now",
+        "ends_at_description": [
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.newsfeed_fourteenth"
+          },
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.month_april"
+          }
+        ],
+        "starts_at_description": [],
         "image": "newsfeed_ui_lark"
       }
     ],
     "target_ids": [
       "after_prime_global_launch"
-    ]
+    ],
+    "priority": 20
   },
   {
     "id": "newsfeed_luckydragon",
@@ -3167,25 +3322,36 @@
   },
   {
     "id": "newsfeed_nighthawk_evergreen",
-    "starts_at": "2024-09-21T13:00:00",
-    "ends_at": "2024-09-24T09:00:00",
-    "priority": 75,
+    "starts_at": "2025-04-22T10:00:00",
+    "ends_at": "2025-04-29T10:00:00",
     "pages": [
       {
-        "header": "localised_strings.newsfeed_title_available_now",
         "title": "localised_strings.newsfeed_s10_nighthawk_title",
         "message": "localised_strings.newsfeed_s10_nighthawk_body_1",
-        "starts_at_description": [],
-        "ends_at_description": [],
         "deeplink_data": {
-          "deeplink_type": "store"
+          "deeplink_type": "store",
+          "store_group": "bundle_duo_nighthawk"
         },
+        "ends_at": "localised_strings.newsfeed_date",
+        "header": "localised_strings.newsfeed_title_available_now",
+        "ends_at_description": [
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.newsfeed_twentyeighth"
+          },
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.month_april"
+          }
+        ],
+        "starts_at_description": [],
         "image": "newsfeed_nighthawk_image"
       }
     ],
     "target_ids": [
       "after_prime_global_launch"
-    ]
+    ],
+    "priority": 45
   },
   {
     "id": "newsfeed_osprey_evergreen",
@@ -4040,6 +4206,39 @@
     ]
   },
   {
+    "id": "newsfeed_sandpiper",
+    "starts_at": "2025-04-11T13:00:00",
+    "ends_at": "2025-04-25T09:59:59",
+    "priority": 97,
+    "pages": [
+      {
+        "header": "localised_strings.newsfeed_title_available_now",
+        "title": "localised_strings.newsfeed_chaffinch_title",
+        "message": "localised_strings.newsfeed_sandpiper_desc",
+        "deeplink_data": {
+          "deeplink_type": "store",
+          "store_group": "bundle_grabbag_ip_sandpiper"
+        },
+        "ends_at": "localised_strings.newsfeed_date",
+        "ends_at_description": [
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.newsfeed_twentyfourth"
+          },
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.month_april"
+          }
+        ],
+        "starts_at_description": [],
+        "image": "bg_newsfeed_fg_sandpiper"
+      }
+    ],
+    "target_ids": [
+      "after_prime_global_launch"
+    ]
+  },
+  {
     "id": "newsfeed_shuffle_round",
     "starts_at": "2023-10-10T13:00:00",
     "ends_at": "2023-10-24T09:00:00",
@@ -4216,8 +4415,8 @@
   },
   {
     "id": "newsfeed_starling_evergreen",
-    "starts_at": "2025-03-20T10:00:00",
-    "ends_at": "2025-03-24T10:00:00",
+    "starts_at": "2025-04-17T10:00:00",
+    "ends_at": "2025-04-24T10:00:00",
     "pages": [
       {
         "title": "localised_strings.newsfeed_s10_starling_title",
@@ -4235,7 +4434,7 @@
           },
           {
             "type": "localised",
-            "localised_value": "localised_strings.month_march"
+            "localised_value": "localised_strings.month_april"
           }
         ],
         "starts_at_description": [],
@@ -4245,32 +4444,32 @@
     "target_ids": [
       "after_prime_global_launch"
     ],
-    "priority": 85
+    "priority": 35
   },
   {
     "id": "newsfeed_sunbird_evergreen",
-    "starts_at": "2025-03-01T10:00:00",
-    "ends_at": "2025-03-08T09:59:59",
+    "starts_at": "2025-04-19T10:00:00",
+    "ends_at": "2025-04-26T10:00:00",
     "pages": [
       {
-        "header": "localised_strings.newsfeed_title_available_now",
         "title": "localised_strings.newsfeed_fp5_sunbird_title",
         "message": "localised_strings.newsfeed_fp5_sunbird_body",
-        "ends_at": "localised_strings.newsfeed_date",
-        "ends_at_description": [
-          {
-            "type": "localised",
-            "localised_value": "localised_strings.newsfeed_seventh"
-          },
-          {
-            "type": "localised",
-            "localised_value": "localised_strings.month_march"
-          }
-        ],
         "deeplink_data": {
           "deeplink_type": "store",
           "store_group": "bundle_grabbag_sunbird01"
         },
+        "ends_at": "localised_strings.newsfeed_date",
+        "header": "localised_strings.newsfeed_title_available_now",
+        "ends_at_description": [
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.newsfeed_twentyfifth"
+          },
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.month_april"
+          }
+        ],
         "starts_at_description": [],
         "image": "newsfeed_sunbird_image"
       }
@@ -4278,7 +4477,7 @@
     "target_ids": [
       "after_prime_global_launch"
     ],
-    "priority": 75
+    "priority": 40
   },
   {
     "id": "newsfeed_swan_evergreen",
@@ -4359,8 +4558,8 @@
   },
   {
     "id": "newsfeed_turkey_evergreen",
-    "starts_at": "2025-03-13T10:00:00",
-    "ends_at": "2025-03-16T10:00:00",
+    "starts_at": "2025-04-24T10:00:00",
+    "ends_at": "2025-04-28T10:00:00",
     "pages": [
       {
         "title": "localised_strings.newsfeed_s9_turkey_title",
@@ -4374,11 +4573,11 @@
         "ends_at_description": [
           {
             "type": "localised",
-            "localised_value": "localised_strings.newsfeed_fifteenth"
+            "localised_value": "localised_strings.newsfeed_twentyseventh"
           },
           {
             "type": "localised",
-            "localised_value": "localised_strings.month_march"
+            "localised_value": "localised_strings.month_april"
           }
         ],
         "starts_at_description": [],
@@ -4388,7 +4587,7 @@
     "target_ids": [
       "after_prime_global_launch"
     ],
-    "priority": 80
+    "priority": 50
   },
   {
     "id": "newsfeed_turkey_evergreen_2",
