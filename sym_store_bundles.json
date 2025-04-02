@@ -18680,6 +18680,62 @@
     "ribbon_label_text": "storelabel_discount_primos"
   },
   {
+    "id": "bundle_costumeset_s18_ip_quail01",
+    "has_stock": true,
+    "stock": 2,
+    "bundle_type": {
+      "bundle_type": "costume_set",
+      "purchase_options": {
+        "type": "currencies",
+        "item_id": "gems"
+      },
+      "cosmetics": [
+        {
+          "type": "costume_sets",
+          "item_id": "bundle_costumeset_s18_ip_quail01"
+        }
+      ]
+    },
+    "show_ribbon_label": true,
+    "show_refresh_timer": true,
+    "display_name": "costume_s18_ip_quail01_01",
+    "bundle_description": "bundle_costumeset_ip_quail01_desc",
+    "bundle_type_subtitle": "bundle_costumeset_ip_quail01_subtitle",
+    "rarity": "special_4",
+    "category": "currency",
+    "bundle_tile_image": "ui_costumeset_ch_quail01",
+    "bundle_background_custom_gradient_image": "bg_costumeset_s11_19_quail_1x2",
+    "ribbon_label_text": "storelabel_discount_primos"
+  },
+  {
+    "id": "bundle_costumeset_s18_ip_quail02",
+    "has_stock": true,
+    "stock": 2,
+    "bundle_type": {
+      "bundle_type": "costume_set",
+      "purchase_options": {
+        "type": "currencies",
+        "item_id": "gems"
+      },
+      "cosmetics": [
+        {
+          "type": "costume_sets",
+          "item_id": "bundle_costumeset_s18_ip_quail02"
+        }
+      ]
+    },
+    "show_ribbon_label": true,
+    "show_refresh_timer": true,
+    "display_name": "costume_s18_ip_quail02_01",
+    "bundle_description": "bundle_costumeset_ip_quail02_desc",
+    "bundle_type_subtitle": "bundle_costumeset_ip_quail02_subtitle",
+    "rarity": "special_4",
+    "category": "currency",
+    "bundle_tile_image": "ui_costumeset_ch_quail02",
+    "bundle_background_custom_gradient_image": "bg_costumeset_s11_19_quail_1x2",
+    "ribbon_label_text": "storelabel_discount_primos"
+  },
+  {
     "id": "bundle_costumeset_s3_koala_02",
     "has_stock": true,
     "stock": 2,
@@ -29526,6 +29582,37 @@
     "bundle_background_custom_gradient_image": "bundle_bg_1x2_capsule_purple"
   },
   {
+    "id": "bundle_emote_s18_ip_quail",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 400,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "cosmetics_emotes",
+          "item_id": "emote_s18_ip_quail"
+        }
+      ],
+      "extra": []
+    },
+    "show_refresh_timer": true,
+    "display_name": "emote_s18_ip_quail",
+    "bundle_description": "bundle_desc_emote_default",
+    "bundle_type_subtitle": "item_type_cosmetics_emotes",
+    "rarity": "special_4",
+    "category": "costume",
+    "bundle_background_custom_gradient_image": "bg_costumeset_s11_19_quail_1x2"
+  },
+  {
     "id": "bundle_emote_s4_035",
     "has_stock": true,
     "stock": 1,
@@ -35245,6 +35332,50 @@
     "category": "currency",
     "bundle_tile_image": "ui_bundle_bundle_grabbag_puffin05_01_2x2",
     "bundle_background_custom_gradient_image": "bg_bundle_bundle_puffin_2x2",
+    "ribbon_label_text": "storelabel_discount_primos"
+  },
+  {
+    "id": "bundle_grabbag_quail",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "discount",
+      "purchase_options": {
+        "type": "currencies",
+        "item_id": "gems"
+      },
+      "discount": 1900,
+      "cosmetics": [
+        {
+          "type": "costume_sets",
+          "item_id": "bundle_costumeset_s18_ip_quail01"
+        },
+        {
+          "type": "costume_sets",
+          "item_id": "bundle_costumeset_s18_ip_quail02"
+        },
+        {
+          "type": "cosmetics_emotes",
+          "cost": 400,
+          "item_id": "emote_s18_ip_quail"
+        },
+        {
+          "type": "cosmetics_punchlines",
+          "cost": 700,
+          "item_id": "victory_s18_ip_quail"
+        }
+      ],
+      "extra": []
+    },
+    "show_ribbon_label": true,
+    "show_refresh_timer": true,
+    "display_name": "bundle_grabbag_ip_quail_name",
+    "bundle_description": "bundle_grabbag_ip_quail_desc",
+    "bundle_type_subtitle": "bundle_grabbag_ip_quail_subtitle",
+    "rarity": "special_4",
+    "category": "currency",
+    "bundle_tile_image": "ui_bundle_ss10_19_quail_2x2",
+    "bundle_background_custom_gradient_image": "bg_bundle_s11_19_quail_2x2",
     "ribbon_label_text": "storelabel_discount_primos"
   },
   {
@@ -52224,6 +52355,37 @@
     "bundle_background_custom_gradient_image": "bg_costumeset_bundle_s11_bluebird_bg_1x2"
   },
   {
+    "id": "bundle_victory_s18_ip_quail",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 700,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "cosmetics_punchlines",
+          "item_id": "victory_s18_ip_quail"
+        }
+      ],
+      "extra": []
+    },
+    "show_refresh_timer": true,
+    "display_name": "victory_s18_ip_quail",
+    "bundle_description": "bundle_desc_celeb_default",
+    "bundle_type_subtitle": "bundle_subtitle_celebration_default01",
+    "rarity": "special_4",
+    "category": "currency",
+    "bundle_background_custom_gradient_image": "bg_costumeset_s11_19_quail_1x2"
+  },
+  {
     "id": "bundle_victory_victory_s11_1_ip_razorbill",
     "has_stock": true,
     "stock": 1,
@@ -56278,6 +56440,51 @@
     "show_refresh_timer": true,
     "bundle_description": "bundle_description_default",
     "bundle_type_subtitle": "bundle_subtitle_default",
+    "rarity": "rare",
+    "category": "costume"
+  },
+  {
+    "id": "promo_bundle_quail",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "iap",
+        "purchase_quantity": 1,
+        "iap": "promo_egs_quail"
+      },
+      "cosmetics": [
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_s18_ip_quail01_01"
+        },
+        {
+          "type": "costumes_upper",
+          "item_id": "top_s18_ip_quail01_01"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_s18_ip_quail02_01"
+        },
+        {
+          "type": "costumes_upper",
+          "item_id": "top_s18_ip_quail02_01"
+        },
+        {
+          "type": "cosmetics_emotes",
+          "item_id": "emote_s18_ip_quail"
+        },
+        {
+          "type": "cosmetics_punchlines",
+          "item_id": "victory_s18_ip_quail"
+        }
+      ],
+      "extra": []
+    },
+    "show_refresh_timer": true,
+    "bundle_description": "blank_sym_store_bundle_desc",
+    "bundle_type_subtitle": "blank_sym_store_bundle_subtitle",
     "rarity": "rare",
     "category": "costume"
   },

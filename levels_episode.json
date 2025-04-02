@@ -1394,27 +1394,10 @@
     "id": "episode_s10_solo_show",
     "director": "levels_director.director_solo_show_s10",
     "roundpool": "levels_roundpool.roundpool_solo_show_s10_high",
-    "bucket_override_roundpools": [
-      {
-        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_ftue",
-        "roundpool": "levels_roundpool.roundpool_solo_show_s10_mid"
-      },
-      {
-        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_lowest",
-        "roundpool": "levels_roundpool.roundpool_solo_show_s10_high"
-      },
-      {
-        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_mid",
-        "roundpool": "levels_roundpool.roundpool_solo_show_s10_high"
-      },
-      {
-        "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_high",
-        "roundpool": "levels_roundpool.roundpool_solo_show_s10_high"
-      }
-    ],
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.round_floor_fall_40",
     "allow_toms": true,
+    "bucket_override_roundpools": [],
     "mode": "knockout"
   },
   {
