@@ -6643,10 +6643,14 @@
       "dlc_level": "ranked_bubblingbrook_filler"
     },
     "game_rules": "game_rules.ranked_bubblingbrook_filler",
+    "round_description": "localised_strings.wle_bubblingbrook_desc",
+    "round_info": "localised_strings.level_info_points_grab_bubbles",
     "preparation_music_soundbank": "BNK_Music_GP",
     "preparation_music_event": "MUS_InGame_PreparationPhase_Short_5s",
-    "ingame_music_soundbank": "BNK_Music_OfFables",
-    "ingame_music_event": "MUS_InGame_OfFables",
+    "ingame_music_soundbank": "BNK_Music_Survive_The_Fall",
+    "ingame_music_event": "MUS_InGame_Survive_The_Fall",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
     "crown_prompt_max_distance": 100,
@@ -6690,8 +6694,6 @@
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
-    "round_description": "localised_strings.level_info_points_grab_bubbles",
-    "round_info": "localised_strings.level_hint_points_grab_bubbles",
     "level_archetype": "archetype_hunt",
     "fall_feed": "fall_feed_race"
   },
@@ -6910,8 +6912,8 @@
     "round_info": "localised_strings.wle_race_info",
     "preparation_music_soundbank": "BNK_Music_GP",
     "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
-    "ingame_music_soundbank": "BNK_Music_OfFables",
-    "ingame_music_event": "MUS_InGame_OfFables",
+    "ingame_music_soundbank": "BNK_Music_Fall_N_Roll",
+    "ingame_music_event": "MUS_InGame_Fall_N_Roll",
     "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
     "extra_ambience_event": "AMB_Season_01_BedAmbience",
     "main_ambience_state": "normal",
@@ -7065,7 +7067,7 @@
     },
     "game_rules": "game_rules.ranked_dodgedivesurvive_final",
     "round_description": "localised_strings.wle_dodgedivesurvive_desc",
-    "round_info": "localised_strings.wle_mode_info_4",
+    "round_info": "localised_strings.level_info_floor_fall",
     "preparation_music_soundbank": "BNK_Music_GP",
     "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
     "ingame_music_soundbank": "BNK_Music_Final_Fall",
@@ -7601,11 +7603,11 @@
     },
     "game_rules": "game_rules.ranked_pineclimb_final",
     "round_description": "localised_strings.wle_pineclimb_desc",
-    "round_info": "localised_strings.wle_mode_info_4",
+    "round_info": "localised_strings.level_info_floor_fall",
     "preparation_music_soundbank": "BNK_Music_GP",
     "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
-    "ingame_music_soundbank": "BNK_Music_OfFables",
-    "ingame_music_event": "MUS_InGame_OfFables",
+    "ingame_music_soundbank": "BNK_Music_Final_Fall",
+    "ingame_music_event": "MUS_InGame_Final_Fall",
     "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
     "extra_ambience_event": "AMB_Season_01_BedAmbience",
     "main_ambience_state": "normal",
@@ -7644,8 +7646,10 @@
     "round_info": "localised_strings.level_info_short_circuit",
     "preparation_music_soundbank": "BNK_Music_GP",
     "preparation_music_event": "MUS_InGame_PreparationPhase",
-    "ingame_music_soundbank": "BNK_Music_OfFables",
-    "ingame_music_event": "MUS_InGame_OfFables",
+    "ingame_music_soundbank": "BNK_Music_Fall_N_Roll",
+    "ingame_music_event": "MUS_InGame_Fall_N_Roll",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
     "crown_prompt_max_distance": 100,
@@ -88900,6 +88904,7 @@
       "dlc_level": "showcase_bulletfallwoods"
     },
     "game_rules": "game_rules.showcase_bulletfallwoods",
+    "round_info": "localised_strings.level_info_floor_fall_squads_survival",
     "preparation_music_soundbank": "BNK_Music_GP",
     "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
     "ingame_music_soundbank": "BNK_Music_Final_Fall",
@@ -88911,7 +88916,6 @@
     "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_UGC",
     "level_badge_name": "Creative_Mode_Gauntlet",
-    "tags": [],
     "bonus": {
       "type": "qualification",
       "qualification_tier": {
@@ -88924,6 +88928,7 @@
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
+    "tags": [],
     "level_archetype": "archetype_final",
     "fall_feed": "fall_feed_survival"
   },
@@ -99313,6 +99318,7 @@
       "dlc_level": "showcase_treasuredungeonwoods"
     },
     "game_rules": "game_rules.showcase_treasuredungeonwoods",
+    "round_info": "localised_strings.level_info_points_grab_bubbles",
     "preparation_music_soundbank": "BNK_Music_GP",
     "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
     "ingame_music_soundbank": "BNK_Music_Survive_The_Fall",
@@ -99325,31 +99331,21 @@
     "loading_screen_name": "Splash_UGC",
     "level_badge_name": "Creative_Mode_Gauntlet",
     "bonus": {
-      "type": "position",
-      "position_tiers": [
+      "type": "team_position",
+      "team_position_tiers": [
         {
-          "position_percentage": 1,
+          "team_position": 1,
           "multiplier": 40,
           "description": "localised_strings.badge_text_position_01",
-          "medal_description": "localised_strings.medal_context_place_1st",
-          "medal_description_value": 1,
+          "medal_description": "localised_strings.medal_context_team_position_01",
           "badge": "gold"
         },
         {
-          "position_percentage": 20,
+          "team_position": 2,
           "multiplier": 25,
-          "description": "localised_strings.badge_text_percentage_020",
-          "medal_description": "localised_strings.medal_context_position",
-          "medal_description_value": 20,
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": "localised_strings.medal_context_team_position_02",
           "badge": "silver"
-        },
-        {
-          "position_percentage": 50,
-          "multiplier": 12,
-          "description": "localised_strings.badge_text_percentage_050",
-          "medal_description": "localised_strings.medal_context_position",
-          "medal_description_value": 50,
-          "badge": "bronze"
         }
       ]
     },
@@ -99474,6 +99470,7 @@
       "dlc_level": "showcase_treeclimberswoods"
     },
     "game_rules": "game_rules.showcase_treeclimberswoods",
+    "round_info": "localised_strings.level_loading_survival_slime",
     "preparation_music_soundbank": "BNK_Music_GP",
     "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
     "ingame_music_soundbank": "BNK_Music_Final_Fall",
@@ -99485,7 +99482,6 @@
     "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_UGC",
     "level_badge_name": "Creative_Mode_Gauntlet",
-    "tags": [],
     "bonus": {
       "type": "qualification",
       "qualification_tier": {
@@ -99498,6 +99494,7 @@
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
+    "tags": [],
     "level_archetype": "archetype_final",
     "fall_feed": "fall_feed_survival"
   },
