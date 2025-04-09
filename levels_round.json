@@ -7287,6 +7287,8 @@
       "prime_level": "fallguy_floorfall"
     },
     "game_rules": "game_rules.ranked_hexagone_final",
+    "round_description": "localised_strings.level_loading_floor_fall",
+    "round_info": "localised_strings.level_info_floor_fall",
     "preparation_music_soundbank": "BNK_Music_GP",
     "preparation_music_event": "MUS_InGame_PreparationPhase_Short_5s",
     "ingame_music_soundbank": "BNK_Music_Final_Fall",
@@ -7317,8 +7319,6 @@
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
-    "round_description": "localised_strings.level_loading_floor_fall",
-    "round_info": "localised_strings.level_info_floor_fall",
     "level_archetype": "archetype_final",
     "fall_feed": "fall_feed_survival"
   },
@@ -7659,7 +7659,6 @@
     "tags": [
       "level_tags.covenant_free_for_all",
       "level_tags.playspace_arena",
-      "level_tags.hunt_round",
       "level_tags.variety_increasing",
       "level_tags.aug_event_play_round_in_solo_ltm"
     ],
@@ -7747,6 +7746,8 @@
       "prime_level": "fallguy_skeefall"
     },
     "game_rules": "game_rules.ranked_skifall_filler",
+    "round_description": "localised_strings.level_loading_ski_fall",
+    "round_info": "localised_strings.level_info_skeefall",
     "preparation_music_soundbank": "BNK_Music_GP",
     "preparation_music_event": "MUS_InGame_PreparationPhase_Short_5s",
     "ingame_music_soundbank": "BNK_Music_Skis_On_Beans",
@@ -7801,9 +7802,132 @@
     "visualiser_estimate_percentage_qualification": -1,
     "visualiser_estimate_variance": -1,
     "visualiser_estimate_weighting": 1,
-    "round_description": "localised_strings.level_loading_ski_fall",
-    "round_info": "localised_strings.level_info_skeefall",
     "level_archetype": "archetype_hunt",
+    "fall_feed": "fall_feed_race"
+  },
+  {
+    "id": "ranked_slimeclimb_filler",
+    "display_name": "localised_strings.level_name_floor_is_lava",
+    "scene_type": {
+      "type": "prime",
+      "prime_level": "fallguy_lava_02"
+    },
+    "game_rules": "game_rules.ranked_slimeclimb_filler",
+    "round_description": "localised_strings.level_loading_floor_is_lava",
+    "round_info": "localised_strings.level_info_floor_is_lava",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase",
+    "ingame_music_soundbank": "BNK_Music_Fall_N_Roll",
+    "ingame_music_event": "MUS_InGame_Fall_N_Roll",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_FloorIsLava",
+    "level_badge_name": "FloorIsLava",
+    "level_variation": "levels_variation.variation_lava",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_gauntlet",
+      "level_tags.season_01",
+      "level_tags.race_round",
+      "level_tags.saftey_wild_elimination",
+      "level_tags.exclusive_slime_climb",
+      "level_tags.unique_lava",
+      "level_tags.exclusive_wild_elimination",
+      "level_tags.aug_event_play_round_in_solo_ltm"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1,
+          "badge": "gold"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20,
+          "badge": "silver"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50,
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": 35,
+    "visualiser_estimate_variance": 20,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_race",
+    "fall_feed": "fall_feed_survival_race"
+  },
+  {
+    "id": "ranked_slimesaloon_filler",
+    "display_name": "localised_strings.wle_standardfireworks_title",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "ranked_slimesaloon_filler"
+    },
+    "game_rules": "game_rules.ranked_slimesaloon_filler",
+    "round_description": "localised_strings.level_loading_standard_description",
+    "round_info": "localised_strings.wle_race_info",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Sir_Fall_A_Lot",
+    "ingame_music_event": "MUS_InGame_Sir_Fall_A_Lot",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.race_round"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1,
+          "badge": "gold"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20,
+          "badge": "silver"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50,
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_race",
     "fall_feed": "fall_feed_race"
   },
   {
