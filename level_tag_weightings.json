@@ -1547,10 +1547,13 @@
         }
       },
       {
-        "tag": "level_tags.variety_increasing",
-        "bonus": 50,
+        "tag": "level_tags.hunt_round",
+        "repeat_malus": 500,
         "apply_bonus_when": {
-          "type": "always"
+          "type": "after_stage",
+          "setting": {
+            "stage": 2
+          }
         }
       }
     ]
