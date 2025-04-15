@@ -243,44 +243,44 @@
     "config": {
       "type": "legacy"
     },
+    "discovery_queries": [],
     "stages": [
       {
-        "round": "levels_round.showcase_massiveoneswoods",
-        "can_only_be_on_these_stages": [
-          1
-        ],
+        "round": "levels_round.showcase_toughencounterswoods",
+        "can_only_be_on_these_stages": [],
         "cannot_be_on_these_stages": []
       },
       {
-        "round": "levels_round.showcase_toughencounterswoods_filler",
-        "can_only_be_on_these_stages": [
-          2
-        ],
+        "round": "levels_round.showcase_massiveoneswoods",
+        "can_only_be_on_these_stages": [],
         "cannot_be_on_these_stages": []
       },
       {
         "round": "levels_round.showcase_treasuredungeonwoods",
-        "can_only_be_on_these_stages": [
-          2
-        ],
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_massiveoneswoods_filler",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_toughencounterswoods_filler",
+        "can_only_be_on_these_stages": [],
         "cannot_be_on_these_stages": []
       },
       {
         "round": "levels_round.showcase_bulletfallwoods",
-        "can_only_be_on_these_stages": [
-          3
-        ],
+        "can_only_be_on_these_stages": [],
         "cannot_be_on_these_stages": []
       },
       {
         "round": "levels_round.showcase_treeclimberswoods",
-        "can_only_be_on_these_stages": [
-          3
-        ],
+        "can_only_be_on_these_stages": [],
         "cannot_be_on_these_stages": []
       }
-    ],
-    "discovery_queries": []
+    ]
   },
   {
     "id": "fraggle_gamemode_gauntlet_template",
@@ -1345,7 +1345,7 @@
         "cannot_be_on_these_stages": []
       },
       {
-        "round": "levels_round.ranked_bigfans_opener",
+        "round": "levels_round.ranked_tundrarun_opener",
         "can_only_be_on_these_stages": [
           1
         ],
@@ -1382,7 +1382,7 @@
       {
         "round": "levels_round.ranked_clumsycrusade_opener",
         "can_only_be_on_these_stages": [
-          3
+          1
         ],
         "cannot_be_on_these_stages": []
       },
@@ -1431,7 +1431,7 @@
         "cannot_be_on_these_stages": []
       },
       {
-        "round": "levels_round.ranked_slimeclimb_filler",
+        "round": "levels_round.ranked_bubbletrouble_filler",
         "can_only_be_on_these_stages": [
           2,
           3
@@ -1487,7 +1487,7 @@
         "cannot_be_on_these_stages": []
       },
       {
-        "round": "levels_round.ranked_slimesaloon_filler",
+        "round": "levels_round.ranked_treasuretrove_filler",
         "can_only_be_on_these_stages": [
           2,
           3
@@ -5707,19 +5707,6 @@
         "round": "levels_round.round_tunnel_race_event_elimination",
         "can_only_be_on_these_stages": [],
         "cannot_be_on_these_stages": []
-      },
-      {
-        "round": "levels_round.round_see_saw_event_elimination",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      },
-      {
-        "round": "levels_round.round_kraken_attack",
-        "cannot_be_on_these_stages": [
-          1,
-          2
-        ],
-        "can_only_be_on_these_stages": []
       }
     ],
     "config": {
@@ -18335,68 +18322,64 @@
     "stages": [
       {
         "round": "levels_round.showcase_boxparty_opener",
-        "can_only_be_on_these_stages": [],
+        "can_only_be_on_these_stages": [
+          1
+        ],
         "cannot_be_on_these_stages": []
       },
       {
         "round": "levels_round.showcase_sortitout_opener",
-        "can_only_be_on_these_stages": [],
+        "can_only_be_on_these_stages": [
+          1
+        ],
         "cannot_be_on_these_stages": []
       },
       {
         "round": "levels_round.showcase_mindthegap_opener",
-        "can_only_be_on_these_stages": [],
+        "can_only_be_on_these_stages": [
+          1
+        ],
         "cannot_be_on_these_stages": []
       },
       {
         "round": "levels_round.showcase_slidensmash_opener",
-        "can_only_be_on_these_stages": [],
+        "can_only_be_on_these_stages": [
+          1
+        ],
         "cannot_be_on_these_stages": []
       },
       {
         "round": "levels_round.showcase_chickengulch_filler",
-        "can_only_be_on_these_stages": [],
+        "can_only_be_on_these_stages": [
+          2
+        ],
         "cannot_be_on_these_stages": []
       },
       {
         "round": "levels_round.showcase_topofthetrash_filler",
-        "can_only_be_on_these_stages": [],
+        "can_only_be_on_these_stages": [
+          2
+        ],
         "cannot_be_on_these_stages": []
       },
       {
         "round": "levels_round.showcase_magnetmayhem_filler",
-        "can_only_be_on_these_stages": [],
+        "can_only_be_on_these_stages": [
+          2
+        ],
         "cannot_be_on_these_stages": []
       },
       {
         "round": "levels_round.showcase_shapeup_filler",
-        "can_only_be_on_these_stages": [],
+        "can_only_be_on_these_stages": [
+          2
+        ],
         "cannot_be_on_these_stages": []
       },
       {
         "round": "levels_round.showcase_cycleoslime_final",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      },
-      {
-        "round": "levels_round.scrapyard_antibubblefactory",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      },
-      {
-        "round": "levels_round.scrapyard_derrameburbujeante",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      },
-      {
-        "round": "levels_round.scrapyard_scraphighway",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      },
-      {
-        "round": "levels_round.showcase_magnetmayhem_filler_fallback",
         "can_only_be_on_these_stages": [
-          2
+          3
         ],
         "cannot_be_on_these_stages": []
       }
@@ -18450,38 +18433,6 @@
       "level_collections": [
         {
           "weight": 100,
-          "level_collection_id": "spotlight_071124"
-        },
-        {
-          "weight": 100,
-          "level_collection_id": "spotlight_211124"
-        },
-        {
-          "weight": 100,
-          "level_collection_id": "spotlight_051224"
-        },
-        {
-          "weight": 100,
-          "level_collection_id": "spotlight_171224"
-        },
-        {
-          "weight": 100,
-          "level_collection_id": "spotlight_090125"
-        },
-        {
-          "weight": 100,
-          "level_collection_id": "spotlight_210125"
-        },
-        {
-          "weight": 100,
-          "level_collection_id": "spotlight_040225"
-        },
-        {
-          "weight": 100,
-          "level_collection_id": "spotlight_180225"
-        },
-        {
-          "weight": 100,
           "level_collection_id": "spotlight_040325"
         },
         {
@@ -18491,18 +18442,518 @@
         {
           "weight": 100,
           "level_collection_id": "spotlight_010425"
-        },
-        {
-          "weight": 500,
-          "level_collection_id": "spotlight_150425"
         }
       ],
       "fallback_level_collection": {
-        "level_collection_id": "spotlight_010425"
+        "level_collection_id": "spotlight_180325"
       }
     },
     "discovery_queries": [],
     "stages": []
+  },
+  {
+    "id": "spotlight_010425",
+    "stages": [
+      {
+        "round": "levels_round.showcase_curvyroads",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_pipespipespipes",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_panicparade",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_westerndash",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_duckncover",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_medievalrush",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_toxicchaos",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_spacefallii",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_loveaday",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_floatingcubespalace",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_shakingcastle",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_ringleader",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_starryvortex",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_scraparena",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_glitchzones",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_castlebreach",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_icecreamcavern",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_honeyparty",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      }
+    ],
+    "config": {
+      "type": "legacy"
+    },
+    "discovery_queries": []
+  },
+  {
+    "id": "spotlight_040225",
+    "stages": [
+      {
+        "round": "levels_round.showcase_medievalmayhem",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_raftingguys",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_rampartrally",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_westrolli",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_golffall",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_refreshingweekend",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_avalanche",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_surfsurvival",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_toyfactory",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_darklilylovers",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_icebergbreakway",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_spectacularskyway",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_swingwayscramble",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_authenticguys",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_rubyveinv",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_holeinthefall",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_tossnscrap",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_mutiny",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_icemoundavalanche",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_hardboiledshowdown",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      }
+    ],
+    "config": {
+      "type": "collection_driven",
+      "level_collections": [
+        {
+          "weight": 100,
+          "level_collection_id": "spotlight_040225"
+        }
+      ],
+      "fallback_level_collection": {
+        "level_collection_id": "spotlight_040225"
+      }
+    },
+    "discovery_queries": []
+  },
+  {
+    "id": "spotlight_040325",
+    "config": {
+      "type": "collection_driven",
+      "level_collections": [
+        {
+          "weight": 100,
+          "level_collection_id": "spotlight_040325"
+        }
+      ],
+      "fallback_level_collection": {
+        "level_collection_id": "spotlight_040325"
+      }
+    },
+    "discovery_queries": [],
+    "stages": []
+  },
+  {
+    "id": "spotlight_090125",
+    "stages": [],
+    "config": {
+      "type": "collection_driven",
+      "level_collections": [
+        {
+          "weight": 100,
+          "level_collection_id": "spotlight_090125"
+        }
+      ],
+      "fallback_level_collection": {
+        "level_collection_id": "spotlight_090125"
+      }
+    },
+    "discovery_queries": []
+  },
+  {
+    "id": "spotlight_171224",
+    "stages": [
+      {
+        "round": "levels_round.showcase_railwayconstruction",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_tubechute",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_freezeezybeans",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_allbeanseve",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_goldrushgulch",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_nightmarestumble",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_snowzone",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_peakperformance",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_rubbermountain",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_bouncyheights",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_frozenwonderland",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_beansfrostyzone",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_climbcrash",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_darkcastle",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_racingroyale",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_spookystarecircuit",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_darkisland",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_beanjumpsurvival",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_slidenroll",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_warmuparound",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      }
+    ],
+    "config": {
+      "type": "collection_driven",
+      "level_collections": [
+        {
+          "weight": 100,
+          "level_collection_id": "spotlight_171224"
+        }
+      ],
+      "fallback_level_collection": {
+        "level_collection_id": "spotlight_171224"
+      }
+    },
+    "discovery_queries": []
+  },
+  {
+    "id": "spotlight_180225",
+    "config": {
+      "type": "collection_driven",
+      "level_collections": [
+        {
+          "weight": 100,
+          "level_collection_id": "spotlight_180225"
+        }
+      ],
+      "fallback_level_collection": {
+        "level_collection_id": "spotlight_180225"
+      }
+    },
+    "discovery_queries": [],
+    "stages": []
+  },
+  {
+    "id": "spotlight_210125",
+    "stages": [
+      {
+        "round": "levels_round.showcase_watchyourhead",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_digitalmayhem",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_primarycolors",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_houseguys",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_batattack",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_pouletarena",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_critriumgel",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_honeyrunners",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_downtherabbithole",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_christmascraze",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_snowbowl",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_neoguys",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_cocoaclash",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_hohoexpress",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_beanhighway",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_rollnsurvive",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_arcticavenue",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_solarwave",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_shockingbehavior",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_acidfactory",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      }
+    ],
+    "config": {
+      "type": "collection_driven",
+      "level_collections": [
+        {
+          "weight": 100,
+          "level_collection_id": "spotlight_210125"
+        }
+      ],
+      "fallback_level_collection": {
+        "level_collection_id": "spotlight_210125"
+      }
+    },
+    "discovery_queries": []
   },
   {
     "id": "squadcelebration_squads_s10",

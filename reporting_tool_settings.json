@@ -30,7 +30,7 @@
   {
     "id": "mterrormonitor_default",
     "is_enabled": true,
-    "error_sampling": 0.01,
+    "error_sampling": 0.001,
     "session_sampling": 1
   },
   {
@@ -42,12 +42,12 @@
     "id": "sentry_default",
     "is_enabled": true,
     "error_sampling": 0.01,
-    "session_sampling": 1
+    "session_sampling": 0.1
   },
   {
     "id": "sentry_server",
     "is_enabled": true,
-    "error_sampling": 0.1,
+    "error_sampling": 0.01,
     "session_sampling": 1
   }
 ]
