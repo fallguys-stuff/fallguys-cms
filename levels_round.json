@@ -7122,6 +7122,69 @@
     "fall_feed": "fall_feed_survival"
   },
   {
+    "id": "ranked_dizzyheights_opener",
+    "display_name": "localised_strings.level_name_gauntlet_02",
+    "scene_type": {
+      "type": "prime",
+      "prime_level": "fallguy_gauntlet_02_01"
+    },
+    "game_rules": "game_rules.ranked_course_opener",
+    "round_description": "localised_strings.level_loading_gauntlet_02",
+    "round_info": "localised_strings.level_info_gauntlet_02",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_5s",
+    "ingame_music_soundbank": "BNK_Music_Fall_N_Roll",
+    "ingame_music_event": "MUS_InGame_Fall_N_Roll",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_Rotatonator",
+    "level_badge_name": "Rotatonator",
+    "level_variation": "levels_variation.variation_gauntlet_02",
+    "tags": [
+      "level_tags.covenant_free_for_all",
+      "level_tags.playspace_gauntlet",
+      "level_tags.season_01",
+      "level_tags.race_round",
+      "level_tags.unique_gauntlet_02",
+      "level_tags.aug_event_play_round_in_solo_ltm"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1,
+          "badge": "gold"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20,
+          "badge": "silver"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50,
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_race",
+    "fall_feed": "fall_feed_race"
+  },
+  {
     "id": "ranked_dodgedivesurvive_final",
     "display_name": "localised_strings.wle_dodgedivesurvive_title",
     "scene_type": {
