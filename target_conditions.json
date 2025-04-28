@@ -1577,6 +1577,17 @@
     }
   },
   {
+    "id": "event_kudos",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2025-04-29T12:00:00",
+        "end": "2025-05-13T11:59:59"
+      }
+    }
+  },
+  {
     "id": "event_kudos_0703",
     "parameters": {
       "type": "date_time",
@@ -10622,6 +10633,17 @@
           "operator": "less_than"
         },
         "player_stat_id": "rounds_played"
+      }
+    }
+  },
+  {
+    "id": "greatest_squads_challenges",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2025-04-29T12:00:00",
+        "end": "2025-05-13T11:59:59"
       }
     }
   },

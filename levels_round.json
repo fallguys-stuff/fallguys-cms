@@ -1269,6 +1269,2387 @@
     "fall_feed": "fall_feed_race"
   },
   {
+    "id": "gs_blunderboat",
+    "display_name": "localised_strings.wle_blunderboat_title",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "knockout_blunderboat_filler_rank"
+    },
+    "game_rules": "game_rules.gs_blunderboat",
+    "round_description": "localised_strings.wle_blunderboat_desc",
+    "round_info": "localised_strings.level_info_survival_slime",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Critic_Carrot",
+    "ingame_music_event": "MUS_InGame_Critic_Carrot",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.covenant_final"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 12,
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": "localised_strings.medal_context_victory",
+        "badge": "gold"
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_final",
+    "fall_feed": "fall_feed_survival"
+  },
+  {
+    "id": "gs_bouncytravel",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "showcase_bouncytravel"
+    },
+    "game_rules": "game_rules.gs_bouncytravel",
+    "round_description": "localised_strings.level_info_points_grab_bubbles",
+    "round_info": "localised_strings.level_hint_points_grab_bubbles",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Fall_N_Roll",
+    "ingame_music_event": "MUS_InGame_Fall_N_Roll",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.covenant_team_round2"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_team_position_01",
+          "badge": "gold"
+        },
+        {
+          "team_position": 2,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": "localised_strings.medal_context_team_position_02",
+          "badge": "silver"
+        },
+        {
+          "team_position": 3,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_position_03",
+          "medal_description": "localised_strings.medal_context_team_position_03",
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_team",
+    "fall_feed": "fall_feed_score"
+  },
+  {
+    "id": "gs_bouncytravel_onlyteam",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "showcase_bouncytravel"
+    },
+    "game_rules": "game_rules.gs_bouncytravel_onlyteam",
+    "round_description": "localised_strings.level_info_points_grab_bubbles",
+    "round_info": "localised_strings.level_hint_points_grab_bubbles",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Fall_N_Roll",
+    "ingame_music_event": "MUS_InGame_Fall_N_Roll",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.covenant_team_round2"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1,
+          "badge": "gold"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20,
+          "badge": "silver"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50,
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_team",
+    "fall_feed": "fall_feed_score"
+  },
+  {
+    "id": "gs_boxparty",
+    "display_name": "localised_strings.wle_boxparty_title",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "knockout_boxparty_filler"
+    },
+    "game_rules": "game_rules.gs_boxparty",
+    "round_description": "localised_strings.wle_boxparty_desc",
+    "round_info": "localised_strings.wle_boxparty_desc",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Grand_Festifall",
+    "ingame_music_event": "MUS_InGame_Grand_Festifall",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.covenant_team_round2"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_team_position_01",
+          "badge": "gold"
+        },
+        {
+          "team_position": 2,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": "localised_strings.medal_context_team_position_02",
+          "badge": "silver"
+        },
+        {
+          "team_position": 3,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_position_03",
+          "medal_description": "localised_strings.medal_context_team_position_03",
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_team",
+    "fall_feed": "fall_feed_score"
+  },
+  {
+    "id": "gs_boxparty_onlyteams",
+    "display_name": "localised_strings.wle_boxparty_title",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "knockout_boxparty_filler"
+    },
+    "game_rules": "game_rules.gs_boxparty_onlyteams",
+    "round_description": "localised_strings.wle_boxparty_desc",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.covenant_team_round2"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1,
+          "badge": "gold"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20,
+          "badge": "silver"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50,
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_team",
+    "fall_feed": "fall_feed_score"
+  },
+  {
+    "id": "gs_bubblegumbrew",
+    "display_name": "localised_strings.wle_bubblegumbrew_title",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "knockout_bubblegumbrew_filler"
+    },
+    "game_rules": "game_rules.gs_bubblegumbrew",
+    "round_description": "localised_strings.wle_bubblegumbrew_desc",
+    "round_info": "localised_strings.wle_bubblegumbrew_tip",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Yatta_Yatta",
+    "ingame_music_event": "MUS_InGame_Yatta_Yatta",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.covenant_team_round2"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_team_position_01",
+          "badge": "gold"
+        },
+        {
+          "team_position": 2,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": "localised_strings.medal_context_team_position_02",
+          "badge": "silver"
+        },
+        {
+          "team_position": 3,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_position_03",
+          "medal_description": "localised_strings.medal_context_team_position_03",
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_team",
+    "fall_feed": "fall_feed_score"
+  },
+  {
+    "id": "gs_bubblegumbrew_onlyteams",
+    "display_name": "localised_strings.wle_bubblegumbrew_title",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "knockout_bubblegumbrew_filler"
+    },
+    "game_rules": "game_rules.gs_bubblegumbrew_onlyteams",
+    "round_description": "localised_strings.wle_bubblegumbrew_desc",
+    "round_info": "localised_strings.wle_bubblegumbrew_tip",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Yatta_Yatta",
+    "ingame_music_event": "MUS_InGame_Yatta_Yatta",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.covenant_team_round2"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1,
+          "badge": "gold"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20,
+          "badge": "silver"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50,
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_team",
+    "fall_feed": "fall_feed_score"
+  },
+  {
+    "id": "gs_bubblegumroll",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "showcase_bubblegumroll"
+    },
+    "game_rules": "game_rules.gs_bubblegumroll",
+    "round_description": "localised_strings.level_info_points_grab_bubbles",
+    "round_info": "localised_strings.level_hint_points_grab_bubbles",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_FallinFriends",
+    "ingame_music_event": "MUS_InGame_FallinFriends",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.covenant_team_round2"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_team_position_01",
+          "badge": "gold"
+        },
+        {
+          "team_position": 2,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": "localised_strings.medal_context_team_position_02",
+          "badge": "silver"
+        },
+        {
+          "team_position": 3,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_position_03",
+          "medal_description": "localised_strings.medal_context_team_position_03",
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_team",
+    "fall_feed": "fall_feed_score"
+  },
+  {
+    "id": "gs_bubblegumroll_onlyteams",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "showcase_bubblegumroll"
+    },
+    "game_rules": "game_rules.gs_bubblegumroll_onlyteams",
+    "round_description": "localised_strings.level_info_points_grab_bubbles",
+    "round_info": "localised_strings.level_hint_points_grab_bubbles",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_FallinFriends",
+    "ingame_music_event": "MUS_InGame_FallinFriends",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.covenant_team_round2"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1,
+          "badge": "gold"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20,
+          "badge": "silver"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50,
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_team",
+    "fall_feed": "fall_feed_score"
+  },
+  {
+    "id": "gs_bubblingbrook",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "ranked_bubblingbrook_filler"
+    },
+    "game_rules": "game_rules.gs_bubblingbrook",
+    "round_description": "localised_strings.wle_bubblingbrook_desc",
+    "round_info": "localised_strings.level_info_points_grab_bubbles",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Survive_The_Fall",
+    "ingame_music_event": "MUS_InGame_Survive_The_Fall",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_team_position_01",
+          "badge": "gold"
+        },
+        {
+          "team_position": 2,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": "localised_strings.medal_context_team_position_02",
+          "badge": "silver"
+        },
+        {
+          "team_position": 3,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_position_03",
+          "medal_description": "localised_strings.medal_context_team_position_03",
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_team"
+  },
+  {
+    "id": "gs_castlesiege",
+    "display_name": "localised_strings.wle_castlesiege_title",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "fp17_knockout_castlesiege"
+    },
+    "game_rules": "game_rules.gs_castlesiege",
+    "round_description": "localised_strings.wle_castlesiege_desc",
+    "round_info": "localised_strings.wle_mode_info_4",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_OfFables",
+    "ingame_music_event": "MUS_InGame_OfFables",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.covenant_final"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 12,
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": "localised_strings.medal_context_victory",
+        "badge": "gold"
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_final",
+    "fall_feed": "fall_feed_survival"
+  },
+  {
+    "id": "gs_chickengulch",
+    "display_name": "localised_strings.wle_chickengulch_title",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "knockout_chickengulch_filler"
+    },
+    "game_rules": "game_rules.gs_chickengulch",
+    "round_description": "localised_strings.wle_chickengulch_desc",
+    "round_info": "localised_strings.level_info_points_destruction",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Fall_Queen_Bean",
+    "ingame_music_event": "MUS_InGame_Fall_Queen_Bean",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.covenant_team_round2"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_team_position_01",
+          "badge": "gold"
+        },
+        {
+          "team_position": 2,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": "localised_strings.medal_context_team_position_02",
+          "badge": "silver"
+        },
+        {
+          "team_position": 3,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_position_03",
+          "medal_description": "localised_strings.medal_context_team_position_03",
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_team",
+    "fall_feed": "fall_feed_score"
+  },
+  {
+    "id": "gs_chickengulch_onlyteams",
+    "display_name": "localised_strings.wle_chickengulch_title",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "knockout_chickengulch_filler"
+    },
+    "game_rules": "game_rules.gs_chickengulch_onlyteams",
+    "round_description": "localised_strings.wle_chickengulch_desc",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.covenant_team_round2"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1,
+          "badge": "gold"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20,
+          "badge": "silver"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50,
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_team",
+    "fall_feed": "fall_feed_score"
+  },
+  {
+    "id": "gs_circleoslime",
+    "display_name": "localised_strings.wle_cicleoslime_title",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "knockout_cycleoslime_final"
+    },
+    "game_rules": "game_rules.gs_circleoslime",
+    "round_description": "localised_strings.wle_cicleoslime_desc",
+    "round_info": "localised_strings.level_info_survival_slime",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Final_Fall",
+    "ingame_music_event": "MUS_InGame_Final_Fall",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.covenant_final"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 12,
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": "localised_strings.medal_context_victory",
+        "badge": "gold"
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_final",
+    "fall_feed": "fall_feed_survival"
+  },
+  {
+    "id": "gs_clumsycarnival",
+    "display_name": "localised_strings.wle_clumsycarnival_title",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "knockout_clumsycarnival_opener"
+    },
+    "game_rules": "game_rules.gs_clumsycarnival",
+    "round_description": "localised_strings.wle_clumsycarnival_desc",
+    "round_info": "localised_strings.wle_clumsycarnival_tip",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Nose_Whip",
+    "ingame_music_event": "MUS_InGame_Nose_Whip",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.race_round"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1,
+          "badge": "gold"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20,
+          "badge": "silver"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50,
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_race",
+    "fall_feed": "fall_feed_race"
+  },
+  {
+    "id": "gs_clumsycaverns",
+    "display_name": "localised_strings.wle_crumblecave_title",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "knockout_crumblecavegoldrush_opener"
+    },
+    "game_rules": "game_rules.gs_clumsycaverns",
+    "round_description": "localised_strings.level_loading_standard_description",
+    "round_info": "localised_strings.wle_race_info",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Beans_Round_Table",
+    "ingame_music_event": "MUS_InGame_Beans_Round_Table",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.race_round"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1,
+          "badge": "gold"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20,
+          "badge": "silver"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50,
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_race",
+    "fall_feed": "fall_feed_race"
+  },
+  {
+    "id": "gs_dodgedivesurvive",
+    "display_name": "localised_strings.wle_dodgedivesurvive_title",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "ranked_dodgedivesurvive_final"
+    },
+    "game_rules": "game_rules.gs_dodgedivesurvive",
+    "round_description": "localised_strings.wle_dodgedivesurvive_desc",
+    "round_info": "localised_strings.wle_mode_info_4",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Final_Fall",
+    "ingame_music_event": "MUS_InGame_Final_Fall",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.covenant_final",
+      "level_tags.win_knockout_or_solos"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 12,
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": "localised_strings.medal_context_victory",
+        "badge": "gold"
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_final",
+    "fall_feed": "fall_feed_survival"
+  },
+  {
+    "id": "gs_dragondashers",
+    "display_name": "localised_strings.wle_hallowbean_title",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "fp17_knockout_hallowbean"
+    },
+    "game_rules": "game_rules.gs_dragondashers",
+    "round_description": "localised_strings.level_loading_standard_description",
+    "round_info": "localised_strings.wle_race_info",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_OfFables",
+    "ingame_music_event": "MUS_InGame_OfFables",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.race_round"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1,
+          "badge": "gold"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20,
+          "badge": "silver"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50,
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_race",
+    "fall_feed": "fall_feed_race"
+  },
+  {
+    "id": "gs_goldrush",
+    "display_name": "localised_strings.wle_hohoholeymoley_title",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "knockout_hohoholeymoleygoldrush_filler"
+    },
+    "game_rules": "game_rules.gs_goldrush",
+    "round_description": "localised_strings.level_info_points_destruction",
+    "round_info": "localised_strings.level_hint_points_destruction",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Winter_Fallympics",
+    "ingame_music_event": "MUS_InGame_Winter_Fallympics",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.covenant_team_round2"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_team_position_01",
+          "badge": "gold"
+        },
+        {
+          "team_position": 2,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": "localised_strings.medal_context_team_position_02",
+          "badge": "silver"
+        },
+        {
+          "team_position": 3,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_position_03",
+          "medal_description": "localised_strings.medal_context_team_position_03",
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_team",
+    "fall_feed": "fall_feed_score"
+  },
+  {
+    "id": "gs_goldrush_onlyteams",
+    "display_name": "localised_strings.wle_hohoholeymoley_title",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "knockout_hohoholeymoleygoldrush_filler"
+    },
+    "game_rules": "game_rules.gs_goldrush_onlyteams",
+    "round_description": "localised_strings.level_info_points_destruction",
+    "round_info": "localised_strings.level_hint_points_destruction",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Winter_Fallympics",
+    "ingame_music_event": "MUS_InGame_Winter_Fallympics",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.covenant_team_round2"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1,
+          "badge": "gold"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20,
+          "badge": "silver"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50,
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_team",
+    "fall_feed": "fall_feed_score"
+  },
+  {
+    "id": "gs_gooproperodeo",
+    "display_name": "localised_strings.wle_goopropegrandslam_title",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "knockout_goopropegrandslamgoldrush_final_survival"
+    },
+    "game_rules": "game_rules.gs_gooproperodeo",
+    "round_description": "localised_strings.wle_goopropegrandslam_desc",
+    "round_info": "localised_strings.wle_mode_info_4",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Falling_Dancefloor",
+    "ingame_music_event": "MUS_InGame_Falling_Dancefloor",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.covenant_final"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 12,
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": "localised_strings.medal_context_victory",
+        "badge": "gold"
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_final",
+    "fall_feed": "fall_feed_survival"
+  },
+  {
+    "id": "gs_hopadrome",
+    "display_name": "localised_strings.wle_gardenpardon_title",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "fp17_gardenpardon"
+    },
+    "game_rules": "game_rules.gs_hopadrome",
+    "round_description": "localised_strings.wle_gardenpardon_desc",
+    "round_info": "localised_strings.wle_mode_info_4",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_OfFables",
+    "ingame_music_event": "MUS_InGame_OfFables",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.covenant_final"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 12,
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": "localised_strings.medal_context_victory",
+        "badge": "gold"
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_final",
+    "fall_feed": "fall_feed_survival"
+  },
+  {
+    "id": "gs_mindthegap",
+    "display_name": "localised_strings.wle_mindthegap_title",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "knockout_mindthegap_opener"
+    },
+    "game_rules": "game_rules.gs_mindthegap",
+    "round_description": "localised_strings.wle_mindthegap_desc",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.race_round"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1,
+          "badge": "gold"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20,
+          "badge": "silver"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50,
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_race",
+    "fall_feed": "fall_feed_race"
+  },
+  {
+    "id": "gs_pineclimb",
+    "display_name": "localised_strings.wle_pineclimb_title",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "ranked_pineclimb_final"
+    },
+    "game_rules": "game_rules.gs_pineclimb",
+    "round_description": "localised_strings.wle_pineclimb_desc",
+    "round_info": "localised_strings.wle_mode_info_4",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_OfFables",
+    "ingame_music_event": "MUS_InGame_OfFables",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.covenant_final",
+      "level_tags.win_knockout_or_solos"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 12,
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": "localised_strings.medal_context_victory",
+        "badge": "gold"
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_final",
+    "fall_feed": "fall_feed_survival"
+  },
+  {
+    "id": "gs_reboundrun",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "ranked_reboundrun_opener"
+    },
+    "game_rules": "game_rules.gs_reboundrun",
+    "round_info": "localised_strings.level_loading_gauntlet_race_heats",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Rumbling_Waterfall",
+    "ingame_music_event": "MUS_InGame_Rumbling_Waterfall",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_team_position_01",
+          "badge": "gold"
+        },
+        {
+          "team_position": 2,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": "localised_strings.medal_context_team_position_02",
+          "badge": "silver"
+        },
+        {
+          "team_position": 3,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_position_03",
+          "medal_description": "localised_strings.medal_context_team_position_03",
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_team",
+    "fall_feed": "fall_feed_score"
+  },
+  {
+    "id": "gs_rotateandeliminate",
+    "display_name": "localised_strings.wle_rotateandeliminate_title",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "rotateandeliminate"
+    },
+    "game_rules": "game_rules.gs_rotateandeliminate",
+    "round_description": "localised_strings.wle_rotateandeliminate_desc",
+    "round_info": "localised_strings.level_info_survival_slime",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Virtual_Beanity",
+    "ingame_music_event": "BNK_Music_Virtual_Beanity",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.covenant_final"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 12,
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": "localised_strings.medal_context_victory",
+        "badge": "gold"
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_final",
+    "fall_feed": "fall_feed_survival"
+  },
+  {
+    "id": "gs_slidensmash",
+    "display_name": "localised_strings.wle_slidensmash_title",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "knockout_slidensmash_filler"
+    },
+    "game_rules": "game_rules.gs_slidensmash",
+    "round_description": "localised_strings.wle_slidensmash_desc",
+    "round_info": "localised_strings.wle_slidensmash_desc",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Critic_Carrot",
+    "ingame_music_event": "MUS_InGame_Critic_Carrot",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.covenant_team_round2"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_team_position_01",
+          "badge": "gold"
+        },
+        {
+          "team_position": 2,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": "localised_strings.medal_context_team_position_02",
+          "badge": "silver"
+        },
+        {
+          "team_position": 3,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_position_03",
+          "medal_description": "localised_strings.medal_context_team_position_03",
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_team",
+    "fall_feed": "fall_feed_score"
+  },
+  {
+    "id": "gs_slidensmash_onlyteams",
+    "display_name": "localised_strings.wle_slidensmash_title",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "knockout_slidensmash_filler"
+    },
+    "game_rules": "game_rules.gs_slidensmash_onlyteams",
+    "round_description": "localised_strings.wle_slidensmash_desc",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.covenant_team_round2"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1,
+          "badge": "gold"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20,
+          "badge": "silver"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50,
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_team",
+    "fall_feed": "fall_feed_score"
+  },
+  {
+    "id": "gs_slimeballshowdown",
+    "display_name": "localised_strings.wle_cloudyteacups_title",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "knockout_cloudyteacupsgoldrush_final"
+    },
+    "game_rules": "game_rules.gs_slimeballshowdown",
+    "round_description": "localised_strings.wle_cloudyteacups_desc",
+    "round_info": "localised_strings.wle_mode_info_4",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Fall_N_Roll",
+    "ingame_music_event": "MUS_InGame_Fall_N_Roll",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.covenant_final"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 12,
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": "localised_strings.medal_context_victory",
+        "badge": "gold"
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_final",
+    "fall_feed": "fall_feed_survival"
+  },
+  {
+    "id": "gs_slimecycle",
+    "display_name": "localised_strings.wle_slimecycle_title",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "knockout_slimecycle_filler"
+    },
+    "game_rules": "game_rules.gs_slimecycle",
+    "round_description": "localised_strings.wle_slimecycle_desc",
+    "round_info": "localised_strings.level_info_survival_slime",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Survive_The_Fall",
+    "ingame_music_event": "MUS_InGame_Survive_The_Fall",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.covenant_final"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 12,
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": "localised_strings.medal_context_victory",
+        "badge": "gold"
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_final",
+    "fall_feed": "fall_feed_survival"
+  },
+  {
+    "id": "gs_slimesaloon",
+    "display_name": "localised_strings.wle_standardfireworks_title",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "knockout_standardfireworksgoldrush_opener"
+    },
+    "game_rules": "game_rules.gs_slimesaloon",
+    "round_description": "localised_strings.level_loading_standard_description",
+    "round_info": "localised_strings.wle_race_info",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Sir_Fall_A_Lot",
+    "ingame_music_event": "MUS_InGame_Sir_Fall_A_Lot",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.race_round"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1,
+          "badge": "gold"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20,
+          "badge": "silver"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50,
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_race",
+    "fall_feed": "fall_feed_race"
+  },
+  {
+    "id": "gs_slippyslopes",
+    "display_name": "localised_strings.wle_blueencounters_title",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "fp17_blueencounters"
+    },
+    "game_rules": "game_rules.gs_slippyslopes",
+    "round_description": "localised_strings.level_loading_standard_description",
+    "round_info": "localised_strings.wle_race_info",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_OfFables",
+    "ingame_music_event": "MUS_InGame_OfFables",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.race_round"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1,
+          "badge": "gold"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20,
+          "badge": "silver"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50,
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_race",
+    "fall_feed": "fall_feed_race"
+  },
+  {
+    "id": "gs_sortitout",
+    "display_name": "localised_strings.wle_sortitout_title",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "knockout_sortitout_filler"
+    },
+    "game_rules": "game_rules.gs_sortitout",
+    "round_description": "localised_strings.wle_sortitout_desc",
+    "round_info": "localised_strings.level_info_points_sort_objects",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Survive_The_Fall",
+    "ingame_music_event": "MUS_InGame_Survive_The_Fall",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.covenant_team_round2"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_team_position_01",
+          "badge": "gold"
+        },
+        {
+          "team_position": 2,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": "localised_strings.medal_context_team_position_02",
+          "badge": "silver"
+        },
+        {
+          "team_position": 3,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_position_03",
+          "medal_description": "localised_strings.medal_context_team_position_03",
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_team",
+    "fall_feed": "fall_feed_score"
+  },
+  {
+    "id": "gs_sortitout_onlyteams",
+    "display_name": "localised_strings.wle_sortitout_title",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "knockout_sortitout_filler"
+    },
+    "game_rules": "game_rules.gs_sortitout_onlyteams",
+    "round_description": "localised_strings.wle_sortitout_desc",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.covenant_team_round2"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1,
+          "badge": "gold"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20,
+          "badge": "silver"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50,
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_team",
+    "fall_feed": "fall_feed_score"
+  },
+  {
+    "id": "gs_spacebounders",
+    "display_name": "localised_strings.wle_spacebouncers_title",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "knockout_spacebounders_opener"
+    },
+    "game_rules": "game_rules.gs_spacebounders",
+    "round_description": "localised_strings.wle_spacebouncers_desc",
+    "round_info": "localised_strings.wle_race_info",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Grand_Festifall",
+    "ingame_music_event": "MUS_InGame_Grand_Festifall",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.race_round"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1,
+          "badge": "gold"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20,
+          "badge": "silver"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50,
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_race",
+    "fall_feed": "fall_feed_race"
+  },
+  {
+    "id": "gs_spookyslingers",
+    "display_name": "localised_strings.wle_spookyslingers_title",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "knockout_spookyslingers_opener"
+    },
+    "game_rules": "game_rules.gs_spookyslingers",
+    "round_description": "localised_strings.wle_spookyslingers_desc",
+    "round_info": "localised_strings.wle_spookyslingers_tip",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Nose_Whip",
+    "ingame_music_event": "MUS_InGame_Nose_Whip",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.race_round"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1,
+          "badge": "gold"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20,
+          "badge": "silver"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50,
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_race",
+    "fall_feed": "fall_feed_race"
+  },
+  {
+    "id": "gs_teatime",
+    "display_name": "localised_strings.wle_teatime_title",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "knockout_teatime_opener"
+    },
+    "game_rules": "game_rules.gs_teatime",
+    "round_description": "localised_strings.wle_teatime_desc",
+    "round_info": "localised_strings.wle_race_info",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Fall_N_Roll",
+    "ingame_music_event": "MUS_InGame_Fall_N_Roll",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.race_round"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1,
+          "badge": "gold"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20,
+          "badge": "silver"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50,
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_race",
+    "fall_feed": "fall_feed_race"
+  },
+  {
+    "id": "gs_theswirlygig",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "showcase_theswirlygig"
+    },
+    "game_rules": "game_rules.gs_theswirlygig",
+    "round_description": "localised_strings.level_info_points_grab_bubbles",
+    "round_info": "localised_strings.level_hint_points_grab_bubbles",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Bishop_Steak",
+    "ingame_music_event": "MUS_InGame_Bishop_Steak",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.covenant_team_round2"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_team_position_01",
+          "badge": "gold"
+        },
+        {
+          "team_position": 2,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": "localised_strings.medal_context_team_position_02",
+          "badge": "silver"
+        },
+        {
+          "team_position": 3,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_position_03",
+          "medal_description": "localised_strings.medal_context_team_position_03",
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_team",
+    "fall_feed": "fall_feed_score"
+  },
+  {
+    "id": "gs_theswirlygig_onlyteams",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "showcase_theswirlygig"
+    },
+    "game_rules": "game_rules.gs_theswirlygig_onlyteams",
+    "round_description": "localised_strings.level_info_points_grab_bubbles",
+    "round_info": "localised_strings.level_hint_points_grab_bubbles",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Bishop_Steak",
+    "ingame_music_event": "MUS_InGame_Bishop_Steak",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.covenant_team_round2"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1,
+          "badge": "gold"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20,
+          "badge": "silver"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50,
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_team",
+    "fall_feed": "fall_feed_score"
+  },
+  {
+    "id": "gs_topofthetrash",
+    "display_name": "localised_strings.wle_topofthetrash_title",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "knockout_topofthetrash_filler"
+    },
+    "game_rules": "game_rules.gs_topofthetrash",
+    "round_description": "localised_strings.wle_topofthetrash_desc",
+    "round_info": "localised_strings.level_info_points_score_area",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Main_Room_Beanstep",
+    "ingame_music_event": "MUS_InGame_Main_Room_Beanstep",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.covenant_team_round2"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_team_position_01",
+          "badge": "gold"
+        },
+        {
+          "team_position": 2,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": "localised_strings.medal_context_team_position_02",
+          "badge": "silver"
+        },
+        {
+          "team_position": 3,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_position_03",
+          "medal_description": "localised_strings.medal_context_team_position_03",
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_team",
+    "fall_feed": "fall_feed_score"
+  },
+  {
+    "id": "gs_topofthetrash_onlyteam",
+    "display_name": "localised_strings.wle_topofthetrash_title",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "knockout_topofthetrash_filler"
+    },
+    "game_rules": "game_rules.gs_topofthetrash_onlyteam",
+    "round_description": "localised_strings.wle_topofthetrash_desc",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.covenant_team_round2"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1,
+          "badge": "gold"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20,
+          "badge": "silver"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50,
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_team",
+    "fall_feed": "fall_feed_score"
+  },
+  {
+    "id": "gs_treasuretrove",
+    "display_name": "localised_strings.wle_scorewhisk_title",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "fp17_knockout_scorewhisk"
+    },
+    "game_rules": "game_rules.gs_treasuretrove",
+    "round_description": "localised_strings.level_info_points_grab_bubbles",
+    "round_info": "localised_strings.level_hint_points_grab_bubbles",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_OfFables",
+    "ingame_music_event": "MUS_InGame_OfFables",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.covenant_team_round2"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_team_position_01",
+          "badge": "gold"
+        },
+        {
+          "team_position": 2,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": "localised_strings.medal_context_team_position_02",
+          "badge": "silver"
+        },
+        {
+          "team_position": 3,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_position_03",
+          "medal_description": "localised_strings.medal_context_team_position_03",
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_team",
+    "fall_feed": "fall_feed_race"
+  },
+  {
+    "id": "gs_treasuretrove_onlyteams",
+    "display_name": "localised_strings.wle_scorewhisk_title",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "fp17_knockout_scorewhisk"
+    },
+    "game_rules": "game_rules.gs_treasuretrove_onlyteams",
+    "round_description": "localised_strings.level_info_points_grab_bubbles",
+    "round_info": "localised_strings.level_hint_points_grab_bubbles",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_OfFables",
+    "ingame_music_event": "MUS_InGame_OfFables",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.covenant_team_round2"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1,
+          "badge": "gold"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20,
+          "badge": "silver"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50,
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_team",
+    "fall_feed": "fall_feed_race"
+  },
+  {
+    "id": "gs_zerogzone",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "showcase_zerogzone"
+    },
+    "game_rules": "game_rules.gs_zerogzone",
+    "round_description": "localised_strings.level_info_points_score_area",
+    "round_info": "localised_strings.level_hint_points_score_area",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Cheap_Ethics",
+    "ingame_music_event": "MUS_InGame_Cheap_Ethics",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.covenant_team_round2"
+    ],
+    "bonus": {
+      "type": "team_position",
+      "team_position_tiers": [
+        {
+          "team_position": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_team_position_01",
+          "badge": "gold"
+        },
+        {
+          "team_position": 2,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_position_02",
+          "medal_description": "localised_strings.medal_context_team_position_02",
+          "badge": "silver"
+        },
+        {
+          "team_position": 3,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_position_03",
+          "medal_description": "localised_strings.medal_context_team_position_03",
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_team",
+    "fall_feed": "fall_feed_score"
+  },
+  {
+    "id": "gs_zerogzone_onlyteams",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "showcase_zerogzone"
+    },
+    "game_rules": "game_rules.gs_zerogzone__onlyteams",
+    "round_description": "localised_strings.level_info_points_score_area",
+    "round_info": "localised_strings.level_hint_points_score_area",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Cheap_Ethics",
+    "ingame_music_event": "MUS_InGame_Cheap_Ethics",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.covenant_team",
+      "level_tags.covenant_team_round2"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1,
+          "badge": "gold"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20,
+          "badge": "silver"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50,
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_team",
+    "fall_feed": "fall_feed_score"
+  },
+  {
     "id": "junglerun_nature_ltm",
     "scene_type": {
       "type": "ugc",
@@ -1529,7 +3910,7 @@
       "type": "ugc",
       "dlc_level": "knockout_bubblegumbrew_filler"
     },
-    "game_rules": "game_rules.knockout_bubblegumbrew_filler",
+    "game_rules": "game_rules.gs_bubblegumbrew",
     "preparation_music_soundbank": "BNK_Music_GP",
     "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
     "ingame_music_soundbank": "BNK_Music_Yatta_Yatta",
@@ -1890,66 +4271,6 @@
       "level_tags.season_01",
       "level_tags.race_round",
       "level_tags.unique_door_dash"
-    ],
-    "bonus": {
-      "type": "position",
-      "position_tiers": [
-        {
-          "position_percentage": 1,
-          "multiplier": 40,
-          "description": "localised_strings.badge_text_position_01",
-          "medal_description": "localised_strings.medal_context_place_1st",
-          "medal_description_value": 1,
-          "badge": "gold"
-        },
-        {
-          "position_percentage": 20,
-          "multiplier": 25,
-          "description": "localised_strings.badge_text_percentage_020",
-          "medal_description": "localised_strings.medal_context_position",
-          "medal_description_value": 20,
-          "badge": "silver"
-        },
-        {
-          "position_percentage": 50,
-          "multiplier": 12,
-          "description": "localised_strings.badge_text_percentage_050",
-          "medal_description": "localised_strings.medal_context_position",
-          "medal_description_value": 50,
-          "badge": "bronze"
-        }
-      ]
-    },
-    "visualiser_estimate_percentage_qualification": -1,
-    "visualiser_estimate_variance": -1,
-    "visualiser_estimate_weighting": 1,
-    "level_archetype": "archetype_race",
-    "fall_feed": "fall_feed_race"
-  },
-  {
-    "id": "knockout_dragon_dashers_opener",
-    "display_name": "localised_strings.wle_clumsycarnival_title",
-    "scene_type": {
-      "type": "ugc",
-      "dlc_level": "knockout_clumsycarnival_opener"
-    },
-    "game_rules": "game_rules.knockout_mode_opener",
-    "round_description": "localised_strings.wle_clumsycarnival_desc",
-    "round_info": "localised_strings.wle_clumsycarnival_tip",
-    "preparation_music_soundbank": "BNK_Music_GP",
-    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
-    "ingame_music_soundbank": "BNK_Music_Nose_Whip",
-    "ingame_music_event": "MUS_InGame_Nose_Whip",
-    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
-    "extra_ambience_event": "AMB_Season_01_BedAmbience",
-    "main_ambience_state": "normal",
-    "player_name_max_distance": 50,
-    "crown_prompt_max_distance": 100,
-    "loading_screen_name": "Splash_UGC",
-    "level_badge_name": "Creative_Mode_Gauntlet",
-    "tags": [
-      "level_tags.race_round",
-      "level_tags.fp14_halloween"
     ],
     "bonus": {
       "type": "position",
@@ -103607,6 +105928,60 @@
     "visualiser_estimate_weighting": 1,
     "level_archetype": "archetype_race",
     "fall_feed": "fall_feed_race"
+  },
+  {
+    "id": "showcase_zerogzone",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "showcase_zerogzone"
+    },
+    "game_rules": "game_rules.showcase_zerogzone",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Cheap_Ethics",
+    "ingame_music_event": "MUS_InGame_Cheap_Ethics",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1,
+          "badge": "gold"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20,
+          "badge": "silver"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50,
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_hunt",
+    "fall_feed": "fall_feed_score"
   },
   {
     "id": "showcase_zidcosmique",

@@ -6697,6 +6697,38 @@
     "episode_reward_settings_id": "solos"
   },
   {
+    "id": "greatestsquads_ltm",
+    "show_name": "localised_strings.show_title_greatest_squads",
+    "show_description": "localised_strings.show_desc_greatest_squads",
+    "show_locked_message": "localised_strings.show_inactive_rounds_played",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "display_while_upcoming": true,
+    "can_play_again": true,
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 20,
+      "max_players": 20
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 12,
+      "max_players": 20
+    },
+    "show_type": {
+      "showtype_switch": "squad",
+      "squad_size": 4
+    },
+    "default_episode": "levels_episode.episode_greatest_squads_show",
+    "opens_at": "2020-01-01T09:00:00",
+    "closes_at": "2050-01-01T09:00:00",
+    "top_tags": [],
+    "show_image_cms": "ui_show_big_greatestsquads",
+    "episode_reward_settings_id": "knockout_squads"
+  },
+  {
     "id": "invisibeans_0508_to_0708_2022",
     "show_name": "localised_strings.level_name_invisibeans",
     "show_description": "localised_strings.show_desc_invisibeans",

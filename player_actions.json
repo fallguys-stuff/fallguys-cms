@@ -2789,6 +2789,35 @@
     }
   },
   {
+    "id": "play_gs_ltm",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "greatestsquads_ltm"
+        },
+        {
+          "dimension_id": "end_of_round_player_state",
+          "operator": "contains_any",
+          "string_array_value": [
+            "disqualified",
+            "qualified"
+          ],
+          "dimension_type": "array_dimension"
+        }
+      ]
+    }
+  },
+  {
     "id": "play_hoverboard2_in_show_ss2_almond",
     "config": {
       "metric_id": "round_reached",
@@ -5908,6 +5937,26 @@
           "operator": "equal",
           "dimension_type": "string_dimension",
           "string_value": "casual_show"
+        }
+      ]
+    }
+  },
+  {
+    "id": "player_ran_in_gs_ltm",
+    "config": {
+      "metric_id": "distance_run",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "greatestsquads_ltm"
         }
       ]
     }
@@ -10195,6 +10244,32 @@
     }
   },
   {
+    "id": "reach_final_round_gs_ltm",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "greatestsquads_ltm"
+        },
+        {
+          "dimension_id": "is_final_round",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        }
+      ]
+    }
+  },
+  {
     "id": "reach_final_round_hw_slime_climb",
     "config": {
       "metric_id": "round_reached",
@@ -11873,6 +11948,26 @@
     }
   },
   {
+    "id": "score_points_gs_ltm",
+    "config": {
+      "metric_id": "player_round_team_score",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "greatestsquads_ltm"
+        }
+      ]
+    }
+  },
+  {
     "id": "show_win_streak",
     "config": {
       "metric_id": "episode_win_streak"
@@ -13462,6 +13557,38 @@
           "operator": "equal",
           "dimension_type": "string_dimension",
           "string_value": "showcase_fp18"
+        }
+      ]
+    }
+  },
+  {
+    "id": "win_gs_ltm",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "round_qualified",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "is_final_round",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "greatestsquads_ltm"
         }
       ]
     }

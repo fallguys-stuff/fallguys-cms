@@ -455,6 +455,51 @@
     ]
   },
   {
+    "id": "greatest_squads_show",
+    "tag_score": [
+      {
+        "tag": "level_tags.race_round",
+        "repeat_malus": 2000,
+        "apply_bonus_when": {
+          "type": "after_stage",
+          "setting": {
+            "stage": 1
+          }
+        }
+      },
+      {
+        "tag": "level_tags.covenant_team",
+        "bonus": -2000,
+        "apply_bonus_when": {
+          "type": "before_stage",
+          "setting": {
+            "stage": 1
+          }
+        }
+      },
+      {
+        "tag": "level_tags.covenant_team_round2",
+        "repeat_malus": 2000,
+        "apply_bonus_when": {
+          "type": "after_stage",
+          "setting": {
+            "stage": 2
+          }
+        }
+      },
+      {
+        "tag": "level_tags.covenant_final",
+        "bonus": -2000,
+        "apply_bonus_when": {
+          "type": "before_stage",
+          "setting": {
+            "stage": 2
+          }
+        }
+      }
+    ]
+  },
+  {
     "id": "knockout_classic_duos",
     "tag_score": [
       {
