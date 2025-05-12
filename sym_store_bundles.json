@@ -52262,6 +52262,37 @@
     "bundle_background_custom_gradient_image": "bg_costumeset_bundle_s11_3_redstart_1x2"
   },
   {
+    "id": "bundle_victory_s11_3_crowninthestone",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 700,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "cosmetics_punchlines",
+          "item_id": "victory_s11_3_crowninthestone"
+        }
+      ],
+      "extra": []
+    },
+    "show_refresh_timer": true,
+    "display_name": "victory_s11_3_crowninthestone",
+    "bundle_description": "bundle_desc_celeb_default",
+    "bundle_type_subtitle": "bundle_subtitle_celebration_default01",
+    "rarity": "uncommon",
+    "category": "costume",
+    "bundle_background_custom_gradient_image": "bundle_duo_partywolf_01_1x2_bg"
+  },
+  {
     "id": "bundle_victory_s11_4_ip_gul",
     "has_stock": true,
     "stock": 1,
@@ -55141,6 +55172,35 @@
     "category": "costume"
   },
   {
+    "id": "promo_bundle_egs_mega_costume_25",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "iap",
+        "purchase_quantity": 1,
+        "iap": "egs_mega_costume_25"
+      },
+      "cosmetics": [
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_s10_digi_01"
+        },
+        {
+          "type": "costumes_upper",
+          "item_id": "top_s10_digi_01"
+        }
+      ],
+      "extra": []
+    },
+    "show_refresh_timer": true,
+    "bundle_description": "blank_sym_store_bundle_desc",
+    "bundle_type_subtitle": "blank_sym_store_bundle_subtitle",
+    "rarity": "legendary",
+    "category": "costume"
+  },
+  {
     "id": "promo_bundle_egs_mega_costume_fa",
     "has_stock": true,
     "stock": 1,
@@ -56519,8 +56579,12 @@
           "item_id": "bottom_s11_5_sif_cowboyboots_01"
         },
         {
-          "type": "cosmetics_punchlines",
-          "item_id": "victory_s11_3_crowninthestone"
+          "type": "costumes_upper",
+          "item_id": "top_s11_5_cutegecko_02"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_s11_5_cutegecko_02"
         }
       ],
       "extra": [
