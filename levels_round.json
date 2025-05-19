@@ -90507,6 +90507,62 @@
     "fall_feed": "fall_feed_race"
   },
   {
+    "id": "showcase_asteroidalley",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "showcase_asteroidalley"
+    },
+    "game_rules": "game_rules.showcase_asteroidalley",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Cheap_Ethics",
+    "ingame_music_event": "MUS_InGame_Cheap_Ethics",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.level_tag_ugc"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1,
+          "badge": "gold"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20,
+          "badge": "silver"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50,
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_hunt",
+    "fall_feed": "fall_feed_score"
+  },
+  {
     "id": "showcase_asteroidwall",
     "scene_type": {
       "type": "ugc",
@@ -100993,6 +101049,62 @@
     "fall_feed": "fall_feed_race"
   },
   {
+    "id": "showcase_rainbowpinball",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "showcase_rainbowpinball"
+    },
+    "game_rules": "game_rules.showcase_rainbowpinball",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Yatta_Yatta",
+    "ingame_music_event": "MUS_InGame_Yatta_Yatta",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.level_tag_ugc"
+    ],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1,
+          "badge": "gold"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20,
+          "badge": "silver"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50,
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_race",
+    "fall_feed": "fall_feed_race"
+  },
+  {
     "id": "showcase_rainbowtango",
     "scene_type": {
       "type": "ugc",
@@ -101646,6 +101758,42 @@
     "visualiser_estimate_weighting": 1,
     "level_archetype": "archetype_survival",
     "fall_feed": "fall_feed_survival"
+  },
+  {
+    "id": "showcase_rollinruins",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "showcase_rollinruins"
+    },
+    "game_rules": "game_rules.showcase_rollinruins",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Rumbling_Waterfall",
+    "ingame_music_event": "MUS_InGame_Rumbling_Waterfall",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.level_tag_ugc"
+    ],
+    "bonus": {
+      "type": "qualification",
+      "qualification_tier": {
+        "multiplier": 12,
+        "description": "localised_strings.badge_text_victory",
+        "medal_description": "localised_strings.medal_context_qualification",
+        "badge": "gold"
+      }
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_final",
+    "fall_feed": "fall_feed_race"
   },
   {
     "id": "showcase_rollnsurvive",
@@ -103362,6 +103510,7 @@
       "dlc_level": "showcase_slidenroll"
     },
     "game_rules": "game_rules.showcase_slidenroll",
+    "round_info": "localised_strings.level_info_points_generic",
     "preparation_music_soundbank": "BNK_Music_GP",
     "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
     "ingame_music_soundbank": "BNK_Music_Yatta_Yatta",
@@ -103373,7 +103522,9 @@
     "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_UGC",
     "level_badge_name": "Creative_Mode_Gauntlet",
-    "tags": [],
+    "tags": [
+      "level_tags.level_tag_ugc"
+    ],
     "bonus": {
       "type": "position",
       "position_tiers": [
@@ -104243,6 +104394,62 @@
     "loading_screen_name": "Splash_UGC",
     "level_badge_name": "Creative_Mode_Gauntlet",
     "tags": [],
+    "bonus": {
+      "type": "position",
+      "position_tiers": [
+        {
+          "position_percentage": 1,
+          "multiplier": 40,
+          "description": "localised_strings.badge_text_position_01",
+          "medal_description": "localised_strings.medal_context_place_1st",
+          "medal_description_value": 1,
+          "badge": "gold"
+        },
+        {
+          "position_percentage": 20,
+          "multiplier": 25,
+          "description": "localised_strings.badge_text_percentage_020",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 20,
+          "badge": "silver"
+        },
+        {
+          "position_percentage": 50,
+          "multiplier": 12,
+          "description": "localised_strings.badge_text_percentage_050",
+          "medal_description": "localised_strings.medal_context_position",
+          "medal_description_value": 50,
+          "badge": "bronze"
+        }
+      ]
+    },
+    "visualiser_estimate_percentage_qualification": -1,
+    "visualiser_estimate_variance": -1,
+    "visualiser_estimate_weighting": 1,
+    "level_archetype": "archetype_race",
+    "fall_feed": "fall_feed_race"
+  },
+  {
+    "id": "showcase_speedball",
+    "scene_type": {
+      "type": "ugc",
+      "dlc_level": "showcase_speedball"
+    },
+    "game_rules": "game_rules.showcase_speedball",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Cheap_Ethics",
+    "ingame_music_event": "MUS_InGame_Cheap_Ethics",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
+    "main_ambience_state": "normal",
+    "player_name_max_distance": 50,
+    "crown_prompt_max_distance": 100,
+    "loading_screen_name": "Splash_UGC",
+    "level_badge_name": "Creative_Mode_Gauntlet",
+    "tags": [
+      "level_tags.level_tag_ugc"
+    ],
     "bonus": {
       "type": "position",
       "position_tiers": [
@@ -109198,9 +109405,11 @@
     "round_description": "localised_strings.level_info_powerup_ball",
     "round_info": "localised_strings.level_info_powerup_ball",
     "preparation_music_soundbank": "BNK_Music_GP",
-    "preparation_music_event": "MUS_InGame_PreparationPhase",
-    "ingame_music_soundbank": "BNK_Music_Critic_Carrot",
-    "ingame_music_event": "MUS_InGame_Critic_Carrot",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Cheap_Ethics",
+    "ingame_music_event": "MUS_InGame_Cheap_Ethics",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
     "crown_prompt_max_distance": 100,
@@ -109251,6 +109460,12 @@
       "dlc_level": "wle_mrs_bouncy_bean_time_filler_02"
     },
     "game_rules": "game_rules.wle_mrs_bouncy_bean_time_filler",
+    "preparation_music_soundbank": "BNK_Music_PreparationPhase_Season_10",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Season_10_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Want_Revenge",
+    "ingame_music_event": "MUS_InGame_Want_Revenge",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_10",
+    "extra_ambience_event": "AMB_Season_10_BedAmbience",
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
     "crown_prompt_max_distance": 100,
@@ -109351,6 +109566,7 @@
       "dlc_level": "showcase_golffall"
     },
     "game_rules": "game_rules.wle_mrs_bouncy_bean_time_filler_04",
+    "round_info": "localised_strings.level_info_points_generic",
     "preparation_music_soundbank": "BNK_Music_GP",
     "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
     "ingame_music_soundbank": "BNK_Music_Bean_Thieves",
@@ -109362,7 +109578,9 @@
     "crown_prompt_max_distance": 100,
     "loading_screen_name": "Splash_UGC",
     "level_badge_name": "Creative_Mode_Gauntlet",
-    "tags": [],
+    "tags": [
+      "level_tags.level_tag_ugc"
+    ],
     "bonus": {
       "type": "position",
       "position_tiers": [
@@ -109407,10 +109625,12 @@
     "game_rules": "game_rules.wle_mrs_bouncy_bean_time_final",
     "round_description": "localised_strings.level_info_powerup_ball",
     "round_info": "localised_strings.level_info_powerup_ball",
-    "preparation_music_soundbank": "BNK_Music_GP",
-    "preparation_music_event": "MUS_InGame_PreparationPhase",
-    "ingame_music_soundbank": "BNK_Music_Critic_Carrot",
-    "ingame_music_event": "MUS_InGame_Critic_Carrot",
+    "preparation_music_soundbank": "BNK_Music_PreparationPhase_Season_10",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Season_10_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Grand_Festifall",
+    "ingame_music_event": "MUS_InGame_Grand_Festifall",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_10",
+    "extra_ambience_event": "AMB_Season_10_BedAmbience",
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
     "crown_prompt_max_distance": 100,
@@ -109441,6 +109661,12 @@
       "dlc_level": "wle_mrs_bouncy_bean_time_final_02"
     },
     "game_rules": "game_rules.wle_mrs_bouncy_bean_time_final",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Falling_Dancefloor",
+    "ingame_music_event": "MUS_InGame_Falling_Dancefloor",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
     "crown_prompt_max_distance": 100,
@@ -109471,6 +109697,12 @@
       "dlc_level": "wle_mrs_bouncy_bean_time_final_03"
     },
     "game_rules": "game_rules.wle_mrs_bouncy_bean_time_final",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Chimney_Bean_Bebop",
+    "ingame_music_event": "MUS_InGame_Chimney_Bean_Bebop",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
     "crown_prompt_max_distance": 100,
@@ -109538,9 +109770,11 @@
     "round_description": "localised_strings.level_info_powerup_ball",
     "round_info": "localised_strings.level_info_powerup_ball",
     "preparation_music_soundbank": "BNK_Music_GP",
-    "preparation_music_event": "MUS_InGame_PreparationPhase",
-    "ingame_music_soundbank": "BNK_Music_Critic_Carrot",
-    "ingame_music_event": "MUS_InGame_Critic_Carrot",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Fall_N_Roll",
+    "ingame_music_event": "MUS_InGame_Fall_N_Roll",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
     "crown_prompt_max_distance": 100,
@@ -109591,6 +109825,12 @@
       "dlc_level": "wle_mrs_bouncy_bean_time_opener_02"
     },
     "game_rules": "game_rules.wle_mrs_bouncy_bean_time_opener",
+    "preparation_music_soundbank": "BNK_Music_PreparationPhase_Season_10",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Season_10_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Want_Revenge",
+    "ingame_music_event": "MUS_InGame_Want_Revenge",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_10",
+    "extra_ambience_event": "AMB_Season_10_BedAmbience",
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
     "crown_prompt_max_distance": 100,
@@ -109641,6 +109881,12 @@
       "dlc_level": "wle_mrs_bouncy_bean_time_opener_03"
     },
     "game_rules": "game_rules.wle_mrs_bouncy_bean_time_opener",
+    "preparation_music_soundbank": "BNK_Music_GP",
+    "preparation_music_event": "MUS_InGame_PreparationPhase_Short_2s",
+    "ingame_music_soundbank": "BNK_Music_Bishop_Steak",
+    "ingame_music_event": "MUS_InGame_Bishop_Steak",
+    "extra_ambience_soundbank": "BNK_Ambiences_Season_01",
+    "extra_ambience_event": "AMB_Season_01_BedAmbience",
     "main_ambience_state": "normal",
     "player_name_max_distance": 50,
     "crown_prompt_max_distance": 100,
