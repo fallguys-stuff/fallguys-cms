@@ -230,6 +230,11 @@
             "group_id": "currencies",
             "quantity": 5,
             "item_id": "crown_shards"
+          },
+          {
+            "group_id": "currencies",
+            "quantity": 30,
+            "item_id": "kudos"
           }
         ]
       }
@@ -357,20 +362,25 @@
     "id": "knockout_duos",
     "rounds": [
       {
-        "fame": 700
+        "fame": 700,
+        "kudos": 15
       },
       {
-        "fame": 800
+        "fame": 800,
+        "kudos": 30
       },
       {
-        "fame": 900
+        "fame": 900,
+        "kudos": 45
       }
     ],
     "extra": {
-      "fame": 900
+      "fame": 900,
+      "kudos": 60
     },
     "winner": {
       "fame": 1000,
+      "kudos": 75,
       "shards": 35
     },
     "rewards": {
@@ -408,20 +418,25 @@
     },
     "rounds": [
       {
-        "fame": 700
+        "fame": 700,
+        "kudos": 15
       },
       {
-        "fame": 800
+        "fame": 800,
+        "kudos": 30
       },
       {
-        "fame": 900
+        "fame": 900,
+        "kudos": 45
       }
     ],
     "extra": {
-      "fame": 900
+      "fame": 900,
+      "kudos": 60
     },
     "winner": {
       "fame": 1000,
+      "kudos": 75,
       "crowns": 1
     }
   },
@@ -453,20 +468,25 @@
     "id": "knockout_squads",
     "rounds": [
       {
-        "fame": 700
+        "fame": 700,
+        "kudos": 15
       },
       {
-        "fame": 800
+        "fame": 800,
+        "kudos": 30
       },
       {
-        "fame": 900
+        "fame": 900,
+        "kudos": 45
       }
     ],
     "extra": {
-      "fame": 900
+      "fame": 900,
+      "kudos": 60
     },
     "winner": {
       "fame": 1000,
+      "kudos": 75,
       "shards": 20
     },
     "rewards": {
@@ -549,6 +569,30 @@
     },
     "rewards": {
       "type": "legacy_episode_based"
+    }
+  },
+  {
+    "id": "private_lobby_show_rewards",
+    "rewards": {
+      "type": "legacy_episode_based"
+    },
+    "rounds": [
+      {
+        "fame": 700
+      },
+      {
+        "fame": 800
+      },
+      {
+        "fame": 900
+      }
+    ],
+    "extra": {
+      "fame": 900
+    },
+    "winner": {
+      "fame": 1000,
+      "crowns": 1
     }
   },
   {
@@ -1148,20 +1192,25 @@
     },
     "rounds": [
       {
-        "fame": 700
+        "fame": 700,
+        "kudos": 15
       },
       {
-        "fame": 800
+        "fame": 800,
+        "kudos": 30
       },
       {
-        "fame": 900
+        "fame": 900,
+        "kudos": 45
       }
     ],
     "extra": {
-      "fame": 900
+      "fame": 900,
+      "kudos": 60
     },
     "winner": {
       "fame": 1000,
+      "kudos": 75,
       "crowns": 2
     }
   },
@@ -1169,26 +1218,33 @@
     "id": "xtreme_squads_rewards",
     "rounds": [
       {
-        "fame": 700
+        "fame": 700,
+        "kudos": 15
       },
       {
-        "fame": 800
+        "fame": 800,
+        "kudos": 30
       },
       {
-        "fame": 900
+        "fame": 900,
+        "kudos": 45
       },
       {
-        "fame": 900
+        "fame": 900,
+        "kudos": 60
       },
       {
-        "fame": 900
+        "fame": 900,
+        "kudos": 60
       }
     ],
     "extra": {
-      "fame": 900
+      "fame": 900,
+      "kudos": 60
     },
     "winner": {
       "fame": 1000,
+      "kudos": 75,
       "shards": 40
     },
     "rewards": {

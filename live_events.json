@@ -676,6 +676,251 @@
     "reward_icon_image": "icon_liveevent_aprilfools2025_currency_icon"
   },
   {
+    "id": "fp19_le_noodles",
+    "title": "localised_strings.le_fp19_noodles_title",
+    "description": "localised_strings.le_fp19_noodles_desc",
+    "ui_detail_colour": "colour.challenges_blue",
+    "target_ids": [
+      "fp19_le_noodles"
+    ],
+    "milestones": [
+      {
+        "xp_required": 100,
+        "reward_id": "nickname_19_0_event_01"
+      },
+      {
+        "xp_required": 300,
+        "reward_id": "kudos_bonus_1000"
+      },
+      {
+        "xp_required": 500,
+        "reward_id": "nameplateui_s18_noodle"
+      },
+      {
+        "xp_required": 700,
+        "reward_id": "bottom_s18_noodlespill_01"
+      },
+      {
+        "xp_required": 1000,
+        "reward_id": "top_s18_noodlespill_01"
+      }
+    ],
+    "challenges": [
+      {
+        "xp_awarded": 100,
+        "goal_description_locked": {
+          "template_parameters": []
+        },
+        "unlock_conditions": [],
+        "goal_id": "event_fp19_noodles_01"
+      },
+      {
+        "xp_awarded": 100,
+        "goal_description_locked": {
+          "template_parameters": []
+        },
+        "unlock_conditions": [],
+        "goal_id": "event_fp19_noodles_02"
+      },
+      {
+        "xp_awarded": 100,
+        "goal_description_locked": {
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "event_fp19_noodles_01"
+            }
+          ],
+          "template": "challenge_unlock_multiple_of_a_type"
+        },
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_fp19_noodles_01"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_fp19_noodles_02"
+          }
+        ],
+        "goal_id": "event_fp19_noodles_03",
+        "goal_title_locked": "event_fp19_noodles_02_locked"
+      },
+      {
+        "xp_awarded": 100,
+        "goal_description_locked": {
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "event_fp19_noodles_01"
+            }
+          ],
+          "template": "challenge_unlock_multiple_of_a_type"
+        },
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_fp19_noodles_01"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_fp19_noodles_02"
+          }
+        ],
+        "goal_id": "event_fp19_noodles_04",
+        "goal_title_locked": "event_fp19_noodles_02_locked"
+      },
+      {
+        "xp_awarded": 100,
+        "goal_description_locked": {
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "event_fp19_noodles_02"
+            }
+          ],
+          "template": "challenge_unlock_multiple_of_a_type"
+        },
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_fp19_noodles_03"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_fp19_noodles_04"
+          }
+        ],
+        "goal_id": "event_fp19_noodles_05",
+        "goal_title_locked": "event_fp19_noodles_03_locked"
+      },
+      {
+        "xp_awarded": 100,
+        "goal_description_locked": {
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "event_fp19_noodles_02"
+            }
+          ],
+          "template": "challenge_unlock_multiple_of_a_type"
+        },
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_fp19_noodles_03"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_fp19_noodles_04"
+          }
+        ],
+        "goal_id": "event_fp19_noodles_06",
+        "goal_title_locked": "event_fp19_noodles_03_locked"
+      },
+      {
+        "xp_awarded": 100,
+        "goal_description_locked": {
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "event_fp19_noodles_03"
+            }
+          ],
+          "template": "challenge_unlock_multiple_of_a_type"
+        },
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_fp19_noodles_05"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_fp19_noodles_06"
+          }
+        ],
+        "goal_id": "event_fp19_noodles_07",
+        "goal_title_locked": "event_fp19_noodles_04_locked"
+      },
+      {
+        "xp_awarded": 100,
+        "goal_description_locked": {
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "event_fp19_noodles_03"
+            }
+          ],
+          "template": "challenge_unlock_multiple_of_a_type"
+        },
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_fp19_noodles_05"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_fp19_noodles_06"
+          }
+        ],
+        "goal_id": "event_fp19_noodles_08",
+        "goal_title_locked": "event_fp19_noodles_04_locked"
+      },
+      {
+        "xp_awarded": 200,
+        "goal_description_locked": {
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "event_fp19_noodles_04"
+            }
+          ],
+          "template": "challenge_unlock_multiple_of_a_type"
+        },
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_fp19_noodles_07"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_fp19_noodles_08"
+          }
+        ],
+        "goal_id": "event_fp19_noodles_09",
+        "goal_title_locked": "event_fp19_noodles_05_locked"
+      },
+      {
+        "xp_awarded": 200,
+        "goal_description_locked": {
+          "template_parameters": [
+            {
+              "type": "localised",
+              "localised_string": "event_fp19_noodles_04"
+            }
+          ],
+          "template": "challenge_unlock_multiple_of_a_type"
+        },
+        "unlock_conditions": [
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_fp19_noodles_07"
+          },
+          {
+            "unlock_type": "goal",
+            "goal_id": "event_fp19_noodles_08"
+          }
+        ],
+        "goal_id": "event_fp19_noodles_10",
+        "goal_title_locked": "event_fp19_noodles_05_locked"
+      }
+    ],
+    "tool_tip_image": "ui_liveevent_neotokyonoodles_tooltip_art",
+    "background_image": "gb_liveevent_neotokyonoodles_background_art",
+    "promotional_image": "promo_liveevent_neotokyonoodles_character_render",
+    "reward_icon_image": "icon_liveevent_neotokyonoodles_currency_icon"
+  },
+  {
     "id": "le_fp12_august",
     "title": "localised_strings.le_fp12_title_august",
     "description": "localised_strings.le_fp12_desc_august",

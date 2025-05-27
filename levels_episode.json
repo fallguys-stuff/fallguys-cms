@@ -1255,7 +1255,7 @@
   {
     "id": "episode_knockout_mode",
     "director": "levels_director.director_knockout_fp17",
-    "roundpool": "levels_roundpool.ranked_show_cycle_1_roundpool",
+    "roundpool": "levels_roundpool.ranked_show_cycle_2_roundpool",
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.knockout_fp10_final_1",
     "bucket_override_roundpools": [],
@@ -1384,10 +1384,10 @@
   {
     "id": "episode_ranked_mode",
     "director": "levels_director.director_ranked",
-    "roundpool": "levels_roundpool.ranked_show_cycle_1_roundpool",
+    "roundpool": "levels_roundpool.ranked_show_cycle_2_roundpool",
+    "bucket_override_roundpools": [],
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.ranked_hexagone_final",
-    "bucket_override_roundpools": [],
     "mode": "knockout"
   },
   {
@@ -1759,6 +1759,12 @@
     "mode": "knockout"
   },
   {
+    "id": "private_lobby_show_mode",
+    "debug_player_count_multiplier": 3,
+    "bucket_override_roundpools": [],
+    "mode": "direct"
+  },
+  {
     "id": "s10_main_show_template_base",
     "director": "levels_director.director_solo_show_s10_template",
     "roundpool": "levels_roundpool.roundpool_main_show_template_base",
@@ -1827,6 +1833,15 @@
     "roundpool": "levels_roundpool.showcase_fp17",
     "debug_player_count_multiplier": 7,
     "fallback_round": "levels_round.round_fp17_castlesiege",
+    "bucket_override_roundpools": [],
+    "mode": "knockout"
+  },
+  {
+    "id": "showcase_fp19",
+    "director": "levels_director.director_no_weightings",
+    "roundpool": "levels_roundpool.fp19_showcase",
+    "debug_player_count_multiplier": 7,
+    "fallback_round": "levels_round.fp19_mellowcakes",
     "bucket_override_roundpools": [],
     "mode": "knockout"
   },

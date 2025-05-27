@@ -8362,6 +8362,36 @@
     "episode_reward_settings_id": "squads"
   },
   {
+    "id": "private_lobby_show",
+    "show_name": "localised_strings.private_lobby_title",
+    "show_description": "localised_strings.custom_lobby_create_lobby_desc",
+    "show_image": "MainShow",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "hide_countdown": true,
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 1,
+      "max_players": 32
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 1,
+      "max_players": 32
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.private_lobby_show_mode",
+    "opens_at": "2020-01-01T09:00:00",
+    "closes_at": "2050-01-01T09:00:00",
+    "top_tags": [],
+    "show_image_cms": "show_selector_placeholder",
+    "episode_reward_settings_id": "private_lobby_show_rewards"
+  },
+  {
     "id": "ranked_show_knockout",
     "show_name": "localised_strings.ranked_show_knockout",
     "show_description": "localised_strings.ranked_knockout_mode_desc",
@@ -8849,6 +8879,40 @@
     "show_image_cms": "ui_show_big_aprilfools_ltm_640x697",
     "big_tile_show_image_cms": "ui_show_big_aprilfools_ltm_640x697",
     "episode_reward_settings_id": "knockout_duos"
+  },
+  {
+    "id": "showcase_fp19",
+    "show_name": "localised_strings.fp19_showcase_title",
+    "show_description": "localised_strings.fp19_showcase_desc",
+    "show_locked_message": "localised_strings.inactive_show_knockout",
+    "show_image": "SquadShow",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "display_while_upcoming": true,
+    "can_play_again": true,
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 16,
+      "max_players": 20
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 16,
+      "max_players": 20
+    },
+    "show_type": {
+      "showtype_switch": "squad",
+      "squad_size": 4
+    },
+    "default_episode": "levels_episode.showcase_fp19",
+    "opens_at": "2020-01-01T09:00:00",
+    "closes_at": "2050-01-01T09:00:00",
+    "top_tags": [],
+    "show_image_cms": "ui_show_big_yeetropolis",
+    "big_tile_show_image_cms": "ui_show_big_yeetropolis",
+    "episode_reward_settings_id": "knockout_squads"
   },
   {
     "id": "slime_survivors",

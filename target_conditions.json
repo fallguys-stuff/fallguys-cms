@@ -7559,6 +7559,182 @@
     }
   },
   {
+    "id": "fp19_active_dates",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2025-05-27T12:00:00",
+        "end": "2025-07-22T11:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp19_blackbird",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2025-06-14T10:00:00",
+        "end": "2025-06-21T10:00:00"
+      }
+    }
+  },
+  {
+    "id": "fp19_bluebird",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2025-06-14T10:00:00",
+        "end": "2025-06-21T10:00:00"
+      }
+    }
+  },
+  {
+    "id": "fp19_chaffinch_ip",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2025-05-27T10:00:00",
+        "end": "2025-06-03T10:00:00"
+      }
+    }
+  },
+  {
+    "id": "fp19_gato",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2025-06-17T10:00:00",
+        "end": "2025-06-24T10:00:00"
+      }
+    }
+  },
+  {
+    "id": "fp19_greenbird",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2025-06-14T10:00:00",
+        "end": "2025-06-21T10:00:00"
+      }
+    }
+  },
+  {
+    "id": "fp19_gul",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2025-06-07T10:00:00",
+        "end": "2025-06-14T10:00:00"
+      }
+    }
+  },
+  {
+    "id": "fp19_jaeger",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2025-06-03T10:00:00",
+        "end": "2025-06-10T10:00:00"
+      }
+    }
+  },
+  {
+    "id": "fp19_le_noodles",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2025-05-27T12:00:00",
+        "end": "2025-06-17T11:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp19_peacock",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2025-06-10T10:00:00",
+        "end": "2025-06-24T10:00:00"
+      }
+    }
+  },
+  {
+    "id": "fp19_pedro",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2025-05-31T10:00:00",
+        "end": "2025-06-07T10:00:00"
+      }
+    }
+  },
+  {
+    "id": "fp19_plover",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2025-06-03T10:00:00",
+        "end": "2025-06-10T10:00:00"
+      }
+    }
+  },
+  {
+    "id": "fp19_quail",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2025-06-21T10:00:00",
+        "end": "2025-06-28T10:00:00"
+      }
+    }
+  },
+  {
+    "id": "fp19_sandpiper_ip",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2025-05-27T10:00:00",
+        "end": "2025-06-03T10:00:00"
+      }
+    }
+  },
+  {
+    "id": "fp19_showcase_weeklies",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2025-05-27T12:00:00",
+        "end": "2025-06-03T11:59:59"
+      }
+    }
+  },
+  {
+    "id": "fp19_starling",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2025-06-19T10:00:00",
+        "end": "2025-06-26T10:00:00"
+      }
+    }
+  },
+  {
     "id": "fp4_active_dates",
     "parameters": {
       "type": "date_time",
@@ -19611,6 +19787,22 @@
     }
   },
   {
+    "id": "target_famepass_fp19_notowned",
+    "parameters": {
+      "type": "item_quantity",
+      "data": {
+        "item": {
+          "type": "season_passes",
+          "reference": "season_passes.famepass_19"
+        },
+        "quantity": {
+          "operator": "less_than",
+          "max": 1
+        }
+      }
+    }
+  },
+  {
     "id": "target_famepass_fp4_notowned",
     "parameters": {
       "type": "item_quantity",
@@ -19950,6 +20142,21 @@
     }
   },
   {
+    "id": "target_fp19_pass_owned",
+    "parameters": {
+      "type": "item_quantity",
+      "data": {
+        "item": {
+          "type": "season_passes",
+          "reference": "season_passes.famepass_19"
+        },
+        "quantity": {
+          "operator": "more_than"
+        }
+      }
+    }
+  },
+  {
     "id": "target_region_availability_emb",
     "parameters": {
       "type": "country_from_ip",
@@ -20099,6 +20306,22 @@
         "item": {
           "type": "costumes_upper",
           "reference": "costumes_upper.top_s11_6_squirrel_03"
+        },
+        "quantity": {
+          "operator": "less_than",
+          "max": 1
+        }
+      }
+    }
+  },
+  {
+    "id": "target_s18_meowmurai_02_not_owned",
+    "parameters": {
+      "type": "item_quantity",
+      "data": {
+        "item": {
+          "type": "costumes_upper",
+          "reference": "costumes_upper.top_s18_meowmurai_02"
         },
         "quantity": {
           "operator": "less_than",

@@ -2780,6 +2780,47 @@
     }
   },
   {
+    "id": "play_fp19_showcase_in_party",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "is_in_party",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "party_size",
+          "operator": "more_or_equal",
+          "integer_value": 2,
+          "dimension_type": "integer_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "showcase_fp19"
+        },
+        {
+          "dimension_id": "end_of_round_player_state",
+          "operator": "contains_any",
+          "string_array_value": [
+            "qualified",
+            "disqualified"
+          ],
+          "dimension_type": "array_dimension"
+        }
+      ]
+    }
+  },
+  {
     "id": "play_gauntletx_in_show_ss2_almond",
     "config": {
       "metric_id": "round_reached",
@@ -4230,6 +4271,31 @@
     }
   },
   {
+    "id": "play_showcase_fp19",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "showcase_fp19"
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "round_index",
+          "operator": "equal",
+          "dimension_type": "integer_dimension"
+        }
+      ]
+    }
+  },
+  {
     "id": "play_snowday_stumble",
     "config": {
       "metric_id": "round_reached",
@@ -4820,6 +4886,26 @@
           "operator": "equal",
           "dimension_type": "string_dimension",
           "string_value": "casual_show"
+        }
+      ]
+    }
+  },
+  {
+    "id": "player_dived_fp19_showcase",
+    "config": {
+      "metric_id": "player_dived",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "showcase_fp19"
         }
       ]
     }
@@ -10244,6 +10330,41 @@
     }
   },
   {
+    "id": "reach_final_round_fp19_showcase",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "showcase_fp19"
+        },
+        {
+          "dimension_id": "end_of_round_player_state",
+          "operator": "contains_any",
+          "string_array_value": [
+            "qualified",
+            "disqualified"
+          ],
+          "dimension_type": "array_dimension"
+        },
+        {
+          "dimension_id": "is_final_round",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        }
+      ]
+    }
+  },
+  {
     "id": "reach_final_round_gs_ltm",
     "config": {
       "metric_id": "round_reached",
@@ -12700,6 +12821,26 @@
     }
   },
   {
+    "id": "use_phrases_fp19_showcase",
+    "config": {
+      "metric_id": "player_used_phrases",
+      "dimensions": [
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "showcase_fp19"
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        }
+      ]
+    }
+  },
+  {
     "id": "use_phrases_knockout",
     "config": {
       "metric_id": "player_used_phrases",
@@ -13557,6 +13698,38 @@
           "operator": "equal",
           "dimension_type": "string_dimension",
           "string_value": "showcase_fp18"
+        }
+      ]
+    }
+  },
+  {
+    "id": "win_fp19_showcase",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "round_qualified",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "is_final_round",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "showcase_fp19"
         }
       ]
     }
