@@ -16514,6 +16514,62 @@
     "ribbon_label_text": "storelabel_discount_primos"
   },
   {
+    "id": "bundle_costumeset_gadwall01",
+    "has_stock": true,
+    "stock": 2,
+    "bundle_type": {
+      "bundle_type": "costume_set",
+      "purchase_options": {
+        "type": "currencies",
+        "item_id": "gems"
+      },
+      "cosmetics": [
+        {
+          "type": "costume_sets",
+          "item_id": "costumeset_ip_gadwall01_01"
+        }
+      ]
+    },
+    "show_ribbon_label": true,
+    "show_refresh_timer": true,
+    "display_name": "bundle_costumeset_ip_gadwall_name",
+    "bundle_description": "bundle_costumeset_ip_gadwall_desc",
+    "bundle_type_subtitle": "bundle_costumeset_ip_gadwall_subtitle",
+    "rarity": "special_4",
+    "category": "currency",
+    "bundle_tile_image": "ui_costumeset_gadwall01",
+    "bundle_background_custom_gradient_image": "bg_costumeset_bundle_s19_gadwall_1x2",
+    "ribbon_label_text": "storelabel_discount_primos"
+  },
+  {
+    "id": "bundle_costumeset_gadwall02",
+    "has_stock": true,
+    "stock": 2,
+    "bundle_type": {
+      "bundle_type": "costume_set",
+      "purchase_options": {
+        "type": "currencies",
+        "item_id": "gems"
+      },
+      "cosmetics": [
+        {
+          "type": "costume_sets",
+          "item_id": "costumeset_ip_gadwall02_01"
+        }
+      ]
+    },
+    "show_ribbon_label": true,
+    "show_refresh_timer": true,
+    "display_name": "bundle_costumeset_ip_gadwall02_name",
+    "bundle_description": "bundle_costumeset_ip_gadwall02_desc",
+    "bundle_type_subtitle": "bundle_costumeset_ip_gadwall02_subtitle",
+    "rarity": "special_4",
+    "category": "currency",
+    "bundle_tile_image": "ui_costumeset_gadwall02",
+    "bundle_background_custom_gradient_image": "bg_costumeset_bundle_s19_gadwall_1x2",
+    "ribbon_label_text": "storelabel_discount_primos"
+  },
+  {
     "id": "bundle_costumeset_garganry01_01",
     "has_stock": true,
     "stock": 2,
@@ -34317,6 +34373,50 @@
     "category": "costume",
     "bundle_tile_image": "ui_bundle_bundle_ss10_18_chaffinch_02_2x2",
     "bundle_background_custom_gradient_image": "bg_bundle_bundle_s11_18_chaffinch_2x2",
+    "ribbon_label_text": "storelabel_discount_primos"
+  },
+  {
+    "id": "bundle_grabbag_ip_gadwall",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "discount",
+      "purchase_options": {
+        "type": "currencies",
+        "item_id": "gems"
+      },
+      "discount": 1800,
+      "cosmetics": [
+        {
+          "type": "costume_sets",
+          "item_id": "costumeset_ip_gadwall01_01"
+        },
+        {
+          "type": "costume_sets",
+          "item_id": "costumeset_ip_gadwall02_01"
+        },
+        {
+          "type": "cosmetics_emotes",
+          "cost": 400,
+          "item_id": "emote_s19_ip_gadwall_01"
+        },
+        {
+          "type": "cosmetics_emotes",
+          "cost": 400,
+          "item_id": "emote_s19_ip_gadwall_02"
+        }
+      ],
+      "extra": []
+    },
+    "show_ribbon_label": true,
+    "show_refresh_timer": true,
+    "display_name": "bundle_grabbag_ip_gadwall_name",
+    "bundle_description": "bundle_grabbag_ip_gadwall_desc",
+    "bundle_type_subtitle": "bundle_grabbag_ip_gadwall_subtitle",
+    "rarity": "special_4",
+    "category": "costume",
+    "bundle_tile_image": "ui_bundle_s19_gadwall_2x2",
+    "bundle_background_custom_gradient_image": "bg_bundle_s19_gadwall_2x2",
     "ribbon_label_text": "storelabel_discount_primos"
   },
   {
@@ -53019,6 +53119,68 @@
     "bundle_background_custom_gradient_image": "bg_costumeset_s11_greenbird_1x2"
   },
   {
+    "id": "emote_s19_ip_gadwall_01",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 400,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "cosmetics_emotes",
+          "item_id": "emote_s19_ip_gadwall_01"
+        }
+      ],
+      "extra": []
+    },
+    "show_refresh_timer": true,
+    "display_name": "emote_s19_ip_gadwall_01",
+    "bundle_description": "bundle_desc_emote_default",
+    "bundle_type_subtitle": "bundle_subtitle_emote_default01",
+    "rarity": "special_4",
+    "category": "currency",
+    "bundle_background_custom_gradient_image": "bg_costumeset_bundle_s19_gadwall_1x2"
+  },
+  {
+    "id": "emote_s19_ip_gadwall_02",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 400,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "cosmetics_emotes",
+          "item_id": "emote_s19_ip_gadwall_02"
+        }
+      ],
+      "extra": []
+    },
+    "show_refresh_timer": true,
+    "display_name": "emote_s19_ip_gadwall_02",
+    "bundle_description": "bundle_desc_emote_default",
+    "bundle_type_subtitle": "bundle_subtitle_emote_default01",
+    "rarity": "special_4",
+    "category": "currency",
+    "bundle_background_custom_gradient_image": "bg_costumeset_bundle_s19_gadwall_1x2"
+  },
+  {
     "id": "emote_ss1_mockingbird_01",
     "has_stock": true,
     "stock": 1,
@@ -55436,6 +55598,51 @@
     "bundle_description": "blank_sym_store_bundle_desc",
     "bundle_type_subtitle": "blank_sym_store_bundle_subtitle",
     "rarity": "epic",
+    "category": "costume"
+  },
+  {
+    "id": "promo_bundle_gadwall",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "iap",
+        "purchase_quantity": 1,
+        "iap": "promo_egs_gadwall"
+      },
+      "cosmetics": [
+        {
+          "type": "costumes_upper",
+          "item_id": "top_s19_ip_gadwall01_01"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_s19_ip_gadwall01_01"
+        },
+        {
+          "type": "costumes_upper",
+          "item_id": "top_s19_ip_gadwall02_01"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_s19_ip_gadwall02_01"
+        },
+        {
+          "type": "cosmetics_emotes",
+          "item_id": "emote_s19_ip_gadwall_01"
+        },
+        {
+          "type": "cosmetics_emotes",
+          "item_id": "emote_s19_ip_gadwall_02"
+        }
+      ],
+      "extra": []
+    },
+    "show_refresh_timer": true,
+    "bundle_description": "blank_sym_store_bundle_desc",
+    "bundle_type_subtitle": "blank_sym_store_bundle_subtitle",
+    "rarity": "rare",
     "category": "costume"
   },
   {
