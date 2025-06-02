@@ -1681,8 +1681,8 @@
       "type": "date_time",
       "data": {
         "operator": "between",
-        "start": "2025-05-06T12:00:00",
-        "end": "2025-05-13T11:59:59"
+        "start": "2025-06-03T12:00:00",
+        "end": "2025-06-10T11:59:59"
       }
     }
   },
@@ -7570,6 +7570,17 @@
     }
   },
   {
+    "id": "fp19_bagel",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2025-06-01T10:00:00",
+        "end": "2025-07-01T09:59:59"
+      }
+    }
+  },
+  {
     "id": "fp19_blackbird",
     "parameters": {
       "type": "date_time",
@@ -11029,6 +11040,21 @@
     }
   },
   {
+    "id": "has_not_purchased_s10_9_meantrex_03",
+    "parameters": {
+      "type": "purchase_history",
+      "data": {
+        "bundle": {
+          "id": "bundle_costumeset_s10_9_meantrex_03"
+        },
+        "quantity": {
+          "operator": "less_than",
+          "max": 1
+        }
+      }
+    }
+  },
+  {
     "id": "has_not_purchased_s10_fishingpelican_02",
     "parameters": {
       "type": "purchase_history",
@@ -11048,12 +11074,12 @@
     "parameters": {
       "type": "purchase_history",
       "data": {
+        "bundle": {
+          "id": "bundle_costumeset_s10_mermaid_01"
+        },
         "quantity": {
           "operator": "less_than",
           "max": 1
-        },
-        "bundle": {
-          "id": "bundle_costumeset_s10_mermaid_01"
         }
       }
     }
@@ -11198,12 +11224,12 @@
     "parameters": {
       "type": "purchase_history",
       "data": {
+        "bundle": {
+          "id": "bundle_si_bottom_s10_8_sif_cloudsliders_01"
+        },
         "quantity": {
           "operator": "less_than",
           "max": 1
-        },
-        "bundle": {
-          "id": "bundle_si_bottom_s10_8_sif_cloudsliders_01"
         }
       }
     }
