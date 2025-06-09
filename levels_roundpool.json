@@ -1321,6 +1321,10 @@
   },
   {
     "id": "nature_ltm_roundpool",
+    "config": {
+      "type": "legacy"
+    },
+    "discovery_queries": [],
     "stages": [
       {
         "round": "levels_round.fantasyforest_nature_ltm",
@@ -1361,12 +1365,43 @@
         "round": "levels_round.junglewall_nature_ltm",
         "can_only_be_on_these_stages": [],
         "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_riverfallwoods",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_mysteriousforest",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_thedriftwoods",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_maraistemptueux",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_clumsyjungle",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_waterpusher",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.showcase_frogjet",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
       }
-    ],
-    "config": {
-      "type": "legacy"
-    },
-    "discovery_queries": []
+    ]
   },
   {
     "id": "ranked_show_cycle_1_roundpool",
@@ -19122,12 +19157,16 @@
           "level_collection_id": "spotlight_130525"
         },
         {
-          "weight": 2000,
+          "weight": 100,
           "level_collection_id": "spotlight_270525"
+        },
+        {
+          "weight": 2000,
+          "level_collection_id": "spotlight_100625"
         }
       ],
       "fallback_level_collection": {
-        "level_collection_id": "spotlight_130525"
+        "level_collection_id": "spotlight_270525"
       }
     },
     "discovery_queries": [],
