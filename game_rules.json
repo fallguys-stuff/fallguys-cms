@@ -4697,7 +4697,9 @@
     "min_participants_private_lobby": 2,
     "max_participants_private_lobby": 12,
     "qualification_percentage": 1,
+    "has_timer": true,
     "duration": 300,
+    "timer_visibility_threshold": 30,
     "time_left_red_alert_threshold": 10,
     "game_manager_spawn_type": "none",
     "round_end_condition": "eliminated_quota",
@@ -4710,8 +4712,8 @@
     "start_game_message_format": "info",
     "objective_text": "localised_strings.level_objective_floor_fall",
     "show_qualification_progress_ui": true,
-    "should_hide_opposing_team_name_tags": [],
-    "tom_round_rules": "tom_round_rules.default"
+    "tom_round_rules": "tom_round_rules.default",
+    "should_hide_opposing_team_name_tags": []
   },
   {
     "id": "ranked_mindthegap_opener",
