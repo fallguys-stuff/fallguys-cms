@@ -19199,6 +19199,85 @@
     "discovery_queries": []
   },
   {
+    "id": "sports_roundpool",
+    "config": {
+      "type": "legacy"
+    },
+    "discovery_queries": [],
+    "stages": [
+      {
+        "round": "levels_round.sports_bowling_opener",
+        "can_only_be_on_these_stages": [
+          2
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.sports_hockeyhijinks_opener",
+        "cannot_be_on_these_stages": [
+          3
+        ],
+        "can_only_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.sports_basketfall_final",
+        "can_only_be_on_these_stages": [
+          3
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.sports_fallball_final",
+        "can_only_be_on_these_stages": [
+          3
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.sports_volleyfall_final",
+        "can_only_be_on_these_stages": [
+          3
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.sports_buttonbashers_final",
+        "can_only_be_on_these_stages": [
+          3
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.sports_treadmill_opener",
+        "cannot_be_on_these_stages": [
+          3
+        ],
+        "can_only_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.sports_massivegolf_opener",
+        "cannot_be_on_these_stages": [
+          3
+        ],
+        "can_only_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.sports_bouncytravel_opener",
+        "cannot_be_on_these_stages": [
+          3
+        ],
+        "can_only_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.sports_speedcircuit_opener",
+        "cannot_be_on_these_stages": [
+          3
+        ],
+        "can_only_be_on_these_stages": []
+      }
+    ]
+  },
+  {
     "id": "spotlight",
     "config": {
       "type": "collection_driven",

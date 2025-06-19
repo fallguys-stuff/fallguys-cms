@@ -9060,6 +9060,38 @@
     "episode_reward_settings_id": "solo_rewards"
   },
   {
+    "id": "sports_show",
+    "show_name": "localised_strings.sports_show_title",
+    "show_description": "localised_strings.sports_show_desc",
+    "show_image": "SquadShow",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "display_while_upcoming": true,
+    "can_play_again": true,
+    "min_party_size": 1,
+    "max_party_size": 3,
+    "size": {
+      "type": "override",
+      "min_players": 24,
+      "max_players": 24
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 6,
+      "max_players": 24
+    },
+    "show_type": {
+      "showtype_switch": "squad",
+      "squad_size": 3
+    },
+    "default_episode": "levels_episode.sports_show",
+    "opens_at": "2020-01-01T09:00:00",
+    "closes_at": "2050-01-01T09:00:00",
+    "top_tags": [],
+    "show_image_cms": "ui_show_big_cmp_sports_ltm",
+    "episode_reward_settings_id": "knockout_duos"
+  },
+  {
     "id": "spotlight_mode",
     "show_name": "localised_strings.spotlight_mode_title",
     "show_description": "localised_strings.spotlight_mode_desc",
