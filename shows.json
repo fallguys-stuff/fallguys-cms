@@ -4692,16 +4692,17 @@
   {
     "id": "event_only_ss2_squads_template",
     "show_name": "localised_strings.show_name_only_ss2_almond",
-    "show_description": "localised_strings.show_desc_only_ss2_almond",
+    "show_description": "localised_strings.show_desc_only_ss2_almond_updated",
     "content_label": "localised_strings.show_content_label_show",
     "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "display_while_upcoming": true,
     "can_play_again": true,
     "min_party_size": 1,
     "max_party_size": 4,
     "size": {
       "type": "override",
-      "min_players": 36,
-      "max_players": 40
+      "min_players": 20,
+      "max_players": 24
     },
     "private_lobby_size": {
       "type": "override",
@@ -4717,7 +4718,7 @@
     "closes_at": "2030-01-01T09:00:00",
     "top_tags": [],
     "show_image_cms": "show_selector_show_ss2_almond",
-    "episode_reward_settings_id": "squads"
+    "episode_reward_settings_id": "knockout_squads"
   },
   {
     "id": "event_only_survival_fittest_3110_0111_2022",

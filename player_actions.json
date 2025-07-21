@@ -1977,6 +1977,37 @@
     }
   },
   {
+    "id": "norespawn_321space_ltm",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "player_respawn_count",
+          "operator": "equal",
+          "dimension_type": "integer_dimension"
+        },
+        {
+          "dimension_id": "round_qualified",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "event_only_ss2_squads_template"
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        }
+      ]
+    }
+  },
+  {
     "id": "parade_meta_challenge",
     "config": {
       "metric_id": "challenge_completed",
@@ -2237,6 +2268,31 @@
           "operator": "equal",
           "dimension_type": "string_dimension",
           "string_value": "classic_squads_show"
+        }
+      ]
+    }
+  },
+  {
+    "id": "play_321_space",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "event_only_ss2_squads_template"
+        },
+        {
+          "dimension_id": "round_index",
+          "operator": "equal",
+          "dimension_type": "integer_dimension"
         }
       ]
     }
@@ -6088,6 +6144,26 @@
           "operator": "equal",
           "dimension_type": "string_dimension",
           "string_value": "casual_show"
+        }
+      ]
+    }
+  },
+  {
+    "id": "player_ran_in_321space_ltm",
+    "config": {
+      "metric_id": "distance_run",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "event_only_ss2_squads_template"
         }
       ]
     }
@@ -10189,6 +10265,32 @@
     }
   },
   {
+    "id": "reach_final_round_321space_ltm",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "event_only_ss2_squads_template"
+        },
+        {
+          "dimension_id": "is_final_round",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        }
+      ]
+    }
+  },
+  {
     "id": "reach_final_round_any",
     "config": {
       "metric_id": "round_reached",
@@ -13228,6 +13330,38 @@
       "dimensions": [
         {
           "dimension_id": "is_in_squad",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        }
+      ]
+    }
+  },
+  {
+    "id": "win_321_space",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "event_only_ss2_squads_template"
+        },
+        {
+          "dimension_id": "is_final_round",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "round_qualified",
           "operator": "equal",
           "boolean_value": "true",
           "dimension_type": "boolean_dimension"
