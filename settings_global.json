@@ -459,18 +459,6 @@
     "platforms_whitelist": []
   },
   {
-    "id": "emotes_max_loaded_sound_banks_count",
-    "value": 256,
-    "platforms_whitelist": [],
-    "target_ids": []
-  },
-  {
-    "id": "emoticons_and_phrases_max_loaded_sound_banks_count",
-    "value": 256,
-    "platforms_whitelist": [],
-    "target_ids": []
-  },
-  {
     "id": "enable_xbox_cert_fix",
     "value": true,
     "target_ids": [
@@ -944,6 +932,24 @@
     "target_ids": []
   },
   {
+    "id": "max_loaded_emotes_sound_banks_count",
+    "value": 240,
+    "platforms_whitelist": [],
+    "target_ids": []
+  },
+  {
+    "id": "max_loaded_emoticons_sound_banks_count",
+    "value": 240,
+    "platforms_whitelist": [],
+    "target_ids": []
+  },
+  {
+    "id": "max_loaded_phrases_sound_banks_count",
+    "value": 480,
+    "platforms_whitelist": [],
+    "target_ids": []
+  },
+  {
     "id": "max_parallel_texture_requests",
     "value": 5,
     "platforms_whitelist": [],
@@ -993,6 +999,14 @@
   },
   {
     "id": "mobile_icon_enabled",
+    "value": true,
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "platforms_whitelist": []
+  },
+  {
+    "id": "movement_controller_enabled",
     "value": true,
     "target_ids": [
       "after_prime_global_launch"

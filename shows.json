@@ -1,8 +1,8 @@
 [
   {
     "id": "anniversary_fp12_ltm",
-    "show_name": "localised_strings.show_title_anniversary_fp12",
-    "show_description": "localised_strings.show_desc_anniversary_fp12",
+    "show_name": "localised_strings.show_title_anniversary",
+    "show_description": "localised_strings.show_desc_anniversary_update",
     "show_locked_message": "localised_strings.show_inactive_rounds_played",
     "content_label": "localised_strings.show_content_label_show",
     "show_selector_tile_colour": "colour.show_selector_tile_blue",
@@ -27,8 +27,8 @@
     "opens_at": "2024-01-01T10:00:00",
     "closes_at": "2030-01-01T09:59:59",
     "top_tags": [],
-    "show_tag": "show_tag_time_attack",
-    "show_image_cms": "ui_show_anniversary_fp12_ltm",
+    "show_image_cms": "ui_show_big_anniversary_02",
+    "big_tile_show_image_cms": "ui_show_big_anniversary_02",
     "episode_reward_settings_id": "anniversary_fp12"
   },
   {
@@ -6967,7 +6967,7 @@
   {
     "id": "knockout_mode",
     "show_name": "localised_strings.mode_knockout_title",
-    "show_description": "localised_strings.show_desc_main",
+    "show_description": "localised_strings.mode_knockout_desc",
     "show_image": "MainShow",
     "content_label": "localised_strings.show_content_label_show",
     "show_selector_tile_colour": "colour.show_selector_tile_blue",
@@ -8914,6 +8914,40 @@
     "top_tags": [],
     "show_image_cms": "ui_show_big_yeetropolis",
     "big_tile_show_image_cms": "ui_show_big_yeetropolis",
+    "episode_reward_settings_id": "knockout_squads"
+  },
+  {
+    "id": "showcase_fp20",
+    "show_name": "localised_strings.fp20_showcase_title",
+    "show_description": "localised_strings.fp20_showcase_desc",
+    "show_locked_message": "localised_strings.inactive_show_knockout",
+    "show_image": "SquadShow",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "display_while_upcoming": true,
+    "can_play_again": true,
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 16,
+      "max_players": 20
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 16,
+      "max_players": 20
+    },
+    "show_type": {
+      "showtype_switch": "squad",
+      "squad_size": 4
+    },
+    "default_episode": "levels_episode.showcase_fp20",
+    "opens_at": "2020-01-01T09:00:00",
+    "closes_at": "2050-01-01T09:00:00",
+    "top_tags": [],
+    "show_image_cms": "ui_show_big_tropical_fp20_showcase",
+    "big_tile_show_image_cms": "ui_show_big_tropical_fp20_showcase",
     "episode_reward_settings_id": "knockout_squads"
   },
   {

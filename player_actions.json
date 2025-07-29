@@ -2119,6 +2119,26 @@
     }
   },
   {
+    "id": "piggyback_anniversary",
+    "config": {
+      "metric_id": "player_piggyback",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "anniversary_fp12_ltm"
+        }
+      ]
+    }
+  },
+  {
     "id": "piggyback_any",
     "config": {
       "metric_id": "player_piggyback",
@@ -2370,16 +2390,57 @@
       "metric_id": "round_reached",
       "dimensions": [
         {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
           "dimension_id": "show_id",
           "operator": "equal",
           "dimension_type": "string_dimension",
           "string_value": "anniversary_fp12_ltm"
         },
         {
+          "dimension_id": "end_of_round_player_state",
+          "operator": "contains_any",
+          "string_array_value": [
+            "qualified",
+            "disqualified"
+          ],
+          "dimension_type": "array_dimension"
+        }
+      ]
+    }
+  },
+  {
+    "id": "play_anniversary_in_party",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
           "dimension_id": "is_private_lobby",
           "operator": "equal",
           "boolean_value": "false",
           "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "is_in_party",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "party_size",
+          "operator": "more_or_equal",
+          "integer_value": 2,
+          "dimension_type": "integer_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "anniversary_fp12_ltm"
         }
       ]
     }
@@ -3148,6 +3209,12 @@
           "dimension_type": "boolean_dimension"
         },
         {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "knockout_mode"
+        },
+        {
           "dimension_id": "end_of_round_player_state",
           "operator": "contains_any",
           "string_array_value": [
@@ -3155,12 +3222,6 @@
             "disqualified"
           ],
           "dimension_type": "array_dimension"
-        },
-        {
-          "dimension_id": "show_id",
-          "operator": "equal",
-          "dimension_type": "string_dimension",
-          "string_value": "knockout_mode"
         }
       ]
     }
@@ -4356,6 +4417,31 @@
           "operator": "equal",
           "dimension_type": "string_dimension",
           "string_value": "showcase_fp19"
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "round_index",
+          "operator": "equal",
+          "dimension_type": "integer_dimension"
+        }
+      ]
+    }
+  },
+  {
+    "id": "play_showcase_fp20",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "showcase_fp20"
         },
         {
           "dimension_id": "is_private_lobby",
@@ -6395,6 +6481,32 @@
       "metric_id": "item_possession",
       "dimensions": [],
       "show_id": "event_summer_squads_2107_2507"
+    }
+  },
+  {
+    "id": "qualify_anniversary",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "anniversary_fp12_ltm"
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "round_qualified",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        }
+      ]
     }
   },
   {
@@ -12277,6 +12389,26 @@
     }
   },
   {
+    "id": "silver_medals_knockout",
+    "config": {
+      "metric_id": "badge_awarded_silver",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "knockout_mode"
+        }
+      ]
+    }
+  },
+  {
     "id": "ski_fall_high_scorers_play",
     "config": {
       "metric_id": "round_reached",
@@ -12714,6 +12846,26 @@
     }
   },
   {
+    "id": "use_emoticons_anniversary",
+    "config": {
+      "metric_id": "player_used_emoticons",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "anniversary_fp12_ltm"
+        }
+      ]
+    }
+  },
+  {
     "id": "use_emoticons_any",
     "config": {
       "metric_id": "player_used_emoticons",
@@ -12929,6 +13081,26 @@
           "operator": "equal",
           "boolean_value": "false",
           "dimension_type": "boolean_dimension"
+        }
+      ]
+    }
+  },
+  {
+    "id": "use_phrases_anniversary",
+    "config": {
+      "metric_id": "player_used_phrases",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "anniversary_fp12_ltm"
         }
       ]
     }
@@ -13929,6 +14101,38 @@
           "operator": "equal",
           "dimension_type": "string_dimension",
           "string_value": "showcase_fp19"
+        }
+      ]
+    }
+  },
+  {
+    "id": "win_fp20_showcase",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "round_qualified",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "is_final_round",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "showcase_fp20"
         }
       ]
     }

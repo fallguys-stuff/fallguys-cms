@@ -1336,6 +1336,55 @@
         "apply_bonus_when": {
           "type": "always"
         }
+      },
+      {
+        "tag": "level_tags.exclusive_steal_tag",
+        "repeat_malus": 500000,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.exclusive_roll_out",
+        "repeat_malus": 500000,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.exclusive_spoke_jump",
+        "repeat_malus": 500000,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.exclusive_1v1",
+        "repeat_malus": 500000,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.exclusive_hoverboard",
+        "repeat_malus": 500000,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.exclusive_circuit",
+        "repeat_malus": 500000,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.exclusive_wild_elimination",
+        "repeat_malus": 500000,
+        "apply_bonus_when": {
+          "type": "always"
+        }
       }
     ]
   },
@@ -1599,6 +1648,13 @@
           "setting": {
             "stage": 2
           }
+        }
+      },
+      {
+        "tag": "level_tags.exclusive_wild_elimination",
+        "repeat_malus": 50000,
+        "apply_bonus_when": {
+          "type": "always"
         }
       }
     ]
@@ -10573,6 +10629,64 @@
       {
         "tag": "level_tags.unique_drumtop",
         "repeat_malus": 100000,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      }
+    ]
+  },
+  {
+    "id": "unranked_knockout",
+    "tag_score": [
+      {
+        "tag": "level_tags.covenant_final",
+        "bonus": 1500,
+        "apply_bonus_when": {
+          "type": "after_stage",
+          "setting": {
+            "stage": 4
+          }
+        }
+      },
+      {
+        "tag": "level_tags.race_round",
+        "bonus": 75,
+        "repeat_malus": 30,
+        "repeat_decay": 100,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.survival_round",
+        "bonus": 75,
+        "repeat_malus": 130,
+        "repeat_decay": 100,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.logic_round",
+        "bonus": 35,
+        "repeat_malus": 150,
+        "repeat_decay": 100,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.hunt_round",
+        "bonus": 75,
+        "repeat_malus": 130,
+        "repeat_decay": 100,
+        "apply_bonus_when": {
+          "type": "always"
+        }
+      },
+      {
+        "tag": "level_tags.exclusive_wild_elimination",
+        "repeat_malus": 50000,
         "apply_bonus_when": {
           "type": "always"
         }
