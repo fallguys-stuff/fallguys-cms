@@ -8043,6 +8043,17 @@
     }
   },
   {
+    "id": "fp20_crownbirthday",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2025-08-04T10:00:00",
+        "end": "2025-08-12T09:59:59"
+      }
+    }
+  },
+  {
     "id": "fp20_flowerpecker",
     "parameters": {
       "type": "date_time",
@@ -11952,6 +11963,21 @@
         },
         "bundle": {
           "id": "ss002_starter_bundle"
+        }
+      }
+    }
+  },
+  {
+    "id": "has_not_purchased_top_event_anniversary_01",
+    "parameters": {
+      "type": "purchase_history",
+      "data": {
+        "bundle": {
+          "id": "bundle_top_event_anniversary_01"
+        },
+        "quantity": {
+          "operator": "less_than",
+          "max": 1
         }
       }
     }
