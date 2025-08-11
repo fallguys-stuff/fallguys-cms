@@ -4,11 +4,17 @@
     "section_title": "localised_strings.shows_selector_classic_games",
     "sorting_index": 3,
     "section": {
-      "type": "cms_show_entry_points",
+      "type": "cms_shows",
       "use_big_tiles": true,
-      "show_entry_points": [
+      "gates": [
         {
-          "show_entry_point": "show_entry_point.classics"
+          "gate": "schedule_items.show_s10_classic_solos_show"
+        },
+        {
+          "gate": "schedule_items.classic_duo_show"
+        },
+        {
+          "gate": "schedule_items.classic_squads_show"
         }
       ]
     }
@@ -94,6 +100,10 @@
         },
         {
           "gate": "schedule_items.almond_show"
+        },
+        {
+          "gate": "schedule_items.big_yeetus_tour_show",
+          "scheduled_tag": "new_levels_scheduled_tag_big_yeetus"
         }
       ]
     }

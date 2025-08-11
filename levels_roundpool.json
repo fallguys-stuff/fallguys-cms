@@ -11810,6 +11810,9 @@
   },
   {
     "id": "roundpool_event_yeetus",
+    "config": {
+      "type": "legacy"
+    },
     "stages": [
       {
         "round": "levels_round.round_door_dash_event_only_yeetus",
@@ -11843,7 +11846,9 @@
       },
       {
         "round": "levels_round.round_lava_event_only_yeetus",
-        "can_only_be_on_these_stages": [],
+        "can_only_be_on_these_stages": [
+          2
+        ],
         "cannot_be_on_these_stages": []
       },
       {
@@ -11873,7 +11878,9 @@
       },
       {
         "round": "levels_round.round_slimeclimb_2_event_yeetus",
-        "can_only_be_on_these_stages": [],
+        "can_only_be_on_these_stages": [
+          2
+        ],
         "cannot_be_on_these_stages": []
       },
       {
@@ -11885,12 +11892,14 @@
         "round": "levels_round.round_fall_mountain_event_yeetus",
         "can_only_be_on_these_stages": [],
         "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_tip_toe_final_event_yeetus",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
       }
     ],
-    "discovery_queries": [],
-    "config": {
-      "type": "legacy"
-    }
+    "discovery_queries": []
   },
   {
     "id": "roundpool_fall_mountain_event_peanut_ss2",
