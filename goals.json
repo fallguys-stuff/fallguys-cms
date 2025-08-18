@@ -3705,6 +3705,26 @@
     "player_action_id": "earn_silver_medal"
   },
   {
+    "id": "earn_bronze_medal_solos_chill",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_013_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_medal_03"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solos_chill"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "earn_bronze_medal_solos_chill"
+  },
+  {
     "id": "earn_medals_fallball_cup",
     "target": {
       "type": "aggregate",
@@ -10837,6 +10857,38 @@
     "player_action_id": "play_show_main"
   },
   {
+    "id": "play_soloschill_01",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_027_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solos_chill"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "play_soloschill"
+  },
+  {
+    "id": "play_soloschill_03",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_027_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solos_chill"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "play_soloschill"
+  },
+  {
     "id": "play_starlink_in_show_ss2_almond",
     "target": {
       "type": "aggregate",
@@ -12557,6 +12609,26 @@
       "daily_challenge"
     ],
     "player_action_id": "player_emotes_knockout"
+  },
+  {
+    "id": "player_emotes_solos_chill",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_010_simple",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solos_chill"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "player_emotes_solos_chill"
   },
   {
     "id": "player_emotes_solos_common",
@@ -15148,6 +15220,28 @@
     ],
     "challenge_tags": [],
     "player_action_id": "qualify_round_in_a_party"
+  },
+  {
+    "id": "qualify_any_level_solos_chill",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_004_general",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solos_chill"
+      }
+    ],
+    "challenge_tags": [
+      null
+    ],
+    "player_action_id": "qualify_any_level_solos_chill"
   },
   {
     "id": "qualify_any_show_round_2_anchovy",
@@ -18808,6 +18902,22 @@
     "player_action_id": "reach_final_round_vulture"
   },
   {
+    "id": "reach_final_solos_chill",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_031",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solos_chill"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "reach_final_solos_chill"
+  },
+  {
     "id": "reach_round_2",
     "target": {
       "type": "aggregate",
@@ -20420,6 +20530,26 @@
     ],
     "challenge_tags": [],
     "player_action_id": "player_ran_in_nature_ltm"
+  },
+  {
+    "id": "run_solos_chill_3k",
+    "target": {
+      "type": "aggregate",
+      "value": 3000
+    },
+    "description": "localised_strings.challenge_desc_024_show",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3000
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solos_chill"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "player_ran_in_solos_chill"
   },
   {
     "id": "score_fallball_cup",
@@ -27784,6 +27914,22 @@
     ],
     "challenge_tags": [],
     "player_action_id": "win_main_show"
+  },
+  {
+    "id": "win_soloschill_01",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solos_chill"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "win_soloschill"
   },
   {
     "id": "win_squadcelebration_01",

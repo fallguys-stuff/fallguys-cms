@@ -8098,8 +8098,8 @@
     "show_description": "localised_strings.show_desc_wle_mrs_no_elimination",
     "content_label": "localised_strings.show_content_label_show",
     "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "display_while_upcoming": true,
     "can_play_again": true,
-    "hide_countdown": true,
     "min_party_size": 1,
     "max_party_size": 4,
     "size": {
@@ -8120,7 +8120,7 @@
     "closes_at": "2050-01-01T09:00:00",
     "top_tags": [],
     "show_image_cms": "show_selector_noelim",
-    "episode_reward_settings_id": "noelim"
+    "episode_reward_settings_id": "ko_noelim"
   },
   {
     "id": "only_1v1_volleyfall",
@@ -10916,5 +10916,38 @@
     "top_tags": [],
     "show_image_cms": "show_selector_xtreme_party",
     "episode_reward_settings_id": "solo_1_round_multiwinner"
+  },
+  {
+    "id": "xtreme_solos_template_ranked",
+    "show_name": "localised_strings.show_name_xtreme_ranked",
+    "show_description": "localised_strings.show_desc_xtreme",
+    "show_locked_message": "localised_strings.show_inactive_rounds_played",
+    "show_image": "XTreme",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "display_while_upcoming": true,
+    "can_play_again": true,
+    "hide_countdown": true,
+    "min_party_size": 1,
+    "max_party_size": 1,
+    "size": {
+      "type": "override",
+      "min_players": 28,
+      "max_players": 32
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 5,
+      "max_players": 32
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.episode_event_elimination_gauntlets_ranked",
+    "opens_at": "2020-01-01T09:00:00",
+    "closes_at": "2050-01-01T09:00:00",
+    "top_tags": [],
+    "show_image_cms": "ui_show_big_xtreme_solos",
+    "episode_reward_settings_id": "xtreme_mode_rewards"
   }
 ]

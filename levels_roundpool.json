@@ -1496,6 +1496,19 @@
         "round": "levels_round.knockout_skyline_stumble",
         "can_only_be_on_these_stages": [],
         "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_pipedream",
+        "can_only_be_on_these_stages": [
+          2,
+          3
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_partypromenade",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
       }
     ],
     "config": {
@@ -3816,6 +3829,16 @@
         "round": "levels_round.round_starlink_duos",
         "can_only_be_on_these_stages": [],
         "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_gauntlet_08_squads",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_pipedup_duos",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
       }
     ],
     "discovery_queries": []
@@ -4292,6 +4315,16 @@
       },
       {
         "round": "levels_round.round_satellitehoppers_squads",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_gauntlet_08_squads",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_pipedup_squads",
         "can_only_be_on_these_stages": [],
         "cannot_be_on_these_stages": []
       }
@@ -6887,6 +6920,191 @@
     }
   },
   {
+    "id": "roundpool_event_elimination_gauntlets_ranked",
+    "config": {
+      "type": "legacy"
+    },
+    "stages": [
+      {
+        "round": "levels_round.round_gauntlet_03_event_elimination",
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_biggestfan_event_elimination",
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_gauntlet_05_event_elimination",
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_gauntlet_06_event_elimination",
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_gauntlet_07_event_elimination",
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_drumtop_event_elimination",
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_lava_event_elimination",
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_floor_fall_event_elimination",
+        "can_only_be_on_these_stages": [
+          4
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_jump_showdown_event_elimination",
+        "can_only_be_on_these_stages": [
+          4
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_slide_chute_event_elimination",
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_blastball_arenasurvival_elimination",
+        "can_only_be_on_these_stages": [
+          4
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_hexaring_elimination",
+        "can_only_be_on_these_stages": [
+          4
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_hexsnake",
+        "can_only_be_on_these_stages": [
+          4
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_chompchomp_event_elimination",
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_thin_ice_mini_event_elimination",
+        "can_only_be_on_these_stages": [
+          4
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_tunnel_final_event_elimination",
+        "can_only_be_on_these_stages": [
+          4
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_hoverboardsurvival_event_elimination",
+        "cannot_be_on_these_stages": [
+          1,
+          4
+        ],
+        "can_only_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_slimeclimb_2_event_elimination",
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_gauntlet_04_event_elimination",
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_see_saw_360_event_elimination",
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_tunnel_race_event_elimination",
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_see_saw_event_elimination",
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_kraken_attack",
+        "can_only_be_on_these_stages": [
+          4
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_gauntlet_08_event_elimination",
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_pipedup_event_elimination",
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
+      }
+    ],
+    "discovery_queries": []
+  },
+  {
     "id": "roundpool_event_elimination_gauntlets_s10",
     "stages": [
       {
@@ -6970,7 +7188,7 @@
         "cannot_be_on_these_stages": []
       },
       {
-        "round": "levels_round.round_thin_ice_event_elimination",
+        "round": "levels_round.round_thin_ice_mini_event_elimination",
         "cannot_be_on_these_stages": [
           1
         ],
@@ -13076,6 +13294,9 @@
   },
   {
     "id": "roundpool_noelim",
+    "config": {
+      "type": "legacy"
+    },
     "stages": [
       {
         "round": "levels_round.round_gauntlet_01_noelim",
@@ -13142,14 +13363,6 @@
         "cannot_be_on_these_stages": []
       },
       {
-        "round": "levels_round.round_gauntlet_08_noelim",
-        "can_only_be_on_these_stages": [
-          1,
-          2
-        ],
-        "cannot_be_on_these_stages": []
-      },
-      {
         "round": "levels_round.round_gauntlet_09_noelim",
         "can_only_be_on_these_stages": [
           1,
@@ -13169,21 +13382,6 @@
         "round": "levels_round.round_shortcircuit_noelim",
         "can_only_be_on_these_stages": [
           1,
-          2
-        ],
-        "cannot_be_on_these_stages": []
-      },
-      {
-        "round": "levels_round.round_pipedup_noelim",
-        "can_only_be_on_these_stages": [
-          1,
-          2
-        ],
-        "cannot_be_on_these_stages": []
-      },
-      {
-        "round": "levels_round.round_block_party_noelim",
-        "can_only_be_on_these_stages": [
           2
         ],
         "cannot_be_on_these_stages": []
@@ -13289,14 +13487,6 @@
         "cannot_be_on_these_stages": []
       },
       {
-        "round": "levels_round.round_wall_guys_noelim",
-        "can_only_be_on_these_stages": [
-          1,
-          2
-        ],
-        "cannot_be_on_these_stages": []
-      },
-      {
         "round": "levels_round.round_ffa_button_bashers_noelim",
         "can_only_be_on_these_stages": [
           2
@@ -13347,20 +13537,6 @@
         "cannot_be_on_these_stages": []
       },
       {
-        "round": "levels_round.wle_main_filler_01_noelim",
-        "can_only_be_on_these_stages": [
-          2
-        ],
-        "cannot_be_on_these_stages": []
-      },
-      {
-        "round": "levels_round.wle_main_filler_02_noelim",
-        "can_only_be_on_these_stages": [
-          2
-        ],
-        "cannot_be_on_these_stages": []
-      },
-      {
         "round": "levels_round.round_robotrampage_arena_2_final_noelim",
         "can_only_be_on_these_stages": [
           3
@@ -13373,12 +13549,55 @@
           3
         ],
         "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_seesaw_noelim",
+        "can_only_be_on_these_stages": [
+          1,
+          2
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_skifall_noelim",
+        "can_only_be_on_these_stages": [
+          2
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_knightfever_noelim",
+        "can_only_be_on_these_stages": [
+          1,
+          2
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_hoopchute_noelim",
+        "can_only_be_on_these_stages": [
+          2
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_gauntlet_08_noelim",
+        "can_only_be_on_these_stages": [
+          1,
+          2
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_pipedup_noelim",
+        "can_only_be_on_these_stages": [
+          1,
+          2
+        ],
+        "cannot_be_on_these_stages": []
       }
     ],
-    "discovery_queries": [],
-    "config": {
-      "type": "legacy"
-    }
+    "discovery_queries": []
   },
   {
     "id": "roundpool_only_roll_on",
@@ -15296,6 +15515,16 @@
         "round": "levels_round.round_satellitehoppers_40",
         "can_only_be_on_these_stages": [],
         "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_gauntlet_08_40",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_pipedup_40",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
       }
     ],
     "config": {
@@ -15504,6 +15733,16 @@
       },
       {
         "round": "levels_round.round_satellitehoppers_40",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_gauntlet_08_40",
+        "can_only_be_on_these_stages": [],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_pipedup_40",
         "can_only_be_on_these_stages": [],
         "cannot_be_on_these_stages": []
       }
