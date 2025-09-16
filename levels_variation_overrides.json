@@ -15,6 +15,64 @@
     ]
   },
   {
+    "id": "fallball_cup_opener",
+    "set_switchers_overrides": [
+      {
+        "key": "Centre",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "FourBall",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Gravity",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Sides",
+        "undefined_weightings_behaviour": "use_defaults",
+        "weightings": [
+          {
+            "key": "Sides_Thruster"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "fallball_cup_ranked",
+    "set_switchers_overrides": [
+      {
+        "key": "Gravity",
+        "undefined_weightings_behaviour": "set_to_zero",
+        "weightings": [
+          {
+            "key": "Off",
+            "weighting": 100
+          }
+        ]
+      },
+      {
+        "key": "Sides",
+        "undefined_weightings_behaviour": "use_defaults",
+        "weightings": [
+          {
+            "key": "Sides_Thruster"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "id": "jump_club_hard_mode_event_only_survival_s61",
     "set_switchers_overrides": [
       {

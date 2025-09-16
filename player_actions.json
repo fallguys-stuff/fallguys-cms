@@ -2766,6 +2766,31 @@
     }
   },
   {
+    "id": "play_day_at_the_races_squad",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "event_day_at_races_squads_template"
+        },
+        {
+          "dimension_id": "round_index",
+          "operator": "equal",
+          "dimension_type": "integer_dimension"
+        }
+      ]
+    }
+  },
+  {
     "id": "play_dizzyheights_timeattack",
     "config": {
       "metric_id": "round_reached",
@@ -5530,6 +5555,26 @@
       "dimensions": [],
       "team_id": "hider",
       "show_id": "invisibeans_pistachio_template"
+    }
+  },
+  {
+    "id": "player_enters_wormhole_pistachio",
+    "config": {
+      "metric_id": "player_enters_wormhole",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "invisibeans_pistachio_template"
+        }
+      ]
     }
   },
   {
@@ -13921,6 +13966,38 @@
     }
   },
   {
+    "id": "win_day_at_the_races_squad",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "event_day_at_races_squads_template"
+        },
+        {
+          "dimension_id": "is_final_round",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "round_qualified",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        }
+      ]
+    }
+  },
+  {
     "id": "win_dizzyheights_timeattack",
     "config": {
       "metric_id": "round_reached",
@@ -14796,6 +14873,38 @@
       "round_qualified": "true",
       "is_final_round": "true",
       "show_id": "live_event_timeattack_partyprom"
+    }
+  },
+  {
+    "id": "win_ranked",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "ranked_show_knockout"
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "is_final_round",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "round_qualified",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        }
+      ]
     }
   },
   {

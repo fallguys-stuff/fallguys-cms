@@ -622,6 +622,15 @@
     "mode": "knockout"
   },
   {
+    "id": "episode_event_only_fall_ball_trios",
+    "director": "levels_director.director_event_only_fall_ball",
+    "roundpool": "levels_roundpool.roundpool_event_only_fall_ball_trios",
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_fall_ball_cup_only_trios_final",
+    "bucket_override_roundpools": [],
+    "mode": "knockout"
+  },
+  {
     "id": "episode_event_only_finals_template",
     "director": "levels_director.director_no_weightings",
     "roundpool": "levels_roundpool.roundpool_event_only_finals_s9_vaulted",
@@ -1100,6 +1109,15 @@
     "mode": "knockout"
   },
   {
+    "id": "episode_greatest_squads_show_ranked",
+    "director": "levels_director.director_greatest_squads_show",
+    "roundpool": "levels_roundpool.roundpool_greatest_squads_show_ranked",
+    "debug_player_count_multiplier": 7,
+    "fallback_round": "levels_round.gs_slimecycle",
+    "bucket_override_roundpools": [],
+    "mode": "knockout"
+  },
+  {
     "id": "episode_hilaria",
     "director": "levels_director.director_no_weightings",
     "roundpool": "levels_roundpool.roundpool_hilaria",
@@ -1393,7 +1411,7 @@
   {
     "id": "episode_ranked_mode",
     "director": "levels_director.director_ranked",
-    "roundpool": "levels_roundpool.ranked_show_cycle_3_roundpool",
+    "roundpool": "levels_roundpool.ranked_show_cycle_4_roundpool",
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.ranked_hexagone_final",
     "bucket_override_roundpools": [],
