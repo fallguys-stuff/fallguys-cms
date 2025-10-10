@@ -8277,6 +8277,477 @@
     "episode_reward_settings_id": "solos"
   },
   {
+    "id": "pl_blastball",
+    "show_name": "localised_strings.level_name_blastball_arenasurvival",
+    "show_description": "localised_strings.level_loading_blastball_arenasurvival_not_final",
+    "show_locked_message": "localised_strings.show_inactive_rounds_played",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "can_play_again": true,
+    "hide_countdown": true,
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 2,
+      "max_players": 30
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 2,
+      "max_players": 30
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.pl_blastball",
+    "opens_at": "2020-01-01T09:00:00",
+    "closes_at": "2050-01-01T09:00:00",
+    "top_tags": [],
+    "show_image_cms": "ui_show_big_pl_blastball",
+    "episode_reward_settings_id": "knockout_mode_rewards"
+  },
+  {
+    "id": "pl_duos_show",
+    "show_name": "localised_strings.show_title_duos_show",
+    "show_description": "localised_strings.show_desc_squads_duos",
+    "show_locked_message": "localised_strings.show_inactive_rounds_played",
+    "show_image": "Duos",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "can_play_again": true,
+    "hide_countdown": true,
+    "min_party_size": 1,
+    "max_party_size": 2,
+    "size": {
+      "type": "override",
+      "min_players": 26,
+      "max_players": 32
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 4,
+      "max_players": 32
+    },
+    "show_type": {
+      "showtype_switch": "squad",
+      "squad_size": 2
+    },
+    "default_episode": "levels_episode.pl_duos_show",
+    "opens_at": "2020-01-01T09:00:00",
+    "closes_at": "2050-01-01T09:00:00",
+    "top_tags": [],
+    "show_image_cms": "show_selector_show_duos",
+    "episode_reward_settings_id": "knockout_duos"
+  },
+  {
+    "id": "pl_fallmountain",
+    "show_name": "localised_strings.level_name_fall_mountain",
+    "show_description": "localised_strings.level_loading_fall_mountain",
+    "show_locked_message": "localised_strings.show_inactive_rounds_played",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "can_play_again": true,
+    "hide_countdown": true,
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 2,
+      "max_players": 9
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 2,
+      "max_players": 9
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.pl_fallmountain",
+    "opens_at": "2020-01-01T09:00:00",
+    "closes_at": "2050-01-01T09:00:00",
+    "top_tags": [],
+    "show_image_cms": "ui_show_big_pl_fallmountain",
+    "episode_reward_settings_id": "knockout_mode_rewards"
+  },
+  {
+    "id": "pl_hexagone",
+    "show_name": "localised_strings.level_name_floor_fall",
+    "show_description": "localised_strings.level_loading_floor_fall_not_final",
+    "show_locked_message": "localised_strings.show_inactive_rounds_played",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "can_play_again": true,
+    "hide_countdown": true,
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 2,
+      "max_players": 20
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 2,
+      "max_players": 20
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.pl_hexagone",
+    "opens_at": "2020-01-01T09:00:00",
+    "closes_at": "2050-01-01T09:00:00",
+    "top_tags": [],
+    "show_image_cms": "ui_show_big_pl_hexagone",
+    "episode_reward_settings_id": "knockout_mode_rewards"
+  },
+  {
+    "id": "pl_hexaring",
+    "show_name": "localised_strings.level_name_hexaring",
+    "show_description": "localised_strings.level_loading_hexaring_not_final",
+    "show_locked_message": "localised_strings.show_inactive_rounds_played",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "can_play_again": true,
+    "hide_countdown": true,
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 2,
+      "max_players": 16
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 2,
+      "max_players": 16
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.pl_hexaring",
+    "opens_at": "2020-01-01T09:00:00",
+    "closes_at": "2050-01-01T09:00:00",
+    "top_tags": [],
+    "show_image_cms": "ui_show_big_pl_hexaring",
+    "episode_reward_settings_id": "knockout_mode_rewards"
+  },
+  {
+    "id": "pl_hexaterrestrial",
+    "show_name": "localised_strings.level_name_hexsnake",
+    "show_description": "localised_strings.level_loading_hexsnake_not_final",
+    "show_locked_message": "localised_strings.show_inactive_rounds_played",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "can_play_again": true,
+    "hide_countdown": true,
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 2,
+      "max_players": 32
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 2,
+      "max_players": 32
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.pl_hexaterrestrial",
+    "opens_at": "2020-01-01T09:00:00",
+    "closes_at": "2050-01-01T09:00:00",
+    "top_tags": [],
+    "show_image_cms": "ui_show_big_pl_hexaterrestrial",
+    "episode_reward_settings_id": "knockout_mode_rewards"
+  },
+  {
+    "id": "pl_jumpshowdown",
+    "show_name": "localised_strings.level_name_jump_showdown",
+    "show_description": "localised_strings.level_loading_jump_club",
+    "show_locked_message": "localised_strings.show_inactive_rounds_played",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "can_play_again": true,
+    "hide_countdown": true,
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 2,
+      "max_players": 20
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 2,
+      "max_players": 20
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.pl_jumpshowdown",
+    "opens_at": "2020-01-01T09:00:00",
+    "closes_at": "2050-01-01T09:00:00",
+    "top_tags": [],
+    "show_image_cms": "ui_show_big_pl_jumpshowdown",
+    "episode_reward_settings_id": "knockout_mode_rewards"
+  },
+  {
+    "id": "pl_krakenslam",
+    "show_name": "localised_strings.level_name_kraken_attack",
+    "show_description": "localised_strings.level_loading_kraken_attack",
+    "show_locked_message": "localised_strings.show_inactive_rounds_played",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "can_play_again": true,
+    "hide_countdown": true,
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 2,
+      "max_players": 32
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 2,
+      "max_players": 32
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.pl_krakenslam",
+    "opens_at": "2020-01-01T09:00:00",
+    "closes_at": "2050-01-01T09:00:00",
+    "top_tags": [],
+    "show_image_cms": "ui_show_big_pl_krakenslam",
+    "episode_reward_settings_id": "knockout_mode_rewards"
+  },
+  {
+    "id": "pl_losttemple",
+    "show_name": "localised_strings.level_name_crown_maze",
+    "show_description": "localised_strings.level_loading_crown_maze",
+    "show_locked_message": "localised_strings.show_inactive_rounds_played",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "can_play_again": true,
+    "hide_countdown": true,
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 2,
+      "max_players": 15
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 2,
+      "max_players": 15
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.pl_losttemple",
+    "opens_at": "2020-01-01T09:00:00",
+    "closes_at": "2050-01-01T09:00:00",
+    "top_tags": [],
+    "show_image_cms": "ui_show_big_pl_losttemple",
+    "episode_reward_settings_id": "knockout_mode_rewards"
+  },
+  {
+    "id": "pl_rolloff",
+    "show_name": "localised_strings.level_name_roll_off",
+    "show_description": "localised_strings.level_loading_roll_off",
+    "show_locked_message": "localised_strings.show_inactive_rounds_played",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "can_play_again": true,
+    "hide_countdown": true,
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 2,
+      "max_players": 10
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 2,
+      "max_players": 10
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.pl_rolloff",
+    "opens_at": "2020-01-01T09:00:00",
+    "closes_at": "2050-01-01T09:00:00",
+    "top_tags": [],
+    "show_image_cms": "ui_show_big_pl_rolloff",
+    "episode_reward_settings_id": "knockout_mode_rewards"
+  },
+  {
+    "id": "pl_royal_fumble",
+    "show_name": "localised_strings.level_name_royal_rumble",
+    "show_description": "localised_strings.level_loading_royal_rumble",
+    "show_locked_message": "localised_strings.show_inactive_rounds_played",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "can_play_again": true,
+    "hide_countdown": true,
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 3,
+      "max_players": 24
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 3,
+      "max_players": 24
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.pl_royal_fumble",
+    "opens_at": "2020-01-01T09:00:00",
+    "closes_at": "2050-01-01T09:00:00",
+    "top_tags": [],
+    "show_image_cms": "ui_show_big_pl_royal_fumble",
+    "episode_reward_settings_id": "knockout_mode_rewards"
+  },
+  {
+    "id": "pl_solo_main_show",
+    "show_name": "localised_strings.show_title_solo_show",
+    "show_description": "localised_strings.show_desc_solos",
+    "show_locked_message": "localised_strings.show_inactive_rounds_played",
+    "show_image": "MainShow",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "can_play_again": true,
+    "hide_countdown": true,
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 26,
+      "max_players": 32
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 2,
+      "max_players": 32
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.pl_solo_main_show",
+    "opens_at": "2020-01-01T09:00:00",
+    "closes_at": "2050-01-01T09:00:00",
+    "top_tags": [],
+    "show_image_cms": "show_selector_core_solo_show",
+    "episode_reward_settings_id": "knockout_mode_rewards"
+  },
+  {
+    "id": "pl_squads_show",
+    "show_name": "localised_strings.show_title_squad_show",
+    "show_description": "localised_strings.show_desc_squad_show",
+    "show_locked_message": "localised_strings.show_inactive_rounds_played",
+    "show_image": "SquadShow",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "can_play_again": true,
+    "hide_countdown": true,
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 24,
+      "max_players": 32
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 8,
+      "max_players": 32
+    },
+    "show_type": {
+      "showtype_switch": "squad",
+      "squad_size": 4
+    },
+    "default_episode": "levels_episode.pl_squads_show",
+    "opens_at": "2020-01-01T09:00:00",
+    "closes_at": "2050-01-01T09:00:00",
+    "top_tags": [],
+    "show_image_cms": "show_selector_core_squads_show",
+    "episode_reward_settings_id": "knockout_squads"
+  },
+  {
+    "id": "pl_thin_ice",
+    "show_name": "localised_strings.level_name_thin_ice",
+    "show_description": "localised_strings.level_loading_thin_ice",
+    "show_locked_message": "localised_strings.show_inactive_rounds_played",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "can_play_again": true,
+    "hide_countdown": true,
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 2,
+      "max_players": 20
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 2,
+      "max_players": 20
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.pl_thin_ice",
+    "opens_at": "2020-01-01T09:00:00",
+    "closes_at": "2050-01-01T09:00:00",
+    "top_tags": [],
+    "show_image_cms": "ui_show_big_pl_thin_ice",
+    "episode_reward_settings_id": "knockout_mode_rewards"
+  },
+  {
+    "id": "pl_tiptoefinale",
+    "show_name": "localised_strings.level_name_tiptoefinal",
+    "show_description": "localised_strings.level_loading_tiptoefinal",
+    "show_locked_message": "localised_strings.show_inactive_rounds_played",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "can_play_again": true,
+    "hide_countdown": true,
+    "min_party_size": 1,
+    "max_party_size": 4,
+    "size": {
+      "type": "override",
+      "min_players": 5,
+      "max_players": 16
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 5,
+      "max_players": 16
+    },
+    "show_type": {
+      "showtype_switch": "squad",
+      "squad_size": 4
+    },
+    "default_episode": "levels_episode.pl_tiptoefinale",
+    "opens_at": "2020-01-01T09:00:00",
+    "closes_at": "2050-01-01T09:00:00",
+    "top_tags": [],
+    "show_image_cms": "ui_show_big_pl_tiptoefinale",
+    "episode_reward_settings_id": "knockout_squads"
+  },
+  {
     "id": "pl_vaulted_show",
     "show_name": "localised_strings.show_title_pl_vaulted_show",
     "show_description": "localised_strings.show_desc_pl_vaulted",
