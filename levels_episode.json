@@ -3,10 +3,9 @@
     "id": "casual_show_episode",
     "director": "levels_director.director_no_weightings",
     "roundpool": "levels_roundpool.casual_show_roundpool",
+    "bucket_override_roundpools": [],
     "debug_player_count_multiplier": 1,
     "fallback_round": "levels_round.round_gauntlet_01_40",
-    "allow_toms": true,
-    "bucket_override_roundpools": [],
     "mode": "ultimate_party"
   },
   {
@@ -245,7 +244,6 @@
     ],
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.round_floor_fall",
-    "allow_toms": true,
     "mode": "knockout"
   },
   {
@@ -1430,10 +1428,9 @@
     "id": "episode_s10_solo_show",
     "director": "levels_director.director_solo_show_s10",
     "roundpool": "levels_roundpool.roundpool_solo_show_s10_high",
+    "bucket_override_roundpools": [],
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.round_hexsnake_40",
-    "allow_toms": true,
-    "bucket_override_roundpools": [],
     "mode": "knockout"
   },
   {
@@ -1474,16 +1471,12 @@
     ],
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.round_floor_fall",
-    "allow_toms": true,
     "mode": "knockout"
   },
   {
     "id": "episode_solo_show_ss2_launch",
     "director": "levels_director.director_solo_show_ss2_launch",
     "roundpool": "levels_roundpool.roundpool_solo_show_ss2_launch_8_2",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.round_floor_fall",
-    "allow_toms": true,
     "bucket_override_roundpools": [
       {
         "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_lowest",
@@ -1498,15 +1491,14 @@
         "roundpool": "levels_roundpool.roundpool_solo_show_ss2_high_bucket_8_2"
       }
     ],
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_floor_fall",
     "mode": "knockout"
   },
   {
     "id": "episode_solo_show_ss2_parrot",
     "director": "levels_director.director_solo_show_ss2_launch",
     "roundpool": "levels_roundpool.roundpool_solo_show_ss2_parrot",
-    "debug_player_count_multiplier": 3,
-    "fallback_round": "levels_round.round_fall_mountain_hub_complete_ss2_parrot",
-    "allow_toms": true,
     "bucket_override_roundpools": [
       {
         "matchmaking_bucket": "matchmaking_buckets.mm_bucket_elo_lowest",
@@ -1521,6 +1513,8 @@
         "roundpool": "levels_roundpool.roundpool_solo_show_ss2_parrot_high_elo"
       }
     ],
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_fall_mountain_hub_complete_ss2_parrot",
     "mode": "knockout"
   },
   {
@@ -1706,10 +1700,9 @@
     "id": "explore_points",
     "director": "levels_director.director_no_weightings",
     "roundpool": "levels_roundpool.explore_points",
+    "bucket_override_roundpools": [],
     "debug_player_count_multiplier": 1,
     "fallback_round": "levels_round.round_gauntlet_01_40",
-    "allow_toms": true,
-    "bucket_override_roundpools": [],
     "mode": "ultimate_party"
   },
   {
@@ -1761,10 +1754,9 @@
     "id": "ftue_up_show",
     "director": "levels_director.director_no_weightings",
     "roundpool": "levels_roundpool.ftue_up_show",
+    "bucket_override_roundpools": [],
     "debug_player_count_multiplier": 1,
     "fallback_round": "levels_round.ftue_01",
-    "allow_toms": true,
-    "bucket_override_roundpools": [],
     "mode": "ultimate_party"
   },
   {
@@ -1888,10 +1880,9 @@
     "id": "pl_solo_main_show",
     "director": "levels_director.director_solo_show_s10",
     "roundpool": "levels_roundpool.pl_solo_main_show",
+    "bucket_override_roundpools": [],
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.round_hexsnake_40",
-    "allow_toms": true,
-    "bucket_override_roundpools": [],
     "mode": "knockout"
   },
   {
@@ -2030,10 +2021,9 @@
     "id": "spotlight_mode_episode",
     "director": "levels_director.director_no_weightings",
     "roundpool": "levels_roundpool.spotlight",
+    "bucket_override_roundpools": [],
     "debug_player_count_multiplier": 1,
     "fallback_round": "levels_round.round_gauntlet_01_40",
-    "allow_toms": true,
-    "bucket_override_roundpools": [],
     "mode": "ultimate_party"
   },
   {
@@ -2108,27 +2098,24 @@
     "id": "ultimate_party_show_adventure",
     "director": "levels_director.director_no_weightings",
     "roundpool": "levels_roundpool.ultimate_party_adventure",
-    "debug_player_count_multiplier": 1,
-    "allow_toms": true,
     "bucket_override_roundpools": [],
+    "debug_player_count_multiplier": 1,
     "mode": "ultimate_party"
   },
   {
     "id": "ultimate_party_show_query",
     "director": "levels_director.director_no_weightings",
     "roundpool": "levels_roundpool.ultimate_party_query",
-    "debug_player_count_multiplier": 1,
-    "allow_toms": true,
     "bucket_override_roundpools": [],
+    "debug_player_count_multiplier": 1,
     "mode": "ultimate_party"
   },
   {
     "id": "ultimate_party_show_survival",
     "director": "levels_director.director_no_weightings",
     "roundpool": "levels_roundpool.ultimate_party_survival",
-    "debug_player_count_multiplier": 1,
-    "allow_toms": true,
     "bucket_override_roundpools": [],
+    "debug_player_count_multiplier": 1,
     "mode": "ultimate_party"
   },
   {
