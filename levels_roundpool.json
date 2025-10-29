@@ -4420,6 +4420,7 @@
     "config": {
       "type": "legacy"
     },
+    "discovery_queries": [],
     "stages": [
       {
         "round": "levels_round.ranked_trackattack_opener",
@@ -4465,6 +4466,27 @@
       },
       {
         "round": "levels_round.ranked_dizzyheights_opener",
+        "can_only_be_on_these_stages": [
+          1
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.ranked_aerialtableau_opener",
+        "can_only_be_on_these_stages": [
+          1
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.ranked_reboundrun_opener",
+        "can_only_be_on_these_stages": [
+          1
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.ranked_clumsycrusade_opener",
         "can_only_be_on_these_stages": [
           1
         ],
@@ -4517,6 +4539,30 @@
         "cannot_be_on_these_stages": []
       },
       {
+        "round": "levels_round.ranked_slimecycle_filler",
+        "can_only_be_on_these_stages": [
+          2,
+          3
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.ranked_topofthetrash_filler",
+        "can_only_be_on_these_stages": [
+          2,
+          3
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.ranked_rooftoprangers_filler",
+        "can_only_be_on_these_stages": [
+          2,
+          3
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
         "round": "levels_round.ranked_hexaring_final",
         "can_only_be_on_these_stages": [
           4
@@ -4545,6 +4591,49 @@
         "cannot_be_on_these_stages": []
       },
       {
+        "round": "levels_round.ranked_gooproperodeo_final",
+        "can_only_be_on_these_stages": [
+          4
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.ranked_castlesiege_final",
+        "can_only_be_on_these_stages": [
+          4
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.ranked_dodgedivesurvive_final",
+        "can_only_be_on_these_stages": [
+          4
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.ranked_mellowcakes_final",
+        "can_only_be_on_these_stages": [
+          4
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.ranked_seaside_sprint",
+        "can_only_be_on_these_stages": [
+          1
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.ranked_high_tide_filler",
+        "can_only_be_on_these_stages": [
+          2,
+          3
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
         "round": "levels_round.ranked_party_promenade_filler",
         "can_only_be_on_these_stages": [
           2,
@@ -4552,8 +4641,7 @@
         ],
         "cannot_be_on_these_stages": []
       }
-    ],
-    "discovery_queries": []
+    ]
   },
   {
     "id": "roundpool_1v1_volleyfall_solos",
