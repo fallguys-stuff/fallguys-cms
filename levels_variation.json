@@ -824,10 +824,11 @@
         "weightings": [
           {
             "key": "Off",
-            "weighting": 100
+            "weighting": 65
           },
           {
-            "key": "Fans"
+            "key": "Fans",
+            "weighting": 35
           }
         ]
       },
@@ -1742,11 +1743,11 @@
         "key": "Punchers",
         "weightings": [
           {
-            "key": "On"
+            "key": "On",
+            "weighting": 1
           },
           {
-            "key": "Off",
-            "weighting": 1
+            "key": "Off"
           }
         ]
       },
@@ -1898,11 +1899,11 @@
         "key": "RampPit",
         "weightings": [
           {
-            "key": "On"
+            "key": "On",
+            "weighting": 1
           },
           {
-            "key": "Off",
-            "weighting": 1
+            "key": "Off"
           }
         ]
       },
@@ -2946,15 +2947,17 @@
         "weightings": [
           {
             "key": "Original",
-            "weighting": 100,
+            "weighting": 50,
             "difficulty": "easy"
           },
           {
             "key": "Sideways",
+            "weighting": 30,
             "difficulty": "intermediate"
           },
           {
             "key": "Logswing",
+            "weighting": 20,
             "difficulty": "intermediate"
           }
         ]
@@ -3241,7 +3244,8 @@
             "weighting": 15
           },
           {
-            "key": "Slower"
+            "key": "Slower",
+            "weighting": 10
           }
         ]
       },
@@ -3311,16 +3315,19 @@
         "weightings": [
           {
             "key": "Off",
-            "weighting": 100
+            "weighting": 50
           },
           {
-            "key": "Pendulums"
+            "key": "Pendulums",
+            "weighting": 15
           },
           {
-            "key": "Hammers"
+            "key": "Hammers",
+            "weighting": 15
           },
           {
-            "key": "Punchers"
+            "key": "Punchers",
+            "weighting": 15
           },
           {
             "key": "Victoria"
@@ -3408,16 +3415,17 @@
         "weightings": [
           {
             "key": "Off",
+            "weighting": 10,
             "difficulty": "all_players"
           },
           {
             "key": "MovingPillars",
-            "weighting": 40,
+            "weighting": 35,
             "difficulty": "intermediate"
           },
           {
             "key": "Hammer",
-            "weighting": 40,
+            "weighting": 35,
             "difficulty": "intermediate"
           },
           {
@@ -3490,6 +3498,7 @@
           },
           {
             "key": "GravityZone",
+            "weighting": 30,
             "difficulty": "easy"
           }
         ]
@@ -3504,6 +3513,7 @@
           },
           {
             "key": "GravityZone",
+            "weighting": 30,
             "difficulty": "intermediate"
           }
         ]
@@ -3533,10 +3543,11 @@
         "weightings": [
           {
             "key": "Off",
-            "weighting": 100
+            "weighting": 70
           },
           {
-            "key": "On"
+            "key": "On",
+            "weighting": 30
           }
         ]
       }
@@ -3564,11 +3575,12 @@
         "weightings": [
           {
             "key": "Off",
-            "weighting": 100,
+            "weighting": 80,
             "difficulty": "all_players"
           },
           {
             "key": "GravityZone",
+            "weighting": 20,
             "difficulty": "intermediate"
           }
         ]
@@ -6458,11 +6470,12 @@
         "weightings": [
           {
             "key": "Formation_01",
-            "weighting": 100,
+            "weighting": 70,
             "difficulty": "intermediate"
           },
           {
             "key": "Formation_02",
+            "weighting": 30,
             "difficulty": "never_use"
           }
         ]
@@ -8119,11 +8132,12 @@
         "weightings": [
           {
             "key": "SeeSaw",
-            "weighting": 80,
+            "weighting": 60,
             "difficulty": "intermediate"
           },
           {
             "key": "RotatingFan",
+            "weighting": 20,
             "difficulty": "intermediate"
           },
           {
@@ -9168,14 +9182,15 @@
         "weightings": [
           {
             "key": "Original",
-            "weighting": 65
+            "weighting": 60
           },
           {
             "key": "Fans",
-            "weighting": 35
+            "weighting": 30
           },
           {
-            "key": "Slower"
+            "key": "Slower",
+            "weighting": 10
           }
         ]
       },
@@ -9184,17 +9199,19 @@
         "weightings": [
           {
             "key": "Original",
-            "weighting": 70
+            "weighting": 50
           },
           {
             "key": "Punchers",
-            "weighting": 30
+            "weighting": 15
           },
           {
-            "key": "Off"
+            "key": "Off",
+            "weighting": 10
           },
           {
-            "key": "Victoria"
+            "key": "Victoria",
+            "weighting": 15
           }
         ]
       },
@@ -9203,13 +9220,15 @@
         "weightings": [
           {
             "key": "Bollards",
-            "weighting": 100
+            "weighting": 60
           },
           {
-            "key": "Off"
+            "key": "Off",
+            "weighting": 10
           },
           {
-            "key": "Victoria"
+            "key": "Victoria",
+            "weighting": 30
           }
         ]
       }
@@ -9611,16 +9630,17 @@
         "weightings": [
           {
             "key": "Boulders",
-            "weighting": 70,
+            "weighting": 60,
             "difficulty": "intermediate"
           },
           {
             "key": "Logs",
-            "weighting": 30,
+            "weighting": 20,
             "difficulty": "intermediate"
           },
           {
             "key": "BouldersEasy",
+            "weighting": 20,
             "difficulty": "easy"
           }
         ]
@@ -9715,15 +9735,17 @@
         "weightings": [
           {
             "key": "Original",
+            "weighting": 20,
             "difficulty": "intermediate"
           },
           {
             "key": "Flippers",
-            "weighting": 100,
+            "weighting": 60,
             "difficulty": "intermediate"
           },
           {
             "key": "SlowerPushers",
+            "weighting": 20,
             "difficulty": "easy"
           }
         ]
@@ -12814,11 +12836,12 @@
         "weightings": [
           {
             "key": "Original",
-            "weighting": 100,
+            "weighting": 70,
             "difficulty": "all_players"
           },
           {
             "key": "AltEnd",
+            "weighting": 30,
             "difficulty": "difficult"
           }
         ]
@@ -13075,16 +13098,17 @@
         "weightings": [
           {
             "key": "Two",
-            "weighting": 85,
+            "weighting": 60,
             "difficulty": "intermediate"
           },
           {
             "key": "One",
-            "weighting": 15,
+            "weighting": 20,
             "difficulty": "easy"
           },
           {
             "key": "Three",
+            "weighting": 20,
             "difficulty": "difficult"
           }
         ]
@@ -13432,7 +13456,8 @@
         "key": "GravityFields",
         "weightings": [
           {
-            "key": "Original"
+            "key": "Original",
+            "weighting": 60
           },
           {
             "key": "Fans",
@@ -13447,7 +13472,8 @@
             "weighting": 10
           },
           {
-            "key": "EasyBridge"
+            "key": "EasyBridge",
+            "weighting": 10
           }
         ]
       },
