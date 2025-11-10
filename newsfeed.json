@@ -1903,6 +1903,104 @@
     ]
   },
   {
+    "id": "fp22_last_chance_newsfeed",
+    "starts_at": "2025-12-25T12:00:00",
+    "ends_at": "2026-01-01T11:59:59",
+    "pages": [
+      {
+        "title": "localised_strings.fp_title_22",
+        "message": "localised_strings.newsfeed_famepass_22_lastchance_desc",
+        "deeplink_data": {
+          "deeplink_type": "season_pass",
+          "season_pass_page": "upsell"
+        },
+        "ends_at": "localised_strings.newsfeed_date",
+        "header": "localised_strings.newsfeed_title_last_chance",
+        "ends_at_description": [
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.newsfeed_thirtyfirst"
+          },
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.month_december"
+          }
+        ],
+        "starts_at_description": [],
+        "image": "bg_newsfeed_fg_fp22_image"
+      }
+    ],
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "priority": 90
+  },
+  {
+    "id": "fp22_live_newsfeed",
+    "starts_at": "2025-11-11T12:00:00",
+    "ends_at": "2025-11-18T11:59:59",
+    "pages": [
+      {
+        "title": "localised_strings.fp_title_22",
+        "message": "localised_strings.newsfeed_famepass_22_available_desc",
+        "deeplink_data": {
+          "deeplink_type": "season_pass",
+          "season_pass_page": "upsell"
+        },
+        "ends_at": "localised_strings.newsfeed_date",
+        "header": "localised_strings.newsfeed_header_new_famepass",
+        "ends_at_description": [
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.newsfeed_thirtyfirst"
+          },
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.month_december"
+          }
+        ],
+        "starts_at_description": [],
+        "image": "bg_newsfeed_fg_fp22_image"
+      }
+    ],
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "priority": 98
+  },
+  {
+    "id": "fp22_winter",
+    "starts_at": "2025-12-01T12:00:00",
+    "ends_at": "2026-01-01T11:59:59",
+    "priority": 90,
+    "pages": [
+      {
+        "header": "localised_strings.newsfeed_title_available_now",
+        "title": "localised_strings.newsfeed_winter_title",
+        "message": "localised_strings.newsfeed_winter_desc",
+        "ends_at": "localised_strings.newsfeed_date",
+        "deeplink_data": {
+          "deeplink_type": "live_event"
+        },
+        "ends_at_description": [
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.newsfeed_thirtyfirst"
+          },
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.month_december"
+          }
+        ],
+        "starts_at_description": [],
+        "image": "bg_newsfeed_winter"
+      }
+    ],
+    "target_ids": [
+      "after_prime_global_launch"
+    ]
+  },
+  {
     "id": "fp4_turbo_newsfeed",
     "starts_at": "2023-09-18T13:00:00",
     "ends_at": "2023-10-02T09:00:00",
@@ -3397,6 +3495,38 @@
           "deeplink_type": "store"
         },
         "image": "newsfeed_ui_crossbill"
+      }
+    ],
+    "target_ids": [
+      "after_prime_global_launch"
+    ]
+  },
+  {
+    "id": "newsfeed_crownshard_scramble",
+    "starts_at": "2025-11-16T12:00:00",
+    "ends_at": "2025-12-01T11:59:59",
+    "priority": 50,
+    "pages": [
+      {
+        "header": "localised_strings.newsfeed_title_available_now",
+        "title": "localised_strings.newsfeed_ss2_hazlenut_title",
+        "message": "localised_strings.le_crownshard_desc",
+        "ends_at": "localised_strings.newsfeed_date",
+        "deeplink_data": {
+          "deeplink_type": "live_event"
+        },
+        "ends_at_description": [
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.newsfeed_thirtieth"
+          },
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.month_november"
+          }
+        ],
+        "starts_at_description": [],
+        "image": "bg_newsfeed_crownshard_scramble"
       }
     ],
     "target_ids": [

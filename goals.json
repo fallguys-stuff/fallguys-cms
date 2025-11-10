@@ -4009,6 +4009,48 @@
     "player_action_id": "emote_explore"
   },
   {
+    "id": "emoticon_explore_winter",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "title": "localised_strings.le_fp22_winter_challenge_title_2",
+    "description": "localised_strings.challenge_desc_emoticon_any",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.casual_show_title"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "use_emoticons_explore"
+  },
+  {
+    "id": "emoticon_snowday_stumble",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "title": "localised_strings.le_fp22_winter_challenge_title_2",
+    "description": "localised_strings.challenge_desc_emoticon_any",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_season_3"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "use_emoticons_snowday_stumble"
+  },
+  {
     "id": "event_anniversary_fp12_01",
     "target": {
       "type": "aggregate",
@@ -7634,6 +7676,128 @@
     "player_action_id": "qualify_anniversary"
   },
   {
+    "id": "le_crown_shard_scramble_play_1",
+    "target": {
+      "type": "aggregate",
+      "value": 20
+    },
+    "title": "localised_strings.le_crownshard_challenge_01",
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "play_round_any"
+  },
+  {
+    "id": "le_crown_shard_scramble_play_2",
+    "target": {
+      "type": "aggregate",
+      "value": 40
+    },
+    "title": "localised_strings.le_crownshard_challenge_02",
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "play_round_any"
+  },
+  {
+    "id": "le_crown_shard_scramble_play_3",
+    "target": {
+      "type": "aggregate",
+      "value": 60
+    },
+    "title": "localised_strings.le_crownshard_challenge_03",
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "play_round_any"
+  },
+  {
+    "id": "le_crown_shard_scramble_play_4",
+    "target": {
+      "type": "aggregate",
+      "value": 90
+    },
+    "title": "localised_strings.le_crownshard_challenge_04",
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "play_round_any"
+  },
+  {
+    "id": "le_crown_shard_scramble_play_5",
+    "target": {
+      "type": "aggregate",
+      "value": 150
+    },
+    "title": "localised_strings.le_crownshard_challenge_05",
+    "description": "localised_strings.challenge_desc_027_individual",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_show"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "play_round_any"
+  },
+  {
+    "id": "le_crown_shard_scramble_win_ranked",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "title": "localised_strings.le_crownshard_challenge_06",
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.ranked_show_knockout"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "win_ranked"
+  },
+  {
     "id": "le_kudos_celebration_play_1",
     "target": {
       "type": "aggregate",
@@ -8555,7 +8719,7 @@
       "type": "aggregate",
       "value": 3
     },
-    "title": "localised_strings.le_fp16_winter_challenge_title_5",
+    "title": "localised_strings.le_fp22_winter_challenge_title_3",
     "description": "localised_strings.challenge_desc_045_simple",
     "description_parameters": [
       {
@@ -8613,6 +8777,27 @@
       "daily_challenge"
     ],
     "player_action_id": "piggyback_knockout"
+  },
+  {
+    "id": "piggyback_snowday_stumble",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "title": "localised_strings.le_fp22_winter_challenge_title_3",
+    "description": "localised_strings.challenge_desc_045_simple",
+    "description_parameters": [
+      {
+        "type": "numeric",
+        "numeric_value": 3
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_season_3"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "piggyback_snowday_stumble"
   },
   {
     "id": "piggyback_solos_common",
@@ -9325,7 +9510,7 @@
       "type": "aggregate",
       "value": 5
     },
-    "title": "localised_strings.le_fp16_winter_challenge_title_1",
+    "title": "localised_strings.le_fp22_winter_challenge_title_1",
     "description": "localised_strings.challenge_desc_027_singular",
     "description_parameters": [
       {
@@ -10448,6 +10633,38 @@
     "player_action_id": "play_party_showcase_fp16"
   },
   {
+    "id": "play_pegwin_palooza_03",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_027_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_mrs_pegwin_winter_ltm"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "play_pegwin_palooza"
+  },
+  {
+    "id": "play_pegwin_palooza_05",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_027_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_mrs_pegwin_winter_ltm"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "play_pegwin_palooza"
+  },
+  {
     "id": "play_race_round_hw_slime_climb_2",
     "target": {
       "type": "aggregate",
@@ -11164,6 +11381,23 @@
     "player_action_id": "play_slimescraper_time"
   },
   {
+    "id": "play_snowday_stumble",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "title": "localised_strings.le_fp22_winter_challenge_title_1",
+    "description": "localised_strings.challenge_desc_027_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_season_3"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "play_snowday_stumble"
+  },
+  {
     "id": "play_snowday_stumble_03",
     "target": {
       "type": "aggregate",
@@ -11211,6 +11445,54 @@
     ],
     "challenge_tags": [],
     "player_action_id": "play_show_main"
+  },
+  {
+    "id": "play_solos_chill_01",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_027_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solos_chill"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "play_solos_chill"
+  },
+  {
+    "id": "play_solos_chill_03",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "description": "localised_strings.challenge_desc_027_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solos_chill"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "play_solos_chill"
+  },
+  {
+    "id": "play_solos_chill_05",
+    "target": {
+      "type": "aggregate",
+      "value": 5
+    },
+    "description": "localised_strings.challenge_desc_027_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_solos_chill"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "play_solos_chill"
   },
   {
     "id": "play_soloschill_01",
@@ -16785,6 +17067,27 @@
     "player_action_id": "qualify_from_a_round_no_respawn_ranked"
   },
   {
+    "id": "qualify_from_a_round_no_respawn_snowday_stumble",
+    "target": {
+      "type": "aggregate",
+      "value": 3
+    },
+    "title": "localised_strings.le_fp22_winter_challenge_title_4",
+    "description": "localised_strings.challenge_desc_qualify_without_respawning_in_show",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.challenge_criteria_any_round"
+      },
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_season_3"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "qualify_from_a_round_no_respawn_snowday_stumble"
+  },
+  {
     "id": "qualify_from_a_round_no_respawn_solos_rare",
     "target": {
       "type": "aggregate",
@@ -19021,6 +19324,23 @@
       "daily_challenge"
     ],
     "player_action_id": "reach_final_round_ranked"
+  },
+  {
+    "id": "reach_final_round_snowday_stumble",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "title": "localised_strings.le_fp22_winter_challenge_title_4",
+    "description": "localised_strings.challenge_desc_031",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_season_3"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "reach_final_round_snowday_stumble"
   },
   {
     "id": "reach_final_round_solos",
@@ -27832,6 +28152,22 @@
     "player_action_id": "win_oriole"
   },
   {
+    "id": "win_pegwin_palooza_01",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_title_mrs_pegwin_winter_ltm"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "win_pegwin_palooza"
+  },
+  {
     "id": "win_pistachio_10",
     "target": {
       "type": "aggregate",
@@ -27949,7 +28285,7 @@
     "id": "win_roll_call_ltm_02",
     "target": {
       "type": "aggregate",
-      "value": 1
+      "value": 2
     },
     "description": "localised_strings.challenge_desc_015_singular",
     "description_parameters": [
@@ -27965,7 +28301,7 @@
     "id": "win_roll_call_ltm_03",
     "target": {
       "type": "aggregate",
-      "value": 2
+      "value": 3
     },
     "description": "localised_strings.challenge_desc_015_singular",
     "description_parameters": [
@@ -28908,10 +29244,42 @@
     "player_action_id": "win_xtreme_squads"
   },
   {
+    "id": "win_xtreme_squads_01",
+    "target": {
+      "type": "aggregate",
+      "value": 1
+    },
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_xtreme_squads"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "win_xtreme_squads"
+  },
+  {
     "id": "win_xtreme_squads_02",
     "target": {
       "type": "aggregate",
-      "value": 5
+      "value": 2
+    },
+    "description": "localised_strings.challenge_desc_015_singular",
+    "description_parameters": [
+      {
+        "type": "localised",
+        "localised_value": "localised_strings.show_name_xtreme_squads"
+      }
+    ],
+    "challenge_tags": [],
+    "player_action_id": "win_xtreme_squads"
+  },
+  {
+    "id": "win_xtreme_squads_03",
+    "target": {
+      "type": "aggregate",
+      "value": 3
     },
     "description": "localised_strings.challenge_desc_015_singular",
     "description_parameters": [
