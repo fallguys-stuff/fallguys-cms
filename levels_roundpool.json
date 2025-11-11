@@ -928,7 +928,6 @@
     "config": {
       "type": "legacy"
     },
-    "discovery_queries": [],
     "stages": [
       {
         "round": "levels_round.knockout_dizzyheights_opener",
@@ -1675,8 +1674,31 @@
           3
         ],
         "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_blockparty",
+        "can_only_be_on_these_stages": [
+          2,
+          3
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_puzzlepath",
+        "can_only_be_on_these_stages": [
+          2
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.knockout_wallguys",
+        "can_only_be_on_these_stages": [
+          1
+        ],
+        "cannot_be_on_these_stages": []
       }
-    ]
+    ],
+    "discovery_queries": []
   },
   {
     "id": "main_show_template_large",
@@ -4958,6 +4980,7 @@
     "config": {
       "type": "legacy"
     },
+    "discovery_queries": [],
     "stages": [
       {
         "round": "levels_round.round_door_dash_anniversary",
@@ -5462,9 +5485,43 @@
           10
         ],
         "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_block_party_anniversary",
+        "can_only_be_on_these_stages": [
+          1
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_follow_the_line_anniversary",
+        "can_only_be_on_these_stages": [
+          9
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_gauntlet_08_anniversary",
+        "can_only_be_on_these_stages": [
+          6
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_pipedup_anniversary",
+        "can_only_be_on_these_stages": [
+          6
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_wall_guys_anniversary",
+        "can_only_be_on_these_stages": [
+          2
+        ],
+        "cannot_be_on_these_stages": []
       }
-    ],
-    "discovery_queries": []
+    ]
   },
   {
     "id": "roundpool_blast_ball_banger_8_2",
@@ -5529,7 +5586,6 @@
     "config": {
       "type": "legacy"
     },
-    "discovery_queries": [],
     "stages": [
       {
         "round": "levels_round.round_gauntlet_01_duos",
@@ -6145,15 +6201,37 @@
           3
         ],
         "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_wall_guys_duos",
+        "can_only_be_on_these_stages": [
+          1
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_block_party_duos",
+        "can_only_be_on_these_stages": [
+          2,
+          3
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_follow_the_line_duos",
+        "can_only_be_on_these_stages": [
+          2
+        ],
+        "cannot_be_on_these_stages": []
       }
-    ]
+    ],
+    "discovery_queries": []
   },
   {
     "id": "roundpool_classic_squads_show_s11",
     "config": {
       "type": "legacy"
     },
-    "discovery_queries": [],
     "stages": [
       {
         "round": "levels_round.round_biggestfan_squads",
@@ -6747,8 +6825,31 @@
           3
         ],
         "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_wall_guys_squads",
+        "can_only_be_on_these_stages": [
+          1
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_block_party_squads",
+        "can_only_be_on_these_stages": [
+          2,
+          3
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_follow_the_line_squads",
+        "can_only_be_on_these_stages": [
+          2
+        ],
+        "cannot_be_on_these_stages": []
       }
-    ]
+    ],
+    "discovery_queries": []
   },
   {
     "id": "roundpool_collectable_test_batch1_model1",
@@ -7873,210 +7974,286 @@
     "config": {
       "type": "legacy"
     },
-    "discovery_queries": [],
     "stages": [
       {
         "round": "levels_round.round_door_dash_dar_ltm",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      },
-      {
-        "round": "levels_round.round_dodge_fall_dar_ltm",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      },
-      {
-        "round": "levels_round.round_lava_dar_ltm",
         "cannot_be_on_these_stages": [
-          5
+          4
         ],
         "can_only_be_on_these_stages": []
       },
       {
-        "round": "levels_round.round_gauntlet_01_dar_ltm",
-        "can_only_be_on_these_stages": [],
+        "round": "levels_round.round_dodge_fall_dar_ltm",
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_lava_dar_ltm",
+        "can_only_be_on_these_stages": [
+          2,
+          3
+        ],
         "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_gauntlet_01_dar_ltm",
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_gauntlet_02_dar_ltm",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_gauntlet_03_dar_ltm",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_biggestfan_dar_ltm",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_gauntlet_05_dar_ltm",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_gauntlet_06_dar_ltm",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_drumtop_dar_ltm",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_gauntlet_07_dar_ltm",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_floor_fall_dar",
-        "can_only_be_on_these_stages": [],
+        "can_only_be_on_these_stages": [
+          4
+        ],
         "cannot_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_jump_showdown_dar",
-        "can_only_be_on_these_stages": [],
+        "can_only_be_on_these_stages": [
+          4
+        ],
         "cannot_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_gauntlet_09_dar_ltm",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_hexaring_dar",
-        "can_only_be_on_these_stages": [],
+        "can_only_be_on_these_stages": [
+          4
+        ],
         "cannot_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_blastball_arenasurvival_dar",
-        "can_only_be_on_these_stages": [],
+        "can_only_be_on_these_stages": [
+          4
+        ],
         "cannot_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_hexsnake_dar",
-        "can_only_be_on_these_stages": [],
+        "can_only_be_on_these_stages": [
+          4
+        ],
         "cannot_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_slide_chute_dar_ltm",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_kraken_attack_dar",
-        "cannot_be_on_these_stages": [
-          1,
-          2
+        "can_only_be_on_these_stages": [
+          4
         ],
-        "can_only_be_on_these_stages": []
+        "cannot_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_see_saw_dar_ltm",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      },
-      {
-        "round": "levels_round.round_fall_mountain_hub_complete_dar",
         "cannot_be_on_these_stages": [
-          2
+          4
         ],
         "can_only_be_on_these_stages": []
       },
       {
-        "round": "levels_round.round_see_saw_360_dar",
-        "can_only_be_on_these_stages": [],
+        "round": "levels_round.round_fall_mountain_hub_complete_dar",
+        "can_only_be_on_these_stages": [
+          4
+        ],
         "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_see_saw_360_dar",
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_chompchomp_dar",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_gauntlet_04_dar",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_crown_maze_dar",
-        "can_only_be_on_these_stages": [],
+        "can_only_be_on_these_stages": [
+          4
+        ],
         "cannot_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_tunnel_race_dar",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_royal_rumble_dar",
-        "can_only_be_on_these_stages": [],
+        "can_only_be_on_these_stages": [
+          4
+        ],
         "cannot_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_shortcircuit_dar",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_gauntlet_10_dar",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_short_circuit_2_dar",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_slimeclimb_2_dar",
         "cannot_be_on_these_stages": [
-          5
+          4,
+          1
         ],
         "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_thin_ice_mini_dar",
+        "can_only_be_on_these_stages": [
+          4
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_tip_toe_dar",
         "cannot_be_on_these_stages": [
-          2
+          1,
+          4
         ],
         "can_only_be_on_these_stages": []
       },
       {
-        "round": "levels_round.round_tip_toe_dar",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
-      },
-      {
         "round": "levels_round.round_gauntlet_08_dar",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_pipedup_dar",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_iceclimb_dar",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_starlink_dar",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
+        "cannot_be_on_these_stages": [
+          1,
+          4
+        ],
+        "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_satellitehoppers_dar",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_wall_guys_dar",
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
       }
-    ]
+    ],
+    "discovery_queries": []
   },
   {
     "id": "roundpool_deterministic_flow_survival",
@@ -9631,140 +9808,184 @@
     "config": {
       "type": "legacy"
     },
-    "discovery_queries": [],
     "stages": [
       {
         "round": "levels_round.round_gauntlet_03_event_elimination",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_biggestfan_event_elimination",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_gauntlet_05_event_elimination",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_gauntlet_06_event_elimination",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_gauntlet_07_event_elimination",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_drumtop_event_elimination",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_lava_event_elimination",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_floor_fall_event_elimination",
-        "cannot_be_on_these_stages": [
-          1
+        "can_only_be_on_these_stages": [
+          4
         ],
-        "can_only_be_on_these_stages": []
+        "cannot_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_jump_showdown_event_elimination",
-        "cannot_be_on_these_stages": [
-          1
+        "can_only_be_on_these_stages": [
+          4
         ],
-        "can_only_be_on_these_stages": []
+        "cannot_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_slide_chute_event_elimination",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_blastball_arenasurvival_elimination",
-        "cannot_be_on_these_stages": [
-          1
+        "can_only_be_on_these_stages": [
+          4
         ],
-        "can_only_be_on_these_stages": []
+        "cannot_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_hexaring_elimination",
-        "cannot_be_on_these_stages": [
-          1
+        "can_only_be_on_these_stages": [
+          4
         ],
-        "can_only_be_on_these_stages": []
+        "cannot_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_hexsnake",
-        "cannot_be_on_these_stages": [
-          1
+        "can_only_be_on_these_stages": [
+          4
         ],
-        "can_only_be_on_these_stages": []
+        "cannot_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_chompchomp_event_elimination",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_thin_ice_event_elimination",
-        "cannot_be_on_these_stages": [
-          1
+        "can_only_be_on_these_stages": [
+          4
         ],
-        "can_only_be_on_these_stages": []
+        "cannot_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_tunnel_final_event_elimination",
-        "cannot_be_on_these_stages": [
-          1
+        "can_only_be_on_these_stages": [
+          4
         ],
-        "can_only_be_on_these_stages": []
+        "cannot_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_hoverboardsurvival_event_elimination",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_slimeclimb_2_event_elimination",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_gauntlet_04_event_elimination",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_see_saw_360_event_elimination",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_tunnel_race_event_elimination",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_see_saw_event_elimination",
-        "can_only_be_on_these_stages": [],
-        "cannot_be_on_these_stages": []
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
       },
       {
         "round": "levels_round.round_kraken_attack",
+        "can_only_be_on_these_stages": [
+          4
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_pipedup_event_elimination",
         "cannot_be_on_these_stages": [
-          1
+          4
+        ],
+        "can_only_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_gauntlet_08_event_elimination",
+        "cannot_be_on_these_stages": [
+          4
         ],
         "can_only_be_on_these_stages": []
       }
-    ]
+    ],
+    "discovery_queries": []
   },
   {
     "id": "roundpool_event_elimination_gauntlets_squad_s10",
@@ -13197,6 +13418,13 @@
           4
         ],
         "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_wall_guys_dar_squads",
+        "cannot_be_on_these_stages": [
+          4
+        ],
+        "can_only_be_on_these_stages": []
       }
     ]
   },
@@ -18308,7 +18536,6 @@
     "config": {
       "type": "legacy"
     },
-    "discovery_queries": [],
     "stages": [
       {
         "round": "levels_round.round_gauntlet_01_solos",
@@ -18841,8 +19068,31 @@
           4
         ],
         "can_only_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_wall_guys_solos",
+        "can_only_be_on_these_stages": [
+          1
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_block_party_solos",
+        "can_only_be_on_these_stages": [
+          2,
+          3
+        ],
+        "cannot_be_on_these_stages": []
+      },
+      {
+        "round": "levels_round.round_follow_the_line_solos",
+        "can_only_be_on_these_stages": [
+          2
+        ],
+        "cannot_be_on_these_stages": []
       }
-    ]
+    ],
+    "discovery_queries": []
   },
   {
     "id": "roundpool_solo_show_s10_mid",
