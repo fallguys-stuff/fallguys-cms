@@ -122,8 +122,19 @@
       "type": "date_time",
       "data": {
         "operator": "between",
-        "start": "2025-08-12T12:00:00",
-        "end": "2025-08-19T11:59:59"
+        "start": "2026-02-10T12:00:00",
+        "end": "2026-02-17T11:59:59"
+      }
+    }
+  },
+  {
+    "id": "bouncy_bean_time_weeklies",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2026-01-27T12:00:00",
+        "end": "2026-02-03T11:59:59"
       }
     }
   },
@@ -1681,8 +1692,8 @@
       "type": "date_time",
       "data": {
         "operator": "between",
-        "start": "2025-09-09T12:00:00",
-        "end": "2025-09-16T11:59:59"
+        "start": "2026-01-06T12:00:00",
+        "end": "2026-01-13T11:59:59"
       }
     }
   },
@@ -9011,6 +9022,17 @@
     }
   },
   {
+    "id": "fp23_active_dates",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2026-01-01T12:00:00",
+        "end": "2026-03-01T11:59:59"
+      }
+    }
+  },
+  {
     "id": "fp23_blackbird",
     "parameters": {
       "type": "date_time",
@@ -15783,6 +15805,94 @@
     }
   },
   {
+    "id": "le_fp23_crown_shard_scramble",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2026-01-16T12:00:00",
+        "end": "2026-02-01T11:59:59"
+      }
+    }
+  },
+  {
+    "id": "le_fp23_kudos_celebration",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2026-01-01T12:00:00",
+        "end": "2026-01-16T11:59:59"
+      }
+    }
+  },
+  {
+    "id": "le_fp24_crown_shard_scramble",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2026-03-16T12:00:00",
+        "end": "2026-04-01T11:59:59"
+      }
+    }
+  },
+  {
+    "id": "le_fp24_kudos_celebration",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2026-03-01T12:00:00",
+        "end": "2026-03-16T11:59:59"
+      }
+    }
+  },
+  {
+    "id": "le_fp25_crown_shard_scramble",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2026-05-16T12:00:00",
+        "end": "2026-06-01T11:59:59"
+      }
+    }
+  },
+  {
+    "id": "le_fp25_kudos_celebration",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2026-05-01T12:00:00",
+        "end": "2026-05-16T11:59:59"
+      }
+    }
+  },
+  {
+    "id": "le_fp26_crown_shard_scramble",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2026-07-16T12:00:00",
+        "end": "2026-08-01T11:59:59"
+      }
+    }
+  },
+  {
+    "id": "le_fp26_kudos_celebration",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2026-07-01T12:00:00",
+        "end": "2026-07-16T11:59:59"
+      }
+    }
+  },
+  {
     "id": "le_fp7_winter",
     "parameters": {
       "type": "date_time",
@@ -17568,6 +17678,17 @@
         "operator": "between",
         "start": "2023-06-27T10:00:00",
         "end": "2023-07-03T09:59:59"
+      }
+    }
+  },
+  {
+    "id": "s23_le_valentines",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2026-02-01T12:00:00",
+        "end": "2026-03-01T11:59:59"
       }
     }
   },
@@ -21262,6 +21383,17 @@
     }
   },
   {
+    "id": "squads_spectacular_weeklies",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2026-01-20T12:00:00",
+        "end": "2026-01-27T11:59:59"
+      }
+    }
+  },
+  {
     "id": "ss1_dailies_2106_3006_22",
     "parameters": {
       "type": "date_time",
@@ -22917,6 +23049,22 @@
     }
   },
   {
+    "id": "target_famepass_fp23_notowned",
+    "parameters": {
+      "type": "item_quantity",
+      "data": {
+        "item": {
+          "type": "season_passes",
+          "reference": "season_passes.famepass_23"
+        },
+        "quantity": {
+          "operator": "less_than",
+          "max": 1
+        }
+      }
+    }
+  },
+  {
     "id": "target_famepass_fp4_notowned",
     "parameters": {
       "type": "item_quantity",
@@ -23316,6 +23464,21 @@
     }
   },
   {
+    "id": "target_fp23_pass_owned",
+    "parameters": {
+      "type": "item_quantity",
+      "data": {
+        "item": {
+          "type": "season_passes",
+          "reference": "season_passes.famepass_23"
+        },
+        "quantity": {
+          "operator": "more_than"
+        }
+      }
+    }
+  },
+  {
     "id": "target_kudos_solos_chill",
     "parameters": {
       "type": "date_time",
@@ -23524,6 +23687,22 @@
         "item": {
           "type": "costumes_upper",
           "reference": "costumes_upper.top_s20_labrat_02"
+        },
+        "quantity": {
+          "operator": "less_than",
+          "max": 1
+        }
+      }
+    }
+  },
+  {
+    "id": "target_s21_hermesstatue_03_not_owned",
+    "parameters": {
+      "type": "item_quantity",
+      "data": {
+        "item": {
+          "type": "costumes_upper",
+          "reference": "costumes_upper.top_s21_hermesstatue_03"
         },
         "quantity": {
           "operator": "less_than",
@@ -23751,8 +23930,8 @@
       "type": "date_time",
       "data": {
         "operator": "between",
-        "start": "2025-07-15T12:00:00",
-        "end": "2025-07-22T11:59:59"
+        "start": "2026-02-03T12:00:00",
+        "end": "2026-02-10T11:59:59"
       }
     }
   },
@@ -23775,6 +23954,28 @@
         "operator": "between",
         "start": "2025-01-10T10:00:00",
         "end": "2025-01-17T10:00:00"
+      }
+    }
+  },
+  {
+    "id": "weekly_day_at_the_races_solo",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2026-02-24T12:00:00",
+        "end": "2026-03-03T11:59:59"
+      }
+    }
+  },
+  {
+    "id": "weekly_hoverboarding_time",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2026-02-17T12:00:00",
+        "end": "2026-02-24T11:59:59"
       }
     }
   },
@@ -23894,8 +24095,8 @@
       "type": "date_time",
       "data": {
         "operator": "between",
-        "start": "2025-06-10T12:00:00",
-        "end": "2025-06-17T11:59:59"
+        "start": "2026-01-13T12:00:00",
+        "end": "2026-01-20T11:59:59"
       }
     }
   },

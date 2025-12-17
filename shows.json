@@ -2642,6 +2642,38 @@
     "episode_reward_settings_id": "solos"
   },
   {
+    "id": "event_only_finals_v3_ranked",
+    "show_name": "localised_strings.show_name_finals_marathon_ranked",
+    "show_description": "localised_strings.show_desc_only_finals",
+    "show_locked_message": "localised_strings.show_inactive_rounds_played",
+    "content_label": "localised_strings.show_content_label_show",
+    "show_selector_tile_colour": "colour.show_selector_tile_blue",
+    "display_while_upcoming": true,
+    "can_play_again": true,
+    "hide_countdown": true,
+    "min_party_size": 1,
+    "max_party_size": 1,
+    "size": {
+      "type": "override",
+      "min_players": 14,
+      "max_players": 16
+    },
+    "private_lobby_size": {
+      "type": "override",
+      "min_players": 2,
+      "max_players": 16
+    },
+    "show_type": {
+      "showtype_switch": "individual"
+    },
+    "default_episode": "levels_episode.episode_event_only_finals_ranked",
+    "opens_at": "2021-09-28T09:00:00",
+    "closes_at": "2050-01-01T09:00:00",
+    "top_tags": [],
+    "show_image_cms": "ui_show_big_updated_finals_marathon",
+    "episode_reward_settings_id": "knockout_mode_rewards"
+  },
+  {
     "id": "event_only_finals_v3_template",
     "show_name": "localised_strings.show_name_only_finals",
     "show_description": "localised_strings.show_desc_only_finals",

@@ -694,6 +694,50 @@
     "storefront": "storefront_famepass_22"
   },
   {
+    "id": "famepass_23",
+    "order_preference": 10,
+    "section_height": 2,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 3,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundleslot_famepass_23"
+      }
+    ],
+    "target_ids": [
+      "fp23_active_dates"
+    ],
+    "storefront": "storefront_famepass_23"
+  },
+  {
+    "id": "famepass_23_tier_skip_section",
+    "order_preference": 250,
+    "section_height": 2,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "fp23_tier_skip_bundle"
+      },
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_s21_hermesstatue_03"
+      }
+    ],
+    "target_ids": [
+      "target_fp23_pass_owned_dates"
+    ],
+    "name": "sym_storesection_title_tierskip",
+    "storefront": "storefront_famepass_23"
+  },
+  {
     "id": "famepass_4_tier_skip_section",
     "order_preference": 250,
     "section_height": 1,
@@ -6997,14 +7041,7 @@
       }
     ],
     "target_ids": [
-      "fp22_shoveler",
-      "fp23_shoveler",
-      "fp24_shoveler",
-      "fp25_shoveler",
-      "fp26_shoveler",
-      "fp27_shoveler",
-      "fp28_shoveler",
-      "fp29_shoveler"
+      "disabled_year_1900"
     ],
     "name": "storesection_shoveler_name",
     "storefront": "storefront_featured"
@@ -7051,14 +7088,7 @@
       }
     ],
     "target_ids": [
-      "fp22_shoveler",
-      "fp23_shoveler",
-      "fp24_shoveler",
-      "fp25_shoveler",
-      "fp26_shoveler",
-      "fp27_shoveler",
-      "fp28_shoveler",
-      "fp29_shoveler"
+      "disabled_year_1900"
     ],
     "name": "storesection_shoveler_name",
     "storefront": "storefront_featured"

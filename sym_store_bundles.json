@@ -33710,6 +33710,77 @@
     "bundle_background_custom_gradient_image": "bg_bundle_seasonpass22_storebundle"
   },
   {
+    "id": "bundle_famepass_23",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "season_pass",
+      "purchase_options": {
+        "type": "currencies",
+        "item_id": "gems"
+      },
+      "bundle_options": [
+        {
+          "cost": 600,
+          "items": [
+            {
+              "type": "season_passes",
+              "quantity": 1,
+              "item_id": "famepass_23"
+            },
+            {
+              "type": "costumes_lower",
+              "item_id": "bottom_s21_woodlandpixie_01"
+            },
+            {
+              "type": "costumes_upper",
+              "item_id": "top_s21_woodlandpixie_01"
+            }
+          ]
+        },
+        {
+          "cost": 1500,
+          "items": [
+            {
+              "type": "season_passes",
+              "quantity": 1,
+              "item_id": "famepass_23"
+            },
+            {
+              "type": "costumes_lower",
+              "item_id": "bottom_s21_woodlandpixie_01"
+            },
+            {
+              "type": "costumes_upper",
+              "item_id": "top_s21_woodlandpixie_01"
+            },
+            {
+              "type": "fame_tier_skip",
+              "quantity": 12,
+              "item_id": "fame_tier_skip"
+            },
+            {
+              "type": "costumes_lower",
+              "item_id": "bottom_s21_hermesstatue_03"
+            },
+            {
+              "type": "costumes_upper",
+              "item_id": "top_s21_hermesstatue_03"
+            }
+          ]
+        }
+      ]
+    },
+    "show_refresh_timer": true,
+    "display_name": "fp_title_23",
+    "bundle_description": "blank_sym_store_bundle_desc",
+    "bundle_type_subtitle": "blank_sym_store_bundle_subtitle",
+    "rarity": "legendary",
+    "category": "season_pass",
+    "bundle_tile_image": "ui_fp_store_storebundle_keyart_fp23",
+    "bundle_background_custom_gradient_image": "bg_bundle_storebundle_background_fp23"
+  },
+  {
     "id": "bundle_fishingpelican_02",
     "has_stock": true,
     "stock": 1,
@@ -49217,6 +49288,42 @@
     "bundle_background_custom_gradient_image": "bg_bundle_labrat_fp21"
   },
   {
+    "id": "bundle_s21_hermesstatue_03",
+    "has_stock": true,
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "default",
+      "purchase_options": {
+        "payment_type": "inventory_items",
+        "payment_items": {
+          "type": "currencies",
+          "quantity": 900,
+          "item_id": "gems"
+        },
+        "purchase_quantity": 1
+      },
+      "cosmetics": [
+        {
+          "type": "costumes_upper",
+          "item_id": "top_s21_hermesstatue_03"
+        },
+        {
+          "type": "costumes_lower",
+          "item_id": "bottom_s21_hermesstatue_03"
+        }
+      ],
+      "extra": []
+    },
+    "show_refresh_timer": true,
+    "display_name": "costume_s21_hermesstatue_03",
+    "bundle_description": "bundle_desc_costumeset_default02",
+    "bundle_type_subtitle": "bundle_subtitle_default",
+    "rarity": "rare",
+    "category": "costume",
+    "bundle_tile_image": "ui_bundle_bonus_art_fp23",
+    "bundle_background_custom_gradient_image": "bg_bundle_bonus_fp23"
+  },
+  {
     "id": "bundle_s21_skibabybear_03",
     "has_stock": true,
     "stock": 1,
@@ -56188,6 +56295,73 @@
     "category": "fame_tier_skip",
     "bundle_tile_image": "ui_bundle_tier_skip_art_fp22",
     "bundle_background_custom_gradient_image": "bg_bundle_tier_skip_fp22"
+  },
+  {
+    "id": "fp23_tier_skip_bundle",
+    "stock": 1,
+    "bundle_type": {
+      "bundle_type": "season_pass",
+      "purchase_options": {
+        "type": "currencies",
+        "item_id": "gems"
+      },
+      "bundle_options": [
+        {
+          "cost": 100,
+          "items": [
+            {
+              "type": "fame_tier_skip",
+              "quantity": 1,
+              "item_id": "fame_tier_skip"
+            }
+          ]
+        },
+        {
+          "cost": 500,
+          "items": [
+            {
+              "type": "fame_tier_skip",
+              "quantity": 6,
+              "item_id": "fame_tier_skip"
+            }
+          ],
+          "show_corner_label": true,
+          "corner_label_text": "bundle_ribbon_extra20"
+        },
+        {
+          "cost": 1000,
+          "items": [
+            {
+              "type": "fame_tier_skip",
+              "quantity": 12,
+              "item_id": "fame_tier_skip"
+            }
+          ],
+          "show_corner_label": true,
+          "corner_label_text": "bundle_ribbon_extra20"
+        },
+        {
+          "cost": 2000,
+          "items": [
+            {
+              "type": "fame_tier_skip",
+              "quantity": 30,
+              "item_id": "fame_tier_skip"
+            }
+          ],
+          "show_corner_label": true,
+          "corner_label_text": "bundle_ribbon_extra50"
+        }
+      ]
+    },
+    "show_refresh_timer": true,
+    "display_name": "tier_skip",
+    "bundle_description": "blank_sym_store_bundle_desc",
+    "bundle_type_subtitle": "blank_sym_store_bundle_subtitle",
+    "rarity": "rarity_5",
+    "category": "fame_tier_skip",
+    "bundle_tile_image": "ui_bundle_tier_skip_art_fp23",
+    "bundle_background_custom_gradient_image": "bg_bundle_tier_skip_fp23"
   },
   {
     "id": "fp8_tier_skip_bundle",
