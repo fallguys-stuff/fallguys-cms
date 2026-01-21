@@ -16114,6 +16114,17 @@
     }
   },
   {
+    "id": "newsfeed_pimlico_launch",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2026-01-21T14:30:00",
+        "end": "2026-02-09T14:29:59"
+      }
+    }
+  },
+  {
     "id": "not_japanese_psn",
     "parameters": {
       "type": "platform_group_and_legal_country",
@@ -16254,6 +16265,17 @@
         "operator": "between",
         "start": "2025-12-09T12:00:00",
         "end": "2025-12-16T11:59:59"
+      }
+    }
+  },
+  {
+    "id": "pimlico_launch_gift",
+    "parameters": {
+      "type": "date_time",
+      "data": {
+        "operator": "between",
+        "start": "2026-01-21T15:30:00",
+        "end": "2026-02-09T15:29:59"
       }
     }
   },
@@ -22730,6 +22752,20 @@
         "operator": "between",
         "start": "2024-12-16T10:00:00",
         "end": "2024-12-23T10:00:00"
+      }
+    }
+  },
+  {
+    "id": "target_country_availability",
+    "parameters": {
+      "type": "country_from_ip",
+      "data": {
+        "operator": "not_one_of",
+        "2_digit_country_codes": [
+          "BR",
+          "RU",
+          "TW"
+        ]
       }
     }
   },

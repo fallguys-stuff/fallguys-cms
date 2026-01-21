@@ -5046,6 +5046,72 @@
     ]
   },
   {
+    "id": "newsfeed_pimlico_launch",
+    "starts_at": "2026-01-21T14:30:00",
+    "ends_at": "2026-02-09T14:30:00",
+    "priority": 95,
+    "pages": [
+      {
+        "header": "localised_strings.newsfeed_pimlico_launch_header",
+        "title": "localised_strings.newsfeed_pimlico_launch_title",
+        "message": "localised_strings.newsfeed_pimlico_launch_desc",
+        "deeplink_data": {
+          "deeplink_type": "web",
+          "web_url": "http://fortnite.com/news/crown-jam-a-limited-time-fortnite-mode-from-the-fall-guys-world"
+        },
+        "starts_at": "localised_strings.newsfeed_date",
+        "starts_at_description": [
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.newsfeed_twentythird"
+          },
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.month_january"
+          }
+        ],
+        "ends_at_description": [],
+        "image": "bg_newsfeed_pimlico_announcement"
+      }
+    ],
+    "target_ids": [
+      "newsfeed_pimlico_launch"
+    ]
+  },
+  {
+    "id": "newsfeed_pimlico_launch_gift",
+    "starts_at": "2026-01-21T15:30:00",
+    "ends_at": "2026-02-09T15:29:59",
+    "priority": 90,
+    "pages": [
+      {
+        "header": "localised_strings.newsfeed_title_available_now",
+        "title": "localised_strings.newsfeed_pimlico_gift_title",
+        "message": "localised_strings.newsfeed_pimlico_gift_desc",
+        "deeplink_data": {
+          "deeplink_type": "store",
+          "store_group": "bundle_costumeset_ss1_slamdunk_03"
+        },
+        "ends_at": "localised_strings.newsfeed_date",
+        "ends_at_description": [
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.newsfeed_ninth"
+          },
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.month_february"
+          }
+        ],
+        "starts_at_description": [],
+        "image": "bg_newsfeed_pimlico_freecostume"
+      }
+    ],
+    "target_ids": [
+      "after_prime_global_launch"
+    ]
+  },
+  {
     "id": "newsfeed_plover_evergreen",
     "starts_at": "2025-11-01T10:00:00",
     "ends_at": "2025-11-08T10:00:00",
