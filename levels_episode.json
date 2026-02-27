@@ -755,6 +755,15 @@
     "mode": "knockout"
   },
   {
+    "id": "episode_event_only_roll_out_ranked",
+    "director": "levels_director.director_event_only_roll_out",
+    "roundpool": "levels_roundpool.roundpool_event_only_roll_out_custom_ranked",
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.round_tunnel_event_only_roll_out_final_ranked",
+    "bucket_override_roundpools": [],
+    "mode": "knockout"
+  },
+  {
     "id": "episode_event_only_season_4",
     "director": "levels_director.director_event_only_season_4",
     "roundpool": "levels_roundpool.roundpool_event_only_season_4_no_thin_ice",
@@ -1418,9 +1427,18 @@
   {
     "id": "episode_ranked_mode",
     "director": "levels_director.director_ranked",
-    "roundpool": "levels_roundpool.ranked_show_cycle_6_roundpool",
+    "roundpool": "levels_roundpool.ranked_show_cycle_7_roundpool",
     "debug_player_count_multiplier": 3,
     "fallback_round": "levels_round.ranked_hexagone_final",
+    "bucket_override_roundpools": [],
+    "mode": "knockout"
+  },
+  {
+    "id": "episode_reversed_knockout",
+    "director": "levels_director.director_unranked_knockout",
+    "roundpool": "levels_roundpool.reversed_knockout_roundpool",
+    "debug_player_count_multiplier": 3,
+    "fallback_round": "levels_round.reversed_knockout_door_dash",
     "bucket_override_roundpools": [],
     "mode": "knockout"
   },

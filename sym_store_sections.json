@@ -738,6 +738,50 @@
     "storefront": "storefront_famepass_23"
   },
   {
+    "id": "famepass_24",
+    "order_preference": 10,
+    "section_height": 2,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 3,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundleslot_famepass_24"
+      }
+    ],
+    "target_ids": [
+      "fp24_active_dates"
+    ],
+    "storefront": "storefront_famepass_24"
+  },
+  {
+    "id": "famepass_24_tier_skip_section",
+    "order_preference": 250,
+    "section_height": 2,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "fp24_tier_skip_bundle"
+      },
+      {
+        "layout": {
+          "tile_width": 2,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_s10_9_bigclothes_03"
+      }
+    ],
+    "target_ids": [
+      "target_fp24_pass_owned_dates"
+    ],
+    "name": "sym_storesection_title_tierskip",
+    "storefront": "storefront_famepass_24"
+  },
+  {
     "id": "famepass_4_tier_skip_section",
     "order_preference": 250,
     "section_height": 1,
@@ -3376,6 +3420,39 @@
     ],
     "target_ids": [
       "fp22_kudos_ongoing_master"
+    ],
+    "name": "sym_storesection_title_kudos_mastery",
+    "storefront": "storefront_featured"
+  },
+  {
+    "id": "section_fp24_kudos_master",
+    "order_preference": 997,
+    "section_height": 2,
+    "bundle_slots": [
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_s10_9_fossiltriceratops_02"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_s11_3_beanstalk_02"
+      },
+      {
+        "layout": {
+          "tile_width": 1,
+          "tile_height": 2
+        },
+        "bundle_slot": "bundle_s10_6_carrotcourier_02"
+      }
+    ],
+    "target_ids": [
+      "fp24_kudos_ongoing_master"
     ],
     "name": "sym_storesection_title_kudos_mastery",
     "storefront": "storefront_featured"

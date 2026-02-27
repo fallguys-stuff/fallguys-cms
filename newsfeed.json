@@ -1,5 +1,37 @@
 [
   {
+    "id": "evg_april_fools_event",
+    "starts_at": "2026-04-01T12:00:00",
+    "ends_at": "2026-05-01T11:59:59",
+    "priority": 90,
+    "pages": [
+      {
+        "header": "localised_strings.newsfeed_title_available_now",
+        "title": "localised_strings.le_evg_april_fools_title",
+        "message": "localised_strings.le_nf_evg_april_fools_desc",
+        "ends_at": "localised_strings.newsfeed_date",
+        "deeplink_data": {
+          "deeplink_type": "live_event"
+        },
+        "ends_at_description": [
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.newsfeed_thirtieth"
+          },
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.month_april"
+          }
+        ],
+        "starts_at_description": [],
+        "image": "bg_newsfeed_aprilfools_eg"
+      }
+    ],
+    "target_ids": [
+      "after_prime_global_launch"
+    ]
+  },
+  {
     "id": "evg_valentines_event",
     "starts_at": "2026-02-01T12:00:00",
     "ends_at": "2026-03-01T11:59:59",
@@ -2258,6 +2290,105 @@
     "target_ids": [
       "after_prime_global_launch"
     ]
+  },
+  {
+    "id": "fp24_last_chance_newsfeed",
+    "starts_at": "2026-04-17T12:00:00",
+    "ends_at": "2026-05-01T11:59:59",
+    "pages": [
+      {
+        "title": "localised_strings.fp_title_24",
+        "message": "localised_strings.newsfeed_famepass_24_lastchance_desc",
+        "deeplink_data": {
+          "deeplink_type": "season_pass",
+          "season_pass_page": "upsell"
+        },
+        "ends_at": "localised_strings.newsfeed_date",
+        "header": "localised_strings.newsfeed_title_last_chance",
+        "ends_at_description": [
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.newsfeed_thirtieth"
+          },
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.month_april"
+          }
+        ],
+        "starts_at_description": [],
+        "image": "bg_newsfeed_fg_fp24_keyart"
+      }
+    ],
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "priority": 90
+  },
+  {
+    "id": "fp24_live_newsfeed",
+    "starts_at": "2026-03-01T12:00:00",
+    "ends_at": "2026-03-15T11:59:59",
+    "pages": [
+      {
+        "title": "localised_strings.fp_title_24",
+        "message": "localised_strings.newsfeed_famepass_24_available_desc",
+        "deeplink_data": {
+          "deeplink_type": "season_pass",
+          "season_pass_page": "upsell"
+        },
+        "ends_at": "localised_strings.newsfeed_date",
+        "header": "localised_strings.newsfeed_header_new_famepass",
+        "ends_at_description": [
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.newsfeed_thirtieth"
+          },
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.month_april"
+          }
+        ],
+        "starts_at_description": [],
+        "image": "bg_newsfeed_fg_fp24_keyart"
+      }
+    ],
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "priority": 98
+  },
+  {
+    "id": "fp24_sweetthieves",
+    "starts_at": "2026-03-03T12:00:00",
+    "ends_at": "2026-03-17T11:59:59",
+    "pages": [
+      {
+        "header": "localised_strings.newsfeed_title_available_now",
+        "title": "localised_strings.level_name_invisibeans",
+        "message": "localised_strings.newsfeed_sweetthieves_desc",
+        "deeplink_data": {
+          "deeplink_type": "show_selector_main",
+          "show_selector_id": "invisibeans_template"
+        },
+        "ends_at": "localised_strings.newsfeed_date",
+        "ends_at_description": [
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.newsfeed_sixteenth"
+          },
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.month_march"
+          }
+        ],
+        "starts_at_description": [],
+        "image": "bg_newsfeed_sweetthieves"
+      }
+    ],
+    "target_ids": [
+      "after_prime_global_launch"
+    ],
+    "priority": 99
   },
   {
     "id": "fp25_crownshard_scramble",
@@ -6421,6 +6552,52 @@
     ]
   },
   {
+    "id": "ranked_cycle_7_endingsoon",
+    "starts_at": "2026-04-17T12:00:00",
+    "ends_at": "2026-05-01T11:59:59",
+    "priority": 85,
+    "pages": [
+      {
+        "header": "localised_strings.newsfeed_title_last_chance",
+        "title": "localised_strings.ranked_show_knockout",
+        "message": "localised_strings.newsfeed_ranked_lastchance_desc",
+        "deeplink_data": {
+          "deeplink_type": "show_selector_main",
+          "show_selector_id": "ranked_show_knockout"
+        },
+        "starts_at_description": [],
+        "ends_at_description": [],
+        "image": "bg_newsfeed_rankedko_newsfeed"
+      }
+    ],
+    "target_ids": [
+      "after_prime_global_launch"
+    ]
+  },
+  {
+    "id": "ranked_cycle_7_live",
+    "starts_at": "2026-03-01T12:00:00",
+    "ends_at": "2026-03-15T11:59:59",
+    "priority": 85,
+    "pages": [
+      {
+        "header": "localised_strings.newsfeed_title_available_now",
+        "title": "localised_strings.ranked_knockout_cycle_7",
+        "message": "localised_strings.newsfeed_ranked_launch_desc",
+        "deeplink_data": {
+          "deeplink_type": "show_selector_main",
+          "show_selector_id": "ranked_show_knockout"
+        },
+        "starts_at_description": [],
+        "ends_at_description": [],
+        "image": "bg_newsfeed_rankedko_newsfeed"
+      }
+    ],
+    "target_ids": [
+      "after_prime_global_launch"
+    ]
+  },
+  {
     "id": "ranked_cycle_endingsoon",
     "starts_at": "2025-07-15T12:00:00",
     "ends_at": "2025-07-22T10:59:59",
@@ -6437,6 +6614,39 @@
         "starts_at_description": [],
         "ends_at_description": [],
         "image": "bg_newsfeed_rankedko_newsfeed"
+      }
+    ],
+    "target_ids": [
+      "after_prime_global_launch"
+    ]
+  },
+  {
+    "id": "rollcall_ranked_live",
+    "starts_at": "2026-03-01T12:00:00",
+    "ends_at": "2026-04-01T11:59:59",
+    "priority": 80,
+    "pages": [
+      {
+        "header": "localised_strings.newsfeed_title_available_now",
+        "title": "localised_strings.newsfeed_mrc_rollcall_title",
+        "message": "localised_strings.newsfeed_mrc_desc",
+        "deeplink_data": {
+          "deeplink_type": "show_selector_main",
+          "show_selector_id": "event_only_roll_out_ranked"
+        },
+        "ends_at": "localised_strings.newsfeed_date",
+        "ends_at_description": [
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.newsfeed_thirtyfirst"
+          },
+          {
+            "type": "localised",
+            "localised_value": "localised_strings.month_march"
+          }
+        ],
+        "starts_at_description": [],
+        "image": "bg_newsfeed_mastery_ranked_mrc"
       }
     ],
     "target_ids": [

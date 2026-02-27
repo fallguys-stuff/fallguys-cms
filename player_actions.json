@@ -236,6 +236,38 @@
     }
   },
   {
+    "id": "carry_sweets_hider",
+    "config": {
+      "metric_id": "player_carried",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "team_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "hider"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "invisibeans_template"
+        },
+        {
+          "dimension_id": "carry_type",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "sweet"
+        }
+      ]
+    }
+  },
+  {
     "id": "carry_sweets_hider_pistachio",
     "config": {
       "metric_id": "player_carried",
@@ -1848,6 +1880,32 @@
     }
   },
   {
+    "id": "grab_thief_as_seeker",
+    "config": {
+      "metric_id": "player_grabbed_other_team",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "team_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "seeker"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "invisibeans_template"
+        }
+      ]
+    }
+  },
+  {
     "id": "grab_thief_as_seeker_invisibeans",
     "config": {
       "metric_id": "player_grabbed_other_team",
@@ -2393,6 +2451,26 @@
     }
   },
   {
+    "id": "piggyback_tuokconk",
+    "config": {
+      "metric_id": "player_piggyback",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "reversed_knockout_show"
+        }
+      ]
+    }
+  },
+  {
     "id": "play_321_space",
     "config": {
       "metric_id": "round_reached",
@@ -2659,9 +2737,35 @@
     "id": "play_as_hider",
     "config": {
       "metric_id": "round_reached",
-      "dimensions": [],
-      "show_id": "invisibeans_0707_to_1107_2022",
-      "team_id": "hider"
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "team_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "hider"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "invisibeans_template"
+        },
+        {
+          "dimension_id": "end_of_round_player_state",
+          "operator": "contains_any",
+          "string_array_value": [
+            "qualified",
+            "disqualified"
+          ],
+          "dimension_type": "array_dimension"
+        }
+      ]
     }
   },
   {
@@ -2712,9 +2816,35 @@
     "id": "play_as_seeker",
     "config": {
       "metric_id": "round_reached",
-      "dimensions": [],
-      "show_id": "invisibeans_0707_to_1107_2022",
-      "team_id": "seeker"
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "team_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "seeker"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "invisibeans_template"
+        },
+        {
+          "dimension_id": "end_of_round_player_state",
+          "operator": "contains_any",
+          "string_array_value": [
+            "qualified",
+            "disqualified"
+          ],
+          "dimension_type": "array_dimension"
+        }
+      ]
     }
   },
   {
@@ -3074,6 +3204,32 @@
           "operator": "equal",
           "boolean_value": "true",
           "dimension_type": "boolean_dimension"
+        }
+      ]
+    }
+  },
+  {
+    "id": "play_final_levels_in_tuokconk",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "reversed_knockout_show"
+        },
+        {
+          "dimension_id": "level_archetype",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "archetype_final"
         }
       ]
     }
@@ -3585,6 +3741,31 @@
           "operator": "equal",
           "dimension_type": "string_dimension",
           "string_value": "wle_nature_ltm"
+        },
+        {
+          "dimension_id": "round_index",
+          "operator": "equal",
+          "dimension_type": "integer_dimension"
+        }
+      ]
+    }
+  },
+  {
+    "id": "play_opener_levels_in_tuokconk",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "reversed_knockout_show"
         },
         {
           "dimension_id": "round_index",
@@ -9875,6 +10056,38 @@
     }
   },
   {
+    "id": "qualify_r2_or_higher_knockout",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "round_index",
+          "operator": "more_or_equal",
+          "integer_value": 1,
+          "dimension_type": "integer_dimension"
+        },
+        {
+          "dimension_id": "round_qualified",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "knockout_mode"
+        }
+      ]
+    }
+  },
+  {
     "id": "qualify_r2_ranked",
     "config": {
       "metric_id": "round_reached",
@@ -9966,6 +10179,38 @@
           "operator": "equal",
           "dimension_type": "string_dimension",
           "string_value": "classic_squads_show"
+        }
+      ]
+    }
+  },
+  {
+    "id": "qualify_r2_tuokconk",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "round_index",
+          "operator": "more_or_equal",
+          "integer_value": 1,
+          "dimension_type": "integer_dimension"
+        },
+        {
+          "dimension_id": "round_qualified",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "reversed_knockout_show"
         }
       ]
     }
@@ -13728,6 +13973,26 @@
     }
   },
   {
+    "id": "use_phrases_tuokconk",
+    "config": {
+      "metric_id": "player_used_phrases",
+      "dimensions": [
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "reversed_knockout_show"
+        }
+      ]
+    }
+  },
+  {
     "id": "use_rubber_chicken_fp18_showcase",
     "config": {
       "metric_id": "player_used_powerup",
@@ -14726,6 +14991,38 @@
           "operator": "equal",
           "dimension_type": "string_dimension",
           "string_value": "event_only_hoverboard_template"
+        },
+        {
+          "dimension_id": "is_final_round",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        },
+        {
+          "dimension_id": "round_qualified",
+          "operator": "equal",
+          "boolean_value": "true",
+          "dimension_type": "boolean_dimension"
+        }
+      ]
+    }
+  },
+  {
+    "id": "win_invisibeans",
+    "config": {
+      "metric_id": "round_reached",
+      "dimensions": [
+        {
+          "dimension_id": "show_id",
+          "operator": "equal",
+          "dimension_type": "string_dimension",
+          "string_value": "invisibeans_template"
+        },
+        {
+          "dimension_id": "is_private_lobby",
+          "operator": "equal",
+          "boolean_value": "false",
+          "dimension_type": "boolean_dimension"
         },
         {
           "dimension_id": "is_final_round",
